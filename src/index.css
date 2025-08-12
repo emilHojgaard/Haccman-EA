@@ -1,0 +1,578 @@
+/* Define the custom font */
+@font-face {
+  font-family: 'ARCADE_I';
+  src: url('/ARCADE_I.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#customFont {
+  font-family: 'ARCADE_I', sans-serif;
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.win {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.initial_header {
+  font-size: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Aldrich";
+}
+
+.initial_forms_container {
+  padding-top: 30px;
+  gap: 10px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Aldrich";
+}
+
+.checkbox_gender {
+  padding-top: 10px;
+  gap: 10px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Character box styles */
+
+.character-box-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: #F5EB1D;
+}
+
+.character-box-image {
+  /*background: #8f4242;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 90px;
+  height: 90px;
+}
+
+.character-box {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background: #ffffff;
+  /*#ffc4ff;*/
+  color: #000000;
+  font-size: 12px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30vw;
+  height: 34vh;
+
+}
+
+.character-box.selected {
+  border: 10px solid #A9345C;
+}
+
+
+.scrollable-box {
+  overflow: hidden;
+  height: 20vh;
+  margin-left: 2vh;
+  width: 70%;
+  padding: 1vw;
+  font-size: 17px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button design */
+.character-box-button {
+  background: white;
+  border: 2px solid #000000;
+  color: #000000;
+  height: 50px;
+  width: 100px;
+
+}
+
+button {
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #959494;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  font-weight: 1000;
+  background: #eee4e4;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+
+
+
+
+
+/* Choose screen background */
+.background {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 10;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: 5px solid #000000;
+  background: #000000;
+  /*#98ffff;*/
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: scroll;
+}
+
+/* Prompt screen */
+/* Box in the middle */
+.box-responses {
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  right: 800px;
+  background: #ffffff;
+  height: 60vh;
+  width: 100%;
+  font-size: 16px;
+  text-align: justify;
+}
+
+
+/*User and ai dialogue*/
+.vaporwave-miami-box-user {
+  display: flex;
+  color: #000000;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 90%;
+  font-size: 12px;
+}
+
+.vaporwave-miami-box-ai {
+  color: #000000;
+  padding: 5px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  margin-right: 350px;
+  width: 90%;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+/*screens that pop up on the screen*/
+
+
+.beaten {
+  display: flex;
+  flex-direction: column;
+  width: 150vh;
+  padding-top: 10vh;
+  z-index: 3;
+  font-size: 20px;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.beaten-back {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 678px;
+  top: 220px;
+  z-index: 2;
+  font-size: 20px;
+  font-family: "Press Start 2P", system-ui;
+  background: #272727;
+  /*#98ffff;*/
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: scroll;
+  opacity: 0.95;
+}
+
+/*User input */
+.vaporwave-input {
+  border: 2px solid #ffffff;
+  color: #000000;
+  padding: 10px;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 16px;
+  width: 20vw;
+  height: 3vh;
+}
+
+.the-vaporwave-input {
+  border: 2px solid #ffffff;
+  color: #000000;
+  padding: 10px;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 16px;
+  width: 70%;
+  height: 20px;
+}
+
+.system-messages {
+  border: 2px solid #ff6bff;
+  color: #000000;
+  padding: 10px;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 700px;
+  height: 100px;
+}
+
+.math-machine {
+  border: 2px solid #ff6bff;
+  color: #000000;
+  padding: 10px;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vaporwave-input2 {
+  border: 2px solid #ffffff;
+  color: #000000;
+  padding: 10px;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 16px;
+  width: 2vw;
+  height: 3vh;
+}
+
+
+.vaporwave-input:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+/* Placeholder Styling */
+.vaporwave-input::placeholder {
+  color: #9c9999;
+  opacity: 0.7;
+}
+
+
+
+
+.vaporwave-filter-button {
+  background: linear-gradient(90deg, #7add39, #ab6bff, #a74a4a);
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.vaporwave-filter-button2 {
+  background: linear-gradient(90deg, #868686, #d4d4d4, #525252);
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 230px;
+}
+
+.vaporwave-surround {
+  background: linear-gradient(90deg, #8000ff, #ab6bff, #ff0505);
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 5px
+}
+
+
+.vaporwave-button-erase {
+  background: #000000;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "ARCADE_I";
+}
+
+
+.vaporwave-button2 {
+  border: none;
+  color: #000000;
+  background: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.the-vaporwave-button2 {
+  border: none;
+  color: #000000;
+  background: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.vaporwave-button:hover {
+  background: linear-gradient(90deg, #ff6bff, #7f00ff);
+  font-family: "ARCADE_I";
+}
+
+
+.vaporwave-checkbox {
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.vaporwave-checkbox input {
+  position: absolute;
+  opacity: 0;
+}
+
+.vaporwave-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #7f00ff;
+  border-radius: 5px;
+}
+
+.vaporwave-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.vaporwave-checkbox input:checked~.checkmark:after {
+  display: block;
+}
+
+.vaporwave-checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #ff6bff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/* Vaporwave Checkbox Label */
+.vaporwave-checkbox-label {
+  padding-left: 35px;
+  line-height: 25px;
+}
+
+/* Hover Effect */
+.vaporwave-checkbox:hover .checkmark {
+  background-color: #ff6bff;
+}
+
+/* Checked Effect */
+.vaporwave-checkbox input:checked~.checkmark {
+  background-color: #ff6bff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexbox_left {
+  display: flex;
+  flex-direction: column
+}
+
+
+
+
+
+.output-box {
+  display: flex;
+  flex-direction: column;
+  top: 60px;
+  right: 800px;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  height: 100px;
+  width: 400px;
+  border-bottom: 2px solid #ff6bff;
+  border-left: 2px solid #ff6bff;
+  border-right: 2px solid #ff6bff;
+  border-radius: 5px;
+  overflow-y: scroll;
+  text-align: justify;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.addon-box {
+  display: flex;
+  flex-direction: column;
+  top: 1200px;
+  right: 800px;
+  background-color: #979696;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border-bottom: 2px solid #ff6bff;
+  border-left: 2px solid #ff6bff;
+  border-right: 2px solid #ff6bff;
+  border-radius: 5px;
+  overflow-y: scroll;
+  text-align: justify;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 3;
+}
+
+
+
+
+
+
+
+
+/* .box-responses:hover {
+  transform: scale(1.05);
+
+} */
+
+
+
+
+
+
+
+
+
+.press-start-font {
+  font-family: "Aldrich", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.press-start-font2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Aldrich", system-ui;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+
+.press-start-font3 {
+  font-family: "Aldrich", system-ui;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  padding-bottom: 10px;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
