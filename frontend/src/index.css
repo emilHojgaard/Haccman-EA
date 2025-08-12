@@ -1,13 +1,21 @@
 /* Define the custom font */
 @font-face {
-  font-family: 'ARCADE_I';
-  src: url('/ARCADE_I.woff') format('woff');
+  font-family: "ARCADE_I";
+  src: url("/ARCADE_I.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 #customFont {
-  font-family: 'ARCADE_I', sans-serif;
+  font-family: "ARCADE_I", sans-serif;
+}
+
+.datapage-button {
+  background: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  height: 50px;
+  width: 100px;
 }
 
 .logo {
@@ -69,7 +77,7 @@
   padding-bottom: 10px;
   font-size: 20px;
   text-align: center;
-  background: #F5EB1D;
+  background: #f5eb1d;
 }
 
 .character-box-image {
@@ -95,13 +103,11 @@
   justify-content: space-around;
   width: 30vw;
   height: 34vh;
-
 }
 
 .character-box.selected {
-  border: 10px solid #A9345C;
+  border: 10px solid #a9345c;
 }
-
 
 .scrollable-box {
   overflow: hidden;
@@ -124,7 +130,6 @@
   color: #000000;
   height: 50px;
   width: 100px;
-
 }
 
 button {
@@ -146,12 +151,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
-
-
-
-
-
 
 /* Choose screen background */
 .background {
@@ -188,7 +187,6 @@ button:focus-visible {
   text-align: justify;
 }
 
-
 /*User and ai dialogue*/
 .vaporwave-miami-box-user {
   display: flex;
@@ -211,7 +209,6 @@ button:focus-visible {
 }
 
 /*screens that pop up on the screen*/
-
 
 .beaten {
   display: flex;
@@ -270,7 +267,7 @@ button:focus-visible {
   border: 2px solid #ff6bff;
   color: #000000;
   padding: 10px;
-  font-family: 'Aldrich', sans-serif;
+  font-family: "Aldrich", sans-serif;
   font-size: 16px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -282,7 +279,7 @@ button:focus-visible {
   border: 2px solid #ff6bff;
   color: #000000;
   padding: 10px;
-  font-family: 'Aldrich', sans-serif;
+  font-family: "Aldrich", sans-serif;
   font-size: 16px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -303,7 +300,6 @@ button:focus-visible {
   height: 3vh;
 }
 
-
 .vaporwave-input:focus {
   outline: none;
   border-color: #000000;
@@ -314,9 +310,6 @@ button:focus-visible {
   color: #9c9999;
   opacity: 0.7;
 }
-
-
-
 
 .vaporwave-filter-button {
   background: linear-gradient(90deg, #7add39, #ab6bff, #a74a4a);
@@ -344,9 +337,8 @@ button:focus-visible {
   font-size: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
-  padding: 5px
+  padding: 5px;
 }
-
 
 .vaporwave-button-erase {
   background: #000000;
@@ -358,7 +350,6 @@ button:focus-visible {
   transition: all 0.3s ease;
   font-family: "ARCADE_I";
 }
-
 
 .vaporwave-button2 {
   border: none;
@@ -385,7 +376,6 @@ button:focus-visible {
   background: linear-gradient(90deg, #ff6bff, #7f00ff);
   font-family: "ARCADE_I";
 }
-
 
 .vaporwave-checkbox {
   position: relative;
@@ -416,7 +406,7 @@ button:focus-visible {
   display: none;
 }
 
-.vaporwave-checkbox input:checked~.checkmark:after {
+.vaporwave-checkbox input:checked ~ .checkmark:after {
   display: block;
 }
 
@@ -442,31 +432,14 @@ button:focus-visible {
 }
 
 /* Checked Effect */
-.vaporwave-checkbox input:checked~.checkmark {
+.vaporwave-checkbox input:checked ~ .checkmark {
   background-color: #ff6bff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .flexbox_left {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
-
-
-
-
 
 .output-box {
   display: flex;
@@ -507,25 +480,10 @@ button:focus-visible {
   z-index: 3;
 }
 
-
-
-
-
-
-
-
 /* .box-responses:hover {
   transform: scale(1.05);
 
 } */
-
-
-
-
-
-
-
-
 
 .press-start-font {
   font-family: "Aldrich", system-ui;
@@ -560,7 +518,6 @@ button:focus-visible {
   flex-direction: column;
   gap: 10px;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {
