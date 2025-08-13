@@ -1,13 +1,13 @@
-import Prompt from "./Prompt";
+import Prompt from "./pages/Prompt";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SoundEffectProvider } from "./SoundEffectContext";
-import Initial from "./Initial";
-import Choose from "./Choose";
+import Initial from "./pages/Initial";
+import Choose from "./pages/Choose";
 import { useEffect, useState } from "react";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import MusicPlayer from "./MusicPlayer";
-import DataPage from "./DataPage";
+import DataPage from "./pages/DataPage";
 
 function App() {
   const [selectedChallenge, setSelectedChallenge] = useState(0);

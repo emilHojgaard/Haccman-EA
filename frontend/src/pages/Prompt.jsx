@@ -1,13 +1,13 @@
 import { useEffect, useState, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import AssetInfo from "./AssetInfo";
-import { useSoundEffect } from "./SoundEffectContext";
-import opponent2 from "./assets/avatar2.png";
-import opponent3 from "./assets/avatar3.png";
-import opponent6 from "./assets/avatar6.png";
-import opponent41 from "./assets/avatar41.png";
-import opponent42 from "./assets/avatar42.png";
-import opponent43 from "./assets/avatar43.png";
+import AssetInfo from "../AssetInfo";
+import { useSoundEffect } from "../SoundEffectContext";
+import opponent2 from "../assets/avatar2.png";
+import opponent3 from "../assets/avatar3.png";
+import opponent6 from "../assets/avatar6.png";
+import opponent41 from "../assets/avatar41.png";
+import opponent42 from "../assets/avatar42.png";
+import opponent43 from "../assets/avatar43.png";
 
 function Prompt(props) {
   // Initialize state for the input value
