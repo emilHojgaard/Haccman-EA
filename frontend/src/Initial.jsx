@@ -138,9 +138,9 @@ function Initial(props) {
 
   return (
     <div className="background">
-      <button className="datapage-button">
-        <a href="/data">Data</a>
-      </button>
+      <Link to="/data">
+        <button className="datapage-button">Data</button>
+      </Link>
 
       <img src="/Sticker graphic 1.png" alt="Custom Image" class="logo"></img>
       <div
