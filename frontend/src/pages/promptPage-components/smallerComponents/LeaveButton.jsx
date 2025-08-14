@@ -4,7 +4,7 @@ export default function LeaveButton({ playSoundEffect }) {
   return (
     <div
       style={{
-        display: "flex",
+        display: "inline-block",
         border: "2px solid #ffffff",
         padding: "5px",
       }}

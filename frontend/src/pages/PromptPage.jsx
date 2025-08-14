@@ -4,6 +4,10 @@ import AssetInfo from "../AssetInfo";
 import { useSoundEffect } from "../SoundEffectContext";
 import BaseUI from "./promptPage-components/BaseUI";
 import WinScreen from "./promptPage-components/WinScreen";
+import GuardrailInfo from "./promptPage-components/smallerComponents/GuardrailInfo";
+import LLMInfo from "./promptPage-components/smallerComponents/LLMInfo";
+import UserPromptInfo from "./promptPage-components/smallerComponents/UserPromptInfo";
+import SystemInfo from "./promptPage-components/smallerComponents/SystemInfo";
 
 function Prompt(props) {
   // Initialize state for the input value
@@ -319,163 +323,45 @@ function Prompt(props) {
       )}
 
       {specificOn && guardarailInfo && (
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "left",
-            justifyContent: "center",
-          }}
-        >
-          <div className="beaten">
-            <AssetInfo
-              setSpecificOn={setSpecificOn}
-              setUserpromptInfo={setUserpromptInfo}
-              setGuardarailInfo={setGuardarailInfo}
-              setLLMInfo={setLLMInfo}
-              mainText={"guardrail"}
-            ></AssetInfo>
-          </div>
-          <div className="beaten-back"></div>
-        </div>
+        <GuardrailInfo
+          setSpecificOn={setSpecificOn}
+          setUserpromptInfo={setUserpromptInfo}
+          setGuardarailInfo={setGuardarailInfo}
+          setLLMInfo={setLLMInfo}
+          setSystemInfo={setSystemInfo}
+        />
       )}
 
       {specificOn && llmInfo && (
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <div className="beaten">
-            <AssetInfo
-              setSpecificOn={setSpecificOn}
-              setUserpromptInfo={setUserpromptInfo}
-              setGuardarailInfo={setGuardarailInfo}
-              setLLMInfo={setLLMInfo}
-              mainText={"llm"}
-            ></AssetInfo>
-          </div>
-          <div className="beaten-back"></div>
-        </div>
+        <LLMInfo
+          setSpecificOn={setSpecificOn}
+          setUserpromptInfo={setUserpromptInfo}
+          setGuardarailInfo={setGuardarailInfo}
+          setLLMInfo={setLLMInfo}
+          setSystemInfo={setSystemInfo}
+        />
       )}
 
       {specificOn && userpromptInfo && (
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <div className="beaten">
-            <AssetInfo
-              setSpecificOn={setSpecificOn}
-              setUserpromptInfo={setUserpromptInfo}
-              setGuardarailInfo={setGuardarailInfo}
-              setLLMInfo={setLLMInfo}
-              mainText={"userprompt"}
-            ></AssetInfo>
-          </div>
-          <div className="beaten-back"></div>
-        </div>
+        <UserPromptInfo
+          setSpecificOn={setSpecificOn}
+          setUserpromptInfo={setUserpromptInfo}
+          setGuardarailInfo={setGuardarailInfo}
+          setLLMInfo={setLLMInfo}
+          setSystemInfo={setSystemInfo}
+        />
       )}
 
       {specificOn && systemInfo && (
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <div className="beaten">
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                flexDirection: "column",
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "end",
-                  border: "2px solid #000000",
-                  background: "#ffffff",
-                }}
-              >
-                <button
-                  onClick={() => {
-                    setSpecificOn(false);
-                    setGuardarailInfo(false);
-                    setLLMInfo(false);
-                    setUserpromptInfo(false);
-                    setSystemInfo(false);
-                  }}
-                >
-                  {" "}
-                  x x x
-                </button>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  border: "2px solid #000000",
-                  background: "#ffffff",
-                }}
-              >
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    background: "#ffffff",
-                    gap: "6vh",
-                    overflowY: "scroll",
-                    padding: "10px",
-                  }}
-                >
-                  <div style={{ paddingLeft: "10px" }}>
-                    {list_of_challenges[currentChallenge].is}
-                  </div>
-
-                  <div> {"> This LLM has the following system message: "}</div>
-                  <div>
-                    {" "}
-                    {'"' + list_of_challenges[currentChallenge].system + '"'}
-                  </div>
-                  <div>
-                    {" "}
-                    {list_of_challenges[currentChallenge].difficulty === "easy"
-                      ? "> There are NO active guardrails"
-                      : list_of_challenges[currentChallenge].difficulty ===
-                        "medium"
-                      ? "> There is ONE active guardrail"
-                      : "> There are TWO active guardrails"}
-                  </div>
-                </div>
-              </div>
-              <button
-                onClick={() => {
-                  setSpecificOn(false);
-                  setGuardarailInfo(false);
-                  setLLMInfo(false);
-                  setUserpromptInfo(false);
-                  setSystemInfo(false);
-                }}
-              >
-                {" "}
-                OK{" "}
-              </button>
-            </div>
-          </div>
-          <div className="beaten-back"></div>
-        </div>
+        <SystemInfo
+          list_of_challenges={list_of_challenges}
+          currentChallenge={currentChallenge}
+          setSpecificOn={setSpecificOn}
+          setUserpromptInfo={setUserpromptInfo}
+          setGuardarailInfo={setGuardarailInfo}
+          setLLMInfo={setLLMInfo}
+          setSystemInfo={setSystemInfo}
+        />
       )}
 
       <BaseUI
@@ -489,6 +375,11 @@ function Prompt(props) {
         storeMessage={storeMessage}
         playSoundEffect={playSoundEffect}
         currentModel={currentModel}
+        setSpecificOn={setSpecificOn}
+        setGuardarailInfo={setGuardarailInfo}
+        setLLMInfo={setLLMInfo}
+        setUserpromptInfo={setUserpromptInfo}
+        setSystemInfo={setSystemInfo}
         props={props}
       />
     </>

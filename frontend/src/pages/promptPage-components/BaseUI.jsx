@@ -3,6 +3,7 @@ import ShowOpponent from "./smallerComponents/ShowOpponent";
 import MemoryActivation from "./smallerComponents/MemoryActivation";
 import LeaveButton from "./smallerComponents/LeaveButton";
 import FullPromptChat from "./smallerComponents/FullPromptChat";
+import InfoPannel from "./smallerComponents/InfoPannel";
 
 export default function BaseUI({
   list_of_challenges,
@@ -16,6 +17,11 @@ export default function BaseUI({
   playSoundEffect,
   currentModel,
   setUsingMemory,
+  setGuardarailInfo,
+  setSpecificOn,
+  setLLMInfo,
+  setUserpromptInfo,
+  setSystemInfo,
   props,
 }) {
   return (
@@ -76,7 +82,19 @@ export default function BaseUI({
               usingMemory={usingMemory}
               setUsingMemory={setUsingMemory}
             />
-            <LeaveButton playSoundEffect={playSoundEffect} />
+            <div style={{ display: "flex", flexDirection: "row", gap: "2vh" }}>
+              <InfoPannel
+                setGuardarailInfo={setGuardarailInfo}
+                setSpecificOn={setSpecificOn}
+                setLLMInfo={setLLMInfo}
+                setUserpromptInfo={setUserpromptInfo}
+                setSystemInfo={setSystemInfo}
+              />
+
+              <div style={{ display: "flex", alignItems: "flex-end" }}>
+                <LeaveButton playSoundEffect={playSoundEffect} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
