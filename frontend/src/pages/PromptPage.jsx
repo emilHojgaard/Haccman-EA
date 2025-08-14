@@ -6,6 +6,7 @@ import { useSoundEffect } from "../SoundEffectContext";
 import PromptWindow from "./promptPage-components/PromptWindow";
 import PromptInputBox from "./promptPage-components/PromptInputBox";
 import ShowOpponent from "./promptPage-components/ShowOpponent";
+import MemoryActivation from "./promptPage-components/smallerComponents/MemoryActivation";
 
 function Prompt(props) {
   // Initialize state for the input value
@@ -635,7 +636,6 @@ function Prompt(props) {
                   usingMemory={usingMemory}
                 />
               </div>
-              {/* Refactored */}
             </div>
 
             <div
@@ -653,41 +653,10 @@ function Prompt(props) {
                 list_of_challenges={list_of_challenges}
                 currentChallenge={currentChallenge}
               />
-
-              <div
-                style={{ display: "flex", flexDirection: "column", gap: "2vh" }}
-              >
-                <div
-                  style={{
-                    display: "flex",
-                    border: "2px solidrgb(0, 0, 0)",
-                    padding: "5px",
-                  }}
-                >
-                  <button
-                    id="sendButton"
-                    className="the-vaporwave-button2"
-                    onClick={() => setUsingMemory(!usingMemory)}
-                  >
-                    {usingMemory && "Memory is activated"}
-                    {!usingMemory && "Memory is DESACTIVATED"}
-                  </button>
-                </div>
-
-                <div
-                  style={{
-                    display: "flex",
-                    border: "2px solidrgb(0, 0, 0)",
-                    padding: "5px",
-                    color: "white",
-                  }}
-                >
-                  {usingMemory &&
-                    "The models will remember previous messages inside each conversation."}
-                  {!usingMemory &&
-                    "The models will NOT remember previous messages inside each conversation."}
-                </div>
-              </div>
+              <MemoryActivation
+                usingMemory={usingMemory}
+                setUsingMemory={setUsingMemory}
+              />
 
               <div
                 style={{
