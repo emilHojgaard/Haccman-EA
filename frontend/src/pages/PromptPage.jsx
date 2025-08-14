@@ -2,13 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import AssetInfo from "../AssetInfo";
 import { useSoundEffect } from "../SoundEffectContext";
-
-import PageTitle from "./promptPage-components/smallerComponents/PageTitle";
-import PromptWindow from "./promptPage-components/PromptWindow";
-import PromptInputBox from "./promptPage-components/PromptInputBox";
-import ShowOpponent from "./promptPage-components/ShowOpponent";
-import MemoryActivation from "./promptPage-components/smallerComponents/MemoryActivation";
-import LeaveButton from "./promptPage-components/smallerComponents/LeaveButton";
+import BaseUI from "./promptPage-components/BaseUI";
 
 function Prompt(props) {
   // Initialize state for the input value
@@ -570,78 +564,19 @@ function Prompt(props) {
         </div>
       )}
 
-      <div style={{ zIndex: 1 }}>
-        <div className="background">
-          <div
-            style={{
-              marginTop: "40px",
-              marginLeft: "40px",
-              display: "flex",
-              flexDirection: "row",
-              gap: "50px",
-              justifyContent: "space-around",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "5vh",
-                width: "60%",
-              }}
-            >
-              <PageTitle
-                list_of_challenges={list_of_challenges}
-                currentChallenge={currentChallenge}
-              />
-
-              {/* Refactored */}
-              <div
-                id="boxresponseandprompt"
-                style={{ display: "flex", flexDirection: "column", gap: "6vh" }}
-              >
-                <PromptWindow previousPrompts={previousPrompts} date={date} />
-
-                <PromptInputBox
-                  onSend={usingMemory ? sendPrompt : oldSendPrompt}
-                  onStore={storeMessage}
-                  onClear={() => setPreviousPrompts([])}
-                  playSoundEffect={playSoundEffect}
-                  currentChallenge={currentChallenge}
-                  currentModel={currentModel}
-                  propsName={props.name}
-                  propsAge={props.age}
-                  usingMemory={usingMemory}
-                />
-              </div>
-            </div>
-
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                width: "30%",
-                alignItems: "center",
-                justifyContent: "space-between",
-                height: "99%",
-              }}
-            >
-              {/* Refactored */}
-              <ShowOpponent
-                list_of_challenges={list_of_challenges}
-                currentChallenge={currentChallenge}
-              />
-
-              <MemoryActivation
-                usingMemory={usingMemory}
-                setUsingMemory={setUsingMemory}
-              />
-
-              <LeaveButton playSoundEffect={playSoundEffect} />
-            </div>
-          </div>
-        </div>
-      </div>
+      <BaseUI
+        list_of_challenges={list_of_challenges}
+        currentChallenge={currentChallenge}
+        previousPrompts={previousPrompts}
+        date={date}
+        usingMemory={usingMemory}
+        sendPrompt={sendPrompt}
+        oldSendPrompt={oldSendPrompt}
+        storeMessage={storeMessage}
+        playSoundEffect={playSoundEffect}
+        currentModel={currentModel}
+        props={props}
+      />
     </>
   );
 }

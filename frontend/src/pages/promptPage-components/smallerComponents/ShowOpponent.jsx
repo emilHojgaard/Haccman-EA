@@ -1,9 +1,9 @@
-import opponent2 from "../../assets/avatar2.png";
-import opponent3 from "../../assets/avatar3.png";
-import opponent6 from "../../assets/avatar6.png";
-import opponent41 from "../../assets/avatar41.png";
-import opponent42 from "../../assets/avatar42.png";
-import opponent43 from "../../assets/avatar43.png";
+import opponent2 from "../../../assets/avatar2.png";
+import opponent3 from "../../../assets/avatar3.png";
+import opponent6 from "../../../assets/avatar6.png";
+import opponent41 from "../../../assets/avatar41.png";
+import opponent42 from "../../../assets/avatar42.png";
+import opponent43 from "../../../assets/avatar43.png";
 
 export default function ShowOpponent({ list_of_challenges, currentChallenge }) {
   return (

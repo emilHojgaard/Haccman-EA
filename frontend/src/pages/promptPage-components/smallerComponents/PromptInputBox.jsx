@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import SendButton from "./smallerComponents/SendButton";
-import ClearButton from "./smallerComponents/ClearButton";
+import SendButton from "./SendButton";
+import ClearButton from "./ClearButton";
 
 export default function PromptInputBox({
   onSend, // sendPrompt or oldSendPrompt
