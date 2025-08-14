@@ -7,6 +7,7 @@ import PromptWindow from "./promptPage-components/PromptWindow";
 import PromptInputBox from "./promptPage-components/PromptInputBox";
 import ShowOpponent from "./promptPage-components/ShowOpponent";
 import MemoryActivation from "./promptPage-components/smallerComponents/MemoryActivation";
+import LeaveButton from "./promptPage-components/smallerComponents/LeaveButton";
 
 function Prompt(props) {
   // Initialize state for the input value
@@ -658,40 +659,8 @@ function Prompt(props) {
                 setUsingMemory={setUsingMemory}
               />
 
-              <div
-                style={{
-                  display: "flex",
-                  border: "2px solid #ffffff",
-                  padding: "5px",
-                }}
-              >
-                <Link to="/play">
-                  <button
-                    id="leaveButton"
-                    onClick={() => {
-                      playSoundEffect("select"); // Play sound effect
-                    }}
-                  >
-                    Leave fight (Esc)
-                  </button>
-                </Link>
-              </div>
+              <LeaveButton playSoundEffect={playSoundEffect} />
             </div>
-
-            {/* <div style={{ display: "flex", flexDirection: "row", gap: "20px" }}>
-                            <button id="sendButton" className="vaporwave-button" onClick={() => {
-                                sendPrompt(inputValue, currentChallenge, currentModel)
-                                setInputValue("")
-                            }
-                            }>
-                                Send prompt
-                            </button>
-
-
-
-
-                            
-                        </div> */}
           </div>
         </div>
       </div>
