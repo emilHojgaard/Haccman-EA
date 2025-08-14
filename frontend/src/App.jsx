@@ -1,8 +1,8 @@
-import Prompt from "./pages/Prompt";
+import Prompt from "./pages/PromptPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SoundEffectProvider } from "./SoundEffectContext";
-import Initial from "./pages/Initial";
-import Choose from "./pages/Choose";
+import Initial from "./pages/InitialPage";
+import Choose from "./pages/ChoosePage";
 import { useEffect, useState } from "react";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";

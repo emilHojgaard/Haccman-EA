@@ -8,6 +8,8 @@ import opponent6 from "../assets/avatar6.png";
 import opponent41 from "../assets/avatar41.png";
 import opponent42 from "../assets/avatar42.png";
 import opponent43 from "../assets/avatar43.png";
+import PromptWindow from "./promptPage-components/PromptWindow";
+import PromptInputBox from "./promptPage-components/PromptInputBox";
 
 function Prompt(props) {
   // Initialize state for the input value
@@ -234,10 +236,10 @@ function Prompt(props) {
     }
   }, [response]);
 
-  useEffect(() => {
-    const scrollContainer = document.querySelector("#thePartToScroll");
-    scrollContainer.scrollTop = scrollContainer.scrollHeight;
-  }, [previousPrompts]);
+  // useEffect(() => {
+  //   const scrollContainer = document.querySelector("#thePartToScroll");
+  //   scrollContainer.scrollTop = scrollContainer.scrollHeight;
+  // }, [previousPrompts]);
 
   //handle the click of enter
   const inputRef = useRef(null);
@@ -301,39 +303,6 @@ function Prompt(props) {
   const [initialInfo, setInitialInfo] = useState(true);
 
   const date = new Date();
-
-  //the scroll effect
-  useEffect(() => {
-    document.addEventListener("keydown", function (event) {
-      if (event.key === "ArrowUp") {
-        // Check if the Down arrow key is pressed
-        event.preventDefault(); // Prevent the default action (optional)
-        console.log("okat");
-        const scrollContainer = document.getElementById("thePartToScroll");
-        const scrollStep = -70; // Adjust the scroll step as per your requirement
-
-        // Scroll the container down by the defined scroll step
-        scrollContainer.scrollBy({
-          top: scrollStep,
-          behavior: "smooth", // Use smooth scrolling
-        });
-      }
-
-      if (event.key === "ArrowDown") {
-        // Check if the Down arrow key is pressed
-        event.preventDefault(); // Prevent the default action (optional)
-        console.log("okat");
-        const scrollContainer = document.getElementById("thePartToScroll");
-        const scrollStep = 70; // Adjust the scroll step as per your requirement
-
-        // Scroll the container down by the defined scroll step
-        scrollContainer.scrollBy({
-          top: scrollStep,
-          behavior: "smooth", // Use smooth scrolling
-        });
-      }
-    });
-  }, []);
 
   useEffect(() => {
     let timer;
@@ -651,196 +620,26 @@ function Prompt(props) {
                 </div>
               </div>
 
+              {/* Refactored */}
               <div
                 id="boxresponseandprompt"
                 style={{ display: "flex", flexDirection: "column", gap: "6vh" }}
               >
-                <div id="id-6" className="box-responses">
-                  <div
-                    style={{
-                      display: "flex",
-                      border: "2px solid #000000",
-                      background: "#ffffff",
-                      padding: "5px",
-                    }}
-                  >
-                    Message tracker
-                  </div>
-                  <div id="thePartToScroll" style={{ overflowY: "scroll" }}>
-                    {previousPrompts.map((el, index) =>
-                      el.id === "user" ? (
-                        <div
-                          style={{
-                            display: "flex",
-                            justifyContent: "flex-start",
-                            marginLeft: "auto",
-                            flexDirection: "column",
-                            color: "#A9345C",
-                            padding: "5px",
-                            textAlign: "left",
-                          }}
-                        >
-                          {"Your message - " +
-                            date.getHours() +
-                            ":" +
-                            date.getMinutes() +
-                            ":" +
-                            date.getSeconds()}
-                          <div key={index} className="vaporwave-miami-box-user">
-                            {el.message}
-                          </div>
-                        </div>
-                      ) : (
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            color: "blue",
-                            padding: "5px",
-                            textAlign: "left",
-                          }}
-                        >
-                          {"Active LLM - " +
-                            date.getHours() +
-                            ":" +
-                            date.getMinutes() +
-                            ":" +
-                            date.getSeconds()}
-                          <div key={index} className="vaporwave-miami-box-ai">
-                            {el.message}
-                          </div>
-                        </div>
-                      )
-                    )}
-                  </div>
-                </div>
+                <PromptWindow previousPrompts={previousPrompts} date={date} />
 
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  {/* <Signal></Signal>
-                        <Signal></Signal> */}
-
-                  <input
-                    id="textInputField"
-                    className="the-vaporwave-input"
-                    value={inputValue}
-                    onChange={handleChange}
-                    ref={inputRef}
-                    placeholder="Press CTRL to enter a message"
-                  ></input>
-
-                  {usingMemory && (
-                    <div
-                      style={{
-                        display: "flex",
-                        border: "2px solid #ffffff",
-                        padding: "5px",
-                        width: "10%",
-                      }}
-                    >
-                      <button
-                        id="sendButton"
-                        className="the-vaporwave-button2"
-                        onClick={() => {
-                          console.log(currentChallenge);
-                          playSoundEffect("select"),
-                            sendPrompt(
-                              inputValue,
-                              props.name + props.age,
-                              currentChallenge
-                            );
-                          storeMessage(
-                            inputValue,
-                            props.name,
-                            date.getHours() +
-                              ":" +
-                              date.getMinutes() +
-                              ":" +
-                              date.getSeconds(),
-                            "message"
-                          );
-                          setInputValue("");
-                        }}
-                      >
-                        SEND
-                      </button>
-                    </div>
-                  )}
-
-                  {!usingMemory && (
-                    <div
-                      style={{
-                        display: "flex",
-                        border: "2px solid #ffffff",
-                        padding: "5px",
-                        width: "10%",
-                      }}
-                    >
-                      <button
-                        id="sendButton"
-                        className="the-vaporwave-button2"
-                        onClick={() => {
-                          console.log(currentChallenge);
-                          playSoundEffect("select"),
-                            oldSendPrompt(
-                              inputValue,
-                              currentChallenge,
-                              currentModel
-                            );
-                          storeMessage(
-                            inputValue,
-                            props.name,
-                            date.getHours() +
-                              ":" +
-                              date.getMinutes() +
-                              ":" +
-                              date.getSeconds(),
-                            "message"
-                          );
-                          setInputValue("");
-                        }}
-                      >
-                        SEND (no memory)
-                      </button>
-                    </div>
-                  )}
-
-                  <div
-                    style={{
-                      display: "flex",
-                      border: "2px solid #ffffff",
-                      padding: "5px",
-                      width: "10%",
-                    }}
-                  >
-                    <button
-                      id="clearAllButton"
-                      className="the-vaporwave-button2"
-                      onClick={() => {
-                        playSoundEffect("select"); // Play  sound effect
-                        setPreviousPrompts([]);
-                      }}
-                    >
-                      Clear (Tab)
-                    </button>
-                  </div>
-                </div>
-                {/* <div style={{ marginRight: "300px", display: "flex", flexDirection: "row", gap: "20px" }}>
-                                    <Link to="/play">
-                                        <button>Quit fight</button>
-                                    </Link>
-
-                                </div> */}
+                <PromptInputBox
+                  onSend={usingMemory ? sendPrompt : oldSendPrompt}
+                  onStore={storeMessage}
+                  onClear={() => setPreviousPrompts([])}
+                  playSoundEffect={playSoundEffect}
+                  currentChallenge={currentChallenge}
+                  currentModel={currentModel}
+                  propsName={props.name}
+                  propsAge={props.age}
+                  usingMemory={usingMemory}
+                />
               </div>
-
-              {/* <Signal direction="not"></Signal>
-                        <Signal id="upper-left" direction="right"></Signal> */}
+              {/* Refactored */}
             </div>
 
             <div
