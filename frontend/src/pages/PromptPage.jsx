@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import AssetInfo from "../AssetInfo";
 import { useSoundEffect } from "../SoundEffectContext";
 
+import PageTitle from "./promptPage-components/smallerComponents/PageTitle";
 import PromptWindow from "./promptPage-components/PromptWindow";
 import PromptInputBox from "./promptPage-components/PromptInputBox";
 import ShowOpponent from "./promptPage-components/ShowOpponent";
@@ -589,7 +590,11 @@ function Prompt(props) {
                 width: "60%",
               }}
             >
-              <div
+              <PageTitle
+                list_of_challenges={list_of_challenges}
+                currentChallenge={currentChallenge}
+              />
+              {/* <div
                 id="llm-box"
                 style={{
                   display: "flex",
@@ -616,7 +621,7 @@ function Prompt(props) {
                     currentChallenge
                   ].description.toUpperCase()}
                 </div>
-              </div>
+              </div> */}
 
               {/* Refactored */}
               <div
@@ -654,6 +659,7 @@ function Prompt(props) {
                 list_of_challenges={list_of_challenges}
                 currentChallenge={currentChallenge}
               />
+
               <MemoryActivation
                 usingMemory={usingMemory}
                 setUsingMemory={setUsingMemory}
