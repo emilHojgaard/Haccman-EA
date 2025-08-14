@@ -315,11 +315,7 @@ function Prompt(props) {
   return (
     <>
       {showContent && (
-        <WinScreen
-          setInitialInfo={setInitialInfo}
-          setWinState={setWinState}
-          setShowContent={setShowContent}
-        />
+        <WinScreen setWinState={setWinState} setShowContent={setShowContent} />
       )}
 
       {specificOn && guardarailInfo && (

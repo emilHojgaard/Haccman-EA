@@ -1,8 +1,4 @@
-export default function WinScreen({
-  setInitialInfo,
-  setWinState,
-  setShowContent,
-}) {
+export default function WinScreen({ setWinState, setShowContent }) {
   return (
     <div
       style={{
@@ -30,7 +26,7 @@ export default function WinScreen({
           >
             <button
               onClick={() => {
-                setInitialInfo(false);
+                setShowContent(false);
               }}
             >
               x
