@@ -1,11 +1,7 @@
 export default function SystemInfo({
   list_of_challenges,
   currentChallenge,
-  setSpecificOn,
-  setUserpromptInfo,
-  setGuardarailInfo,
-  setLLMInfo,
-  setSystemInfo,
+  setInfoPanels,
 }) {
   return (
     <div
@@ -34,11 +30,14 @@ export default function SystemInfo({
           >
             <button
               onClick={() => {
-                setSpecificOn(false);
-                setGuardarailInfo(false);
-                setLLMInfo(false);
-                setUserpromptInfo(false);
-                setSystemInfo(false);
+                setInfoPanels((prev) => ({
+                  ...prev,
+                  specificOn: false,
+                  userpromptInfo: false,
+                  guardarailInfo: false,
+                  llmInfo: false,
+                  systemInfo: false,
+                }));
               }}
             >
               {" "}
@@ -84,11 +83,14 @@ export default function SystemInfo({
           </div>
           <button
             onClick={() => {
-              setSpecificOn(false);
-              setGuardarailInfo(false);
-              setLLMInfo(false);
-              setUserpromptInfo(false);
-              setSystemInfo(false);
+              setInfoPanels((prev) => ({
+                ...prev,
+                specificOn: false,
+                userpromptInfo: false,
+                guardarailInfo: false,
+                llmInfo: false,
+                systemInfo: false,
+              }));
             }}
           >
             {" "}

@@ -1,12 +1,6 @@
 import AssetInfo from "../../../AssetInfo";
 
-export default function LLMInfo({
-  setSpecificOn,
-  setUserpromptInfo,
-  setGuardarailInfo,
-  setLLMInfo,
-  setSystemInfo,
-}) {
+export default function LLMInfo({ setInfoPanels }) {
   return (
     <div
       style={{
@@ -17,14 +11,7 @@ export default function LLMInfo({
       }}
     >
       <div className="beaten">
-        <AssetInfo
-          setSpecificOn={setSpecificOn}
-          setUserpromptInfo={setUserpromptInfo}
-          setGuardarailInfo={setGuardarailInfo}
-          setLLMInfo={setLLMInfo}
-          setSystemInfo={setSystemInfo}
-          mainText={"llm"}
-        ></AssetInfo>
+        <AssetInfo setInfoPanels={setInfoPanels} mainText={"llm"}></AssetInfo>
       </div>
       <div className="beaten-back"></div>
     </div>

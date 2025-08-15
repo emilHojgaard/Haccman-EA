@@ -1,12 +1,6 @@
 import AssetInfo from "../../../AssetInfo";
 
-export default function GuardrailInfo({
-  setSpecificOn,
-  setUserpromptInfo,
-  setGuardarailInfo,
-  setLLMInfo,
-  setSystemInfo,
-}) {
+export default function GuardrailInfo({ setInfoPanels }) {
   return (
     <div
       style={{
@@ -18,11 +12,7 @@ export default function GuardrailInfo({
     >
       <div className="beaten">
         <AssetInfo
-          setSpecificOn={setSpecificOn}
-          setUserpromptInfo={setUserpromptInfo}
-          setGuardarailInfo={setGuardarailInfo}
-          setLLMInfo={setLLMInfo}
-          setSystemInfo={setSystemInfo}
+          setInfoPanels={setInfoPanels}
           mainText={"guardrail"}
         ></AssetInfo>
       </div>

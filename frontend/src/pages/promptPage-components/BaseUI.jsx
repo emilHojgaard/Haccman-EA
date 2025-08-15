@@ -22,6 +22,7 @@ export default function BaseUI({
   setLLMInfo,
   setUserpromptInfo,
   setSystemInfo,
+  setInfoPanels,
   props,
 }) {
   return (
@@ -83,13 +84,7 @@ export default function BaseUI({
               setUsingMemory={setUsingMemory}
             />
             <div style={{ display: "flex", flexDirection: "row", gap: "2vh" }}>
-              <InfoPannel
-                setGuardarailInfo={setGuardarailInfo}
-                setSpecificOn={setSpecificOn}
-                setLLMInfo={setLLMInfo}
-                setUserpromptInfo={setUserpromptInfo}
-                setSystemInfo={setSystemInfo}
-              />
+              <InfoPannel setInfoPanels={setInfoPanels} />
 
               <div style={{ display: "flex", alignItems: "flex-end" }}>
                 <LeaveButton playSoundEffect={playSoundEffect} />

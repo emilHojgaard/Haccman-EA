@@ -1,10 +1,4 @@
-export default function InfoPannel({
-  setGuardarailInfo,
-  setSpecificOn,
-  setLLMInfo,
-  setUserpromptInfo,
-  setSystemInfo,
-}) {
+export default function InfoPannel({ setInfoPanels }) {
   return (
     <div
       style={{
@@ -24,8 +18,11 @@ export default function InfoPannel({
         <button
           style={{ width: "100%" }}
           onClick={() => {
-            setGuardarailInfo(true);
-            setSpecificOn(true);
+            setInfoPanels((prev) => ({
+              ...prev,
+              guardarailInfo: true,
+              specificOn: true,
+            }));
           }}
         >
           GuardrailInfo
@@ -42,8 +39,11 @@ export default function InfoPannel({
         <button
           style={{ width: "100%" }}
           onClick={() => {
-            setLLMInfo(true);
-            setSpecificOn(true);
+            setInfoPanels((prev) => ({
+              ...prev,
+              llmInfo: true,
+              specificOn: true,
+            }));
           }}
         >
           LLMInfo
@@ -60,8 +60,11 @@ export default function InfoPannel({
         <button
           style={{ width: "100%" }}
           onClick={() => {
-            setUserpromptInfo(true);
-            setSpecificOn(true);
+            setInfoPanels((prev) => ({
+              ...prev,
+              userpromptInfo: true,
+              specificOn: true,
+            }));
           }}
         >
           UserPromptInfo
@@ -78,8 +81,11 @@ export default function InfoPannel({
         <button
           style={{ width: "100%" }}
           onClick={() => {
-            setSystemInfo(true);
-            setSpecificOn(true);
+            setInfoPanels((prev) => ({
+              ...prev,
+              systemInfo: true,
+              specificOn: true,
+            }));
           }}
         >
           SystemInfo

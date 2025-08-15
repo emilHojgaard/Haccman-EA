@@ -17,11 +17,14 @@ function AssetInfo(prop) {
       >
         <button
           onClick={() => {
-            prop.setSpecificOn(false);
-            prop.setGuardarailInfo(false);
-            prop.setLLMInfo(false);
-            prop.setUserpromptInfo(false);
-            prop.setSystemInfo(false);
+            prop.setInfoPanels((prev) => ({
+              ...prev,
+              specificOn: false,
+              userpromptInfo: false,
+              guardarailInfo: false,
+              llmInfo: false,
+              systemInfo: false,
+            }));
           }}
         >
           {" "}
@@ -113,11 +116,13 @@ function AssetInfo(prop) {
       </div>
       <button
         onClick={() => {
-          prop.setSpecificOn(false);
-          prop.setGuardarailInfo(false);
-          prop.setLLMInfo(false);
-          prop.setUserpromptInfo(false);
-          prop.setSystemInfo(false);
+          prop.setInfoPanels({
+            specificOn: false,
+            userpromptInfo: false,
+            guardarailInfo: false,
+            llmInfo: false,
+            systemInfo: false,
+          });
         }}
       >
         {" "}

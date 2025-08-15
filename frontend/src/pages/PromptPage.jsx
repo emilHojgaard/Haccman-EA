@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import AssetInfo from "../AssetInfo";
 import { useSoundEffect } from "../SoundEffectContext";
 import BaseUI from "./promptPage-components/BaseUI";
 import WinScreen from "./promptPage-components/WinScreen";
@@ -10,6 +9,15 @@ import UserPromptInfo from "./promptPage-components/smallerComponents/UserPrompt
 import SystemInfo from "./promptPage-components/smallerComponents/SystemInfo";
 
 function Prompt(props) {
+  // State for managing information panels
+  const [infoPanels, setInfoPanels] = useState({
+    specificOn: false,
+    userpromptInfo: false,
+    guardarailInfo: false,
+    llmInfo: false,
+    systemInfo: false,
+  });
+
   // Initialize state for the input value
   const [inputValue, setInputValue] = useState("");
 
@@ -35,18 +43,6 @@ function Prompt(props) {
 
   //show win screen when winState is true
   const [showContent, setShowContent] = useState(false);
-
-  //focus mode for information giving
-  const [specificOn, setSpecificOn] = useState(false);
-
-  //states for what we are focusing on
-  const [userpromptInfo, setUserpromptInfo] = useState(false);
-
-  const [guardarailInfo, setGuardarailInfo] = useState(false);
-
-  const [llmInfo, setLLMInfo] = useState(false);
-
-  const [systemInfo, setSystemInfo] = useState(false);
 
   const { playSoundEffect } = useSoundEffect();
 
@@ -322,45 +318,21 @@ function Prompt(props) {
         <WinScreen setWinState={setWinState} setShowContent={setShowContent} />
       )}
 
-      {specificOn && guardarailInfo && (
-        <GuardrailInfo
-          setSpecificOn={setSpecificOn}
-          setUserpromptInfo={setUserpromptInfo}
-          setGuardarailInfo={setGuardarailInfo}
-          setLLMInfo={setLLMInfo}
-          setSystemInfo={setSystemInfo}
-        />
+      {infoPanels.guardarailInfo && (
+        <GuardrailInfo setInfoPanels={setInfoPanels} />
       )}
 
-      {specificOn && llmInfo && (
-        <LLMInfo
-          setSpecificOn={setSpecificOn}
-          setUserpromptInfo={setUserpromptInfo}
-          setGuardarailInfo={setGuardarailInfo}
-          setLLMInfo={setLLMInfo}
-          setSystemInfo={setSystemInfo}
-        />
+      {infoPanels.llmInfo && <LLMInfo setInfoPanels={setInfoPanels} />}
+
+      {infoPanels.userpromptInfo && (
+        <UserPromptInfo setInfoPanels={setInfoPanels} />
       )}
 
-      {specificOn && userpromptInfo && (
-        <UserPromptInfo
-          setSpecificOn={setSpecificOn}
-          setUserpromptInfo={setUserpromptInfo}
-          setGuardarailInfo={setGuardarailInfo}
-          setLLMInfo={setLLMInfo}
-          setSystemInfo={setSystemInfo}
-        />
-      )}
-
-      {specificOn && systemInfo && (
+      {infoPanels.systemInfo && (
         <SystemInfo
           list_of_challenges={list_of_challenges}
           currentChallenge={currentChallenge}
-          setSpecificOn={setSpecificOn}
-          setUserpromptInfo={setUserpromptInfo}
-          setGuardarailInfo={setGuardarailInfo}
-          setLLMInfo={setLLMInfo}
-          setSystemInfo={setSystemInfo}
+          setInfoPanels={setInfoPanels}
         />
       )}
 
@@ -375,11 +347,7 @@ function Prompt(props) {
         storeMessage={storeMessage}
         playSoundEffect={playSoundEffect}
         currentModel={currentModel}
-        setSpecificOn={setSpecificOn}
-        setGuardarailInfo={setGuardarailInfo}
-        setLLMInfo={setLLMInfo}
-        setUserpromptInfo={setUserpromptInfo}
-        setSystemInfo={setSystemInfo}
+        setInfoPanels={setInfoPanels}
         props={props}
       />
     </>
