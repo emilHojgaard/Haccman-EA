@@ -230,11 +230,6 @@ function Prompt(props) {
     }
   }, [response]);
 
-  // useEffect(() => {
-  //   const scrollContainer = document.querySelector("#thePartToScroll");
-  //   scrollContainer.scrollTop = scrollContainer.scrollHeight;
-  // }, [previousPrompts]);
-
   //handle the click of enter
   const inputRef = useRef(null);
 
@@ -293,8 +288,6 @@ function Prompt(props) {
   function winEffect() {
     setWinState(true);
   }
-
-  const [initialInfo, setInitialInfo] = useState(true);
 
   const date = new Date();
 
