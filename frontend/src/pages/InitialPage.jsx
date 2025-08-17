@@ -142,7 +142,11 @@ function Initial(props) {
         <button className="datapage-button">Data</button>
       </Link>
 
-      <img src="/Sticker graphic 1.png" alt="Custom Image" class="logo"></img>
+      <img
+        src="/Sticker graphic 1.png"
+        alt="Custom Image"
+        className="logo"
+      ></img>
       <div
         style={{
           display: "flex",

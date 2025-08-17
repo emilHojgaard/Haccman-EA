@@ -56,7 +56,7 @@ export default function WinScreen({ setWinState, setShowContent }) {
               <img
                 src="/Winner trophy 1.png"
                 alt="Custom Image"
-                class="win"
+                className="win"
               ></img>
               <div
                 style={{
