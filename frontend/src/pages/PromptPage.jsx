@@ -7,6 +7,11 @@ import GuardrailInfo from "./promptPage-components/smallerComponents/GuardrailIn
 import LLMInfo from "./promptPage-components/smallerComponents/LLMInfo";
 import UserPromptInfo from "./promptPage-components/smallerComponents/UserPromptInfo";
 import SystemInfo from "./promptPage-components/smallerComponents/SystemInfo";
+import {
+  fetchOldPromptResponse,
+  sendPromptToMemory,
+  storeInteraction,
+} from "../pages/promptPage-components/api";
 
 function Prompt(props) {
   // State for managing information panels
@@ -17,223 +22,123 @@ function Prompt(props) {
     llmInfo: false,
     systemInfo: false,
   });
-
-  // Initialize state for the input value
-  const [inputValue, setInputValue] = useState("");
-
-  // Event handler to update the input value when it changes
-  const handleChange = (event) => {
-    setInputValue(event.target.value);
-  };
-
-  //Prompt response state
+  //Other states
   const [response, setResponse] = useState("");
-
-  //Prompt history ~ strategy history
   const [previousPrompts, setPreviousPrompts] = useState([]);
-
-  //List of challenges
+  const [winState, setWinState] = useState(false);
+  const [showContent, setShowContent] = useState(false);
+  const [usingMemory, setUsingMemory] = useState(true);
+  const [currentModel, setCurrentModel] = useState(0);
+  //Other hooks
+  const { playSoundEffect } = useSoundEffect();
+  const inputRef = useRef(null);
+  const navigate = useNavigate();
+  //Imported props
   const list_of_challenges = props.listOfChallenges;
-
-  //Current challenge
   const currentChallenge = props.chosenChallenge;
 
-  //wonState
-  const [winState, setWinState] = useState(false);
-
-  //show win screen when winState is true
-  const [showContent, setShowContent] = useState(false);
-
-  const { playSoundEffect } = useSoundEffect();
-
-  // =========================================================== Actually accessing a model: Hugging Face models
-
-  //the currentModel parameter is only for defining which message shows up in which pannel
-
-  //models that work but are dump -> these we could just ask for completion to see if they do a bad word or something
-  //gpt2
-  //CohereForAI/c4ai-command-r-plus
-  //mistralai/Mistral-7B-v0.1
+  //Backend API call
+  const sendPrompt = async (message, thread, systemPrompt) => {
+    try {
+      setPreviousPrompts((prev) => [
+        ...prev,
+        { id: "user", message, model: systemPrompt },
+      ]);
+      const responseText = await sendPromptToMemory(
+        message,
+        thread,
+        systemPrompt
+      );
+      setResponse(responseText);
+    } catch (err) {
+      console.log("sendPrompt failed:", err);
+    }
+  };
+  //Backend API call
+  const oldSendPrompt = async (message, thread, model) => {
+    try {
+      setPreviousPrompts((prev) => [...prev, { id: "user", message, model }]);
+      const result = await fetchOldPromptResponse(message, thread, model);
+      setResponse(result);
+    } catch (err) {
+      console.log("oldSendPrompt failed:", err);
+    }
+  };
+  //Backend API call
+  const storeMessage = async (message, username, time, type) => {
+    try {
+      const result = await storeInteraction(message, username, time, type);
+      console.log("Stored:", result);
+    } catch (err) {
+      console.log("storeMessage failed:", err);
+    }
+  };
 
   useEffect(() => {
     previousPrompts;
   }, [previousPrompts]);
 
-  const oldSendPrompt = async (param1, param2, param3) => {
-    try {
-      setPreviousPrompts([
-        ...previousPrompts,
-        { id: "user", message: param1, model: param3 },
-      ]);
-
-      const encodedString = encodeURIComponent(param1);
-      const response = await fetch(
-        "https://hacc-man-61ba30704cf0.herokuapp.com/api8989/response1999/" +
-          encodedString +
-          "/" +
-          param2 +
-          "/" +
-          param3,
-        {
-          method: "GET",
-        }
-      );
-
-      const result = await response.text();
-      setResponse(result);
-    } catch (error) {
-      console.log("Error in the sendPrompt " + error);
-    }
-  };
-
-  const sendPrompt = async (message, thread, systemPromptIndication) => {
-    try {
-      setPreviousPrompts([
-        ...previousPrompts,
-        { id: "user", message: message, model: systemPromptIndication },
-      ]);
-
-      const response = await fetch(
-        "https://haccman2-022f4eadefc4.herokuapp.com/chatmemory",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            message: message,
-            thread: thread,
-            system_prompt: systemPromptIndication,
-          }),
-        }
-      );
-
-      const result = await response.json();
-      setResponse(result.response);
-    } catch (error) {
-      console.log("Error in sendPrompt:", error);
-    }
-  };
-
-  const storeMessage = async (param1, param2, param3, param4) => {
-    try {
-      const encodedString = encodeURIComponent(param1);
-
-      const response = await fetch(
-        "https://hacc-man-61ba30704cf0.herokuapp.com/api8989/interaction/" +
-          param2 +
-          "/" +
-          encodedString +
-          "/" +
-          param3 +
-          "/" +
-          param4,
-        {
-          method: "POST",
-        }
-      );
-
-      const result = await response.text();
-      console.log("RESULT OF storing " + result);
-    } catch (error) {
-      console.log("Error in the sendPrompt " + error);
-    }
-  };
-
-  //WIN STATE AND OTHER THINGS
-  //function to check for forbiddenwords in a response, takes two string lists and returns a boolean
+  //Checks forbiddenwords, returns a boolean
   function containsForbiddenWords(response, forbiddenWords) {
-    // Convert response to lowercase and split into words
+    // lowercase and split into words
     const words = response.toLowerCase().split(/\s+/);
-
     // Create a Set of forbidden words for faster lookup
     const forbiddenSet = new Set(
       forbiddenWords.map((word) => word.toLowerCase())
     );
-
-    // Check if any word in the response is in the forbidden words set
+    // Check
     for (const word of words) {
       if (forbiddenSet.has(word)) {
         return true;
       }
     }
-
     return false;
   }
 
+  // Checks for forbidden phrases, returns a boolean
   function containsForbiddenPhrases(forbiddenPhrases, text) {
-    // Convert the text to lowercase for case-insensitive comparison
     const lowerCaseText = text.toLowerCase();
-
-    // Iterate over each forbidden phrase
+    // Check
     for (const phrase of forbiddenPhrases) {
-      // Convert the phrase to lowercase for case-insensitive comparison
-      const lowerCasePhrase = phrase.toLowerCase();
-
-      // Check if the text contains the forbidden phrase
-      if (lowerCaseText.includes(lowerCasePhrase)) {
+      if (lowerCaseText.includes(phrase.toLowerCase())) {
         return true;
       }
     }
-
-    // If no forbidden phrases are found, return false
     return false;
   }
 
-  useEffect(() => {
-    console.log("i can see a response");
+  //Helper function to handle responses in useEffect
+  const handleResponse = async (responseText) => {
+    if (!responseText) return;
+    // Add AI response to previous prompts
+    setPreviousPrompts((prev) => [
+      ...prev,
+      { id: "adversary", message: responseText, model: currentModel },
+    ]);
+    // Store the message
+    const timeString = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+    await storeMessage(responseText, props.name, timeString, "response");
+    // Check if the current challenge is completed
+    const challenge = list_of_challenges[currentChallenge];
+    const isBeaten =
+      currentChallenge !== 0
+        ? containsForbiddenPhrases(challenge.resolution, responseText)
+        : containsForbiddenWords(responseText, challenge.resolution);
 
-    if (response !== null && response !== "") {
-      setPreviousPrompts([
-        ...previousPrompts,
-        { id: "adversary", message: response, model: currentModel },
-      ]);
-      storeMessage(
-        response,
-        props.name,
-        date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds(),
-        "response"
-      );
-    }
-
-    if (currentChallenge != 0) {
-      if (
-        containsForbiddenPhrases(
-          list_of_challenges[currentChallenge].resolution,
-          response
-        )
-      ) {
-        console.log("beaten!");
-        const prev = props.completedChallenges;
-        props.setCompletedChallenges([...prev, currentChallenge]);
-        playSoundEffect("win");
-        winEffect();
-      } else {
-        console.log("it didnt enter the containforbidden words scenario");
-      }
+    if (isBeaten) {
+      console.log("Challenge beaten!");
+      props.setCompletedChallenges((prev) => [...prev, currentChallenge]);
+      playSoundEffect("win");
+      winEffect();
     } else {
-      console.log("ai anderson");
-      if (
-        containsForbiddenWords(
-          response,
-          list_of_challenges[currentChallenge].resolution
-        )
-      ) {
-        console.log("beaten!");
-        const prev = props.completedChallenges;
-        props.setCompletedChallenges([...prev, currentChallenge]);
-        playSoundEffect("win");
-        winEffect();
-      } else {
-        console.log("it didnt enter the containforbidden words scenario");
-      }
+      console.log("Challenge not beaten yet.");
     }
+  };
+
+  // Handle response, check for win conditions
+  useEffect(() => {
+    handleResponse(response);
   }, [response]);
-
-  //handle the click of enter
-  const inputRef = useRef(null);
-
-  const navigate = useNavigate();
 
   //Handles key press events
   useEffect(() => {
@@ -278,12 +183,6 @@ function Prompt(props) {
     };
   }, []);
 
-  //using memory or nah
-  const [usingMemory, setUsingMemory] = useState(true);
-
-  //State for current using model - these are used to change between the models, and then the current model is sent in the previous prompt!
-  const [currentModel, setCurrentModel] = useState(0);
-
   //win Effects
   function winEffect() {
     setWinState(true);
@@ -300,7 +199,6 @@ function Prompt(props) {
     } else {
       setShowContent(false);
     }
-
     // Cleanup timer on component unmount or when winState changes
     return () => clearTimeout(timer);
   }, [winState]);
