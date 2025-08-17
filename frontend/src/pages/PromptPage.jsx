@@ -36,8 +36,10 @@ function Prompt(props) {
   //Imported props
   const list_of_challenges = props.listOfChallenges;
   const currentChallenge = props.chosenChallenge;
+  //date
+  const date = new Date();
 
-  //Backend API call
+  //API CALLS
   const sendPrompt = async (message, thread, systemPrompt) => {
     try {
       setPreviousPrompts((prev) => [
@@ -54,7 +56,7 @@ function Prompt(props) {
       console.log("sendPrompt failed:", err);
     }
   };
-  //Backend API call
+
   const oldSendPrompt = async (message, thread, model) => {
     try {
       setPreviousPrompts((prev) => [...prev, { id: "user", message, model }]);
@@ -64,7 +66,7 @@ function Prompt(props) {
       console.log("oldSendPrompt failed:", err);
     }
   };
-  //Backend API call
+
   const storeMessage = async (message, username, time, type) => {
     try {
       const result = await storeInteraction(message, username, time, type);
@@ -74,10 +76,7 @@ function Prompt(props) {
     }
   };
 
-  useEffect(() => {
-    previousPrompts;
-  }, [previousPrompts]);
-
+  //FUNCTIONS/HANDLERS/HELPERS
   //Checks forbiddenwords, returns a boolean
   function containsForbiddenWords(response, forbiddenWords) {
     // lowercase and split into words
@@ -135,6 +134,17 @@ function Prompt(props) {
     }
   };
 
+  //win-setter for win Effects
+  function winEffect() {
+    setWinState(true);
+  }
+
+  //USE-EFFECTS
+  // Track previous prompts
+  useEffect(() => {
+    previousPrompts;
+  }, [previousPrompts]);
+
   // Handle response, check for win conditions
   useEffect(() => {
     handleResponse(response);
@@ -148,48 +158,36 @@ function Prompt(props) {
         // Find the button element by its id and click it
         document.getElementById("sendButton").click();
       }
-
       if (event.keyCode === 17) {
         if (inputRef.current) {
           inputRef.current.focus();
         }
       }
-
       //tab for clear all
       if (event.keyCode === 9) {
         event.preventDefault();
         document.getElementById("clearAllButton").click();
       }
-
       //esc for exiting the fight
       if (event.keyCode === 27) {
         event.preventDefault();
         document.getElementById("leaveButton").click();
       }
-
       //new game key
       if (event.keyCode === 18) {
         event.preventDefault();
         navigate("/");
       }
     };
-
     // Add event listener for key press
     document.addEventListener("keydown", handleKeyPress);
-
     // Clean up the event listener when component unmounts
     return () => {
       document.removeEventListener("keydown", handleKeyPress);
     };
   }, []);
 
-  //win Effects
-  function winEffect() {
-    setWinState(true);
-  }
-
-  const date = new Date();
-
+  // Shows the win screen after a delay
   useEffect(() => {
     let timer;
     if (winState) {
