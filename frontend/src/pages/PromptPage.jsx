@@ -12,6 +12,10 @@ import {
   sendPromptToMemory,
   storeInteraction,
 } from "../pages/promptPage-components/api";
+import {
+  containsForbiddenPhrases,
+  containsForbiddenWords,
+} from "./promptPage-components/smallerComponents/ForbiddenChecks";
 
 function Prompt(props) {
   // State for managing information panels
@@ -77,35 +81,6 @@ function Prompt(props) {
   };
 
   //FUNCTIONS/HANDLERS/HELPERS
-  //Checks forbiddenwords, returns a boolean
-  function containsForbiddenWords(response, forbiddenWords) {
-    // lowercase and split into words
-    const words = response.toLowerCase().split(/\s+/);
-    // Create a Set of forbidden words for faster lookup
-    const forbiddenSet = new Set(
-      forbiddenWords.map((word) => word.toLowerCase())
-    );
-    // Check
-    for (const word of words) {
-      if (forbiddenSet.has(word)) {
-        return true;
-      }
-    }
-    return false;
-  }
-
-  // Checks for forbidden phrases, returns a boolean
-  function containsForbiddenPhrases(forbiddenPhrases, text) {
-    const lowerCaseText = text.toLowerCase();
-    // Check
-    for (const phrase of forbiddenPhrases) {
-      if (lowerCaseText.includes(phrase.toLowerCase())) {
-        return true;
-      }
-    }
-    return false;
-  }
-
   //Helper function to handle responses in useEffect
   const handleResponse = async (responseText) => {
     if (!responseText) return;
@@ -139,6 +114,35 @@ function Prompt(props) {
     setWinState(true);
   }
 
+  // Helper function to handle key presses
+  const handleKeyPress = (event) => {
+    // Check if the key pressed is Enter (key code 13)
+    if (event.keyCode === 13) {
+      // Find the button element by its id and click it
+      document.getElementById("sendButton").click();
+    }
+    if (event.keyCode === 17) {
+      if (inputRef.current) {
+        inputRef.current.focus();
+      }
+    }
+    //tab for clear all
+    if (event.keyCode === 9) {
+      event.preventDefault();
+      document.getElementById("clearAllButton").click();
+    }
+    //esc for exiting the fight
+    if (event.keyCode === 27) {
+      event.preventDefault();
+      document.getElementById("leaveButton").click();
+    }
+    //new game key
+    if (event.keyCode === 18) {
+      event.preventDefault();
+      navigate("/");
+    }
+  };
+
   //USE-EFFECTS
   // Handle response, check for win conditions
   useEffect(() => {
@@ -147,33 +151,6 @@ function Prompt(props) {
 
   //Handles key press events
   useEffect(() => {
-    const handleKeyPress = (event) => {
-      // Check if the key pressed is Enter (key code 13)
-      if (event.keyCode === 13) {
-        // Find the button element by its id and click it
-        document.getElementById("sendButton").click();
-      }
-      if (event.keyCode === 17) {
-        if (inputRef.current) {
-          inputRef.current.focus();
-        }
-      }
-      //tab for clear all
-      if (event.keyCode === 9) {
-        event.preventDefault();
-        document.getElementById("clearAllButton").click();
-      }
-      //esc for exiting the fight
-      if (event.keyCode === 27) {
-        event.preventDefault();
-        document.getElementById("leaveButton").click();
-      }
-      //new game key
-      if (event.keyCode === 18) {
-        event.preventDefault();
-        navigate("/");
-      }
-    };
     // Add event listener for key press
     document.addEventListener("keydown", handleKeyPress);
     // Clean up the event listener when component unmounts
