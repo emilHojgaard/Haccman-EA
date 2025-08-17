@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { useSoundEffect } from "../SoundEffectContext";
+import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
 
 function Initial(props) {
   // Initialize state for the input values

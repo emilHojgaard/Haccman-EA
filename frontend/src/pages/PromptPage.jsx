@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useSoundEffect } from "../SoundEffectContext";
+import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
 import BaseUI from "./promptPage-components/BaseUI";
 import WinScreen from "./promptPage-components/WinScreen";
 import GuardrailInfo from "./promptPage-components/smallerComponents/GuardrailInfo";

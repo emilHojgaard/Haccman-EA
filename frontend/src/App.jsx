@@ -1,14 +1,14 @@
 import Prompt from "./pages/PromptPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { SoundEffectProvider } from "./SoundEffectContext";
+import { SoundEffectProvider } from "./theLeftoverFiles/SoundEffectContext";
 import Initial from "./pages/InitialPage";
 import Choose from "./pages/ChoosePage";
 import { useEffect, useState } from "react";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
-import MusicPlayer from "./MusicPlayer";
+import MusicPlayer from "./theLeftoverFiles/MusicPlayer";
 import DataPage from "./pages/DataPage";
-import { ListOfChallenges } from "./ListOfChallenges";
+import { ListOfChallenges } from "./theLeftoverFiles/ListOfChallenges";
 
 function App() {
   const [selectedChallenge, setSelectedChallenge] = useState(0);

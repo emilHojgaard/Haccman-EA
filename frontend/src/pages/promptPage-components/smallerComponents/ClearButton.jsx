@@ -1,4 +1,4 @@
-import { useSoundEffect } from "../../../SoundEffectContext";
+import { useSoundEffect } from "../../../theLeftoverFiles/SoundEffectContext";
 
 export default function ClearButton({ onClear }) {
   const { playSoundEffect } = useSoundEffect();

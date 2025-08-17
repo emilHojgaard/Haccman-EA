@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import ArrowKeysReact from "arrow-keys-react";
-import { useSoundEffect } from "../SoundEffectContext";
+import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
 import "../index.css";
 import opponent2 from "../assets/avatar2.png";
 import opponent3 from "../assets/avatar3.png";

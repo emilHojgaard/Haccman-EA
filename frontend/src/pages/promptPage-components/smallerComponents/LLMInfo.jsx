@@ -1,4 +1,4 @@
-import AssetInfo from "../../../AssetInfo";
+import AssetInfo from "../../../theLeftoverFiles/AssetInfo";
 
 export default function LLMInfo({ setInfoPanels }) {
   return (
