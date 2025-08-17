@@ -140,11 +140,6 @@ function Prompt(props) {
   }
 
   //USE-EFFECTS
-  // Track previous prompts
-  useEffect(() => {
-    previousPrompts;
-  }, [previousPrompts]);
-
   // Handle response, check for win conditions
   useEffect(() => {
     handleResponse(response);
