@@ -10,7 +10,7 @@ const client = createClient({
     password: process.env.redis_password,
     socket: {
         host: process.env.redis_host,
-        port: (12056 || process.env.PORT2)
+        port: (process.env.PORT2 || 12056)
     }
 }).on('error', err => console.log('Redis Client Error', err))
     .connect();
