@@ -95,4 +95,17 @@ const interaction = async (req, res) => {
   }
 }
 
-module.exports = { sendPrompts, firstGuardRail, secondGuardRail, interaction };
+const ensureRedisConnection = async (req, res, next) => {
+  try {
+    const redisClient = await client;
+    if (!redisClient.isOpen) {
+      await redisClient.connect();
+    }
+    next();
+  } catch (err) {
+    console.error('Could not connect to Redis:', err);
+    return res.status(500).send('Internal Server Error');
+  }
+};
+
+module.exports = { sendPrompts, firstGuardRail, secondGuardRail, interaction, ensureRedisConnection };
