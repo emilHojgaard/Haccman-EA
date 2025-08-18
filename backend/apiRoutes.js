@@ -4,9 +4,9 @@ const express = require('express');
 const { sendPrompts, firstGuardRail, secondGuardRail } = require('./apiController');
 const router = express.Router();
 
-//ill start the client here like they instruct
+//will start the client here like they instruct
 const client = createClient({
-    password: process.env.redis_passowrd,
+    password: process.env.redis_password,
     socket: {
         host: process.env.redis_host,
         port: (12056 || process.env.PORT2)
@@ -31,11 +31,6 @@ const ensureRedisConnection = async (req, res, next) => {
         next();
     })
 };
-
-
-
-
-
 
 //this is what happens when you go to the port followed by those written things
 router.use(ensureRedisConnection);
