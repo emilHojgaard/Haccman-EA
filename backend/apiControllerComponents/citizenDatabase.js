@@ -1,4 +1,4 @@
-export default citizenDatabase = [
+export default [
     { name: "Swan Ronson", address: "2546 E Warwick Ave" },
     { name: "Jane Doe", address: "1234 Maple St" },
     { name: "John Smith", address: "5678 Oak St" },

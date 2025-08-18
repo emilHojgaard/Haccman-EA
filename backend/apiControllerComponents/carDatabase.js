@@ -1,4 +1,4 @@
-export default carDatabase = [
+export default [
     { model: 'Bronco', make: 'Ford', year: 2018, mileage: 80000, price: '$49,995' },
     { model: 'Civic', make: 'Honda', year: 2020, mileage: 15000, price: '$21,500' },
     { model: 'Model 3', make: 'Tesla', year: 2019, mileage: 30000, price: '$39,999' },

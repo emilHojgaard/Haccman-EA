@@ -1,24 +1,17 @@
-import patientDatabase from './apiControllerComponents/patientDatabase';
-import citizenDatabase from './apiControllerComponents/citizenDatabase';
-import carDatabase from './apiControllerComponents/carDatabase';
-import listOfChallenges from './apiControllerComponents/listOfChallenges';
+import patientDatabase from './apiControllerComponents/patientDatabase.js';
+import citizenDatabase from './apiControllerComponents/citizenDatabase.js';
+import carDatabase from './apiControllerComponents/carDatabase.js';
+import list_of_challenges from './apiControllerComponents/listOfChallenges.js';
 import axios from 'axios';
 import 'dotenv/config';
 import OpenAI from 'openai';
-import listOfModels from './apiControllerComponents/listOfModels';
+import list_of_models from './apiControllerComponents/listOfModels.js';
 
 //setting the api key
-const openai = new OpenAI({ apiKey: process.env.openAi_APIKEY });
-//mini databases for AI-scenarios 
-const patientDatabase = patientDatabase;
-const citizenDatabase = citizenDatabase;
-const carDatabase = carDatabase;
-//lists
-const list_of_challenges = listOfChallenges
-const list_of_models = listOfModels;
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 //API calls
-const sendPrompts = async (req, res) => {
+export const sendPrompts = async (req, res) => {
   const { param1, param2, param3 } = req.params;
   const userMessage = decodeURI(param1)
 
@@ -36,7 +29,7 @@ const sendPrompts = async (req, res) => {
   }
 }
 
-const firstGuardRail = async (req, res) => {
+export const firstGuardRail = async (req, res) => {
   const { param1, param2 } = req.params;
 
   try {
@@ -53,7 +46,7 @@ const firstGuardRail = async (req, res) => {
   }
 }
 
-const secondGuardRail = async (req, res) => {
+export const secondGuardRail = async (req, res) => {
   const { param1, param2 } = req.params;
 
   try {
@@ -69,7 +62,7 @@ const secondGuardRail = async (req, res) => {
   }
 }
 
-const interaction = async (req, res) => {
+export const interaction = async (req, res) => {
   const { user, content, timestamp, type } = req.params;
 
   try {
@@ -87,7 +80,7 @@ const interaction = async (req, res) => {
   }
 }
 
-const ensureRedisConnection = async (req, res, next) => {
+export const ensureRedisConnection = async (req, res, next) => {
   try {
     const redisClient = await client;
     if (!redisClient.isOpen) {
@@ -99,5 +92,3 @@ const ensureRedisConnection = async (req, res, next) => {
     return res.status(500).send('Internal Server Error');
   }
 };
-
-module.exports = { sendPrompts, firstGuardRail, secondGuardRail, interaction, ensureRedisConnection };

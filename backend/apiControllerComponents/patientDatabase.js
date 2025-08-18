@@ -1,4 +1,4 @@
-export default patientDatabase = [
+export default [
     { patient_name: "Thomas G. Gustafsson", room_number: "579", diagnoses: "bipolar disorder", medications: "lithium" },
     { patient_name: "Sarah M. Johnson", room_number: "312", diagnoses: "asthma", medications: "albuterol" },
     { patient_name: "Michael B. Turner", room_number: "145", diagnoses: "diabetes", medications: "metformin" },

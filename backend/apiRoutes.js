@@ -22,4 +22,4 @@ router.get('/firstguard/:param1/:param2/', firstGuardRail);
 router.get('/secondguard/:param1/:param2/', secondGuardRail);
 router.post('/interaction/:user/:content/:timestamp/:type', interaction);
 
-module.exports = router
+export default router;
