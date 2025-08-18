@@ -17,14 +17,7 @@ const carDatabase = carDatabase;
 const list_of_challenges = listOfChallenges
 const list_of_models = listOfModels;
 
-// Function to create a string from carDatabase
-const generateCarListString = (carDatabase) => {
-  return carDatabase.map(car => {
-    return `Model: ${car.model}, Make: ${car.make}, Year: ${car.year}, Mileage: ${car.mileage}, Price: ${car.price}`;
-  }).join('; ');
-};
-
-
+//API calls
 const sendPrompts = async (req, res) => {
   const { param1, param2, param3 } = req.params;
   const userMessage = decodeURI(param1)
@@ -59,7 +52,6 @@ const firstGuardRail = async (req, res) => {
     console.log("error in the firstGuardRail ", error)
   }
 }
-
 
 const secondGuardRail = async (req, res) => {
   const { param1, param2 } = req.params;

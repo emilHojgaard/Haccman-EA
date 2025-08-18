@@ -15,7 +15,6 @@ const client = createClient({
 }).on('error', err => console.log('Redis Client Error', err))
     .connect();
 
-
 //Routes
 router.use(ensureRedisConnection(client));
 router.get('/response1999/:param1/:param2/:param3', sendPrompts);
