@@ -5,6 +5,7 @@ import listOfChallenges from './apiControllerComponents/listOfChallenges';
 import axios from 'axios';
 import 'dotenv/config';
 import OpenAI from 'openai';
+import listOfModels from './apiControllerComponents/listOfModels';
 
 //setting the api key
 const openai = new OpenAI({ apiKey: process.env.openAi_APIKEY });
@@ -14,8 +15,7 @@ const citizenDatabase = citizenDatabase;
 const carDatabase = carDatabase;
 //lists
 const list_of_challenges = listOfChallenges
-const list_of_models = [{ name: "Chat GPT-3.5 Turbo", endpoint: "gpt-3.5-turbo", type: "openai" }, { name: "Chat GPT-4", endpoint: "gpt-4", type: "openai" },
-{ name: "Google Gemma 1.1 7b", endpoint: "", type: "other" }]
+const list_of_models = listOfModels;
 
 // Function to create a string from carDatabase
 const generateCarListString = (carDatabase) => {
@@ -58,7 +58,6 @@ const firstGuardRail = async (req, res) => {
   } catch (error) {
     console.log("error in the firstGuardRail ", error)
   }
-
 }
 
 
@@ -76,8 +75,24 @@ const secondGuardRail = async (req, res) => {
   } catch (error) {
     console.log("error in the secondGuardRail ", error)
   }
-
 }
 
+const interaction = async (req, res) => {
+  const { user, content, timestamp, type } = req.params;
 
-module.exports = { sendPrompts, firstGuardRail, secondGuardRail };
+  try {
+    client.then((client) => {
+      //pushing stuff to the user as a list of their interactions
+      const userId = user;
+      const interaction1 = JSON.stringify({ type: type, timestamp: timestamp, content: content });
+      // Store interactions in a list
+      client.lPush(userId, interaction1);
+    })
+
+    res.status(200).send('Interaction added successfully');
+  } catch (error) {
+    console.log("error in the post ", error)
+  }
+}
+
+module.exports = { sendPrompts, firstGuardRail, secondGuardRail, interaction };

@@ -2,10 +2,8 @@ const { createClient } = require('redis');
 require('dotenv').config()
 
 
-
-
 const client = createClient({
-    password: process.env.redis_passowrd,
+    password: process.env.redis_password,
     socket: {
         host: process.env.redis_host,
         port: (12056 || process.env.PORT2)
