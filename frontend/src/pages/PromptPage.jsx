@@ -11,7 +11,7 @@ import {
   fetchOldPromptResponse,
   sendPromptToMemory,
   storeInteraction,
-} from "../pages/promptPage-components/api";
+} from "../api";
 import {
   containsForbiddenPhrases,
   containsForbiddenWords,

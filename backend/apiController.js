@@ -80,15 +80,3 @@ export const interaction = async (req, res) => {
   }
 }
 
-export const ensureRedisConnection = async (req, res, next) => {
-  try {
-    const redisClient = await client;
-    if (!redisClient.isOpen) {
-      await redisClient.connect();
-    }
-    next();
-  } catch (err) {
-    console.error('Could not connect to Redis:', err);
-    return res.status(500).send('Internal Server Error');
-  }
-};

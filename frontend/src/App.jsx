@@ -9,6 +9,7 @@ import "react-h5-audio-player/lib/styles.css";
 import MusicPlayer from "./theLeftoverFiles/MusicPlayer";
 import DataPage from "./pages/DataPage";
 import { ListOfChallenges } from "./theLeftoverFiles/ListOfChallenges";
+import { pingBackend } from "./api";
 
 function App() {
   const [selectedChallenge, setSelectedChallenge] = useState(0);
@@ -25,6 +26,15 @@ function App() {
   useEffect(() => {
     console.log("username", name);
   }, [name]);
+
+  //TEST LOCAL BACKEND CONNECTION:
+  useEffect(() => {
+    async function testBackend() {
+      const data = await pingBackend();
+      if (data) console.log(data.message);
+    }
+    testBackend();
+  }, []);
 
   return (
     <SoundEffectProvider>
