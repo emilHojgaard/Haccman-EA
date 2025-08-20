@@ -1,21 +1,42 @@
-const express = require('express');
-const apiRoutes = require('./apiRoutes');
-const cors = require('cors')
-//const someMiddleware = require('./middleware/someMiddleware');
-require('dotenv').config()
+import express from 'express';
+import cors from 'cors';
+import 'dotenv/config';
+import apiRoutes from './apiRoutes.js';
+import OpenAI from 'openai';
+
 const app = express();
+const port = process.env.PORT || 3000;
 
-const port = 3000
-
-app.use(cors())
+// Middleware
+app.use(cors());
 app.use(express.json());
-app.use('/api8989', apiRoutes)
+
+// Routes
+app.use('/api8989', apiRoutes);
 
 
-/* app.use(function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    next();
-}); */
+//FOR OPENAI API TESTING
+const openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY,
+});
 
-app.listen(process.env.PORT || 3000)
+//THE TEST ENDPOINT
+app.get("/test-openai", async (req, res) => {
+    try {
+        const response = await openai.chat.completions.create({
+            model: "gpt-4o-mini",
+            messages: [{ role: "user", content: "Hello, can you hear me?" }],
+        });
+
+        res.json({ reply: response.choices[0].message.content });
+    } catch (error) {
+        console.error("OpenAI error:", error);
+        res.status(500).json({ error: error.message });
+    }
+});
+
+
+// Start server
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+});
