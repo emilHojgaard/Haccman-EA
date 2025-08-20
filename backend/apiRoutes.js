@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
-import { sendPrompts, firstGuardRail, secondGuardRail, interaction, ensureRedisConnection } from './apiController.js';
+import { sendPrompts, firstGuardRail, secondGuardRail, interaction } from './apiController.js';
 import { client } from './redisClient.js';
 
 const router = express.Router();
