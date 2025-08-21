@@ -28,13 +28,13 @@ function App() {
   }, [name]);
 
   //TEST LOCAL BACKEND CONNECTION:
-  useEffect(() => {
-    async function testBackend() {
-      const data = await pingBackend();
-      if (data) console.log(data.message);
-    }
-    testBackend();
-  }, []);
+  // useEffect(() => {
+  //   async function testBackend() {
+  //     const data = await pingBackend();
+  //     if (data) console.log(data.message);
+  //   }
+  //   testBackend();
+  // }, []);
 
   return (
     <SoundEffectProvider>
