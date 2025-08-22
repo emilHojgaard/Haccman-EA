@@ -9,16 +9,35 @@ import opponent6 from "../assets/avatar6.png";
 import opponent41 from "../assets/avatar41.png";
 import opponent42 from "../assets/avatar42.png";
 import opponent43 from "../assets/avatar43.png";
+//Supabase:
+import { startConversation } from "../apiSupabase";
 
 function Choose(props) {
   const currentChallenge = props.chosenChallenge;
   const setCurrentChallenge = props.setChosenChallenge;
   const navigate = useNavigate();
   const { playSoundEffect } = useSoundEffect();
+  //Supabase:
+  const [starting, setStarting] = useState(false);
 
   const list_of_challenges = props.listOfChallenges;
 
   const containerRef = useRef(null);
+
+  //Supabase:
+  async function onStartWithBot(botNumber) {
+    if (starting) return; // prevent multiple clicks
+    try {
+      setStarting(true);
+      const session = await startConversation(botNumber);
+      navigate(`/play2?sid=${session.id}`); // pass session id via query
+    } catch (e) {
+      console.error(e);
+      // show toast/error if you like
+    } finally {
+      setStarting(false);
+    }
+  }
 
   ArrowKeysReact.config({
     left: () => {
@@ -54,7 +73,14 @@ function Choose(props) {
     const handleKeyPress = (event) => {
       if (event.keyCode === 13) {
         playSoundEffect("select");
-        navigate("/play2");
+
+        //Supabase:
+        const chosen = list_of_challenges.find(
+          (el) => el.number === currentChallenge
+        );
+        if (chosen) onStartWithBot(chosen.number); // <— start session here
+        event.stopPropagation();
+
         event.stopPropagation();
       }
 
@@ -124,7 +150,9 @@ function Choose(props) {
 
                   <div
                     onClick={() => {
-                      navigate("/play2");
+                      //supabase:
+                      onStartWithBot(el.number);
+
                       setCurrentChallenge(el.number);
                       playSoundEffect("select");
                     }}
@@ -184,9 +212,11 @@ function Choose(props) {
 
                   <div
                     onClick={() => {
-                      navigate("/play2");
+                      //supabase:
+                      onStartWithBot(el.number);
+
                       setCurrentChallenge(el.number);
-                      playSoundEffect();
+                      playSoundEffect("select");
                     }}
                     style={{
                       display: "flex",

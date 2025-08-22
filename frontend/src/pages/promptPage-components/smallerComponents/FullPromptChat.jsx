@@ -6,8 +6,6 @@ export default function FullPromptChat({
   date,
   usingMemory,
   sendPrompt,
-  oldSendPrompt,
-  storeMessage,
   playSoundEffect,
   currentChallenge,
   currentModel,
@@ -21,8 +19,7 @@ export default function FullPromptChat({
       <PromptWindow previousPrompts={previousPrompts} date={date} />
 
       <PromptInputBox
-        onSend={usingMemory ? sendPrompt : oldSendPrompt}
-        onStore={storeMessage}
+        onSend={sendPrompt}
         onClear={() => setPreviousPrompts([])}
         playSoundEffect={playSoundEffect}
         currentChallenge={currentChallenge}

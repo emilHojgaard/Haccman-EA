@@ -1,4 +1,4 @@
-import Prompt from "./pages/PromptPage";
+import Prompt from "./pages/PromptPageSupabase";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SoundEffectProvider } from "./theLeftoverFiles/SoundEffectContext";
 import Initial from "./pages/InitialPage";
@@ -9,7 +9,11 @@ import "react-h5-audio-player/lib/styles.css";
 import MusicPlayer from "./theLeftoverFiles/MusicPlayer";
 import DataPage from "./pages/DataPage";
 import { ListOfChallenges } from "./theLeftoverFiles/ListOfChallenges";
-import { pingBackend } from "./api";
+// import { pingBackend } from "./api";
+import {
+  supabase,
+  ensureAnonymousSession,
+} from "./theLeftoverFiles/SupabaseClient.jsx";
 
 function App() {
   const [selectedChallenge, setSelectedChallenge] = useState(0);
@@ -18,14 +22,14 @@ function App() {
   const listOfChallenges = ListOfChallenges;
 
   //user stuff
-  const [name, setName] = useState("horse_with_no_name");
+  const [name, setName] = useState("");
   const [age, setAge] = useState("");
   const [gender, setGender] = useState("");
   const [familiarity, setFamiliarity] = useState("");
 
   useEffect(() => {
-    console.log("username", name);
-  }, [name]);
+    ensureAnonymousSession().catch(console.error);
+  }, []);
 
   //TEST LOCAL BACKEND CONNECTION:
   // useEffect(() => {

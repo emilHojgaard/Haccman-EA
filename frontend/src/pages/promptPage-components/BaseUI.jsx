@@ -12,8 +12,6 @@ export default function BaseUI({
   date,
   usingMemory,
   sendPrompt,
-  oldSendPrompt,
-  storeMessage,
   playSoundEffect,
   currentModel,
   setUsingMemory,
@@ -56,8 +54,6 @@ export default function BaseUI({
               date={date}
               usingMemory={usingMemory}
               sendPrompt={sendPrompt}
-              oldSendPrompt={oldSendPrompt}
-              storeMessage={storeMessage}
               playSoundEffect={playSoundEffect}
               currentChallenge={currentChallenge}
               currentModel={currentModel}

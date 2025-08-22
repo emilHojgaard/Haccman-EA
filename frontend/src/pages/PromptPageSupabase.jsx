@@ -7,22 +7,46 @@ import GuardrailInfo from "./promptPage-components/smallerComponents/GuardrailIn
 import LLMInfo from "./promptPage-components/smallerComponents/LLMInfo";
 import UserPromptInfo from "./promptPage-components/smallerComponents/UserPromptInfo";
 import SystemInfo from "./promptPage-components/smallerComponents/SystemInfo";
-// import {
-//   fetchOldPromptResponse,
-//   sendPromptToMemory,
-//   storeInteraction,
-// } from "../api";
-import {
-  fetchOldPromptResponse,
-  sendPromptToMemory,
-  storeInteraction,
-} from "../apiSupabase";
+import { sendPromptToMemory } from "../apiSupabase";
+import { insertPrompt, insertResponse, loadMessages } from "../apiSupabase";
 import {
   containsForbiddenPhrases,
   containsForbiddenWords,
 } from "./promptPage-components/smallerComponents/ForbiddenChecks";
 
+//supabase:
+import { useLocation } from "react-router-dom";
+
 function Prompt(props) {
+  //supabase:
+  function useSessionId() {
+    const { search } = useLocation();
+    const qp = new URLSearchParams(search);
+    return qp.get("sid");
+  }
+  const sessionId = useSessionId();
+
+  //Supabase:
+  //loading previous messages
+  useEffect(() => {
+    if (!sessionId) return;
+    (async () => {
+      try {
+        const rows = await loadMessages(sessionId);
+        // Map DB shape -> your UI shape
+        const mapped = rows.map((r) => ({
+          id: r.role === "user" ? "user" : "adversary",
+          message: r.content,
+          model: currentModel, // keep your existing model field
+        }));
+        setPreviousPrompts(mapped);
+      } catch (e) {
+        console.log("loadMessages failed:", e);
+      }
+    })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sessionId]);
+
   // State for managing information panels
   const [infoPanels, setInfoPanels] = useState({
     specificOn: false,
@@ -49,41 +73,34 @@ function Prompt(props) {
   const date = new Date();
 
   //API CALLS
+  //supabase:
   const sendPrompt = async (message, thread, systemPrompt) => {
     try {
+      if (!sessionId) throw new Error("Missing session id");
+
+      // 1) Optimistic UI: show user message immediately
       setPreviousPrompts((prev) => [
         ...prev,
         { id: "user", message, model: systemPrompt },
       ]);
-      const responseRow = await sendPromptToMemory(
+
+      // 2) Insert prompt row in DB
+      const promptRow = await insertPrompt(sessionId, message);
+
+      // 3) Get AI reply from your existing backend
+      const responseText = await sendPromptToMemory(
         message,
         thread,
         systemPrompt
       );
-      //old(redis)-version: setResponse(responseText);
-      //Supabase-version:
-      setResponse(responseRow.text);
+
+      // 4) Insert AI response linked to that prompt
+      await insertResponse(promptRow.id, responseText);
+
+      // 5) Keep your existing flow: setResponse triggers handleResponse()
+      setResponse(responseText);
     } catch (err) {
       console.log("sendPrompt failed:", err);
-    }
-  };
-
-  const oldSendPrompt = async (message, thread, model) => {
-    try {
-      setPreviousPrompts((prev) => [...prev, { id: "user", message, model }]);
-      const result = await fetchOldPromptResponse(message, thread, model);
-      setResponse(result);
-    } catch (err) {
-      console.log("oldSendPrompt failed:", err);
-    }
-  };
-
-  const storeMessage = async (message, username, time) => {
-    try {
-      const result = await storeInteraction(message, username, time);
-      console.log("Stored:", result);
-    } catch (err) {
-      console.log("storeMessage failed:", err);
     }
   };
 
@@ -98,7 +115,7 @@ function Prompt(props) {
     ]);
     // Store the message
     const timeString = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-    await storeMessage(responseText, props.name, timeString);
+    //await storeMessage(responseText, props.name, timeString);
     // Check if the current challenge is completed
     const challenge = list_of_challenges[currentChallenge];
     const isBeaten =
@@ -211,8 +228,6 @@ function Prompt(props) {
         date={date}
         usingMemory={usingMemory}
         sendPrompt={sendPrompt}
-        oldSendPrompt={oldSendPrompt}
-        storeMessage={storeMessage}
         playSoundEffect={playSoundEffect}
         currentModel={currentModel}
         setInfoPanels={setInfoPanels}

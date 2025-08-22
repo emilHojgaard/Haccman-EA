@@ -33,21 +33,24 @@ export async function fetchOldPromptResponse(message, thread, model) {
     throw err;
   }
 }
-
-export async function sendPromptToMemory(message, thread, systemPrompt) {
-  try {
-    const res = await fetch(`${API_BASE_NEW}/chatmemory`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message, thread, system_prompt: systemPrompt }),
-    });
-    const data = await res.json();
-    return data.response;
-  } catch (err) {
-    console.error("Error in sendPromptToMemory:", err);
-    throw err;
-  }
+export async function sendPromptToMemory(message /*, thread, systemPrompt */) {
+  // TEMP STUB: keep UI + Supabase flow working
+  return `Echo: ${message}`;
 }
+// export async function sendPromptToMemory(message, thread, systemPrompt) {
+//   try {
+//     const res = await fetch(`${API_BASE_NEW}/chatmemory`, {
+//       method: "POST",
+//       headers: { "Content-Type": "application/json" },
+//       body: JSON.stringify({ message, thread, system_prompt: systemPrompt }),
+//     });
+//     const data = await res.json();
+//     return data.response;
+//   } catch (err) {
+//     console.error("Error in sendPromptToMemory:", err);
+//     throw err;
+//   }
+// }
 
 export async function storeInteraction(
   message,

@@ -1,53 +1,104 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
+import { supabase } from "../theLeftoverFiles/SupabaseClient.jsx";
 
 function Initial(props) {
   // Initialize state for the input values
-  const [input1Value, setInput1Value] = useState("");
-  const [input2Value, setinput2Value] = useState("");
+  const [username, setUsername] = useState("");
+  const [age, setAge] = useState("");
   const [gender, setGender] = useState("");
   const [familiarity, setFamiliarity] = useState("");
   const [ready, setReady] = useState(false);
   const { playSoundEffect } = useSoundEffect();
   const [ageError, setAgeError] = useState("");
+  //SUPABASE: new states...
+  const [hasUser, setHasUser] = useState(false);
+  const [nameFromProfile, setNameFromProfile] = useState("");
+  const [saving, setSaving] = useState(false);
+  const [saveError, setSaveError] = useState("");
+
+  const navigate = useNavigate();
+
+  //SUPABASE: checks if user is authenticated and has a profile
+  useEffect(() => {
+    (async () => {
+      // auth is already ensured by App.jsx
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+      if (!user) return; // very unlikely now
+
+      const { data: profile } = await supabase
+        .from("profiles")
+        .select("username")
+        .eq("id", user.id)
+        .maybeSingle();
+
+      // If the player already has a name, skip this screen
+      if (profile?.username) {
+        setHasUser(true);
+        setNameFromProfile(profile.full_name);
+      }
+    })();
+  }, [navigate]);
+
+  //SUPABASE: handles the continue button click
+  async function handleContinue() {
+    if (!ready) return;
+    try {
+      setSaving(true);
+      setSaveError("");
+
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+      if (!user) {
+        setSaveError("No user session found.");
+        setSaving(false);
+        return;
+      }
+
+      const payload = {
+        id: user.id,
+        username: username.trim(),
+        age: age ? Number(age) : null,
+        gender: gender || null,
+        familiarity: familiarity || null,
+        updated_at: new Date().toISOString(),
+      };
+
+      const { error } = await supabase
+        .from("profiles")
+        .upsert(payload)
+        .select()
+        .single();
+      if (error) throw error;
+
+      // if you also keep local state via props:
+      props.setName?.(input1Value);
+      props.setAge?.(input2Value);
+      props.setGender?.(gender);
+      props.setFamiliarity?.(familiarity);
+
+      navigate("/play");
+    } catch (e) {
+      setSaveError(e.message || "Failed to save profile");
+    } finally {
+      setSaving(false);
+    }
+  }
 
   //ref for the input
   const inputRef = useRef(null);
 
-  /* ArrowKeysReact.config({
-        left: () => {
-            playSoundEffect('navigate');
-            console.log("hey")
-
-        },
-        right: () => {
-            playSoundEffect('navigate');
-            console.log("hey")
-
-        },
-        up: () => {
-            playSoundEffect('navigate');
-            console.log("hey")
-
-        },
-        down: () => {
-            playSoundEffect('navigate');
-            console.log("hey")
-
-        }
-    }); */
-
   useEffect(() => {
     // Check if the username field is empty
-    if (input1Value.trim() === "") {
+    if (username.trim() === "") {
       setReady(false);
     } else {
       // Check if the age field is either empty or a valid number between 8 and 120
-      if (
-        input2Value === "" ||
-        (!isNaN(input2Value) && input2Value >= 8 && input2Value <= 120)
-      ) {
+      if (age === "" || (!isNaN(age) && age >= 8 && age <= 120)) {
         setAgeError("");
         setReady(true);
       } else {
@@ -55,20 +106,20 @@ function Initial(props) {
         setReady(false);
       }
     }
-  }, [input1Value, input2Value]);
+  }, [username, age]);
 
   // Event handler to update the input value when it changes
   const handle1Change = (event) => {
     const value = event.target.value;
     if (value.length <= 6) {
-      setInput1Value(value);
+      setUsername(value);
     }
   };
 
   // Event handler to update the age input value and validate it
   const handle2Change = (event) => {
     const value = event.target.value;
-    setinput2Value(value);
+    setAge(value);
 
     if (value === "" || (!isNaN(value) && value >= 8 && value <= 120)) {
       setAgeError("");
@@ -98,9 +149,8 @@ function Initial(props) {
       // Check if the key pressed is Enter (key code 13) and form is ready
       if (event.keyCode === 13 && ready && moveCounter === 3) {
         playSoundEffect("select");
-        // Find the button element by its id and click it
-        document.getElementById("toplay").click();
         event.stopPropagation();
+        handleContinue();
       }
 
       if (event.keyCode === 13 && ready) {
@@ -170,6 +220,12 @@ function Initial(props) {
           marginTop: "1vh",
         }}
       >
+        {hasUser && (
+          <button onClick={() => navigate("/play", { replace: true })}>
+            Play as {nameFromProfile}
+          </button>
+        )}
+
         {moveCounter === 0 && (
           <div
             style={{
@@ -194,7 +250,7 @@ function Initial(props) {
               autoFocus
               id="nameInput"
               ref={inputRef}
-              value={input1Value}
+              value={username}
               onChange={handle1Change}
               className="vaporwave-input"
               maxLength="6"
@@ -225,7 +281,7 @@ function Initial(props) {
             <input
               autoFocus
               id="ageInput"
-              value={input2Value}
+              value={age}
               onChange={handle2Change}
               className="vaporwave-input2"
             />
@@ -339,22 +395,21 @@ function Initial(props) {
 
             <div style={{ paddingTop: 20 }}>
               {ready && (
-                <Link to="/play">
-                  <button
-                    id="toplay"
-                    className="vaporwave-button"
-                    style={{ fontSize: 60, fontFamily: "ARCADE_I" }}
-                    onClick={() => {
-                      playSoundEffect("select");
-                      props.setName(input1Value);
-                      props.setAge(input2Value);
-                      props.setGender(gender);
-                      props.setFamiliarity(familiarity);
-                    }}
-                  >
-                    Press Enter to Access Game
-                  </button>
-                </Link>
+                <button
+                  id="toplay"
+                  className="vaporwave-button"
+                  style={{ fontSize: 60, fontFamily: "ARCADE_I" }}
+                  onClick={() => {
+                    playSoundEffect("select");
+                    handleContinue();
+                  }}
+                  disabled={saving}
+                >
+                  {saving ? "Entering…" : "Press Enter to Access Game"}
+                </button>
+              )}
+              {saveError && (
+                <div style={{ color: "red", marginTop: 8 }}>{saveError}</div>
               )}
             </div>
           </>
