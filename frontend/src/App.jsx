@@ -9,7 +9,6 @@ import "react-h5-audio-player/lib/styles.css";
 import MusicPlayer from "./theLeftoverFiles/MusicPlayer";
 import DataPage from "./pages/DataPage";
 import { ListOfChallenges } from "./theLeftoverFiles/ListOfChallenges";
-// import { pingBackend } from "./api";
 import {
   supabase,
   ensureAnonymousSession,
@@ -30,15 +29,6 @@ function App() {
   useEffect(() => {
     ensureAnonymousSession().catch(console.error);
   }, []);
-
-  //TEST LOCAL BACKEND CONNECTION:
-  // useEffect(() => {
-  //   async function testBackend() {
-  //     const data = await pingBackend();
-  //     if (data) console.log(data.message);
-  //   }
-  //   testBackend();
-  // }, []);
 
   return (
     <SoundEffectProvider>
