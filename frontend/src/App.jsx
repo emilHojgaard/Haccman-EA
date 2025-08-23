@@ -35,17 +35,7 @@ function App() {
       <BrowserRouter>
         <MusicPlayer />
         <Routes>
-          <Route
-            path="/"
-            element={
-              <Initial
-                setName={setName}
-                setAge={setAge}
-                setGender={setGender}
-                setFamiliarity={setFamiliarity}
-              />
-            }
-          ></Route>
+          <Route path="/" element={<Initial />}></Route>
           <Route path="/data" element={<DataPage />}></Route>
           <Route
             path="/play"
