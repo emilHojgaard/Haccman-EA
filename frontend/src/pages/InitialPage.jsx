@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
-import { useInitialController } from "../initialpageCompontents/InitialFunction.jsx";
+import { useInitialController } from "./initialpageCompontents/InitialFunction.jsx";
 
 const STEPS = ["username", "age", "gender", "familiarity"];
 
