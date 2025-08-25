@@ -1,2 +1,0 @@
-export default [{ name: "Chat GPT-3.5 Turbo", endpoint: "gpt-3.5-turbo", type: "openai" }, { name: "Chat GPT-4", endpoint: "gpt-4", type: "openai" },
-{ name: "Google Gemma 1.1 7b", endpoint: "", type: "other" }]

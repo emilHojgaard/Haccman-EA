@@ -20,6 +20,7 @@ export default function FullPromptChat({
 
       <PromptInputBox
         onSend={sendPrompt}
+        onStore={storeMessage}
         onClear={() => setPreviousPrompts([])}
         playSoundEffect={playSoundEffect}
         currentChallenge={currentChallenge}

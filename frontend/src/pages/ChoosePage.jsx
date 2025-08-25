@@ -80,8 +80,6 @@ function Choose(props) {
         );
         if (chosen) onStartWithBot(chosen.number); // <— start session here
         event.stopPropagation();
-
-        event.stopPropagation();
       }
 
       if (event.keyCode === 27) {

@@ -47,7 +47,12 @@ export default function Initial() {
   return (
     <div className="background">
       <Link to="/data">
-        <button className="datapage-button">Data</button>
+        <button
+          style={{ background: "black", color: "white" }}
+          className="datapage-button"
+        >
+          Data
+        </button>
       </Link>
 
       <img src="/Sticker graphic 1.png" alt="Custom Image" className="logo" />
