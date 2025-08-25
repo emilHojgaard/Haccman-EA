@@ -5,7 +5,7 @@ const FN_URL =
   (import.meta.env ? import.meta.env.VITE_SUPABASE_URL : undefined) ||
   "https://yqroigcevcoddsmangyg.supabase.co";
 
-export async function sendPromptToMemory(message, thread, systemPrompt) {
+export async function sendPromptToMemory(message, systemPrompt) {
   const {
     data: { session },
   } = await supabase.auth.getSession();
@@ -18,7 +18,7 @@ export async function sendPromptToMemory(message, thread, systemPrompt) {
         ? { Authorization: `Bearer ${session.access_token}` }
         : {}),
     },
-    body: JSON.stringify({ message, thread, systemPrompt }),
+    body: JSON.stringify({ message, systemPrompt }),
   });
 
   if (!resp.ok) {

@@ -74,7 +74,7 @@ function Prompt(props) {
 
   //API CALLS
   //supabase:
-  const sendPrompt = async (message, thread, systemPrompt) => {
+  const sendPrompt = async (message, systemPrompt) => {
     try {
       if (!sessionId) throw new Error("Missing session id");
 
@@ -88,11 +88,7 @@ function Prompt(props) {
       const promptRow = await insertPrompt(sessionId, message);
 
       // 3) Get AI reply from your existing backend
-      const responseText = await sendPromptToMemory(
-        message,
-        thread,
-        systemPrompt
-      );
+      const responseText = await sendPromptToMemory(message, systemPrompt);
 
       // 4) Insert AI response linked to that prompt
       await insertResponse(promptRow.id, responseText);
