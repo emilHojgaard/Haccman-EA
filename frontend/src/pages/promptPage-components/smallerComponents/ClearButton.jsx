@@ -1,11 +1,9 @@
 import { useSoundEffect } from "../../../theLeftoverFiles/SoundEffectContext";
 
-export default function ClearButton({ onClear }) {
-  const { playSoundEffect } = useSoundEffect();
-
+export default function ClearButton({ onClear, playSoundEffect }) {
   const handleClick = () => {
-    playSoundEffect?.("select"); // Optional sound
-    onClear?.(); // Clear callback
+    playSoundEffect?.("select");
+    onClear?.();
   };
 
   return (

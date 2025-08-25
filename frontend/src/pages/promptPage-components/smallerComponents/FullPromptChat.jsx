@@ -7,9 +7,6 @@ export default function FullPromptChat({
   usingMemory,
   sendPrompt,
   playSoundEffect,
-  currentChallenge,
-  currentModel,
-  props,
 }) {
   return (
     <div
@@ -20,13 +17,7 @@ export default function FullPromptChat({
 
       <PromptInputBox
         onSend={sendPrompt}
-        onStore={storeMessage}
-        onClear={() => setPreviousPrompts([])}
         playSoundEffect={playSoundEffect}
-        currentChallenge={currentChallenge}
-        currentModel={currentModel}
-        propsName={props.name}
-        propsAge={props.age}
         usingMemory={usingMemory}
       />
     </div>

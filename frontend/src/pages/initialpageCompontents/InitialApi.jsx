@@ -1,4 +1,3 @@
-// src/lib/profilesApi.js
 import { supabase } from "../../theLeftoverFiles/SupabaseClient.jsx";
 
 export async function getCurrentUser() {

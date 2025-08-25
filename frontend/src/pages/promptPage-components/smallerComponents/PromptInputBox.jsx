@@ -4,13 +4,8 @@ import ClearButton from "./ClearButton";
 
 export default function PromptInputBox({
   onSend, // sendPrompt or oldSendPrompt
-  onStore, // storeMessage function
   onClear, // clear previous prompts
-  playSoundEffect, // function to play sfx
-  currentChallenge,
-  currentModel,
-  propsName,
-  propsAge,
+  playSoundEffect,
   usingMemory = true, // toggle memory mode
 }) {
   const [inputValue, setInputValue] = useState("");
@@ -18,23 +13,10 @@ export default function PromptInputBox({
   const date = new Date();
 
   const handleSend = () => {
-    if (!inputValue.trim()) return;
-
+    const text = inputValue.trim();
+    if (!text) return;
     playSoundEffect?.("select");
-
-    if (usingMemory) {
-      onSend(inputValue, propsName + propsAge, currentChallenge);
-    } else {
-      onSend(inputValue, currentChallenge, currentModel);
-    }
-
-    onStore?.(
-      inputValue,
-      propsName,
-      `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`,
-      "message"
-    );
-
+    onSend(text);
     setInputValue("");
   };
 
@@ -82,15 +64,10 @@ export default function PromptInputBox({
         inputValue={inputValue}
         setInputValue={setInputValue}
         onSend={onSend}
-        onStore={onStore}
         playSoundEffect={playSoundEffect}
-        currentChallenge={currentChallenge}
-        currentModel={currentModel}
-        propsName={propsName}
-        propsAge={propsAge}
         usingMemory={usingMemory}
       />
-      <ClearButton onClear={handleClear} playSoundEffect={playSoundEffect} />
+      <ClearButton onClear={handleClear} />
     </div>
   );
 }

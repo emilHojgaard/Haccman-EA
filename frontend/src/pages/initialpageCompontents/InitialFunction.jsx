@@ -63,14 +63,17 @@ export function useInitialController() {
     const username = e.target.value;
     if (username.length <= MAX_NAME_LEN) setForm((f) => ({ ...f, username }));
   }, []);
+
   const onAgeChange = useCallback((e) => {
     const age = e.target.value;
     setForm((f) => ({ ...f, age }));
   }, []);
+
   const onGenderChange = useCallback((e) => {
     const gender = e.target.value;
     setForm((f) => ({ ...f, gender }));
   }, []);
+
   const onFamiliarityChange = useCallback((e) => {
     const familiarity = e.target.value;
     setForm((f) => ({ ...f, familiarity }));
