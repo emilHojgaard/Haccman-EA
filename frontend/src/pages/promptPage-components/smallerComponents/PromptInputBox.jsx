@@ -3,10 +3,10 @@ import SendButton from "./SendButton";
 import ClearButton from "./ClearButton";
 
 export default function PromptInputBox({
-  onSend, // sendPrompt or oldSendPrompt
-  onClear, // clear previous prompts
+  onSend,
+  onClear,
   playSoundEffect,
-  usingMemory = true, // toggle memory mode
+  usingMemory = true,
 }) {
   const [inputValue, setInputValue] = useState("");
 

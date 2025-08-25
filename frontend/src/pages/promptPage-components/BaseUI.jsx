@@ -13,15 +13,7 @@ export default function BaseUI({
   usingMemory,
   sendPrompt,
   playSoundEffect,
-  currentModel,
-  setUsingMemory,
-  setGuardarailInfo,
-  setSpecificOn,
-  setLLMInfo,
-  setUserpromptInfo,
-  setSystemInfo,
   setInfoPanels,
-  props,
 }) {
   return (
     <div style={{ zIndex: 1 }}>
@@ -56,8 +48,6 @@ export default function BaseUI({
               sendPrompt={sendPrompt}
               playSoundEffect={playSoundEffect}
               currentChallenge={currentChallenge}
-              currentModel={currentModel}
-              props={props}
             />
           </div>
 
@@ -75,10 +65,7 @@ export default function BaseUI({
               list_of_challenges={list_of_challenges}
               currentChallenge={currentChallenge}
             />
-            <MemoryActivation
-              usingMemory={usingMemory}
-              setUsingMemory={setUsingMemory}
-            />
+            <MemoryActivation usingMemory={usingMemory} />
             <div style={{ display: "flex", flexDirection: "row", gap: "2vh" }}>
               <InfoPannel setInfoPanels={setInfoPanels} />
 
