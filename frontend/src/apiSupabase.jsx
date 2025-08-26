@@ -100,3 +100,54 @@ export async function loadMessages(sessionId) {
   if (error) throw error;
   return data;
 }
+
+//------------------FOR DATA RETRIEVAL----------------------
+
+// All usernames (sorted). Requires RLS to allow read for this page.
+export async function getAllUsernames() {
+  const { data, error } = await supabase
+    .from("profiles")
+    .select("id, username")
+    .order("username", { ascending: true });
+  if (error) throw error;
+  return data || [];
+}
+
+// All sessions for a user, newest first
+export async function getSessionsByUser(userId) {
+  const { data, error } = await supabase
+    .from("sessions")
+    .select("id, bot_id, started_at, ended_at")
+    .eq("user_id", userId)
+    .order("started_at", { ascending: false });
+  if (error) throw error;
+  return data || [];
+}
+
+// Flattened messages for a session (user + assistant)
+export async function loadMessagesData(sessionId) {
+  // Get prompts with nested responses
+  const { data, error } = await supabase
+    .from("prompts")
+    .select("id, content, created_at, responses(content, created_at)")
+    .eq("session_id", sessionId)
+    .order("created_at", { ascending: true });
+
+  if (error) throw error;
+
+  // Flatten into a single chronological array with roles
+  const flat = [];
+  for (const p of data || []) {
+    flat.push({ role: "user", content: p.content, created_at: p.created_at });
+    for (const r of p.responses || []) {
+      flat.push({
+        role: "assistant",
+        content: r.content,
+        created_at: r.created_at,
+      });
+    }
+  }
+  // Sort again in case response timestamps interleave
+  flat.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+  return flat;
+}

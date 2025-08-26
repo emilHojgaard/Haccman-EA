@@ -202,7 +202,7 @@ function Prompt(props) {
         previousPrompts={previousPrompts}
         date={date}
         usingMemory={usingMemory}
-        sendPrompt={sendPrompt} // <-- only (message)
+        sendPrompt={sendPrompt}
         playSoundEffect={playSoundEffect}
         setInfoPanels={setInfoPanels}
       />
