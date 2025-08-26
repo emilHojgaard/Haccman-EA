@@ -5,7 +5,7 @@ import opponent41 from "../../../assets/avatar41.png";
 import opponent42 from "../../../assets/avatar42.png";
 import opponent43 from "../../../assets/avatar43.png";
 
-export default function ShowOpponent({ list_of_challenges, currentChallenge }) {
+export default function ShowOpponent({ list_of_challenges, selectedBot }) {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <div
@@ -41,19 +41,19 @@ export default function ShowOpponent({ list_of_challenges, currentChallenge }) {
             background: "#F5EB1D",
           }}
         >
-          {list_of_challenges[currentChallenge].is}
+          {list_of_challenges[selectedBot].is}
         </div>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div>
-            {list_of_challenges[currentChallenge].number === 0 ? (
+            {list_of_challenges[selectedBot].number === 0 ? (
               <img src={opponent43} width={"140px"}></img>
-            ) : list_of_challenges[currentChallenge].number === 1 ? (
+            ) : list_of_challenges[selectedBot].number === 1 ? (
               <img src={opponent41} width={"140px"}></img>
-            ) : list_of_challenges[currentChallenge].number === 2 ? (
+            ) : list_of_challenges[selectedBot].number === 2 ? (
               <img src={opponent42} width={"140px"}></img>
-            ) : list_of_challenges[currentChallenge].number === 3 ? (
+            ) : list_of_challenges[selectedBot].number === 3 ? (
               <img src={opponent2} width={"140px"}></img>
-            ) : list_of_challenges[currentChallenge].number === 4 ? (
+            ) : list_of_challenges[selectedBot].number === 4 ? (
               <img src={opponent3} width={"140px"}></img>
             ) : (
               <img src={opponent6} width={"140px"}></img>
@@ -68,7 +68,7 @@ export default function ShowOpponent({ list_of_challenges, currentChallenge }) {
               color: "#FFFADE",
             }}
           >
-            {list_of_challenges[currentChallenge].long_system_description}
+            {list_of_challenges[selectedBot].long_system_description}
           </div>
         </div>
       </div>

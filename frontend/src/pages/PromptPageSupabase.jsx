@@ -50,7 +50,7 @@ function Prompt(props) {
 
   // props
   const list_of_challenges = props.listOfChallenges;
-  const currentChallenge = props.chosenChallenge;
+  const selectedBot = props.selectedBot;
 
   const date = new Date();
 
@@ -79,7 +79,7 @@ function Prompt(props) {
       if (!sessionId) throw new Error("Missing session id");
 
       // Compute the system prompt from the selected challenge
-      const systemPrompt = list_of_challenges[currentChallenge]?.system ?? "";
+      const systemPrompt = list_of_challenges[selectedBot]?.system ?? "";
 
       // 1) Optimistic UI: show user message immediately
       setPreviousPrompts((prev) => [...prev, { id: "user", message }]);
@@ -111,15 +111,15 @@ function Prompt(props) {
     ]);
 
     // Win check
-    const challenge = list_of_challenges[currentChallenge];
+    const challenge = list_of_challenges[selectedBot];
     const isBeaten =
-      currentChallenge !== 0
+      selectedBot !== 0
         ? containsForbiddenPhrases(challenge.resolution, responseText)
         : containsForbiddenWords(responseText, challenge.resolution);
 
     if (isBeaten) {
       console.log("Challenge beaten!");
-      props.setCompletedChallenges((prev) => [...prev, currentChallenge]);
+      props.setCompletedChallenges((prev) => [...prev, selectedBot]);
       playSoundEffect("win");
       setWinState(true);
     } else {
@@ -191,14 +191,14 @@ function Prompt(props) {
       {infoPanels.systemInfo && (
         <SystemInfo
           list_of_challenges={list_of_challenges}
-          currentChallenge={currentChallenge}
+          selectedBot={selectedBot}
           setInfoPanels={setInfoPanels}
         />
       )}
 
       <BaseUI
         list_of_challenges={list_of_challenges}
-        currentChallenge={currentChallenge}
+        selectedBot={selectedBot}
         previousPrompts={previousPrompts}
         date={date}
         usingMemory={usingMemory}

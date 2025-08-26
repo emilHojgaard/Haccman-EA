@@ -7,7 +7,7 @@ import InfoPannel from "./smallerComponents/InfoPannel";
 
 export default function BaseUI({
   list_of_challenges,
-  currentChallenge,
+  selectedBot,
   previousPrompts,
   date,
   usingMemory,
@@ -38,7 +38,7 @@ export default function BaseUI({
           >
             <PageTitle
               list_of_challenges={list_of_challenges}
-              currentChallenge={currentChallenge}
+              selectedBot={selectedBot}
             />
 
             <FullPromptChat
@@ -47,7 +47,7 @@ export default function BaseUI({
               usingMemory={usingMemory}
               sendPrompt={sendPrompt}
               playSoundEffect={playSoundEffect}
-              currentChallenge={currentChallenge}
+              // selectedBot={selectedBot} (LOOK again if it is needed ! )
             />
           </div>
 
@@ -63,7 +63,7 @@ export default function BaseUI({
           >
             <ShowOpponent
               list_of_challenges={list_of_challenges}
-              currentChallenge={currentChallenge}
+              selectedBot={selectedBot}
             />
             <MemoryActivation usingMemory={usingMemory} />
             <div style={{ display: "flex", flexDirection: "row", gap: "2vh" }}>

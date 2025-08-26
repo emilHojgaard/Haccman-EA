@@ -15,7 +15,7 @@ import {
 } from "./theLeftoverFiles/SupabaseClient.jsx";
 
 function App() {
-  const [selectedChallenge, setSelectedChallenge] = useState(0);
+  const [selectedBot, setSelectedBot] = useState(0);
   const [completedChallenges, setCompletedChallenges] = useState([]);
   //A.I Anderson
   const listOfChallenges = ListOfChallenges;
@@ -41,8 +41,8 @@ function App() {
             path="/play"
             element={
               <Choose
-                chosenChallenge={selectedChallenge}
-                setChosenChallenge={setSelectedChallenge}
+                selectedBot={selectedBot}
+                setSelectedBot={setSelectedBot}
                 listOfChallenges={listOfChallenges}
                 completedChallenges={completedChallenges}
               />
@@ -52,7 +52,7 @@ function App() {
             path="/play2"
             element={
               <Prompt
-                chosenChallenge={selectedChallenge}
+                selectedBot={selectedBot}
                 listOfChallenges={listOfChallenges}
                 name={name}
                 age={age}

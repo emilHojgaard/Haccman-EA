@@ -1,6 +1,6 @@
 export default function SystemInfo({
   list_of_challenges,
-  currentChallenge,
+  selectedBot,
   setInfoPanels,
 }) {
   return (
@@ -63,19 +63,16 @@ export default function SystemInfo({
               }}
             >
               <div style={{ paddingLeft: "10px" }}>
-                {list_of_challenges[currentChallenge].is}
+                {list_of_challenges[selectedBot].is}
               </div>
 
               <div> {"> This LLM has the following system message: "}</div>
+              <div> {'"' + list_of_challenges[selectedBot].system + '"'}</div>
               <div>
                 {" "}
-                {'"' + list_of_challenges[currentChallenge].system + '"'}
-              </div>
-              <div>
-                {" "}
-                {list_of_challenges[currentChallenge].difficulty === "easy"
+                {list_of_challenges[selectedBot].difficulty === "easy"
                   ? "> There are NO active guardrails"
-                  : list_of_challenges[currentChallenge].difficulty === "medium"
+                  : list_of_challenges[selectedBot].difficulty === "medium"
                   ? "> There is ONE active guardrail"
                   : "> There are TWO active guardrails"}
               </div>

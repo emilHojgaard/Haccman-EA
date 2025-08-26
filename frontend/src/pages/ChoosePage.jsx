@@ -13,8 +13,8 @@ import opponent43 from "../assets/avatar43.png";
 import { startConversation } from "../apiSupabase";
 
 function Choose(props) {
-  const currentChallenge = props.chosenChallenge;
-  const setCurrentChallenge = props.setChosenChallenge;
+  const selectedBot = props.selectedBot;
+  const setSelectedBot = props.setSelectedBot;
   const navigate = useNavigate();
   const { playSoundEffect } = useSoundEffect();
   //Supabase:
@@ -41,26 +41,26 @@ function Choose(props) {
 
   ArrowKeysReact.config({
     left: () => {
-      if (currentChallenge % 3 !== 0) {
-        setCurrentChallenge((prev) => prev - 1);
+      if (selectedBot % 3 !== 0) {
+        setSelectedBot((prev) => prev - 1);
         playSoundEffect("navigate");
       }
     },
     right: () => {
-      if (currentChallenge % 3 !== 2) {
-        setCurrentChallenge((prev) => prev + 1);
+      if (selectedBot % 3 !== 2) {
+        setSelectedBot((prev) => prev + 1);
         playSoundEffect("navigate");
       }
     },
     up: () => {
-      if (currentChallenge >= 3) {
-        setCurrentChallenge((prev) => prev - 3);
+      if (selectedBot >= 3) {
+        setSelectedBot((prev) => prev - 3);
         playSoundEffect("navigate");
       }
     },
     down: () => {
-      if (currentChallenge < 3) {
-        setCurrentChallenge((prev) => prev + 3);
+      if (selectedBot < 3) {
+        setSelectedBot((prev) => prev + 3);
         playSoundEffect("navigate");
       }
     },
@@ -76,7 +76,7 @@ function Choose(props) {
 
         //Supabase:
         const chosen = list_of_challenges.find(
-          (el) => el.number === currentChallenge
+          (el) => el.number === selectedBot
         );
         if (chosen) onStartWithBot(chosen.number); // <— start session here
         event.stopPropagation();
@@ -139,7 +139,7 @@ function Choose(props) {
                 <div
                   key={el.number}
                   className={
-                    el.number === currentChallenge
+                    el.number === selectedBot
                       ? "character-box selected"
                       : "character-box"
                   }
@@ -151,7 +151,7 @@ function Choose(props) {
                       //supabase:
                       onStartWithBot(el.number);
 
-                      setCurrentChallenge(el.number);
+                      setSelectedBot(el.number);
                       playSoundEffect("select");
                     }}
                     style={{
@@ -201,7 +201,7 @@ function Choose(props) {
                 <div
                   key={el.number}
                   className={
-                    el.number === currentChallenge
+                    el.number === selectedBot
                       ? "character-box selected"
                       : "character-box"
                   }
@@ -213,7 +213,7 @@ function Choose(props) {
                       //supabase:
                       onStartWithBot(el.number);
 
-                      setCurrentChallenge(el.number);
+                      setSelectedBot(el.number);
                       playSoundEffect("select");
                     }}
                     style={{
