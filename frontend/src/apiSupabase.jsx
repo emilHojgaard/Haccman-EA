@@ -45,7 +45,7 @@ export async function startConversation(botId) {
     .single();
 
   if (error) throw error;
-  return data; // { id, ... }
+  return data;
 }
 
 export async function insertPrompt(sessionId, text) {

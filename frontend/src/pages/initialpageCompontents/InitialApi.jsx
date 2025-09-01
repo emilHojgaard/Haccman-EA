@@ -12,7 +12,7 @@ export async function getCurrentUser() {
 export async function getProfile(userId) {
   if (!userId) return null;
   const { data, error } = await supabase
-    .from("profiles")
+    .from("Players")
     .select("username")
     .eq("id", userId)
     .maybeSingle();
@@ -33,9 +33,18 @@ export async function signInAnon() {
 
 export async function upsertProfile(userId, payload) {
   const { error } = await supabase
-    .from("profiles")
-    .upsert({ id: userId, ...payload, updated_at: new Date().toISOString() })
+    .from("Players")
+    .upsert({ id: userId, ...payload, created_at: new Date().toISOString() })
     .select()
     .single();
-  if (error) throw error;
+  if (error)
+    if (error) {
+      console.error("Supabase upsert error:", {
+        message: error.message,
+        details: error.details,
+        hint: error.hint,
+        code: error.code,
+      });
+      throw error;
+    }
 }
