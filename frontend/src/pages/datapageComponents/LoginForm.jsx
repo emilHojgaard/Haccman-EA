@@ -6,15 +6,42 @@ export default function LoginForm({ setIsLoggedIn }) {
   const [message, setMessage] = useState("");
 
   // LOGIN
-  const validUsername = "admin";
-  const validPassword = "1234";
+  // const validUsername = "admin";
+  // const validPassword = "1234";
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (username === validUsername && password === validPassword) {
+  //     setIsLoggedIn(true);
+  //   } else {
+  //     setMessage("Invalid username or password");
+  //   }
+  // };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (username === validUsername && password === validPassword) {
+
+    try {
+      const res = await fetch("/functions/v1/admin-login/index.ts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password }),
+      });
+
+      const data = await res.json();
+      if (!res.ok) {
+        setMessage(data.error || "Login failed");
+        return;
+      }
+
+      // Save token in localStorage
+      localStorage.setItem("admin_jwt", data.token);
+
+      // mark admin as logged in
       setIsLoggedIn(true);
-    } else {
-      setMessage("Invalid username or password");
+    } catch (err) {
+      console.error(err);
+      setMessage("Unexpected error during login");
     }
   };
 
