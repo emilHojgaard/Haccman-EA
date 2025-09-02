@@ -11,12 +11,21 @@ export default function LoginForm({ setIsLoggedIn }) {
     console.log("inden try");
     try {
       console.log("inden res");
+      const anon = import.meta.env.VITE_SUPABASE_ANON_KEY;
+      if (!anon) {
+        console.error("Missing VITE_SUPABASE_ANON_KEY");
+        setMessage("Client misconfig: missing anon key");
+        return;
+      }
+
       const res = await fetch(
         "https://yqroigcevcoddsmangyg.functions.supabase.co/admin",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
+            Authorization: `Bearer ${anon}`,
+            apikey: anon,
           },
           body: JSON.stringify({ name, password }),
         }
