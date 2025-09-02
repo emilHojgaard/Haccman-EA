@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function LoginForm({ setIsLoggedIn }) {
-  const [username, setUsername] = useState("");
+  const [name, setName] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
 
@@ -22,11 +22,14 @@ export default function LoginForm({ setIsLoggedIn }) {
     e.preventDefault();
 
     try {
-      const res = await fetch("/functions/v1/admin-login/index.ts", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ username, password }),
-      });
+      const res = await fetch(
+        "https://yqroigcevcoddsmangyg.functions.supabase.co/admin",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, password }),
+        }
+      );
 
       const data = await res.json();
       if (!res.ok) {
@@ -76,9 +79,9 @@ export default function LoginForm({ setIsLoggedIn }) {
         <input
           className="vaporwave-input"
           type="text"
-          placeholder="Username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
+          placeholder="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           required
           style={{
             padding: "10px",
