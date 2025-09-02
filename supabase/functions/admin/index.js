@@ -1,114 +1,85 @@
-// import { serve } from "https://deno.land/std/http/server.ts";
-// import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
-// import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts";
-// import jwt from "https://cdn.skypack.dev/jsonwebtoken";
-
-// const supabaseUrl = Deno.env.get("SUPABASE_URL");
-// const supabaseKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
-// const supabase = createClient(supabaseUrl, supabaseKey);
-
-// const JWT_SECRET = Deno.env.get("JWT_SECRET");
-
-// serve(async (req) => {
-//   const { name, password } = await req.json();
-
-//   // Hent admin fra DB
-//   const { data: admins, error } = await supabase
-//     .from("admins")
-//     .select("*")
-//     .eq("name", name)
-//     .limit(1);
-
-//   if (error || !admins || admins.length === 0) {
-//     return new Response(JSON.stringify({ error: "Invalid credentials" }), {
-//       status: 401,
-//     });
-//   }
-
-//   const admin = admins[0];
-
-//   // Tjek password
-//   const valid = await bcrypt.compare(password, admin.password);
-//   if (!valid) {
-//     return new Response(JSON.stringify({ error: "Invalid credentials" }), {
-//       status: 401,
-//     });
-//   }
-
-//   // Generer JWT med admin role claim
-//   const token = jwt.sign({ sub: admin.id, role: "admin" }, JWT_SECRET, {
-//     expiresIn: "8h",
-//   });
-
-//   return new Response(JSON.stringify({ token }), { status: 200 });
-// });
 import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts";
 import { create, getNumericDate } from "https://deno.land/x/djwt@v3.0.2/mod.ts";
 
-// Supabase client
+// Supabase client (service role key)
 const supabaseUrl = Deno.env.get("SUPABASE_URL");
 const supabaseKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
-const supabase = createClient(supabaseUrl, supabaseKey);
+const supabase = createClient(supabaseUrl, supabaseKey, {
+  db: { schema: "Haccman" },
+});
 
-// JWT secret
+// JWT secret (token der gør at admin bliver authorized)
 const JWT_SECRET = Deno.env.get("JWT_SECRET");
 
-// CORS headers
+// CORS headers (for at kunne lave cross site scripting)
 const headers = {
   "Content-Type": "application/json",
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type",
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
 };
 
 serve(async (req) => {
-  // Handle CORS preflight
+  console.log("Request method:", req.method);
+
+  // Handle preflight request
   if (req.method === "OPTIONS") {
+    console.log("Handling CORS preflight (OPTIONS)");
     return new Response(null, { status: 200, headers });
   }
 
   try {
-    const { name, password } = await req.json();
+    console.log("inside try/catch");
+    // Read Authorization header (if any)
+    const authHeader = req.headers.get("Authorization");
+    console.log("Authorization header:", authHeader);
 
-    // Hent admin fra Supabase
-    const { data: admins, error } = await supabase
-      .from("admins")
+    // Parse request body
+    const { name, password } = await req.json();
+    console.log("Request body:", { name, password });
+
+    // Query the Admin table
+    const { data: rows, error } = await supabase
+      .from("Admin")
       .select("*")
       .eq("name", name)
       .limit(1);
 
-    if (error || !admins || admins.length === 0) {
+    console.log("Query result:", rows, "Error:", error);
+
+    if (error || !rows || rows.length === 0) {
       return new Response(JSON.stringify({ error: "Invalid credentials" }), {
         status: 401,
         headers,
       });
     }
 
-    const admin = admins[0];
+    const admin = rows[0];
 
-    // Tjek password
-    const valid = await bcrypt.compare(password, admin.password);
-    if (!valid) {
+    // Compare passwords (if you are using plain text, simple check)
+    if (password !== admin.password) {
       return new Response(JSON.stringify({ error: "Invalid credentials" }), {
         status: 401,
         headers,
       });
     }
 
-    // JWT payload
+    // Generate JWT token
     const payload = {
       sub: admin.id,
       role: "admin",
-      exp: getNumericDate(60 * 60 * 8), // 8 timer
+      exp: getNumericDate(60 * 60 * 8), // expires in 8 hours
     };
 
     const token = await create({ alg: "HS256" }, payload, JWT_SECRET);
 
+    console.log("Login successful, token generated");
+
     return new Response(JSON.stringify({ token }), { status: 200, headers });
   } catch (err) {
-    console.error(err);
+    console.error("Server error:", err);
     return new Response(JSON.stringify({ error: "Server error" }), {
       status: 500,
       headers,

@@ -5,31 +5,24 @@ export default function LoginForm({ setIsLoggedIn }) {
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
 
-  // LOGIN
-  // const validUsername = "admin";
-  // const validPassword = "1234";
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   if (username === validUsername && password === validPassword) {
-  //     setIsLoggedIn(true);
-  //   } else {
-  //     setMessage("Invalid username or password");
-  //   }
-  // };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    console.log("inden try");
     try {
+      console.log("inden res");
       const res = await fetch(
         "https://yqroigcevcoddsmangyg.functions.supabase.co/admin",
         {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: {
+            "Content-Type": "application/json",
+          },
           body: JSON.stringify({ name, password }),
         }
       );
+      console.log(name, password);
+      console.log("efter res");
 
       const data = await res.json();
       if (!res.ok) {
