@@ -22,6 +22,13 @@ const headers = {
 };
 
 serve(async (req) => {
+  // 🔎 Debug envs and request
+  console.log("envs", {
+    url: !!Deno.env.get("SUPABASE_URL"),
+    srk: !!Deno.env.get("SUPABASE_SERVICE_ROLE_KEY"),
+    jwt: !!Deno.env.get("JWT_SECRET"),
+  });
+
   console.log("Request method:", req.method);
 
   // Handle preflight request
@@ -47,6 +54,9 @@ serve(async (req) => {
       .eq("name", name)
       .limit(1);
 
+    const admin = rows[0];
+    console.log("db.error", error);
+    console.log("admin row present?", !!admin, "keys:", admin && Object.keys(admin));
     console.log("Query result:", rows, "Error:", error);
 
     if (error || !rows || rows.length === 0) {
@@ -56,7 +66,7 @@ serve(async (req) => {
       });
     }
 
-    const admin = rows[0];
+
 
     // Compare passwords (if you are using plain text, simple check)
     if (password !== admin.password) {
@@ -73,7 +83,14 @@ serve(async (req) => {
       exp: getNumericDate(60 * 60 * 8), // expires in 8 hours
     };
 
-    const token = await create({ alg: "HS256" }, payload, JWT_SECRET);
+    const key = await crypto.subtle.importKey(
+      "raw",
+      new TextEncoder().encode(JWT_SECRET),
+      { name: "HMAC", hash: "SHA-256" },
+      false,
+      ["sign"]
+    );
+    const token = await create({ alg: "HS256", typ: "JWT" }, payload, key);
 
     console.log("Login successful, token generated");
 
