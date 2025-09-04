@@ -101,7 +101,7 @@ export async function loadMessages(sessionId) {
   return data;
 }
 
-//------------------FOR DATA RETRIEVAL----------------------
+//------------------FOR DATA RETRIEVAL (ADMIN)----------------------
 
 // All usernames (sorted). Requires RLS to allow read for this page.
 export async function getAllUsernames() {
@@ -111,14 +111,14 @@ export async function getAllUsernames() {
     .select("id, username")
     .order("username", { ascending: true });
   if (error) throw error;
-  console.log("Data: ", data);
   return data;
 }
 
 // All sessions for a user, newest first
 export async function getSessionsByUser(userId) {
-  const { data, error } = await supabase
-    .from("sessions")
+  const admin = supabaseAdmin();
+  const { data, error } = await admin
+    .from("Sessions")
     .select("id, bot_id, started_at, ended_at")
     .eq("user_id", userId)
     .order("started_at", { ascending: false });
@@ -126,11 +126,12 @@ export async function getSessionsByUser(userId) {
   return data || [];
 }
 
-// Flattened messages for a session (user + assistant)
-export async function loadMessagesData(sessionId) {
+// CHECK OM BLIVER BRUGT: Flattened messages for a session (user + assistant)
+export async function loadMessagesAdmin(sessionId) {
+  const admin = supabaseAdmin();
   // Get prompts with nested responses
-  const { data, error } = await supabase
-    .from("prompts")
+  const { data, error } = await admin
+    .from("Prompts")
     .select("id, content, created_at, responses(content, created_at)")
     .eq("session_id", sessionId)
     .order("created_at", { ascending: true });

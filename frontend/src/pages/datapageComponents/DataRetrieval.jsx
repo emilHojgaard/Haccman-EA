@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import {
   getAllUsernames,
   getSessionsByUser,
-  loadMessages,
+  loadMessagesAdmin,
 } from "../../apiSupabase";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
@@ -97,7 +97,7 @@ export default function DataRetrieval() {
     try {
       setLoadingMessages(true);
       setError("");
-      const rows = await loadMessages(sessionId);
+      const rows = await loadMessagesAdmin(sessionId);
       setMessages(rows);
       // scroll to bottom
       setTimeout(() => {
