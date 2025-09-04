@@ -39,7 +39,7 @@ export async function startConversation(botId) {
   const bot_id = String(botId);
 
   const { data, error } = await supabase
-    .from("sessions")
+    .from("Sessions")
     .insert({ user_id: user.id, bot_id: bot_id ?? null })
     .select()
     .single();
@@ -55,7 +55,7 @@ export async function insertPrompt(sessionId, text) {
   if (!user) throw new Error("No user");
 
   const { data: prompt, error } = await supabase
-    .from("prompts")
+    .from("Prompts")
     .insert({ session_id: sessionId, user_id: user.id, content: text })
     .select()
     .single();
@@ -66,14 +66,14 @@ export async function insertPrompt(sessionId, text) {
 
 export async function insertResponse(promptId, aiText) {
   const { error } = await supabase
-    .from("responses")
+    .from("Responses")
     .insert({ prompt_id: promptId, content: aiText });
   if (error) throw error;
 }
 
 export async function loadHistory(sessionId) {
   const { data, error } = await supabase
-    .from("prompts")
+    .from("Prompts")
     .select("id, content, created_at, responses(content, created_at)")
     .eq("session_id", sessionId)
     .order("created_at", { ascending: true });
@@ -84,7 +84,7 @@ export async function loadHistory(sessionId) {
 
 export async function endConversation(sessionId) {
   const { error } = await supabase
-    .from("sessions")
+    .from("Sessions")
     .update({ ended_at: new Date().toISOString() })
     .eq("id", sessionId);
   if (error) throw error;
