@@ -10,9 +10,6 @@ const supabase = createClient(supabaseUrl, supabaseKey, {
   db: { schema: "Haccman" },
 });
 
-// JWT secret (token der gør at admin bliver authorized)
-const JWT_SECRET = Deno.env.get("JWT_SECRET");
-
 // CORS headers (for at kunne lave cross site scripting)
 const headers = {
   "Content-Type": "application/json",
@@ -55,9 +52,6 @@ serve(async (req) => {
       .limit(1);
 
     const admin = rows[0];
-    console.log("db.error", error);
-    console.log("admin row present?", !!admin, "keys:", admin && Object.keys(admin));
-    console.log("Query result:", rows, "Error:", error);
 
     if (error || !rows || rows.length === 0) {
       return new Response(JSON.stringify({ error: "Invalid credentials" }), {
@@ -76,20 +70,25 @@ serve(async (req) => {
       });
     }
 
-    // Generate JWT token
-    const payload = {
-      sub: admin.id,
-      role: "admin",
-      exp: getNumericDate(60 * 60 * 8), // expires in 8 hours
-    };
-
+    // JWT secret (token der gør at admin bliver authorized)
+    const JWT_LEGACY_SECRET = Deno.env.get("LEGACY_SECRET");
+    // decrypting the JWT
     const key = await crypto.subtle.importKey(
       "raw",
-      new TextEncoder().encode(JWT_SECRET),
+      new TextEncoder().encode(JWT_LEGACY_SECRET),
       { name: "HMAC", hash: "SHA-256" },
       false,
       ["sign"]
     );
+
+    // creating a payload for our token : 
+    const payload = {
+      sub: String(admin.id),       // stable identifier (string is fine)
+      role: "authenticated",       // keep standard DB role
+      is_admin: true,              // <-- custom claim we’ll use in RLS
+      exp: getNumericDate(60 * 60 * 8),
+    };
+
     const token = await create({ alg: "HS256", typ: "JWT" }, payload, key);
 
     console.log("Login successful, token generated");

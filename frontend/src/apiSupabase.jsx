@@ -110,7 +110,7 @@ export async function getAllUsernames() {
     .select("id, username")
     .order("username", { ascending: true });
   if (error) throw error;
-  console.log(data);
+  console.log("Data: ", data);
   return data;
 }
 

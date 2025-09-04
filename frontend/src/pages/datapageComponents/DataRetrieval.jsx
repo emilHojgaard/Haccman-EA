@@ -59,7 +59,6 @@ export default function DataRetrieval() {
         setLoadingUsers(true);
         setError("");
         const rows = await getAllUsernames();
-        console.log(users);
         setUsers(rows);
       } catch (e) {
         setError(e.message || "Failed to load users.");
