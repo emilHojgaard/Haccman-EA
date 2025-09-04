@@ -95,6 +95,7 @@ export default function Initial() {
                   className="vaporwave-input"
                   maxLength={6}
                 />
+                {error !== "" && error}
               </StepBlock>
             )}
 
@@ -110,6 +111,7 @@ export default function Initial() {
                 {form.age && !isAgeValid && (
                   <div style={{ color: "red" }}>{ageError}</div>
                 )}
+                {error !== "" && error}
               </StepBlock>
             )}
 
@@ -151,6 +153,7 @@ export default function Initial() {
                     Non-binary/Other
                   </label>
                 </div>
+                {error !== "" && error}
               </StepBlock>
             )}
 
@@ -193,6 +196,7 @@ export default function Initial() {
                       Advanced
                     </label>
                   </div>
+                  {error !== "" && error}
                 </StepBlock>
 
                 <div style={{ paddingTop: 20 }}>

@@ -53,8 +53,7 @@ export function useInitialController() {
   // Derived validation (computed, not stored)
   const isUsernameValid =
     form.username.trim().length > 0 && form.username.length <= MAX_NAME_LEN;
-  const isAgeValid =
-    form.age === "" || (!isNaN(form.age) && +form.age >= 8 && +form.age <= 120);
+  const isAgeValid = !isNaN(form.age) && +form.age >= 4 && +form.age <= 120;
   const ageError =
     form.age && !isAgeValid ? "Please enter a number between 8 and 120" : "";
 
@@ -123,9 +122,33 @@ export function useInitialController() {
   // Step keyboard helper (call from view on keydown if you want global Enter)
   const nextOrSubmit = useCallback(() => {
     if (stage !== "form") return;
-    if (isUsernameValid && isAgeValid) {
-      if (step === STEPS.length - 1) handleContinue();
-      else setStep((s) => s + 1);
+
+    const current = STEPS[step];
+    if (current === "username" && !isUsernameValid) {
+      setError("Please enter a valid username (max 12 characters)");
+      return;
+    }
+    if (current === "age" && !isAgeValid) {
+      setError("Please enter a valid age");
+      return;
+    }
+    if (current === "gender" && !form.gender) {
+      setError("Please select your gender");
+      return;
+    }
+    if (current === "familiarity" && !form.familiarity) {
+      setError("Please select your hacking/jailbreaking knowledge level");
+      return;
+    }
+
+    // clear any previous error before moving on
+    setError("");
+
+    // if last step, submit instead of going forward
+    if (step === STEPS.length - 1) {
+      handleContinue();
+    } else {
+      setStep(step + 1);
     }
   }, [stage, isUsernameValid, isAgeValid, step, handleContinue]);
 

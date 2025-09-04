@@ -106,11 +106,12 @@ export async function loadMessages(sessionId) {
 // All usernames (sorted). Requires RLS to allow read for this page.
 export async function getAllUsernames() {
   const { data, error } = await supabase
-    .from("profiles")
+    .from("Players")
     .select("id, username")
     .order("username", { ascending: true });
   if (error) throw error;
-  return data || [];
+  console.log(data);
+  return data;
 }
 
 // All sessions for a user, newest first

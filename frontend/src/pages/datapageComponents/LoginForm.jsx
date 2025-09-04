@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { signOut } from "../initialpageCompontents/InitialApi";
 
 export default function LoginForm({ setIsLoggedIn }) {
   const [name, setName] = useState("");
@@ -8,9 +9,9 @@ export default function LoginForm({ setIsLoggedIn }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log("inden try");
+    signOut();
+
     try {
-      console.log("inden res");
       const anon = import.meta.env.VITE_SUPABASE_ANON_KEY;
       if (!anon) {
         console.error("Missing VITE_SUPABASE_ANON_KEY");
