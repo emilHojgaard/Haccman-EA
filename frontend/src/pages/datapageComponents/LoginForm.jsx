@@ -40,8 +40,8 @@ export default function LoginForm({ setIsLoggedIn }) {
         return;
       }
 
-      // Save token in localStorage
-      localStorage.setItem("admin_jwt", data.token);
+      // Save token in sessionStorage
+      sessionStorage.setItem("token", data.token);
 
       // mark admin as logged in
       setIsLoggedIn(true);

@@ -1,4 +1,4 @@
-import { supabase } from "./theLeftoverFiles/SupabaseClient.jsx";
+import { supabase, supabaseAdmin } from "./theLeftoverFiles/SupabaseClient.jsx";
 
 //for Supabase AI-connection/edge-function
 const FN_URL =
@@ -105,7 +105,8 @@ export async function loadMessages(sessionId) {
 
 // All usernames (sorted). Requires RLS to allow read for this page.
 export async function getAllUsernames() {
-  const { data, error } = await supabase
+  const admin = supabaseAdmin();
+  const { data, error } = await admin
     .from("Players")
     .select("id, username")
     .order("username", { ascending: true });

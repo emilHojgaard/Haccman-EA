@@ -24,3 +24,16 @@ export async function ensureAnonymousSession() {
     if (error) throw error;
   }
 }
+
+//------------------Admin client for supabase------------------
+
+export function supabaseAdmin() {
+  const token = sessionStorage.getItem("token");
+  return createClient(supabaseUrl, supabaseKey, {
+    db: { schema: "Haccman" },
+    // keeps admin signed in across reloads
+    global: {
+      headers: { Authorization: token ? `Bearer ${token}` : undefined },
+    },
+  });
+}
