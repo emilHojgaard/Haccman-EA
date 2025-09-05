@@ -217,7 +217,10 @@ export default function DataRetrieval() {
             <button
               className="the-vaporwave-button2"
               onClick={handleSearchClick}
-              style={{ whiteSpace: "nowrap" }}
+              style={{
+                color: "white",
+                background: "black",
+              }}
             >
               Search
             </button>
@@ -268,12 +271,14 @@ export default function DataRetrieval() {
         <div style={{ display: "grid", justifyContent: "center" }}>
           <div
             style={{
-              color: "black",
+              color: "#fff",
+              fontSize: 12,
               marginBottom: 8,
               textAlign: "center",
+              padding: "10px 10px",
             }}
           >
-            Conversations for <strong>{selectedUser.username}</strong>
+            Conversations for <strong>"{selectedUser.username}"</strong>
           </div>
 
           {loadingSessions ? (
@@ -321,10 +326,18 @@ export default function DataRetrieval() {
       {/* Thread view  */}
       {selectedSessionId && (
         <div style={{ display: "grid", justifyContent: "center" }}>
-          <div style={{ display: "flex", gap: 8, justifyContent: "center" }}>
+          <div
+            style={{
+              display: "flex",
+              gap: 8,
+              justifyContent: "center",
+              padding: "12px 12px",
+            }}
+          >
             <button
               className="the-vaporwave-button2"
               onClick={handleDownloadPdf}
+              style={{ color: "white", background: "black" }}
             >
               Download PDF
             </button>
@@ -333,10 +346,6 @@ export default function DataRetrieval() {
           <div
             ref={threadRef}
             style={{
-              border: "1px solid #333",
-              borderRadius: 12,
-              padding: 16,
-              background: "white",
               width: 720,
               maxWidth: "90vw",
               marginTop: 12,

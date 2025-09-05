@@ -8,7 +8,17 @@ export default function Thread({ messages }) {
     }
   }
   return (
-    <div style={{ display: "grid", gap: 10, fontSize: 16, lineHeight: 1.45 }}>
+    <div
+      style={{
+        display: "grid",
+        gap: 10,
+        fontSize: 14,
+        lineHeight: 1.45,
+        background: "#aaa",
+        padding: 12,
+        borderRadius: 12,
+      }}
+    >
       {messages.map((m, i) => {
         const isUser = m.role === "user";
         return (
@@ -24,8 +34,8 @@ export default function Thread({ messages }) {
                 maxWidth: "80%",
                 padding: "12px 14px",
                 borderRadius: 12,
-                background: isUser ? "#2b6cb0" : "#333",
-                color: "#fff",
+                background: isUser ? " #feb47b" : "#ff7e5f",
+                color: "black",
                 whiteSpace: "pre-wrap",
               }}
             >
