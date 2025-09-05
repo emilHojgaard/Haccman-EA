@@ -155,7 +155,7 @@ export async function getSessionsByUser(userId) {
   const admin = supabaseAdmin();
   const { data, error } = await admin
     .from("Sessions")
-    .select("id, bot_id, started_at, ended_at")
+    .select("id, bot_id, started_at, ended_at, Prompt!inner(id)")
     .eq("user_id", userId)
     .order("started_at", { ascending: false });
   if (error) throw error;

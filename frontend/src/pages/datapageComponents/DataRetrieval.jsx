@@ -268,7 +268,7 @@ export default function DataRetrieval() {
         <div style={{ display: "grid", justifyContent: "center" }}>
           <div
             style={{
-              color: "#fff",
+              color: "black",
               marginBottom: 8,
               textAlign: "center",
             }}
@@ -336,8 +336,6 @@ export default function DataRetrieval() {
               border: "1px solid #333",
               borderRadius: 12,
               padding: 16,
-              // maxHeight: 520,
-              // overflowY: "auto",
               background: "white",
               width: 720,
               maxWidth: "90vw",
@@ -347,10 +345,6 @@ export default function DataRetrieval() {
             {loadingMessages ? (
               <div style={{ color: "#aaa", textAlign: "center" }}>
                 Loading messages…
-              </div>
-            ) : messages.length === 0 ? (
-              <div style={{ color: "#aaa", textAlign: "center" }}>
-                No messages.
               </div>
             ) : (
               <Thread messages={messages} />
