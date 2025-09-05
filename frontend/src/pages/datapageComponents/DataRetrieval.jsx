@@ -6,6 +6,7 @@ import {
 } from "../../apiSupabase";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
+import Thread from "./smallComponents/Thread";
 
 // small helper
 function fmt(dt) {
@@ -124,10 +125,6 @@ export default function DataRetrieval() {
     inputRef.current?.focus();
   }
 
-  function handlePrint() {
-    window.print(); // users can "Save as PDF" in dialog
-  }
-
   // Full-thread PDF (multi-page) using html2canvas + jsPDF
   async function handleDownloadPdf() {
     if (!threadRef.current) return;
@@ -183,11 +180,11 @@ export default function DataRetrieval() {
       <div style={{ textAlign: "center" }}>
         <h2 style={{ margin: 0, color: "#fff" }}>Data retrieval</h2>
         <p style={{ margin: "6px 0 14px 0", color: "#aaa" }}>
-          Pick a user → choose a conversation → read/print/download
+          Pick a user → choose a conversation → read/download
         </p>
       </div>
 
-      {/* Search + dropdown (black on white) */}
+      {/* Search + dropdown */}
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div
           ref={inputWrapRef}
@@ -314,13 +311,10 @@ export default function DataRetrieval() {
         </div>
       )}
 
-      {/* Thread view (narrower + bigger text) */}
+      {/* Thread view  */}
       {selectedSessionId && (
         <div style={{ display: "grid", justifyContent: "center" }}>
           <div style={{ display: "flex", gap: 8, justifyContent: "center" }}>
-            <button className="the-vaporwave-button2" onClick={handlePrint}>
-              Print
-            </button>
             <button
               className="the-vaporwave-button2"
               onClick={handleDownloadPdf}
@@ -335,9 +329,9 @@ export default function DataRetrieval() {
               border: "1px solid #333",
               borderRadius: 12,
               padding: 16,
-              maxHeight: 520,
-              overflowY: "auto",
-              background: "#0a0a0a",
+              // maxHeight: 520,
+              // overflowY: "auto",
+              background: "white",
               width: 720,
               maxWidth: "90vw",
               marginTop: 12,
@@ -361,41 +355,6 @@ export default function DataRetrieval() {
       {error && (
         <div style={{ color: "tomato", textAlign: "center" }}>{error}</div>
       )}
-    </div>
-  );
-}
-
-function Thread({ messages }) {
-  return (
-    <div style={{ display: "grid", gap: 10, fontSize: 16, lineHeight: 1.45 }}>
-      {messages.map((m, i) => {
-        const isUser = m.role === "user";
-        return (
-          <div
-            key={i}
-            style={{
-              display: "flex",
-              justifyContent: isUser ? "flex-end" : "flex-start",
-            }}
-          >
-            <div
-              style={{
-                maxWidth: "80%",
-                padding: "12px 14px",
-                borderRadius: 12,
-                background: isUser ? "#2b6cb0" : "#333",
-                color: "#fff",
-                whiteSpace: "pre-wrap",
-              }}
-            >
-              <div style={{ fontSize: 12, opacity: 0.8, marginBottom: 6 }}>
-                {isUser ? "You" : "Assistant"} — {fmt(m.created_at)}
-              </div>
-              <div>{m.content}</div>
-            </div>
-          </div>
-        );
-      })}
     </div>
   );
 }

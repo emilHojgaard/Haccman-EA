@@ -23,7 +23,6 @@ export default function DataPage() {
       <Title />
 
       {!isLoggedIn && <LoginForm setIsLoggedIn={setIsLoggedIn} />}
-      {isLoggedIn && <p>This is the data page content.</p>}
       {isLoggedIn && <DataRetrieval />}
     </div>
   );
