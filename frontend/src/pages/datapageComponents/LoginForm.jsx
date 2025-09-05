@@ -69,7 +69,7 @@ export default function LoginForm({ setIsLoggedIn }) {
           flexDirection: "column",
           gap: "30px",
           padding: "24px",
-          borderRadius: "12px",
+          // borderRadius: "12px",
           background: "linear-gradient(to right, #ff7e5f, #feb47b)",
           boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
           width: "300px",
