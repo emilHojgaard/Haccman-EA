@@ -31,12 +31,17 @@ export async function sendPromptToMemory(message, systemPrompt) {
 }
 
 export async function startConversation(botId) {
+  console.log("Starting conversation with botId:", botId);
   const {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) throw new Error("No user");
+  //check
+  console.log("Authenticated user:", user);
 
   const bot_id = String(botId);
+  //check
+  console.log("Bot ID:", bot_id);
 
   const { data, error } = await supabase
     .from("Sessions")
@@ -45,6 +50,8 @@ export async function startConversation(botId) {
     .single();
 
   if (error) throw error;
+
+  console.log("returning from startConversation:", data);
   return data;
 }
 
@@ -55,7 +62,7 @@ export async function insertPrompt(sessionId, text) {
   if (!user) throw new Error("No user");
 
   const { data: prompt, error } = await supabase
-    .from("Prompts")
+    .from("Prompt")
     .insert({ session_id: sessionId, user_id: user.id, content: text })
     .select()
     .single();
@@ -73,7 +80,7 @@ export async function insertResponse(promptId, aiText) {
 
 export async function loadHistory(sessionId) {
   const { data, error } = await supabase
-    .from("Prompts")
+    .from("Prompt")
     .select("id, content, created_at, responses(content, created_at)")
     .eq("session_id", sessionId)
     .order("created_at", { ascending: true });
@@ -89,16 +96,45 @@ export async function endConversation(sessionId) {
     .eq("id", sessionId);
   if (error) throw error;
 }
-
-// --- Nice-to-have: flat loader via SQL view (if you created it)
+// Flattened messages for a session (user + assistant)
+// Does not work right now, because it takes the newly entered session, which is by defualt empty...
 export async function loadMessages(sessionId) {
+  console.log("Loading messages for sessionId:", sessionId);
   const { data, error } = await supabase
-    .from("conversation_messages")
-    .select("role, content, created_at")
+    .from("Prompt")
+    .select(
+      // prompt fields + embed matching responses
+      "id, content, created_at, Responses(content, created_at)"
+    )
     .eq("session_id", sessionId)
-    .order("created_at", { ascending: true });
+    .order("created_at", { ascending: true }); // order prompts
+
   if (error) throw error;
-  return data;
+
+  console.log("Loaded prompts with responses:", data);
+
+  // Flatten into thread: prompt → user, each response → assistant
+  const flat = [];
+  for (const p of data ?? []) {
+    flat.push({
+      role: "user",
+      content: p.content,
+      created_at: p.created_at,
+      session_id: p.session_id,
+    });
+    for (const r of p.Responses ?? []) {
+      flat.push({
+        role: "assistant",
+        content: r.content,
+        created_at: r.created_at,
+        session_id: p.session_id,
+      });
+    }
+  }
+
+  // Make sure overall order is chronological
+  flat.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+  return flat;
 }
 
 //------------------FOR DATA RETRIEVAL (ADMIN)----------------------
@@ -129,28 +165,37 @@ export async function getSessionsByUser(userId) {
 // CHECK OM BLIVER BRUGT: Flattened messages for a session (user + assistant)
 export async function loadMessagesAdmin(sessionId) {
   const admin = supabaseAdmin();
-  // Get prompts with nested responses
   const { data, error } = await admin
-    .from("Prompts")
-    .select("id, content, created_at, responses(content, created_at)")
+    .from("Prompt")
+    .select(
+      // prompt fields + embed matching responses
+      "id, content, created_at, Responses(content, created_at)"
+    )
     .eq("session_id", sessionId)
-    .order("created_at", { ascending: true });
+    .order("created_at", { ascending: true }); // order prompts
 
   if (error) throw error;
 
-  // Flatten into a single chronological array with roles
+  // Flatten into thread: prompt → user, each response → assistant
   const flat = [];
-  for (const p of data || []) {
-    flat.push({ role: "user", content: p.content, created_at: p.created_at });
-    for (const r of p.responses || []) {
+  for (const p of data ?? []) {
+    flat.push({
+      role: "user",
+      content: p.content,
+      created_at: p.created_at,
+      session_id: p.session_id,
+    });
+    for (const r of p.Responses ?? []) {
       flat.push({
         role: "assistant",
         content: r.content,
         created_at: r.created_at,
+        session_id: p.session_id,
       });
     }
   }
-  // Sort again in case response timestamps interleave
+
+  // Make sure overall order is chronological
   flat.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
   return flat;
 }

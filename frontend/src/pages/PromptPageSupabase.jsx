@@ -54,24 +54,24 @@ function Prompt(props) {
 
   const date = new Date();
 
-  // Load previous messages for this session
-  useEffect(() => {
-    if (!sessionId) return;
-    (async () => {
-      try {
-        const rows = await loadMessages(sessionId);
-        // Expect rows like: [{ role: 'user'|'assistant', content: string, created_at: ... }, ...]
-        const mapped = rows.map((r) => ({
-          id: r.role === "user" ? "user" : "adversary",
-          message: r.content,
-        }));
-        setPreviousPrompts(mapped);
-      } catch (e) {
-        console.log("loadMessages failed:", e);
-      }
-    })();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [sessionId]);
+  // Load previous messages for this session. NOT WORKING CURRENTLY
+  // useEffect(() => {
+  //   if (!sessionId) return;
+  //   (async () => {
+  //     try {
+  //       const rows = await loadMessages(sessionId);
+  //       // Expect rows like: [{ role: 'user'|'assistant', content: string, created_at: ... }, ...]
+  //       const mapped = rows.map((r) => ({
+  //         id: r.role === "user" ? "user" : "adversary",
+  //         message: r.content,
+  //       }));
+  //       setPreviousPrompts(mapped);
+  //     } catch (e) {
+  //       console.log("loadMessages failed:", e);
+  //     }
+  //   })();
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [sessionId]);
 
   // ---- Sending a message ----
   const sendPrompt = async (message) => {
