@@ -2,7 +2,10 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
-import { useInitialController } from "./initialpageCompontents/InitialFunction.jsx";
+import {
+  useInitialController,
+  MAX_NAME_LEN,
+} from "./initialpageCompontents/InitialFunction.jsx";
 
 const STEPS = ["username", "age", "gender", "familiarity"];
 
@@ -93,7 +96,7 @@ export default function Initial() {
                   value={form.username}
                   onChange={onUsernameChange}
                   className="vaporwave-input"
-                  maxLength={6}
+                  maxLength={MAX_NAME_LEN}
                 />
                 {error !== "" && error}
               </StepBlock>

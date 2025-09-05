@@ -9,7 +9,7 @@ import {
   upsertProfile,
 } from "../initialpageCompontents/InitialApi.jsx";
 
-const MAX_NAME_LEN = 12;
+export const MAX_NAME_LEN = 12;
 const STEPS = ["username", "age", "gender", "familiarity"];
 
 export function useInitialController() {
