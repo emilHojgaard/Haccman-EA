@@ -14,7 +14,7 @@ export default function Thread({ messages }) {
         gap: 10,
         fontSize: 14,
         lineHeight: 1.45,
-        background: "#aaa",
+        background: "linear-gradient(to right, #ff7e5f, #feb47b)",
         padding: 12,
         borderRadius: 12,
       }}
@@ -34,7 +34,8 @@ export default function Thread({ messages }) {
                 maxWidth: "80%",
                 padding: "12px 14px",
                 borderRadius: 12,
-                background: isUser ? " #feb47b" : "#ff7e5f",
+                background: "#FFFADE",
+                border: "1px solid",
                 color: "black",
                 whiteSpace: "pre-wrap",
               }}

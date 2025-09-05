@@ -91,6 +91,7 @@ export default function LoginForm({ setIsLoggedIn }) {
             padding: "10px",
             borderRadius: "8px",
             border: "1px solid #ccc",
+            background: "#FFFADE",
             outline: "none",
           }}
         />
@@ -104,6 +105,7 @@ export default function LoginForm({ setIsLoggedIn }) {
           required
           style={{
             padding: "10px",
+            background: "#FFFADE",
             borderRadius: "8px",
             border: "1px solid #ccc",
             outline: "none",

@@ -15,7 +15,7 @@ export default function Title() {
         <button
           style={{
             background: "none",
-            color: "white",
+            color: "#FFFADE",
             border: "none",
             position: "absolute",
             left: "20px",

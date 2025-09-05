@@ -51,7 +51,11 @@ export default function Initial() {
     <div className="background">
       <Link to="/data">
         <button
-          style={{ background: "black", color: "white", padding: "20px 28px" }}
+          style={{
+            background: "black",
+            color: "#FFFADE",
+            padding: "20px 28px",
+          }}
           className="datapage-button"
         >
           Data
@@ -116,6 +120,7 @@ export default function Initial() {
             {STEPS[step] === "username" && (
               <StepBlock title=">> Enter a username">
                 <input
+                  style={{ background: "#FFFADE" }}
                   autoFocus
                   id="nameInput"
                   value={form.username}
@@ -281,7 +286,7 @@ function StepBlock({ title, children }) {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        color: "#FFFFFF",
+        color: "#FFFADE",
         gap: "1vh",
       }}
     >
@@ -298,7 +303,7 @@ function ConsentNote() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        color: "#FFFFFF",
+        color: "#FFFADE",
         fontSize: 11,
         marginBottom: 20,
         padding: 30,

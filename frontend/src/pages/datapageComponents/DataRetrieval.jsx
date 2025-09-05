@@ -184,32 +184,39 @@ export default function DataRetrieval() {
   return (
     <div style={{ display: "grid", gap: 16 }}>
       {/* Centered pre-search header */}
-      <div style={{ textAlign: "center" }}>
-        <h2 style={{ margin: 0, color: "#fff" }}>Data retrieval</h2>
-        <p style={{ margin: "6px 0 14px 0", color: "#aaa" }}>
+      <div style={{ textAlign: "center", paddingBottom: "20px" }}>
+        <p style={{ margin: "6px 0 12px 0", color: "#FFFADE" }}>
           Pick a user → choose a conversation → read/download
         </p>
       </div>
 
       {/* Search + dropdown */}
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          paddingBottom: "80px",
+        }}
+      >
         <div
           ref={inputWrapRef}
-          style={{ position: "relative", width: 420, maxWidth: "90%" }}
+          style={{ position: "relative", width: 520, maxWidth: "90%" }}
         >
           <div style={{ display: "flex", gap: 8 }}>
+            <p style={{ color: "#FFFADE", flexShrink: 0 }}>
+              {">> Enter username:"}
+            </p>
             <input
               ref={inputRef}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onFocus={handleOpenDropdown}
-              placeholder="Start typing a username…"
               style={{
                 flex: 1,
                 padding: "10px 12px",
                 border: "1px solid #444",
                 borderRadius: 6,
-                background: "#fff",
+                background: "#FFFADE",
                 color: "#000",
                 outline: "none",
               }}
@@ -218,7 +225,7 @@ export default function DataRetrieval() {
               className="the-vaporwave-button2"
               onClick={handleSearchClick}
               style={{
-                color: "white",
+                color: "#FFFADE",
                 background: "black",
               }}
             >
@@ -236,7 +243,7 @@ export default function DataRetrieval() {
                 right: 0,
                 maxHeight: 260,
                 overflowY: "auto",
-                background: "#fff",
+                background: "#FFFADE",
                 color: "#000",
                 border: "1px solid #444",
                 borderRadius: 6,
@@ -266,101 +273,113 @@ export default function DataRetrieval() {
         </div>
       </div>
 
-      {/* Sessions list */}
-      {selectedUser && (
-        <div style={{ display: "grid", justifyContent: "center" }}>
-          <div
-            style={{
-              color: "#fff",
-              fontSize: 12,
-              marginBottom: 8,
-              textAlign: "center",
-              padding: "10px 10px",
-            }}
-          >
-            Conversations for <strong>"{selectedUser.username}"</strong>
-          </div>
-
-          {loadingSessions ? (
-            <div style={{ color: "#aaa", textAlign: "center" }}>
-              Loading conversations…
-            </div>
-          ) : sessions.length === 0 ? (
-            <div style={{ color: "#aaa", textAlign: "center" }}>
-              No conversations found.
-            </div>
-          ) : (
+      {/* THIS DIV IS NOT DONE ! ! */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+        }}
+      >
+        {/* Sessions list */}
+        {selectedUser && (
+          <div style={{ display: "grid", justifyContent: "center" }}>
             <div
               style={{
-                display: "grid",
-                gap: 8,
-                maxHeight: 220,
-                overflowY: "auto",
-                border: "1px solid #333",
-                padding: 8,
-                borderRadius: 6,
-                width: 480,
-                maxWidth: "90vw",
-                margin: "0 auto",
-                background: "#0f0f0f",
+                color: "#fff",
+
+                marginBottom: 8,
+                textAlign: "center",
+                padding: "10px 10px",
+                color: "#FFFADE",
               }}
             >
-              {sessions.map((s) => (
-                <button
-                  key={s.id}
-                  onClick={() => handleSelectSession(s.id)}
-                  className="the-vaporwave-button2"
-                  style={{ textAlign: "left" }}
-                >
-                  <div>Session: {s.id.slice(0, 8)}…</div>
-                  <div>Bot/Challenge: {s.bot_id ?? "-"}</div>
-                  <div>Started: {fmt(s.started_at)}</div>
-                  {s.ended_at && <div>Ended: {fmt(s.ended_at)}</div>}
-                </button>
-              ))}
+              Conversations for <strong>"{selectedUser.username}"</strong>
             </div>
-          )}
-        </div>
-      )}
 
-      {/* Thread view  */}
-      {selectedSessionId && (
-        <div style={{ display: "grid", justifyContent: "center" }}>
-          <div
-            style={{
-              display: "flex",
-              gap: 8,
-              justifyContent: "center",
-              padding: "12px 12px",
-            }}
-          >
-            <button
-              className="the-vaporwave-button2"
-              onClick={handleDownloadPdf}
-              style={{ color: "white", background: "black" }}
-            >
-              Download PDF
-            </button>
-          </div>
-
-          <div
-            ref={threadRef}
-            style={{
-              width: 720,
-              maxWidth: "90vw",
-              marginTop: 12,
-            }}
-          >
-            {loadingMessages ? (
+            {loadingSessions ? (
               <div style={{ color: "#aaa", textAlign: "center" }}>
-                Loading messages…
+                Loading conversations…
+              </div>
+            ) : sessions.length === 0 ? (
+              <div style={{ color: "#aaa", textAlign: "center" }}>
+                No conversations found.
               </div>
             ) : (
-              <Thread messages={messages} />
+              <div
+                style={{
+                  display: "grid",
+                  gap: 8,
+                  maxHeight: 220,
+                  overflowY: "auto",
+                  border: "1px solid #333",
+                  padding: 8,
+                  borderRadius: 6,
+                  width: 480,
+                  maxWidth: "90vw",
+                  margin: "0 auto",
+                  background: "#0f0f0f",
+                }}
+              >
+                {sessions.map((s) => (
+                  <button
+                    key={s.id}
+                    onClick={() => handleSelectSession(s.id)}
+                    className="the-vaporwave-button2"
+                    style={{ textAlign: "left", background: "#FFFADE" }}
+                  >
+                    <div>Session: {s.id.slice(0, 8)}…</div>
+                    <div>Bot/Challenge: {s.bot_id ?? "-"}</div>
+                    <div>Started: {fmt(s.started_at)}</div>
+                    {s.ended_at && <div>Ended: {fmt(s.ended_at)}</div>}
+                  </button>
+                ))}
+              </div>
             )}
           </div>
-        </div>
-      )}
+        )}
+
+        {/* Thread view  */}
+        {selectedSessionId && (
+          <div style={{ display: "grid", justifyContent: "center" }}>
+            <div
+              style={{
+                display: "flex",
+                gap: 8,
+                justifyContent: "flex-end",
+                padding: "12px 12px",
+              }}
+            >
+              <button
+                className="the-vaporwave-button2"
+                onClick={handleDownloadPdf}
+                style={{
+                  color: "#FFFADE",
+                  background: "black",
+                }}
+              >
+                Download PDF
+              </button>
+            </div>
+
+            <div
+              ref={threadRef}
+              style={{
+                width: 720,
+                maxWidth: "90vw",
+                marginTop: 12,
+              }}
+            >
+              {loadingMessages ? (
+                <div style={{ color: "#aaa", textAlign: "center" }}>
+                  Loading messages…
+                </div>
+              ) : (
+                <Thread messages={messages} />
+              )}
+            </div>
+          </div>
+        )}
+      </div>
 
       {error && (
         <div style={{ color: "tomato", textAlign: "center" }}>{error}</div>
