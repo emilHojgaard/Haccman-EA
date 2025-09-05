@@ -128,17 +128,24 @@ export default function DataRetrieval() {
   // Full-thread PDF (multi-page) using html2canvas + jsPDF
   async function handleDownloadPdf() {
     if (!threadRef.current) return;
-
-    // Temporarily expand the thread to full height (so canvas captures everything)
     const el = threadRef.current;
-    const prevMaxHeight = el.style.maxHeight;
+
+    // Remember what the element actually had inline
+    const prev = {
+      maxHeight: el.style.maxHeight,
+      overflowY: el.style.overflowY,
+    };
+
+    // Expand for capture
     el.style.maxHeight = "none";
+    el.style.overflowY = "visible";
 
     try {
       const canvas = await html2canvas(el, {
-        scale: 2, // higher quality
+        scale: 2,
         useCORS: true,
-        backgroundColor: "#ffffff", // white background for PDF
+        backgroundColor: "#ffffff",
+        scrollY: -window.scrollY, // avoids offset issues
       });
 
       const imgData = canvas.toDataURL("image/png");
@@ -152,7 +159,6 @@ export default function DataRetrieval() {
       if (imgHeight <= pageHeight) {
         pdf.addImage(imgData, "PNG", 0, 0, imgWidth, imgHeight);
       } else {
-        // multi-page
         let y = 0;
         while (y < imgHeight) {
           pdf.addImage(imgData, "PNG", 0, -y, imgWidth, imgHeight);
@@ -169,8 +175,9 @@ export default function DataRetrieval() {
     } catch (e) {
       setError(e.message || "Failed to generate PDF.");
     } finally {
-      // restore size
-      el.style.maxHeight = prevMaxHeight || "520px";
+      // Restore exactly what was there (could be empty string)
+      el.style.maxHeight = prev.maxHeight;
+      el.style.overflowY = prev.overflowY;
     }
   }
 
