@@ -73,13 +73,38 @@ export default function Initial() {
         {stage === "loading" && <div style={{ color: "#fff" }}>Loading…</div>}
 
         {stage === "gate" && (
-          <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
-            <button onClick={handleContinueAsCurrent}>
-              Play as {existingName}
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              gap: "50px",
+              alignItems: "center",
+            }}
+          >
+            <button
+              onClick={handleContinueAsCurrent}
+              style={{
+                background: "black",
+                color: "white",
+                border: "1px solid rgba(255, 255, 255, 0.5)",
+                width: `${MAX_NAME_LEN + 8}ch`,
+                whiteSpace: "nowrap",
+                textAlign: "center",
+                padding: "15px",
+              }}
+            >
+              Play as "{existingName}"
             </button>
+
             <button
               onClick={handlePlayAsSomeoneElse}
               disabled={busy !== "none"}
+              style={{
+                background: "black",
+                color: "white",
+                border: "1px solid rgba(255, 255, 255, 0.5)",
+                padding: "15px",
+              }}
             >
               {busy === "switch" ? "Preparing…" : "Play as someone else"}
             </button>
@@ -274,13 +299,13 @@ function ConsentNote() {
         flexDirection: "column",
         alignItems: "center",
         color: "#FFFFFF",
-        fontSize: 14,
+        fontSize: 11,
         marginBottom: 20,
-        paddingTop: 20,
+        padding: 30,
       }}
     >
       {
-        ">>By playing this game, you accept that the info you have entered on this page and your interactions with the LLM (text and time stamps) will be saved on our server and analysed for future research purposes."
+        ">> By playing this game, you accept that the info you have entered on this page and your interactions with the LLM (text and time stamps) will be saved on our server and analysed for future research purposes."
       }
     </div>
   );

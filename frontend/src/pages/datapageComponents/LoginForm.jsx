@@ -63,21 +63,22 @@ export default function LoginForm({ setIsLoggedIn }) {
     >
       <form
         onSubmit={handleSubmit}
-        className="vaporwave-input"
+        // className="vaporwave-input"
         style={{
           display: "flex",
           flexDirection: "column",
           gap: "30px",
           padding: "24px",
-          // borderRadius: "12px",
+          borderRadius: "12px",
           background: "linear-gradient(to right, #ff7e5f, #feb47b)",
           boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
           width: "300px",
+          outline: "none",
         }}
       >
-        <h2 style={{ textAlign: "center", margin: 0, paddingBottom: "50px" }}>
+        {/* <h2 style={{ textAlign: "center", margin: 0, paddingBottom: "50px" }}>
           Login
-        </h2>
+        </h2> */}
 
         <input
           className="vaporwave-input"
