@@ -51,7 +51,7 @@ export default function Initial() {
     <div className="background">
       <Link to="/data">
         <button
-          style={{ background: "black", color: "white" }}
+          style={{ background: "black", color: "white", padding: "20px 28px" }}
           className="datapage-button"
         >
           Data

@@ -19,7 +19,7 @@ export default function DataPage() {
   }, []);
 
   return (
-    <div style={{ padding: "16px" }}>
+    <div className="background">
       <Title />
 
       {!isLoggedIn && <LoginForm setIsLoggedIn={setIsLoggedIn} />}
