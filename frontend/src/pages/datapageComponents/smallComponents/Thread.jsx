@@ -36,6 +36,7 @@ export default function Thread({ messages }) {
                 borderRadius: 12,
                 background: "#FFFADE",
                 border: "1px solid",
+                borderColor: isUser ? "#72ee06ff" : "#fc0707ff",
                 color: "black",
                 whiteSpace: "pre-wrap",
               }}
