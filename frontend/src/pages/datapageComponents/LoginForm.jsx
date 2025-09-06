@@ -9,8 +9,6 @@ export default function LoginForm({ setIsLoggedIn }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    signOut();
-
     try {
       const anon = import.meta.env.VITE_SUPABASE_ANON_KEY;
       if (!anon) {
