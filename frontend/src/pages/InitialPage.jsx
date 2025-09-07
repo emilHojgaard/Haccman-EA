@@ -74,7 +74,9 @@ export default function Initial() {
           marginTop: "1vh",
         }}
       >
-        {stage === "loading" && <div style={{ color: "#fff" }}>Loading…</div>}
+        {stage === "loading" && (
+          <div style={{ color: "#FFFADE" }}>Loading…</div>
+        )}
 
         {stage === "gate" && (
           <div
@@ -89,7 +91,7 @@ export default function Initial() {
               onClick={handleContinueAsCurrent}
               style={{
                 background: "black",
-                color: "white",
+                color: "#FFFADE",
                 border: "1px solid rgba(255, 255, 255, 0.5)",
                 width: `${MAX_NAME_LEN + 8}ch`,
                 whiteSpace: "nowrap",
@@ -105,7 +107,7 @@ export default function Initial() {
               disabled={busy !== "none"}
               style={{
                 background: "black",
-                color: "white",
+                color: "#FFFADE",
                 border: "1px solid rgba(255, 255, 255, 0.5)",
                 padding: "15px",
               }}
