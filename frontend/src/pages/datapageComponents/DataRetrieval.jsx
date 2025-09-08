@@ -351,22 +351,26 @@ export default function DataRetrieval() {
                 style={{
                   display: "flex",
                   gap: 8,
-                  justifyContent: "flex-end",
+                  justifyContent: "space-between",
                   padding: "0 12px",
                 }}
               >
-                <button
-                  className="the-vaporwave-button2"
-                  onClick={handleDownloadPdf}
-                  style={{
-                    color: "#FFFADE",
-                    background: "black",
-                    border: "1px solid #FFFADE",
-                    borderRadius: 6,
-                  }}
-                >
-                  Download PDF
-                </button>
+                <div style={{ color: "#FFFADE" }}>Message Thread:</div>
+                <div>
+                  {" "}
+                  <button
+                    className="the-vaporwave-button2"
+                    onClick={handleDownloadPdf}
+                    style={{
+                      color: "#FFFADE",
+                      background: "black",
+                      border: "1px solid #FFFADE",
+                      borderRadius: 6,
+                    }}
+                  >
+                    Download PDF
+                  </button>
+                </div>
               </div>
 
               <div
