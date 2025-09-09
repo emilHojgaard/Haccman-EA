@@ -6,7 +6,7 @@ import FullPromptChat from "./smallerComponents/FullPromptChat";
 import InfoPannel from "./smallerComponents/InfoPannel";
 
 export default function BaseUI({
-  list_of_challenges,
+  botList,
   selectedBot,
   previousPrompts,
   date,
@@ -36,10 +36,7 @@ export default function BaseUI({
               width: "60%",
             }}
           >
-            <PageTitle
-              list_of_challenges={list_of_challenges}
-              selectedBot={selectedBot}
-            />
+            <PageTitle botList={botList} selectedBot={selectedBot} />
 
             <FullPromptChat
               previousPrompts={previousPrompts}
@@ -61,10 +58,7 @@ export default function BaseUI({
               height: "99%",
             }}
           >
-            <ShowOpponent
-              list_of_challenges={list_of_challenges}
-              selectedBot={selectedBot}
-            />
+            <ShowOpponent botList={botList} selectedBot={selectedBot} />
             <MemoryActivation usingMemory={usingMemory} />
             <div style={{ display: "flex", flexDirection: "row", gap: "2vh" }}>
               <InfoPannel setInfoPanels={setInfoPanels} />

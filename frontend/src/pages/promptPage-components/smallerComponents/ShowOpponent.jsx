@@ -5,7 +5,7 @@ import opponent41 from "../../../assets/avatar41.png";
 import opponent42 from "../../../assets/avatar42.png";
 import opponent43 from "../../../assets/avatar43.png";
 
-export default function ShowOpponent({ list_of_challenges, selectedBot }) {
+export default function ShowOpponent({ botList, selectedBot }) {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <div
@@ -41,19 +41,19 @@ export default function ShowOpponent({ list_of_challenges, selectedBot }) {
             background: "#F5EB1D",
           }}
         >
-          {list_of_challenges[selectedBot].is}
+          {botList[selectedBot].is}
         </div>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div>
-            {list_of_challenges[selectedBot].number === 0 ? (
+            {botList[selectedBot].number === 0 ? (
               <img src={opponent43} width={"140px"}></img>
-            ) : list_of_challenges[selectedBot].number === 1 ? (
+            ) : botList[selectedBot].number === 1 ? (
               <img src={opponent41} width={"140px"}></img>
-            ) : list_of_challenges[selectedBot].number === 2 ? (
+            ) : botList[selectedBot].number === 2 ? (
               <img src={opponent42} width={"140px"}></img>
-            ) : list_of_challenges[selectedBot].number === 3 ? (
+            ) : botList[selectedBot].number === 3 ? (
               <img src={opponent2} width={"140px"}></img>
-            ) : list_of_challenges[selectedBot].number === 4 ? (
+            ) : botList[selectedBot].number === 4 ? (
               <img src={opponent3} width={"140px"}></img>
             ) : (
               <img src={opponent6} width={"140px"}></img>
@@ -68,7 +68,7 @@ export default function ShowOpponent({ list_of_challenges, selectedBot }) {
               color: "#FFFADE",
             }}
           >
-            {list_of_challenges[selectedBot].long_system_description}
+            {botList[selectedBot].long_system_description}
           </div>
         </div>
       </div>

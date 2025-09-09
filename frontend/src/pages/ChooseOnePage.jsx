@@ -16,7 +16,7 @@ function Choose(props) {
   //Supabase:
   const [starting, setStarting] = useState(false);
 
-  const medicalBot = props.listOfChallenges;
+  const botList = props.botList;
 
   const containerRef = useRef(null);
 
@@ -71,9 +71,7 @@ function Choose(props) {
         playSoundEffect("select");
 
         //Supabase:
-        const chosen = list_of_challenges.find(
-          (el) => el.number === selectedBot
-        );
+        const chosen = botList.find((bot) => bot.number === selectedBot);
         if (chosen) onStartWithBot(chosen.number); // <— start session here
         event.stopPropagation();
       }
@@ -135,14 +133,14 @@ function Choose(props) {
                 selectedBot ? "character-box selected" : "character-box"
               }
             >
-              <div className="character-box-title">{medicalBot.is}</div>
+              <div className="character-box-title">{botList.is}</div>
 
               <div
                 onClick={() => {
                   //supabase:
-                  onStartWithBot(medicalBot.number);
+                  onStartWithBot(botList.number);
 
-                  setSelectedBot(medicalBot.number);
+                  setSelectedBot(botList.number);
                   playSoundEffect("select");
                 }}
                 style={{
@@ -158,14 +156,14 @@ function Choose(props) {
 
                   <div className="scrollable-box">
                     <div>
-                      {"Challenge:  " + medicalBot.short_system_description}
+                      {"Challenge:  " + botList.short_system_description}
                     </div>
-                    {props.completedChallenges.includes(medicalBot.number) ? (
+                    {props.completedChallenges.includes(botList.number) ? (
                       <div>JAILBREAK SUCCESSFUL</div>
                     ) : (
                       <></>
                     )}
-                    <div>{"Difficulty:  " + medicalBot.difficulty}</div>
+                    <div>{"Difficulty:  " + botList.difficulty}</div>
                   </div>
                 </div>
               </div>

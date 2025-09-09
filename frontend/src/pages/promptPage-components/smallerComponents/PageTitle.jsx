@@ -1,4 +1,4 @@
-export default function PageTitle({ list_of_challenges, selectedBot }) {
+export default function PageTitle({ botList, selectedBot }) {
   return (
     <div
       id="llm-box"
@@ -23,7 +23,7 @@ export default function PageTitle({ list_of_challenges, selectedBot }) {
         {">>>JAILBREAK CHALLENGE: "}
       </div>
       <div style={{ color: "#FFFADE" }}>
-        {list_of_challenges[selectedBot].description.toUpperCase()}
+        {botList[selectedBot].description.toUpperCase()}
       </div>
     </div>
   );

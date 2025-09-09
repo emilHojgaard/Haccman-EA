@@ -9,7 +9,7 @@ import "react-h5-audio-player/lib/styles.css";
 import MusicPlayer from "./theLeftoverFiles/MusicPlayer";
 import DataPage from "./pages/DataPage";
 import { ListOfChallenges } from "./theLeftoverFiles/ListOfChallenges";
-import { MedicalBot } from "./theLeftoverFiles/MedicalBot.jsx";
+import { botList } from "./theLeftoverFiles/botList.jsx";
 import {
   supabase,
   ensureAnonymousSession,
@@ -18,8 +18,6 @@ import {
 function App() {
   const [selectedBot, setSelectedBot] = useState(0);
   const [completedChallenges, setCompletedChallenges] = useState([]);
-  //A.I Anderson
-  const listOfChallenges = ListOfChallenges;
 
   //user stuff
   const [name, setName] = useState("");
@@ -44,7 +42,7 @@ function App() {
               <Choose
                 selectedBot={selectedBot}
                 setSelectedBot={setSelectedBot}
-                listOfChallenges={MedicalBot}
+                botList={botList}
                 completedChallenges={completedChallenges}
               />
             }
@@ -54,7 +52,7 @@ function App() {
             element={
               <Prompt
                 selectedBot={selectedBot}
-                listOfChallenges={listOfChallenges}
+                botList={botList}
                 name={name}
                 age={age}
                 gender={gender}
