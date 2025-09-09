@@ -31,17 +31,12 @@ export async function sendPromptToMemory(message, systemPrompt) {
 }
 
 export async function startConversation(botId) {
-  console.log("Starting conversation with botId:", botId);
   const {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) throw new Error("No user");
-  //check
-  console.log("Authenticated user:", user);
 
   const bot_id = String(botId);
-  //check
-  console.log("Bot ID:", bot_id);
 
   const { data, error } = await supabase
     .from("Sessions")
@@ -51,7 +46,6 @@ export async function startConversation(botId) {
 
   if (error) throw error;
 
-  console.log("returning from startConversation:", data);
   return data;
 }
 

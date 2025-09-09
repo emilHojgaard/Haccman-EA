@@ -79,7 +79,8 @@ function Prompt(props) {
       if (!sessionId) throw new Error("Missing session id");
 
       // Compute the system prompt from the selected challenge
-      const systemPrompt = bot[selectedBot]?.system ?? "";
+      const bot = botList.find((b) => b.number === selectedBot);
+      const systemPrompt = bot?.system ?? "";
 
       // 1) Optimistic UI: show user message immediately
       setPreviousPrompts((prev) => [...prev, { id: "user", message }]);
@@ -102,6 +103,7 @@ function Prompt(props) {
 
   // Handle AI response (update UI + win check)
   const handleResponse = async (responseText) => {
+    const bot = botList.find((b) => b.number === selectedBot);
     if (!responseText) return;
 
     // Add AI response to previous prompts
@@ -111,11 +113,11 @@ function Prompt(props) {
     ]);
 
     // Win check
-    const challenge = botList[selectedBot];
+
     const isBeaten =
       selectedBot !== 0
-        ? containsForbiddenPhrases(challenge.resolution, responseText)
-        : containsForbiddenWords(responseText, challenge.resolution);
+        ? containsForbiddenPhrases(bot.resolution, responseText)
+        : containsForbiddenWords(responseText, bot.resolution);
 
     if (isBeaten) {
       console.log("Challenge beaten!");

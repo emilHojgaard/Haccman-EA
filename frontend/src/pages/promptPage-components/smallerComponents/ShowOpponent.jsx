@@ -6,6 +6,7 @@ import opponent42 from "../../../assets/avatar42.png";
 import opponent43 from "../../../assets/avatar43.png";
 
 export default function ShowOpponent({ botList, selectedBot }) {
+  const bot = botList.find((b) => b.number === selectedBot);
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <div
@@ -41,23 +42,25 @@ export default function ShowOpponent({ botList, selectedBot }) {
             background: "#F5EB1D",
           }}
         >
-          {botList[selectedBot].is}
+          {bot.is}
         </div>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div>
-            {botList[selectedBot].number === 0 ? (
+            {bot.number === 0 ? (
               <img src={opponent43} width={"140px"}></img>
-            ) : botList[selectedBot].number === 1 ? (
+            ) : bot.number === 1 ? (
               <img src={opponent41} width={"140px"}></img>
-            ) : botList[selectedBot].number === 2 ? (
+            ) : bot.number === 2 ? (
               <img src={opponent42} width={"140px"}></img>
-            ) : botList[selectedBot].number === 3 ? (
+            ) : bot.number === 3 ? (
               <img src={opponent2} width={"140px"}></img>
-            ) : botList[selectedBot].number === 4 ? (
+            ) : bot.number === 4 ? (
               <img src={opponent3} width={"140px"}></img>
-            ) : (
+            ) : bot.number === 5 ? (
               <img src={opponent6} width={"140px"}></img>
-            )}
+            ) : bot.number === 6 ? (
+              <img src={opponent3} width={"140px"}></img>
+            ) : null}
           </div>
 
           <div
@@ -68,7 +71,7 @@ export default function ShowOpponent({ botList, selectedBot }) {
               color: "#FFFADE",
             }}
           >
-            {botList[selectedBot].long_system_description}
+            {bot.long_system_description}
           </div>
         </div>
       </div>
