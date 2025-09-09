@@ -16,7 +16,7 @@ import {
 } from "./theLeftoverFiles/SupabaseClient.jsx";
 
 function App() {
-  const [selectedBot, setSelectedBot] = useState(0);
+  const [selectedBot, setSelectedBot] = useState(6);
   const [completedChallenges, setCompletedChallenges] = useState([]);
 
   //user stuff

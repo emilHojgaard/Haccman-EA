@@ -128,46 +128,46 @@ function Choose(props) {
             }}
           >
             {/* HERE GOES THE BOT !  */}
-            <div
-              className={
-                selectedBot ? "character-box selected" : "character-box"
-              }
-            >
-              <div className="character-box-title">{botList.is}</div>
-
+            {botList.map((bot) => (
               <div
-                onClick={() => {
-                  //supabase:
-                  onStartWithBot(botList.number);
-
-                  setSelectedBot(botList.number);
-                  playSoundEffect("select");
-                }}
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "10px",
-                }}
+                className={
+                  selectedBot ? "character-box selected" : "character-box"
+                }
               >
-                <div style={{ display: "flex", flexDirection: "row" }}>
-                  <div style={{ width: "20%" }}>
-                    <img src={opponent3}></img>
-                  </div>
+                <div className="character-box-title">{bot.is}</div>
 
-                  <div className="scrollable-box">
-                    <div>
-                      {"Challenge:  " + botList.short_system_description}
+                <div
+                  onClick={() => {
+                    //supabase:
+                    setSelectedBot(bot.number);
+                    onStartWithBot(bot.number);
+
+                    playSoundEffect("select");
+                  }}
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "10px",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "row" }}>
+                    <div style={{ width: "20%" }}>
+                      <img src={opponent3}></img>
                     </div>
-                    {props.completedChallenges.includes(botList.number) ? (
-                      <div>JAILBREAK SUCCESSFUL</div>
-                    ) : (
-                      <></>
-                    )}
-                    <div>{"Difficulty:  " + botList.difficulty}</div>
+
+                    <div className="scrollable-box">
+                      <div>{"Challenge:  " + bot.short_system_description}</div>
+                      {props.completedChallenges.includes(bot.number) ? (
+                        <div>JAILBREAK SUCCESSFUL</div>
+                      ) : (
+                        <></>
+                      )}
+                      <div>{"Difficulty:  " + bot.difficulty}</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
