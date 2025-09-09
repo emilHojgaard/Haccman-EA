@@ -1,26 +1,40 @@
-from sentence_transformers import SentenceTransformer
 import psycopg2
+from sentence_transformers import SentenceTransformer
+from cunkingScript import sentence_chunker 
 
-# model = SentenceTransformer("bert-base-nli-mean-tokens")  # a BERT embedding variant
-# text = "The hero finds the sword in the northern cave..."
-# embedding = model.encode([text])[0].tolist()
+#importing journal
+with open("journal.txt", "r", encoding="utf-8") as f:
+    journal = f.read()
 
-# Insert into Supabase (or Postgres directly)
-# cur.execute(
-#   "insert into docs (embedding, content, url) values (%s, %s, %s)",
-#   (embedding, text, "/game/chapter1")
-# )
+#  Connect to Supabase (Postgres)
+conn = psycopg2.connect(
+    "postgresql://postgres.yqroigcevcoddsmangyg:Haccman1234@aws-1-eu-north-1.pooler.supabase.com:6543/postgres"
+)
+cur = conn.cursor()
 
-#Test embedding script
 
-def main():
-    model = SentenceTransformer("bert-base-nli-mean-tokens")  # load embedding model
-    text = "The hero finds the sword in the northern cave..."
-    embedding = model.encode([text])[0].tolist()
-    
-    print("Text:", text)
-    print("Embedding length:", len(embedding))
-    print("First 10 values:", embedding[:10])  # preview
+# Insert the full doc once
+cur.execute(
+    "insert into \"RAG\".documents (title, full_text, url) values (%s, %s, %s) returning id",
+    (None, journal, None)
+)
+doc_id = cur.fetchone()[0]
 
-if __name__ == "__main__":
-    main()
+# Chunk the text
+chunks = sentence_chunker(journal, sentences_per_chunk=3)
+
+#embedding model
+model=SentenceTransformer("bert-base-nli-mean-tokens") 
+
+#  For each chunk: embed + insert
+for i, chunk in enumerate(chunks):
+    emb = model.encode([chunk])[0].tolist()  # a list[float], suitable for pgvector
+    cur.execute(
+        "INSERT INTO \"RAG\".chunks (doc_id, text_chunk, embedding, chunk_index) VALUES (%s, %s, %s, %s)",
+        (doc_id, chunk, emb, i),
+    )
+
+conn.commit()
+cur.close()
+conn.close()
+print(f"Inserted document {doc_id} with {len(chunks)} chunks")
