@@ -2,13 +2,14 @@ import Prompt from "./pages/PromptPageSupabase";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SoundEffectProvider } from "./theLeftoverFiles/SoundEffectContext";
 import Initial from "./pages/InitialPage";
-import Choose from "./pages/ChoosePage";
+import Choose from "./pages/ChooseOnePage";
 import { useEffect, useState } from "react";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import MusicPlayer from "./theLeftoverFiles/MusicPlayer";
 import DataPage from "./pages/DataPage";
 import { ListOfChallenges } from "./theLeftoverFiles/ListOfChallenges";
+import { MedicalBot } from "./theLeftoverFiles/MedicalBot.jsx";
 import {
   supabase,
   ensureAnonymousSession,
@@ -43,7 +44,7 @@ function App() {
               <Choose
                 selectedBot={selectedBot}
                 setSelectedBot={setSelectedBot}
-                listOfChallenges={listOfChallenges}
+                listOfChallenges={MedicalBot}
                 completedChallenges={completedChallenges}
               />
             }
