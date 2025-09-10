@@ -1,4 +1,5 @@
 export default function SystemInfo({ botList, selectedBot, setInfoPanels }) {
+  const bot = botList.find((b) => b.number === selectedBot);
   return (
     <div
       style={{
@@ -58,17 +59,15 @@ export default function SystemInfo({ botList, selectedBot, setInfoPanels }) {
                 padding: "10px",
               }}
             >
-              <div style={{ paddingLeft: "10px" }}>
-                {botList[selectedBot].is}
-              </div>
+              <div style={{ paddingLeft: "10px" }}>{bot.is}</div>
 
               <div> {"> This LLM has the following system message: "}</div>
-              <div> {'"' + botList[selectedBot].system + '"'}</div>
+              <div> {'"' + bot.system + '"'}</div>
               <div>
                 {" "}
-                {botList[selectedBot].difficulty === "easy"
+                {bot.difficulty === "easy"
                   ? "> There are NO active guardrails"
-                  : botList[selectedBot].difficulty === "medium"
+                  : bot.difficulty === "medium"
                   ? "> There is ONE active guardrail"
                   : "> There are TWO active guardrails"}
               </div>
