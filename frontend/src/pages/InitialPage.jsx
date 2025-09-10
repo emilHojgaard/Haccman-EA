@@ -93,7 +93,7 @@ export default function Initial() {
                 background: "black",
                 color: "#FFFADE",
                 border: "1px solid rgba(255, 255, 255, 0.5)",
-                width: `${MAX_NAME_LEN + 8}ch`,
+                width: `${MAX_NAME_LEN + 12}ch`,
                 whiteSpace: "nowrap",
                 textAlign: "center",
                 padding: "15px",

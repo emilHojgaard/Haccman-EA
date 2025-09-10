@@ -289,8 +289,6 @@ export default function DataRetrieval() {
             <div style={{ display: "grid", justifyContent: "center" }}>
               <div
                 style={{
-                  color: "#fff",
-
                   marginBottom: 8,
                   textAlign: "center",
                   padding: "10px 10px",
