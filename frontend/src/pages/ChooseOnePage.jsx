@@ -112,7 +112,7 @@ function Choose(props) {
             justifyContent: "center",
             paddingTop: "20px",
             paddingBottom: "20px",
-            color: "#ffffff",
+            color: "#FFFADE",
             border: "2px solid #000000",
             fontSize: "30px",
             fontFamily: "ARCADE_I",
