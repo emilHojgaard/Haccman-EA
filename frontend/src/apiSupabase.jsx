@@ -9,6 +9,7 @@ export async function sendPromptToMemory(message, systemPrompt) {
   const {
     data: { session },
   } = await supabase.auth.getSession();
+  console.log("Session in sendPromptToMemory:", session);
 
   const resp = await fetch(`${FN_URL}/functions/v1/ai`, {
     method: "POST",

@@ -57,6 +57,8 @@ Deno.serve(async (req) => {
     return new Response("ok", { headers: corsHeaders });
   }
 
+  console.log("Request received");
+
   try {
     const { message, systemPrompt } = await req.json();
 
@@ -69,16 +71,18 @@ Deno.serve(async (req) => {
 
     // 1) Embed the user query
     const queryEmbedding = await embedWithOpenAI(message);
+    console.log("Query embedding computed, len:", queryEmbedding.length);
 
     // 2) Retrieve top-k chunks from pgvector via RPC
     const { data: matches, error: rpcErr } = await supabase.rpc(
-      "rag.match_chunks",
+      "match_chunks",
       {
         query_embedding: queryEmbedding,
         match_count: 6,
-        min_similarity: 0,
+        min_similarity: 0.1,
       }
     );
+    console.log("Retrieved", matches?.length, "matching chunks");
     if (rpcErr) throw rpcErr;
 
     // 3) Build context string
