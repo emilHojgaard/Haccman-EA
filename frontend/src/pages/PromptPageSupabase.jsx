@@ -88,6 +88,10 @@ function Prompt(props) {
       // 2) Insert prompt row in DB
       const promptRow = await insertPrompt(sessionId, message);
 
+      // embed with bert
+      // sent embedded message to ai for searching in RAG
+
+      // make AI generate a response based on, system prompt + user prompt + relevant context from memory
       // 3) Call Edge Function (OpenAI) to get reply
       const responseText = await sendPromptToMemory(message, systemPrompt);
 
