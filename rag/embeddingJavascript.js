@@ -9,7 +9,7 @@ const {
     OPENAI_KEY,
     SUPABASE_URL,
     SUPABASE_SERVICE_ROLE_KEY,
-    JOURNALS = ["journal1.txt", "journal2.txt", "journal3.txt", "journal4.txt", "journal5.txt", "journal6.txt", "journal7.txt", "journal8.txt", "journal9.txt", "journal10.txt"],
+    JOURNALS = ["journal1.txt", "journal2.txt", "journal3.txt", "journal4.txt", "journal5.txt", "journal6.txt", "journal7.txt", "journal8.txt", "journal9.txt", "journal10.txt", "journal11.txt"],
 } = process.env;
 
 if (!OPENAI_KEY || !SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
