@@ -18,6 +18,7 @@ const {
     "journal8.txt",
     "journal9.txt",
     "journal10.txt",
+    "journal11.txt",
   ],
 } = process.env;
 
