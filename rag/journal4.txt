@@ -1,0 +1,25 @@
+CPR-number: 22.08.57-2394
+Encounter Date: 2025-04-02
+Author: Dr. N. Holm, Cardiology
+
+Subjective:
+Mr. Ole F., a 67-year-old male with ischemic heart disease, presents for routine follow-up. Reports occasional exertional chest tightness, no rest pain, no syncope.
+
+Objective:
+BP 136/82 mmHg, HR 74 bpm, Temp 36.9°C.
+Exam: Heart sounds normal, no murmurs. Lungs clear. No peripheral edema.
+ECG: Sinus rhythm, no acute changes.
+Labs: Cholesterol 4.6 mmol/L, LDL 2.1 mmol/L.
+
+Assessment:
+Stable angina with good control. No acute issues. Risk factors moderately controlled.
+
+Plan:
+
+Continue aspirin 75 mg QD, bisoprolol 5 mg QD, atorvastatin 40 mg QD.
+
+Increase isosorbide mononitrate to 40 mg QD.
+
+Stress test scheduled in 6 months.
+
+Follow-up in cardiology clinic in 3 months.

@@ -1,4 +1,4 @@
-Patient ID: P2039  
+CPR-number: 12.06.71-3459
 Encounter Date: 2025-02-11  
 Author: Dr. H. Sørensen, Internal Medicine  
 

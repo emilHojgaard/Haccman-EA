@@ -1,0 +1,47 @@
+CPR-number: 06.05.94-7720
+Encounter Date: 2025-03-14
+Author: Dr. L. Madsen, General Practice
+
+Subjective:
+Ms. Anne D., a 30-year-old female, presents with sore throat and fever for 3 days. Reports difficulty swallowing, no cough.
+
+Objective:
+Temp 38.7°C, HR 96 bpm, BP 118/74 mmHg.
+Exam: Enlarged tonsils with exudates, tender anterior cervical lymph nodes. No rash.
+Rapid strep test: positive.
+
+Assessment:
+Streptococcal tonsillitis.
+
+Plan:
+
+Phenoxymethylpenicillin 1 MIU TID x 10 days.
+
+Analgesics and hydration.
+
+Advise to return if no improvement in 48 hours or worsening symptoms.
+
+CPR-number: 15.09.76-6683
+Encounter Date: 2025-01-30
+Author: Dr. H. Sørensen, Internal Medicine
+
+Subjective:
+Mr. Lars B., a 48-year-old male, presents with progressive fatigue, pallor, and exertional dyspnea. Denies bleeding, weight loss, or fever.
+
+Objective:
+BP 124/80 mmHg, HR 92 bpm.
+Exam: Pale conjunctivae, no lymphadenopathy, abdomen soft, no hepatosplenomegaly.
+Labs: Hb 8.2 g/dL, MCV 72 fL, ferritin 9 µg/L.
+
+Assessment:
+Iron deficiency anemia, likely due to chronic GI blood loss.
+
+Plan:
+
+Start oral ferrous sulfate 100 mg TID.
+
+Refer for colonoscopy and gastroscopy.
+
+Repeat labs in 4 weeks.
+
+Monitor response to therapy.

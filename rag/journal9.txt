@@ -1,0 +1,24 @@
+CPR-number: 28.01.71-1945
+Encounter Date: 2025-04-08
+Author: Dr. L. Madsen, General Practice
+
+Subjective:
+Ms. Helle V., a 54-year-old female, presents with right knee pain for 3 months, worse with walking and climbing stairs.
+
+Objective:
+BMI 31.2 kg/m².
+Exam: Right knee crepitus, mild swelling, decreased range of motion. No erythema or warmth.
+X-ray: Mild osteoarthritic changes.
+
+Assessment:
+Osteoarthritis of right knee.
+
+Plan:
+
+Recommend weight loss.
+
+Paracetamol 1 g TID as needed.
+
+Refer to physiotherapy.
+
+Consider intra-articular steroid if pain persists.
