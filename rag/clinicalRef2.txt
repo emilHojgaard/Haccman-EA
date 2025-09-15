@@ -1,0 +1,31 @@
+Type 2 Diabetes Mellitus
+
+Definition:
+Chronic metabolic disorder with hyperglycemia due to insulin resistance and impaired insulin secretion.
+
+Epidemiology:
+Increasing global prevalence, especially in adults over 40. Risk factors include obesity, 
+sedentary lifestyle, age, ethnicity, and family history.
+
+Pathophysiology:
+Peripheral insulin resistance combined with progressive beta-cell dysfunction results in elevated blood glucose. 
+Hepatic gluconeogenesis is increased, contributing to hyperglycemia. 
+Chronic hyperglycemia causes microvascular and macrovascular complications.
+
+Clinical Features:
+Polyuria, polydipsia, polyphagia, fatigue, blurred vision. Often asymptomatic for years. 
+Chronic complications include retinopathy, nephropathy, neuropathy, and increased cardiovascular risk.
+
+Investigations:
+- Fasting plasma glucose, HbA1c, oral glucose tolerance test.
+- Lipid profile, renal function, urine microalbumin.
+- Periodic eye exams for retinopathy.
+
+Treatment / Management:
+- Lifestyle: Diet modification, weight management, physical activity, smoking cessation.
+- Pharmacologic: Metformin first-line; other oral agents include sulfonylureas, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists. Insulin therapy for uncontrolled hyperglycemia or advanced disease.
+- Monitoring: HbA1c every 3–6 months, kidney function, lipid profile, blood pressure, foot exams.
+
+Key Points:
+Tight glycemic control prevents microvascular complications. 
+Cardiovascular risk management and lifestyle adherence are essential.

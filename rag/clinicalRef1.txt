@@ -1,0 +1,34 @@
+Hypertension (High Blood Pressure)
+
+Definition:
+Chronic elevation of arterial blood pressure, typically ≥140/90 mmHg, with persistent elevation confirmed on repeated measurements. 
+Can be primary (essential) or secondary to another underlying condition.
+
+Epidemiology:
+Very common worldwide, affecting adults of all ages. 
+Prevalence increases with age, obesity, high salt intake, sedentary lifestyle, and family history. 
+Leading modifiable risk factor for cardiovascular disease, stroke, and chronic kidney disease.
+
+Pathophysiology:
+Multifactorial mechanisms include increased peripheral vascular resistance, endothelial dysfunction, 
+overactive sympathetic nervous system, renal sodium retention, and renin-angiotensin-aldosterone system dysregulation. 
+Long-term hypertension causes vascular remodeling, left ventricular hypertrophy, and organ damage.
+
+Clinical Features:
+Often asymptomatic. Possible symptoms include headache, dizziness, palpitations, blurred vision, or tinnitus. 
+Chronic uncontrolled hypertension may lead to heart failure, ischemic heart disease, stroke, kidney disease, or retinopathy.
+
+Investigations:
+- Repeated blood pressure measurements (office, home, ambulatory).
+- Basic labs: renal function, electrolytes, fasting lipids, urinalysis.
+- ECG, echocardiography if cardiac involvement suspected.
+- Workup for secondary causes if presentation atypical.
+
+Treatment / Management:
+- Lifestyle: Sodium restriction, weight loss, regular exercise, alcohol moderation, smoking cessation, stress reduction.
+- Pharmacologic: First-line – ACE inhibitors (lisinopril), ARBs (losartan), thiazide diuretics (hydrochlorothiazide), calcium channel blockers (amlodipine). Second-line/combination – Beta-blockers (metoprolol), aldosterone antagonists (spironolactone), loop diuretics if needed.
+- Monitoring: Regular BP checks, renal function, electrolytes, adherence assessment.
+
+Key Points:
+Adequate BP control reduces cardiovascular and renal complications. 
+Combination therapy is often required, and patient education is critical.
