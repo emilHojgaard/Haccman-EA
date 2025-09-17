@@ -1,6 +1,5 @@
 import PageTitle from "./smallerComponents/PageTitle";
 import ShowOpponent from "./smallerComponents/ShowOpponent";
-import MemoryActivation from "./smallerComponents/MemoryActivation";
 import LeaveButton from "./smallerComponents/LeaveButton";
 import FullPromptChat from "./smallerComponents/FullPromptChat";
 import InfoPannel from "./smallerComponents/InfoPannel";
@@ -10,7 +9,6 @@ export default function BaseUI({
   selectedBot,
   previousPrompts,
   date,
-  usingMemory,
   sendPrompt,
   playSoundEffect,
   setInfoPanels,
@@ -41,7 +39,6 @@ export default function BaseUI({
             <FullPromptChat
               previousPrompts={previousPrompts}
               date={date}
-              usingMemory={usingMemory}
               sendPrompt={sendPrompt}
               playSoundEffect={playSoundEffect}
               // selectedBot={selectedBot} (LOOK again if it is needed ! )
@@ -59,7 +56,6 @@ export default function BaseUI({
             }}
           >
             <ShowOpponent botList={botList} selectedBot={selectedBot} />
-            <MemoryActivation usingMemory={usingMemory} />
             <div style={{ display: "flex", flexDirection: "row", gap: "2vh" }}>
               <InfoPannel setInfoPanels={setInfoPanels} />
 

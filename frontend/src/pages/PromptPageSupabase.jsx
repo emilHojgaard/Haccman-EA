@@ -41,7 +41,6 @@ function Prompt(props) {
   const [previousPrompts, setPreviousPrompts] = useState([]);
   const [winState, setWinState] = useState(false);
   const [showContent, setShowContent] = useState(false);
-  const [usingMemory, setUsingMemory] = useState(true); // if you still want the label toggle
 
   // hooks
   const { playSoundEffect } = useSoundEffect();
@@ -203,7 +202,6 @@ function Prompt(props) {
         selectedBot={selectedBot}
         previousPrompts={previousPrompts}
         date={date}
-        usingMemory={usingMemory}
         sendPrompt={sendPrompt}
         playSoundEffect={playSoundEffect}
         setInfoPanels={setInfoPanels}
