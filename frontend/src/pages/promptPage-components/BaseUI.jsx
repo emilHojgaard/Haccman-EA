@@ -3,6 +3,7 @@ import ShowOpponent from "./smallerComponents/ShowOpponent";
 import LeaveButton from "./smallerComponents/LeaveButton";
 import FullPromptChat from "./smallerComponents/FullPromptChat";
 import InfoPannel from "./smallerComponents/InfoPannel";
+import SystemInfo from "./smallerComponents/SystemInfo";
 
 export default function BaseUI({
   botList,
@@ -11,7 +12,12 @@ export default function BaseUI({
   date,
   sendPrompt,
   playSoundEffect,
-  setInfoPanels,
+  setShowInformation,
+
+  setGuardrailOn,
+  setShowSystemprompt,
+  selectedTask,
+  setSelectedTask,
 }) {
   return (
     <div style={{ zIndex: 1 }}>
@@ -34,7 +40,7 @@ export default function BaseUI({
               width: "60%",
             }}
           >
-            <PageTitle botList={botList} selectedBot={selectedBot} />
+            <PageTitle selectedTask={selectedTask} />
 
             <FullPromptChat
               previousPrompts={previousPrompts}
@@ -42,6 +48,7 @@ export default function BaseUI({
               sendPrompt={sendPrompt}
               playSoundEffect={playSoundEffect}
               // selectedBot={selectedBot} (LOOK again if it is needed ! )
+              //maybe selectedtask here ? if the systemprompt becomses changable
             />
           </div>
 
@@ -56,10 +63,30 @@ export default function BaseUI({
             }}
           >
             <ShowOpponent botList={botList} selectedBot={selectedBot} />
-            <div style={{ display: "flex", flexDirection: "row", gap: "2vh" }}>
-              <InfoPannel setInfoPanels={setInfoPanels} />
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: "2vh" }}
+            >
+              <InfoPannel />
+
+              <p style={{ color: "#fffade" }}> Info</p>
 
               <div style={{ display: "flex", alignItems: "flex-end" }}>
+                <div
+                  style={{
+                    display: "inline-block",
+                    border: "2px solid #ffffff",
+                    padding: "5px",
+                  }}
+                >
+                  <button
+                    style={{ width: "100%" }}
+                    onClick={() => {
+                      setShowInformation(true);
+                    }}
+                  >
+                    SystemInfo
+                  </button>
+                </div>
                 <LeaveButton playSoundEffect={playSoundEffect} />
               </div>
             </div>

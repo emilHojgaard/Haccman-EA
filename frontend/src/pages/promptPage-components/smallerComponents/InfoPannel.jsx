@@ -1,4 +1,4 @@
-export default function InfoPannel({ setInfoPanels }) {
+export default function InfoPannel() {
   return (
     <div
       style={{
@@ -7,7 +7,7 @@ export default function InfoPannel({ setInfoPanels }) {
         gap: "2vh",
       }}
     >
-      <p style={{ color: "white" }}>Information</p>
+      <p style={{ color: "white" }}>Settings</p>
       <div
         style={{
           display: "inline-block",
@@ -18,17 +18,12 @@ export default function InfoPannel({ setInfoPanels }) {
         <button
           style={{ width: "100%" }}
           onClick={() => {
-            setInfoPanels((prev) => ({
-              ...prev,
-              guardarailInfo: true,
-              specificOn: true,
-            }));
+            // Open the system prompt info panel
           }}
         >
-          GuardrailInfo
+          Set Systemprompt
         </button>
       </div>
-
       <div
         style={{
           display: "inline-block",
@@ -39,56 +34,10 @@ export default function InfoPannel({ setInfoPanels }) {
         <button
           style={{ width: "100%" }}
           onClick={() => {
-            setInfoPanels((prev) => ({
-              ...prev,
-              llmInfo: true,
-              specificOn: true,
-            }));
+            // toggle guardrail on/off
           }}
         >
-          LLMInfo
-        </button>
-      </div>
-
-      <div
-        style={{
-          display: "inline-block",
-          border: "2px solid #ffffff",
-          padding: "5px",
-        }}
-      >
-        <button
-          style={{ width: "100%" }}
-          onClick={() => {
-            setInfoPanels((prev) => ({
-              ...prev,
-              userpromptInfo: true,
-              specificOn: true,
-            }));
-          }}
-        >
-          UserPromptInfo
-        </button>
-      </div>
-
-      <div
-        style={{
-          display: "inline-block",
-          border: "2px solid #ffffff",
-          padding: "5px",
-        }}
-      >
-        <button
-          style={{ width: "100%" }}
-          onClick={() => {
-            setInfoPanels((prev) => ({
-              ...prev,
-              systemInfo: true,
-              specificOn: true,
-            }));
-          }}
-        >
-          SystemInfo
+          Guardrail On/Off
         </button>
       </div>
     </div>

@@ -142,7 +142,7 @@ function Choose(props) {
                       : "character-box"
                   }
                 >
-                  <div className="character-box-title">{bot.is}</div>
+                  <div className="character-box-title">{bot.name}</div>
 
                   <div
                     onClick={() => {
@@ -157,19 +157,27 @@ function Choose(props) {
                       cursor: "pointer",
                     }}
                   >
-                    <div style={{ display: "flex", flexDirection: "row" }}>
-                      <div style={{ width: "20%" }}>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                      }}
+                    >
+                      <div
+                        style={{
+                          width: "30%",
+                        }}
+                      >
                         <img src={opponent3} alt="" />
                       </div>
 
                       <div className="scrollable-box">
-                        <div>
-                          {"Challenge:  " + bot.short_system_description}
+                        <div style={{ overflowY: "auto" }}>
+                          {"Challenge:  " + bot.inGameDescription}
                         </div>
                         {completedChallenges.includes(bot.number) ? (
                           <div>JAILBREAK SUCCESSFUL</div>
                         ) : null}
-                        <div>{"Difficulty:  " + bot.difficulty}</div>
                       </div>
                     </div>
                   </div>

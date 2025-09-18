@@ -1,6 +1,6 @@
 import AssetInfo from "../../../theLeftoverFiles/AssetInfo";
 
-export default function GuardrailInfo({ setInfoPanels }) {
+export default function GuardrailSwitch({ setInfoPanels }) {
   return (
     <div
       style={{

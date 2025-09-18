@@ -42,7 +42,7 @@ export default function ShowOpponent({ botList, selectedBot }) {
             background: "#F5EB1D",
           }}
         >
-          {bot.is}
+          {bot.name}
         </div>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div>
@@ -71,7 +71,7 @@ export default function ShowOpponent({ botList, selectedBot }) {
               color: "#FFFADE",
             }}
           >
-            {bot.long_system_description}
+            {bot.inGameDescription}
           </div>
         </div>
       </div>
