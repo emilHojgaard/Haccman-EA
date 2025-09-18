@@ -1,6 +1,4 @@
-import AssetInfo from "../../../theLeftoverFiles/AssetInfo";
-
-export default function GuardrailSwitch({ setInfoPanels }) {
+export default function GuardrailSwitch({ setGuardrailOn }) {
   return (
     <div
       style={{
@@ -10,12 +8,7 @@ export default function GuardrailSwitch({ setInfoPanels }) {
         justifyContent: "center",
       }}
     >
-      <div className="beaten">
-        <AssetInfo
-          setInfoPanels={setInfoPanels}
-          mainText={"guardrail"}
-        ></AssetInfo>
-      </div>
+      <div className="beaten"></div>
       <div className="beaten-back"></div>
     </div>
   );

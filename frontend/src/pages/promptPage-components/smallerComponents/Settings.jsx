@@ -1,4 +1,4 @@
-export default function InfoPannel() {
+export default function Settings() {
   return (
     <div
       style={{

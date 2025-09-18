@@ -2,8 +2,8 @@ import PageTitle from "./smallerComponents/PageTitle";
 import ShowOpponent from "./smallerComponents/ShowOpponent";
 import LeaveButton from "./smallerComponents/LeaveButton";
 import FullPromptChat from "./smallerComponents/FullPromptChat";
-import InfoPannel from "./smallerComponents/InfoPannel";
 import SystemInfo from "./smallerComponents/SystemInfo";
+import Settings from "./smallerComponents/Settings";
 
 export default function BaseUI({
   botList,
@@ -66,7 +66,7 @@ export default function BaseUI({
             <div
               style={{ display: "flex", flexDirection: "column", gap: "2vh" }}
             >
-              <InfoPannel />
+              <Settings />
 
               <p style={{ color: "#fffade" }}> Info</p>
 
