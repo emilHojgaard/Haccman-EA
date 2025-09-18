@@ -4,6 +4,7 @@ import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
 import BaseUI from "./promptPage-components/BaseUI";
 import WinScreen from "./promptPage-components/WinScreen";
 import SystemInfo from "./promptPage-components/smallerComponents/SystemInfo";
+import SystemPromptOverlay from "./promptPage-components/smallerComponents/SystemPromptOverlay";
 import {
   sendPromptToMemory,
   insertPrompt,
@@ -175,6 +176,16 @@ function Prompt(props) {
     <>
       {showContent && (
         <WinScreen setWinState={setWinState} setShowContent={setShowContent} />
+      )}
+
+      {ShowSystemprompt && (
+        <SystemPromptOverlay
+          botList={botList}
+          selectedBot={selectedBot}
+          selectedTask={selectedTask}
+          setSelectedTask={setSelectedTask}
+          setShowSystemprompt={setShowSystemprompt}
+        />
       )}
 
       {showInformation && (

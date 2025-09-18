@@ -1,4 +1,4 @@
-export default function Settings() {
+export default function SettingsButtons({ setShowSystemprompt }) {
   return (
     <div
       style={{
@@ -7,18 +7,18 @@ export default function Settings() {
         gap: "2vh",
       }}
     >
-      <p style={{ color: "white" }}>Settings</p>
+      <p style={{ color: "#fffade" }}>Settings</p>
       <div
         style={{
           display: "inline-block",
-          border: "2px solid #ffffff",
+          border: "2px solid #fffade",
           padding: "5px",
         }}
       >
         <button
           style={{ width: "100%" }}
           onClick={() => {
-            // Open the system prompt info panel
+            setShowSystemprompt(true);
           }}
         >
           Set Systemprompt
@@ -27,7 +27,7 @@ export default function Settings() {
       <div
         style={{
           display: "inline-block",
-          border: "2px solid #ffffff",
+          border: "2px solid #fffade",
           padding: "5px",
         }}
       >

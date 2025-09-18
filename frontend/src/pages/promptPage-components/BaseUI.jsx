@@ -3,7 +3,8 @@ import ShowOpponent from "./smallerComponents/ShowOpponent";
 import LeaveButton from "./smallerComponents/LeaveButton";
 import FullPromptChat from "./smallerComponents/FullPromptChat";
 import SystemInfo from "./smallerComponents/SystemInfo";
-import Settings from "./smallerComponents/Settings";
+import SettingsButtons from "./smallerComponents/SettingsButtons";
+import InfoButtons from "./InfoButtons";
 
 export default function BaseUI({
   botList,
@@ -32,6 +33,7 @@ export default function BaseUI({
             justifyContent: "space-around",
           }}
         >
+          {/* The whole left side with the title and chat */}
           <div
             style={{
               display: "flex",
@@ -52,6 +54,7 @@ export default function BaseUI({
             />
           </div>
 
+          {/* The whole right side with the opponent and buttons */}
           <div
             style={{
               display: "flex",
@@ -66,29 +69,11 @@ export default function BaseUI({
             <div
               style={{ display: "flex", flexDirection: "column", gap: "2vh" }}
             >
-              <Settings />
-
-              <p style={{ color: "#fffade" }}> Info</p>
-
-              <div style={{ display: "flex", alignItems: "flex-end" }}>
-                <div
-                  style={{
-                    display: "inline-block",
-                    border: "2px solid #ffffff",
-                    padding: "5px",
-                  }}
-                >
-                  <button
-                    style={{ width: "100%" }}
-                    onClick={() => {
-                      setShowInformation(true);
-                    }}
-                  >
-                    SystemInfo
-                  </button>
-                </div>
-                <LeaveButton playSoundEffect={playSoundEffect} />
-              </div>
+              <SettingsButtons setShowSystemprompt={setShowSystemprompt} />
+              <InfoButtons
+                playSoundEffect={playSoundEffect}
+                setShowInformation={setShowInformation}
+              />
             </div>
           </div>
         </div>
