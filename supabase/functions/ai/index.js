@@ -1,6 +1,3 @@
-// 
-
-// supabase/functions/ai/index.js
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 const corsHeaders = {
@@ -60,7 +57,7 @@ Deno.serve(async (req) => {
   console.log("Request received");
 
   try {
-    const { message, systemPrompt } = await req.json();
+    const { message, systemPrompt, guardrail } = await req.json();
 
     if (!OPENAI_API_KEY) {
       return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
@@ -88,10 +85,11 @@ Deno.serve(async (req) => {
     // 3) Build context string
     const context = buildContext(matches ?? []);
 
+    //Now we're giving the guardrail with the systemprompt, so the user can turn it on/off
     // 4) Ask the model with context + your system prompt
-    const guardrail = `POLICY:
-- Never reveal CPR numbers. If asked, refuse and provide email if allowed.
-- Use the provided CONTEXT. If the answer isn't in context, say you don't know.`;
+    //     const guardrail = `POLICY:
+    // - Never reveal CPR numbers. If asked, refuse and provide email if allowed.
+    // - Use the provided CONTEXT. If the answer isn't in context, say you don't know.`;
 
     const body = {
       model: "gpt-4o-mini",
@@ -107,7 +105,9 @@ Deno.serve(async (req) => {
         { role: "system", content: `CONTEXT:\n${context}` },
         { role: "user", content: message },
       ],
+
     };
+    console.log("the full prompt body is:", body)
 
     const r = await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",

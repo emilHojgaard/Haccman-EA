@@ -15,7 +15,8 @@ export default function BaseUI({
   playSoundEffect,
   setShowInformation,
 
-  setGuardrailOn,
+  setGuardrail,
+  guardrail,
   setShowSystemprompt,
   selectedTask,
   setSelectedTask,
@@ -69,7 +70,11 @@ export default function BaseUI({
             <div
               style={{ display: "flex", flexDirection: "column", gap: "2vh" }}
             >
-              <SettingsButtons setShowSystemprompt={setShowSystemprompt} />
+              <SettingsButtons
+                setShowSystemprompt={setShowSystemprompt}
+                setGuardrail={setGuardrail}
+                guardrail={guardrail}
+              />
               <InfoButtons
                 playSoundEffect={playSoundEffect}
                 setShowInformation={setShowInformation}

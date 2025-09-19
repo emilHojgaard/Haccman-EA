@@ -15,6 +15,7 @@ export default function SystemPromptOverlay({
     border: "#FFFADE",
   };
 
+  // not totally sure about useMemo, its a chat-thing...
   const bot = useMemo(
     () => botList?.find((b) => b.number === selectedBot) ?? null,
     [botList, selectedBot]

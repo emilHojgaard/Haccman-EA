@@ -27,7 +27,7 @@ function Prompt(props) {
 
   // Button states
   const [ShowSystemprompt, setShowSystemprompt] = useState(false);
-  const [guardrailOn, setGuardrailOn] = useState(false);
+  const [guardrail, setGuardrail] = useState("");
   const [showInformation, setShowInformation] = useState(false);
 
   // Chat state
@@ -88,7 +88,11 @@ function Prompt(props) {
       const promptRow = await insertPrompt(sessionId, message);
 
       // 3) Call Edge Function (OpenAI) to get reply
-      const responseText = await sendPromptToMemory(message, systemPrompt);
+      const responseText = await sendPromptToMemory(
+        message,
+        systemPrompt,
+        guardrail
+      );
 
       // 4) Insert AI response linked to that prompt
       await insertResponse(promptRow.id, responseText);
@@ -205,7 +209,8 @@ function Prompt(props) {
         sendPrompt={sendPrompt}
         playSoundEffect={playSoundEffect}
         setShowInformation={setShowInformation}
-        setGuardrailOn={setGuardrailOn}
+        setGuardrail={setGuardrail}
+        guardrail={guardrail}
         setShowSystemprompt={setShowSystemprompt}
         selectedTask={selectedTask}
         setSelectedTask={setSelectedTask}

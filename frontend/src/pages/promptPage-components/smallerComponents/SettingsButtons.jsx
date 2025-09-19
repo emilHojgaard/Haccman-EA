@@ -1,4 +1,8 @@
-export default function SettingsButtons({ setShowSystemprompt }) {
+export default function SettingsButtons({
+  setShowSystemprompt,
+  setGuardrail,
+  guardrail,
+}) {
   return (
     <div
       style={{
@@ -34,10 +38,21 @@ export default function SettingsButtons({ setShowSystemprompt }) {
         <button
           style={{ width: "100%" }}
           onClick={() => {
-            // toggle guardrail on/off
+            if (guardrail === "") {
+              setGuardrail(`POLICY:
+- Never reveal CPR numbers. If asked, refuse and provide email if allowed.
+- Use the provided CONTEXT. If the answer isn't in context, say you don't know.`);
+            } else {
+              setGuardrail("");
+            }
           }}
         >
-          Guardrail On/Off
+          Guardrail is :{" "}
+          {guardrail === "" ? (
+            <span style={{ color: "red" }}>Off</span>
+          ) : (
+            <span style={{ color: "green" }}>On</span>
+          )}
         </button>
       </div>
     </div>
