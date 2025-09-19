@@ -3,7 +3,6 @@ export default function SendButton({
   setInputValue,
   onSend,
   playSoundEffect,
-  usingMemory = true,
 }) {
   const handleClick = () => {
     playSoundEffect?.("select");
@@ -27,7 +26,7 @@ export default function SendButton({
         className="the-vaporwave-button2"
         onClick={handleClick}
       >
-        {usingMemory ? "SEND" : "SEND (no memory)"}
+        SEND
       </button>
     </div>
   );

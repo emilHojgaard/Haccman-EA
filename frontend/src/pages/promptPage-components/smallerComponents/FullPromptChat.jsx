@@ -2,9 +2,9 @@ import PromptWindow from "./PromptWindow";
 import PromptInputBox from "./PromptInputBox";
 
 export default function FullPromptChat({
+  setPreviousPrompts,
   previousPrompts,
   date,
-  usingMemory,
   sendPrompt,
   playSoundEffect,
 }) {
@@ -18,7 +18,7 @@ export default function FullPromptChat({
       <PromptInputBox
         onSend={sendPrompt}
         playSoundEffect={playSoundEffect}
-        usingMemory={usingMemory}
+        setPreviousPrompts={setPreviousPrompts}
       />
     </div>
   );

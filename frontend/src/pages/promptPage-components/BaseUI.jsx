@@ -1,25 +1,22 @@
 import PageTitle from "./smallerComponents/PageTitle";
 import ShowOpponent from "./smallerComponents/ShowOpponent";
-import LeaveButton from "./smallerComponents/LeaveButton";
 import FullPromptChat from "./smallerComponents/FullPromptChat";
-import SystemInfo from "./smallerComponents/SystemInfo";
 import SettingsButtons from "./smallerComponents/SettingsButtons";
 import InfoButtons from "./InfoButtons";
 
 export default function BaseUI({
   botList,
   selectedBot,
+  setPreviousPrompts,
   previousPrompts,
   date,
   sendPrompt,
   playSoundEffect,
   setShowInformation,
-
   setGuardrail,
   guardrail,
   setShowSystemprompt,
   selectedTask,
-  setSelectedTask,
 }) {
   return (
     <div style={{ zIndex: 1 }}>
@@ -46,6 +43,7 @@ export default function BaseUI({
             <PageTitle selectedTask={selectedTask} />
 
             <FullPromptChat
+              setPreviousPrompts={setPreviousPrompts}
               previousPrompts={previousPrompts}
               date={date}
               sendPrompt={sendPrompt}

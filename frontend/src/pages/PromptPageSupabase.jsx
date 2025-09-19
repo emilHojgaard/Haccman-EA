@@ -204,6 +204,7 @@ function Prompt(props) {
       <BaseUI
         botList={botList}
         selectedBot={selectedBot}
+        setPreviousPrompts={setPreviousPrompts}
         previousPrompts={previousPrompts}
         date={date}
         sendPrompt={sendPrompt}
