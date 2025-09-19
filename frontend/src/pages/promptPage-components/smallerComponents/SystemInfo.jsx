@@ -17,7 +17,9 @@ export default function SystemInfo({
   };
 
   const CONCEPT_COPY = {
+    LLM: "Large Language Model: the AI model (like GPT-4) that generates text based on your prompts.",
     RAG: "Retrieval-Augmented Generation: the bot first searches its document library for relevant snippets, then uses them to craft an answer. It helps ground replies in sources.",
+
     "System Prompt":
       "Hidden instructions that set the bot’s role, tone and rules. Jailbreaks try to override or bypass these constraints.",
     Guardrail:
@@ -107,9 +109,8 @@ export default function SystemInfo({
                 flexDirection: "row",
                 gap: "6vh",
                 padding: "14px",
-                overflowY: "visible", // let it grow
+                overflow: "visible",
                 alignItems: "flex-start",
-                flexWrap: "wrap",
                 width: "min(86vw, 900px)",
               }}
             >
@@ -135,7 +136,13 @@ export default function SystemInfo({
                   minWidth: 220,
                 }}
               >
-                Concepts:
+                Important Concepts:
+                <button
+                  onClick={() => setActiveConcept("LLM")}
+                  style={btnStyle(THEME)}
+                >
+                  LLM
+                </button>
                 <button
                   onClick={() => setActiveConcept("RAG")}
                   style={btnStyle(THEME)}
