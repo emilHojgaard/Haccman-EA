@@ -17,15 +17,34 @@ export default function SystemInfo({
   };
 
   const CONCEPT_COPY = {
-    LLM: "Large Language Model: the AI model (like GPT-4) that generates text based on your prompts.",
-    RAG: "Retrieval-Augmented Generation: the bot first searches its document library for relevant snippets, then uses them to craft an answer. It helps ground replies in sources.",
+    LLM: `Large Language Model: a neural network trained on large text corpora to predict the next token. 
+It doesn’t “know” facts like a database; it infers patterns and produces likely text given your prompt and context. 
+Strengths: fluent language, summarization, rewriting, brainstorming, code scaffolding. 
+Limitations: can be confidently wrong (hallucinations), sensitive to wording, and inherits biases from data. 
+Tip: give clear goals, constraints, and examples (“few-shot”) to shape its behavior.`,
 
-    "System Prompt":
-      "Hidden instructions that set the bot’s role, tone and rules. Jailbreaks try to override or bypass these constraints.",
-    Guardrail:
-      "Safety checks that block sensitive requests or redact risky content before/after generation. Helpful but not foolproof.",
-    Hallucination:
-      "When the model states something incorrect or unsupported. Reduced by asking for sources, clarifying, or using RAG.",
+    RAG: `Retrieval-Augmented Generation: a two-step pipeline—(1) retrieve relevant documents (via search/embeddings) and 
+(2) generate an answer that cites or is grounded in those documents. 
+Why it helps: reduces hallucinations and keeps answers up-to-date without retraining the model. 
+Key pieces: a document store (e.g., vector DB), a retriever (similarity search), and a prompt that injects the snippets. 
+Failure modes: bad retrieval (irrelevant passages), leakage of sensitive docs, or the model ignoring context. 
+Best practice: constrain the model to answer ONLY from retrieved context and ask for citations.`,
+
+    "System Prompt": `The hidden instruction that sets role, tone, capabilities, and hard rules for the model (e.g., 
+“you are a cautious medical assistant; never reveal identifiers; cite sources”). 
+It acts like a policy + persona that all later messages sit under. 
+Attackers may try to “jailbreak” by telling the model to ignore prior rules or by using role-playing/translation tricks. 
+Hygiene: keep it short, unambiguous, and test against adversarial inputs; prefer explicit refusals and allowed alternatives.`,
+
+    Guardrail: `Safety and compliance checks that run before/after generation to prevent harmful or disallowed output. 
+Examples: PII redaction, profanity/violence filters, prompt-injection detection, domain allowlists, rate limits, and approvals for sensitive actions. 
+Trade-off: strict railings reduce risk but can over-block useful content; too loose increases leakage. 
+Layering: combine input validation, context filtering (e.g., remove classified docs), output scanning, and human review for edge cases.`,
+
+    Hallucination: `When the model produces plausible-sounding but incorrect or unsupported statements. 
+Common triggers: missing context, vague prompts, pressure to be definitive, or math/logic beyond its training. 
+Mitigations: use RAG with citations, ask the model to show sources or uncertainty, prefer step-by-step reasoning prompts, and constrain to “answer only if present in context.” 
+Signals: invented references, over-specific numbers without sources, or contradictory claims.`,
   };
 
   // esc to close (overlay first, then panel)
@@ -124,7 +143,7 @@ export default function SystemInfo({
                 >
                   About the Chat bot:
                 </div>
-                <div>{`"${bot?.description ?? ""}"`}</div>
+                <div>{bot.description ?? ""}</div>
               </div>
 
               <div
@@ -191,7 +210,10 @@ export default function SystemInfo({
       {/* small overlay for concept (same theme), slightly upper on screen */}
       {activeConcept && (
         <div
-          onClick={() => setActiveConcept(null)}
+          onClick={(e) => {
+            e.stopPropagation(); // <- stop the click escaping the overlay
+            setActiveConcept(null);
+          }}
           style={{
             position: "fixed",
             inset: 0,
