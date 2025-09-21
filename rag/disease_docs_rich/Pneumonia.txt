@@ -1,0 +1,31 @@
+TITLE: Community-Acquired Pneumonia
+
+Overview:
+Pneumonia is a lung infection that inflames the air sacs. Common causes include bacteria and viruses acquired outside the hospital.
+
+Causes and Risk Factors:
+- Older age, chronic diseases (COPD, heart failure, diabetes)
+- Smoking, alcohol misuse, weakened immunity
+
+Common Symptoms:
+- Fever, chills, productive cough, pleuritic chest pain
+- Breathlessness, fatigue
+
+Diagnosis:
+- Chest X-ray (consolidation), bloods (WBC, CRP)
+- Severity scoring (e.g., CURB-65) to guide setting of care
+
+Treatment:
+- Empirical antibiotics per guideline (pathogen/host risk)
+- Fluids, antipyretics, oxygen as needed; early mobilization
+
+Self-Management and Lifestyle:
+- Rest and hydration; complete antibiotics
+- Vaccination (influenza, pneumococcal) and smoking cessation
+
+When to Seek Medical Help:
+- Worsening breathlessness, confusion, persistent fever
+- Poor oral intake or signs of sepsis
+
+Prognosis:
+Usually good with prompt treatment; higher risk in frail or comorbid patients.

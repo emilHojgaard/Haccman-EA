@@ -1,0 +1,32 @@
+TITLE: Migraine Without Aura
+
+Overview:
+Migraine is a recurrent headache disorder causing moderate to severe throbbing pain, often one-sided, with sensitivity to light/sound and nausea.
+
+Causes and Risk Factors:
+- Family history; hormonal fluctuations
+- Triggers: stress, sleep changes, certain foods, dehydration
+
+Common Symptoms:
+- Throbbing headache lasting 4–72 hours
+- Nausea/vomiting; photophobia/phonophobia
+- Worsens with physical activity
+
+Diagnosis:
+- Clinical criteria based on typical features and recurring attacks
+- Neurological exam normal between attacks; imaging only if red flags
+
+Treatment:
+- Acute: triptan + NSAID (if no contraindication), antiemetic
+- Preventive: beta-blockers, topiramate, CGRP-targeted therapies if frequent/severe
+
+Self-Management and Lifestyle:
+- Headache diary; sleep hygiene; hydration; regular meals
+- Trigger management; limit acute meds to avoid medication-overuse headache
+
+When to Seek Medical Help:
+- “Worst ever” sudden headache, new neuro symptoms, fever/stiff neck
+- Increased frequency or refractory attacks
+
+Prognosis:
+Most achieve control with a mix of acute and preventive strategies.

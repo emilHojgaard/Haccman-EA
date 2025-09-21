@@ -1,0 +1,30 @@
+TITLE: Hypothyroidism (Underactive Thyroid)
+
+Overview:
+Hypothyroidism is reduced thyroid hormone production, slowing body processes and causing fatigue, weight gain, and cold intolerance.
+
+Causes and Risk Factors:
+- Autoimmune thyroiditis (Hashimoto’s), thyroid surgery or radioiodine
+- Certain drugs (amiodarone, lithium); iodine imbalance
+
+Common Symptoms:
+- Tiredness, depression, constipation, dry skin, hair thinning
+- Menstrual changes, weight gain, cold sensitivity
+
+Diagnosis:
+- Elevated TSH with low free T4
+- Screen for autoimmune thyroiditis (TPO antibodies) if needed
+
+Treatment:
+- Levothyroxine replacement; dose individualized by weight/age, pregnancy
+- Take on empty stomach; separate from iron/calcium
+
+Self-Management and Lifestyle:
+- Adherence to dosing and timing
+- Report symptoms of over- or under-replacement
+
+When to Seek Medical Help:
+- Severe lethargy, confusion, hypothermia (rare myxedema crisis)
+
+Prognosis:
+Excellent with correct dosing; periodic TSH checks guide therapy.

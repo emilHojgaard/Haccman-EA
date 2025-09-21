@@ -1,0 +1,31 @@
+TITLE: Liver Cirrhosis
+
+Overview:
+Cirrhosis is advanced liver scarring from chronic injury (e.g., alcohol, viral hepatitis, NASH). It can lead to portal hypertension and liver failure.
+
+Causes and Risk Factors:
+- Alcohol-related liver disease, chronic hepatitis B/C
+- Non-alcoholic steatohepatitis, autoimmune or cholestatic diseases
+
+Common Symptoms:
+- Fatigue, easy bruising, ankle swelling, abdominal distension (ascites)
+- Jaundice, confusion (hepatic encephalopathy) in advanced stages
+
+Diagnosis:
+- Abnormal liver tests, ultrasound/elastography for fibrosis
+- Endoscopy to screen for varices; rule out HCC with imaging/AFP
+
+Treatment:
+- Address cause (alcohol cessation, antivirals)
+- Diuretics for ascites; lactulose for encephalopathy; variceal prophylaxis
+- Vaccinations and nutrition support; transplant evaluation in decompensation
+
+Self-Management and Lifestyle:
+- Strict alcohol abstinence; low-salt diet for ascites
+- Medication adherence and infection vigilance
+
+When to Seek Medical Help:
+- Increasing abdominal girth, confusion, vomiting blood, black stools, fever
+
+Prognosis:
+Depends on cause and stage; early management and abstinence slow progression, advanced disease may require transplant.
