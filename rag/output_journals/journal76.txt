@@ -1,0 +1,20 @@
+CPR-number: 10.08.69-9614
+Encounter Date: 2025-03-05
+Author: Dr. E. Madsen, Neurology
+
+Subjective:
+Morten H. presents with chronic medial knee pain for 16 months, worsened by stairs and prolonged walking. Morning stiffness lasts 15 minutes. No acute trauma; occasional NSAID use with partial relief.
+
+Objective:
+Varus alignment mild, crepitus on flexion/extension, joint line tenderness medially; small effusion possible. ROM slightly reduced.
+Labs (today): X-ray: joint space narrowing and osteophytes consistent with osteoarthritis; no acute fracture.
+
+Assessment:
+Symptomatic knee osteoarthritis limiting function.
+
+Plan:
+- Weight reduction, quadriceps-strengthening physiotherapy, topical NSAIDs, and activity modification. Consider intra-articular corticosteroid injection if refractory; surgical referral if severe structural disease.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. E. Madsen, Neurology

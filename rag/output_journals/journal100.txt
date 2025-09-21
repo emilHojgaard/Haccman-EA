@@ -1,0 +1,20 @@
+CPR-number: 17.04.47-7367
+Encounter Date: 2025-05-16
+Author: Dr. B. Thomsen, Pediatrics
+
+Subjective:
+Peter R. presents with sudden severe colicky flank pain radiating to the groin, associated with nausea and restlessness. No dysuria or fever reported.
+
+Objective:
+Uncomfortable, pacing; CVA tenderness on affected side; abdomen soft. Vitals stable.
+Labs (today): Urinalysis: microscopic hematuria; non-contrast CT suggests distal ureteric stone 4 mm.
+
+Assessment:
+Renal colic from ureteric calculus—likely to pass spontaneously if ≤ 5–6 mm.
+
+Plan:
+- NSAID analgesia and antiemetic; tamsulosin may aid passage; hydration advice. Urology referral if obstruction, infection, or uncontrolled pain.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. N. Kruse, Oncology

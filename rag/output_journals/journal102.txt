@@ -1,0 +1,20 @@
+CPR-number: 11.10.43-9317
+Encounter Date: 2025-07-16
+Author: Dr. P. Dam, Hematology
+
+Subjective:
+Nina H. with 48 hours of dysuria, urinary frequency, and urgency. No flank pain, rigors, or vaginal discharge. Hydration modest.
+
+Objective:
+Afebrile; abdomen soft, non-tender; no CVA tenderness. Pelvic exam deferred by patient preference.
+Labs (today): Dipstick positive for nitrites and leukocyte esterase; urine microscopy shows pyuria and bacteriuria.
+
+Assessment:
+Acute uncomplicated cystitis in an otherwise healthy adult.
+
+Plan:
+- Start oral pivmecillinam per local guidance; advise generous fluids and return if fever or flank pain develops. Urine culture sent; adjust antibiotics if resistant organism identified.
+- Follow-up in 3 weeks as appropriate.
+
+Signed,
+Dr. O. Lyng, Endocrinology

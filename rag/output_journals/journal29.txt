@@ -1,0 +1,20 @@
+CPR-number: 12.02.54-9663
+Encounter Date: 2025-02-09
+Author: Dr. S. Aaen, Allergy & Immunology
+
+Subjective:
+Ole G. reports unilateral calf swelling and aching after recent long-haul travel; no trauma.
+
+Objective:
+Calf circumference asymmetry 3 cm; warmth and tenderness present; Homan sign not reliable.
+Labs (today): D-dimer if low pretest probability; venous duplex ultrasound pending.
+
+Assessment:
+Suspected DVT; risk factors present.
+
+Plan:
+- Begin anticoagulation if high suspicion and no contraindications; confirm with imaging; counsel on VTE precautions.
+- Follow-up in 2 weeks as appropriate.
+
+Signed,
+Dr. J. Knudsen, ENT

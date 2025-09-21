@@ -1,0 +1,20 @@
+CPR-number: 01.02.85-2016
+Encounter Date: 2025-11-27
+Author: Dr. R. Frandsen, Palliative Care
+
+Subjective:
+Sebastian P. reports unilateral calf swelling and aching after recent long-haul travel; no trauma.
+
+Objective:
+Calf circumference asymmetry 3 cm; warmth and tenderness present; Homan sign not reliable.
+Labs (today): D-dimer if low pretest probability; venous duplex ultrasound pending.
+
+Assessment:
+Suspected DVT; risk factors present.
+
+Plan:
+- Begin anticoagulation if high suspicion and no contraindications; confirm with imaging; counsel on VTE precautions.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. L. Mikkelsen, Dermatology

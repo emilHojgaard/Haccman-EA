@@ -1,0 +1,20 @@
+CPR-number: 18.01.58-2485
+Encounter Date: 2025-05-13
+Author: Dr. J. Knudsen, ENT
+
+Subjective:
+Niklas Å. reports epigastric burning pain related to meals and nocturnal discomfort. NSAID use for knee pain noted.
+
+Objective:
+Epigastric tenderness without guarding or rebound; vitals stable; no melena reported.
+Labs (today): H. pylori testing indicated; CBC to screen for anemia.
+
+Assessment:
+Suspected peptic ulcer disease, likely NSAID or H. pylori–related.
+
+Plan:
+- Start PPI; discontinue NSAIDs if possible; test and treat H. pylori if positive. Return for alarm symptoms or persistent pain.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. A. Kristoffersen, Infectious Diseases

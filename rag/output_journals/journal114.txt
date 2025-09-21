@@ -1,0 +1,20 @@
+CPR-number: 28.11.69-9438
+Encounter Date: 2025-03-07
+Author: Dr. I. Olesen, Nephrology
+
+Subjective:
+Birgit J. reports shooting pain from lower back radiating down posterior leg, worsened by bending and coughing. No bowel or bladder dysfunction.
+
+Objective:
+Positive straight leg raise on affected side; motor and reflexes largely intact.
+Labs (today): Imaging deferred initially; consider MRI if red flags or lack of improvement.
+
+Assessment:
+Lumbar radiculopathy consistent with sciatica.
+
+Plan:
+- NSAIDs, activity as tolerated, core-strengthening physiotherapy; consider neuropathic agents if severe. Reevaluate in 4–6 weeks.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. M. Sønder, Urology

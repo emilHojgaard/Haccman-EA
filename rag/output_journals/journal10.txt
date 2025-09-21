@@ -1,0 +1,20 @@
+CPR-number: 17.02.94-8366
+Encounter Date: 2025-07-25
+Author: Dr. T. Enevoldsen, Pain Medicine
+
+Subjective:
+Katrine Å. has 1 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
+
+Objective:
+Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
+Labs (today): No routine labs required; stool studies if prolonged or bloody.
+
+Assessment:
+Likely viral gastroenteritis, self-limited.
+
+Plan:
+- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
+- Follow-up in 3 weeks as appropriate.
+
+Signed,
+Dr. K. Vester, Vascular Surgery

@@ -1,0 +1,20 @@
+CPR-number: 19.09.74-1862
+Encounter Date: 2025-06-19
+Author: Dr. P. Dam, Hematology
+
+Subjective:
+Sofia O. reports 8 weeks of persistent low mood, anhedonia, early morning awakening, and cognitive slowing. Appetite decreased with 3 kg unintentional weight loss. Denies active suicidal intent but expresses hopelessness and diminished concentration at work.
+
+Objective:
+Affect constricted, psychomotor retardation mild. Thought process linear, no delusions or hallucinations. Insight fair; judgment intact.
+Labs (today): CBC, CMP, and TSH within reference ranges. No substance use reported; AUDIT-C negative.
+
+Assessment:
+Major depressive disorder, moderate severity, without psychotic features. No immediate safety concerns, but psychosocial stressors present.
+
+Plan:
+- Initiate SSRI (e.g., sertraline 50 mg QD) with discussion of side effects; refer for CBT. Establish crisis plan; encourage sleep hygiene and graded activity. Follow-up in 2–3 weeks to assess tolerability and response; consider dose escalation if partial response.
+- Follow-up in 5 weeks as appropriate.
+
+Signed,
+Dr. G. Lauridsen, Rheumatology
