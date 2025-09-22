@@ -1,19 +1,22 @@
 import PageTitle from "./smallerComponents/PageTitle";
 import ShowOpponent from "./smallerComponents/ShowOpponent";
-import MemoryActivation from "./smallerComponents/MemoryActivation";
-import LeaveButton from "./smallerComponents/LeaveButton";
 import FullPromptChat from "./smallerComponents/FullPromptChat";
-import InfoPannel from "./smallerComponents/InfoPannel";
+import SettingsButtons from "./smallerComponents/SettingsButtons";
+import InfoButtons from "./InfoButtons";
 
 export default function BaseUI({
   botList,
   selectedBot,
+  setPreviousPrompts,
   previousPrompts,
   date,
-  usingMemory,
   sendPrompt,
   playSoundEffect,
-  setInfoPanels,
+  setShowInformation,
+  setGuardrail,
+  guardrail,
+  setShowSystemprompt,
+  selectedTask,
 }) {
   return (
     <div style={{ zIndex: 1 }}>
@@ -28,6 +31,7 @@ export default function BaseUI({
             justifyContent: "space-around",
           }}
         >
+          {/* The whole left side with the title and chat */}
           <div
             style={{
               display: "flex",
@@ -36,18 +40,20 @@ export default function BaseUI({
               width: "60%",
             }}
           >
-            <PageTitle botList={botList} selectedBot={selectedBot} />
+            <PageTitle selectedTask={selectedTask} />
 
             <FullPromptChat
+              setPreviousPrompts={setPreviousPrompts}
               previousPrompts={previousPrompts}
               date={date}
-              usingMemory={usingMemory}
               sendPrompt={sendPrompt}
               playSoundEffect={playSoundEffect}
               // selectedBot={selectedBot} (LOOK again if it is needed ! )
+              //maybe selectedtask here ? if the systemprompt becomses changable
             />
           </div>
 
+          {/* The whole right side with the opponent and buttons */}
           <div
             style={{
               display: "flex",
@@ -59,13 +65,18 @@ export default function BaseUI({
             }}
           >
             <ShowOpponent botList={botList} selectedBot={selectedBot} />
-            <MemoryActivation usingMemory={usingMemory} />
-            <div style={{ display: "flex", flexDirection: "row", gap: "2vh" }}>
-              <InfoPannel setInfoPanels={setInfoPanels} />
-
-              <div style={{ display: "flex", alignItems: "flex-end" }}>
-                <LeaveButton playSoundEffect={playSoundEffect} />
-              </div>
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: "2vh" }}
+            >
+              <SettingsButtons
+                setShowSystemprompt={setShowSystemprompt}
+                setGuardrail={setGuardrail}
+                guardrail={guardrail}
+              />
+              <InfoButtons
+                playSoundEffect={playSoundEffect}
+                setShowInformation={setShowInformation}
+              />
             </div>
           </div>
         </div>

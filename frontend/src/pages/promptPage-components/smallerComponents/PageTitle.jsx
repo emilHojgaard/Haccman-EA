@@ -1,5 +1,5 @@
-export default function PageTitle({ botList, selectedBot }) {
-  const bot = botList.find((b) => b.number === selectedBot);
+export default function PageTitle({ selectedTask }) {
+  const title = selectedTask?.task ? selectedTask.task.toUpperCase() : "…";
   return (
     <div
       id="llm-box"
@@ -23,7 +23,7 @@ export default function PageTitle({ botList, selectedBot }) {
       >
         {">>>JAILBREAK CHALLENGE: "}
       </div>
-      <div style={{ color: "#FFFADE" }}>{bot.description.toUpperCase()}</div>
+      <div style={{ color: "#FFFADE" }}>{title}</div>
     </div>
   );
 }

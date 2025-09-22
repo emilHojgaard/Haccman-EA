@@ -4,13 +4,10 @@ import ClearButton from "./ClearButton";
 
 export default function PromptInputBox({
   onSend,
-  onClear,
   playSoundEffect,
-  usingMemory = true,
+  setPreviousPrompts,
 }) {
   const [inputValue, setInputValue] = useState("");
-
-  const date = new Date();
 
   const handleSend = () => {
     const text = inputValue.trim();
@@ -22,7 +19,7 @@ export default function PromptInputBox({
 
   const handleClear = () => {
     playSoundEffect?.("select");
-    onClear?.();
+    setPreviousPrompts([]);
   };
 
   // Keyboard shortcuts: Enter = Send, Tab = Clear
@@ -40,7 +37,7 @@ export default function PromptInputBox({
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [inputValue, usingMemory]);
+  }, [inputValue]);
 
   return (
     <div
@@ -65,7 +62,6 @@ export default function PromptInputBox({
         setInputValue={setInputValue}
         onSend={onSend}
         playSoundEffect={playSoundEffect}
-        usingMemory={usingMemory}
       />
       <ClearButton onClear={handleClear} />
     </div>

@@ -3,10 +3,8 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
 import BaseUI from "./promptPage-components/BaseUI";
 import WinScreen from "./promptPage-components/WinScreen";
-import GuardrailInfo from "./promptPage-components/smallerComponents/GuardrailInfo";
-import LLMInfo from "./promptPage-components/smallerComponents/LLMInfo";
-import UserPromptInfo from "./promptPage-components/smallerComponents/UserPromptInfo";
 import SystemInfo from "./promptPage-components/smallerComponents/SystemInfo";
+import SystemPromptOverlay from "./promptPage-components/smallerComponents/SystemPromptOverlay";
 import {
   sendPromptToMemory,
   insertPrompt,
@@ -27,21 +25,18 @@ function useSessionId() {
 function Prompt(props) {
   const sessionId = useSessionId();
 
-  // Info panels
-  const [infoPanels, setInfoPanels] = useState({
-    specificOn: false,
-    userpromptInfo: false,
-    guardarailInfo: false,
-    llmInfo: false,
-    systemInfo: false,
-  });
+  // Button states
+  const [ShowSystemprompt, setShowSystemprompt] = useState(false);
+  const [guardrail, setGuardrail] = useState("");
+  const [showInformation, setShowInformation] = useState(false);
 
   // Chat state
   const [response, setResponse] = useState("");
   const [previousPrompts, setPreviousPrompts] = useState([]);
   const [winState, setWinState] = useState(false);
   const [showContent, setShowContent] = useState(false);
-  const [usingMemory, setUsingMemory] = useState(true); // if you still want the label toggle
+
+  const [selectedTask, setSelectedTask] = useState(null);
 
   // hooks
   const { playSoundEffect } = useSoundEffect();
@@ -49,8 +44,13 @@ function Prompt(props) {
   const navigate = useNavigate();
 
   // props
-  const botList = props.botList;
-  const selectedBot = props.selectedBot;
+  const { botList, selectedBot } = props;
+
+  // Set initial selected task based on selected bot
+  useEffect(() => {
+    const bot = botList?.find((b) => b.number === selectedBot);
+    setSelectedTask(bot.taskList[0]);
+  }, [botList, selectedBot]);
 
   const date = new Date();
 
@@ -79,8 +79,7 @@ function Prompt(props) {
       if (!sessionId) throw new Error("Missing session id");
 
       // Compute the system prompt from the selected challenge
-      const bot = botList.find((b) => b.number === selectedBot);
-      const systemPrompt = bot?.system ?? "";
+      const systemPrompt = selectedTask.systemPrompt;
 
       // 1) Optimistic UI: show user message immediately
       setPreviousPrompts((prev) => [...prev, { id: "user", message }]);
@@ -89,7 +88,11 @@ function Prompt(props) {
       const promptRow = await insertPrompt(sessionId, message);
 
       // 3) Call Edge Function (OpenAI) to get reply
-      const responseText = await sendPromptToMemory(message, systemPrompt);
+      const responseText = await sendPromptToMemory(
+        message,
+        systemPrompt,
+        guardrail
+      );
 
       // 4) Insert AI response linked to that prompt
       await insertResponse(promptRow.id, responseText);
@@ -103,7 +106,6 @@ function Prompt(props) {
 
   // Handle AI response (update UI + win check)
   const handleResponse = async (responseText) => {
-    const bot = botList.find((b) => b.number === selectedBot);
     if (!responseText) return;
 
     // Add AI response to previous prompts
@@ -116,8 +118,8 @@ function Prompt(props) {
 
     const isBeaten =
       selectedBot !== 0
-        ? containsForbiddenPhrases(bot.resolution, responseText)
-        : containsForbiddenWords(responseText, bot.resolution);
+        ? containsForbiddenPhrases(selectedTask.resolution, responseText)
+        : containsForbiddenWords(responseText, selectedTask.resolution);
 
     if (isBeaten) {
       console.log("Challenge beaten!");
@@ -180,33 +182,39 @@ function Prompt(props) {
         <WinScreen setWinState={setWinState} setShowContent={setShowContent} />
       )}
 
-      {infoPanels.guardarailInfo && (
-        <GuardrailInfo setInfoPanels={setInfoPanels} />
+      {ShowSystemprompt && (
+        <SystemPromptOverlay
+          botList={botList}
+          selectedBot={selectedBot}
+          selectedTask={selectedTask}
+          setSelectedTask={setSelectedTask}
+          setShowSystemprompt={setShowSystemprompt}
+        />
       )}
 
-      {infoPanels.llmInfo && <LLMInfo setInfoPanels={setInfoPanels} />}
-
-      {infoPanels.userpromptInfo && (
-        <UserPromptInfo setInfoPanels={setInfoPanels} />
-      )}
-
-      {infoPanels.systemInfo && (
+      {showInformation && (
         <SystemInfo
           botList={botList}
           selectedBot={selectedBot}
-          setInfoPanels={setInfoPanels}
+          setShowInformation={setShowInformation}
+          selectedTask={selectedTask}
         />
       )}
 
       <BaseUI
         botList={botList}
         selectedBot={selectedBot}
+        setPreviousPrompts={setPreviousPrompts}
         previousPrompts={previousPrompts}
         date={date}
-        usingMemory={usingMemory}
         sendPrompt={sendPrompt}
         playSoundEffect={playSoundEffect}
-        setInfoPanels={setInfoPanels}
+        setShowInformation={setShowInformation}
+        setGuardrail={setGuardrail}
+        guardrail={guardrail}
+        setShowSystemprompt={setShowSystemprompt}
+        selectedTask={selectedTask}
+        setSelectedTask={setSelectedTask}
       />
     </>
   );
