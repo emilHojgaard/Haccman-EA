@@ -1,0 +1,33 @@
+TITLE: Stroke
+
+Overview:
+Stroke occurs when blood flow to part of the brain stops due to a blocked artery (ischemic) or a burst vessel (hemorrhagic). Rapid treatment limits brain damage and disability.
+
+Causes and Risk Factors:
+- Hypertension, atrial fibrillation, diabetes, smoking, high cholesterol
+- Prior TIA/stroke, carotid disease
+- Older age, certain genetic or clotting conditions
+
+Common Symptoms:
+- Face drooping, arm weakness, speech difficulty (think FAST)
+- Sudden vision loss, severe headache, confusion, imbalance
+
+Diagnosis:
+- Emergency CT/MRI to distinguish ischemic vs hemorrhagic stroke
+- Vascular imaging (CTA/MRA), cardiac work-up (ECG/echo)
+- Risk factor labs
+
+Treatment:
+- Time-critical reperfusion (thrombolysis, thrombectomy) for ischemic stroke
+- Blood pressure and anticoagulation management per type
+- Stroke-unit care and early rehabilitation
+
+Self-Management and Lifestyle:
+- Secondary prevention: antiplatelet/anticoagulant as indicated, statins, BP/diabetes control
+- Smoking cessation, physical activity, diet
+
+When to Seek Medical Help:
+- Any sudden stroke symptoms — call emergency immediately
+
+Prognosis:
+Outcomes depend on stroke type, size, and speed of care; rehab maximizes recovery.

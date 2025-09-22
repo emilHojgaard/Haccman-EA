@@ -1,0 +1,20 @@
+CPR-number: 09.02.37-4556
+Encounter Date: 2025-11-18
+Author: Dr. H. Berg, Gastroenterology
+
+Subjective:
+Emil J. has 12 hours of periumbilical pain migrating to the right lower quadrant with anorexia and nausea. Reports low-grade fever and worsened pain with movement.
+
+Objective:
+RLQ tenderness maximal at McBurney’s point; guarding present; Rovsing sign positive. Temp 37.8°C.
+Labs (today): WBC 11×10⁹/L; CRP elevated. Ultrasound/CT supportive of appendicitis.
+
+Assessment:
+Acute appendicitis likely; surgical management indicated.
+
+Plan:
+- NPO, IV fluids, analgesia, perioperative antibiotics; surgical consult for appendectomy. Post-op instructions and early mobilization plan discussed.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. L. Holm, Cardiology

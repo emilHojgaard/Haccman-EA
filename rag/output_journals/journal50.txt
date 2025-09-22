@@ -1,0 +1,20 @@
+CPR-number: 04.04.83-5219
+Encounter Date: 2025-12-17
+Author: Dr. A. Kristoffersen, Infectious Diseases
+
+Subjective:
+Grethe V. presents with 6 days of productive cough, pleuritic right-sided chest pain, and fevers with chills. Shortness of breath noted on climbing stairs; no hemoptysis. Recent viral contact at home.
+
+Objective:
+Temp 38.6°C, RR 23/min, SpO2 96% RA. Auscultation: focal crackles and bronchial breath sounds over RLL. No peripheral cyanosis; cardiovascular exam normal.
+Labs (today): CXR: right lower lobe consolidation. WBC 13×10⁹/L with left shift; CRP elevated. Renal function normal.
+
+Assessment:
+Community-acquired pneumonia, likely typical bacterial etiology. CURB-65 low risk; outpatient therapy appropriate.
+
+Plan:
+- Start oral amoxicillin or doxycycline (if penicillin allergy). Emphasize hydration, antipyretics, and return precautions for worsening dyspnea. Re-assess in 48–72 hours; follow-up chest X-ray in 6–8 weeks if persistent symptoms.
+- Follow-up in 3 weeks as appropriate.
+
+Signed,
+Dr. B. Thomsen, Pediatrics

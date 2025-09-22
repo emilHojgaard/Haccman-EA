@@ -1,0 +1,33 @@
+TITLE: Rheumatoid Arthritis
+
+Overview:
+Rheumatoid arthritis (RA) is an autoimmune disease causing persistent, symmetric joint inflammation, leading to pain, swelling, and potential joint damage.
+
+Causes and Risk Factors:
+- Genetic susceptibility (HLA-DRB1), smoking
+- Female sex, hormonal and environmental factors
+
+Common Symptoms:
+- Morning stiffness >30 minutes, small joint swelling (hands/feet)
+- Fatigue, low mood, reduced grip strength
+- Extra-articular features (nodules, dry eyes/mouth)
+
+Diagnosis:
+- Clinical pattern; rheumatoid factor and anti-CCP antibodies
+- Inflammatory markers; ultrasound/MRI for synovitis
+- Exclude other inflammatory arthritides
+
+Treatment:
+- Early DMARDs (e.g., methotrexate) are key; add biologics/targeted agents if needed
+- Short steroid courses for flares; NSAIDs for symptoms
+- Vaccination and infection risk counseling
+
+Self-Management and Lifestyle:
+- Joint protection strategies, physiotherapy/occupational therapy
+- Smoking cessation; exercise tailored to tolerance
+
+When to Seek Medical Help:
+- New hot swollen joints; medication side-effects (e.g., infection, liver issues)
+
+Prognosis:
+Early, treat-to-target therapy greatly reduces disability and joint damage.

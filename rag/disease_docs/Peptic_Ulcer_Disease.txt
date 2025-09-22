@@ -1,0 +1,30 @@
+TITLE: Peptic Ulcer Disease
+
+Overview:
+Peptic ulcers are sores in the stomach or duodenum most often due to H. pylori or NSAIDs. They can bleed or perforate if untreated.
+
+Causes and Risk Factors:
+- H. pylori infection, NSAIDs/aspirin
+- Smoking, severe stress (ICU), steroids with NSAIDs
+
+Common Symptoms:
+- Epigastric burning pain (meal-related), nausea, bloating
+- Occult bleeding or anemia in some
+
+Diagnosis:
+- Endoscopy to confirm and treat complications
+- H. pylori testing (breath/stool/biopsy)
+
+Treatment:
+- PPI therapy; eradicate H. pylori when positive
+- Stop NSAIDs or add gastroprotection if essential; iron if anemic
+
+Self-Management and Lifestyle:
+- Avoid smoking/alcohol excess; smaller meals
+- Adherence to therapy and follow-up
+
+When to Seek Medical Help:
+- Vomiting blood, black stools, severe persistent pain
+
+Prognosis:
+High healing rates with modern therapy; recurrence if causes persist.

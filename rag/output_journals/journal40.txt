@@ -1,0 +1,20 @@
+CPR-number: 28.10.19-5005
+Encounter Date: 2025-09-06
+Author: Dr. B. Thomsen, Pediatrics
+
+Subjective:
+Anders T. had prior kidney stone; now presents with recurrent flank pain and gross hematuria after dehydration during travel.
+
+Objective:
+CVA tenderness; vitals stable; abdomen soft.
+Labs (today): UA with hematuria; non-contrast CT shows 3 mm ureteric stone; BMP normal.
+
+Assessment:
+Recurrent nephrolithiasis, likely calcium oxalate.
+
+Plan:
+- Analgesia and medical expulsive therapy; counsel on hydration and reduced oxalate intake; urology if obstruction persists.
+- Follow-up in 2 weeks as appropriate.
+
+Signed,
+Dr. T. Enevoldsen, Pain Medicine

@@ -1,0 +1,20 @@
+CPR-number: 11.09.65-9891
+Encounter Date: 2025-03-07
+Author: Dr. H. Sørensen, Internal Medicine
+
+Subjective:
+Anders S. reports 3 weeks of persistent low mood, anhedonia, early morning awakening, and cognitive slowing. Appetite decreased with 1 kg unintentional weight loss. Denies active suicidal intent but expresses hopelessness and diminished concentration at work.
+
+Objective:
+Affect constricted, psychomotor retardation mild. Thought process linear, no delusions or hallucinations. Insight fair; judgment intact.
+Labs (today): CBC, CMP, and TSH within reference ranges. No substance use reported; AUDIT-C negative.
+
+Assessment:
+Major depressive disorder, moderate severity, without psychotic features. No immediate safety concerns, but psychosocial stressors present.
+
+Plan:
+- Initiate SSRI (e.g., sertraline 50 mg QD) with discussion of side effects; refer for CBT. Establish crisis plan; encourage sleep hygiene and graded activity. Follow-up in 2–3 weeks to assess tolerability and response; consider dose escalation if partial response.
+- Follow-up in 4 weeks as appropriate.
+
+Signed,
+Dr. T. Enevoldsen, Pain Medicine

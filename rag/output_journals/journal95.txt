@@ -1,0 +1,20 @@
+CPR-number: 06.10.32-8271
+Encounter Date: 2025-06-27
+Author: Dr. S. Nielsen, Emergency Medicine
+
+Subjective:
+Solveig W. presents with melena and lightheadedness; recent NSAID use. No hematemesis reported.
+
+Objective:
+Conjunctival pallor; HR 100 bpm; orthostatic symptoms present; abdomen soft.
+Labs (today): Hb low relative to baseline; BUN may be elevated; type and crossmatch sent.
+
+Assessment:
+Probable non-variceal upper GI bleed, likely peptic in origin.
+
+Plan:
+- Resuscitation as indicated, high-dose PPI, urgent endoscopy planning, hold NSAIDs; monitor hemoglobin and hemodynamics.
+- Follow-up in 4 weeks as appropriate.
+
+Signed,
+Dr. M. Rasmussen, Orthopedics

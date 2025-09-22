@@ -1,0 +1,20 @@
+CPR-number: 01.02.40-2165
+Encounter Date: 2025-09-07
+Author: Dr. H. Sørensen, Internal Medicine
+
+Subjective:
+Anders S. reports brief vertigo episodes triggered by rolling in bed and looking up; nausea present, no hearing loss.
+
+Objective:
+Dix–Hallpike positive on the right with torsional nystagmus; neuro exam otherwise normal.
+Labs (today): No imaging indicated absent red flags.
+
+Assessment:
+Posterior canal BPPV.
+
+Plan:
+- Epley maneuver performed; provide instructions for home exercises and precautions. Follow-up if persistent.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. P. Dam, Hematology

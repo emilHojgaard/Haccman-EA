@@ -1,0 +1,20 @@
+CPR-number: 08.09.89-6800
+Encounter Date: 2025-07-13
+Author: Dr. N. Kruse, Oncology
+
+Subjective:
+Viggo T. reports burning retrosternal discomfort after meals, regurgitation, and nocturnal heartburn for several months. Symptoms triggered by fatty/spicy foods; no dysphagia or weight loss.
+
+Objective:
+Abdominal exam benign, BMI 24.8 kg/m². No pallor or cachexia.
+Labs (today): Trial of PPI appropriate; endoscopy considered if alarm features emerge. H. pylori testing if dyspepsia predominant.
+
+Assessment:
+Likely GERD without alarm signs.
+
+Plan:
+- Start PPI daily 5 weeks, elevate head of bed, avoid late meals and dietary triggers. Reassess response; consider step-down therapy if controlled.
+- Follow-up in 3 weeks as appropriate.
+
+Signed,
+Dr. R. Frandsen, Palliative Care

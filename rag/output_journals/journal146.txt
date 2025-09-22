@@ -1,0 +1,20 @@
+CPR-number: 23.08.35-3846
+Encounter Date: 2025-12-08
+Author: Dr. S. Nielsen, Emergency Medicine
+
+Subjective:
+Sebastian B. with chronic cough and exertional dyspnea presents with 3 days of increased sputum volume and purulence, worsening breathlessness, and wheeze. Reports running out of controller inhaler last week.
+
+Objective:
+RR 23/min, SpO2 93% RA, diffuse wheeze with prolonged expiration; accessory muscle use mild. No focal consolidation.
+Labs (today): ABG if indicated: mild hypoxemia; CRP elevated. CXR without new lobar consolidation.
+
+Assessment:
+COPD exacerbation, likely infectious or nonadherence-related.
+
+Plan:
+- Nebulized bronchodilators, short oral steroid course; antibiotics if purulent sputum and bacterial suspicion. Ensure inhaler supply and technique; smoking cessation reinforcement; follow-up in respiratory clinic.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. H. Sørensen, Internal Medicine

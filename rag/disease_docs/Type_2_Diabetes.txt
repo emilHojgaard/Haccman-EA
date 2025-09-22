@@ -1,0 +1,40 @@
+TITLE: Type 2 Diabetes
+
+Overview:
+Type 2 diabetes occurs when the body becomes resistant to insulin and gradually produces less of it, leading to elevated blood glucose. Good control reduces the risk of heart disease, stroke, kidney disease, nerve damage, and vision loss.
+
+Causes and Risk Factors:
+- Overweight/obesity (especially abdominal), inactivity
+- Family history, certain ethnic backgrounds
+- Age >45, history of gestational diabetes, polycystic ovary syndrome
+- Hypertension and dyslipidemia
+
+Common Symptoms:
+- Thirst, frequent urination, fatigue, blurred vision
+- Slow-healing wounds, recurrent infections
+- Symptoms may be subtle or absent early on
+
+Diagnosis:
+- HbA1c ≥ 48 mmol/mol (6.5%) or
+- Fasting plasma glucose ≥ 7.0 mmol/L or
+- 2-hour OGTT glucose ≥ 11.1 mmol/L, or random glucose ≥ 11.1 mmol/L with symptoms
+
+Treatment:
+- Lifestyle: structured nutrition, weight loss, regular activity (≥150 min/week)
+- First-line medication: metformin if tolerated
+- Add-on options: SGLT2 inhibitors, GLP-1 receptor agonists (CV/renal benefit), DPP-4 inhibitors, or sulfonylureas
+- Consider insulin when oral therapy insufficient or during acute illness
+- Manage BP and lipids; stop smoking
+
+Self-Management and Lifestyle:
+- Daily activity, portion control, reduced refined carbs
+- Home glucose checks if advised; foot care; regular eye/renal screening
+- Medication adherence and sick-day rules
+
+When to Seek Medical Help:
+- Very high blood sugar with vomiting, confusion, or dehydration
+- Recurrent low blood sugars if on insulin/sulfonylureas
+- Sudden vision changes, chest pain, or stroke symptoms
+
+Prognosis:
+Excellent outcomes with sustained lifestyle changes and medication adherence; ongoing monitoring prevents complications.
