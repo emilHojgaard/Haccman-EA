@@ -5,11 +5,11 @@ const FN_URL =
   (import.meta.env ? import.meta.env.VITE_SUPABASE_URL : undefined) ||
   "https://yqroigcevcoddsmangyg.supabase.co";
 
-export async function sendPromptToMemory(message, systemPrompt, guardrail) {
+export async function sendPromptToAI(message, systemPrompt, guardrail) {
   const {
     data: { session },
   } = await supabase.auth.getSession();
-  console.log("Session in sendPromptToMemory:", session);
+  console.log("Session in sendPromptToAI:", session);
 
   const resp = await fetch(`${FN_URL}/functions/v1/ai`, {
     method: "POST",
