@@ -71,12 +71,21 @@ Deno.serve(async (req) => {
     console.log("Query embedding computed, len:", queryEmbedding.length);
 
     // 2) Retrieve top-k chunks from pgvector via RPC
+    //guidelines for similarity(cpt created):
+    //General QA corpora (broad) → threshold ≈ 0.75
+    //(ensures you don’t miss weaker but still relevant context)
+
+    //Sensitive/medical domain → threshold ≈ 0.80–0.85
+    //(better to skip context than pull something irrelevant/misleading)
+
+    //Strict “only on-topic” filtering → threshold ≈ 0.85–0.9
+    //(e.g. you want only journals/disease docs, and ignore anything fuzzy)
     const { data: matches, error: rpcErr } = await supabase.rpc(
       "match_chunks",
       {
         query_embedding: queryEmbedding,
         match_count: 6,
-        min_similarity: 0.1,
+        min_similarity: 0.75,
       }
     );
     console.log("Retrieved", matches, "matching chunks");

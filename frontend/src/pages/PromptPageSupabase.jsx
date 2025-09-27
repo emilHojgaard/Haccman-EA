@@ -6,7 +6,7 @@ import WinScreen from "./promptPage-components/WinScreen";
 import SystemInfo from "./promptPage-components/smallerComponents/SystemInfo";
 import SystemPromptOverlay from "./promptPage-components/smallerComponents/SystemPromptOverlay";
 import {
-  sendPromptToMemory,
+  sendPromptToAI,
   insertPrompt,
   insertResponse,
   loadMessages,
@@ -88,7 +88,7 @@ function Prompt(props) {
       const promptRow = await insertPrompt(sessionId, message);
 
       // 3) Call Edge Function (OpenAI) to get reply
-      const responseText = await sendPromptToMemory(
+      const responseText = await sendPromptToAI(
         message,
         systemPrompt,
         guardrail
