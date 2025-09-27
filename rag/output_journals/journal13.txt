@@ -1,20 +1,20 @@
-CPR-number: 12.01.22-1133
-Encounter Date: 2025-11-07
-Author: Dr. C. Dahl, Pulmonology
+CPR-number: 07.01.89-2880
+Encounter Date: 2025-04-03
+Author: Dr. S. Nielsen, Emergency Medicine
 
 Subjective:
-Brian E. reports burning retrosternal discomfort after meals, regurgitation, and nocturnal heartburn for several months. Symptoms triggered by fatty/spicy foods; no dysphagia or weight loss.
+Maria D. presents with sudden severe colicky flank pain radiating to the groin, associated with nausea and restlessness. No dysuria or fever reported.
 
 Objective:
-Abdominal exam benign, BMI 24.8 kg/m². No pallor or cachexia.
-Labs (today): Trial of PPI appropriate; endoscopy considered if alarm features emerge. H. pylori testing if dyspepsia predominant.
+Uncomfortable, pacing; CVA tenderness on affected side; abdomen soft. Vitals stable.
+Labs (today): Urinalysis: microscopic hematuria; non-contrast CT suggests distal ureteric stone 6 mm.
 
 Assessment:
-Likely GERD without alarm signs.
+Renal colic from ureteric calculus—likely to pass spontaneously if ≤ 5–6 mm.
 
 Plan:
-- Start PPI daily 5 weeks, elevate head of bed, avoid late meals and dietary triggers. Reassess response; consider step-down therapy if controlled.
-- Follow-up in 6 weeks as appropriate.
+- NSAID analgesia and antiemetic; tamsulosin may aid passage; hydration advice. Urology referral if obstruction, infection, or uncontrolled pain.
+- Follow-up in 3 weeks as appropriate.
 
 Signed,
-Dr. C. Dahl, Pulmonology
+Dr. S. Aaen, Allergy & Immunology

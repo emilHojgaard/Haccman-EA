@@ -1,20 +1,20 @@
-CPR-number: 02.11.71-5639
-Encounter Date: 2025-09-26
-Author: Dr. L. Mikkelsen, Dermatology
+CPR-number: 05.06.96-9698
+Encounter Date: 2025-09-22
+Author: Dr. F. Hansen, General Practice
 
 Subjective:
-Emil O. reports exertional dyspnea, orthopnea requiring 3 pillows, and mild ankle swelling over 5 weeks.
+Maria O. notes progressive fatigue, cold intolerance, weight gain of ~2 kg, and constipation over several months. Dry skin and hair thinning observed; no neck pain.
 
 Objective:
-BP 140/87 mmHg; bibasilar crackles faint; S4 present; mild edema at ankles.
-Labs (today): NT-proBNP elevated; echocardiogram shows preserved EF with diastolic dysfunction; renal function acceptable.
+Bradycardia 57 bpm, delayed ankle reflex relaxation; mild periorbital puffiness possible.
+Labs (today): TSH elevated, free T4 low; lipids may be elevated.
 
 Assessment:
-HFpEF likely on a background of hypertension and metabolic syndrome.
+Primary hypothyroidism with classic symptoms and lab pattern.
 
 Plan:
-- Diuretics for symptom relief; optimize BP and glycemic control; sodium restriction; cardiology follow-up with exercise plan.
+- Start levothyroxine (dose per weight/age), review interactions, and recheck TFTs in 6–8 weeks. Counsel on adherence and consistent morning dosing.
 - Follow-up in 6 weeks as appropriate.
 
 Signed,
-Dr. L. Mikkelsen, Dermatology
+Dr. K. Vester, Vascular Surgery

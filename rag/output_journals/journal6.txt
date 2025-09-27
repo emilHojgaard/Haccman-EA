@@ -1,20 +1,20 @@
-CPR-number: 07.08.90-4243
-Encounter Date: 2025-07-03
-Author: Dr. I. Olesen, Nephrology
+CPR-number: 24.07.82-5915
+Encounter Date: 2025-07-27
+Author: Dr. M. Sønder, Urology
 
 Subjective:
-Anne P. with chronic cough and exertional dyspnea presents with 4 days of increased sputum volume and purulence, worsening breathlessness, and wheeze. Reports running out of controller inhaler last week.
+Kirsten P. notes burning pain followed by grouped vesicular rash in a unilateral dermatomal distribution over 2 days.
 
 Objective:
-RR 23/min, SpO2 93% RA, diffuse wheeze with prolonged expiration; accessory muscle use mild. No focal consolidation.
-Labs (today): ABG if indicated: mild hypoxemia; CRP elevated. CXR without new lobar consolidation.
+Clusters of vesicles on erythematous base not crossing midline; tenderness to light touch.
+Labs (today): Clinical diagnosis; PCR if atypical.
 
 Assessment:
-COPD exacerbation, likely infectious or nonadherence-related.
+Acute herpes zoster.
 
 Plan:
-- Nebulized bronchodilators, short oral steroid course; antibiotics if purulent sputum and bacterial suspicion. Ensure inhaler supply and technique; smoking cessation reinforcement; follow-up in respiratory clinic.
-- Follow-up in 2 weeks as appropriate.
+- Start antiviral within 72 hours if possible; analgesia; advise on contagion precautions until crusting.
+- Follow-up in 5 weeks as appropriate.
 
 Signed,
-Dr. P. Jensen, Psychiatry
+Dr. S. Aaen, Allergy & Immunology

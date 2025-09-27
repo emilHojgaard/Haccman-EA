@@ -1,20 +1,20 @@
-CPR-number: 28.07.89-5687
-Encounter Date: 2025-02-18
-Author: Dr. R. Frandsen, Palliative Care
+CPR-number: 19.01.16-3287
+Encounter Date: 2025-09-27
+Author: Dr. F. Hansen, General Practice
 
 Subjective:
-Birgit M. presents with chronic medial knee pain for 7 months, worsened by stairs and prolonged walking. Morning stiffness lasts 15 minutes. No acute trauma; occasional NSAID use with partial relief.
+Peter T. with chronic cough and exertional dyspnea presents with 5 days of increased sputum volume and purulence, worsening breathlessness, and wheeze. Reports running out of controller inhaler last week.
 
 Objective:
-Varus alignment mild, crepitus on flexion/extension, joint line tenderness medially; small effusion possible. ROM slightly reduced.
-Labs (today): X-ray: joint space narrowing and osteophytes consistent with osteoarthritis; no acute fracture.
+RR 25/min, SpO2 93% RA, diffuse wheeze with prolonged expiration; accessory muscle use mild. No focal consolidation.
+Labs (today): ABG if indicated: mild hypoxemia; CRP elevated. CXR without new lobar consolidation.
 
 Assessment:
-Symptomatic knee osteoarthritis limiting function.
+COPD exacerbation, likely infectious or nonadherence-related.
 
 Plan:
-- Weight reduction, quadriceps-strengthening physiotherapy, topical NSAIDs, and activity modification. Consider intra-articular corticosteroid injection if refractory; surgical referral if severe structural disease.
-- Follow-up in 3 weeks as appropriate.
+- Nebulized bronchodilators, short oral steroid course; antibiotics if purulent sputum and bacterial suspicion. Ensure inhaler supply and technique; smoking cessation reinforcement; follow-up in respiratory clinic.
+- Follow-up in 6 weeks as appropriate.
 
 Signed,
-Dr. L. Mikkelsen, Dermatology
+Dr. Q. Norup, Ophthalmology

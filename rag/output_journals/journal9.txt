@@ -1,20 +1,20 @@
-CPR-number: 20.03.43-8693
-Encounter Date: 2025-12-16
-Author: Dr. I. Olesen, Nephrology
+CPR-number: 04.03.47-1188
+Encounter Date: 2025-06-18
+Author: Dr. P. Dam, Hematology
 
 Subjective:
-Lars D. reports 7 days of increased wheeze, chest tightness, and nocturnal cough requiring frequent SABA puffs. Recent URI in household; denies fever or chest pain.
+Solveig F. has episodic right upper quadrant pain radiating to the back, often after fatty meals, with nausea but no fever.
 
 Objective:
-RR 20/min, SpO2 96% RA, diffuse polyphonic wheeze; speaking in full sentences. No accessory muscle use. No focal consolidation signs.
-Labs (today): Peak flow 65% of personal best. No radiographic evidence of pneumonia.
+RUQ tenderness; Murphy sign negative between attacks; sclerae anicteric.
+Labs (today): Ultrasound: gallstones without ductal dilation; LFTs within normal range.
 
 Assessment:
-Moderate asthma exacerbation—likely viral/allergic trigger; no impending respiratory failure.
+Symptomatic cholelithiasis causing biliary colic; no cholecystitis currently.
 
 Plan:
-- Short course oral prednisolone, step-up inhaled corticosteroid dose, review inhaler technique and adherence. Action plan provided; clinic review in 1 week or sooner if deterioration.
-- Follow-up in 3 weeks as appropriate.
+- Dietary fat reduction; elective surgical consultation for laparoscopic cholecystectomy if recurrent. Return if fever/jaundice.
+- Follow-up in 2 weeks as appropriate.
 
 Signed,
-Dr. K. Petersen, Endocrinology
+Dr. C. Dahl, Pulmonology

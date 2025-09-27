@@ -1,20 +1,20 @@
-CPR-number: 25.01.99-7979
-Encounter Date: 2025-09-28
-Author: Dr. B. Thomsen, Pediatrics
+CPR-number: 07.12.21-4975
+Encounter Date: 2025-03-09
+Author: Dr. L. Holm, Cardiology
 
 Subjective:
-Julie O. had prior kidney stone; now presents with recurrent flank pain and gross hematuria after dehydration during travel.
+Tina V. reports progressive fatigue, exertional dyspnea, and restless legs at night. Diet low in iron-rich foods; denies overt bleeding.
 
 Objective:
-CVA tenderness; vitals stable; abdomen soft.
-Labs (today): UA with hematuria; non-contrast CT shows 3 mm ureteric stone; BMP normal.
+Conjunctival pallor present; HR 95 bpm; systolic ejection murmur flow-related.
+Labs (today): Hb 5 mmol/L (low), MCV low, ferritin reduced; iron and transferrin saturation decreased.
 
 Assessment:
-Recurrent nephrolithiasis, likely calcium oxalate.
+Microcytic anemia consistent with iron deficiency; source evaluation warranted (dietary vs occult loss).
 
 Plan:
-- Analgesia and medical expulsive therapy; counsel on hydration and reduced oxalate intake; urology if obstruction persists.
+- Oral iron therapy with vitamin C, counsel on side effects; investigate sources (GI as appropriate). Recheck Hb/ferritin in 6–8 weeks.
 - Follow-up in 6 weeks as appropriate.
 
 Signed,
-Dr. P. Dam, Hematology
+Dr. L. Holm, Cardiology

@@ -1,20 +1,20 @@
-CPR-number: 25.05.68-8870
-Encounter Date: 2025-07-17
-Author: Dr. E. Madsen, Neurology
+CPR-number: 18.08.74-1842
+Encounter Date: 2025-12-05
+Author: Dr. F. Hansen, General Practice
 
 Subjective:
-Louise O. reports epigastric burning pain related to meals and nocturnal discomfort. NSAID use for knee pain noted.
+Søren T. presents with chronic medial knee pain for 11 months, worsened by stairs and prolonged walking. Morning stiffness lasts 12 minutes. No acute trauma; occasional NSAID use with partial relief.
 
 Objective:
-Epigastric tenderness without guarding or rebound; vitals stable; no melena reported.
-Labs (today): H. pylori testing indicated; CBC to screen for anemia.
+Varus alignment mild, crepitus on flexion/extension, joint line tenderness medially; small effusion possible. ROM slightly reduced.
+Labs (today): X-ray: joint space narrowing and osteophytes consistent with osteoarthritis; no acute fracture.
 
 Assessment:
-Suspected peptic ulcer disease, likely NSAID or H. pylori–related.
+Symptomatic knee osteoarthritis limiting function.
 
 Plan:
-- Start PPI; discontinue NSAIDs if possible; test and treat H. pylori if positive. Return for alarm symptoms or persistent pain.
-- Follow-up in 5 weeks as appropriate.
+- Weight reduction, quadriceps-strengthening physiotherapy, topical NSAIDs, and activity modification. Consider intra-articular corticosteroid injection if refractory; surgical referral if severe structural disease.
+- Follow-up in 3 weeks as appropriate.
 
 Signed,
-Dr. J. Knudsen, ENT
+Dr. L. Mikkelsen, Dermatology

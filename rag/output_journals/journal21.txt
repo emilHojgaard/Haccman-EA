@@ -1,20 +1,20 @@
-CPR-number: 23.02.34-4244
-Encounter Date: 2025-06-23
-Author: Dr. M. Rasmussen, Orthopedics
+CPR-number: 12.11.31-8975
+Encounter Date: 2025-11-23
+Author: Dr. S. Aaen, Allergy & Immunology
 
 Subjective:
-Lars H. presents with 3 days of productive cough, pleuritic right-sided chest pain, and fevers with chills. Shortness of breath noted on climbing stairs; no hemoptysis. Recent viral contact at home.
+Thomas B. brought by family with 6 days of markedly reduced sleep, pressured speech, impulsive spending, and grandiosity. No substance use reported. Appetite variable; denies current suicidal intent.
 
 Objective:
-Temp 38.6°C, RR 23/min, SpO2 96% RA. Auscultation: focal crackles and bronchial breath sounds over RLL. No peripheral cyanosis; cardiovascular exam normal.
-Labs (today): CXR: right lower lobe consolidation. WBC 13×10⁹/L with left shift; CRP elevated. Renal function normal.
+Agitated but cooperative; speech rapid, tangential at times. Affect expansive; insight limited; judgment impaired in spending decisions.
+Labs (today): Toxicology screen negative; CMP and CBC within normal limits.
 
 Assessment:
-Community-acquired pneumonia, likely typical bacterial etiology. CURB-65 low risk; outpatient therapy appropriate.
+Manic episode consistent with bipolar affective disorder; safety risk present due to impulsivity.
 
 Plan:
-- Start oral amoxicillin or doxycycline (if penicillin allergy). Emphasize hydration, antipyretics, and return precautions for worsening dyspnea. Re-assess in 48–72 hours; follow-up chest X-ray in 6–8 weeks if persistent symptoms.
-- Follow-up in 4 weeks as appropriate.
+- Initiate mood stabilizer (e.g., lithium with renal/thyroid monitoring) or atypical antipsychotic. Consider inpatient admission for stabilization if outpatient safety cannot be ensured. Coordinate psychoeducation with family.
+- Follow-up in 5 weeks as appropriate.
 
 Signed,
-Dr. B. Thomsen, Pediatrics
+Dr. Q. Norup, Ophthalmology

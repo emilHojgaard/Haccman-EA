@@ -1,20 +1,20 @@
-CPR-number: 01.03.70-9630
-Encounter Date: 2025-11-14
-Author: Dr. L. Mikkelsen, Dermatology
+CPR-number: 15.07.43-2789
+Encounter Date: 2025-10-14
+Author: Dr. G. Lauridsen, Rheumatology
 
 Subjective:
-Thomas N. has 21 hours of periumbilical pain migrating to the right lower quadrant with anorexia and nausea. Reports low-grade fever and worsened pain with movement.
+Nina G. inverted the right ankle while walking on uneven ground; immediate swelling and pain rated 7/10. Able to bear partial weight; denies numbness or knee pain.
 
 Objective:
-RLQ tenderness maximal at McBurney’s point; guarding present; Rovsing sign positive. Temp 37.8°C.
-Labs (today): WBC 11×10⁹/L; CRP elevated. Ultrasound/CT supportive of appendicitis.
+Lateral malleolar tenderness, swelling and ecchymosis; anterior drawer mildly positive. Capillary refill < 2 s; sensation intact; pulses 2+. Ottawa rules applied; imaging obtained.
+Labs (today): Plain radiographs: no fracture or mortise widening.
 
 Assessment:
-Acute appendicitis likely; surgical management indicated.
+Grade 2 lateral ankle sprain without fracture or neurovascular compromise.
 
 Plan:
-- NPO, IV fluids, analgesia, perioperative antibiotics; surgical consult for appendectomy. Post-op instructions and early mobilization plan discussed.
+- RICE protocol 70 h, functional brace, NSAIDs with gastroprotection as needed. Early ROM exercises; physiotherapy in 1–2 weeks. Gradual return to sport over 3 weeks as symptoms allow.
 - Follow-up in 4 weeks as appropriate.
 
 Signed,
-Dr. S. Nielsen, Emergency Medicine
+Dr. G. Lauridsen, Rheumatology

@@ -1,20 +1,20 @@
-CPR-number: 07.10.16-6476
-Encounter Date: 2025-10-25
-Author: Dr. E. Madsen, Neurology
+CPR-number: 23.01.64-4696
+Encounter Date: 2025-12-05
+Author: Dr. T. Enevoldsen, Pain Medicine
 
 Subjective:
-Henrik F. has 24 hours of periumbilical pain migrating to the right lower quadrant with anorexia and nausea. Reports low-grade fever and worsened pain with movement.
+Lene B. reports 8 days of increased wheeze, chest tightness, and nocturnal cough requiring frequent SABA puffs. Recent URI in household; denies fever or chest pain.
 
 Objective:
-RLQ tenderness maximal at McBurney’s point; guarding present; Rovsing sign positive. Temp 37.8°C.
-Labs (today): WBC 11×10⁹/L; CRP elevated. Ultrasound/CT supportive of appendicitis.
+RR 21/min, SpO2 95% RA, diffuse polyphonic wheeze; speaking in full sentences. No accessory muscle use. No focal consolidation signs.
+Labs (today): Peak flow 70% of personal best. No radiographic evidence of pneumonia.
 
 Assessment:
-Acute appendicitis likely; surgical management indicated.
+Moderate asthma exacerbation—likely viral/allergic trigger; no impending respiratory failure.
 
 Plan:
-- NPO, IV fluids, analgesia, perioperative antibiotics; surgical consult for appendectomy. Post-op instructions and early mobilization plan discussed.
-- Follow-up in 6 weeks as appropriate.
+- Short course oral prednisolone, step-up inhaled corticosteroid dose, review inhaler technique and adherence. Action plan provided; clinic review in 1 week or sooner if deterioration.
+- Follow-up in 3 weeks as appropriate.
 
 Signed,
-Dr. O. Lyng, Endocrinology
+Dr. G. Lauridsen, Rheumatology

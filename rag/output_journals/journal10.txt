@@ -1,20 +1,20 @@
-CPR-number: 17.02.94-8366
-Encounter Date: 2025-07-25
-Author: Dr. T. Enevoldsen, Pain Medicine
+CPR-number: 26.04.10-2032
+Encounter Date: 2025-05-02
+Author: Dr. M. Rasmussen, Orthopedics
 
 Subjective:
-Katrine Å. has 1 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
+Sanne H. presents with 5 days of productive cough, pleuritic right-sided chest pain, and fevers with chills. Shortness of breath noted on climbing stairs; no hemoptysis. Recent viral contact at home.
 
 Objective:
-Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
-Labs (today): No routine labs required; stool studies if prolonged or bloody.
+Temp 38.9°C, RR 23/min, SpO2 93% RA. Auscultation: focal crackles and bronchial breath sounds over RLL. No peripheral cyanosis; cardiovascular exam normal.
+Labs (today): CXR: right lower lobe consolidation. WBC 11×10⁹/L with left shift; CRP elevated. Renal function normal.
 
 Assessment:
-Likely viral gastroenteritis, self-limited.
+Community-acquired pneumonia, likely typical bacterial etiology. CURB-65 low risk; outpatient therapy appropriate.
 
 Plan:
-- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
-- Follow-up in 3 weeks as appropriate.
+- Start oral amoxicillin or doxycycline (if penicillin allergy). Emphasize hydration, antipyretics, and return precautions for worsening dyspnea. Re-assess in 48–72 hours; follow-up chest X-ray in 6–8 weeks if persistent symptoms.
+- Follow-up in 4 weeks as appropriate.
 
 Signed,
-Dr. K. Vester, Vascular Surgery
+Dr. H. Berg, Gastroenterology
