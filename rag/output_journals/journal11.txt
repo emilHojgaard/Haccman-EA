@@ -1,20 +1,20 @@
-CPR-number: 17.08.05-1949
-Encounter Date: 2025-06-24
-Author: Dr. O. Lyng, Endocrinology
+CPR-number: 28.06.36-4080
+Encounter Date: 2025-09-28
+Author: Dr. N. Kruse, Oncology
 
 Subjective:
-Ole M. had prior kidney stone; now presents with recurrent flank pain and gross hematuria after dehydration during travel.
+Christian M. presents with melena and lightheadedness; recent NSAID use. No hematemesis reported.
 
 Objective:
-CVA tenderness; vitals stable; abdomen soft.
-Labs (today): UA with hematuria; non-contrast CT shows 3 mm ureteric stone; BMP normal.
+Conjunctival pallor; HR 98 bpm; orthostatic symptoms present; abdomen soft.
+Labs (today): Hb low relative to baseline; BUN may be elevated; type and crossmatch sent.
 
 Assessment:
-Recurrent nephrolithiasis, likely calcium oxalate.
+Probable non-variceal upper GI bleed, likely peptic in origin.
 
 Plan:
-- Analgesia and medical expulsive therapy; counsel on hydration and reduced oxalate intake; urology if obstruction persists.
+- Resuscitation as indicated, high-dose PPI, urgent endoscopy planning, hold NSAIDs; monitor hemoglobin and hemodynamics.
 - Follow-up in 6 weeks as appropriate.
 
 Signed,
-Dr. G. Lauridsen, Rheumatology
+Dr. B. Thomsen, Pediatrics

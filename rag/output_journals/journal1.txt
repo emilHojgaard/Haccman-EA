@@ -1,20 +1,20 @@
-CPR-number: 25.06.44-8704
-Encounter Date: 2025-01-03
-Author: Dr. Q. Norup, Ophthalmology
+CPR-number: 05.02.39-9603
+Encounter Date: 2025-01-17
+Author: Dr. F. Hansen, General Practice
 
 Subjective:
-Mette K. reports 3 days of progressive redness, warmth, and tenderness over the right lower leg after minor abrasion. No purulent drainage; subjective fever at home.
+Søren K. has 2 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
 
 Objective:
-Localized erythema with indistinct margins, increased warmth, and tenderness; no fluctuance or crepitus. Temp 37.8°C.
-Labs (today): CRP and WBC mildly elevated; blood cultures generally not indicated in mild cases.
+Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
+Labs (today): No routine labs required; stool studies if prolonged or bloody.
 
 Assessment:
-Non-purulent cellulitis without abscess; outpatient treatment suitable.
+Likely viral gastroenteritis, self-limited.
 
 Plan:
-- Begin oral beta-lactam per guideline, limb elevation, demarcate borders for progression monitoring. Return if systemic symptoms or worsening; recheck in 3 days.
-- Follow-up in 2 weeks as appropriate.
+- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
+- Follow-up in 6 weeks as appropriate.
 
 Signed,
-Dr. H. Sørensen, Internal Medicine
+Dr. A. Kristoffersen, Infectious Diseases

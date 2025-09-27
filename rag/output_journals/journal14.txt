@@ -1,20 +1,20 @@
-CPR-number: 25.02.12-8689
-Encounter Date: 2025-02-13
-Author: Dr. C. Dahl, Pulmonology
+CPR-number: 23.09.63-2133
+Encounter Date: 2025-04-21
+Author: Dr. F. Hansen, General Practice
 
 Subjective:
-Emil D. reports unilateral calf swelling and aching after recent long-haul travel; no trauma.
+Carsten L. has 1 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
 
 Objective:
-Calf circumference asymmetry 3 cm; warmth and tenderness present; Homan sign not reliable.
-Labs (today): D-dimer if low pretest probability; venous duplex ultrasound pending.
+Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
+Labs (today): No routine labs required; stool studies if prolonged or bloody.
 
 Assessment:
-Suspected DVT; risk factors present.
+Likely viral gastroenteritis, self-limited.
 
 Plan:
-- Begin anticoagulation if high suspicion and no contraindications; confirm with imaging; counsel on VTE precautions.
-- Follow-up in 6 weeks as appropriate.
+- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
+- Follow-up in 2 weeks as appropriate.
 
 Signed,
-Dr. I. Olesen, Nephrology
+Dr. L. Holm, Cardiology

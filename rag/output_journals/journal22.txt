@@ -1,20 +1,20 @@
-CPR-number: 17.08.06-9892
-Encounter Date: 2025-10-02
-Author: Dr. L. Holm, Cardiology
+CPR-number: 10.04.74-6330
+Encounter Date: 2025-04-26
+Author: Dr. O. Lyng, Endocrinology
 
 Subjective:
-Ida D. experiences acute palpitations with exertional dyspnea and mild lightheadedness beginning earlier today. No prior history of arrhythmia; caffeine intake elevated recently.
+Louise T. presents with pruritic, scaly plaques on elbows and knees, waxing and waning over years; stress exacerbates symptoms.
 
 Objective:
-Irregularly irregular rhythm; HR 136 bpm; BP variable. Lungs clear; no heart failure signs.
-Labs (today): ECG: atrial fibrillation; TSH and electrolytes to evaluate contributors. CHADS-VASc assessed.
+Well-demarcated erythematous plaques with silvery scale on extensor surfaces; nails show pitting.
+Labs (today): No labs necessary for mild disease; screen for psoriatic arthritis symptoms.
 
 Assessment:
-New-onset atrial fibrillation—hemodynamically stable; requires rate control and thromboembolic risk assessment.
+Chronic plaque psoriasis, mild to moderate severity.
 
 Plan:
-- Begin rate control (beta-blocker as appropriate), evaluate need for anticoagulation, cardiology follow-up for rhythm strategy.
-- Follow-up in 3 weeks as appropriate.
+- Topical corticosteroids and vitamin D analogs; moisturizers; dermatology referral if inadequate response to topicals.
+- Follow-up in 4 weeks as appropriate.
 
 Signed,
-Dr. L. Holm, Cardiology
+Dr. L. Mikkelsen, Dermatology

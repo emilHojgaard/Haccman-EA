@@ -1,20 +1,20 @@
-CPR-number: 16.02.12-9208
-Encounter Date: 2025-01-24
-Author: Dr. J. Knudsen, ENT
+CPR-number: 04.10.46-3731
+Encounter Date: 2025-07-25
+Author: Dr. Q. Norup, Ophthalmology
 
 Subjective:
-Grethe W. struck head on cabinet door with brief LOC < 1 minute; now reports headache, photophobia, and mild dizziness. No vomiting; no anticoagulant use.
+Rune B. notes progressive exertional dyspnea and intermittent palpitations for 3 weeks, with reduced exercise capacity and occasional evening ankle swelling. Denies syncope or chest pressure but reports poor sleep and elevated stress.
 
 Objective:
-GCS 15, pupils equal/reactive, no focal neurological deficits. Gait steady. Cervical spine non-tender.
-Labs (today): CT head (if performed) negative for acute hemorrhage. No skull fracture on exam.
+BP 172/106 mmHg, HR 86 bpm, RR 15/min. JVP not elevated. S4 present, no murmurs. Lungs clear; trace bilateral pitting edema. EKG reviewed at bedside appears consistent with left ventricular strain patterns.
+Labs (today): ECG: voltage criteria for LVH with repolarization changes. NT-proBNP mildly elevated. Basic metabolic panel within normal limits; lipids show elevated LDL.
 
 Assessment:
-Mild TBI/concussion without red flags; symptoms likely to improve over days to weeks.
+Long-standing hypertension with evidence of LVH and early congestive physiology. Symptoms likely reflect diastolic dysfunction; ischemia less likely but not excluded.
 
 Plan:
-- Provide graded return-to-activity plan, analgesia (avoid opiates), screen for worsening symptoms. Follow-up if persistent symptoms beyond 2–3 weeks or red flags emerge.
-- Follow-up in 2 weeks as appropriate.
+- Titrate ACE inhibitor and add thiazide-like diuretic; salt restriction < 2 g/day; counsel weight reduction. Schedule transthoracic echocardiogram to assess wall thickness and diastolic function. Cardiology review in 3 weeks.
+- Follow-up in 6 weeks as appropriate.
 
 Signed,
-Dr. E. Madsen, Neurology
+Dr. H. Sørensen, Internal Medicine

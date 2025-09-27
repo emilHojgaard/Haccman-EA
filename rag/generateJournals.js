@@ -537,9 +537,17 @@ ${authorName()}
 
 // -------------------- Main --------------------
 const OUT_DIR = path.join(__dirname, "output_journals");
-if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR);
 
-const COUNT = 150; // change if you want a different total
+// Delete old dir if it exists
+if (fs.existsSync(OUT_DIR)) {
+    fs.rmSync(OUT_DIR, { recursive: true, force: true });
+}
+
+// Recreate fresh dir
+fs.mkdirSync(OUT_DIR, { recursive: true });
+
+//This is the number of generates files : 
+const COUNT = 30;
 for (let i = 1; i <= COUNT; i++) {
     fs.writeFileSync(path.join(OUT_DIR, `journal${i}.txt`), buildEntry(), "utf8");
 }
