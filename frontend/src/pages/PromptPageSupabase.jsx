@@ -88,14 +88,14 @@ function Prompt(props) {
       const promptRow = await insertPrompt(sessionId, message);
 
       // 3) Call Edge Function (OpenAI) to get reply
-      const responseText = await sendPromptToAI(
+      const [responseText, sources] = await sendPromptToAI(
         message,
         systemPrompt,
         guardrail
       );
 
       // 4) Insert AI response linked to that prompt
-      await insertResponse(promptRow.id, responseText);
+      await insertResponse(promptRow.id, responseText, sources);
 
       // 5) Trigger post-processing (win check, etc.)
       setResponse(responseText);

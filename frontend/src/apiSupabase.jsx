@@ -27,8 +27,9 @@ export async function sendPromptToAI(message, systemPrompt, guardrail) {
     throw new Error(`AI function failed: ${resp.status} ${text}`);
   }
 
-  const { aiMessage } = await resp.json();
-  return aiMessage;
+  const { aiMessage, sources } = await resp.json();
+  console.log("context sources:", { sources });
+  return [aiMessage, sources];
 }
 
 export async function startConversation(botId) {
@@ -66,10 +67,10 @@ export async function insertPrompt(sessionId, text) {
   return prompt; // { id, content, ... }
 }
 
-export async function insertResponse(promptId, aiText) {
+export async function insertResponse(promptId, aiText, sources) {
   const { error } = await supabase
     .from("Responses")
-    .insert({ prompt_id: promptId, content: aiText });
+    .insert({ prompt_id: promptId, content: aiText, sources: sources });
   if (error) throw error;
 }
 
