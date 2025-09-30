@@ -1,0 +1,20 @@
+CPR-number: 28.05.40-3830
+Encounter Date: 2025-02-20
+Author: Dr. G. Lauridsen, Rheumatology
+
+Subjective:
+Lars T., with longstanding type 2 diabetes and dietary nonadherence, reports two weeks of polydipsia, polyuria, and mid-afternoon fatigue. Admits to occasionally missing evening doses of metformin and increased intake of refined carbohydrates during social events. Denies chest pain, visual loss, or focal neurological symptoms.
+
+Objective:
+Vital signs: BP 145/93 mmHg, HR 89 bpm, Temp 36.9°C, SpO2 99% RA. BMI 33.1 kg/m². General: well-appearing, no acute distress. Cardiopulmonary exam unremarkable. Abdomen soft, non-tender. No peripheral edema; feet with intact sensation by monofilament.
+Labs (today): Fasting glucose 14.9 mmol/L; HbA1c 9.1%; Creatinine 78 µmol/L with eGFR > 90 mL/min/1.73m²; urine albumin/creatinine ratio mildly elevated.
+
+Assessment:
+Suboptimally controlled type 2 diabetes mellitus with lifestyle and adherence factors predominating. No evidence of acute complications such as DKA or HHS. Concurrent hypertension requires continued monitoring and titration.
+
+Plan:
+- Reinforce metformin adherence; add SGLT2 inhibitor (empagliflozin 25 mg QD) given renal function and potential CV benefit. Dietician referral for structured meal planning; encourage daily brisk walking 40 min. Blood pressure log at home; consider ACE inhibitor uptitration if persistently > 140/90. Repeat HbA1c in 3 months; follow-up in 4 weeks or sooner if symptomatic.
+- Follow-up in 4 weeks as appropriate.
+
+Signed,
+Dr. H. Sørensen, Internal Medicine

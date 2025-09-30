@@ -1,0 +1,28 @@
+TITLE: Ulcerative Colitis – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Gastroenterology Unit
+
+Overview:
+Chronic colitis starting in rectum, continuous proximally. Nursing focus: flare support, bleeding monitoring, maintenance adherence, cancer surveillance reminders.
+
+Nursing Assessment:
+- Bloody diarrhea, urgency/tenesmus, cramps; hydration; weight.
+
+Key Monitoring:
+- Stool counts, vitals, anemia; infection signs on immunosuppression.
+
+Nursing Interventions:
+- Administer 5-ASA/steroids/biologics per plan; fluids; skin care for perianal irritation.
+
+Patient Education:
+- Maintenance adherence; flare action; surveillance colonoscopy schedule.
+
+When to Escalate:
+- Severe bleeding, abdominal distension, fever (toxic megacolon risk).
+
+Documentation & Coordination:
+- Symptom trend, treatments, education; IBD nurse liaison.
+
+Prognosis:
+Many maintain remission with modern therapy; surveillance reduces CRC risk.

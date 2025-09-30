@@ -1,0 +1,29 @@
+TITLE: Influenza – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Infectious Diseases Unit
+
+Overview:
+Acute viral respiratory illness. Nursing focus: symptom control, hydration, antivirals early for high-risk, and infection prevention.
+
+Nursing Assessment:
+- Sudden fever, myalgia, cough, fatigue; risk status (pregnancy, chronic disease).
+
+Key Monitoring:
+- Temperature, SpO₂, hydration, respiratory status.
+
+Nursing Interventions:
+- Antipyretics/analgesics; fluids; antivirals if within window and prescribed.
+- Isolation precautions; hand/respiratory hygiene.
+
+Patient Education:
+- Rest, fluids, return precautions; annual vaccination.
+
+When to Escalate:
+- SOB, persistent high fever, confusion, deterioration in chronic disease.
+
+Documentation & Coordination:
+- Symptom course, meds given, education; public health guidance as needed.
+
+Prognosis:
+Most recover in 1–2 weeks; complications include pneumonia/exacerbations.

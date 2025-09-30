@@ -1,0 +1,20 @@
+CPR-number: 18.04.06-1109
+Encounter Date: 2025-03-28
+Author: Dr. P. Dam, Hematology
+
+Subjective:
+Lene V. experienced 35 minutes of left facial droop and hand weakness yesterday, fully resolved prior to arrival. No prior similar episodes; risk factors include hypertension and dyslipidemia.
+
+Objective:
+Neurological exam currently non-focal; gait normal; cardiovascular exam without murmurs.
+Labs (today): CT/MRI brain negative for acute infarct; carotid duplex pending; ECG sinus rhythm; lipids elevated.
+
+Assessment:
+High-risk TIA; urgent secondary prevention warranted.
+
+Plan:
+- Start antiplatelet therapy, initiate high-intensity statin, BP control, and expedited stroke clinic review. Educate on stroke warning signs; strict return precautions provided.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. K. Petersen, Endocrinology

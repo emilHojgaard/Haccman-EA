@@ -1,0 +1,20 @@
+CPR-number: 24.01.15-6205
+Encounter Date: 2025-01-02
+Author: Dr. L. Holm, Cardiology
+
+Subjective:
+Viggo Å. notes burning pain followed by grouped vesicular rash in a unilateral dermatomal distribution over 2 days.
+
+Objective:
+Clusters of vesicles on erythematous base not crossing midline; tenderness to light touch.
+Labs (today): Clinical diagnosis; PCR if atypical.
+
+Assessment:
+Acute herpes zoster.
+
+Plan:
+- Start antiviral within 72 hours if possible; analgesia; advise on contagion precautions until crusting.
+- Follow-up in 5 weeks as appropriate.
+
+Signed,
+Dr. M. Sønder, Urology

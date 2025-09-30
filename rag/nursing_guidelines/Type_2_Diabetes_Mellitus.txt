@@ -1,0 +1,35 @@
+TITLE: Type 2 Diabetes Mellitus – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Endocrinology Unit
+
+Overview:
+Type 2 diabetes involves insulin resistance and relative insulin deficiency. Nursing focus: glucose monitoring, medication administration, hypoglycemia prevention, foot/skin checks, and education.
+
+Nursing Assessment:
+- History: meds (metformin, SGLT2i, GLP-1 RA, insulin), adherence, diet/activity patterns.
+- Check: blood glucose trends, foot integrity, hydration, comorbidities (HTN, CKD).
+- Vitals & labs: BP, weight/BMI, recent HbA1c, eGFR if relevant to dosing.
+
+Key Monitoring:
+- Capillary glucose per prescription (AC/HS or more often if unstable).
+- Watch for hypo (sweats, tremor, confusion) and hyper (polydipsia, polyuria, fatigue).
+- Injection sites/pen technique; renal function considerations for dosing.
+
+Nursing Interventions:
+- Administer oral agents/insulin per MAR; verify timing with meals.
+- Treat hypoglycemia promptly: 15–20 g rapid-acting carb; recheck in 15 min; escalate if LOC impaired.
+- Reinforce sick-day rules: hydration, maintain carbs/insulin as prescribed, when to seek help.
+
+Patient Education:
+- Glucose targets, SMBG technique, injection technique, sharps safety.
+- Diet (portion control, fiber), activity (≥150 min/week), foot checks; annual eye/renal review.
+
+When to Escalate:
+- Recurrent hypo/hyperglycemia despite adherence; vomiting/ketones; altered mental status.
+
+Documentation & Coordination:
+- Record glucose values, insulin units, events (hypo), teaching given, and referrals to diabetes nurse/educator.
+
+Prognosis:
+Excellent with sustained lifestyle and medication adherence; nursing follow-up reduces complications.

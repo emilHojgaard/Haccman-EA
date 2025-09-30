@@ -1,0 +1,40 @@
+TITLE: Asthma – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Pulmonology Unit
+
+Overview:
+Asthma is a chronic inflammatory airway disorder with variable airflow limitation and hyperresponsiveness. Nursing priorities: assess severity, deliver prescribed bronchodilation and oxygen, evaluate response, teach trigger control and inhaler technique.
+
+Nursing Assessment:
+- History: triggers, controller adherence, prior ICU/intubations, recent infections.
+- Inspection: accessory muscle use, ability to speak, agitation/fatigue.
+- Vitals & O2: RR, HR, BP, SpO₂ (target ≥ 94% unless otherwise prescribed).
+- Auscultation: wheeze, reduced air entry, “silent chest” (ominous).
+- Peak flow (if trained/device available) vs personal best.
+
+Key Monitoring:
+- SpO₂ and respiratory effort q15–30 min in acute care, then hourly when stable.
+- Frequency of SABA use; response after each dose.
+- Signs of exhaustion, CO₂ retention (drowsiness), or worsening work of breathing.
+
+Nursing Interventions:
+- Position upright; calm environment; bronchodilator via spacer/nebulizer as prescribed.
+- Administer oxygen to target saturation; prepare/assist with systemic steroids if ordered.
+- Check and correct inhaler/spacer technique; ensure spacer availability.
+- Prepare for escalation (magnesium neb/IV per local protocol) when ordered.
+
+Patient Education:
+- Written asthma action plan; daily preventer adherence; correct inhaler technique.
+- Trigger avoidance: smoke, pets, dust mites, viral hygiene; pre-exercise SABA if prescribed.
+
+When to Escalate:
+- SpO₂ < 92% on oxygen, silent chest, inability to speak full sentences, exhaustion, cyanosis.
+- No clinical response after initial SABA cycles or deteriorating PEFR.
+
+Documentation & Coordination:
+- Record pre/post values (SpO₂, RR, PEFR), meds given, responses, education provided.
+- Handover triggers, action plan status, and follow-up needs to next shift/community team.
+
+Prognosis:
+Good with consistent controller therapy, technique, and trigger management; nursing vigilance reduces severe exacerbations.

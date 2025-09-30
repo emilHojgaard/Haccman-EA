@@ -1,0 +1,36 @@
+TITLE: Blood Transfusion – Nursing Procedure – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Transfusion Medicine / Medical Ward
+
+Purpose:
+Ensure safe administration and monitoring of blood components.
+
+Scope:
+Nurses trained and credentialed for transfusion.
+
+Indications:
+- Anemia, bleeding, or coagulopathy per medical prescription
+
+Contraindications:
+- None absolute; follow prescriber thresholds and consent requirements
+
+Equipment:
+- Blood product with compatibility label, transfusion set/filter, IV access, vitals monitor, emergency drugs
+
+Procedure Steps:
+- Pre-transfusion checks: consent, identification (two-person check), product verification, baseline vitals.
+- Start transfusion per rate; observe closely for first 15 minutes; adjust rate per policy.
+
+Monitoring & Documentation:
+- Vitals at baseline, 15 min, hourly, and completion; monitor for reactions (fever, rigors, rash, dyspnea).
+- Document product details, times, and patient response.
+
+Patient Education:
+- Explain purpose/risks; report itching, chills, breathlessness immediately.
+
+Escalation:
+- Suspected reaction → stop transfusion, maintain IV with saline, notify medical team and blood bank.
+
+Safety Notes:
+- Strict identity checks; no meds added to blood bag; complete traceability forms.

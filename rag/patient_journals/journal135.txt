@@ -1,0 +1,20 @@
+CPR-number: 05.05.02-4759
+Encounter Date: 2025-02-18
+Author: Dr. K. Vester, Vascular Surgery
+
+Subjective:
+Helle P. experiences acute palpitations with exertional dyspnea and mild lightheadedness beginning earlier today. No prior history of arrhythmia; caffeine intake elevated recently.
+
+Objective:
+Irregularly irregular rhythm; HR 127 bpm; BP variable. Lungs clear; no heart failure signs.
+Labs (today): ECG: atrial fibrillation; TSH and electrolytes to evaluate contributors. CHADS-VASc assessed.
+
+Assessment:
+New-onset atrial fibrillation—hemodynamically stable; requires rate control and thromboembolic risk assessment.
+
+Plan:
+- Begin rate control (beta-blocker as appropriate), evaluate need for anticoagulation, cardiology follow-up for rhythm strategy.
+- Follow-up in 2 weeks as appropriate.
+
+Signed,
+Dr. M. Sønder, Urology

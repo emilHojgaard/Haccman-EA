@@ -1,0 +1,37 @@
+TITLE: Oral Medication Administration & Swallow Screening – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: General Medicine
+
+Purpose:
+Ensure safe oral medication delivery with attention to swallowing safety and adherence.
+
+Scope:
+Nurses administering oral medications in inpatient/outpatient settings.
+
+Indications:
+- Routine medication administration via oral route
+
+Contraindications:
+- Failed swallow screen, NPO status, altered mental status without safe route
+
+Equipment:
+- MAR, prescribed medications, water, pill crusher (if appropriate), PPE
+
+Procedure Steps:
+- Verify 6 rights; perform swallow screen if indicated; seat patient upright.
+- Offer one tablet at a time; do not crush modified-release/enteric-coated forms.
+- Provide alternatives or route changes in consultation when needed.
+
+Monitoring & Documentation:
+- Observe for aspiration and adverse effects; document administration/refusals.
+- Record teaching and adherence barriers.
+
+Patient Education:
+- Purpose of medication, timing, common side effects; when to seek help.
+
+Escalation:
+- Choking, persistent coughing, altered consciousness, refusal impacting safety.
+
+Safety Notes:
+- Use oral syringes for liquid doses; thicken fluids if prescribed.

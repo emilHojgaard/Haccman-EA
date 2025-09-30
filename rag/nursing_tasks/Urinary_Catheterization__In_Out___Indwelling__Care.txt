@@ -1,0 +1,35 @@
+TITLE: Urinary Catheterization (In/Out & Indwelling) Care – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Urology / Medical Ward
+
+Purpose:
+Ensure aseptic catheter insertion (where authorized) and safe ongoing care to minimize CAUTI risk.
+
+Scope:
+Nurses trained in catheter insertion/care per local policy.
+
+Indications:
+- Acute urinary retention, accurate output monitoring in critical illness, peri-op use
+
+Contraindications:
+- Urethral trauma (blood at meatus), suspected urethral stricture without urology review
+
+Equipment:
+- Catheter kit, sterile gloves, antiseptic, lubricant, drainage bag/stand
+
+Procedure Steps:
+- Aseptic insertion per sex-specific technique; confirm urine flow; inflate balloon as prescribed.
+- Secure catheter; maintain closed system; position bag below bladder.
+
+Monitoring & Documentation:
+- Urine color/volume, catheter function, perineal care; daily review of necessity.
+
+Patient Education:
+- Bag handling, hygiene, signs of infection, when to seek help.
+
+Escalation:
+- No urine drainage, severe pain, hematuria, fever, bypassing/leakage.
+
+Safety Notes:
+- Remove catheter at earliest opportunity; avoid unnecessary sampling from bag.

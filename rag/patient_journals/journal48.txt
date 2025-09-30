@@ -1,0 +1,20 @@
+CPR-number: 17.10.52-7832
+Encounter Date: 2025-08-19
+Author: Dr. H. Sørensen, Internal Medicine
+
+Subjective:
+Rune K. notes progressive exertional dyspnea and intermittent palpitations for 3 weeks, with reduced exercise capacity and occasional evening ankle swelling. Denies syncope or chest pressure but reports poor sleep and elevated stress.
+
+Objective:
+BP 167/105 mmHg, HR 91 bpm, RR 17/min. JVP not elevated. S4 present, no murmurs. Lungs clear; trace bilateral pitting edema. EKG reviewed at bedside appears consistent with left ventricular strain patterns.
+Labs (today): ECG: voltage criteria for LVH with repolarization changes. NT-proBNP mildly elevated. Basic metabolic panel within normal limits; lipids show elevated LDL.
+
+Assessment:
+Long-standing hypertension with evidence of LVH and early congestive physiology. Symptoms likely reflect diastolic dysfunction; ischemia less likely but not excluded.
+
+Plan:
+- Titrate ACE inhibitor and add thiazide-like diuretic; salt restriction < 2 g/day; counsel weight reduction. Schedule transthoracic echocardiogram to assess wall thickness and diastolic function. Cardiology review in 3 weeks.
+- Follow-up in 2 weeks as appropriate.
+
+Signed,
+Dr. P. Jensen, Psychiatry

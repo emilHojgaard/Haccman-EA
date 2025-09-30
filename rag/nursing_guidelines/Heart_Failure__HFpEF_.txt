@@ -1,0 +1,33 @@
+TITLE: Heart Failure with Preserved Ejection Fraction (HFpEF) – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Cardiology Unit
+
+Overview:
+HFpEF presents with heart failure symptoms but normal EF, often due to diastolic dysfunction. Nursing focus: volume assessment, diuresis support, comorbidity management, and self-care coaching.
+
+Nursing Assessment:
+- Symptoms: exertional dyspnea, orthopnea/PND, edema, fatigue.
+- Weight trends, fluid/salt intake; comorbidities (HTN, AF, DM, obesity, OSA).
+- Vitals, JVP, lung crackles, ankle edema; daily weights.
+
+Key Monitoring:
+- Response to diuretics (urine output, weight loss goal ~0.5–1 kg/day if fluid overloaded).
+- Electrolytes/renal function per orders; BP/HR control.
+
+Nursing Interventions:
+- Sodium/fluid restriction education; administer diuretics as prescribed.
+- Optimize positioning (upright); oxygen if hypoxic; encourage gentle activity.
+- Reinforce adherence to SGLT2i/antihypertensives; sleep apnea pathway if applicable.
+
+Patient Education:
+- Daily weights (report 2 kg in 3 days), edema checks, low-salt diet, meds adherence.
+
+When to Escalate:
+- Rapid weight gain, worsening SOB at rest, hypotension, confusion, oliguria.
+
+Documentation & Coordination:
+- I/O, daily weights, symptoms, education; handover to HF nurse/cardiology clinic.
+
+Prognosis:
+Variable; tight comorbidity control and self-management reduce admissions.

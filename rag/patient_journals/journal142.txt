@@ -1,0 +1,20 @@
+CPR-number: 03.09.91-2848
+Encounter Date: 2025-02-17
+Author: Dr. N. Kruse, Oncology
+
+Subjective:
+Ole M. reports 2 days of progressive redness, warmth, and tenderness over the right lower leg after minor abrasion. No purulent drainage; subjective fever at home.
+
+Objective:
+Localized erythema with indistinct margins, increased warmth, and tenderness; no fluctuance or crepitus. Temp 38.1°C.
+Labs (today): CRP and WBC mildly elevated; blood cultures generally not indicated in mild cases.
+
+Assessment:
+Non-purulent cellulitis without abscess; outpatient treatment suitable.
+
+Plan:
+- Begin oral beta-lactam per guideline, limb elevation, demarcate borders for progression monitoring. Return if systemic symptoms or worsening; recheck in 2 days.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. K. Vester, Vascular Surgery

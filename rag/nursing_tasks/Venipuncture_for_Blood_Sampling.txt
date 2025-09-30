@@ -1,0 +1,35 @@
+TITLE: Venipuncture for Blood Sampling – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Phlebotomy / Medical Ward
+
+Purpose:
+Obtain blood samples safely with minimal patient discomfort and hemolysis.
+
+Scope:
+Nurses trained in venipuncture.
+
+Indications:
+- Laboratory testing as prescribed
+
+Contraindications:
+- Limb with AV fistula, lymphoedema, or prior axillary node dissection; local infection
+
+Equipment:
+- Tourniquet, needles/vacutainer system, tubes, alcohol swabs, gauze, labels, PPE
+
+Procedure Steps:
+- Identity check; explain; select site; cleanse; allow to dry.
+- Perform venipuncture with correct order of draw; release tourniquet; apply pressure and dressing.
+
+Monitoring & Documentation:
+- Label tubes at bedside; check for bleeding/hematoma; document difficulties and patient tolerance.
+
+Patient Education:
+- Brief post-procedure care; report persistent bleeding or numbness.
+
+Escalation:
+- Syncope, prolonged bleeding in anticoagulated patients, failed attempts requiring escalation.
+
+Safety Notes:
+- Needle safety; avoid probing; follow biohazard protocols.

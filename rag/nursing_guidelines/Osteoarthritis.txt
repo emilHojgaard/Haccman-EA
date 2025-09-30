@@ -1,0 +1,29 @@
+TITLE: Osteoarthritis – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Rheumatology Unit
+
+Overview:
+Degenerative joint disease causing pain and stiffness. Nursing priorities: pain control, function maintenance, weight/activity guidance.
+
+Nursing Assessment:
+- Joint pain pattern, stiffness duration, impact on ADLs; gait assessment.
+
+Key Monitoring:
+- Pain scores, mobility, response to analgesia/physio.
+
+Nursing Interventions:
+- Heat/cold therapy, topical NSAIDs guidance, exercise plan reinforcement.
+- Mobility aids fitting; fall-prevention strategies.
+
+Patient Education:
+- Low-impact exercise, pacing, weight loss; joint protection techniques.
+
+When to Escalate:
+- Hot swollen joint (rule out infection/gout), rapidly worsening function.
+
+Documentation & Coordination:
+- Pain/mobility trends, interventions, referrals to PT/OT.
+
+Prognosis:
+Fluctuating; active self-management preserves function.

@@ -1,0 +1,28 @@
+TITLE: Benign Prostatic Hyperplasia (BPH) – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Urology Unit
+
+Overview:
+Prostate enlargement causing LUTS in aging men. Nursing focus: symptom scoring (IPSS), med adherence, fluid/caffeine counseling, retention recognition.
+
+Nursing Assessment:
+- Hesitancy, weak stream, nocturia, incomplete emptying; retention risk.
+
+Key Monitoring:
+- Post-void residual (if trained), UTI signs, med side effects (hypotension with alpha-blockers).
+
+Nursing Interventions:
+- Adherence to alpha-blockers/5-ARI; bladder training; evening fluid reduction.
+
+Patient Education:
+- Avoid decongestants; when to seek help (retention, hematuria, infection).
+
+When to Escalate:
+- Acute retention, recurrent UTIs, renal impairment signs.
+
+Documentation & Coordination:
+- IPSS trends, education, urology referral.
+
+Prognosis:
+Often controlled medically; procedures effective when needed.

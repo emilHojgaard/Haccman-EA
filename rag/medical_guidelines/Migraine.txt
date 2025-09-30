@@ -1,0 +1,30 @@
+Template: Fictional Medical Clinical Guideline
+Title: Migraine – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Neurology Unit
+
+1. Purpose
+Direct acute and preventive management of migraine.
+
+2. Scope
+Primary care, ED, neurology.
+
+3. Indications
+Recurrent headaches with migrainous features ± aura.
+
+4. Diagnosis
+- ICHD-3 criteria; screen red flags (thunderclap, neuro deficits, fever).
+
+5. Treatment/Management
+- Acute: triptan + NSAID + antiemetic; avoid opioids.
+- Preventive: beta-blocker, topiramate, CGRP mAbs; behavioral therapy.
+
+6. Monitoring & Follow-up
+- Headache diary; medication overuse avoidance.
+
+7. When to Escalate
+- Status migrainosus, atypical aura, focal deficits.
+
+8. Safety Notes
+- Triptans contraindicated in CAD/uncontrolled HTN.

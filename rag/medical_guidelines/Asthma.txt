@@ -1,0 +1,38 @@
+Template: Fictional Medical Clinical Guideline
+Title: Asthma – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Pulmonology Unit
+
+1. Purpose
+Provide guidance on diagnosis, severity assessment, pharmacologic management, and exacerbation care for adult asthma.
+
+2. Scope
+Applies to: Physicians in ED/outpatient/ward settings managing adults with suspected or confirmed asthma.
+
+3. Indications
+Evaluation and treatment of variable airflow limitation with typical symptoms (wheeze, dyspnea, chest tightness, cough).
+
+4. Diagnosis
+- Clinical pattern with variable respiratory symptoms.
+- Spirometry: ↓FEV1/FVC with bronchodilator reversibility (↑FEV1 ≥12% and ≥200 mL).
+- Peak flow variability; consider bronchoprovocation if spirometry inconclusive.
+- Differentiate from COPD, cardiac dyspnea, VCD; evaluate triggers and atopy.
+
+5. Treatment/Management
+- Controller: Low/med ICS; escalate to ICS/LABA; consider LAMA, LTRA, biologics for severe eosinophilic/Type 2.
+- Reliever: As-needed SABA or low-dose ICS-formoterol (per local protocol).
+- Exacerbation: Oxygen to target SpO₂ ≥94%; SABA/ipratropium; systemic steroids; magnesium sulfate IV in severe cases.
+- Vaccines: Influenza, pneumococcal as indicated.
+
+6. Monitoring & Follow-up
+- Check inhaler technique, adherence, and trigger control every visit.
+- Step-up/step-down per control; provide written action plan; consider FeNO/allergy workup.
+
+7. When to Escalate
+- Life-threatening features (silent chest, hypoxia, exhaustion); ICU involvement.
+- Frequent exacerbations despite high-dose ICS/LABA → biologic referral.
+
+8. Safety Notes
+- Use minimal effective steroid dose; assess osteoporosis, glucose.
+- Educate on anaphylaxis plan if biologics administered.

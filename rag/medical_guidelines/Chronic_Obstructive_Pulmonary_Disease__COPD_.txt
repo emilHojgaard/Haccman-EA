@@ -1,0 +1,33 @@
+Template: Fictional Medical Clinical Guideline
+Title: COPD – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Pulmonology Unit
+
+1. Purpose
+Guide diagnosis, assessment, and management of COPD in adults.
+
+2. Scope
+Physicians in primary care, respiratory clinics, and inpatient settings.
+
+3. Indications
+Persistent respiratory symptoms and fixed airflow limitation in smokers/ex-smokers.
+
+4. Diagnosis
+- Spirometry: post-bronchodilator FEV1/FVC <0.70.
+- Grade airflow limitation (GOLD); assess exacerbation risk and symptoms (CAT/mMRC).
+- Exclude asthma, bronchiectasis; evaluate comorbidities.
+
+5. Treatment/Management
+- Smoking cessation; vaccinations; pulmonary rehab.
+- Bronchodilators: LAMA or LABA; escalate to dual LAMA/LABA; add ICS in eosinophilic or frequent exacerbators.
+- Exacerbation: controlled O₂ (SpO₂ 88–92% if CO₂ retainer), bronchodilators, steroids, antibiotics if bacterial signs; consider NIV.
+
+6. Monitoring & Follow-up
+- Exacerbation prevention; inhaler technique; rehab adherence; oxygen assessment.
+
+7. When to Escalate
+- Acute respiratory failure, refractory hypercapnia, hemodynamic instability.
+
+8. Safety Notes
+- Caution ICS in pneumonia-prone; optimize bone health, diabetes control.

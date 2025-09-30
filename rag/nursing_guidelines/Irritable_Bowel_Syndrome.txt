@@ -1,0 +1,29 @@
+TITLE: Irritable Bowel Syndrome (IBS) – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Gastroenterology Unit
+
+Overview:
+Functional bowel disorder with abdominal pain related to defecation and altered stool form. Nursing focus: reassurance, diet strategies, symptom-directed meds adherence.
+
+Nursing Assessment:
+- Pain pattern, stool frequency/form, stress links; red flags screen.
+
+Key Monitoring:
+- Symptom diaries, response to diet/med changes; hydration.
+
+Nursing Interventions:
+- Support low-FODMAP trial (with dietitian), fiber titration; antispasmodics/laxatives/antidiarrheals per plan.
+- Encourage stress reduction techniques.
+
+Patient Education:
+- Regular meals, hydration, sleep hygiene; trigger identification.
+
+When to Escalate:
+- Weight loss, bleeding, nocturnal symptoms, anemia.
+
+Documentation & Coordination:
+- Diet/med adjustments and effects; coordinate with dietitian/psych support.
+
+Prognosis:
+Chronic but manageable with individualized strategies.

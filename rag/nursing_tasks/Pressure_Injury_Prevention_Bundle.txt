@@ -1,0 +1,36 @@
+TITLE: Pressure Injury Prevention Bundle – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Nursing Quality & Safety
+
+Purpose:
+Reduce incidence and severity of pressure injuries through risk assessment and prevention.
+
+Scope:
+All adult inpatients; nurses in all wards.
+
+Indications:
+- Reduced mobility, sensory deficits, incontinence, malnutrition, device pressure points
+
+Contraindications:
+- None; adapt interventions to patient tolerance
+
+Equipment:
+- Risk assessment tool, pressure-relieving surfaces, positioning aids, barrier creams
+
+Procedure Steps:
+- Complete risk assessment on admission and daily or with condition changes.
+- Reposition at prescribed intervals; offload heels and device pressure points.
+- Optimize moisture control, nutrition, and hydration.
+
+Monitoring & Documentation:
+- Skin inspections each shift; document pressure areas and interventions.
+
+Patient Education:
+- Importance of repositioning; nutrition and hydration; call for assistance.
+
+Escalation:
+- New or worsening pressure injury; unresolved pain or non-blanching erythema.
+
+Safety Notes:
+- Protect bony prominences; ensure devices/tubes don’t create pressure points.

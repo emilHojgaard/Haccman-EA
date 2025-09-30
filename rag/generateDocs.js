@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const OUT_DIR = path.join(__dirname, "disease_docs_rich");
+const OUT_DIR = path.join(__dirname, "disease_docs");
 if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR);
 
 // Helper

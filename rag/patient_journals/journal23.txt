@@ -1,0 +1,20 @@
+CPR-number: 01.04.53-2865
+Encounter Date: 2025-08-20
+Author: Dr. F. Hansen, General Practice
+
+Subjective:
+Peter L. describes unilateral throbbing headache lasting 10 hours with photophobia, phonophobia, and nausea. Attacks recur 5 times per month, often triggered by sleep deprivation.
+
+Objective:
+Neurological examination normal between attacks; no neck stiffness; vitals stable.
+Labs (today): No red flags identified; imaging not indicated at this time.
+
+Assessment:
+Episodic migraine without aura.
+
+Plan:
+- Treat acutely with triptan plus NSAID if no contraindications; counsel on trigger avoidance and sleep hygiene. Consider prophylaxis if ≥ 4 disabling days/month; follow-up to reassess frequency and response.
+- Follow-up in 3 weeks as appropriate.
+
+Signed,
+Dr. A. Kristoffersen, Infectious Diseases

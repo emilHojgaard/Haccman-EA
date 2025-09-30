@@ -1,0 +1,20 @@
+CPR-number: 18.10.43-6380
+Encounter Date: 2025-08-10
+Author: Dr. P. Jensen, Psychiatry
+
+Subjective:
+Niklas M. has 3 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
+
+Objective:
+Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
+Labs (today): No routine labs required; stool studies if prolonged or bloody.
+
+Assessment:
+Likely viral gastroenteritis, self-limited.
+
+Plan:
+- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
+- Follow-up in 3 weeks as appropriate.
+
+Signed,
+Dr. H. Sørensen, Internal Medicine

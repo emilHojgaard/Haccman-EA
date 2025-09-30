@@ -1,0 +1,32 @@
+Template: Fictional Medical Clinical Guideline
+Title: Hypertension – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Cardiology Unit
+
+1. Purpose
+Provide a framework for accurate diagnosis and risk-based management of hypertension.
+
+2. Scope
+Outpatient and inpatient medical care.
+
+3. Indications
+Elevated office BP or ABPM/HBPM abnormalities.
+
+4. Diagnosis
+- Confirm with out-of-office monitoring; assess global CV risk.
+- Baseline labs: U&E, creatinine/eGFR, lipids, A1c, urinalysis; ECG.
+
+5. Treatment/Management
+- Lifestyle: salt ↓, weight ↓, exercise, limit alcohol, sleep hygiene.
+- Drugs: ACEi/ARB, CCB, thiazide-like diuretic; combine as needed; consider MRA for resistant HTN.
+- Emergencies: SBP ≥180 or DBP ≥120 with end-organ damage → controlled reduction.
+
+6. Monitoring & Follow-up
+- Titrate q4–6 weeks; monitor K⁺/creatinine after ACEi/ARB/MRA.
+
+7. When to Escalate
+- Resistant HTN, suspected secondary causes, hypertensive emergency.
+
+8. Safety Notes
+- Avoid ACEi in pregnancy; dual ACEi+ARB discouraged.

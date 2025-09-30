@@ -1,0 +1,32 @@
+Template: Fictional Medical Clinical Guideline
+Title: Type 2 Diabetes Mellitus – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Endocrinology Unit
+
+1. Purpose
+Standardize diagnosis and management of T2DM in adults.
+
+2. Scope
+Physicians in primary care and endocrine clinics/inpatient wards.
+
+3. Indications
+Hyperglycemia symptoms or screening in high-risk adults.
+
+4. Diagnosis
+- HbA1c ≥48 mmol/mol (6.5%) or FPG ≥7.0 mmol/L; confirm on repeat unless unequivocal hyperglycemia.
+- Evaluate complications: renal, retinal, neuropathy; CV risk.
+
+5. Treatment/Management
+- Lifestyle: weight reduction, activity ≥150 min/week.
+- Pharmacologic: Metformin first-line (if eGFR adequate); add SGLT2i for CKD/HF benefit; GLP-1 RA for weight/ASCVD; consider DPP-4i, TZD, basal insulin if needed.
+- Hospital: insulin protocols for persistent hyperglycemia.
+
+6. Monitoring & Follow-up
+- HbA1c q3–6 mo; eGFR, UACR, lipids; BP target per guidelines.
+
+7. When to Escalate
+- DKA/HHS, refractory hyper/hypoglycemia, progressive complications.
+
+8. Safety Notes
+- Adjust drugs in CKD; counsel hypoglycemia avoidance; sick-day rules.

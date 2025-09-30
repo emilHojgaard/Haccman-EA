@@ -1,0 +1,29 @@
+Template: Fictional Medical Clinical Guideline
+Title: Liver Cirrhosis – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Gastroenterology Unit
+
+1. Purpose
+Standardize decompensation management and complication prevention.
+
+2. Scope
+Hepatology/medical wards.
+
+3. Indications
+Portal hypertension complications: ascites, HE, variceal bleed.
+
+4. Diagnosis
+- Etiology workup; elastography; endoscopy for varices.
+
+5. Treatment/Management
+- Ascites: salt restriction, diuretics, LVP + albumin; HE: lactulose ± rifaximin; Varices: banding, NSBB; alcohol cessation.
+
+6. Monitoring & Follow-up
+- MELD/Child-Pugh; hepatocellular carcinoma surveillance.
+
+7. When to Escalate
+- Refractory ascites, recurrent HE, acute bleed, transplant evaluation.
+
+8. Safety Notes
+- Renal protection; avoid NSAIDs; SBP prophylaxis where indicated.

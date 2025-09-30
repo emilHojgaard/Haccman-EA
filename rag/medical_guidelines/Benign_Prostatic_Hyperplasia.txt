@@ -1,0 +1,29 @@
+Template: Fictional Medical Clinical Guideline
+Title: Benign Prostatic Hyperplasia – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Urology Unit
+
+1. Purpose
+Manage LUTS due to BPH.
+
+2. Scope
+Urology/primary care.
+
+3. Indications
+Voiding symptoms with enlarged prostate.
+
+4. Diagnosis
+- IPSS, DRE, PSA (as indicated), urinalysis; consider PVR/flow rate.
+
+5. Treatment/Management
+- Alpha-blockers; 5-ARI for large glands; combo therapy; surgery for refractory/complications.
+
+6. Monitoring & Follow-up
+- Symptom scoring; side effects (hypotension, sexual).
+
+7. When to Escalate
+- Retention, recurrent UTI, renal impairment.
+
+8. Safety Notes
+- Counsel on sexual side effects; cataract surgery risk (IFIS).

@@ -1,0 +1,29 @@
+Template: Fictional Medical Clinical Guideline
+Title: Ulcerative Colitis – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Gastroenterology Unit
+
+1. Purpose
+Mucosal healing approach in UC.
+
+2. Scope
+IBD clinics/inpatient.
+
+3. Indications
+Bloody diarrhea, urgency, abdominal pain.
+
+4. Diagnosis
+- Colonoscopy with biopsies; extent/severity scoring.
+
+5. Treatment/Management
+- 5-ASA for mild–moderate; steroids for flares; biologics/tsDMARD for moderate–severe or steroid-dependent; VTE prophylaxis when hospitalized.
+
+6. Monitoring & Follow-up
+- Symptom scores, calprotectin, colonoscopy for cancer surveillance.
+
+7. When to Escalate
+- Toxic megacolon, severe refractory colitis.
+
+8. Safety Notes
+- Infection risk on immunosuppressants; vaccination planning.

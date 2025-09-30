@@ -1,0 +1,30 @@
+TITLE: Parkinson’s Disease – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Neurology Unit
+
+Overview:
+Neurodegenerative disorder with bradykinesia, rigidity, tremor. Nursing focus: medication timing, mobility/falls prevention, constipation/nutrition management.
+
+Nursing Assessment:
+- Motor symptoms, falls history, swallowing, constipation, mood/sleep.
+- Review levodopa timing to meals (protein interaction).
+
+Key Monitoring:
+- ON/OFF fluctuations, dyskinesias, orthostatic hypotension.
+
+Nursing Interventions:
+- Administer meds on precise schedule; PT/OT/SLT referrals; gait aids.
+- Bowel regimen; small frequent meals; home safety review.
+
+Patient Education:
+- Exercise, timing of meds, aspiration prevention strategies.
+
+When to Escalate:
+- Recurrent falls, aspiration, severe OFF periods, delirium.
+
+Documentation & Coordination:
+- Symptom diary, med timing, therapy involvement; caregiver support.
+
+Prognosis:
+Progressive; structured nursing support improves QoL.

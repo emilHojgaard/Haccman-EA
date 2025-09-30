@@ -1,0 +1,20 @@
+CPR-number: 27.03.20-5778
+Encounter Date: 2025-08-23
+Author: Dr. S. Nielsen, Emergency Medicine
+
+Subjective:
+Anne L. reports progressive fatigue, exertional dyspnea, and restless legs at night. Diet low in iron-rich foods; denies overt bleeding.
+
+Objective:
+Conjunctival pallor present; HR 84 bpm; systolic ejection murmur flow-related.
+Labs (today): Hb 7 mmol/L (low), MCV low, ferritin reduced; iron and transferrin saturation decreased.
+
+Assessment:
+Microcytic anemia consistent with iron deficiency; source evaluation warranted (dietary vs occult loss).
+
+Plan:
+- Oral iron therapy with vitamin C, counsel on side effects; investigate sources (GI as appropriate). Recheck Hb/ferritin in 6–8 weeks.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. F. Hansen, General Practice

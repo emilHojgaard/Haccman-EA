@@ -1,0 +1,31 @@
+TITLE: Chronic Kidney Disease – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Nephrology Unit
+
+Overview:
+CKD is progressive loss of kidney function. Nursing priorities: BP/diabetes support, medication safety, anemia/bone-mineral monitoring, and patient education.
+
+Nursing Assessment:
+- Fluid status (edema), BP, weight; review nephrotoxic exposures (NSAIDs).
+- Labs trend awareness: eGFR, K⁺, bicarbonate, ACR (per orders).
+
+Key Monitoring:
+- BP logs; symptoms of uremia (nausea, pruritus), hyperkalemia (weakness).
+- Medication dose adjustments with declining eGFR.
+
+Nursing Interventions:
+- Reinforce ACEi/ARB adherence (if albuminuria), SGLT2i where prescribed.
+- Dietary sodium/potassium guidance (per dietitian); fluid balance recording when needed.
+
+Patient Education:
+- Avoid NSAIDs; medication review; vaccination schedule; when to seek help.
+
+When to Escalate:
+- Rising K⁺, fluid overload/respiratory distress, confusion, rapidly rising creatinine.
+
+Documentation & Coordination:
+- Vitals, weights, education, adverse effects; coordinate with nephrology/dietitian.
+
+Prognosis:
+Progression can be slowed with strict risk-factor control and medication adherence.

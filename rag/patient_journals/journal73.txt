@@ -1,0 +1,20 @@
+CPR-number: 20.09.68-2306
+Encounter Date: 2025-06-10
+Author: Dr. E. Madsen, Neurology
+
+Subjective:
+Jonas H. notes progressive fatigue, cold intolerance, weight gain of ~5 kg, and constipation over several months. Dry skin and hair thinning observed; no neck pain.
+
+Objective:
+Bradycardia 59 bpm, delayed ankle reflex relaxation; mild periorbital puffiness possible.
+Labs (today): TSH elevated, free T4 low; lipids may be elevated.
+
+Assessment:
+Primary hypothyroidism with classic symptoms and lab pattern.
+
+Plan:
+- Start levothyroxine (dose per weight/age), review interactions, and recheck TFTs in 6–8 weeks. Counsel on adherence and consistent morning dosing.
+- Follow-up in 3 weeks as appropriate.
+
+Signed,
+Dr. P. Dam, Hematology

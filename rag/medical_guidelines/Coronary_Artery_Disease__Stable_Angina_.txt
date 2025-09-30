@@ -1,0 +1,31 @@
+Template: Fictional Medical Clinical Guideline
+Title: CAD (Stable Angina) – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Cardiology Unit
+
+1. Purpose
+Direct evaluation and medical optimization of stable angina.
+
+2. Scope
+Ambulatory and ward settings.
+
+3. Indications
+Exertional chest pressure relieved by rest/nitroglycerin.
+
+4. Diagnosis
+- Pretest probability; ECG; functional imaging or CTCA as indicated.
+- Risk stratification for revascularization.
+
+5. Treatment/Management
+- Antianginal: beta-blocker ± CCB/nitrates; consider ranolazine.
+- Secondary prevention: statin (high-intensity), antiplatelet (aspirin), ACEi/ARB for HTN/DM; lifestyle.
+
+6. Monitoring & Follow-up
+- Symptom burden, nitrate use; lipid/BP/glucose targets.
+
+7. When to Escalate
+- Crescendo/rest angina, hemodynamic instability, arrhythmia.
+
+8. Safety Notes
+- Nitrate interactions (PDE-5 inhibitors).

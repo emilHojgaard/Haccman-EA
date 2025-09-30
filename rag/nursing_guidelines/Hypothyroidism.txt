@@ -1,0 +1,30 @@
+TITLE: Hypothyroidism – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Endocrinology Unit
+
+Overview:
+Underactive thyroid causing fatigue, weight gain, cold intolerance. Nursing focus: levothyroxine adherence/timing, symptom tracking, interaction counseling.
+
+Nursing Assessment:
+- Symptoms (fatigue, constipation), weight changes, skin/hair dryness.
+- Review meds that affect absorption (iron, calcium), timing of dose.
+
+Key Monitoring:
+- Symptom improvement timeline; labs per orders (TSH) — awareness of targets.
+
+Nursing Interventions:
+- Educate: take levothyroxine on empty stomach, same time daily; separate from iron/calcium by ≥4 hours.
+- Support adherence and side-effect monitoring (over-replacement: palpitations).
+
+Patient Education:
+- When to report symptoms; pregnancy considerations (dose changes).
+
+When to Escalate:
+- Severe lethargy, confusion, hypothermia (myxedema crisis signs).
+
+Documentation & Coordination:
+- Adherence, education, lab scheduling reminders.
+
+Prognosis:
+Excellent with correct dosing; periodic monitoring needed.

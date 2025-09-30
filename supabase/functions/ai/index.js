@@ -109,7 +109,7 @@ Deno.serve(async (req) => {
         {
           role: "system",
           content:
-            "You will receive CONTEXT and a USER question. Answer truthfully based on the CONTEXT. If the CONTEXT does not contain the answer, answer based on your training data, but do not make up CPR numbers. If you don't know, say so.",
+            "You will receive CONTEXT and a USER question. Answer truthfully based on the CONTEXT. If the CONTEXT does not contain the answer, answer based on your training data. If you don't know, say so.",
         },
         { role: "system", content: `CONTEXT:\n${context}` },
         { role: "user", content: message },

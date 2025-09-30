@@ -1,0 +1,30 @@
+Template: Fictional Medical Clinical Guideline
+Title: Community-Acquired Pneumonia – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Pulmonology Unit
+
+1. Purpose
+Standardize CAP diagnosis and empiric therapy.
+
+2. Scope
+ED and inpatient wards.
+
+3. Indications
+Acute cough, fever, pleuritic pain with new infiltrate on imaging.
+
+4. Diagnosis
+- CXR; severity scores (CURB-65); bloods; sputum/blood cultures if severe.
+
+5. Treatment/Management
+- Empiric antibiotics per local resistance; oxygen, fluids; consider antiviral in influenza.
+- Early mobilization, VTE prophylaxis.
+
+6. Monitoring & Follow-up
+- Clinical response 48–72 h; step-down to oral; duration 5–7 days typical.
+
+7. When to Escalate
+- Respiratory failure, sepsis, empyema.
+
+8. Safety Notes
+- De-escalate antibiotics with cultures; avoid QT-prolongation interactions.

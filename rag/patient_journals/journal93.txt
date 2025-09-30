@@ -1,0 +1,20 @@
+CPR-number: 24.06.01-4769
+Encounter Date: 2025-01-25
+Author: Dr. J. Knudsen, ENT
+
+Subjective:
+Rasmus C. has episodic right upper quadrant pain radiating to the back, often after fatty meals, with nausea but no fever.
+
+Objective:
+RUQ tenderness; Murphy sign negative between attacks; sclerae anicteric.
+Labs (today): Ultrasound: gallstones without ductal dilation; LFTs within normal range.
+
+Assessment:
+Symptomatic cholelithiasis causing biliary colic; no cholecystitis currently.
+
+Plan:
+- Dietary fat reduction; elective surgical consultation for laparoscopic cholecystectomy if recurrent. Return if fever/jaundice.
+- Follow-up in 5 weeks as appropriate.
+
+Signed,
+Dr. G. Lauridsen, Rheumatology

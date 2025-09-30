@@ -1,0 +1,20 @@
+CPR-number: 02.04.45-9496
+Encounter Date: 2025-02-22
+Author: Dr. L. Mikkelsen, Dermatology
+
+Subjective:
+Christian M. brought by family with 6 days of markedly reduced sleep, pressured speech, impulsive spending, and grandiosity. No substance use reported. Appetite variable; denies current suicidal intent.
+
+Objective:
+Agitated but cooperative; speech rapid, tangential at times. Affect expansive; insight limited; judgment impaired in spending decisions.
+Labs (today): Toxicology screen negative; CMP and CBC within normal limits.
+
+Assessment:
+Manic episode consistent with bipolar affective disorder; safety risk present due to impulsivity.
+
+Plan:
+- Initiate mood stabilizer (e.g., lithium with renal/thyroid monitoring) or atypical antipsychotic. Consider inpatient admission for stabilization if outpatient safety cannot be ensured. Coordinate psychoeducation with family.
+- Follow-up in 6 weeks as appropriate.
+
+Signed,
+Dr. R. Frandsen, Palliative Care

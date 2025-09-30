@@ -1,0 +1,29 @@
+Template: Fictional Medical Clinical Guideline
+Title: Influenza – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Infectious Diseases Unit
+
+1. Purpose
+Guide diagnosis and antiviral use in influenza.
+
+2. Scope
+ED/ward/clinic.
+
+3. Indications
+Acute febrile respiratory illness during season or exposure.
+
+4. Diagnosis
+- NAAT/antigen as available; clinical if high prevalence.
+
+5. Treatment/Management
+- Antivirals for high-risk or severe illness; supportive care; isolation precautions.
+
+6. Monitoring & Follow-up
+- Hypoxia, bacterial superinfection signs; hydration.
+
+7. When to Escalate
+- Respiratory failure, hemodynamic instability.
+
+8. Safety Notes
+- Public health reporting and vaccination counseling.

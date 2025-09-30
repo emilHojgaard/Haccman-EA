@@ -1,0 +1,29 @@
+TITLE: Lung Cancer – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Oncology/Respiratory Unit
+
+Overview:
+NSCLC/SCLC; many present late. Nursing focus: symptom relief (cough, dyspnea, pain), treatment support (chemo/IO/targeted), smoking cessation.
+
+Nursing Assessment:
+- Cough, hemoptysis, SOB, weight loss, performance status.
+
+Key Monitoring:
+- Oxygen needs, pain control effectiveness, therapy side effects (immune-related AEs with IO).
+
+Nursing Interventions:
+- Oxygen per plan; bronchodilator/antitussives; pain/antiemetic regimens.
+- Educate on IO toxicity red flags (rash, diarrhea, hepatitis symptoms).
+
+Patient Education:
+- Smoking cessation resources; nutrition; breathlessness strategies.
+
+When to Escalate:
+- Massive hemoptysis, severe dyspnea, infection signs on chemo, IO toxicities.
+
+Documentation & Coordination:
+- Symptom scores, adverse events, oncology liaison.
+
+Prognosis:
+Depends on stage/biomarkers; supportive nursing care improves QoL.

@@ -1,0 +1,29 @@
+Template: Fictional Medical Clinical Guideline
+Title: Rheumatoid Arthritis – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Rheumatology Unit
+
+1. Purpose
+Implement treat-to-target to reduce joint damage.
+
+2. Scope
+Rheumatology/primary care shared care.
+
+3. Indications
+Symmetric small-joint synovitis >6 weeks.
+
+4. Diagnosis
+- ACR/EULAR criteria; serology (RF/anti-CCP); imaging (US/MRI) for synovitis/erosions.
+
+5. Treatment/Management
+- Early csDMARD (MTX) ± short steroid bridge; escalate to biologic/tsDMARD if target unmet.
+
+6. Monitoring & Follow-up
+- DAS28; lab monitoring (LFT, FBC); infection vigilance.
+
+7. When to Escalate
+- Persistent high activity, extra-articular disease.
+
+8. Safety Notes
+- Vaccinate prior to immunosuppression; TB/hepatitis screening.

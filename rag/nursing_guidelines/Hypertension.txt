@@ -1,0 +1,33 @@
+TITLE: Hypertension – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Cardiology Unit
+
+Overview:
+Hypertension is persistently elevated BP increasing CV/renal risk. Nursing priorities: accurate measurement, adherence support, lifestyle counseling, and recognition of hypertensive urgency/emergency.
+
+Nursing Assessment:
+- Proper BP technique (seated, rested, correct cuff, both arms initially).
+- Review meds, side effects (cough, dizziness), salt intake, sleep, alcohol, activity.
+- Check end-organ symptoms: chest pain, neuro deficits, vision changes, dyspnea.
+
+Key Monitoring:
+- BP logs (home/ambulatory if available); orthostatics if dizziness/falls.
+- Renal function/potassium if on ACEi/ARB/diuretic (per orders).
+
+Nursing Interventions:
+- Reinforce adherence, timed dosing, and refills; address barriers.
+- Counsel: salt restriction, weight loss, activity, limit alcohol; sleep hygiene.
+- Administer prescribed antihypertensives; recheck BP post-dose per protocol.
+
+Patient Education:
+- BP goals and self-monitoring; recognizing red flags; medication side effects/what to do.
+
+When to Escalate:
+- BP ≥180/120 with symptoms (neuro, chest pain, SOB) → emergency pathway.
+
+Documentation & Coordination:
+- BP trends, counseling provided, adverse effects, and communication with prescriber.
+
+Prognosis:
+Most reach targets with combined lifestyle and meds; sustained nursing support improves adherence.

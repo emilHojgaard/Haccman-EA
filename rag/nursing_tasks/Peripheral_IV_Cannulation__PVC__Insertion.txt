@@ -1,0 +1,49 @@
+TITLE: Peripheral IV Cannulation (PVC) Insertion – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Medical Ward / Infection Medicine
+
+Purpose:
+Provide standardized steps for safe insertion, securement, and initial care of a peripheral venous catheter (PVC) in adults.
+
+Scope:
+Applies to registered nurses trained and authorized in PVC insertion in ward, ED, day-case, or outpatient settings.
+
+Indications:
+- Short-term IV access for medications, fluids, or contrast
+- Temporary access while awaiting central access
+
+Contraindications:
+- Severe local infection/dermatitis at intended site
+- Lymphoedema or limb with AV fistula / prior axillary node dissection
+- Anticipated vesicants or high-osmolar infusions (>900 mOsm/L) → consider central access
+
+Equipment:
+- PVC kit (appropriate gauge), tourniquet, antiseptic (chlorhexidine/alcohol)
+- Sterile gloves, sterile transparent dressing, stabilization device
+- 0.9% saline flush, extension set / needle-free connector, sharps container, labels
+
+Procedure Steps:
+- Perform hand hygiene and don PPE; verify patient identity and allergies; explain procedure.
+- Select site (forearm preferred); avoid areas of flexion if possible.
+- Apply tourniquet; palpate a suitable vein; cleanse site with antiseptic and allow to dry.
+- Insert catheter at 15–30° until flashback; advance cannula, withdraw needle; dispose sharps safely.
+- Attach extension; aspirate/flush to confirm patency; secure with sterile dressing and stabilization device.
+- Label dressing (date/time/gauge/initials). Document site, gauge, attempts, and patient tolerance.
+
+Monitoring & Documentation:
+- Check site at least once per shift for phlebitis, infiltration, leakage, and securement.
+- Maintain closed system; change dressing if compromised; flush per protocol.
+- Remove PVC when no longer indicated or if complications develop. Document findings and actions.
+
+Patient Education:
+- Report pain, heat, swelling, leakage, or restricted movement.
+- Keep site clean/dry; avoid pulling on tubing.
+
+Escalation:
+- Signs of infiltration/extravasation, phlebitis, purulence, inability to flush → stop infusion; re-site; notify prescriber.
+- Recurrent failures or prolonged therapy anticipated → consider central access.
+
+Safety Notes:
+- Aseptic non-touch technique; allow antiseptic to dry fully.
+- Use the smallest gauge that meets therapy needs; minimize attempts.

@@ -1,0 +1,20 @@
+CPR-number: 01.01.58-5370
+Encounter Date: 2025-06-10
+Author: Dr. E. Madsen, Neurology
+
+Subjective:
+Sofia O. has 2 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
+
+Objective:
+Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
+Labs (today): No routine labs required; stool studies if prolonged or bloody.
+
+Assessment:
+Likely viral gastroenteritis, self-limited.
+
+Plan:
+- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
+- Follow-up in 4 weeks as appropriate.
+
+Signed,
+Dr. Q. Norup, Ophthalmology

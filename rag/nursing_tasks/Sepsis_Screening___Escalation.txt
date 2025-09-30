@@ -1,0 +1,35 @@
+TITLE: Sepsis Screening & Escalation – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Acute Medicine / ICU Liaison
+
+Purpose:
+Identify suspected sepsis early and trigger timely escalation and bundle care.
+
+Scope:
+All adult inpatients and ED presentations.
+
+Indications:
+- Suspected infection with physiological derangement (fever/hypothermia, tachycardia, tachypnea, hypotension, altered mentation)
+
+Contraindications:
+- None; screening tools guide rather than replace clinical judgment
+
+Equipment:
+- EWS chart, lactate sampling, blood culture kits, IV access supplies
+
+Procedure Steps:
+- Apply sepsis screening tool; obtain lactate, cultures (before antibiotics if possible); start fluids and antibiotics per protocol after urgent medical review.
+- Begin oxygen if hypoxic; monitor closely.
+
+Monitoring & Documentation:
+- Record vitals frequently; track lactate trend; document time to antibiotics/fluids.
+
+Patient Education:
+- Explain concern, rapid investigations/treatments.
+
+Escalation:
+- Persistent hypotension, rising lactate, deteriorating EWS → rapid response/ICU.
+
+Safety Notes:
+- Early antibiotics save lives; de-escalate with culture results.

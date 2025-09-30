@@ -1,0 +1,35 @@
+TITLE: Chest Physiotherapy & Airway Clearance – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Respiratory Physiotherapy / Medical Ward
+
+Purpose:
+Facilitate secretion mobilization and improve ventilation in suitable patients.
+
+Scope:
+Nurses collaborating with physiotherapy.
+
+Indications:
+- Retained secretions, atelectasis risk, neuromuscular weakness
+
+Contraindications:
+- Unstable spine, severe hemoptysis, untreated pneumothorax
+
+Equipment:
+- Incentive spirometer, PEP device, nebulizer (if prescribed), suction
+
+Procedure Steps:
+- Teach deep-breathing, coughing/huffing; use PEP/incentive devices as prescribed; encourage early mobilization.
+- Coordinate pre-medication (bronchodilator/analgesia) if needed.
+
+Monitoring & Documentation:
+- SpO₂, breath sounds, sputum volume/viscosity; record tolerance and effect.
+
+Patient Education:
+- Technique practice, hydration, adherence schedule.
+
+Escalation:
+- Worsening hypoxia, chest pain, poor response.
+
+Safety Notes:
+- Tailor to patient capacity; stop if distressing or unstable.

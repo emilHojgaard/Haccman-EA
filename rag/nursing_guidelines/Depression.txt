@@ -1,0 +1,28 @@
+TITLE: Major Depressive Disorder – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Psychiatry Unit
+
+Overview:
+Persistent low mood/anhedonia impairing function. Nursing focus: safety assessment, SSRI/SNRI adherence, sleep/activity structure, psychoeducation.
+
+Nursing Assessment:
+- PHQ-9 if used; sleep/appetite changes, thoughts of self-harm.
+
+Key Monitoring:
+- Activation/suicidality after med start, adherence, side effects.
+
+Nursing Interventions:
+- Support schedule building, gentle activity, social reconnection; monitor risk.
+
+Patient Education:
+- Time-to-effect of meds, side effects, relapse prevention.
+
+When to Escalate:
+- Active suicidal ideation/plan, psychosis, inability to care for self.
+
+Documentation & Coordination:
+- Safety plans, referrals, family involvement as appropriate.
+
+Prognosis:
+Good with treatment; maintenance reduces relapse.

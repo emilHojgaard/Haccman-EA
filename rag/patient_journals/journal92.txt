@@ -1,0 +1,20 @@
+CPR-number: 02.02.27-1546
+Encounter Date: 2025-07-13
+Author: Dr. Q. Norup, Ophthalmology
+
+Subjective:
+Carsten S. presents with 5 days of productive cough, pleuritic right-sided chest pain, and fevers with chills. Shortness of breath noted on climbing stairs; no hemoptysis. Recent viral contact at home.
+
+Objective:
+Temp 38.6°C, RR 25/min, SpO2 93% RA. Auscultation: focal crackles and bronchial breath sounds over RLL. No peripheral cyanosis; cardiovascular exam normal.
+Labs (today): CXR: right lower lobe consolidation. WBC 15×10⁹/L with left shift; CRP elevated. Renal function normal.
+
+Assessment:
+Community-acquired pneumonia, likely typical bacterial etiology. CURB-65 low risk; outpatient therapy appropriate.
+
+Plan:
+- Start oral amoxicillin or doxycycline (if penicillin allergy). Emphasize hydration, antipyretics, and return precautions for worsening dyspnea. Re-assess in 48–72 hours; follow-up chest X-ray in 6–8 weeks if persistent symptoms.
+- Follow-up in 4 weeks as appropriate.
+
+Signed,
+Dr. J. Knudsen, ENT

@@ -1,0 +1,30 @@
+Template: Fictional Medical Clinical Guideline
+Title: Multiple Sclerosis – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Neurology Unit
+
+1. Purpose
+Outline diagnosis and disease-modifying therapy selection.
+
+2. Scope
+Neurology clinics/wards.
+
+3. Indications
+Relapsing neuro deficits or progressive symptoms consistent with MS.
+
+4. Diagnosis
+- McDonald criteria: dissemination in time/space on MRI ± CSF oligoclonal bands.
+
+5. Treatment/Management
+- Relapse: high-dose steroids; DMTs tailored to activity/risk (injectables, orals, monoclonals).
+- Symptom management: spasticity, fatigue, bladder.
+
+6. Monitoring & Follow-up
+- MRI intervals; infection risk on immunotherapy; vaccination.
+
+7. When to Escalate
+- Rapidly progressive disability, severe relapse, PML suspicion.
+
+8. Safety Notes
+- Screen TB/hepatitis; JC-virus risk with some agents.

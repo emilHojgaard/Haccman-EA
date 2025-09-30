@@ -1,0 +1,30 @@
+Template: Fictional Medical Clinical Guideline
+Title: GERD – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Gastroenterology Unit
+
+1. Purpose
+Guide diagnosis and management of GERD.
+
+2. Scope
+Primary care and GI clinics.
+
+3. Indications
+Typical heartburn/regurgitation.
+
+4. Diagnosis
+- Clinical; alarm features → endoscopy; pH-impedance/manometry if refractory.
+
+5. Treatment/Management
+- Lifestyle: weight loss, head-of-bed elevation, trigger avoidance.
+- PPI trial; step-down; consider anti-reflux surgery in select cases.
+
+6. Monitoring & Follow-up
+- Assess response; rule out eosinophilic esophagitis if refractory.
+
+7. When to Escalate
+- Dysphagia, bleeding, weight loss.
+
+8. Safety Notes
+- Long-term PPI risks vs benefits; deprescribe when possible.

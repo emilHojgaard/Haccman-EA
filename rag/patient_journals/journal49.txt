@@ -1,0 +1,20 @@
+CPR-number: 23.04.19-8178
+Encounter Date: 2025-09-04
+Author: Dr. P. Jensen, Psychiatry
+
+Subjective:
+Maria Å. struck head on cabinet door with brief LOC < 1 minute; now reports headache, photophobia, and mild dizziness. No vomiting; no anticoagulant use.
+
+Objective:
+GCS 15, pupils equal/reactive, no focal neurological deficits. Gait steady. Cervical spine non-tender.
+Labs (today): CT head (if performed) negative for acute hemorrhage. No skull fracture on exam.
+
+Assessment:
+Mild TBI/concussion without red flags; symptoms likely to improve over days to weeks.
+
+Plan:
+- Provide graded return-to-activity plan, analgesia (avoid opiates), screen for worsening symptoms. Follow-up if persistent symptoms beyond 2–3 weeks or red flags emerge.
+- Follow-up in 4 weeks as appropriate.
+
+Signed,
+Dr. R. Frandsen, Palliative Care

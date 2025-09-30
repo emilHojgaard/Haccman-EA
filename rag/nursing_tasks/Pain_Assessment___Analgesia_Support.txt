@@ -1,0 +1,36 @@
+TITLE: Pain Assessment & Analgesia Support – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Acute Pain Service / General Medicine
+
+Purpose:
+Assess pain systematically and support safe analgesia plans.
+
+Scope:
+All adult inpatients.
+
+Indications:
+- Acute or chronic pain management
+
+Contraindications:
+- Allergy to analgesics; uncontrolled respiratory depression (opioid caution)
+
+Equipment:
+- Pain scales (NRS/VRS), MAR, PCA equipment if used, naloxone availability
+
+Procedure Steps:
+- Assess pain score at rest/movement; identify type and impact on function.
+- Administer prescribed analgesia; reassess and document response.
+
+Monitoring & Documentation:
+- Sedation scores with opioids; respiratory rate and SpO₂; bowel function.
+- Record efficacy and side effects; escalate inadequate control.
+
+Patient Education:
+- Purpose and timing of analgesia; avoiding overuse; constipation prevention.
+
+Escalation:
+- Severe uncontrolled pain, opioid toxicity signs, new neurological deficits.
+
+Safety Notes:
+- Use multimodal approach; lowest effective dose; bowel regimen with opioids.

@@ -1,0 +1,20 @@
+CPR-number: 12.04.31-1354
+Encounter Date: 2025-11-26
+Author: Dr. S. Nielsen, Emergency Medicine
+
+Subjective:
+Søren Å. experiences acute palpitations with exertional dyspnea and mild lightheadedness beginning earlier today. No prior history of arrhythmia; caffeine intake elevated recently.
+
+Objective:
+Irregularly irregular rhythm; HR 127 bpm; BP variable. Lungs clear; no heart failure signs.
+Labs (today): ECG: atrial fibrillation; TSH and electrolytes to evaluate contributors. CHADS-VASc assessed.
+
+Assessment:
+New-onset atrial fibrillation—hemodynamically stable; requires rate control and thromboembolic risk assessment.
+
+Plan:
+- Begin rate control (beta-blocker as appropriate), evaluate need for anticoagulation, cardiology follow-up for rhythm strategy.
+- Follow-up in 5 weeks as appropriate.
+
+Signed,
+Dr. R. Frandsen, Palliative Care

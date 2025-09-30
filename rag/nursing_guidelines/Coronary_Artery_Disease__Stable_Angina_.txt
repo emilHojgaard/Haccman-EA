@@ -1,0 +1,33 @@
+TITLE: Coronary Artery Disease (Stable Angina) – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Cardiology Unit
+
+Overview:
+CAD involves atherosclerotic narrowing of coronary arteries causing exertional chest pressure relieved by rest or nitroglycerin. Nursing priorities: symptom assessment, antianginal adherence, risk-modification coaching, escalation for unstable features.
+
+Nursing Assessment:
+- Characterize pain (location, quality, triggers, relief), exertional threshold.
+- Review meds (beta-blocker, nitrates, CCB, antiplatelet, statin) and adherence.
+- Vitals; risk factors (DM, HTN, lipids, smoking).
+
+Key Monitoring:
+- Frequency of angina episodes, nitrate use, and response.
+- BP/HR trends, lipid/glucose targets per plan.
+
+Nursing Interventions:
+- Ensure availability/education on sublingual nitroglycerin (usage, max doses, when to call).
+- Administer meds per MAR; reinforce daily statin/antiplatelet adherence.
+- Activity pacing; cardiac rehab referral if indicated.
+
+Patient Education:
+- Chest pain action plan; risk-factor modification (smoking cessation, diet, exercise).
+
+When to Escalate:
+- Rest pain, increasing frequency/severity, prolonged pain >10 min, associated dyspnea/syncope → urgent eval.
+
+Documentation & Coordination:
+- Pain characteristics, medication use/responses, counseling provided; coordinate with cardiology.
+
+Prognosis:
+Good when risk factors controlled and therapy adhered to; recognize transition to unstable angina early.

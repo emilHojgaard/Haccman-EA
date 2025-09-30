@@ -1,0 +1,43 @@
+TITLE: Enteral Feeding via Nasogastric (NG) Tube – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Nutrition Support / Medical Ward
+
+Purpose:
+Provide safe placement verification and delivery of short-term enteral nutrition and medications via NG tube.
+
+Scope:
+Nurses trained in NG tube management in ward and community settings.
+
+Indications:
+- Inadequate or unsafe oral intake
+- Medication administration when oral route not feasible
+
+Contraindications:
+- Suspected basal skull fracture, severe facial trauma
+- High aspiration risk without appropriate precautions and orders
+
+Equipment:
+- Fine-bore NG tube, lubricant, tape/fixation device
+- pH indicator strips, feeding pump/sets, prescribed feed, PPE
+
+Procedure Steps:
+- Hand hygiene; explain; seat patient upright ≥30–45°.
+- Measure NEX; lubricate and insert via nostril to mark.
+- Verify placement per policy (aspirate pH ≤5.5; radiograph if required). Never use auscultation alone.
+- Secure tube; commence feed at prescribed rate; flush before/after medications.
+
+Monitoring & Documentation:
+- Confirm position before each use; check patency; monitor tolerance (pain, nausea, residuals per policy).
+- Record intake, weight, hydration, bowel pattern; document any complications.
+
+Patient Education:
+- Purpose of tube, posture during/after feeding, signs of distress to report.
+- Community care: cleaning, flushing, and troubleshooting.
+
+Escalation:
+- Respiratory distress, suspected displacement, repeated high residuals, vomiting/aspiration.
+
+Safety Notes:
+- Maintain head elevation during and after feeding as per policy.
+- Use liquid formulations when possible; flush routinely to prevent blockage.

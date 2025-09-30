@@ -1,0 +1,31 @@
+TITLE: Stroke – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Neurology Unit
+
+Overview:
+Stroke is acute focal neurological deficit from ischemia or hemorrhage. Nursing priorities: time-critical recognition, airway/breathing/circulation support, swallow screening, early mobilization, secondary prevention.
+
+Nursing Assessment:
+- FAST symptoms onset time; neuro checks (NIHSS if trained), vitals, glucose.
+- Screen swallow before oral intake; aspiration risk.
+
+Key Monitoring:
+- Neuro status q1–4h per protocol; BP (often permissive in ischemic stroke initially), SpO₂, temperature, glucose.
+
+Nursing Interventions:
+- Positioning, aspiration precautions; maintain normoglycemia/normothermia.
+- DVT prophylaxis, pressure area care; early rehab involvement.
+- Education: risk factors, adherence to antiplatelet/anticoag per plan, statins.
+
+Patient Education:
+- FAST recognition, medication adherence, lifestyle modification.
+
+When to Escalate:
+- Acute neuro deterioration, airway compromise, fever, uncontrolled BP, seizure.
+
+Documentation & Coordination:
+- Onset times, neuro observations, swallow screen, therapy involvement, family updates.
+
+Prognosis:
+Depends on type/size and time to treatment; rehab and prevention are crucial.

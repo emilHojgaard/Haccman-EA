@@ -1,0 +1,20 @@
+CPR-number: 22.11.87-1924
+Encounter Date: 2025-02-12
+Author: Dr. S. Aaen, Allergy & Immunology
+
+Subjective:
+Julie B. reports abrupt reduction in heavy daily alcohol intake 3 days ago, now with tremor, anxiety, insomnia, and autonomic hyperarousal. No history of seizures or delirium tremens.
+
+Objective:
+Tremulous hands, tachycardia 105 bpm, diaphoretic; oriented but anxious. CIWA-Ar scoring suggested.
+Labs (today): Electrolytes may show hyponatremia or hypomagnesemia; LFTs variably elevated.
+
+Assessment:
+Alcohol withdrawal syndrome—mild to moderate, risk of progression if unmanaged.
+
+Plan:
+- Symptom-triggered benzodiazepine protocol where indicated; correct electrolytes; thiamine supplementation before glucose. Arrange addiction services follow-up and psychosocial support.
+- Follow-up in 5 weeks as appropriate.
+
+Signed,
+Dr. O. Lyng, Endocrinology

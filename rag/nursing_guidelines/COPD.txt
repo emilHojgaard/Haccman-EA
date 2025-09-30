@@ -1,0 +1,30 @@
+TITLE: Chronic Obstructive Pulmonary Disease (COPD) – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: Pulmonology Unit
+
+Overview:
+COPD causes persistent airflow limitation. Nursing focus: inhaled therapy adherence, exacerbation management, oxygen safety, smoking cessation support, pulmonary rehab linkage.
+
+Nursing Assessment:
+- Cough/sputum, dyspnea scale, exacerbation frequency.
+- SpO₂ at rest/exertion; inhaler technique; smoking status.
+
+Key Monitoring:
+- SpO₂ targets 88–92% if CO₂ retainers (per plan); signs of infection/exacerbation.
+
+Nursing Interventions:
+- Administer bronchodilators ± ICS per plan; controlled oxygen.
+- Breathing techniques (pursed-lip), energy conservation; sputum clearance coaching.
+
+Patient Education:
+- Inhaler technique, vaccination, smoking cessation programs, pulmonary rehab.
+
+When to Escalate:
+- Worsening hypoxia, confusion, severe breathlessness, poor response to therapy.
+
+Documentation & Coordination:
+- Observations, meds given, education; liaise with respiratory team.
+
+Prognosis:
+Progressive but manageable; cessation and rehab improve QoL.

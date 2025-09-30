@@ -1,0 +1,20 @@
+CPR-number: 26.01.14-3619
+Encounter Date: 2025-09-05
+Author: Dr. K. Vester, Vascular Surgery
+
+Subjective:
+Birgit J. reports exertional dyspnea, orthopnea requiring 2 pillows, and mild ankle swelling over 4 weeks.
+
+Objective:
+BP 142/90 mmHg; bibasilar crackles faint; S4 present; mild edema at ankles.
+Labs (today): NT-proBNP elevated; echocardiogram shows preserved EF with diastolic dysfunction; renal function acceptable.
+
+Assessment:
+HFpEF likely on a background of hypertension and metabolic syndrome.
+
+Plan:
+- Diuretics for symptom relief; optimize BP and glycemic control; sodium restriction; cardiology follow-up with exercise plan.
+- Follow-up in 5 weeks as appropriate.
+
+Signed,
+Dr. S. Nielsen, Emergency Medicine

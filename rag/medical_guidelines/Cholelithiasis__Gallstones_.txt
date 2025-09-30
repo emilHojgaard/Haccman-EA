@@ -1,0 +1,29 @@
+Template: Fictional Medical Clinical Guideline
+Title: Cholelithiasis – Medical Clinical Guideline
+Version: 1.0
+Date: 2025-01-15
+Responsible Department: General Surgery Unit
+
+1. Purpose
+Guide evaluation of biliary colic and complications.
+
+2. Scope
+Surgery/ED/medical.
+
+3. Indications
+Biliary colic, cholecystitis, choledocholithiasis.
+
+4. Diagnosis
+- RUQ ultrasound; LFTs; MRCP/ERCP for ductal stones.
+
+5. Treatment/Management
+- Colic: analgesia, elective cholecystectomy; cholecystitis: antibiotics + early surgery; CBD stones: ERCP.
+
+6. Monitoring & Follow-up
+- Pain control; post-op care; recurrence counseling.
+
+7. When to Escalate
+- Cholangitis, pancreatitis.
+
+8. Safety Notes
+- Antibiotic stewardship; ERCP complications awareness.

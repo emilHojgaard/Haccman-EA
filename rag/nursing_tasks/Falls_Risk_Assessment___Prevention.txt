@@ -1,0 +1,35 @@
+TITLE: Falls Risk Assessment & Prevention – Nursing Clinical Guideline
+Version: 1.0
+Date: 2025-09-30
+Responsible Department: Nursing Quality & Safety
+
+Purpose:
+Reduce inpatient falls through systematic screening and prevention strategies.
+
+Scope:
+All adult wards.
+
+Indications:
+- Age >65, cognitive impairment, mobility/balance issues, psychoactive meds, prior falls
+
+Contraindications:
+- None
+
+Equipment:
+- Risk assessment tool, non-slip socks, mobility aids, bed/chair alarms if indicated
+
+Procedure Steps:
+- Complete risk assessment on admission and daily; tailor interventions (call bell access, clutter-free environment, toileting schedule).
+- Ensure appropriate footwear and mobility aids; consider physio referral.
+
+Monitoring & Documentation:
+- Document risk status and interventions; monitor adherence and incidents.
+
+Patient Education:
+- How to call for help; safe mobilization techniques; medication side effects.
+
+Escalation:
+- Injury after fall, recurrent near-falls, acute delirium.
+
+Safety Notes:
+- Bed at lowest height; night lighting; review sedatives.
