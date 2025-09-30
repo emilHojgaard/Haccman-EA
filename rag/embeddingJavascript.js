@@ -9,8 +9,11 @@ const {
   OPENAI_KEY,
   SUPABASE_URL,
   SUPABASE_SERVICE_ROLE_KEY,
-  JOURNALS_DIR = "output_journals",
+  JOURNALS_DIR = "patient_journals",
   DISEASES_DIR = "disease_docs",
+  NURSING_TASKS_DIR = "nursing_tasks",
+  NURSING_GUIDELINES_DIR = "nursing_guidelines",
+  MEDICAL_GUIDELINES_DIR = "medical_guidelines",
   OPENAI_EMBED_MODEL = "text-embedding-3-small",
 } = process.env;
 
@@ -44,7 +47,9 @@ async function listTxtFiles(dir) {
 }
 
 function titleFromPath(p) {
-  return path.basename(p).replace(/\.[^.]+$/, ""); // strip extension
+  const dir = path.basename(path.dirname(p));         // e.g. "nursing_tasks"
+  const file = path.basename(p, path.extname(p));      // e.g. "IV_Infusion_Setup"
+  return `${dir}_${file}`;                             // -> "nursing_tasks_IV_Infusion_Setup"
 }
 
 // Split into sections (e.g., "Subjective:", "Objective:", "Overview:", etc.)
@@ -108,8 +113,11 @@ async function run() {
   // 1) Collect files from both folders
   const journalFiles = await listTxtFiles(JOURNALS_DIR);
   const diseaseFiles = await listTxtFiles(DISEASES_DIR);
+  const nursingTaskFiles = await listTxtFiles(NURSING_TASKS_DIR);
+  const nursingGuidelineFiles = await listTxtFiles(NURSING_GUIDELINES_DIR);
+  const medicalGuidelineFiles = await listTxtFiles(MEDICAL_GUIDELINES_DIR);
 
-  if (journalFiles.length === 0 && diseaseFiles.length === 0) {
+  if (journalFiles.length === 0 && diseaseFiles.length === 0 && nursingTaskFiles.length === 0 && nursingGuidelineFiles.length === 0 && medicalGuidelineFiles.length === 0) {
     console.warn("No .txt files found in the given directories.");
     return;
   }
@@ -118,10 +126,13 @@ async function run() {
   const work = [
     ...journalFiles.map((p) => ({ path: p, confidential: true })),
     ...diseaseFiles.map((p) => ({ path: p, confidential: false })),
+    ...nursingTaskFiles.map((p) => ({ path: p, confidential: false })),
+    ...nursingGuidelineFiles.map((p) => ({ path: p, confidential: false })),
+    ...medicalGuidelineFiles.map((p) => ({ path: p, confidential: false })),
   ];
 
   console.log(
-    `Found ${journalFiles.length} journal files (+confidential) and ${diseaseFiles.length} disease files.`
+    `Found ${journalFiles.length} journal files, ${diseaseFiles.length} disease files, ${nursingTaskFiles.length} nursing task files, ${nursingGuidelineFiles.length} nursing guideline files, ${medicalGuidelineFiles.length} medical guideline files.`
   );
 
   // 2) Process each file
