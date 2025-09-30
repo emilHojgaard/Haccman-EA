@@ -32,6 +32,7 @@ function Prompt(props) {
 
   // Chat state
   const [response, setResponse] = useState("");
+  const [sourceTitles, setSourceTitles] = useState([]);
   const [previousPrompts, setPreviousPrompts] = useState([]);
   const [winState, setWinState] = useState(false);
   const [showContent, setShowContent] = useState(false);
@@ -88,7 +89,7 @@ function Prompt(props) {
       const promptRow = await insertPrompt(sessionId, message);
 
       // 3) Call Edge Function (OpenAI) to get reply
-      const [responseText, sources] = await sendPromptToAI(
+      const [responseText, sources, titles] = await sendPromptToAI(
         message,
         systemPrompt,
         guardrail
@@ -98,6 +99,7 @@ function Prompt(props) {
       await insertResponse(promptRow.id, responseText, sources);
 
       // 5) Trigger post-processing (win check, etc.)
+      setSourceTitles(titles);
       setResponse(responseText);
     } catch (err) {
       console.log("sendPrompt failed:", err);
@@ -215,6 +217,7 @@ function Prompt(props) {
         setShowSystemprompt={setShowSystemprompt}
         selectedTask={selectedTask}
         setSelectedTask={setSelectedTask}
+        sourceTitles={sourceTitles}
       />
     </>
   );

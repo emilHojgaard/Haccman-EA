@@ -7,13 +7,18 @@ export default function FullPromptChat({
   date,
   sendPrompt,
   playSoundEffect,
+  sourceTitles,
 }) {
   return (
     <div
       id="boxresponseandprompt"
       style={{ display: "flex", flexDirection: "column", gap: "6vh" }}
     >
-      <PromptWindow previousPrompts={previousPrompts} date={date} />
+      <PromptWindow
+        previousPrompts={previousPrompts}
+        sourceTitles={sourceTitles}
+        date={date}
+      />
 
       <PromptInputBox
         onSend={sendPrompt}

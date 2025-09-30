@@ -29,7 +29,19 @@ export async function sendPromptToAI(message, systemPrompt, guardrail) {
 
   const { aiMessage, sources } = await resp.json();
   console.log("context sources:", { sources });
-  return [aiMessage, sources];
+
+  // Getting the titles of the sources
+  const docIds = [...new Set(sources.map((m) => m.doc_id))];
+  console.log("docIds are:", docIds);
+  const { data: docs, error: docErr } = await supabase
+    .schema("RAG")
+    .from("documents")
+    .select("id, title")
+    .in("id", docIds);
+
+  const titles = docs;
+
+  return [aiMessage, sources, titles];
 }
 
 export async function startConversation(botId) {

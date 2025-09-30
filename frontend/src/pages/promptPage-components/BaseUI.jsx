@@ -17,6 +17,7 @@ export default function BaseUI({
   guardrail,
   setShowSystemprompt,
   selectedTask,
+  sourceTitles,
 }) {
   return (
     <div style={{ zIndex: 1 }}>
@@ -48,6 +49,7 @@ export default function BaseUI({
               date={date}
               sendPrompt={sendPrompt}
               playSoundEffect={playSoundEffect}
+              sourceTitles={sourceTitles}
               // selectedBot={selectedBot} (LOOK again if it is needed ! )
               //maybe selectedtask here ? if the systemprompt becomses changable
             />

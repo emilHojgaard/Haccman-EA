@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export default function PromptWindow({ previousPrompts, date }) {
+export default function PromptWindow({ previousPrompts, sourceTitles, date }) {
   const scrollRef = useRef(null);
 
   useEffect(() => {
@@ -62,6 +62,11 @@ export default function PromptWindow({ previousPrompts, date }) {
                 ":" +
                 date.getSeconds()}
               <div className="vaporwave-miami-box-ai">{el.message}</div>
+              <div className="source-title">
+                {sourceTitles.map((source, i) => (
+                  <div key={i}>{source.title}</div>
+                ))}
+              </div>
             </div>
           )
         )}
