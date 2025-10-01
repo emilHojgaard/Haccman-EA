@@ -52,13 +52,21 @@ function titleFromPath(p) {
   return `${dir}_${file}`;                             // -> "nursing_tasks_IV_Infusion_Setup"
 }
 
-// Split into sections (e.g., "Subjective:", "Objective:", "Overview:", etc.)
-function chunkBySection(text) {
-  // Split at a newline followed by a capitalized word and colon
-  const parts = text.split(/\n(?=[A-Z][A-Za-z\s/()'-]*:)/g);
-
-  return parts.map((s) => s.trim()).filter(Boolean);
+//--- chunking by section with overlab ---
+function chunkByLength(text, max = 4000, overlap = 400) {
+  const out = [];
+  for (let i = 0; i < text.length; i += (max - overlap)) {
+    out.push(text.slice(i, Math.min(i + max, text.length)));
+  }
+  return out;
 }
+
+function chunkSmart(text) {
+  const sections = text.split(/\n(?=[A-Z][A-Za-z\s/()'-]*:)/g).map(s => s.trim()).filter(Boolean);
+  const joined = sections.join("\n\n");           // simple: merge back to larger blocks
+  return chunkByLength(joined, 4000, 400);        // ~4000 chars ≈ ~700 tokens (rough)
+}
+
 
 // Batch embedder
 async function embedBatch(texts) {
@@ -86,28 +94,31 @@ async function upsertDocument({ title, fullText, confidential }) {
   return data.id;
 }
 
-async function insertChunks(docId, chunks) {
+async function insertChunks(docId, chunks, title, docType) {
+  const PREFIX = `TITLE: ${title}\nTYPE: ${docType}\n---\n`;
   const BATCH = 64;
+
   for (let start = 0; start < chunks.length; start += BATCH) {
-    const batch = chunks.slice(start, start + BATCH);
+    const raw = chunks.slice(start, start + BATCH);
+
+    // Add context to each chunk
+    const batch = raw.map(c => `${PREFIX}${c}`);
+
     const vecs = await embedBatch(batch);
 
     const rows = batch.map((text_chunk, idx) => ({
       doc_id: docId,
-      text_chunk,
+      text_chunk,            // store the prefixed content too (so the LLM sees it)
       embedding: vecs[idx],
       chunk_index: start + idx,
     }));
 
     const { error } = await supabase.from("chunks").insert(rows);
-    if (error) {
-      throw new Error(
-        `Insert chunks failed at batch starting ${start}: ${error.message || error}`
-      );
-    }
+    if (error) throw new Error(`Insert chunks failed at ${start}: ${error.message || error}`);
     console.log(`  Inserted ${rows.length} chunks (through ${start + rows.length})`);
   }
 }
+
 
 async function run() {
   // 1) Collect files from both folders
@@ -146,11 +157,20 @@ async function run() {
       console.log(`Created document ${docId} for "${title}" (confidential=${confidential})`);
 
       // Chunk
-      const chunks = chunkBySection(fullText);
+      const chunks = chunkSmart(fullText);
       console.log(`  Chunked "${title}" into ${chunks.length} chunks`);
 
+
+      //  To determine document type for better similarity search
+      const docType =
+        filePath.includes(JOURNALS_DIR) ? "patient_journal" :
+          filePath.includes(DISEASES_DIR) ? "disease_doc" :
+            filePath.includes(NURSING_TASKS_DIR) ? "nursing_task" :
+              filePath.includes(NURSING_GUIDELINES_DIR) ? "nursing_guideline" :
+                filePath.includes(MEDICAL_GUIDELINES_DIR) ? "medical_guideline" :
+                  "other";
       // Embed + insert chunks
-      await insertChunks(docId, chunks);
+      await insertChunks(docId, chunks, title, docType);
     } catch (err) {
       console.error(`Error processing file "${filePath}":`, err);
     }
