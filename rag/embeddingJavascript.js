@@ -52,19 +52,9 @@ function titleFromPath(p) {
   return `${dir}_${file}`;                             // -> "nursing_tasks_IV_Infusion_Setup"
 }
 
-//--- chunking by section with overlab ---
-function chunkByLength(text, max = 4000, overlap = 400) {
-  const out = [];
-  for (let i = 0; i < text.length; i += (max - overlap)) {
-    out.push(text.slice(i, Math.min(i + max, text.length)));
-  }
-  return out;
-}
-
 function chunkSmart(text) {
   const sections = text.split(/\n(?=[A-Z][A-Za-z\s/()'-]*:)/g).map(s => s.trim()).filter(Boolean);
-  const joined = sections.join("\n\n");           // simple: merge back to larger blocks
-  return chunkByLength(joined, 4000, 400);        // ~4000 chars ≈ ~700 tokens (rough)
+  return sections
 }
 
 

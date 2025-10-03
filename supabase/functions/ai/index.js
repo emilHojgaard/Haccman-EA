@@ -84,8 +84,8 @@ Deno.serve(async (req) => {
       "match_chunks",
       {
         query_embedding: queryEmbedding,
-        match_count: 6,
-        min_similarity: 0.75,
+        match_count: 12,
+        min_similarity: 0.1,
       }
     );
     console.log("Retrieved", matches, "matching chunks");
@@ -93,6 +93,7 @@ Deno.serve(async (req) => {
 
     // 3) Build context string
     const context = buildContext(matches ?? []);
+    console.log("Context built:", context);
 
     //Now we're giving the guardrail with the systemprompt, so the user can turn it on/off
     // 4) Ask the model with context + your system prompt
@@ -146,6 +147,7 @@ Deno.serve(async (req) => {
         sources: (matches ?? []).map((m, i) => ({
           id: m.id,
           doc_id: m.doc_id,
+          doc_title: m.doc_title,
           similarity: m.similarity,
           rank: i + 1,
         })),
