@@ -65,7 +65,7 @@ async function embedBatch(texts) {
     model: OPENAI_EMBED_MODEL,
     input: texts,
   });
-  return res.data.map((d) => d.embedding);
+  return res.data.map((d) => d.semantic_vector);
 }
 
 async function upsertDocument({ title, fullText, confidential }) {
@@ -99,7 +99,7 @@ async function insertChunks(docId, chunks, title, docType) {
     const rows = batch.map((text_chunk, idx) => ({
       doc_id: docId,
       text_chunk,            // store the prefixed content too (so the LLM sees it)
-      embedding: vecs[idx],
+      semantic_vector: vecs[idx],
       chunk_index: start + idx,
     }));
 
