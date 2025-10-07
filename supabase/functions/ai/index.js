@@ -34,13 +34,16 @@ async function embedWithOpenAI(text) {
 }
 
 function buildContext(chunks) {
-  return chunks
-    .map(
-      (c, i) =>
-        `[${i + 1}] (sim=${c.similarity?.toFixed(3)}) ${c.content}` // keep it compact
+  return (chunks ?? [])
+    .map((c, i) =>
+      `[${i + 1}] (rrf=${c.rrf_score?.toFixed(3) ?? '0'}; ` +
+      `emb=${c.embedding_score?.toFixed(3) ?? '0'}; ` +
+      `fts=${c.keyword_score?.toFixed(3) ?? '0'}) ` +
+      `TITLE: ${c.doc_title}\n${c.text_chunk}`
     )
     .join("\n\n");
 }
+
 
 function redactCPR(s) {
   // optional safety net: mask DK CPR formats
@@ -81,15 +84,21 @@ Deno.serve(async (req) => {
     //Strict “only on-topic” filtering → threshold ≈ 0.85–0.9
     //(e.g. you want only journals/disease docs, and ignore anything fuzzy)
     const { data: matches, error: rpcErr } = await supabase.rpc(
-      "match_chunks",
+      "hybrid_search_chunks_rrf",
       {
+        query_text: message,
         query_embedding: queryEmbedding,
         match_count: 12,
-        min_similarity: 0.1,
+        // Default values for the last parameters:
+        // full_text_weight: 1, semantic_weight: 1, rrf_k: 60, vec_limit: 200, fts_limit: 80
       }
     );
+    if (rpcErr) {
+      console.error("RPC error:", rpcErr);
+      throw new Error(`hybrid_search_chunks_rrf failed: ${rpcErr.message ?? JSON.stringify(rpcErr)}`);
+    }
     console.log("Retrieved", matches, "matching chunks");
-    if (rpcErr) throw rpcErr;
+
 
     // 3) Build context string
     const context = buildContext(matches ?? []);
@@ -145,10 +154,12 @@ Deno.serve(async (req) => {
       JSON.stringify({
         aiMessage,
         sources: (matches ?? []).map((m, i) => ({
-          id: m.id,
+          id: m.chunk_id,
           doc_id: m.doc_id,
           doc_title: m.doc_title,
-          similarity: m.similarity,
+          embedding_score: m.embedding_score,
+          keyword_score: m.keyword_score,
+          rrf_score: m.rrf_score,
           rank: i + 1,
         })),
       }),

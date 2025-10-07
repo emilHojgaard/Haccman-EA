@@ -65,7 +65,7 @@ async function embedBatch(texts) {
     model: OPENAI_EMBED_MODEL,
     input: texts,
   });
-  return res.data.map((d) => d.semantic_vector);
+  return res.data.map((d) => d.embedding);
 }
 
 async function upsertDocument({ title, fullText, confidential }) {
