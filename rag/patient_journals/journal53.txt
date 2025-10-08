@@ -1,20 +1,34 @@
-CPR-number: 10.06.09-3601
-Encounter Date: 2025-12-07
-Author: Dr. G. Lauridsen, Rheumatology
+Document Information:
+CPR-number - 27.04.90-4010
+Encounter Date - 2023-07-11
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Morten Å.
 
-Subjective:
-Lars J. struck head on cabinet door with brief LOC < 1 minute; now reports headache, photophobia, and mild dizziness. No vomiting; no anticoagulant use.
+Chief Complaint:
+Morten Å. presents with lower back pain after lifting at work.
 
-Objective:
-GCS 15, pupils equal/reactive, no focal neurological deficits. Gait steady. Cervical spine non-tender.
-Labs (today): CT head (if performed) negative for acute hemorrhage. No skull fracture on exam.
+History of Present Illness:
+Pain began 3 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+
+Physical Examination:
+Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+
+Diagnostics (Today):
+No red flags; imaging not indicated at this time. Baseline analgesia plan established.
 
 Assessment:
-Mild TBI/concussion without red flags; symptoms likely to improve over days to weeks.
+Acute mechanical low back pain without radicular features.
 
 Plan:
-- Provide graded return-to-activity plan, analgesia (avoid opiates), screen for worsening symptoms. Follow-up if persistent symptoms beyond 2–3 weeks or red flags emerge.
-- Follow-up in 5 weeks as appropriate.
+- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
+- Provide core-strength and flexibility exercises; avoid bed rest.
+- Reassess if neurological deficits develop or pain persists.
 
-Signed,
-Dr. A. Kristoffersen, Infectious Diseases
+Patient Education & Safety Net:
+Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+
+Follow-up & Disposition:
+Follow-up in 4 weeks or sooner if red flags arise.
+
+Sign-off:
+Dr. V. Laursen, Nephrology

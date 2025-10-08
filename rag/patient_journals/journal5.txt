@@ -1,20 +1,33 @@
-CPR-number: 19.03.74-9089
-Encounter Date: 2025-03-17
-Author: Dr. L. Mikkelsen, Dermatology
+Document Information:
+CPR-number - 26.12.69-8247
+Encounter Date - 2025-03-23
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Julie L.
 
-Subjective:
-Lars M. reports unilateral calf swelling and aching after recent long-haul travel; no trauma.
+Chief Complaint:
+Julie L. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-Calf circumference asymmetry 2 cm; warmth and tenderness present; Homan sign not reliable.
-Labs (today): D-dimer if low pretest probability; venous duplex ultrasound pending.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-Suspected DVT; risk factors present.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- Begin anticoagulation if high suspicion and no contraindications; confirm with imaging; counsel on VTE precautions.
-- Follow-up in 4 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. A. Kristoffersen, Infectious Diseases
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 5 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. A. Thomsen, Emergency Medicine

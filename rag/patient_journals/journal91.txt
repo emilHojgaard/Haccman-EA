@@ -1,20 +1,33 @@
-CPR-number: 11.02.67-7234
-Encounter Date: 2025-04-12
-Author: Dr. T. Enevoldsen, Pain Medicine
+Document Information:
+CPR-number - 07.05.01-9124
+Encounter Date - 2023-07-26
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Søren V.
 
-Subjective:
-Jonas K. notes burning pain followed by grouped vesicular rash in a unilateral dermatomal distribution over 3 days.
+Chief Complaint:
+Søren V. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-Clusters of vesicles on erythematous base not crossing midline; tenderness to light touch.
-Labs (today): Clinical diagnosis; PCR if atypical.
+History of Present Illness:
+Symptoms began 3 days ago after sexual activity; no flank pain or fever. Prior UTI 16 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-Acute herpes zoster.
+Uncomplicated lower UTI.
 
 Plan:
-- Start antiviral within 72 hours if possible; analgesia; advise on contagion precautions until crusting.
-- Follow-up in 6 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. M. Sønder, Urology
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 3 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. K. Østergaard, General Surgery

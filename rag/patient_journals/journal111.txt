@@ -1,20 +1,33 @@
-CPR-number: 22.01.13-1616
-Encounter Date: 2025-10-12
-Author: Dr. K. Petersen, Endocrinology
+Document Information:
+CPR-number - 16.04.31-9323
+Encounter Date - 2024-05-15
+Author - Dr. R. Iversen, Neurology
+Patient Name - Carsten C.
 
-Subjective:
-Julie W. with chronic cough and exertional dyspnea presents with 2 days of increased sputum volume and purulence, worsening breathlessness, and wheeze. Reports running out of controller inhaler last week.
+Chief Complaint:
+Carsten C. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-RR 21/min, SpO2 90% RA, diffuse wheeze with prolonged expiration; accessory muscle use mild. No focal consolidation.
-Labs (today): ABG if indicated: mild hypoxemia; CRP elevated. CXR without new lobar consolidation.
+History of Present Illness:
+Symptoms began 1 days ago after sexual activity; no flank pain or fever. Prior UTI 13 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-COPD exacerbation, likely infectious or nonadherence-related.
+Uncomplicated lower UTI.
 
 Plan:
-- Nebulized bronchodilators, short oral steroid course; antibiotics if purulent sputum and bacterial suspicion. Ensure inhaler supply and technique; smoking cessation reinforcement; follow-up in respiratory clinic.
-- Follow-up in 2 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. T. Enevoldsen, Pain Medicine
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 2 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. R. Iversen, Neurology

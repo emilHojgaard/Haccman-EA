@@ -1,20 +1,33 @@
-CPR-number: 24.06.01-4769
-Encounter Date: 2025-01-25
-Author: Dr. J. Knudsen, ENT
+Document Information:
+CPR-number - 07.03.38-8806
+Encounter Date - 2024-11-28
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Magnus B.
 
-Subjective:
-Rasmus C. has episodic right upper quadrant pain radiating to the back, often after fatty meals, with nausea but no fever.
+Chief Complaint:
+Magnus B. reports unilateral calf swelling after recent long-haul travel.
 
-Objective:
-RUQ tenderness; Murphy sign negative between attacks; sclerae anicteric.
-Labs (today): Ultrasound: gallstones without ductal dilation; LFTs within normal range.
+History of Present Illness:
+Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+
+Physical Examination:
+Calf circumference asymmetry 4 cm; warmth and tenderness present; no skin discoloration proximally.
+
+Diagnostics (Today):
+D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
 
 Assessment:
-Symptomatic cholelithiasis causing biliary colic; no cholecystitis currently.
+Suspected DVT with travel risk factor.
 
 Plan:
-- Dietary fat reduction; elective surgical consultation for laparoscopic cholecystectomy if recurrent. Return if fever/jaundice.
-- Follow-up in 5 weeks as appropriate.
+- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
+- Leg elevation and ambulation with caution; counsel on bleeding precautions.
 
-Signed,
-Dr. G. Lauridsen, Rheumatology
+Patient Education & Safety Net:
+Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+
+Follow-up & Disposition:
+Imaging today; treatment plan finalized same day or at next business day review.
+
+Sign-off:
+Dr. A. Thomsen, Emergency Medicine

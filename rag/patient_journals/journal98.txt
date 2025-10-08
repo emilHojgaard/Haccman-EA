@@ -1,20 +1,33 @@
-CPR-number: 26.01.14-3619
-Encounter Date: 2025-09-05
-Author: Dr. K. Vester, Vascular Surgery
+Document Information:
+CPR-number - 28.04.93-2193
+Encounter Date - 2024-11-28
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Frederik R.
 
-Subjective:
-Birgit J. reports exertional dyspnea, orthopnea requiring 2 pillows, and mild ankle swelling over 4 weeks.
+Chief Complaint:
+Frederik R. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-BP 142/90 mmHg; bibasilar crackles faint; S4 present; mild edema at ankles.
-Labs (today): NT-proBNP elevated; echocardiogram shows preserved EF with diastolic dysfunction; renal function acceptable.
+History of Present Illness:
+Symptoms began 3 days ago after sexual activity; no flank pain or fever. Prior UTI 15 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-HFpEF likely on a background of hypertension and metabolic syndrome.
+Uncomplicated lower UTI.
 
 Plan:
-- Diuretics for symptom relief; optimize BP and glycemic control; sodium restriction; cardiology follow-up with exercise plan.
-- Follow-up in 5 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. S. Nielsen, Emergency Medicine
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 2 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. P. Jensen, Psychiatry

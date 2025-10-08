@@ -1,20 +1,34 @@
-CPR-number: 12.06.46-1573
-Encounter Date: 2025-09-13
-Author: Dr. O. Lyng, Endocrinology
+Document Information:
+CPR-number - 02.04.44-0969
+Encounter Date - 2025-07-06
+Author - Dr. R. Iversen, Neurology
+Patient Name - Birgit N.
 
-Subjective:
-Anders D. reports 4 weeks of persistent low mood, anhedonia, early morning awakening, and cognitive slowing. Appetite decreased with 2 kg unintentional weight loss. Denies active suicidal intent but expresses hopelessness and diminished concentration at work.
+Chief Complaint:
+Birgit N. presents with lower back pain after lifting at work.
 
-Objective:
-Affect constricted, psychomotor retardation mild. Thought process linear, no delusions or hallucinations. Insight fair; judgment intact.
-Labs (today): CBC, CMP, and TSH within reference ranges. No substance use reported; AUDIT-C negative.
+History of Present Illness:
+Pain began 1 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+
+Physical Examination:
+Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+
+Diagnostics (Today):
+No red flags; imaging not indicated at this time. Baseline analgesia plan established.
 
 Assessment:
-Major depressive disorder, moderate severity, without psychotic features. No immediate safety concerns, but psychosocial stressors present.
+Acute mechanical low back pain without radicular features.
 
 Plan:
-- Initiate SSRI (e.g., sertraline 50 mg QD) with discussion of side effects; refer for CBT. Establish crisis plan; encourage sleep hygiene and graded activity. Follow-up in 2–3 weeks to assess tolerability and response; consider dose escalation if partial response.
-- Follow-up in 4 weeks as appropriate.
+- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
+- Provide core-strength and flexibility exercises; avoid bed rest.
+- Reassess if neurological deficits develop or pain persists.
 
-Signed,
-Dr. S. Nielsen, Emergency Medicine
+Patient Education & Safety Net:
+Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+
+Follow-up & Disposition:
+Follow-up in 5 weeks or sooner if red flags arise.
+
+Sign-off:
+Dr. R. Iversen, Neurology

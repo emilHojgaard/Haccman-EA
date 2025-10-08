@@ -1,20 +1,34 @@
-CPR-number: 14.12.98-3631
-Encounter Date: 2025-11-22
-Author: Dr. K. Vester, Vascular Surgery
+Document Information:
+CPR-number - 10.03.85-8175
+Encounter Date - 2024-03-23
+Author - Dr. R. Iversen, Neurology
+Patient Name - Brian T.
 
-Subjective:
-Henrik W. had prior kidney stone; now presents with recurrent flank pain and gross hematuria after dehydration during travel.
+Chief Complaint:
+Brian T. reports thirst, frequent urination, and blurred vision.
 
-Objective:
-CVA tenderness; vitals stable; abdomen soft.
-Labs (today): UA with hematuria; non-contrast CT shows 6 mm ureteric stone; BMP normal.
+History of Present Illness:
+Brian T. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+
+Physical Examination:
+Vitals: BP 124/90 mmHg, HR 59 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+
+Diagnostics (Today):
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Recurrent nephrolithiasis, likely calcium oxalate.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Analgesia and medical expulsive therapy; counsel on hydration and reduced oxalate intake; urology if obstruction persists.
-- Follow-up in 5 weeks as appropriate.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
-Signed,
-Dr. F. Hansen, General Practice
+Patient Education & Safety Net:
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+
+Follow-up & Disposition:
+Clinic follow-up in 3 weeks to assess response and review HbA1c.
+
+Sign-off:
+Dr. R. Iversen, Neurology

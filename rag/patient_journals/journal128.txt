@@ -1,20 +1,34 @@
-CPR-number: 06.09.57-1093
-Encounter Date: 2025-10-21
-Author: Dr. L. Mikkelsen, Dermatology
+Document Information:
+CPR-number - 20.05.34-2224
+Encounter Date - 2025-07-16
+Author - Dr. R. Iversen, Neurology
+Patient Name - Birgit V.
 
-Subjective:
-Rune O. presents with melena and lightheadedness; recent NSAID use. No hematemesis reported.
+Chief Complaint:
+Birgit V. reports thirst, frequent urination, and blurred vision.
 
-Objective:
-Conjunctival pallor; HR 106 bpm; orthostatic symptoms present; abdomen soft.
-Labs (today): Hb low relative to baseline; BUN may be elevated; type and crossmatch sent.
+History of Present Illness:
+Birgit V. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+
+Physical Examination:
+Vitals: BP 166/74 mmHg, HR 81 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+
+Diagnostics (Today):
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Probable non-variceal upper GI bleed, likely peptic in origin.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Resuscitation as indicated, high-dose PPI, urgent endoscopy planning, hold NSAIDs; monitor hemoglobin and hemodynamics.
-- Follow-up in 6 weeks as appropriate.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
-Signed,
-Dr. L. Mikkelsen, Dermatology
+Patient Education & Safety Net:
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+
+Follow-up & Disposition:
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
+
+Sign-off:
+Dr. R. Iversen, Neurology

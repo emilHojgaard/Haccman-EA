@@ -1,20 +1,33 @@
-CPR-number: 06.02.92-9863
-Encounter Date: 2025-06-24
-Author: Dr. B. Thomsen, Pediatrics
+Document Information:
+CPR-number - 08.09.60-7591
+Encounter Date - 2024-10-05
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Kirsten N.
 
-Subjective:
-Viggo S. experienced 16 minutes of left facial droop and hand weakness yesterday, fully resolved prior to arrival. No prior similar episodes; risk factors include hypertension and dyslipidemia.
+Chief Complaint:
+Kirsten N. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-Neurological exam currently non-focal; gait normal; cardiovascular exam without murmurs.
-Labs (today): CT/MRI brain negative for acute infarct; carotid duplex pending; ECG sinus rhythm; lipids elevated.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-High-risk TIA; urgent secondary prevention warranted.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- Start antiplatelet therapy, initiate high-intensity statin, BP control, and expedited stroke clinic review. Educate on stroke warning signs; strict return precautions provided.
-- Follow-up in 5 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. M. Sønder, Urology
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 5 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. A. Thomsen, Emergency Medicine

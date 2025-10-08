@@ -1,20 +1,33 @@
-CPR-number: 23.01.77-7400
-Encounter Date: 2025-12-21
-Author: Dr. G. Lauridsen, Rheumatology
+Document Information:
+CPR-number - 26.06.77-6372
+Encounter Date - 2025-01-28
+Author - Dr. L. Holm, Cardiology
+Patient Name - Maja M.
 
-Subjective:
-Nina J. notes progressive fatigue, cold intolerance, weight gain of ~3 kg, and constipation over several months. Dry skin and hair thinning observed; no neck pain.
+Chief Complaint:
+Maja M. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-Bradycardia 59 bpm, delayed ankle reflex relaxation; mild periorbital puffiness possible.
-Labs (today): TSH elevated, free T4 low; lipids may be elevated.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-Primary hypothyroidism with classic symptoms and lab pattern.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- Start levothyroxine (dose per weight/age), review interactions, and recheck TFTs in 6–8 weeks. Counsel on adherence and consistent morning dosing.
-- Follow-up in 2 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. K. Vester, Vascular Surgery
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 6 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. L. Holm, Cardiology

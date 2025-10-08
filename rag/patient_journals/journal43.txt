@@ -1,20 +1,34 @@
-CPR-number: 01.05.15-1571
-Encounter Date: 2025-04-24
-Author: Dr. T. Enevoldsen, Pain Medicine
+Document Information:
+CPR-number - 28.12.88-7548
+Encounter Date - 2023-01-04
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Niklas D.
 
-Subjective:
-Sanne J. presents with pruritic, scaly plaques on elbows and knees, waxing and waning over years; stress exacerbates symptoms.
+Chief Complaint:
+Niklas D. complains of throbbing unilateral headache with nausea and light sensitivity.
 
-Objective:
-Well-demarcated erythematous plaques with silvery scale on extensor surfaces; nails show pitting.
-Labs (today): No labs necessary for mild disease; screen for psoriatic arthritis symptoms.
+History of Present Illness:
+Headache started 23 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+
+Physical Examination:
+Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+
+Diagnostics (Today):
+Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
 
 Assessment:
-Chronic plaque psoriasis, mild to moderate severity.
+Recurrent migraine without aura; current moderate–severe attack.
 
 Plan:
-- Topical corticosteroids and vitamin D analogs; moisturizers; dermatology referral if inadequate response to topicals.
-- Follow-up in 6 weeks as appropriate.
+- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
+- Hydration and rest; consider preventive strategy review if attack frequency rising.
+- Provide rescue plan for future attacks.
 
-Signed,
-Dr. Q. Norup, Ophthalmology
+Patient Education & Safety Net:
+Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+
+Follow-up & Disposition:
+Primary care/neurology follow-up in 3 weeks to evaluate need for prophylaxis.
+
+Sign-off:
+Dr. P. Jensen, Psychiatry

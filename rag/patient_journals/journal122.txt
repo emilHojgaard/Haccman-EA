@@ -1,20 +1,34 @@
-CPR-number: 03.09.36-9474
-Encounter Date: 2025-12-11
-Author: Dr. M. Rasmussen, Orthopedics
+Document Information:
+CPR-number - 25.10.64-6704
+Encounter Date - 2024-10-20
+Author - Dr. L. Holm, Cardiology
+Patient Name - Christian V.
 
-Subjective:
-Louise L. brought by family with 7 days of markedly reduced sleep, pressured speech, impulsive spending, and grandiosity. No substance use reported. Appetite variable; denies current suicidal intent.
+Chief Complaint:
+Christian V. presents with lower back pain after lifting at work.
 
-Objective:
-Agitated but cooperative; speech rapid, tangential at times. Affect expansive; insight limited; judgment impaired in spending decisions.
-Labs (today): Toxicology screen negative; CMP and CBC within normal limits.
+History of Present Illness:
+Pain began 4 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+
+Physical Examination:
+Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+
+Diagnostics (Today):
+No red flags; imaging not indicated at this time. Baseline analgesia plan established.
 
 Assessment:
-Manic episode consistent with bipolar affective disorder; safety risk present due to impulsivity.
+Acute mechanical low back pain without radicular features.
 
 Plan:
-- Initiate mood stabilizer (e.g., lithium with renal/thyroid monitoring) or atypical antipsychotic. Consider inpatient admission for stabilization if outpatient safety cannot be ensured. Coordinate psychoeducation with family.
-- Follow-up in 3 weeks as appropriate.
+- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
+- Provide core-strength and flexibility exercises; avoid bed rest.
+- Reassess if neurological deficits develop or pain persists.
 
-Signed,
-Dr. G. Lauridsen, Rheumatology
+Patient Education & Safety Net:
+Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+
+Follow-up & Disposition:
+Follow-up in 3 weeks or sooner if red flags arise.
+
+Sign-off:
+Dr. L. Holm, Cardiology

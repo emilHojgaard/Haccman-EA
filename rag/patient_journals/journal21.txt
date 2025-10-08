@@ -1,20 +1,34 @@
-CPR-number: 21.06.68-4606
-Encounter Date: 2025-09-12
-Author: Dr. M. Rasmussen, Orthopedics
+Document Information:
+CPR-number - 05.02.37-8568
+Encounter Date - 2023-01-14
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Emil H.
 
-Subjective:
-Katrine V. presents with pruritic, scaly plaques on elbows and knees, waxing and waning over years; stress exacerbates symptoms.
+Chief Complaint:
+Emil H. reports thirst, frequent urination, and blurred vision.
 
-Objective:
-Well-demarcated erythematous plaques with silvery scale on extensor surfaces; nails show pitting.
-Labs (today): No labs necessary for mild disease; screen for psoriatic arthritis symptoms.
+History of Present Illness:
+Emil H. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+
+Physical Examination:
+Vitals: BP 123/79 mmHg, HR 108 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+
+Diagnostics (Today):
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Chronic plaque psoriasis, mild to moderate severity.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Topical corticosteroids and vitamin D analogs; moisturizers; dermatology referral if inadequate response to topicals.
-- Follow-up in 5 weeks as appropriate.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
-Signed,
-Dr. L. Mikkelsen, Dermatology
+Patient Education & Safety Net:
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+
+Follow-up & Disposition:
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
+
+Sign-off:
+Dr. T. Bæk, Infectious Diseases

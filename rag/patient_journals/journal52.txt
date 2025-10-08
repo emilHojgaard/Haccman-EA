@@ -1,20 +1,34 @@
-CPR-number: 18.04.06-1109
-Encounter Date: 2025-03-28
-Author: Dr. P. Dam, Hematology
+Document Information:
+CPR-number - 04.04.31-7337
+Encounter Date - 2025-01-26
+Author - Dr. J. Knudsen, ENT
+Patient Name - Grethe O.
 
-Subjective:
-Lene V. experienced 35 minutes of left facial droop and hand weakness yesterday, fully resolved prior to arrival. No prior similar episodes; risk factors include hypertension and dyslipidemia.
+Chief Complaint:
+Grethe O. complains of fever, productive cough, and right-sided chest pain.
 
-Objective:
-Neurological exam currently non-focal; gait normal; cardiovascular exam without murmurs.
-Labs (today): CT/MRI brain negative for acute infarct; carotid duplex pending; ECG sinus rhythm; lipids elevated.
+History of Present Illness:
+Grethe O. developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+
+Physical Examination:
+Febrile (36.3 °C), RR 24/min, SpO₂ 92% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+
+Diagnostics (Today):
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-High-risk TIA; urgent secondary prevention warranted.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Start antiplatelet therapy, initiate high-intensity statin, BP control, and expedited stroke clinic review. Educate on stroke warning signs; strict return precautions provided.
-- Follow-up in 6 weeks as appropriate.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
-Signed,
-Dr. K. Petersen, Endocrinology
+Patient Education & Safety Net:
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+
+Follow-up & Disposition:
+Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+
+Sign-off:
+Dr. J. Knudsen, ENT

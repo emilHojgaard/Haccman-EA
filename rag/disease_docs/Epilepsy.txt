@@ -1,31 +1,28 @@
-TITLE: Epilepsy
+Document Information:
+Disease - Epilepsy
+Date - 2024-07-26
+Responsible Department - Neurology
 
 Overview:
-Epilepsy is a tendency to have unprovoked, recurrent seizures due to abnormal electrical activity in the brain. Types and triggers vary.
+Epilepsy is a condition where someone has a tendency to have recurrent seizures. Many people live full lives with the right treatment plan.
 
 Causes and Risk Factors:
-- Structural brain changes, genetic causes, prior head injury or stroke
-- CNS infections, developmental conditions
+Causes include prior brain injury, stroke, genetic factors, infections, or may be unknown. Missed medicines and sleep loss can trigger seizures.
 
 Common Symptoms:
-- Focal symptoms (tingling, jerking, déjà vu) or generalized convulsions
-- Post-ictal confusion, fatigue
+Seizures can involve shaking, staring spells, confusion, or brief loss of awareness. Recovery time varies.
 
 Diagnosis:
-- Clinical history, witness accounts, EEG
-- MRI brain to look for structural causes; labs to exclude mimics
+Doctors review events, perform an EEG, and may order brain imaging. Blood tests help look for contributing problems.
 
 Treatment:
-- Anti-seizure medications tailored to seizure type
-- Surgery or neuromodulation for refractory cases; trigger avoidance (sleep deprivation, alcohol)
+Most seizures are controlled with daily medicines. Some people benefit from devices or surgery if medicines are not enough.
 
 Self-Management and Lifestyle:
-- Medication adherence; seizure diary
-- Safety planning (driving restrictions per law, water safety)
+Take medicines on schedule, get consistent sleep, and avoid known triggers like heavy alcohol. Have a safety plan with family or friends.
 
 When to Seek Medical Help:
-- Prolonged seizure (>5 minutes) or repeated seizures without recovery (status epilepticus, emergency)
-- New neurological deficits
+Call emergency services for seizures lasting more than 5 minutes, repeated seizures without full recovery, or injury during a seizure.
 
 Prognosis:
-Many achieve seizure freedom with medication; some require specialized care.
+Many people become seizure-free with treatment. Regular follow-up improves safety and quality of life.

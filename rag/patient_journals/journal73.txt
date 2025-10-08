@@ -1,20 +1,34 @@
-CPR-number: 20.09.68-2306
-Encounter Date: 2025-06-10
-Author: Dr. E. Madsen, Neurology
+Document Information:
+CPR-number - 27.05.87-3395
+Encounter Date - 2025-08-01
+Author - Dr. J. Knudsen, ENT
+Patient Name - Solveig K.
 
-Subjective:
-Jonas H. notes progressive fatigue, cold intolerance, weight gain of ~5 kg, and constipation over several months. Dry skin and hair thinning observed; no neck pain.
+Chief Complaint:
+Solveig K. reports worsening ankle swelling and breathlessness on exertion.
 
-Objective:
-Bradycardia 59 bpm, delayed ankle reflex relaxation; mild periorbital puffiness possible.
-Labs (today): TSH elevated, free T4 low; lipids may be elevated.
+History of Present Illness:
+Solveig K. notes 10 days of increasing dyspnea, orthopnea requiring 4 pillows, and weight gain of 3 kg. Missed diuretics twice last week.
+
+Physical Examination:
+BP 151/63 mmHg, HR 73 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+
+Diagnostics (Today):
+BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
 
 Assessment:
-Primary hypothyroidism with classic symptoms and lab pattern.
+Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
 
 Plan:
-- Start levothyroxine (dose per weight/age), review interactions, and recheck TFTs in 6–8 weeks. Counsel on adherence and consistent morning dosing.
-- Follow-up in 3 weeks as appropriate.
+- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
+- Strict fluid/salt guidance and daily weights; educate on early warning signs.
+- Assess triggers and arrange heart failure clinic referral.
 
-Signed,
-Dr. P. Dam, Hematology
+Patient Education & Safety Net:
+Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+
+Follow-up & Disposition:
+Recheck in 1 weeks for weights, symptoms, and labs.
+
+Sign-off:
+Dr. J. Knudsen, ENT

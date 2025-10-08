@@ -1,20 +1,33 @@
-CPR-number: 14.05.27-3113
-Encounter Date: 2025-02-13
-Author: Dr. Q. Norup, Ophthalmology
+Document Information:
+CPR-number - 16.05.72-9944
+Encounter Date - 2023-09-12
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Katrine J.
 
-Subjective:
-Louise Å. notes progressive fatigue, cold intolerance, weight gain of ~3 kg, and constipation over several months. Dry skin and hair thinning observed; no neck pain.
+Chief Complaint:
+Katrine J. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-Bradycardia 59 bpm, delayed ankle reflex relaxation; mild periorbital puffiness possible.
-Labs (today): TSH elevated, free T4 low; lipids may be elevated.
+History of Present Illness:
+Symptoms began 1 days ago after sexual activity; no flank pain or fever. Prior UTI 18 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-Primary hypothyroidism with classic symptoms and lab pattern.
+Uncomplicated lower UTI.
 
 Plan:
-- Start levothyroxine (dose per weight/age), review interactions, and recheck TFTs in 6–8 weeks. Counsel on adherence and consistent morning dosing.
-- Follow-up in 4 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. O. Lyng, Endocrinology
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 3 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. A. Thomsen, Emergency Medicine

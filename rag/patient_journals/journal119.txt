@@ -1,20 +1,33 @@
-CPR-number: 05.03.94-7498
-Encounter Date: 2025-09-21
-Author: Dr. M. Sønder, Urology
+Document Information:
+CPR-number - 01.09.51-3086
+Encounter Date - 2023-01-23
+Author - Dr. L. Holm, Cardiology
+Patient Name - Sofia J.
 
-Subjective:
-Christian V. reports shooting pain from lower back radiating down posterior leg, worsened by bending and coughing. No bowel or bladder dysfunction.
+Chief Complaint:
+Sofia J. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-Positive straight leg raise on affected side; motor and reflexes largely intact.
-Labs (today): Imaging deferred initially; consider MRI if red flags or lack of improvement.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
 Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- NSAIDs, activity as tolerated, core-strengthening physiotherapy; consider neuropathic agents if severe. Reevaluate in 4–6 weeks.
-- Follow-up in 2 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. O. Lyng, Endocrinology
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 6 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. L. Holm, Cardiology

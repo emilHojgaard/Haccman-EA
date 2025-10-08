@@ -1,20 +1,33 @@
-CPR-number: 09.10.41-7261
-Encounter Date: 2025-03-06
-Author: Dr. J. Knudsen, ENT
+Document Information:
+CPR-number - 20.04.56-0548
+Encounter Date - 2023-10-16
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Solveig V.
 
-Subjective:
-Henrik D. presents with pruritic, scaly plaques on elbows and knees, waxing and waning over years; stress exacerbates symptoms.
+Chief Complaint:
+Solveig V. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-Well-demarcated erythematous plaques with silvery scale on extensor surfaces; nails show pitting.
-Labs (today): No labs necessary for mild disease; screen for psoriatic arthritis symptoms.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-Chronic plaque psoriasis, mild to moderate severity.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- Topical corticosteroids and vitamin D analogs; moisturizers; dermatology referral if inadequate response to topicals.
-- Follow-up in 2 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. J. Knudsen, ENT
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 6 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. M. Petersen, Gastroenterology

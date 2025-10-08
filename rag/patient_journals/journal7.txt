@@ -1,20 +1,33 @@
-CPR-number: 16.08.40-7891
-Encounter Date: 2025-01-25
-Author: Dr. I. Olesen, Nephrology
+Document Information:
+CPR-number - 14.12.98-8712
+Encounter Date - 2024-03-04
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Nina O.
 
-Subjective:
-Solveig G. inverted the right ankle while walking on uneven ground; immediate swelling and pain rated 8/10. Able to bear partial weight; denies numbness or knee pain.
+Chief Complaint:
+Nina O. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-Lateral malleolar tenderness, swelling and ecchymosis; anterior drawer mildly positive. Capillary refill < 2 s; sensation intact; pulses 2+. Ottawa rules applied; imaging obtained.
-Labs (today): Plain radiographs: no fracture or mortise widening.
+History of Present Illness:
+Symptoms began 2 days ago after sexual activity; no flank pain or fever. Prior UTI 11 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-Grade 2 lateral ankle sprain without fracture or neurovascular compromise.
+Uncomplicated lower UTI.
 
 Plan:
-- RICE protocol 57 h, functional brace, NSAIDs with gastroprotection as needed. Early ROM exercises; physiotherapy in 1–2 weeks. Gradual return to sport over 6 weeks as symptoms allow.
-- Follow-up in 6 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. N. Kruse, Oncology
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 2 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. V. Laursen, Nephrology

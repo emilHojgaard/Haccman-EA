@@ -1,20 +1,33 @@
-CPR-number: 16.03.80-5803
-Encounter Date: 2025-05-10
-Author: Dr. C. Dahl, Pulmonology
+Document Information:
+CPR-number - 25.09.97-0310
+Encounter Date - 2024-06-29
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Jonas E.
 
-Subjective:
-Viggo V. reports 7 days of increased wheeze, chest tightness, and nocturnal cough requiring frequent SABA puffs. Recent URI in household; denies fever or chest pain.
+Chief Complaint:
+Jonas E. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-RR 23/min, SpO2 96% RA, diffuse polyphonic wheeze; speaking in full sentences. No accessory muscle use. No focal consolidation signs.
-Labs (today): Peak flow 61% of personal best. No radiographic evidence of pneumonia.
+History of Present Illness:
+Symptoms began 1 days ago after sexual activity; no flank pain or fever. Prior UTI 10 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-Moderate asthma exacerbation—likely viral/allergic trigger; no impending respiratory failure.
+Uncomplicated lower UTI.
 
 Plan:
-- Short course oral prednisolone, step-up inhaled corticosteroid dose, review inhaler technique and adherence. Action plan provided; clinic review in 1 week or sooner if deterioration.
-- Follow-up in 2 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. I. Olesen, Nephrology
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 3 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. A. Thomsen, Emergency Medicine

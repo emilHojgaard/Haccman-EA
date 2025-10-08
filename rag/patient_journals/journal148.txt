@@ -1,20 +1,34 @@
-CPR-number: 15.01.27-6890
-Encounter Date: 2025-03-20
-Author: Dr. J. Knudsen, ENT
+Document Information:
+CPR-number - 15.02.42-3534
+Encounter Date - 2024-06-30
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Viggo O.
 
-Subjective:
-Ole K. brought by family with 5 days of markedly reduced sleep, pressured speech, impulsive spending, and grandiosity. No substance use reported. Appetite variable; denies current suicidal intent.
+Chief Complaint:
+Viggo O. reports thirst, frequent urination, and blurred vision.
 
-Objective:
-Agitated but cooperative; speech rapid, tangential at times. Affect expansive; insight limited; judgment impaired in spending decisions.
-Labs (today): Toxicology screen negative; CMP and CBC within normal limits.
+History of Present Illness:
+Viggo O. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+
+Physical Examination:
+Vitals: BP 105/95 mmHg, HR 70 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+
+Diagnostics (Today):
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Manic episode consistent with bipolar affective disorder; safety risk present due to impulsivity.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Initiate mood stabilizer (e.g., lithium with renal/thyroid monitoring) or atypical antipsychotic. Consider inpatient admission for stabilization if outpatient safety cannot be ensured. Coordinate psychoeducation with family.
-- Follow-up in 4 weeks as appropriate.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
-Signed,
-Dr. J. Knudsen, ENT
+Patient Education & Safety Net:
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+
+Follow-up & Disposition:
+Clinic follow-up in 3 weeks to assess response and review HbA1c.
+
+Sign-off:
+Dr. H. Sørensen, Internal Medicine

@@ -1,20 +1,34 @@
-CPR-number: 10.10.54-1002
-Encounter Date: 2025-03-10
-Author: Dr. K. Vester, Vascular Surgery
+Document Information:
+CPR-number - 20.05.49-4541
+Encounter Date - 2025-07-08
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Sanne G.
 
-Subjective:
-Louise R. experiences acute palpitations with exertional dyspnea and mild lightheadedness beginning earlier today. No prior history of arrhythmia; caffeine intake elevated recently.
+Chief Complaint:
+Sanne G. reports worsening ankle swelling and breathlessness on exertion.
 
-Objective:
-Irregularly irregular rhythm; HR 127 bpm; BP variable. Lungs clear; no heart failure signs.
-Labs (today): ECG: atrial fibrillation; TSH and electrolytes to evaluate contributors. CHADS-VASc assessed.
+History of Present Illness:
+Sanne G. notes 4 days of increasing dyspnea, orthopnea requiring 2 pillows, and weight gain of 3 kg. Missed diuretics twice last week.
+
+Physical Examination:
+BP 157/85 mmHg, HR 84 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+
+Diagnostics (Today):
+BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
 
 Assessment:
-New-onset atrial fibrillation—hemodynamically stable; requires rate control and thromboembolic risk assessment.
+Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
 
 Plan:
-- Begin rate control (beta-blocker as appropriate), evaluate need for anticoagulation, cardiology follow-up for rhythm strategy.
-- Follow-up in 6 weeks as appropriate.
+- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
+- Strict fluid/salt guidance and daily weights; educate on early warning signs.
+- Assess triggers and arrange heart failure clinic referral.
 
-Signed,
-Dr. K. Petersen, Endocrinology
+Patient Education & Safety Net:
+Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+
+Follow-up & Disposition:
+Recheck in 2 weeks for weights, symptoms, and labs.
+
+Sign-off:
+Dr. V. Laursen, Nephrology

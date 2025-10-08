@@ -1,20 +1,34 @@
-CPR-number: 14.05.64-8994
-Encounter Date: 2025-10-09
-Author: Dr. N. Kruse, Oncology
+Document Information:
+CPR-number - 25.01.91-3056
+Encounter Date - 2023-11-22
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Solveig R.
 
-Subjective:
-Katrine R. experiences acute palpitations with exertional dyspnea and mild lightheadedness beginning earlier today. No prior history of arrhythmia; caffeine intake elevated recently.
+Chief Complaint:
+Solveig R. complains of throbbing unilateral headache with nausea and light sensitivity.
 
-Objective:
-Irregularly irregular rhythm; HR 127 bpm; BP variable. Lungs clear; no heart failure signs.
-Labs (today): ECG: atrial fibrillation; TSH and electrolytes to evaluate contributors. CHADS-VASc assessed.
+History of Present Illness:
+Headache started 19 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+
+Physical Examination:
+Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+
+Diagnostics (Today):
+Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
 
 Assessment:
-New-onset atrial fibrillation—hemodynamically stable; requires rate control and thromboembolic risk assessment.
+Recurrent migraine without aura; current moderate–severe attack.
 
 Plan:
-- Begin rate control (beta-blocker as appropriate), evaluate need for anticoagulation, cardiology follow-up for rhythm strategy.
-- Follow-up in 5 weeks as appropriate.
+- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
+- Hydration and rest; consider preventive strategy review if attack frequency rising.
+- Provide rescue plan for future attacks.
 
-Signed,
-Dr. Q. Norup, Ophthalmology
+Patient Education & Safety Net:
+Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+
+Follow-up & Disposition:
+Primary care/neurology follow-up in 4 weeks to evaluate need for prophylaxis.
+
+Sign-off:
+Dr. S. Nielsen, Pulmonology

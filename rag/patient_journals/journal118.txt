@@ -1,20 +1,33 @@
-CPR-number: 06.12.48-9623
-Encounter Date: 2025-06-17
-Author: Dr. B. Thomsen, Pediatrics
+Document Information:
+CPR-number - 26.04.44-3719
+Encounter Date - 2025-07-23
+Author - Dr. J. Knudsen, ENT
+Patient Name - Frederik N.
 
-Subjective:
-Solveig T. reports 1 days of progressive redness, warmth, and tenderness over the right lower leg after minor abrasion. No purulent drainage; subjective fever at home.
+Chief Complaint:
+Frederik N. presents with nausea, vomiting, and watery diarrhea.
 
-Objective:
-Localized erythema with indistinct margins, increased warmth, and tenderness; no fluctuance or crepitus. Temp 38.1°C.
-Labs (today): CRP and WBC mildly elevated; blood cultures generally not indicated in mild cases.
+History of Present Illness:
+Symptoms began 2 days ago after a family gathering. No blood in stool; tolerating small sips of fluid; minimal abdominal cramping.
+
+Physical Examination:
+Mild dehydration (dry mucosa); abdomen soft, non-tender; vitals: HR 70 bpm, BP 111/67 mmHg, afebrile to low-grade fever.
+
+Diagnostics (Today):
+Clinical diagnosis; stool studies not indicated unless severe, prolonged, or high-risk features.
 
 Assessment:
-Non-purulent cellulitis without abscess; outpatient treatment suitable.
+Acute viral gastroenteritis with mild dehydration risk.
 
 Plan:
-- Begin oral beta-lactam per guideline, limb elevation, demarcate borders for progression monitoring. Return if systemic symptoms or worsening; recheck in 2 days.
-- Follow-up in 2 weeks as appropriate.
+- Oral rehydration with small frequent sips; simple diet advancement as tolerated.
+- Antiemetic as needed; avoid antimotility agents if red flags develop.
 
-Signed,
-Dr. E. Madsen, Neurology
+Patient Education & Safety Net:
+Emphasize hand hygiene and isolation while symptomatic. Return if unable to keep fluids, blood in stool, or signs of severe dehydration.
+
+Follow-up & Disposition:
+Symptom check by phone in 2 days if not improved.
+
+Sign-off:
+Dr. J. Knudsen, ENT

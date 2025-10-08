@@ -1,20 +1,34 @@
-CPR-number: 19.12.46-3224
-Encounter Date: 2025-02-05
-Author: Dr. P. Dam, Hematology
+Document Information:
+CPR-number - 11.10.01-9669
+Encounter Date - 2025-06-21
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Birgit M.
 
-Subjective:
-Sebastian S. reports unilateral calf swelling and aching after recent long-haul travel; no trauma.
+Chief Complaint:
+Birgit M. complains of throbbing unilateral headache with nausea and light sensitivity.
 
-Objective:
-Calf circumference asymmetry 2 cm; warmth and tenderness present; Homan sign not reliable.
-Labs (today): D-dimer if low pretest probability; venous duplex ultrasound pending.
+History of Present Illness:
+Headache started 18 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+
+Physical Examination:
+Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+
+Diagnostics (Today):
+Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
 
 Assessment:
-Suspected DVT; risk factors present.
+Recurrent migraine without aura; current moderate–severe attack.
 
 Plan:
-- Begin anticoagulation if high suspicion and no contraindications; confirm with imaging; counsel on VTE precautions.
-- Follow-up in 6 weeks as appropriate.
+- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
+- Hydration and rest; consider preventive strategy review if attack frequency rising.
+- Provide rescue plan for future attacks.
 
-Signed,
-Dr. L. Mikkelsen, Dermatology
+Patient Education & Safety Net:
+Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+
+Follow-up & Disposition:
+Primary care/neurology follow-up in 3 weeks to evaluate need for prophylaxis.
+
+Sign-off:
+Dr. A. Thomsen, Emergency Medicine

@@ -1,20 +1,34 @@
-CPR-number: 06.01.92-9933
-Encounter Date: 2025-01-21
-Author: Dr. J. Knudsen, ENT
+Document Information:
+CPR-number - 10.07.03-4897
+Encounter Date - 2025-08-16
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Sanne K.
 
-Subjective:
-Rasmus S. reports abrupt reduction in heavy daily alcohol intake 3 days ago, now with tremor, anxiety, insomnia, and autonomic hyperarousal. No history of seizures or delirium tremens.
+Chief Complaint:
+Sanne K. complains of fever, productive cough, and right-sided chest pain.
 
-Objective:
-Tremulous hands, tachycardia 105 bpm, diaphoretic; oriented but anxious. CIWA-Ar scoring suggested.
-Labs (today): Electrolytes may show hyponatremia or hypomagnesemia; LFTs variably elevated.
+History of Present Illness:
+Sanne K. developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+
+Physical Examination:
+Febrile (36.8 °C), RR 16/min, SpO₂ 99% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+
+Diagnostics (Today):
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Alcohol withdrawal syndrome—mild to moderate, risk of progression if unmanaged.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Symptom-triggered benzodiazepine protocol where indicated; correct electrolytes; thiamine supplementation before glucose. Arrange addiction services follow-up and psychosocial support.
-- Follow-up in 2 weeks as appropriate.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
-Signed,
-Dr. H. Berg, Gastroenterology
+Patient Education & Safety Net:
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+
+Follow-up & Disposition:
+Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+
+Sign-off:
+Dr. T. Bæk, Infectious Diseases

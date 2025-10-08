@@ -1,20 +1,34 @@
-CPR-number: 05.12.59-1516
-Encounter Date: 2025-03-21
-Author: Dr. R. Frandsen, Palliative Care
+Document Information:
+CPR-number - 11.09.36-8564
+Encounter Date - 2023-05-02
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Søren F.
 
-Subjective:
-Solveig J. notes progressive exertional dyspnea and intermittent palpitations for 4 weeks, with reduced exercise capacity and occasional evening ankle swelling. Denies syncope or chest pressure but reports poor sleep and elevated stress.
+Chief Complaint:
+Søren F. reports worsening ankle swelling and breathlessness on exertion.
 
-Objective:
-BP 167/105 mmHg, HR 91 bpm, RR 17/min. JVP not elevated. S4 present, no murmurs. Lungs clear; trace bilateral pitting edema. EKG reviewed at bedside appears consistent with left ventricular strain patterns.
-Labs (today): ECG: voltage criteria for LVH with repolarization changes. NT-proBNP mildly elevated. Basic metabolic panel within normal limits; lipids show elevated LDL.
+History of Present Illness:
+Søren F. notes 7 days of increasing dyspnea, orthopnea requiring 2 pillows, and weight gain of 3 kg. Missed diuretics twice last week.
+
+Physical Examination:
+BP 101/71 mmHg, HR 103 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+
+Diagnostics (Today):
+BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
 
 Assessment:
-Long-standing hypertension with evidence of LVH and early congestive physiology. Symptoms likely reflect diastolic dysfunction; ischemia less likely but not excluded.
+Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
 
 Plan:
-- Titrate ACE inhibitor and add thiazide-like diuretic; salt restriction < 2 g/day; counsel weight reduction. Schedule transthoracic echocardiogram to assess wall thickness and diastolic function. Cardiology review in 3 weeks.
-- Follow-up in 4 weeks as appropriate.
+- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
+- Strict fluid/salt guidance and daily weights; educate on early warning signs.
+- Assess triggers and arrange heart failure clinic referral.
 
-Signed,
-Dr. R. Frandsen, Palliative Care
+Patient Education & Safety Net:
+Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+
+Follow-up & Disposition:
+Recheck in 1 weeks for weights, symptoms, and labs.
+
+Sign-off:
+Dr. E. Dam, Rheumatology

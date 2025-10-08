@@ -1,20 +1,33 @@
-CPR-number: 17.05.93-8216
-Encounter Date: 2025-07-14
-Author: Dr. N. Kruse, Oncology
+Document Information:
+CPR-number - 01.01.99-9052
+Encounter Date - 2023-04-01
+Author - Dr. S. Gram, Hematology
+Patient Name - Ida F.
 
-Subjective:
-Søren Å. reports burning retrosternal discomfort after meals, regurgitation, and nocturnal heartburn for several months. Symptoms triggered by fatty/spicy foods; no dysphagia or weight loss.
+Chief Complaint:
+Ida F. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-Abdominal exam benign, BMI 27.3 kg/m². No pallor or cachexia.
-Labs (today): Trial of PPI appropriate; endoscopy considered if alarm features emerge. H. pylori testing if dyspepsia predominant.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-Likely GERD without alarm signs.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- Start PPI daily 5 weeks, elevate head of bed, avoid late meals and dietary triggers. Reassess response; consider step-down therapy if controlled.
-- Follow-up in 6 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. H. Berg, Gastroenterology
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 6 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. S. Gram, Hematology

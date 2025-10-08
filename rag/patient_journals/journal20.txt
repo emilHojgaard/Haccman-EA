@@ -1,20 +1,33 @@
-CPR-number: 15.07.04-1390
-Encounter Date: 2025-08-13
-Author: Dr. B. Thomsen, Pediatrics
+Document Information:
+CPR-number - 02.02.32-8750
+Encounter Date - 2025-07-03
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Mette T.
 
-Subjective:
-Magnus C. brought by family with 6 days of markedly reduced sleep, pressured speech, impulsive spending, and grandiosity. No substance use reported. Appetite variable; denies current suicidal intent.
+Chief Complaint:
+Mette T. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-Agitated but cooperative; speech rapid, tangential at times. Affect expansive; insight limited; judgment impaired in spending decisions.
-Labs (today): Toxicology screen negative; CMP and CBC within normal limits.
+History of Present Illness:
+Symptoms began 1 days ago after sexual activity; no flank pain or fever. Prior UTI 10 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-Manic episode consistent with bipolar affective disorder; safety risk present due to impulsivity.
+Uncomplicated lower UTI.
 
 Plan:
-- Initiate mood stabilizer (e.g., lithium with renal/thyroid monitoring) or atypical antipsychotic. Consider inpatient admission for stabilization if outpatient safety cannot be ensured. Coordinate psychoeducation with family.
-- Follow-up in 6 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. C. Dahl, Pulmonology
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 3 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. M. Petersen, Gastroenterology

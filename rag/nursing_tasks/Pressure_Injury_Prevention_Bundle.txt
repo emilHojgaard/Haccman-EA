@@ -1,36 +1,34 @@
-TITLE: Pressure Injury Prevention Bundle – Nursing Clinical Guideline
-Version: 1.0
-Date: 2025-09-30
-Responsible Department: Nursing Quality & Safety
+Document Information:
+Task - Pressure Injury Prevention Bundle
+Date - 2024-06-08
+Responsible Department - Wound Care / Nursing
 
 Purpose:
-Reduce incidence and severity of pressure injuries through risk assessment and prevention.
+Prevent hospital-acquired pressure injuries through risk screening and protective measures.
 
 Scope:
-All adult inpatients; nurses in all wards.
+Applies to all adult inpatients, especially those immobile, malnourished, or incontinent.
 
 Indications:
-- Reduced mobility, sensory deficits, incontinence, malnutrition, device pressure points
+Patients with limited mobility, sensory deficits, or vascular disease at risk of pressure damage.
 
 Contraindications:
-- None; adapt interventions to patient tolerance
+No absolute contraindications; individualize positioning in spinal instability or pain.
 
 Equipment:
-- Risk assessment tool, pressure-relieving surfaces, positioning aids, barrier creams
+Risk assessment tool, repositioning schedule, support surfaces, protective dressings, moisturizers, incontinence supplies.
 
 Procedure Steps:
-- Complete risk assessment on admission and daily or with condition changes.
-- Reposition at prescribed intervals; offload heels and device pressure points.
-- Optimize moisture control, nutrition, and hydration.
+Screen on admission and daily; reposition on schedule; optimize moisture control and nutrition; offload heels and bony prominences. Document bundle adherence.
 
 Monitoring & Documentation:
-- Skin inspections each shift; document pressure areas and interventions.
+Audit skin checks, device-related pressure points, and adherence to repositioning. Track any stage changes promptly.
 
-Patient Education:
-- Importance of repositioning; nutrition and hydration; call for assistance.
+Patient/Family Education:
+Explain repositioning importance and encourage participation. Discuss cushions and offloading at home after discharge.
 
 Escalation:
-- New or worsening pressure injury; unresolved pain or non-blanching erythema.
+Escalate for nonblanchable erythema, skin breakdown, or device-related pressure. Involve wound care specialists for staging and management.
 
 Safety Notes:
-- Protect bony prominences; ensure devices/tubes don’t create pressure points.
+Use slide sheets to reduce shear and protect fragile skin with barrier products. Avoid donut-type devices that concentrate pressure.

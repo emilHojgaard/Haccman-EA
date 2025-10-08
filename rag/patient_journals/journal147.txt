@@ -1,20 +1,33 @@
-CPR-number: 10.12.30-4115
-Encounter Date: 2025-01-01
-Author: Dr. M. Sønder, Urology
+Document Information:
+CPR-number - 24.11.56-6270
+Encounter Date - 2023-09-13
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Brian B.
 
-Subjective:
-Grethe D. experiences acute palpitations with exertional dyspnea and mild lightheadedness beginning earlier today. No prior history of arrhythmia; caffeine intake elevated recently.
+Chief Complaint:
+Brian B. reports unilateral calf swelling after recent long-haul travel.
 
-Objective:
-Irregularly irregular rhythm; HR 127 bpm; BP variable. Lungs clear; no heart failure signs.
-Labs (today): ECG: atrial fibrillation; TSH and electrolytes to evaluate contributors. CHADS-VASc assessed.
+History of Present Illness:
+Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+
+Physical Examination:
+Calf circumference asymmetry 4 cm; warmth and tenderness present; no skin discoloration proximally.
+
+Diagnostics (Today):
+D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
 
 Assessment:
-New-onset atrial fibrillation—hemodynamically stable; requires rate control and thromboembolic risk assessment.
+Suspected DVT with travel risk factor.
 
 Plan:
-- Begin rate control (beta-blocker as appropriate), evaluate need for anticoagulation, cardiology follow-up for rhythm strategy.
-- Follow-up in 2 weeks as appropriate.
+- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
+- Leg elevation and ambulation with caution; counsel on bleeding precautions.
 
-Signed,
-Dr. I. Olesen, Nephrology
+Patient Education & Safety Net:
+Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+
+Follow-up & Disposition:
+Imaging today; treatment plan finalized same day or at next business day review.
+
+Sign-off:
+Dr. M. Petersen, Gastroenterology

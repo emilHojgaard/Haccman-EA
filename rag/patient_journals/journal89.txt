@@ -1,20 +1,33 @@
-CPR-number: 24.10.54-2534
-Encounter Date: 2025-10-24
-Author: Dr. J. Knudsen, ENT
+Document Information:
+CPR-number - 13.08.97-5496
+Encounter Date - 2024-11-09
+Author - Dr. J. Knudsen, ENT
+Patient Name - Nina N.
 
-Subjective:
-Maja P. has 3 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
+Chief Complaint:
+Nina N. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
-Labs (today): No routine labs required; stool studies if prolonged or bloody.
+History of Present Illness:
+Symptoms began 2 days ago after sexual activity; no flank pain or fever. Prior UTI 6 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-Likely viral gastroenteritis, self-limited.
+Uncomplicated lower UTI.
 
 Plan:
-- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
-- Follow-up in 5 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 3 days if culture pending or symptoms persist.
+
+Sign-off:
 Dr. J. Knudsen, ENT

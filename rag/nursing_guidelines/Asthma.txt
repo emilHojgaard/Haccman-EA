@@ -1,40 +1,28 @@
-TITLE: Asthma – Nursing Clinical Guideline
-Version: 1.0
-Date: 2025-01-15
-Responsible Department: Pulmonology Unit
+Document Information:
+Disease - Asthma
+Date - 2024-01-23
+Responsible Department - Pulmonology Unit
 
 Overview:
-Asthma is a chronic inflammatory airway disorder with variable airflow limitation and hyperresponsiveness. Nursing priorities: assess severity, deliver prescribed bronchodilation and oxygen, evaluate response, teach trigger control and inhaler technique.
+Asthma is a chronic inflammatory airway disorder with variable airflow limitation and hyperresponsiveness. Nursing priorities are to support bronchodilation, oxygenation, and education on trigger control and inhaler technique.
 
 Nursing Assessment:
-- History: triggers, controller adherence, prior ICU/intubations, recent infections.
-- Inspection: accessory muscle use, ability to speak, agitation/fatigue.
-- Vitals & O2: RR, HR, BP, SpO₂ (target ≥ 94% unless otherwise prescribed).
-- Auscultation: wheeze, reduced air entry, “silent chest” (ominous).
-- Peak flow (if trained/device available) vs personal best.
+Assess severity: speech in sentences, accessory muscle use, posture, agitation, and fatigue. Review triggers, controller adherence, prior ICU/intubations, and recent infections; check PEFR if available.
 
 Key Monitoring:
-- SpO₂ and respiratory effort q15–30 min in acute care, then hourly when stable.
-- Frequency of SABA use; response after each dose.
-- Signs of exhaustion, CO₂ retention (drowsiness), or worsening work of breathing.
+Monitor SpO₂ and work of breathing frequently, observing for silent chest or rising fatigue. Track response to each bronchodilator dose and record PEFR trends when used.
 
 Nursing Interventions:
-- Position upright; calm environment; bronchodilator via spacer/nebulizer as prescribed.
-- Administer oxygen to target saturation; prepare/assist with systemic steroids if ordered.
-- Check and correct inhaler/spacer technique; ensure spacer availability.
-- Prepare for escalation (magnesium neb/IV per local protocol) when ordered.
+Position upright, provide calm reassurance, and administer prescribed bronchodilators via spacer/nebulizer. Titrate oxygen to ordered targets and prepare/assist with systemic corticosteroids per orders.
 
 Patient Education:
-- Written asthma action plan; daily preventer adherence; correct inhaler technique.
-- Trigger avoidance: smoke, pets, dust mites, viral hygiene; pre-exercise SABA if prescribed.
+Teach correct inhaler and spacer technique and review the written action plan. Counsel on trigger reduction including smoke exposure, dust mites, viral hygiene, and pre-exercise reliever use if prescribed.
 
 When to Escalate:
-- SpO₂ < 92% on oxygen, silent chest, inability to speak full sentences, exhaustion, cyanosis.
-- No clinical response after initial SABA cycles or deteriorating PEFR.
+Escalate for SpO₂ below ordered targets, silent chest, exhaustion, or failure to respond to initial therapy. Alert the team immediately if patient cannot speak in full sentences or shows cyanosis.
 
 Documentation & Coordination:
-- Record pre/post values (SpO₂, RR, PEFR), meds given, responses, education provided.
-- Handover triggers, action plan status, and follow-up needs to next shift/community team.
+Document pre/post SpO₂, RR, PEFR, medications given, and clinical response. Handover trigger profile, action plan status, and follow-up needs to the next shift or community team.
 
 Prognosis:
-Good with consistent controller therapy, technique, and trigger management; nursing vigilance reduces severe exacerbations.
+Prognosis is good with consistent controller use and technique; nursing vigilance reduces exacerbation severity. Early education and action plans lower emergency presentations.

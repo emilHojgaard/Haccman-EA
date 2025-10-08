@@ -1,20 +1,34 @@
-CPR-number: 10.10.48-7060
-Encounter Date: 2025-09-18
-Author: Dr. M. Sønder, Urology
+Document Information:
+CPR-number - 15.07.73-7978
+Encounter Date - 2024-08-01
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Carsten S.
 
-Subjective:
-Mette D. struck head on cabinet door with brief LOC < 1 minute; now reports headache, photophobia, and mild dizziness. No vomiting; no anticoagulant use.
+Chief Complaint:
+Carsten S. complains of fever, productive cough, and right-sided chest pain.
 
-Objective:
-GCS 15, pupils equal/reactive, no focal neurological deficits. Gait steady. Cervical spine non-tender.
-Labs (today): CT head (if performed) negative for acute hemorrhage. No skull fracture on exam.
+History of Present Illness:
+Carsten S. developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+
+Physical Examination:
+Febrile (38.2 °C), RR 22/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+
+Diagnostics (Today):
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Mild TBI/concussion without red flags; symptoms likely to improve over days to weeks.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Provide graded return-to-activity plan, analgesia (avoid opiates), screen for worsening symptoms. Follow-up if persistent symptoms beyond 2–3 weeks or red flags emerge.
-- Follow-up in 2 weeks as appropriate.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
-Signed,
-Dr. P. Dam, Hematology
+Patient Education & Safety Net:
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+
+Follow-up & Disposition:
+Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+
+Sign-off:
+Dr. T. Bæk, Infectious Diseases

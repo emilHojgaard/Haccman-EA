@@ -1,20 +1,34 @@
-CPR-number: 18.09.57-9373
-Encounter Date: 2025-04-09
-Author: Dr. I. Olesen, Nephrology
+Document Information:
+CPR-number - 04.12.08-9832
+Encounter Date - 2023-09-07
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Rasmus L.
 
-Subjective:
-Birgit W., with longstanding type 2 diabetes and dietary nonadherence, reports two weeks of polydipsia, polyuria, and mid-afternoon fatigue. Admits to occasionally missing evening doses of metformin and increased intake of refined carbohydrates during social events. Denies chest pain, visual loss, or focal neurological symptoms.
+Chief Complaint:
+Rasmus L. reports thirst, frequent urination, and blurred vision.
 
-Objective:
-Vital signs: BP 145/93 mmHg, HR 89 bpm, Temp 36.9°C, SpO2 99% RA. BMI 33.1 kg/m². General: well-appearing, no acute distress. Cardiopulmonary exam unremarkable. Abdomen soft, non-tender. No peripheral edema; feet with intact sensation by monofilament.
-Labs (today): Fasting glucose 14.9 mmol/L; HbA1c 9.1%; Creatinine 78 µmol/L with eGFR > 90 mL/min/1.73m²; urine albumin/creatinine ratio mildly elevated.
+History of Present Illness:
+Rasmus L. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+
+Physical Examination:
+Vitals: BP 162/62 mmHg, HR 97 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+
+Diagnostics (Today):
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Suboptimally controlled type 2 diabetes mellitus with lifestyle and adherence factors predominating. No evidence of acute complications such as DKA or HHS. Concurrent hypertension requires continued monitoring and titration.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Reinforce metformin adherence; add SGLT2 inhibitor (empagliflozin 25 mg QD) given renal function and potential CV benefit. Dietician referral for structured meal planning; encourage daily brisk walking 40 min. Blood pressure log at home; consider ACE inhibitor uptitration if persistently > 140/90. Repeat HbA1c in 3 months; follow-up in 4 weeks or sooner if symptomatic.
-- Follow-up in 5 weeks as appropriate.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
-Signed,
-Dr. P. Dam, Hematology
+Patient Education & Safety Net:
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+
+Follow-up & Disposition:
+Clinic follow-up in 2 weeks to assess response and review HbA1c.
+
+Sign-off:
+Dr. T. Bæk, Infectious Diseases

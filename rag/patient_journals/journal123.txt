@@ -1,20 +1,34 @@
-CPR-number: 27.07.68-5303
-Encounter Date: 2025-07-04
-Author: Dr. H. Berg, Gastroenterology
+Document Information:
+CPR-number - 24.05.05-7402
+Encounter Date - 2024-04-11
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Sofia C.
 
-Subjective:
-Carsten G. has 13 hours of periumbilical pain migrating to the right lower quadrant with anorexia and nausea. Reports low-grade fever and worsened pain with movement.
+Chief Complaint:
+Sofia C. presents with lower back pain after lifting at work.
 
-Objective:
-RLQ tenderness maximal at McBurney’s point; guarding present; Rovsing sign positive. Temp 37.8°C.
-Labs (today): WBC 13×10⁹/L; CRP elevated. Ultrasound/CT supportive of appendicitis.
+History of Present Illness:
+Pain began 2 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+
+Physical Examination:
+Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+
+Diagnostics (Today):
+No red flags; imaging not indicated at this time. Baseline analgesia plan established.
 
 Assessment:
-Acute appendicitis likely; surgical management indicated.
+Acute mechanical low back pain without radicular features.
 
 Plan:
-- NPO, IV fluids, analgesia, perioperative antibiotics; surgical consult for appendectomy. Post-op instructions and early mobilization plan discussed.
-- Follow-up in 6 weeks as appropriate.
+- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
+- Provide core-strength and flexibility exercises; avoid bed rest.
+- Reassess if neurological deficits develop or pain persists.
 
-Signed,
-Dr. R. Frandsen, Palliative Care
+Patient Education & Safety Net:
+Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+
+Follow-up & Disposition:
+Follow-up in 3 weeks or sooner if red flags arise.
+
+Sign-off:
+Dr. E. Dam, Rheumatology

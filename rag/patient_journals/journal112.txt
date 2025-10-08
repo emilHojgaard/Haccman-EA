@@ -1,20 +1,33 @@
-CPR-number: 09.09.37-2046
-Encounter Date: 2025-12-14
-Author: Dr. R. Frandsen, Palliative Care
+Document Information:
+CPR-number - 26.06.77-7674
+Encounter Date - 2025-05-11
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Viggo B.
 
-Subjective:
-Frederik F. reports abrupt reduction in heavy daily alcohol intake 2 days ago, now with tremor, anxiety, insomnia, and autonomic hyperarousal. No history of seizures or delirium tremens.
+Chief Complaint:
+Viggo B. presents with black stools and lightheadedness; recent NSAID use.
 
-Objective:
-Tremulous hands, tachycardia 105 bpm, diaphoretic; oriented but anxious. CIWA-Ar scoring suggested.
-Labs (today): Electrolytes may show hyponatremia or hypomagnesemia; LFTs variably elevated.
+History of Present Illness:
+Melena noticed over 2 days with fatigue and dizziness on standing. No hematemesis; intermittent epigastric discomfort.
+
+Physical Examination:
+Pale; orthostatic symptoms; HR 112 bpm. Abdomen soft with mild epigastric tenderness; no peritonism.
+
+Diagnostics (Today):
+Hb low relative to baseline; type and crossmatch sent. Plan for urgent endoscopy after stabilization; BUN may be elevated.
 
 Assessment:
-Alcohol withdrawal syndrome—mild to moderate, risk of progression if unmanaged.
+Probable non-variceal upper GI bleed, likely peptic in origin.
 
 Plan:
-- Symptom-triggered benzodiazepine protocol where indicated; correct electrolytes; thiamine supplementation before glucose. Arrange addiction services follow-up and psychosocial support.
-- Follow-up in 5 weeks as appropriate.
+- Resuscitation as indicated; high-dose PPI infusion/therapy per protocol.
+- Hold NSAIDs/anticoagulants when safe; arrange endoscopy; monitor hemoglobin and hemodynamics.
 
-Signed,
-Dr. S. Aaen, Allergy & Immunology
+Patient Education & Safety Net:
+Explain fasting, procedure expectations, and to report fresh bleeding, dizziness, or syncope immediately.
+
+Follow-up & Disposition:
+Endoscopy within 1–1 days depending on stability; outpatient review in 2 weeks.
+
+Sign-off:
+Dr. M. Petersen, Gastroenterology

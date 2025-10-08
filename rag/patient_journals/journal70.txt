@@ -1,20 +1,33 @@
-CPR-number: 08.08.81-9294
-Encounter Date: 2025-06-19
-Author: Dr. J. Knudsen, ENT
+Document Information:
+CPR-number - 24.07.83-8870
+Encounter Date - 2025-07-12
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Kirsten H.
 
-Subjective:
-Viggo S. had prior kidney stone; now presents with recurrent flank pain and gross hematuria after dehydration during travel.
+Chief Complaint:
+Kirsten H. presents with nausea, vomiting, and watery diarrhea.
 
-Objective:
-CVA tenderness; vitals stable; abdomen soft.
-Labs (today): UA with hematuria; non-contrast CT shows 6 mm ureteric stone; BMP normal.
+History of Present Illness:
+Symptoms began 2 days ago after a family gathering. No blood in stool; tolerating small sips of fluid; minimal abdominal cramping.
+
+Physical Examination:
+Mild dehydration (dry mucosa); abdomen soft, non-tender; vitals: HR 66 bpm, BP 151/73 mmHg, afebrile to low-grade fever.
+
+Diagnostics (Today):
+Clinical diagnosis; stool studies not indicated unless severe, prolonged, or high-risk features.
 
 Assessment:
-Recurrent nephrolithiasis, likely calcium oxalate.
+Acute viral gastroenteritis with mild dehydration risk.
 
 Plan:
-- Analgesia and medical expulsive therapy; counsel on hydration and reduced oxalate intake; urology if obstruction persists.
-- Follow-up in 2 weeks as appropriate.
+- Oral rehydration with small frequent sips; simple diet advancement as tolerated.
+- Antiemetic as needed; avoid antimotility agents if red flags develop.
 
-Signed,
-Dr. P. Dam, Hematology
+Patient Education & Safety Net:
+Emphasize hand hygiene and isolation while symptomatic. Return if unable to keep fluids, blood in stool, or signs of severe dehydration.
+
+Follow-up & Disposition:
+Symptom check by phone in 2 days if not improved.
+
+Sign-off:
+Dr. E. Dam, Rheumatology

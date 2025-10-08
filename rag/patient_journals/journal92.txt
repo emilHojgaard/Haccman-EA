@@ -1,20 +1,33 @@
-CPR-number: 02.02.27-1546
-Encounter Date: 2025-07-13
-Author: Dr. Q. Norup, Ophthalmology
+Document Information:
+CPR-number - 10.11.80-9136
+Encounter Date - 2023-07-28
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Birgit M.
 
-Subjective:
-Carsten S. presents with 5 days of productive cough, pleuritic right-sided chest pain, and fevers with chills. Shortness of breath noted on climbing stairs; no hemoptysis. Recent viral contact at home.
+Chief Complaint:
+Birgit M. reports unilateral calf swelling after recent long-haul travel.
 
-Objective:
-Temp 38.6°C, RR 25/min, SpO2 93% RA. Auscultation: focal crackles and bronchial breath sounds over RLL. No peripheral cyanosis; cardiovascular exam normal.
-Labs (today): CXR: right lower lobe consolidation. WBC 15×10⁹/L with left shift; CRP elevated. Renal function normal.
+History of Present Illness:
+Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+
+Physical Examination:
+Calf circumference asymmetry 3 cm; warmth and tenderness present; no skin discoloration proximally.
+
+Diagnostics (Today):
+D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
 
 Assessment:
-Community-acquired pneumonia, likely typical bacterial etiology. CURB-65 low risk; outpatient therapy appropriate.
+Suspected DVT with travel risk factor.
 
 Plan:
-- Start oral amoxicillin or doxycycline (if penicillin allergy). Emphasize hydration, antipyretics, and return precautions for worsening dyspnea. Re-assess in 48–72 hours; follow-up chest X-ray in 6–8 weeks if persistent symptoms.
-- Follow-up in 4 weeks as appropriate.
+- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
+- Leg elevation and ambulation with caution; counsel on bleeding precautions.
 
-Signed,
-Dr. J. Knudsen, ENT
+Patient Education & Safety Net:
+Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+
+Follow-up & Disposition:
+Imaging today; treatment plan finalized same day or at next business day review.
+
+Sign-off:
+Dr. E. Dam, Rheumatology

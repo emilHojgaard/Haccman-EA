@@ -1,20 +1,33 @@
-CPR-number: 15.03.38-3960
-Encounter Date: 2025-03-10
-Author: Dr. K. Vester, Vascular Surgery
+Document Information:
+CPR-number - 07.08.05-9964
+Encounter Date - 2024-01-26
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Tina O.
 
-Subjective:
-Ole F. presents with pruritic, scaly plaques on elbows and knees, waxing and waning over years; stress exacerbates symptoms.
+Chief Complaint:
+Tina O. reports unilateral calf swelling after recent long-haul travel.
 
-Objective:
-Well-demarcated erythematous plaques with silvery scale on extensor surfaces; nails show pitting.
-Labs (today): No labs necessary for mild disease; screen for psoriatic arthritis symptoms.
+History of Present Illness:
+Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+
+Physical Examination:
+Calf circumference asymmetry 2 cm; warmth and tenderness present; no skin discoloration proximally.
+
+Diagnostics (Today):
+D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
 
 Assessment:
-Chronic plaque psoriasis, mild to moderate severity.
+Suspected DVT with travel risk factor.
 
 Plan:
-- Topical corticosteroids and vitamin D analogs; moisturizers; dermatology referral if inadequate response to topicals.
-- Follow-up in 5 weeks as appropriate.
+- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
+- Leg elevation and ambulation with caution; counsel on bleeding precautions.
 
-Signed,
-Dr. K. Vester, Vascular Surgery
+Patient Education & Safety Net:
+Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+
+Follow-up & Disposition:
+Imaging today; treatment plan finalized same day or at next business day review.
+
+Sign-off:
+Dr. K. Østergaard, General Surgery

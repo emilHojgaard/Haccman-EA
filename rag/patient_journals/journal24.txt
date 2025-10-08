@@ -1,20 +1,34 @@
-CPR-number: 02.05.15-4835
-Encounter Date: 2025-03-06
-Author: Dr. M. Rasmussen, Orthopedics
+Document Information:
+CPR-number - 01.07.04-5307
+Encounter Date - 2025-01-31
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Viggo H.
 
-Subjective:
-Solveig C. notes progressive exertional dyspnea and intermittent palpitations for 3 weeks, with reduced exercise capacity and occasional evening ankle swelling. Denies syncope or chest pressure but reports poor sleep and elevated stress.
+Chief Complaint:
+Viggo H. complains of fever, productive cough, and right-sided chest pain.
 
-Objective:
-BP 167/105 mmHg, HR 91 bpm, RR 17/min. JVP not elevated. S4 present, no murmurs. Lungs clear; trace bilateral pitting edema. EKG reviewed at bedside appears consistent with left ventricular strain patterns.
-Labs (today): ECG: voltage criteria for LVH with repolarization changes. NT-proBNP mildly elevated. Basic metabolic panel within normal limits; lipids show elevated LDL.
+History of Present Illness:
+Viggo H. developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+
+Physical Examination:
+Febrile (37.4 °C), RR 17/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+
+Diagnostics (Today):
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Long-standing hypertension with evidence of LVH and early congestive physiology. Symptoms likely reflect diastolic dysfunction; ischemia less likely but not excluded.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Titrate ACE inhibitor and add thiazide-like diuretic; salt restriction < 2 g/day; counsel weight reduction. Schedule transthoracic echocardiogram to assess wall thickness and diastolic function. Cardiology review in 3 weeks.
-- Follow-up in 3 weeks as appropriate.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
-Signed,
-Dr. L. Mikkelsen, Dermatology
+Patient Education & Safety Net:
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+
+Follow-up & Disposition:
+Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+
+Sign-off:
+Dr. E. Dam, Rheumatology

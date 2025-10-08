@@ -1,20 +1,33 @@
-CPR-number: 25.02.97-1321
-Encounter Date: 2025-07-19
-Author: Dr. N. Kruse, Oncology
+Document Information:
+CPR-number - 04.10.40-0279
+Encounter Date - 2023-05-28
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Brian C.
 
-Subjective:
-Maja O. notes progressive exertional dyspnea and intermittent palpitations for 3 weeks, with reduced exercise capacity and occasional evening ankle swelling. Denies syncope or chest pressure but reports poor sleep and elevated stress.
+Chief Complaint:
+Brian C. presents with black stools and lightheadedness; recent NSAID use.
 
-Objective:
-BP 167/105 mmHg, HR 91 bpm, RR 17/min. JVP not elevated. S4 present, no murmurs. Lungs clear; trace bilateral pitting edema. EKG reviewed at bedside appears consistent with left ventricular strain patterns.
-Labs (today): ECG: voltage criteria for LVH with repolarization changes. NT-proBNP mildly elevated. Basic metabolic panel within normal limits; lipids show elevated LDL.
+History of Present Illness:
+Melena noticed over 3 days with fatigue and dizziness on standing. No hematemesis; intermittent epigastric discomfort.
+
+Physical Examination:
+Pale; orthostatic symptoms; HR 71 bpm. Abdomen soft with mild epigastric tenderness; no peritonism.
+
+Diagnostics (Today):
+Hb low relative to baseline; type and crossmatch sent. Plan for urgent endoscopy after stabilization; BUN may be elevated.
 
 Assessment:
-Long-standing hypertension with evidence of LVH and early congestive physiology. Symptoms likely reflect diastolic dysfunction; ischemia less likely but not excluded.
+Probable non-variceal upper GI bleed, likely peptic in origin.
 
 Plan:
-- Titrate ACE inhibitor and add thiazide-like diuretic; salt restriction < 2 g/day; counsel weight reduction. Schedule transthoracic echocardiogram to assess wall thickness and diastolic function. Cardiology review in 3 weeks.
-- Follow-up in 5 weeks as appropriate.
+- Resuscitation as indicated; high-dose PPI infusion/therapy per protocol.
+- Hold NSAIDs/anticoagulants when safe; arrange endoscopy; monitor hemoglobin and hemodynamics.
 
-Signed,
-Dr. H. Sørensen, Internal Medicine
+Patient Education & Safety Net:
+Explain fasting, procedure expectations, and to report fresh bleeding, dizziness, or syncope immediately.
+
+Follow-up & Disposition:
+Endoscopy within 1–1 days depending on stability; outpatient review in 3 weeks.
+
+Sign-off:
+Dr. P. Jensen, Psychiatry

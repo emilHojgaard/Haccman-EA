@@ -1,20 +1,34 @@
-CPR-number: 01.11.35-8440
-Encounter Date: 2025-05-10
-Author: Dr. Q. Norup, Ophthalmology
+Document Information:
+CPR-number - 14.06.72-1024
+Encounter Date - 2025-02-03
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Helle F.
 
-Subjective:
-Sofia O. inverted the right ankle while walking on uneven ground; immediate swelling and pain rated 6/10. Able to bear partial weight; denies numbness or knee pain.
+Chief Complaint:
+Helle F. complains of fever, productive cough, and right-sided chest pain.
 
-Objective:
-Lateral malleolar tenderness, swelling and ecchymosis; anterior drawer mildly positive. Capillary refill < 2 s; sensation intact; pulses 2+. Ottawa rules applied; imaging obtained.
-Labs (today): Plain radiographs: no fracture or mortise widening.
+History of Present Illness:
+Helle F. developed a sudden cough with green sputum 4 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+
+Physical Examination:
+Febrile (37.8 °C), RR 18/min, SpO₂ 98% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+
+Diagnostics (Today):
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Grade 2 lateral ankle sprain without fracture or neurovascular compromise.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- RICE protocol 57 h, functional brace, NSAIDs with gastroprotection as needed. Early ROM exercises; physiotherapy in 1–2 weeks. Gradual return to sport over 6 weeks as symptoms allow.
-- Follow-up in 4 weeks as appropriate.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
-Signed,
-Dr. J. Knudsen, ENT
+Patient Education & Safety Net:
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+
+Follow-up & Disposition:
+Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+
+Sign-off:
+Dr. T. Bæk, Infectious Diseases

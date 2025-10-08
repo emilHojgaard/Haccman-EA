@@ -1,20 +1,34 @@
-CPR-number: 17.06.49-4704
-Encounter Date: 2025-08-28
-Author: Dr. F. Hansen, General Practice
+Document Information:
+CPR-number - 26.03.76-8474
+Encounter Date - 2025-08-15
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Maja W.
 
-Subjective:
-Sofia G. describes unilateral throbbing headache lasting 8 hours with photophobia, phonophobia, and nausea. Attacks recur 2 times per month, often triggered by sleep deprivation.
+Chief Complaint:
+Maja W. reports worsening ankle swelling and breathlessness on exertion.
 
-Objective:
-Neurological examination normal between attacks; no neck stiffness; vitals stable.
-Labs (today): No red flags identified; imaging not indicated at this time.
+History of Present Illness:
+Maja W. notes 9 days of increasing dyspnea, orthopnea requiring 3 pillows, and weight gain of 3 kg. Missed diuretics twice last week.
+
+Physical Examination:
+BP 113/87 mmHg, HR 100 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+
+Diagnostics (Today):
+BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
 
 Assessment:
-Episodic migraine without aura.
+Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
 
 Plan:
-- Treat acutely with triptan plus NSAID if no contraindications; counsel on trigger avoidance and sleep hygiene. Consider prophylaxis if ≥ 4 disabling days/month; follow-up to reassess frequency and response.
-- Follow-up in 6 weeks as appropriate.
+- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
+- Strict fluid/salt guidance and daily weights; educate on early warning signs.
+- Assess triggers and arrange heart failure clinic referral.
 
-Signed,
-Dr. I. Olesen, Nephrology
+Patient Education & Safety Net:
+Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+
+Follow-up & Disposition:
+Recheck in 2 weeks for weights, symptoms, and labs.
+
+Sign-off:
+Dr. E. Dam, Rheumatology

@@ -1,20 +1,34 @@
-CPR-number: 20.10.35-4946
-Encounter Date: 2025-08-21
-Author: Dr. S. Aaen, Allergy & Immunology
+Document Information:
+CPR-number - 08.08.70-1239
+Encounter Date - 2025-07-01
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Rune N.
 
-Subjective:
-Tina C. presents with chronic medial knee pain for 11 months, worsened by stairs and prolonged walking. Morning stiffness lasts 18 minutes. No acute trauma; occasional NSAID use with partial relief.
+Chief Complaint:
+Rune N. complains of fever, productive cough, and right-sided chest pain.
 
-Objective:
-Varus alignment mild, crepitus on flexion/extension, joint line tenderness medially; small effusion possible. ROM slightly reduced.
-Labs (today): X-ray: joint space narrowing and osteophytes consistent with osteoarthritis; no acute fracture.
+History of Present Illness:
+Rune N. developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+
+Physical Examination:
+Febrile (37.3 °C), RR 17/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+
+Diagnostics (Today):
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Symptomatic knee osteoarthritis limiting function.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Weight reduction, quadriceps-strengthening physiotherapy, topical NSAIDs, and activity modification. Consider intra-articular corticosteroid injection if refractory; surgical referral if severe structural disease.
-- Follow-up in 4 weeks as appropriate.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
-Signed,
-Dr. Q. Norup, Ophthalmology
+Patient Education & Safety Net:
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+
+Follow-up & Disposition:
+Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+
+Sign-off:
+Dr. K. Østergaard, General Surgery

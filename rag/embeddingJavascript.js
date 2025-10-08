@@ -47,9 +47,12 @@ async function listTxtFiles(dir) {
 }
 
 function titleFromPath(p) {
-  const dir = path.basename(path.dirname(p));         // e.g. "nursing_tasks"
-  const file = path.basename(p, path.extname(p));      // e.g. "IV_Infusion_Setup"
-  return `${dir}_${file}`;                             // -> "nursing_tasks_IV_Infusion_Setup"
+  return path.basename(p, path.extname(p));      // e.g. "IV_Infusion_Setup"
+
+}
+
+function dirFromPath(p) {
+  return path.basename(path.dirname(p));         // e.g. "nursing_tasks"
 }
 
 function chunkSmart(text) {
@@ -68,11 +71,12 @@ async function embedBatch(texts) {
   return res.data.map((d) => d.embedding);
 }
 
-async function upsertDocument({ title, fullText, confidential }) {
+async function upsertDocument({ title, docType, fullText, confidential }) {
   const { data, error } = await supabase
     .from("documents")
     .insert({
       title,
+      doc_type: docType,
       full_text: fullText,
       url: null,
       confidential,
@@ -98,7 +102,9 @@ async function insertChunks(docId, chunks, title, docType) {
 
     const rows = batch.map((text_chunk, idx) => ({
       doc_id: docId,
-      text_chunk,            // store the prefixed content too (so the LLM sees it)
+      text_chunk,
+      doc_title: title,
+      doc_type: docType,
       semantic_vector: vecs[idx],
       chunk_index: start + idx,
     }));
@@ -140,25 +146,17 @@ async function run() {
   for (const { path: filePath, confidential } of work) {
     try {
       const title = titleFromPath(filePath);
+      const docType = dirFromPath(filePath);
       const fullText = await fs.readFile(filePath, "utf-8");
 
       // Insert document row with title and confidential flag
-      const docId = await upsertDocument({ title, fullText, confidential });
-      console.log(`Created document ${docId} for "${title}" (confidential=${confidential})`);
+      const docId = await upsertDocument({ title, docType, fullText, confidential });
+      console.log(`Created document ${docId} for "${title}" with type: "${docType}" `);
 
       // Chunk
       const chunks = chunkSmart(fullText);
-      console.log(`  Chunked "${title}" into ${chunks.length} chunks`);
+      console.log(`  Chunked "${title}" with type: "${docType}" into ${chunks.length} chunks`);
 
-
-      //  To determine document type for better similarity search
-      const docType =
-        filePath.includes(JOURNALS_DIR) ? "patient_journal" :
-          filePath.includes(DISEASES_DIR) ? "disease_doc" :
-            filePath.includes(NURSING_TASKS_DIR) ? "nursing_task" :
-              filePath.includes(NURSING_GUIDELINES_DIR) ? "nursing_guideline" :
-                filePath.includes(MEDICAL_GUIDELINES_DIR) ? "medical_guideline" :
-                  "other";
       // Embed + insert chunks
       await insertChunks(docId, chunks, title, docType);
     } catch (err) {

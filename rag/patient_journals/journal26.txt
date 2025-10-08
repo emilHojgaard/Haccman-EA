@@ -1,20 +1,34 @@
-CPR-number: 27.04.30-4362
-Encounter Date: 2025-07-07
-Author: Dr. P. Dam, Hematology
+Document Information:
+CPR-number - 26.06.80-2729
+Encounter Date - 2023-03-30
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Jonas R.
 
-Subjective:
-Maria S. reports burning retrosternal discomfort after meals, regurgitation, and nocturnal heartburn for several months. Symptoms triggered by fatty/spicy foods; no dysphagia or weight loss.
+Chief Complaint:
+Jonas R. reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
-Objective:
-Abdominal exam benign, BMI 27.3 kg/m². No pallor or cachexia.
-Labs (today): Trial of PPI appropriate; endoscopy considered if alarm features emerge. H. pylori testing if dyspepsia predominant.
+History of Present Illness:
+Jonas R. notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+
+Physical Examination:
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 164/91 mmHg, HR 86 bpm). Abdomen soft, non-tender.
+
+Diagnostics (Today):
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Likely GERD without alarm signs.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Start PPI daily 5 weeks, elevate head of bed, avoid late meals and dietary triggers. Reassess response; consider step-down therapy if controlled.
-- Follow-up in 2 weeks as appropriate.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
-Signed,
-Dr. G. Lauridsen, Rheumatology
+Patient Education & Safety Net:
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+
+Follow-up & Disposition:
+Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+
+Sign-off:
+Dr. T. Bæk, Infectious Diseases

@@ -1,20 +1,33 @@
-CPR-number: 01.01.58-5370
-Encounter Date: 2025-06-10
-Author: Dr. E. Madsen, Neurology
+Document Information:
+CPR-number - 12.06.35-0420
+Encounter Date - 2023-11-20
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Rune T.
 
-Subjective:
-Sofia O. has 2 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
+Chief Complaint:
+Rune T. presents with black stools and lightheadedness; recent NSAID use.
 
-Objective:
-Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
-Labs (today): No routine labs required; stool studies if prolonged or bloody.
+History of Present Illness:
+Melena noticed over 2 days with fatigue and dizziness on standing. No hematemesis; intermittent epigastric discomfort.
+
+Physical Examination:
+Pale; orthostatic symptoms; HR 107 bpm. Abdomen soft with mild epigastric tenderness; no peritonism.
+
+Diagnostics (Today):
+Hb low relative to baseline; type and crossmatch sent. Plan for urgent endoscopy after stabilization; BUN may be elevated.
 
 Assessment:
-Likely viral gastroenteritis, self-limited.
+Probable non-variceal upper GI bleed, likely peptic in origin.
 
 Plan:
-- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
-- Follow-up in 4 weeks as appropriate.
+- Resuscitation as indicated; high-dose PPI infusion/therapy per protocol.
+- Hold NSAIDs/anticoagulants when safe; arrange endoscopy; monitor hemoglobin and hemodynamics.
 
-Signed,
-Dr. Q. Norup, Ophthalmology
+Patient Education & Safety Net:
+Explain fasting, procedure expectations, and to report fresh bleeding, dizziness, or syncope immediately.
+
+Follow-up & Disposition:
+Endoscopy within 1–2 days depending on stability; outpatient review in 4 weeks.
+
+Sign-off:
+Dr. P. Jensen, Psychiatry

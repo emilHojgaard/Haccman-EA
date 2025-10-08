@@ -1,20 +1,34 @@
-CPR-number: 07.06.13-4945
-Encounter Date: 2025-06-14
-Author: Dr. Q. Norup, Ophthalmology
+Document Information:
+CPR-number - 19.03.37-8565
+Encounter Date - 2025-08-20
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Niklas M.
 
-Subjective:
-Carsten L. notes progressive fatigue, cold intolerance, weight gain of ~2 kg, and constipation over several months. Dry skin and hair thinning observed; no neck pain.
+Chief Complaint:
+Niklas M. complains of fever, productive cough, and right-sided chest pain.
 
-Objective:
-Bradycardia 59 bpm, delayed ankle reflex relaxation; mild periorbital puffiness possible.
-Labs (today): TSH elevated, free T4 low; lipids may be elevated.
+History of Present Illness:
+Niklas M. developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+
+Physical Examination:
+Febrile (38.2 °C), RR 13/min, SpO₂ 93% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+
+Diagnostics (Today):
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Primary hypothyroidism with classic symptoms and lab pattern.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Start levothyroxine (dose per weight/age), review interactions, and recheck TFTs in 6–8 weeks. Counsel on adherence and consistent morning dosing.
-- Follow-up in 6 weeks as appropriate.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
-Signed,
-Dr. E. Madsen, Neurology
+Patient Education & Safety Net:
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+
+Follow-up & Disposition:
+Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+
+Sign-off:
+Dr. C. Mikkelsen, Endocrinology

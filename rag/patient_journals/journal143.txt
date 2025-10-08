@@ -1,20 +1,34 @@
-CPR-number: 12.04.79-3025
-Encounter Date: 2025-02-20
-Author: Dr. S. Nielsen, Emergency Medicine
+Document Information:
+CPR-number - 05.09.96-0714
+Encounter Date - 2024-07-04
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Niklas P.
 
-Subjective:
-Thomas B. describes unilateral throbbing headache lasting 19 hours with photophobia, phonophobia, and nausea. Attacks recur 3 times per month, often triggered by sleep deprivation.
+Chief Complaint:
+Niklas P. presents with lower back pain after lifting at work.
 
-Objective:
-Neurological examination normal between attacks; no neck stiffness; vitals stable.
-Labs (today): No red flags identified; imaging not indicated at this time.
+History of Present Illness:
+Pain began 5 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+
+Physical Examination:
+Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+
+Diagnostics (Today):
+No red flags; imaging not indicated at this time. Baseline analgesia plan established.
 
 Assessment:
-Episodic migraine without aura.
+Acute mechanical low back pain without radicular features.
 
 Plan:
-- Treat acutely with triptan plus NSAID if no contraindications; counsel on trigger avoidance and sleep hygiene. Consider prophylaxis if ≥ 4 disabling days/month; follow-up to reassess frequency and response.
-- Follow-up in 5 weeks as appropriate.
+- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
+- Provide core-strength and flexibility exercises; avoid bed rest.
+- Reassess if neurological deficits develop or pain persists.
 
-Signed,
-Dr. S. Nielsen, Emergency Medicine
+Patient Education & Safety Net:
+Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+
+Follow-up & Disposition:
+Follow-up in 6 weeks or sooner if red flags arise.
+
+Sign-off:
+Dr. E. Dam, Rheumatology

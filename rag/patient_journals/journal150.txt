@@ -1,20 +1,33 @@
-CPR-number: 18.10.43-6380
-Encounter Date: 2025-08-10
-Author: Dr. P. Jensen, Psychiatry
+Document Information:
+CPR-number - 18.06.65-6934
+Encounter Date - 2024-09-11
+Author - Dr. J. Knudsen, ENT
+Patient Name - Helle R.
 
-Subjective:
-Niklas M. has 3 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
+Chief Complaint:
+Helle R. reports unilateral calf swelling after recent long-haul travel.
 
-Objective:
-Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
-Labs (today): No routine labs required; stool studies if prolonged or bloody.
+History of Present Illness:
+Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+
+Physical Examination:
+Calf circumference asymmetry 3 cm; warmth and tenderness present; no skin discoloration proximally.
+
+Diagnostics (Today):
+D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
 
 Assessment:
-Likely viral gastroenteritis, self-limited.
+Suspected DVT with travel risk factor.
 
 Plan:
-- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
-- Follow-up in 3 weeks as appropriate.
+- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
+- Leg elevation and ambulation with caution; counsel on bleeding precautions.
 
-Signed,
-Dr. H. Sørensen, Internal Medicine
+Patient Education & Safety Net:
+Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+
+Follow-up & Disposition:
+Imaging today; treatment plan finalized same day or at next business day review.
+
+Sign-off:
+Dr. J. Knudsen, ENT

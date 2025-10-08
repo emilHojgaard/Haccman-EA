@@ -1,20 +1,34 @@
-CPR-number: 22.11.87-1924
-Encounter Date: 2025-02-12
-Author: Dr. S. Aaen, Allergy & Immunology
+Document Information:
+CPR-number - 24.11.38-9911
+Encounter Date - 2023-01-16
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Birgit B.
 
-Subjective:
-Julie B. reports abrupt reduction in heavy daily alcohol intake 3 days ago, now with tremor, anxiety, insomnia, and autonomic hyperarousal. No history of seizures or delirium tremens.
+Chief Complaint:
+Birgit B. complains of throbbing unilateral headache with nausea and light sensitivity.
 
-Objective:
-Tremulous hands, tachycardia 105 bpm, diaphoretic; oriented but anxious. CIWA-Ar scoring suggested.
-Labs (today): Electrolytes may show hyponatremia or hypomagnesemia; LFTs variably elevated.
+History of Present Illness:
+Headache started 13 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+
+Physical Examination:
+Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+
+Diagnostics (Today):
+Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
 
 Assessment:
-Alcohol withdrawal syndrome—mild to moderate, risk of progression if unmanaged.
+Recurrent migraine without aura; current moderate–severe attack.
 
 Plan:
-- Symptom-triggered benzodiazepine protocol where indicated; correct electrolytes; thiamine supplementation before glucose. Arrange addiction services follow-up and psychosocial support.
-- Follow-up in 5 weeks as appropriate.
+- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
+- Hydration and rest; consider preventive strategy review if attack frequency rising.
+- Provide rescue plan for future attacks.
 
-Signed,
-Dr. O. Lyng, Endocrinology
+Patient Education & Safety Net:
+Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+
+Follow-up & Disposition:
+Primary care/neurology follow-up in 3 weeks to evaluate need for prophylaxis.
+
+Sign-off:
+Dr. V. Laursen, Nephrology

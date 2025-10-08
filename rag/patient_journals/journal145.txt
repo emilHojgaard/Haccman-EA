@@ -1,20 +1,33 @@
-CPR-number: 06.10.21-8752
-Encounter Date: 2025-04-11
-Author: Dr. P. Dam, Hematology
+Document Information:
+CPR-number - 21.10.68-3170
+Encounter Date - 2023-06-11
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Christian V.
 
-Subjective:
-Louise F. reports brief vertigo episodes triggered by rolling in bed and looking up; nausea present, no hearing loss.
+Chief Complaint:
+Christian V. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-Dix–Hallpike positive on the right with torsional nystagmus; neuro exam otherwise normal.
-Labs (today): No imaging indicated absent red flags.
+History of Present Illness:
+Symptoms began 3 days ago after sexual activity; no flank pain or fever. Prior UTI 9 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-Posterior canal BPPV.
+Uncomplicated lower UTI.
 
 Plan:
-- Epley maneuver performed; provide instructions for home exercises and precautions. Follow-up if persistent.
-- Follow-up in 4 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. E. Madsen, Neurology
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 2 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. K. Østergaard, General Surgery

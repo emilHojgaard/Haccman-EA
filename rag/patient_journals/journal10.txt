@@ -1,20 +1,33 @@
-CPR-number: 14.05.53-2685
-Encounter Date: 2025-06-28
-Author: Dr. M. Sønder, Urology
+Document Information:
+CPR-number - 20.05.41-5025
+Encounter Date - 2024-08-26
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Viggo K.
 
-Subjective:
-Maria V. has 1 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
+Chief Complaint:
+Viggo K. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
-Labs (today): No routine labs required; stool studies if prolonged or bloody.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-Likely viral gastroenteritis, self-limited.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
-- Follow-up in 5 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. O. Lyng, Endocrinology
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 4 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. E. Dam, Rheumatology

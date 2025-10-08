@@ -1,20 +1,34 @@
-CPR-number: 24.01.15-6205
-Encounter Date: 2025-01-02
-Author: Dr. L. Holm, Cardiology
+Document Information:
+CPR-number - 25.04.60-0785
+Encounter Date - 2024-04-17
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Anja B.
 
-Subjective:
-Viggo Å. notes burning pain followed by grouped vesicular rash in a unilateral dermatomal distribution over 2 days.
+Chief Complaint:
+Anja B. complains of throbbing unilateral headache with nausea and light sensitivity.
 
-Objective:
-Clusters of vesicles on erythematous base not crossing midline; tenderness to light touch.
-Labs (today): Clinical diagnosis; PCR if atypical.
+History of Present Illness:
+Headache started 20 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+
+Physical Examination:
+Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+
+Diagnostics (Today):
+Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
 
 Assessment:
-Acute herpes zoster.
+Recurrent migraine without aura; current moderate–severe attack.
 
 Plan:
-- Start antiviral within 72 hours if possible; analgesia; advise on contagion precautions until crusting.
-- Follow-up in 5 weeks as appropriate.
+- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
+- Hydration and rest; consider preventive strategy review if attack frequency rising.
+- Provide rescue plan for future attacks.
 
-Signed,
-Dr. M. Sønder, Urology
+Patient Education & Safety Net:
+Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+
+Follow-up & Disposition:
+Primary care/neurology follow-up in 4 weeks to evaluate need for prophylaxis.
+
+Sign-off:
+Dr. V. Laursen, Nephrology

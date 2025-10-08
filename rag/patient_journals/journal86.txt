@@ -1,20 +1,34 @@
-CPR-number: 25.04.03-7030
-Encounter Date: 2025-03-18
-Author: Dr. T. Enevoldsen, Pain Medicine
+Document Information:
+CPR-number - 15.12.45-5084
+Encounter Date - 2023-08-03
+Author - Dr. O. Bjørk, Urology
+Patient Name - Brian F.
 
-Subjective:
-Sebastian T. presents with sudden severe colicky flank pain radiating to the groin, associated with nausea and restlessness. No dysuria or fever reported.
+Chief Complaint:
+Brian F. reports worsening ankle swelling and breathlessness on exertion.
 
-Objective:
-Uncomfortable, pacing; CVA tenderness on affected side; abdomen soft. Vitals stable.
-Labs (today): Urinalysis: microscopic hematuria; non-contrast CT suggests distal ureteric stone 4 mm.
+History of Present Illness:
+Brian F. notes 10 days of increasing dyspnea, orthopnea requiring 4 pillows, and weight gain of 4 kg. Missed diuretics twice last week.
+
+Physical Examination:
+BP 152/86 mmHg, HR 78 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+
+Diagnostics (Today):
+BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
 
 Assessment:
-Renal colic from ureteric calculus—likely to pass spontaneously if ≤ 5–6 mm.
+Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
 
 Plan:
-- NSAID analgesia and antiemetic; tamsulosin may aid passage; hydration advice. Urology referral if obstruction, infection, or uncontrolled pain.
-- Follow-up in 6 weeks as appropriate.
+- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
+- Strict fluid/salt guidance and daily weights; educate on early warning signs.
+- Assess triggers and arrange heart failure clinic referral.
 
-Signed,
-Dr. F. Hansen, General Practice
+Patient Education & Safety Net:
+Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+
+Follow-up & Disposition:
+Recheck in 1 weeks for weights, symptoms, and labs.
+
+Sign-off:
+Dr. O. Bjørk, Urology

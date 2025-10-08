@@ -1,20 +1,33 @@
-CPR-number: 28.03.78-3026
-Encounter Date: 2025-11-06
-Author: Dr. K. Vester, Vascular Surgery
+Document Information:
+CPR-number - 24.01.52-9005
+Encounter Date - 2023-05-24
+Author - Dr. L. Holm, Cardiology
+Patient Name - Søren F.
 
-Subjective:
-Magnus H. had prior kidney stone; now presents with recurrent flank pain and gross hematuria after dehydration during travel.
+Chief Complaint:
+Søren F. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-CVA tenderness; vitals stable; abdomen soft.
-Labs (today): UA with hematuria; non-contrast CT shows 6 mm ureteric stone; BMP normal.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-Recurrent nephrolithiasis, likely calcium oxalate.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- Analgesia and medical expulsive therapy; counsel on hydration and reduced oxalate intake; urology if obstruction persists.
-- Follow-up in 4 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. L. Mikkelsen, Dermatology
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 6 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. L. Holm, Cardiology

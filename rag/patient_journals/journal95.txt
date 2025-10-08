@@ -1,20 +1,34 @@
-CPR-number: 07.08.27-6690
-Encounter Date: 2025-08-26
-Author: Dr. T. Enevoldsen, Pain Medicine
+Document Information:
+CPR-number - 25.07.72-8929
+Encounter Date - 2023-04-01
+Author - Dr. J. Knudsen, ENT
+Patient Name - Lars C.
 
-Subjective:
-Rasmus Å. reports burning retrosternal discomfort after meals, regurgitation, and nocturnal heartburn for several months. Symptoms triggered by fatty/spicy foods; no dysphagia or weight loss.
+Chief Complaint:
+Lars C. complains of throbbing unilateral headache with nausea and light sensitivity.
 
-Objective:
-Abdominal exam benign, BMI 27.3 kg/m². No pallor or cachexia.
-Labs (today): Trial of PPI appropriate; endoscopy considered if alarm features emerge. H. pylori testing if dyspepsia predominant.
+History of Present Illness:
+Headache started 19 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+
+Physical Examination:
+Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+
+Diagnostics (Today):
+Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
 
 Assessment:
-Likely GERD without alarm signs.
+Recurrent migraine without aura; current moderate–severe attack.
 
 Plan:
-- Start PPI daily 5 weeks, elevate head of bed, avoid late meals and dietary triggers. Reassess response; consider step-down therapy if controlled.
-- Follow-up in 4 weeks as appropriate.
+- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
+- Hydration and rest; consider preventive strategy review if attack frequency rising.
+- Provide rescue plan for future attacks.
 
-Signed,
-Dr. K. Petersen, Endocrinology
+Patient Education & Safety Net:
+Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+
+Follow-up & Disposition:
+Primary care/neurology follow-up in 4 weeks to evaluate need for prophylaxis.
+
+Sign-off:
+Dr. J. Knudsen, ENT

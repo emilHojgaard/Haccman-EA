@@ -1,20 +1,34 @@
-CPR-number: 03.02.09-3563
-Encounter Date: 2025-06-03
-Author: Dr. G. Lauridsen, Rheumatology
+Document Information:
+CPR-number - 03.06.55-4453
+Encounter Date - 2023-01-25
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Brian C.
 
-Subjective:
-Helle Å. reports epigastric burning pain related to meals and nocturnal discomfort. NSAID use for knee pain noted.
+Chief Complaint:
+Brian C. presents with lower back pain after lifting at work.
 
-Objective:
-Epigastric tenderness without guarding or rebound; vitals stable; no melena reported.
-Labs (today): H. pylori testing indicated; CBC to screen for anemia.
+History of Present Illness:
+Pain began 4 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+
+Physical Examination:
+Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+
+Diagnostics (Today):
+No red flags; imaging not indicated at this time. Baseline analgesia plan established.
 
 Assessment:
-Suspected peptic ulcer disease, likely NSAID or H. pylori–related.
+Acute mechanical low back pain without radicular features.
 
 Plan:
-- Start PPI; discontinue NSAIDs if possible; test and treat H. pylori if positive. Return for alarm symptoms or persistent pain.
-- Follow-up in 3 weeks as appropriate.
+- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
+- Provide core-strength and flexibility exercises; avoid bed rest.
+- Reassess if neurological deficits develop or pain persists.
 
-Signed,
-Dr. L. Holm, Cardiology
+Patient Education & Safety Net:
+Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+
+Follow-up & Disposition:
+Follow-up in 3 weeks or sooner if red flags arise.
+
+Sign-off:
+Dr. P. Jensen, Psychiatry

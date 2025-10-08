@@ -1,35 +1,34 @@
-TITLE: Falls Risk Assessment & Prevention – Nursing Clinical Guideline
-Version: 1.0
-Date: 2025-09-30
-Responsible Department: Nursing Quality & Safety
+Document Information:
+Task - Falls Risk Assessment & Prevention
+Date - 2024-11-12
+Responsible Department - Nursing / Quality & Safety
 
 Purpose:
-Reduce inpatient falls through systematic screening and prevention strategies.
+Identify adults at risk of falling and implement targeted prevention strategies to reduce harm.
 
 Scope:
-All adult wards.
+Applies to all adult inpatients and outpatients under observation or procedures.
 
 Indications:
-- Age >65, cognitive impairment, mobility/balance issues, psychoactive meds, prior falls
+History of falls, gait instability, sedatives, delirium, hypotension, or environmental risks.
 
 Contraindications:
-- None
+None; tailor interventions for end-of-life or strict bedrest patients.
 
 Equipment:
-- Risk assessment tool, non-slip socks, mobility aids, bed/chair alarms if indicated
+Risk screening tool, non-slip socks, mobility aids, bed/chair alarms where appropriate, signage.
 
 Procedure Steps:
-- Complete risk assessment on admission and daily; tailor interventions (call bell access, clutter-free environment, toileting schedule).
-- Ensure appropriate footwear and mobility aids; consider physio referral.
+Screen on admission and after changes in status, apply risk bundle (call bell access, clutter reduction, appropriate footwear), and review medications with the team.
 
 Monitoring & Documentation:
-- Document risk status and interventions; monitor adherence and incidents.
+Track incidents and near-misses; reassess risk daily. Document interventions and patient acceptance.
 
-Patient Education:
-- How to call for help; safe mobilization techniques; medication side effects.
+Patient/Family Education:
+Encourage use of call bell and assistance before mobilizing. Explain risks of getting up unaided.
 
 Escalation:
-- Injury after fall, recurrent near-falls, acute delirium.
+Escalate for delirium, new dizziness, or recurrent near-falls. Request PT/OT review for mobility concerns.
 
 Safety Notes:
-- Bed at lowest height; night lighting; review sedatives.
+Keep bed in lowest position, brakes on, and lighting adequate. Avoid physical restraints unless specifically ordered and monitored.

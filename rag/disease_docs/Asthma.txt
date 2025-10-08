@@ -1,43 +1,28 @@
-TITLE: Asthma
+Document Information:
+Disease - Asthma
+Date - 2025-04-03
+Responsible Department - Pulmonology
 
 Overview:
-Asthma is a long-term condition in which the airways become inflamed and overly sensitive. Triggers such as viral colds, allergens, smoke, or exercise can narrow the airways, making it harder to breathe. Symptoms often occur in episodes and can vary from mild to severe over time.
+Asthma is a long-term condition where the airways become inflamed and sensitive, making them narrow at times. Symptoms tend to come and go and can be triggered by infections, allergens, or exercise.
 
 Causes and Risk Factors:
-- Family or personal history of asthma, eczema, or hay fever (atopy)
-- Allergen exposure (dust mites, pollen, mold, pets)
-- Tobacco smoke, air pollution, occupational irritants
-- Viral infections, particularly in childhood
-- Cold air, exercise, strong emotions or stress
+Family history of asthma or allergies, exposure to dust mites, pollen, pets, smoke, and air pollution increase risk. Viral infections and cold air can also trigger attacks.
 
 Common Symptoms:
-- Wheezing (especially on exhalation), shortness of breath, chest tightness
-- Night or early-morning cough
-- Symptoms provoked by allergens, infections, or activity
+Wheezing, shortness of breath, chest tightness, and coughing, especially at night or early morning. Symptoms may worsen with exercise or colds.
 
 Diagnosis:
-- Clinical history and exam
-- Spirometry to confirm variable airflow limitation; bronchodilator response testing
-- Peak flow monitoring; bronchoprovocation testing if needed
-- Consider allergy testing to identify triggers
+Doctors ask about symptoms and triggers and perform breathing tests like spirometry to look for variable airflow. Allergy testing may be used to identify triggers.
 
 Treatment:
-- Reliever inhalers (short-acting bronchodilators) for quick symptom relief
-- Preventer inhalers (inhaled corticosteroids) to reduce airway inflammation
-- Combination inhalers (ICS/LABA) for persistent symptoms
-- Add-on therapies (LAMA, leukotriene antagonists, biologics) in moderate–severe disease
-- Vaccinations: influenza and pneumococcal per guidance
+Reliever inhalers quickly open the airways for symptoms, while preventer inhalers reduce inflammation over time. Some people need combination inhalers or add-on medicines if symptoms persist.
 
 Self-Management and Lifestyle:
-- Personalized asthma action plan and regular technique checks
-- Identify and minimize triggers; smoke-free home
-- Pre-exercise reliever if recommended; warm-ups and cool-downs
-- Peak flow or symptom diary to track control
+Use a written action plan, practice correct inhaler technique, and avoid triggers such as smoke. Warm up before exercise and keep vaccinations up to date.
 
 When to Seek Medical Help:
-- Needing reliever more than 2–3 times per week
-- Worsening breathlessness, difficulty speaking full sentences
-- No response to reliever or signs of severe attack (blue lips, drowsiness)
+Seek help if you need your reliever more than a few times a week, or if breathing is difficult and you cannot speak full sentences. Call emergency services for blue lips, severe breathlessness, or no response to reliever.
 
 Prognosis:
-With consistent controller therapy and trigger management, most people achieve excellent control and live fully active lives.
+With regular preventer use and trigger control, most people live fully active lives with few attacks.

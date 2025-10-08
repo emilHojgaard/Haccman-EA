@@ -1,20 +1,33 @@
-CPR-number: 03.09.91-2848
-Encounter Date: 2025-02-17
-Author: Dr. N. Kruse, Oncology
+Document Information:
+CPR-number - 01.01.89-2820
+Encounter Date - 2023-06-30
+Author - Dr. J. Knudsen, ENT
+Patient Name - Emil L.
 
-Subjective:
-Ole M. reports 2 days of progressive redness, warmth, and tenderness over the right lower leg after minor abrasion. No purulent drainage; subjective fever at home.
+Chief Complaint:
+Emil L. reports unilateral calf swelling after recent long-haul travel.
 
-Objective:
-Localized erythema with indistinct margins, increased warmth, and tenderness; no fluctuance or crepitus. Temp 38.1°C.
-Labs (today): CRP and WBC mildly elevated; blood cultures generally not indicated in mild cases.
+History of Present Illness:
+Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+
+Physical Examination:
+Calf circumference asymmetry 2 cm; warmth and tenderness present; no skin discoloration proximally.
+
+Diagnostics (Today):
+D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
 
 Assessment:
-Non-purulent cellulitis without abscess; outpatient treatment suitable.
+Suspected DVT with travel risk factor.
 
 Plan:
-- Begin oral beta-lactam per guideline, limb elevation, demarcate borders for progression monitoring. Return if systemic symptoms or worsening; recheck in 2 days.
-- Follow-up in 6 weeks as appropriate.
+- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
+- Leg elevation and ambulation with caution; counsel on bleeding precautions.
 
-Signed,
-Dr. K. Vester, Vascular Surgery
+Patient Education & Safety Net:
+Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+
+Follow-up & Disposition:
+Imaging today; treatment plan finalized same day or at next business day review.
+
+Sign-off:
+Dr. J. Knudsen, ENT

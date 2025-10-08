@@ -1,20 +1,33 @@
-CPR-number: 05.04.70-8529
-Encounter Date: 2025-04-25
-Author: Dr. I. Olesen, Nephrology
+Document Information:
+CPR-number - 22.06.55-5929
+Encounter Date - 2024-09-04
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Helle H.
 
-Subjective:
-Anne M. has 15 hours of periumbilical pain migrating to the right lower quadrant with anorexia and nausea. Reports low-grade fever and worsened pain with movement.
+Chief Complaint:
+Helle H. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-RLQ tenderness maximal at McBurney’s point; guarding present; Rovsing sign positive. Temp 37.8°C.
-Labs (today): WBC 13×10⁹/L; CRP elevated. Ultrasound/CT supportive of appendicitis.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-Acute appendicitis likely; surgical management indicated.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- NPO, IV fluids, analgesia, perioperative antibiotics; surgical consult for appendectomy. Post-op instructions and early mobilization plan discussed.
-- Follow-up in 4 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. Q. Norup, Ophthalmology
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 6 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. T. Bæk, Infectious Diseases

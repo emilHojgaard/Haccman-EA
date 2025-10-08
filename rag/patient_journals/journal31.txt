@@ -1,20 +1,33 @@
-CPR-number: 13.05.34-9609
-Encounter Date: 2025-01-18
-Author: Dr. A. Kristoffersen, Infectious Diseases
+Document Information:
+CPR-number - 15.09.46-4134
+Encounter Date - 2023-12-04
+Author - Dr. O. Bjørk, Urology
+Patient Name - Rasmus H.
 
-Subjective:
-Søren G. presents with 3 days of productive cough, pleuritic right-sided chest pain, and fevers with chills. Shortness of breath noted on climbing stairs; no hemoptysis. Recent viral contact at home.
+Chief Complaint:
+Rasmus H. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-Temp 38.6°C, RR 25/min, SpO2 93% RA. Auscultation: focal crackles and bronchial breath sounds over RLL. No peripheral cyanosis; cardiovascular exam normal.
-Labs (today): CXR: right lower lobe consolidation. WBC 15×10⁹/L with left shift; CRP elevated. Renal function normal.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-Community-acquired pneumonia, likely typical bacterial etiology. CURB-65 low risk; outpatient therapy appropriate.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- Start oral amoxicillin or doxycycline (if penicillin allergy). Emphasize hydration, antipyretics, and return precautions for worsening dyspnea. Re-assess in 48–72 hours; follow-up chest X-ray in 6–8 weeks if persistent symptoms.
-- Follow-up in 6 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. R. Frandsen, Palliative Care
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 5 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. O. Bjørk, Urology

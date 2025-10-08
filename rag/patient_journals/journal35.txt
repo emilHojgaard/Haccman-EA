@@ -1,20 +1,33 @@
-CPR-number: 16.04.93-2881
-Encounter Date: 2025-07-27
-Author: Dr. P. Dam, Hematology
+Document Information:
+CPR-number - 21.05.95-2357
+Encounter Date - 2023-12-21
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Søren O.
 
-Subjective:
-Rune Å. with chronic cough and exertional dyspnea presents with 2 days of increased sputum volume and purulence, worsening breathlessness, and wheeze. Reports running out of controller inhaler last week.
+Chief Complaint:
+Søren O. reports unilateral calf swelling after recent long-haul travel.
 
-Objective:
-RR 21/min, SpO2 90% RA, diffuse wheeze with prolonged expiration; accessory muscle use mild. No focal consolidation.
-Labs (today): ABG if indicated: mild hypoxemia; CRP elevated. CXR without new lobar consolidation.
+History of Present Illness:
+Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+
+Physical Examination:
+Calf circumference asymmetry 3 cm; warmth and tenderness present; no skin discoloration proximally.
+
+Diagnostics (Today):
+D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
 
 Assessment:
-COPD exacerbation, likely infectious or nonadherence-related.
+Suspected DVT with travel risk factor.
 
 Plan:
-- Nebulized bronchodilators, short oral steroid course; antibiotics if purulent sputum and bacterial suspicion. Ensure inhaler supply and technique; smoking cessation reinforcement; follow-up in respiratory clinic.
-- Follow-up in 2 weeks as appropriate.
+- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
+- Leg elevation and ambulation with caution; counsel on bleeding precautions.
 
-Signed,
-Dr. S. Nielsen, Emergency Medicine
+Patient Education & Safety Net:
+Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+
+Follow-up & Disposition:
+Imaging today; treatment plan finalized same day or at next business day review.
+
+Sign-off:
+Dr. P. Jensen, Psychiatry

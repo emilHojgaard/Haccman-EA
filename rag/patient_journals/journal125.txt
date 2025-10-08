@@ -1,20 +1,33 @@
-CPR-number: 02.10.88-4995
-Encounter Date: 2025-07-08
-Author: Dr. B. Thomsen, Pediatrics
+Document Information:
+CPR-number - 01.02.01-7757
+Encounter Date - 2023-03-05
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Helle G.
 
-Subjective:
-Niklas N. struck head on cabinet door with brief LOC < 1 minute; now reports headache, photophobia, and mild dizziness. No vomiting; no anticoagulant use.
+Chief Complaint:
+Helle G. presents with black stools and lightheadedness; recent NSAID use.
 
-Objective:
-GCS 15, pupils equal/reactive, no focal neurological deficits. Gait steady. Cervical spine non-tender.
-Labs (today): CT head (if performed) negative for acute hemorrhage. No skull fracture on exam.
+History of Present Illness:
+Melena noticed over 3 days with fatigue and dizziness on standing. No hematemesis; intermittent epigastric discomfort.
+
+Physical Examination:
+Pale; orthostatic symptoms; HR 58 bpm. Abdomen soft with mild epigastric tenderness; no peritonism.
+
+Diagnostics (Today):
+Hb low relative to baseline; type and crossmatch sent. Plan for urgent endoscopy after stabilization; BUN may be elevated.
 
 Assessment:
-Mild TBI/concussion without red flags; symptoms likely to improve over days to weeks.
+Probable non-variceal upper GI bleed, likely peptic in origin.
 
 Plan:
-- Provide graded return-to-activity plan, analgesia (avoid opiates), screen for worsening symptoms. Follow-up if persistent symptoms beyond 2–3 weeks or red flags emerge.
-- Follow-up in 6 weeks as appropriate.
+- Resuscitation as indicated; high-dose PPI infusion/therapy per protocol.
+- Hold NSAIDs/anticoagulants when safe; arrange endoscopy; monitor hemoglobin and hemodynamics.
 
-Signed,
-Dr. B. Thomsen, Pediatrics
+Patient Education & Safety Net:
+Explain fasting, procedure expectations, and to report fresh bleeding, dizziness, or syncope immediately.
+
+Follow-up & Disposition:
+Endoscopy within 0–1 days depending on stability; outpatient review in 2 weeks.
+
+Sign-off:
+Dr. V. Laursen, Nephrology

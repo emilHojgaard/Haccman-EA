@@ -1,20 +1,33 @@
-CPR-number: 16.08.68-9497
-Encounter Date: 2025-09-26
-Author: Dr. E. Madsen, Neurology
+Document Information:
+CPR-number - 24.05.80-5833
+Encounter Date - 2025-08-07
+Author - Dr. L. Holm, Cardiology
+Patient Name - Katrine F.
 
-Subjective:
-Louise O. has 2 days of watery diarrhea, crampy abdominal pain, and low-grade fever after a family cluster of illness.
+Chief Complaint:
+Katrine F. presents with nausea, vomiting, and watery diarrhea.
 
-Objective:
-Mild dehydration signs; abdomen soft with hyperactive bowel sounds.
-Labs (today): No routine labs required; stool studies if prolonged or bloody.
+History of Present Illness:
+Symptoms began 1 days ago after a family gathering. No blood in stool; tolerating small sips of fluid; minimal abdominal cramping.
+
+Physical Examination:
+Mild dehydration (dry mucosa); abdomen soft, non-tender; vitals: HR 107 bpm, BP 157/78 mmHg, afebrile to low-grade fever.
+
+Diagnostics (Today):
+Clinical diagnosis; stool studies not indicated unless severe, prolonged, or high-risk features.
 
 Assessment:
-Likely viral gastroenteritis, self-limited.
+Acute viral gastroenteritis with mild dehydration risk.
 
 Plan:
-- Oral rehydration, BRAT-style diet as tolerated, return if bloody stools or signs of severe dehydration.
-- Follow-up in 5 weeks as appropriate.
+- Oral rehydration with small frequent sips; simple diet advancement as tolerated.
+- Antiemetic as needed; avoid antimotility agents if red flags develop.
 
-Signed,
-Dr. M. Sønder, Urology
+Patient Education & Safety Net:
+Emphasize hand hygiene and isolation while symptomatic. Return if unable to keep fluids, blood in stool, or signs of severe dehydration.
+
+Follow-up & Disposition:
+Symptom check by phone in 2 days if not improved.
+
+Sign-off:
+Dr. L. Holm, Cardiology

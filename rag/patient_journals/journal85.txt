@@ -1,20 +1,33 @@
-CPR-number: 03.09.20-7412
-Encounter Date: 2025-12-05
-Author: Dr. L. Mikkelsen, Dermatology
+Document Information:
+CPR-number - 21.04.72-3196
+Encounter Date - 2023-06-20
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Kirsten P.
 
-Subjective:
-Helle L. notes progressive exertional dyspnea and intermittent palpitations for 6 weeks, with reduced exercise capacity and occasional evening ankle swelling. Denies syncope or chest pressure but reports poor sleep and elevated stress.
+Chief Complaint:
+Kirsten P. reports shooting pain from lower back down the posterior leg.
 
-Objective:
-BP 167/105 mmHg, HR 91 bpm, RR 17/min. JVP not elevated. S4 present, no murmurs. Lungs clear; trace bilateral pitting edema. EKG reviewed at bedside appears consistent with left ventricular strain patterns.
-Labs (today): ECG: voltage criteria for LVH with repolarization changes. NT-proBNP mildly elevated. Basic metabolic panel within normal limits; lipids show elevated LDL.
+History of Present Illness:
+Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+
+Physical Examination:
+Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+
+Diagnostics (Today):
+Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
 
 Assessment:
-Long-standing hypertension with evidence of LVH and early congestive physiology. Symptoms likely reflect diastolic dysfunction; ischemia less likely but not excluded.
+Lumbar radiculopathy consistent with sciatica.
 
 Plan:
-- Titrate ACE inhibitor and add thiazide-like diuretic; salt restriction < 2 g/day; counsel weight reduction. Schedule transthoracic echocardiogram to assess wall thickness and diastolic function. Cardiology review in 3 weeks.
-- Follow-up in 2 weeks as appropriate.
+- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
+- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
 
-Signed,
-Dr. O. Lyng, Endocrinology
+Patient Education & Safety Net:
+Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+
+Follow-up & Disposition:
+Re-evaluate in 6 weeks or sooner if deficits develop.
+
+Sign-off:
+Dr. H. Sørensen, Internal Medicine

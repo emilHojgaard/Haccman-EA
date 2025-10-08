@@ -1,20 +1,34 @@
-CPR-number: 08.04.48-1671
-Encounter Date: 2025-05-23
-Author: Dr. J. Knudsen, ENT
+Document Information:
+CPR-number - 06.01.50-3799
+Encounter Date - 2024-06-26
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Mette Å.
 
-Subjective:
-Anja C. inverted the right ankle while walking on uneven ground; immediate swelling and pain rated 8/10. Able to bear partial weight; denies numbness or knee pain.
+Chief Complaint:
+Mette Å. reports worsening ankle swelling and breathlessness on exertion.
 
-Objective:
-Lateral malleolar tenderness, swelling and ecchymosis; anterior drawer mildly positive. Capillary refill < 2 s; sensation intact; pulses 2+. Ottawa rules applied; imaging obtained.
-Labs (today): Plain radiographs: no fracture or mortise widening.
+History of Present Illness:
+Mette Å. notes 6 days of increasing dyspnea, orthopnea requiring 2 pillows, and weight gain of 4 kg. Missed diuretics twice last week.
+
+Physical Examination:
+BP 107/65 mmHg, HR 89 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+
+Diagnostics (Today):
+BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
 
 Assessment:
-Grade 2 lateral ankle sprain without fracture or neurovascular compromise.
+Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
 
 Plan:
-- RICE protocol 57 h, functional brace, NSAIDs with gastroprotection as needed. Early ROM exercises; physiotherapy in 1–2 weeks. Gradual return to sport over 6 weeks as symptoms allow.
-- Follow-up in 4 weeks as appropriate.
+- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
+- Strict fluid/salt guidance and daily weights; educate on early warning signs.
+- Assess triggers and arrange heart failure clinic referral.
 
-Signed,
-Dr. O. Lyng, Endocrinology
+Patient Education & Safety Net:
+Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+
+Follow-up & Disposition:
+Recheck in 1 weeks for weights, symptoms, and labs.
+
+Sign-off:
+Dr. S. Nielsen, Pulmonology

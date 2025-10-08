@@ -1,20 +1,34 @@
-CPR-number: 02.04.87-9804
-Encounter Date: 2025-07-12
-Author: Dr. C. Dahl, Pulmonology
+Document Information:
+CPR-number - 22.12.06-1767
+Encounter Date - 2023-05-26
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Viggo S.
 
-Subjective:
-Peter Å. presents with 3 days of productive cough, pleuritic right-sided chest pain, and fevers with chills. Shortness of breath noted on climbing stairs; no hemoptysis. Recent viral contact at home.
+Chief Complaint:
+Viggo S. reports worsening ankle swelling and breathlessness on exertion.
 
-Objective:
-Temp 38.6°C, RR 25/min, SpO2 93% RA. Auscultation: focal crackles and bronchial breath sounds over RLL. No peripheral cyanosis; cardiovascular exam normal.
-Labs (today): CXR: right lower lobe consolidation. WBC 15×10⁹/L with left shift; CRP elevated. Renal function normal.
+History of Present Illness:
+Viggo S. notes 10 days of increasing dyspnea, orthopnea requiring 4 pillows, and weight gain of 2 kg. Missed diuretics twice last week.
+
+Physical Examination:
+BP 107/63 mmHg, HR 90 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+
+Diagnostics (Today):
+BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
 
 Assessment:
-Community-acquired pneumonia, likely typical bacterial etiology. CURB-65 low risk; outpatient therapy appropriate.
+Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
 
 Plan:
-- Start oral amoxicillin or doxycycline (if penicillin allergy). Emphasize hydration, antipyretics, and return precautions for worsening dyspnea. Re-assess in 48–72 hours; follow-up chest X-ray in 6–8 weeks if persistent symptoms.
-- Follow-up in 6 weeks as appropriate.
+- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
+- Strict fluid/salt guidance and daily weights; educate on early warning signs.
+- Assess triggers and arrange heart failure clinic referral.
 
-Signed,
-Dr. A. Kristoffersen, Infectious Diseases
+Patient Education & Safety Net:
+Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+
+Follow-up & Disposition:
+Recheck in 2 weeks for weights, symptoms, and labs.
+
+Sign-off:
+Dr. V. Laursen, Nephrology

@@ -1,20 +1,33 @@
-CPR-number: 25.04.92-8047
-Encounter Date: 2025-02-18
-Author: Dr. S. Nielsen, Emergency Medicine
+Document Information:
+CPR-number - 01.05.05-4903
+Encounter Date - 2025-09-10
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Carsten N.
 
-Subjective:
-Ida R. presents with pruritic, scaly plaques on elbows and knees, waxing and waning over years; stress exacerbates symptoms.
+Chief Complaint:
+Carsten N. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-Well-demarcated erythematous plaques with silvery scale on extensor surfaces; nails show pitting.
-Labs (today): No labs necessary for mild disease; screen for psoriatic arthritis symptoms.
+History of Present Illness:
+Symptoms began 3 days ago after sexual activity; no flank pain or fever. Prior UTI 16 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-Chronic plaque psoriasis, mild to moderate severity.
+Uncomplicated lower UTI.
 
 Plan:
-- Topical corticosteroids and vitamin D analogs; moisturizers; dermatology referral if inadequate response to topicals.
-- Follow-up in 4 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. R. Frandsen, Palliative Care
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 3 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. H. Sørensen, Internal Medicine

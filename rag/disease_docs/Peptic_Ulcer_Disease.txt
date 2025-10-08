@@ -1,30 +1,28 @@
-TITLE: Peptic Ulcer Disease
+Document Information:
+Disease - Peptic Ulcer Disease
+Date - 2024-04-03
+Responsible Department - Gastroenterology
 
 Overview:
-Peptic ulcers are sores in the stomach or duodenum most often due to H. pylori or NSAIDs. They can bleed or perforate if untreated.
+Peptic ulcers are sores in the stomach or duodenum that can cause burning pain. They may bleed if untreated.
 
 Causes and Risk Factors:
-- H. pylori infection, NSAIDs/aspirin
-- Smoking, severe stress (ICU), steroids with NSAIDs
+Infection with H. pylori and regular NSAID/aspirin use are common causes. Smoking and heavy alcohol increase risk.
 
 Common Symptoms:
-- Epigastric burning pain (meal-related), nausea, bloating
-- Occult bleeding or anemia in some
+Burning upper abdominal pain often related to meals, bloating, and nausea. Some people develop anemia or black stools.
 
 Diagnosis:
-- Endoscopy to confirm and treat complications
-- H. pylori testing (breath/stool/biopsy)
+Endoscopy confirms the ulcer and can treat bleeding. Non-invasive tests detect H. pylori infection.
 
 Treatment:
-- PPI therapy; eradicate H. pylori when positive
-- Stop NSAIDs or add gastroprotection if essential; iron if anemic
+Stomach acid medicines help healing; eradication therapy cures H. pylori. Stopping NSAIDs reduces recurrence.
 
 Self-Management and Lifestyle:
-- Avoid smoking/alcohol excess; smaller meals
-- Adherence to therapy and follow-up
+Avoid smoking and excess alcohol and take medicines exactly as prescribed. Eat smaller, more frequent meals if it helps.
 
 When to Seek Medical Help:
-- Vomiting blood, black stools, severe persistent pain
+Seek urgent help for vomiting blood, black stools, or severe persistent pain.
 
 Prognosis:
-High healing rates with modern therapy; recurrence if causes persist.
+Healing rates are high with modern therapy. Recurrence is uncommon once the cause is addressed.

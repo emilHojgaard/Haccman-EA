@@ -1,20 +1,33 @@
-CPR-number: 16.01.90-5441
-Encounter Date: 2025-05-05
-Author: Dr. H. Berg, Gastroenterology
+Document Information:
+CPR-number - 21.12.33-9203
+Encounter Date - 2025-02-03
+Author - Dr. R. Iversen, Neurology
+Patient Name - Nina G.
 
-Subjective:
-Tina S. experiences acute palpitations with exertional dyspnea and mild lightheadedness beginning earlier today. No prior history of arrhythmia; caffeine intake elevated recently.
+Chief Complaint:
+Nina G. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-Irregularly irregular rhythm; HR 127 bpm; BP variable. Lungs clear; no heart failure signs.
-Labs (today): ECG: atrial fibrillation; TSH and electrolytes to evaluate contributors. CHADS-VASc assessed.
+History of Present Illness:
+Symptoms began 3 days ago after sexual activity; no flank pain or fever. Prior UTI 8 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-New-onset atrial fibrillation—hemodynamically stable; requires rate control and thromboembolic risk assessment.
+Uncomplicated lower UTI.
 
 Plan:
-- Begin rate control (beta-blocker as appropriate), evaluate need for anticoagulation, cardiology follow-up for rhythm strategy.
-- Follow-up in 3 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. N. Kruse, Oncology
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 2 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. R. Iversen, Neurology

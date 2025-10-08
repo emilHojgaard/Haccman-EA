@@ -1,20 +1,33 @@
-CPR-number: 01.10.14-2843
-Encounter Date: 2025-05-19
-Author: Dr. I. Olesen, Nephrology
+Document Information:
+CPR-number - 07.07.30-2212
+Encounter Date - 2024-12-28
+Author - Dr. J. Knudsen, ENT
+Patient Name - Søren D.
 
-Subjective:
-Katrine R. reports shooting pain from lower back radiating down posterior leg, worsened by bending and coughing. No bowel or bladder dysfunction.
+Chief Complaint:
+Søren D. has dysuria, urinary frequency, and suprapubic discomfort.
 
-Objective:
-Positive straight leg raise on affected side; motor and reflexes largely intact.
-Labs (today): Imaging deferred initially; consider MRI if red flags or lack of improvement.
+History of Present Illness:
+Symptoms began 1 days ago after sexual activity; no flank pain or fever. Prior UTI 18 months ago.
+
+Physical Examination:
+Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+
+Diagnostics (Today):
+Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
 
 Assessment:
-Lumbar radiculopathy consistent with sciatica.
+Uncomplicated lower UTI.
 
 Plan:
-- NSAIDs, activity as tolerated, core-strengthening physiotherapy; consider neuropathic agents if severe. Reevaluate in 4–6 weeks.
-- Follow-up in 6 weeks as appropriate.
+- Start short-course antibiotic per local guidance; provide analgesia.
+- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
 
-Signed,
-Dr. O. Lyng, Endocrinology
+Patient Education & Safety Net:
+Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+
+Follow-up & Disposition:
+Phone check in 2 days if culture pending or symptoms persist.
+
+Sign-off:
+Dr. J. Knudsen, ENT

@@ -1,20 +1,34 @@
-CPR-number: 20.09.92-6745
-Encounter Date: 2025-02-02
-Author: Dr. F. Hansen, General Practice
+Document Information:
+CPR-number - 04.08.91-1554
+Encounter Date - 2024-06-05
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Maria B.
 
-Subjective:
-Frederik V. inverted the right ankle while walking on uneven ground; immediate swelling and pain rated 8/10. Able to bear partial weight; denies numbness or knee pain.
+Chief Complaint:
+Maria B. reports thirst, frequent urination, and blurred vision.
 
-Objective:
-Lateral malleolar tenderness, swelling and ecchymosis; anterior drawer mildly positive. Capillary refill < 2 s; sensation intact; pulses 2+. Ottawa rules applied; imaging obtained.
-Labs (today): Plain radiographs: no fracture or mortise widening.
+History of Present Illness:
+Maria B. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+
+Physical Examination:
+Vitals: BP 116/80 mmHg, HR 116 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+
+Diagnostics (Today):
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Grade 2 lateral ankle sprain without fracture or neurovascular compromise.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- RICE protocol 57 h, functional brace, NSAIDs with gastroprotection as needed. Early ROM exercises; physiotherapy in 1–2 weeks. Gradual return to sport over 6 weeks as symptoms allow.
-- Follow-up in 5 weeks as appropriate.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
-Signed,
-Dr. C. Dahl, Pulmonology
+Patient Education & Safety Net:
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+
+Follow-up & Disposition:
+Clinic follow-up in 3 weeks to assess response and review HbA1c.
+
+Sign-off:
+Dr. H. Sørensen, Internal Medicine

@@ -1,20 +1,34 @@
-CPR-number: 17.05.48-9255
-Encounter Date: 2025-02-05
-Author: Dr. M. Rasmussen, Orthopedics
+Document Information:
+CPR-number - 16.09.55-1365
+Encounter Date - 2025-09-29
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Anne J.
 
-Subjective:
-Thomas V. notes progressive exertional dyspnea and intermittent palpitations for 5 weeks, with reduced exercise capacity and occasional evening ankle swelling. Denies syncope or chest pressure but reports poor sleep and elevated stress.
+Chief Complaint:
+Anne J. complains of throbbing unilateral headache with nausea and light sensitivity.
 
-Objective:
-BP 167/105 mmHg, HR 91 bpm, RR 17/min. JVP not elevated. S4 present, no murmurs. Lungs clear; trace bilateral pitting edema. EKG reviewed at bedside appears consistent with left ventricular strain patterns.
-Labs (today): ECG: voltage criteria for LVH with repolarization changes. NT-proBNP mildly elevated. Basic metabolic panel within normal limits; lipids show elevated LDL.
+History of Present Illness:
+Headache started 20 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+
+Physical Examination:
+Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+
+Diagnostics (Today):
+Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
 
 Assessment:
-Long-standing hypertension with evidence of LVH and early congestive physiology. Symptoms likely reflect diastolic dysfunction; ischemia less likely but not excluded.
+Recurrent migraine without aura; current moderate–severe attack.
 
 Plan:
-- Titrate ACE inhibitor and add thiazide-like diuretic; salt restriction < 2 g/day; counsel weight reduction. Schedule transthoracic echocardiogram to assess wall thickness and diastolic function. Cardiology review in 3 weeks.
-- Follow-up in 3 weeks as appropriate.
+- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
+- Hydration and rest; consider preventive strategy review if attack frequency rising.
+- Provide rescue plan for future attacks.
 
-Signed,
-Dr. L. Holm, Cardiology
+Patient Education & Safety Net:
+Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+
+Follow-up & Disposition:
+Primary care/neurology follow-up in 3 weeks to evaluate need for prophylaxis.
+
+Sign-off:
+Dr. M. Petersen, Gastroenterology

@@ -1,20 +1,34 @@
-CPR-number: 13.06.68-4335
-Encounter Date: 2025-09-08
-Author: Dr. Q. Norup, Ophthalmology
+Document Information:
+CPR-number - 08.04.46-6171
+Encounter Date - 2024-05-05
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Sanne D.
 
-Subjective:
-Peter P. experiences acute palpitations with exertional dyspnea and mild lightheadedness beginning earlier today. No prior history of arrhythmia; caffeine intake elevated recently.
+Chief Complaint:
+Sanne D. complains of fever, productive cough, and right-sided chest pain.
 
-Objective:
-Irregularly irregular rhythm; HR 127 bpm; BP variable. Lungs clear; no heart failure signs.
-Labs (today): ECG: atrial fibrillation; TSH and electrolytes to evaluate contributors. CHADS-VASc assessed.
+History of Present Illness:
+Sanne D. developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+
+Physical Examination:
+Febrile (37.9 °C), RR 15/min, SpO₂ 100% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+
+Diagnostics (Today):
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-New-onset atrial fibrillation—hemodynamically stable; requires rate control and thromboembolic risk assessment.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Begin rate control (beta-blocker as appropriate), evaluate need for anticoagulation, cardiology follow-up for rhythm strategy.
-- Follow-up in 3 weeks as appropriate.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
-Signed,
-Dr. A. Kristoffersen, Infectious Diseases
+Patient Education & Safety Net:
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+
+Follow-up & Disposition:
+Safety check in 2 days if outpatient; clinical review in 2 weeks to ensure recovery.
+
+Sign-off:
+Dr. P. Jensen, Psychiatry

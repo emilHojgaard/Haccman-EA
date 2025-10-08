@@ -1,20 +1,33 @@
-CPR-number: 27.09.14-2496
-Encounter Date: 2025-10-02
-Author: Dr. K. Vester, Vascular Surgery
+Document Information:
+CPR-number - 07.01.55-3355
+Encounter Date - 2024-11-06
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Magnus W.
 
-Subjective:
-Jonas F. reports burning retrosternal discomfort after meals, regurgitation, and nocturnal heartburn for several months. Symptoms triggered by fatty/spicy foods; no dysphagia or weight loss.
+Chief Complaint:
+Magnus W. reports unilateral calf swelling after recent long-haul travel.
 
-Objective:
-Abdominal exam benign, BMI 27.3 kg/m². No pallor or cachexia.
-Labs (today): Trial of PPI appropriate; endoscopy considered if alarm features emerge. H. pylori testing if dyspepsia predominant.
+History of Present Illness:
+Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+
+Physical Examination:
+Calf circumference asymmetry 2 cm; warmth and tenderness present; no skin discoloration proximally.
+
+Diagnostics (Today):
+D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
 
 Assessment:
-Likely GERD without alarm signs.
+Suspected DVT with travel risk factor.
 
 Plan:
-- Start PPI daily 5 weeks, elevate head of bed, avoid late meals and dietary triggers. Reassess response; consider step-down therapy if controlled.
-- Follow-up in 6 weeks as appropriate.
+- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
+- Leg elevation and ambulation with caution; counsel on bleeding precautions.
 
-Signed,
-Dr. H. Berg, Gastroenterology
+Patient Education & Safety Net:
+Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+
+Follow-up & Disposition:
+Imaging today; treatment plan finalized same day or at next business day review.
+
+Sign-off:
+Dr. T. Bæk, Infectious Diseases
