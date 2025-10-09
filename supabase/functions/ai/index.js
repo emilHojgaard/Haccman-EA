@@ -53,27 +53,25 @@ function redactCPR(s) {
     .replace(/\b\d{10}\b/g, "**********");
 }
 
-if (fullTextSearch) {
-  Deno.serve(async (req) => {
-    if (req.method === "OPTIONS") {
-      return new Response("ok", { headers: corsHeaders });
+Deno.serve(async (req) => {
+  if (req.method === "OPTIONS") {
+    return new Response("ok", { headers: corsHeaders });
+  }
+
+  console.log("Request received");
+
+  try {
+    const { message, systemPrompt, guardrail, fullTextSearch } =
+      await req.json();
+
+    if (!OPENAI_API_KEY) {
+      return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
+        status: 500,
+        headers: { ...corsHeaders, "Content-Type": "application/json" },
+      });
     }
 
-    console.log("Request received");
-
-    try {
-      const { message, systemPrompt, guardrail } = await req.json();
-
-      if (!OPENAI_API_KEY) {
-        return new Response(
-          JSON.stringify({ error: "Missing OPENAI_API_KEY" }),
-          {
-            status: 500,
-            headers: { ...corsHeaders, "Content-Type": "application/json" },
-          }
-        );
-      }
-
+    if (fullTextSearch) {
       const { data: document, error: rpcErr } = await supabase.rpc(
         "full_text_search",
         {
@@ -129,39 +127,11 @@ if (fullTextSearch) {
       return new Response(
         JSON.stringify({
           aiMessage,
-          fullDocument,
-          doc_title,
+          document,
         }),
         { headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
-    } catch (e) {
-      return new Response(JSON.stringify({ error: String(e) }), {
-        status: 400,
-        headers: { ...corsHeaders, "Content-Type": "application/json" },
-      });
-    }
-  });
-} else {
-  Deno.serve(async (req) => {
-    if (req.method === "OPTIONS") {
-      return new Response("ok", { headers: corsHeaders });
-    }
-
-    console.log("Request received");
-
-    try {
-      const { message, systemPrompt, guardrail } = await req.json();
-
-      if (!OPENAI_API_KEY) {
-        return new Response(
-          JSON.stringify({ error: "Missing OPENAI_API_KEY" }),
-          {
-            status: 500,
-            headers: { ...corsHeaders, "Content-Type": "application/json" },
-          }
-        );
-      }
-
+    } else {
       // 1) Embed the user query
       const queryEmbedding = await embedWithOpenAI(message);
       console.log("Query embedding computed, len:", queryEmbedding.length);
@@ -260,11 +230,11 @@ if (fullTextSearch) {
         }),
         { headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
-    } catch (e) {
-      return new Response(JSON.stringify({ error: String(e) }), {
-        status: 400,
-        headers: { ...corsHeaders, "Content-Type": "application/json" },
-      });
     }
-  });
-}
+  } catch (e) {
+    return new Response(JSON.stringify({ error: String(e) }), {
+      status: 400,
+      headers: { ...corsHeaders, "Content-Type": "application/json" },
+    });
+  }
+});
