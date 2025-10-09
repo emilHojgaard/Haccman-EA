@@ -89,11 +89,13 @@ function Prompt(props) {
       const promptRow = await insertPrompt(sessionId, message);
 
       // 2.5) Full text vs chunk search
-      const fullTextWords = ["journal", "retrieve", "full text"];
+      const fullTextWords = ["journal1", "retrieve", "full text"];
       const partialWords = ["summarizes", "part"];
 
-      const fullTextSearch = (message) =>
+      const fullTextSearch =
         fullTextWords.includes(message) && !partialWords.includes(message);
+
+      console.log("full text search: ", fullTextSearch);
 
       // 3) Call Edge Function (OpenAI) to get reply
       const [responseText, sources, titles] = await sendPromptToAI(
