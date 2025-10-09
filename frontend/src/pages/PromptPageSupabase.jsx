@@ -88,11 +88,19 @@ function Prompt(props) {
       // 2) Insert prompt row in DB
       const promptRow = await insertPrompt(sessionId, message);
 
+      // 2.5) Full text vs chunk search
+      const fullTextWords = ["journal", "retrieve", "full text"];
+      const partialWords = ["summarizes", "part"];
+
+      const fullTextSearch = (message) =>
+        fullTextWords.includes(message) && !partialWords.includes(message);
+
       // 3) Call Edge Function (OpenAI) to get reply
       const [responseText, sources, titles] = await sendPromptToAI(
         message,
         systemPrompt,
-        guardrail
+        guardrail,
+        fullTextSearch
       );
 
       // 4) Insert AI response linked to that prompt
