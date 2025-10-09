@@ -84,7 +84,7 @@ Deno.serve(async (req) => {
           `full_text_search failed: ${rpcErr.message ?? JSON.stringify(rpcErr)}`
         );
       }
-      console.log("Retrieved document", document.doc_title);
+      console.log("Retrieved document", document[0].title);
 
       const body = {
         model: "gpt-4o-mini",
@@ -95,13 +95,28 @@ Deno.serve(async (req) => {
           {
             role: "system",
             content:
-              "You will receive DOC TITLE of the retrieved document and a USER question. The document will be given attached to the end of your answer. Give a reply message with the document. If you dont recieve DOC TITLE say: document not found",
+              `
+You are an assistant designed to respond to user questions based on retrieved document titles.
+
+You will receive:
+- A **DOC TITLE** (the name or topic of the retrieved document)
+- A **USER question**
+
+Your task:
+1. If the DOC TITLE is not empty, respond clearly and helpfully to the user using the information implied by the title.
+2. If the DOC TITLE is empty or missing, respond exactly with: "Document not found."
+3. Do **not** invent a title or hallucinate content that is not given.
+4. You may format your reply naturally, but keep it concise and factual.
+
+Now you will receive the DOC TITLE below.
+    `.trim(),
           },
-          { role: "system", content: `DOC TITLE:\n${doc_title}` },
+          { role: "system", content: `DOC TITLE:\n${document?.[0]?.title ?? ""}` },
           { role: "user", content: message },
         ],
       };
       console.log("the full prompt body is:", body);
+      console.log("the document is:", document[0].title);
 
       const r = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
@@ -159,8 +174,7 @@ Deno.serve(async (req) => {
       if (rpcErr) {
         console.error("RPC error:", rpcErr);
         throw new Error(
-          `hybrid_search_chunks_rrf failed: ${
-            rpcErr.message ?? JSON.stringify(rpcErr)
+          `hybrid_search_chunks_rrf failed: ${rpcErr.message ?? JSON.stringify(rpcErr)
           }`
         );
       }

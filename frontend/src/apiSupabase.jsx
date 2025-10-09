@@ -32,21 +32,28 @@ export async function sendPromptToAI(
     throw new Error(`AI function failed: ${resp.status} ${text}`);
   }
 
-  const { aiMessage, sources } = await resp.json();
-  console.log("context sources:", { sources });
+  if (fullTextSearch) {
+    const { aiMessage, document } = await resp.json();
+    console.log("context document:", { document });
+    console.log("the document title is:", document[0].title);
+    return [aiMessage, document, document[0].title];
+  } else {
+    const { aiMessage, sources } = await resp.json();
+    console.log("context sources:", { sources });
 
-  // Getting the titles of the sources
-  const docIds = [...new Set(sources.map((m) => m.doc_id))];
-  console.log("docIds are:", docIds);
-  const { data: docs, error: docErr } = await supabase
-    .schema("RAG")
-    .from("documents")
-    .select("id, title")
-    .in("id", docIds);
+    // Getting the titles of the sources
+    const docIds = [...new Set(sources.map((m) => m.doc_id))];
+    console.log("docIds are:", docIds);
+    const { data: docs, error: docErr } = await supabase
+      .schema("RAG")
+      .from("documents")
+      .select("id, title")
+      .in("id", docIds);
 
-  const titles = docs;
+    const titles = docs;
 
-  return [aiMessage, sources, titles];
+    return [aiMessage, sources, titles];
+  }
 }
 
 export async function startConversation(botId) {

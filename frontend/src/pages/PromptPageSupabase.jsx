@@ -108,8 +108,8 @@ function Prompt(props) {
       // 4) Insert AI response linked to that prompt
       await insertResponse(promptRow.id, responseText, sources);
 
-      // 5) Trigger post-processing (win check, etc.)
-      setSourceTitles(titles);
+      // // 5) Trigger post-processing (win check, etc.)
+      // setSourceTitles(titles);
       setResponse(responseText);
     } catch (err) {
       console.log("sendPrompt failed:", err);
