@@ -176,9 +176,9 @@ function fuzzyContains(text, targets, maxDist = 1) {
     return false;
 }
 
-/** journal-### extractor (1..150). */
+/** journal### extractor (1..150). */
 function extractJournalId(text) {
-    const m = /journal[- _]?(\d{1,3})\b/i.exec(text);
+    const m = /journal[_]?(\d{1,3})\b/i.exec(text);
     if (!m) return null;
     const id = parseInt(m[1], 10);
     return id >= 1 && id <= 150 ? id : null;
@@ -193,7 +193,7 @@ function extractNameInitial(text) {
 /** CPR: dd.mm.yy-xxxx OR 10 digits (your generated format). */
 function extractCPR(text) {
     const m1 = /\b\d{2}[.\-/ ]\d{2}[.\-/ ]\d{2}[- ]\d{4}\b/.exec(text);
-    const m2 = /\b\d{10}\b/.exec(text);
+    const m2 = /\b\d{6}\b[- ]\d{4}\b/.exec(text);
     return m1?.[0] || m2?.[0] || null;
 }
 
@@ -202,12 +202,12 @@ function extractCPR(text) {
  * - If you can pass real titles from DB, supply `knownTitles` (array of strings).
  * - Otherwise we fall back to broad medical/nursing keywords.
  */
-function matchKnownDocTitle(message, knownTitles = null) {
+function matchKnownDocTitle(message) {
     const nmsg = normalizeText(message);
 
     // Prefer dynamic, exact/fuzzy match against real titles if provided.
-    if (Array.isArray(knownTitles) && knownTitles.length) {
-        const normalizedTitles = knownTitles.map(normalizeText);
+    if (Array.isArray(allDocTitles) && allDocTitles.length) {
+        const normalizedTitles = allDocTitles.map(normalizeText);
         // exact phrase first
         for (const t of normalizedTitles) if (t && nmsg.includes(t)) return t;
         // fuzzy token fallback
@@ -256,9 +256,13 @@ export function detectIntent(message) {
 
     // Strong entity cues
     const journalId = extractJournalId(msg);
+
     const cpr = extractCPR(msg);
+
     const nameInit = extractNameInitial(msg);
+
     const knownDoc = matchKnownDocTitle(msg, allDocTitles);
+
 
     // Triggers (expanded + synonyms; fuzzy with small typos)
     const fullDocTriggers = [
@@ -278,29 +282,26 @@ export function detectIntent(message) {
     const wantsFull =
         fuzzyContains(nmsg, fullDocTriggers, 1) ||
         fuzzyContains(nmsg, retrieveTriggers, 1);
+    console.log("Wants full document:", wantsFull);
 
     const wantsSummary =
         fuzzyContains(nmsg, summaryTriggers, 2);
+
+    console.log("Wants summary:", wantsSummary);
 
     // ---------- Decision: favor "hybrid" ----------
     let mode = "hybrid";
 
     // Strongest: explicit identity OR doc match + explicit full
-    if ((journalId || cpr || nameInit) && wantsFull) {
+    if ((journalId || cpr || nameInit || knownDoc) && wantsFull) {
         mode = "full";
     }
-    // Next: explicit identity even without "full" (user likely wants that record)
-    else if (journalId || cpr || nameInit) {
-        mode = "full";
-    }
-    // Next: clear doc/topic + explicit full
-    else if (knownDoc && wantsFull) {
-        mode = "full";
-    }
+
     // Summary only if tied to a specific doc (journal id or known doc)
-    else if (wantsSummary && (journalId || knownDoc)) {
+    else if ((journalId || cpr || nameInit || knownDoc) && wantsSummary) {
         mode = "summary";
     }
+    console.log("journalId, cpr, nameInit, knownDoc:", journalId, cpr, nameInit, knownDoc);
     // Otherwise remain "hybrid"
 
     return {
