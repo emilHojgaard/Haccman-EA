@@ -93,6 +93,12 @@ function Prompt(props) {
         await sendPromptToAI(message, systemPrompt, guardrail);
       console.log("AI response mode:", mode);
       console.log("AI response text:", aiResponsetext);
+      console.log("AI response sources:", sources);
+      console.log("AI response titles:", titles);
+      console.log(
+        "doc_type:",
+        sources.map((s) => s.doc_type)
+      );
 
       // 4) Insert AI response linked to that prompt
       await insertResponse(promptRow.id, aiResponsetext, sources);

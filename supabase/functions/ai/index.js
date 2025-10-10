@@ -297,6 +297,7 @@ Your task:
           id: m.chunk_id,
           doc_id: m.doc_id,
           doc_title: m.doc_title,
+          doc_type: m.doc_type,
           embedding_score: m.embedding_score,
           keyword_score: m.keyword_score,
           rrf_score: m.rrf_score,
