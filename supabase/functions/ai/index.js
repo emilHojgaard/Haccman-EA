@@ -94,24 +94,26 @@ Deno.serve(async (req) => {
           ...(systemPrompt ? [{ role: "system", content: systemPrompt }] : []),
           {
             role: "system",
-            content:
-              `
-You are an assistant designed to respond to user questions based on retrieved document titles.
+            content: `
+You are an assistant designed to introduce a retrieved document.
 
 You will receive:
-- A **DOC TITLE** (the name or topic of the retrieved document)
+- A **DOC TITLE** (the name of the retrieved document)
 - A **USER question**
 
 Your task:
-1. If the DOC TITLE is not empty, respond clearly and helpfully to the user using the information implied by the title.
+1. If the DOC TITLE is NOT empty, write a short, polite introduction of the retrieved document based on the DOC TITLE and USER question.
+   - Do NOT say "Document not found".
+   - Do NOT expect to see the full text.
+   - Assume the document exists and will be shown to the user afterwards.
 2. If the DOC TITLE is empty or missing, respond exactly with: "Document not found."
 3. Do **not** invent a title or hallucinate content that is not given.
-4. You may format your reply naturally, but keep it concise and factual.
-
-Now you will receive the DOC TITLE below.
     `.trim(),
           },
-          { role: "system", content: `DOC TITLE:\n${document?.[0]?.title ?? ""}` },
+          {
+            role: "system",
+            content: `DOC TITLE:\n${document?.[0]?.title ?? ""}`,
+          },
           { role: "user", content: message },
         ],
       };
@@ -174,7 +176,8 @@ Now you will receive the DOC TITLE below.
       if (rpcErr) {
         console.error("RPC error:", rpcErr);
         throw new Error(
-          `hybrid_search_chunks_rrf failed: ${rpcErr.message ?? JSON.stringify(rpcErr)
+          `hybrid_search_chunks_rrf failed: ${
+            rpcErr.message ?? JSON.stringify(rpcErr)
           }`
         );
       }
