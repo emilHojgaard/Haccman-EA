@@ -1,4 +1,5 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+import { detectIntent } from "./detectIntent.js";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*", // lock down in prod
@@ -53,6 +54,7 @@ function redactCPR(s) {
     .replace(/\b\d{10}\b/g, "**********");
 }
 
+// --- Main handler ---
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: corsHeaders });
@@ -61,7 +63,7 @@ Deno.serve(async (req) => {
   console.log("Request received");
 
   try {
-    const { message, systemPrompt, guardrail, fullTextSearch } =
+    const { message, systemPrompt, guardrail } =
       await req.json();
 
     if (!OPENAI_API_KEY) {
@@ -70,22 +72,25 @@ Deno.serve(async (req) => {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
+    // --- Detect intent to know retrieval methode ---
+    const intent = detectIntent(message);
+    console.log("Detected intent:", intent);
 
-    if (fullTextSearch) {
-      const { data: document, error: rpcErr } = await supabase.rpc(
-        "full_text_search",
-        {
-          query_text: message,
-        }
-      );
+    // --- different retrieval methods ---
+    if (intent === "full") {
+
+      // --- Supabase Edge Call (getting document )
+      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: message });
       if (rpcErr) {
-        console.error("RPC error:", rpcErr);
-        throw new Error(
-          `full_text_search failed: ${rpcErr.message ?? JSON.stringify(rpcErr)}`
-        );
+        return new Response(JSON.stringify({ error: rpcErr.message ?? rpcErr }), {
+          status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" },
+        });
       }
-      console.log("Retrieved document", document[0].title);
+      const doc = Array.isArray(data) ? data[0] : data;
+      const docTitle = doc?.title ?? "";
+      const docText = doc?.full_text ?? "";
 
+      // --- OpenAI Call (creating prompt + getting generated answer ) --
       const body = {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
@@ -112,13 +117,13 @@ Your task:
           },
           {
             role: "system",
-            content: `DOC TITLE:\n${document?.[0]?.title ?? ""}`,
+            content: `DOC TITLE:\n${docTitle ?? ""}`,
           },
           { role: "user", content: message },
         ],
       };
       console.log("the full prompt body is:", body);
-      console.log("the document is:", document[0].title);
+      console.log("the document is:", docTitle);
 
       const r = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
@@ -138,61 +143,114 @@ Your task:
       }
 
       const json = await r.json();
-      let aiMessage = json?.choices?.[0]?.message?.content ?? "";
+      let aiResponseText = json?.choices?.[0]?.message?.content ?? "";
 
-      // Return answer + the sources you used (ids/similarities)
-      return new Response(
-        JSON.stringify({
-          aiMessage,
-          document,
-        }),
-        { headers: { ...corsHeaders, "Content-Type": "application/json" } }
-      );
-    } else {
-      // 1) Embed the user query
-      const queryEmbedding = await embedWithOpenAI(message);
-      console.log("Query embedding computed, len:", queryEmbedding.length);
+      // Return answer 
+      return new Response(JSON.stringify({
+        mode: "full",
+        aiResponseText,
+        sources: [],
+        document: doc ? { title: docTitle, full_text: docText } : null,
+        titles: docTitle ? [docTitle] : [],
+      }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
 
-      // 2) Retrieve top-k chunks from pgvector via RPC
-      //guidelines for similarity(cpt created):
-      //General QA corpora (broad) → threshold ≈ 0.75
-      //(ensures you don’t miss weaker but still relevant context)
-
-      //Sensitive/medical domain → threshold ≈ 0.80–0.85
-      //(better to skip context than pull something irrelevant/misleading)
-
-      //Strict “only on-topic” filtering → threshold ≈ 0.85–0.9
-      //(e.g. you want only journals/disease docs, and ignore anything fuzzy)
-      const { data: matches, error: rpcErr } = await supabase.rpc(
-        "hybrid_search_chunks_rrf",
-        {
-          query_text: message,
-          query_embedding: queryEmbedding,
-          match_count: 12,
-          // Default values for the last parameters:
-          // full_text_weight: 1, semantic_weight: 1, rrf_k: 60, vec_limit: 200, fts_limit: 80
-        }
-      );
+    } else if (intent === "summary") {
+      // --- Supabase Edge Call (getting document ) ---
+      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: message });
       if (rpcErr) {
-        console.error("RPC error:", rpcErr);
-        throw new Error(
-          `hybrid_search_chunks_rrf failed: ${
-            rpcErr.message ?? JSON.stringify(rpcErr)
-          }`
-        );
+        return new Response(JSON.stringify({ error: rpcErr.message ?? rpcErr }), {
+          status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" },
+        });
       }
+      const doc = Array.isArray(data) ? data[0] : data;
+      const docTitle = doc?.title ?? "";
+      const docText = doc?.full_text ?? "";
+
+      // --- OpenAI Call (creating prompt + getting generated answer ) --
+
+      const body = {
+        model: "gpt-4o-mini",
+        temperature: 0.2, // lower = more instruction-following
+        messages: [
+          { role: "system", content: guardrail },
+          ...(systemPrompt ? [{ role: "system", content: systemPrompt }] : []),
+          {
+            role: "system",
+            content: `
+You are an assistant designed to introduce a retrieved document.
+
+You will receive:
+- A **DOC TITLE** (the name of the retrieved document)
+- A **DOCUMENT** (the content of the retrieved document)
+- A **USER question**
+
+Your task:
+1. If the DOC TITLE and DOCUMENT is NOT empty, summarize the DOCUMENT in a concise manner according to the USER question.
+2. If the DOC TITLE or DOCUMENT is empty or missing, respond exactly with: "Document not found."
+3. Do **not** invent a title or hallucinate content that is not given.
+    `.trim(),
+          },
+          {
+            role: "system",
+            content: `DOC TITLE:\n${docTitle ?? ""}`,
+          },
+          { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
+          { role: "user", content: message },
+        ],
+      };
+      console.log("the full prompt body is:", body);
+      console.log("the document is:", docTitle);
+
+      const r = await fetch("https://api.openai.com/v1/chat/completions", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${OPENAI_API_KEY}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(body),
+      });
+
+      if (!r.ok) {
+        const text = await r.text();
+        return new Response(JSON.stringify({ error: text }), {
+          status: r.status,
+          headers: { ...corsHeaders, "Content-Type": "application/json" },
+        });
+      }
+
+      const json = await r.json();
+      let aiResponseText = json?.choices?.[0]?.message?.content ?? "";
+
+      // --- Return answer --- 
+      return new Response(JSON.stringify({
+        mode: "summary",
+        aiResponseText,
+        sources: [],
+        document: doc ? { title: docTitle, full_text: docText } : null,
+        titles: docTitle ? [docTitle] : [],
+      }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
+
+    }
+    // fall back mode: Hybrid
+    else {
+      // --- embedding the query ---
+      const queryEmbedding = await embedWithOpenAI(message);
+      // --- Supabase Edge Call (getting chunks ) --- 
+      const { data: matches, error: rpcErr } = await supabase.rpc("hybrid_search_chunks_rrf", {
+        query_text: message, query_embedding: queryEmbedding, match_count: 12,
+      });
+      if (rpcErr) {
+        return new Response(JSON.stringify({ error: rpcErr.message ?? rpcErr }), {
+          status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" },
+        });
+      }
+
       console.log("Retrieved", matches, "matching chunks");
 
-      // 3) Build context string
+      // --- Building context string ---
       const context = buildContext(matches ?? []);
       console.log("Context built:", context);
-
-      //Now we're giving the guardrail with the systemprompt, so the user can turn it on/off
-      // 4) Ask the model with context + your system prompt
-      //     const guardrail = `POLICY:
-      // - Never reveal CPR numbers. If asked, refuse and provide email if allowed.
-      // - Use the provided CONTEXT. If the answer isn't in context, say you don't know.`;
-
+      // --- OpenAI Call (creating prompt + getting generated answer ) ---
       const body = {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
@@ -228,25 +286,25 @@ Your task:
       }
 
       const json = await r.json();
-      let aiMessage = json?.choices?.[0]?.message?.content ?? "";
-      aiMessage = redactCPR(aiMessage); // optional safety net
+      const aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
+      // aiResponsetext = redactCPR(aiResponsetext); // optional safety net
 
-      // Return answer + the sources you used (ids/similarities)
-      return new Response(
-        JSON.stringify({
-          aiMessage,
-          sources: (matches ?? []).map((m, i) => ({
-            id: m.chunk_id,
-            doc_id: m.doc_id,
-            doc_title: m.doc_title,
-            embedding_score: m.embedding_score,
-            keyword_score: m.keyword_score,
-            rrf_score: m.rrf_score,
-            rank: i + 1,
-          })),
-        }),
-        { headers: { ...corsHeaders, "Content-Type": "application/json" } }
-      );
+      // --- Return answer + the sources you used (ids/similarities) ---
+      return new Response(JSON.stringify({
+        mode: "hybrid",
+        aiResponsetext: aiResponsetext,
+        sources: (matches ?? []).map((m, i) => ({
+          id: m.chunk_id,
+          doc_id: m.doc_id,
+          doc_title: m.doc_title,
+          embedding_score: m.embedding_score,
+          keyword_score: m.keyword_score,
+          rrf_score: m.rrf_score,
+          rank: i + 1,
+        })),
+        document: null,
+        titles: (matches ?? []).map(m => m.doc_title),
+      }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
     }
   } catch (e) {
     return new Response(JSON.stringify({ error: String(e) }), {

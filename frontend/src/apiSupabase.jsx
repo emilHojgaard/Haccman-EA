@@ -5,12 +5,7 @@ const FN_URL =
   (import.meta.env ? import.meta.env.VITE_SUPABASE_URL : undefined) ||
   "https://yqroigcevcoddsmangyg.supabase.co";
 
-export async function sendPromptToAI(
-  message,
-  systemPrompt,
-  guardrail,
-  fullTextSearch
-) {
+export async function sendPromptToAI(message, systemPrompt, guardrail) {
   const {
     data: { session },
   } = await supabase.auth.getSession();
@@ -24,36 +19,16 @@ export async function sendPromptToAI(
         ? { Authorization: `Bearer ${session.access_token}` }
         : {}),
     },
-    body: JSON.stringify({ message, systemPrompt, guardrail, fullTextSearch }),
+    body: JSON.stringify({ message, systemPrompt, guardrail }),
   });
 
   if (!resp.ok) {
     const text = await resp.text();
     throw new Error(`AI function failed: ${resp.status} ${text}`);
   }
+  const { mode, aiResponsetext, sources, document, titles } = await resp.json();
 
-  if (fullTextSearch) {
-    const { aiMessage, document } = await resp.json();
-    console.log("context document:", { document });
-    console.log("the document title is:", document[0].title);
-    return [aiMessage, document, document[0].title];
-  } else {
-    const { aiMessage, sources } = await resp.json();
-    console.log("context sources:", { sources });
-
-    // Getting the titles of the sources
-    const docIds = [...new Set(sources.map((m) => m.doc_id))];
-    console.log("docIds are:", docIds);
-    const { data: docs, error: docErr } = await supabase
-      .schema("RAG")
-      .from("documents")
-      .select("id, title")
-      .in("id", docIds);
-
-    const titles = docs;
-
-    return [aiMessage, sources, titles];
-  }
+  return { mode, aiResponsetext, sources, document, titles };
 }
 
 export async function startConversation(botId) {

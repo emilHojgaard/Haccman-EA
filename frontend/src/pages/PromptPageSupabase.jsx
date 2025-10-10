@@ -88,31 +88,30 @@ function Prompt(props) {
       // 2) Insert prompt row in DB
       const promptRow = await insertPrompt(sessionId, message);
 
-      // 2.5) Full text vs chunk search
-      const fullTextWords = ["journal1", "retrieve", "full text"];
-      const partialWords = ["summarizes", "part"];
-
-      const fullTextSearch =
-        fullTextWords.includes(message) && !partialWords.includes(message);
-
-      console.log("full text search: ", fullTextSearch);
-
       // 3) Call Edge Function (OpenAI) to get reply
-      const [responseText, sources, titles] = await sendPromptToAI(
-        message,
-        systemPrompt,
-        guardrail,
-        fullTextSearch
-      );
+      const { mode, aiResponsetext, sources, document, titles } =
+        await sendPromptToAI(message, systemPrompt, guardrail);
+      console.log("AI response mode:", mode);
+      console.log("AI response text:", aiResponsetext);
 
       // 4) Insert AI response linked to that prompt
-      await insertResponse(promptRow.id, responseText, sources);
+      await insertResponse(promptRow.id, aiResponsetext, sources);
+      console.log("Inserted AI response into DB");
 
       // // 5) Trigger post-processing (win check, etc.)
       // setSourceTitles(titles);
-      setResponse(responseText);
+      setResponse(aiResponsetext);
     } catch (err) {
-      console.log("sendPrompt failed:", err);
+      console.groupCollapsed();
+      console.error("Error message:", err?.message ?? err);
+      console.error("Error stack:", err?.stack ?? "(no stack trace)");
+      console.error("Error type:", err?.name ?? "(unknown)");
+      console.error("Session ID:", sessionId);
+      console.error("Selected bot:", selectedBot);
+      console.error("Selected task:", selectedTask?.title ?? selectedTask);
+      console.error("Guardrail active:", Boolean(guardrail));
+      console.error("User message:", message);
+      console.groupEnd();
     }
   };
 
