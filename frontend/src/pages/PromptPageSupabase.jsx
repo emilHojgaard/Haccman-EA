@@ -100,6 +100,9 @@ function Prompt(props) {
         sources.map((s) => s.doc_type)
       );
 
+      // setting source titles for refferencing
+      setSourceTitles(titles || []);
+      console.log("sourceTitles:", sourceTitles);
       // 4) Insert AI response linked to that prompt
       await insertResponse(promptRow.id, aiResponsetext, sources);
       console.log("Inserted AI response into DB");
@@ -108,16 +111,7 @@ function Prompt(props) {
       // setSourceTitles(titles);
       setResponse(aiResponsetext);
     } catch (err) {
-      console.groupCollapsed();
       console.error("Error message:", err?.message ?? err);
-      console.error("Error stack:", err?.stack ?? "(no stack trace)");
-      console.error("Error type:", err?.name ?? "(unknown)");
-      console.error("Session ID:", sessionId);
-      console.error("Selected bot:", selectedBot);
-      console.error("Selected task:", selectedTask?.title ?? selectedTask);
-      console.error("Guardrail active:", Boolean(guardrail));
-      console.error("User message:", message);
-      console.groupEnd();
     }
   };
 
