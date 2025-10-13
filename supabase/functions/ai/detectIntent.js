@@ -1,3 +1,6 @@
+/***********************
+ * 1) Static data
+ ***********************/
 const diseaseDocsList = ["Acute_Cholecystitis",
     "Acute_Coronary_Syndrome__NSTEMI_Unstable_Angina_",
     "Acute_Kidney_Injury__AKI_",
@@ -28,7 +31,8 @@ const diseaseDocsList = ["Acute_Cholecystitis",
     "Spontaneous_Pneumothorax",
     "Upper_Gastrointestinal_Bleed__UGIB_",
     "Viral_Gastroenteritis__Stomach_Flu_"
-]
+];
+
 const nursingGuidelinesList = [
     "Acute_Cholecystitis",
     "Acute_Coronary_Syndrome__NSTEMI_UA_",
@@ -60,7 +64,8 @@ const nursingGuidelinesList = [
     "Spontaneous_Pneumothorax",
     "Upper_Gastrointestinal_Bleed__UGIB_",
     "Viral_Gastroenteritis__Adult_"
-]
+];
+
 const nursingTasksList = [
     "12_Lead_ECG_Acquisition",
     "Blood_Glucose_Monitoring__POC_",
@@ -83,7 +88,8 @@ const nursingTasksList = [
     "Transfusion_Administration__Packed_RBCs_",
     "Urinary_Catheterization__Indwelling__Aseptic_Technique_",
     "Wound_Care__Simple_Surgical___Traumatic_",
-]
+];
+
 const medicalGuidelinesList = [
     "Acute_Cholecystitis",
     "Acute_Coronary_Syndrome__NSTEMI_Unstable_Angina_",
@@ -117,9 +123,15 @@ const medicalGuidelinesList = [
     "Viral_Gastroenteritis__Adult_"
 ];
 
-const allDocTitles = diseaseDocsList.concat(nursingGuidelinesList, nursingTasksList, medicalGuidelinesList);
+const allDocTitles = diseaseDocsList.concat(
+    nursingGuidelinesList,
+    nursingTasksList,
+    medicalGuidelinesList
+);
 
-/** Normalize text for robust matching (case + accents). */
+/***********************
+ * 2) Utilities (fast)
+ ***********************/
 function normalizeText(s) {
     return (s || "")
         .toLowerCase()
@@ -127,184 +139,241 @@ function normalizeText(s) {
         .replace(/\p{Diacritic}/gu, ""); // Søren -> soren
 }
 
-/** Small Levenshtein edit distance (good for short keywords). */
-function levenshtein(a, b) {
+/** Tokenize once; keep alpha/num/æøå */
+function tokenize(s) {
+    return normalizeText(s).split(/[^a-z0-9æøå]+/i).filter(Boolean);
+}
+
+/** Levenshtein with early-exit band (cutoff) */
+function levenshteinCapped(a, b, maxDist = 2) {
     a = normalizeText(a); b = normalizeText(b);
     const m = a.length, n = b.length;
+    if (Math.abs(m - n) > maxDist) return maxDist + 1;
     if (m === 0) return n;
     if (n === 0) return m;
-    const dp = Array.from({ length: m + 1 }, (_, i) => new Array(n + 1).fill(0));
-    for (let i = 0; i <= m; i++) dp[i][0] = i;
-    for (let j = 0; j <= n; j++) dp[0][j] = j;
+
+    const prev = new Array(n + 1);
+    const curr = new Array(n + 1);
+    for (let j = 0; j <= n; j++) prev[j] = j;
+
     for (let i = 1; i <= m; i++) {
-        for (let j = 1; j <= n; j++) {
+        const lo = Math.max(1, i - maxDist);
+        const hi = Math.min(n, i + maxDist);
+
+        curr[lo - 1] = Infinity;
+        curr[lo] = Math.min(
+            prev[lo] + 1,
+            (lo > 1 ? curr[lo - 1] : i) + 1,
+            prev[lo - 1] + (a[i - 1] === b[lo - 1] ? 0 : 1)
+        );
+
+        let rowMin = curr[lo];
+
+        for (let j = lo + 1; j <= hi; j++) {
             const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-            dp[i][j] = Math.min(
-                dp[i - 1][j] + 1,       // deletion
-                dp[i][j - 1] + 1,       // insertion
-                dp[i - 1][j - 1] + cost // substitution
-            );
+            const del = prev[j] + 1;
+            const ins = curr[j - 1] + 1;
+            const sub = prev[j - 1] + cost;
+            const val = Math.min(del, ins, sub);
+            curr[j] = val;
+            if (val < rowMin) rowMin = val;
         }
+
+        if (rowMin > maxDist) return maxDist + 1;
+        for (let j = 0; j <= n; j++) prev[j] = curr[j] ?? Infinity;
     }
-    return dp[m][n];
+    return prev[n];
 }
 
 /**
- * Approximate “contains”:
- * 1) exact substring of any target
- * 2) OR word-level fuzzy match within maxDist edits
+ * Fast fuzzyContains using:
+ *  - exact substring of pre-normalized phrases
+ *  - token-level fuzzy on a small token cap with capped Levenshtein
  */
-function fuzzyContains(text, targets, maxDist = 1) {
-    const t = normalizeText(text);
-    // exact phrase fast-path
-    for (const phrase of targets) {
-        const p = normalizeText(phrase);
-        if (p && t.includes(p)) return true;
+function fuzzyContainsTokens(nmsg, tokens, normalizedTargets, maxDist = 1, opts = {}) {
+    const { maxTokens = 80, minTokenLen = 3, maxTokenLen = 40 } = opts;
+
+    // Exact phrase first
+    for (const p of normalizedTargets) {
+        if (p && nmsg.includes(p)) return true;
     }
-    // token-level fuzzy fallback
-    const tokens = t.split(/[^a-z0-9æøå]+/i).filter(Boolean);
-    for (const phrase of targets) {
-        const p = normalizeText(phrase);
+
+    // Prepare limited tokens
+    const toks = [];
+    for (const t of tokens) {
+        if (t.length >= minTokenLen && t.length <= maxTokenLen) {
+            toks.push(t);
+            if (toks.length >= maxTokens) break;
+        }
+    }
+
+    // Fuzzy fallback
+    for (const p of normalizedTargets) {
         if (!p) continue;
-        for (const tok of tokens) {
-            if (Math.abs(tok.length - p.length) <= maxDist &&
-                levenshtein(tok, p) <= maxDist) {
-                return true;
-            }
+        const plen = p.length;
+        for (const tok of toks) {
+            if (Math.abs(tok.length - plen) > maxDist) continue;
+            if (maxDist === 1 && tok[0] !== p[0]) continue; // micro filter
+            if (levenshteinCapped(tok, p, maxDist) <= maxDist) return true;
         }
     }
     return false;
 }
 
-/** journal### extractor (1..150). */
-function extractJournalId(text) {
-    const m = /journal[_]?(\d{1,3})\b/i.exec(text);
+/***********************
+ * 3) Precompute caches
+ ***********************/
+
+// Normalize all titles once, and also bucket them by first char + length
+const normalizedTitles = allDocTitles.map(t => normalizeText(t));
+// quick exact lookup
+const normTitleSet = new Set(normalizedTitles);
+
+// length/first-letter buckets to reduce fuzzy comparisons
+const titleBuckets = new Map(); // key = `${firstChar}:${len}`, value = array of normalized titles
+for (const t of normalizedTitles) {
+    if (!t) continue;
+    const key = `${t[0] || "_"}:${t.length}`;
+    if (!titleBuckets.has(key)) titleBuckets.set(key, []);
+    titleBuckets.get(key).push(t);
+}
+
+// Normalize trigger lists once
+const fullDocTriggers = [
+    "full", "entire", "whole", "complete", "all pages", "full text",
+    "complete record", "full record", "entire record", "patient record",
+    "full journal", "entire journal", "whole journal", "show all",
+    "print", "download", "export", "open full", "open entire"
+].map(normalizeText);
+
+const retrieveTriggers = [
+    "retrieve", "fetch", "open", "display", "show", "access", "load"
+].map(normalizeText);
+
+const summaryTriggers = [
+    "summarize", "summarise", "summary", "tl;dr", "brief", "briefly",
+    "overview", "synopsis", "outline", "digest", "recap", "short version"
+].map(normalizeText);
+
+// Broad category keywords (fallback)
+const categoryPhrases = [
+    "disease", "diseases", "condition", "conditions",
+    "guideline", "guidelines", "medical guideline", "nursing guideline",
+    "nursing task", "task",
+    "sepsis", "asthma", "copd", "ckd", "aki", "dka", "pneumonia",
+    "pulmonary embolism", "pe", "migraine", "heart failure", "stroke",
+    "appendicitis", "cellulitis", "pyelonephritis", "ulcerative colitis",
+    "hypertension", "osteoarthritis", "covid",
+    "upper gi bleed", "ugib", "anaphylaxis",
+    "oxygen therapy", "ecg", "iv cannulation", "pressure injury",
+    "wound care", "blood glucose", "nasogastric", "enteral feeding",
+    "transfusion", "rapid response", "specimen collection"
+].map(normalizeText);
+
+/***********************
+ * 4) Entity extractors
+ ***********************/
+export function extractJournalId(text) {
+    const re = /\b(?:journal|jornal|jurnal|jouranl|jorunal|journel|journl)[-_ ]?(\d{1,3})\b/i;
+    const m = re.exec(text);
     if (!m) return null;
     const id = parseInt(m[1], 10);
     return id >= 1 && id <= 150 ? id : null;
 }
 
-/** FirstName + single-letter initial, e.g. "Thomas R." */
 function extractNameInitial(text) {
-    const m = /\b([A-ZÆØÅ][a-zæøå]+)\s([A-ZÆØÅ])\.\b/.exec(text);
+    const re = /(?:^|[^\p{L}])([\p{Lu}][\p{Ll}]+)\s([\p{Lu}])\.(?=\s|$)/u;
+    const m = re.exec(text);
     return m ? { first: m[1], initial: m[2] } : null;
 }
 
-/** CPR: dd.mm.yy-xxxx OR 10 digits (your generated format). */
+
+
 function extractCPR(text) {
+    // dd.mm.yy-xxxx, dd-mm-yy-xxxx, dd/mm/yy-xxxx, or 10 digits together
     const m1 = /\b\d{2}[.\-/ ]\d{2}[.\-/ ]\d{2}[- ]\d{4}\b/.exec(text);
-    const m2 = /\b\d{6}\b[- ]\d{4}\b/.exec(text);
+    const m2 = /\b\d{6}[- ]?\d{4}\b/.exec(text);
     return m1?.[0] || m2?.[0] || null;
 }
 
+/***********************
+ * 5) Fast known-title match
+ ***********************/
 /**
- * Detect a known document by title/category.
- * - If you can pass real titles from DB, supply `knownTitles` (array of strings).
- * - Otherwise we fall back to broad medical/nursing keywords.
+ * Tries to match a known document title inside the message.
+ * Strategy:
+ *  1) Exact phrase on normalized message (fast)
+ *  2) Fuzzy token ~ title with capped Levenshtein, but only against a small
+ *     candidate set picked by first letter and length±2.
  */
-function matchKnownDocTitle(message) {
-    const nmsg = normalizeText(message);
+function matchKnownDocTitleFast(nmsg, tokens, maxDist = 2) {
+    // exact phrase
+    for (const t of normalizedTitles) {
+        if (t && nmsg.includes(t)) return t;
+    }
 
-    // Prefer dynamic, exact/fuzzy match against real titles if provided.
-    if (Array.isArray(allDocTitles) && allDocTitles.length) {
-        const normalizedTitles = allDocTitles.map(normalizeText);
-        // exact phrase first
-        for (const t of normalizedTitles) if (t && nmsg.includes(t)) return t;
-        // fuzzy token fallback
-        const tokens = nmsg.split(/[^a-z0-9æøå]+/i).filter(Boolean);
-        for (const t of normalizedTitles) {
-            for (const tok of tokens) {
-                if (Math.abs(tok.length - t.length) <= 2 && levenshtein(tok, t) <= 2) {
-                    return t;
-                }
-            }
+    // candidate shortlist from buckets
+    const shortlist = new Set();
+    for (const tok of tokens) {
+        if (!tok) continue;
+        for (let len = tok.length - maxDist; len <= tok.length + maxDist; len++) {
+            if (len <= 0) continue;
+            const key = `${tok[0] || "_"}:${len}`;
+            const arr = titleBuckets.get(key);
+            if (arr) for (const cand of arr) shortlist.add(cand);
         }
     }
 
-    // Fallback: broad keywords that map to your disease/guideline/task sets.
-    const categoryPhrases = [
-        // categories
-        "disease", "diseases", "condition", "conditions",
-        "guideline", "guidelines", "medical guideline", "nursing guideline",
-        "nursing task", "task",
-        // common topics from your lists (add more as needed)
-        "sepsis", "asthma", "copd", "ckd", "aki", "dka", "pneumonia",
-        "pulmonary embolism", "pe", "migraine", "heart failure", "stroke",
-        "appendicitis", "cellulitis", "pyelonephritis", "ulcerative colitis",
-        "hypertension", "osteaoarthritis", "osteoarthritis", "covid",
-        "upper gi bleed", "ugib", "anaphylaxis",
-        // nursing tasks (samples)
-        "oxygen therapy", "ecg", "iv cannulation", "pressure injury",
-        "wound care", "blood glucose", "nasogastric", "enteral feeding",
-        "transfusion", "rapid response", "specimen collection"
-    ];
-    return fuzzyContains(nmsg, categoryPhrases, 2) ? "category-match" : null;
+    // fuzzy check only on shortlist
+    for (const cand of shortlist) {
+        for (const tok of tokens) {
+            if (Math.abs(tok.length - cand.length) > maxDist) continue;
+            if (maxDist === 1 && tok[0] !== cand[0]) continue;
+            if (levenshteinCapped(tok, cand, maxDist) <= maxDist) return cand;
+        }
+    }
+
+    // broad category fallback
+    if (fuzzyContainsTokens(nmsg, tokens, categoryPhrases, 2)) return "category-match";
+
+    return null;
 }
 
-/**
- * Main intent detector.
- * Returns:
- *   { mode: "hybride" | "full" | "summary",
- *     hint: { journalId, cpr, nameInitial, knownDoc } }
- *
- * Policy: default to "hybride" (chunk/RRF). Only switch to "full" or "summary"
- * when there is a strong, specific signal.
- */
+/***********************
+ * 6) Public API
+ ***********************/
 export function detectIntent(message) {
     const msg = message || "";
     const nmsg = normalizeText(msg);
+    const tokens = tokenize(msg);
 
-    // Strong entity cues
+    // Entities
     const journalId = extractJournalId(msg);
-
     const cpr = extractCPR(msg);
-
     const nameInit = extractNameInitial(msg);
+    const knownDoc = matchKnownDocTitleFast(nmsg, tokens, 2);
 
-    const knownDoc = matchKnownDocTitle(msg, allDocTitles);
+    console.log("journalId:", journalId);
+    console.log("cpr:", cpr);
+    console.log("nameInit:", nameInit);
+    console.log("knownDoc:", knownDoc);
 
-
-    // Triggers (expanded + synonyms; fuzzy with small typos)
-    const fullDocTriggers = [
-        "full", "entire", "whole", "complete", "all pages", "full text",
-        "complete record", "full record", "entire record", "patient record",
-        "full journal", "entire journal", "whole journal", "show all",
-        "print", "download", "export", "open full", "open entire"
-    ];
-    const retrieveTriggers = [
-        "retrieve", "fetch", "open", "display", "show", "access", "load"
-    ];
-    const summaryTriggers = [
-        "summarize", "summarise", "summary", "tl;dr", "brief", "briefly",
-        "overview", "synopsis", "outline", "digest", "recap", "short version"
-    ];
-
+    // Triggers (use pre-normalized lists)
     const wantsFull =
-        fuzzyContains(nmsg, fullDocTriggers, 1) ||
-        fuzzyContains(nmsg, retrieveTriggers, 1);
-    console.log("Wants full document:", wantsFull);
-
+        fuzzyContainsTokens(nmsg, tokens, fullDocTriggers, 1) ||
+        fuzzyContainsTokens(nmsg, tokens, retrieveTriggers, 1);
+    console.log("wantsFull:", wantsFull);
     const wantsSummary =
-        fuzzyContains(nmsg, summaryTriggers, 2);
+        fuzzyContainsTokens(nmsg, tokens, summaryTriggers, 2);
+    console.log("wantsSummary:", wantsSummary);
 
-    console.log("Wants summary:", wantsSummary);
-
-    // ---------- Decision: favor "hybrid" ----------
+    // Decision (favor "hybrid")
     let mode = "hybrid";
-
-    // Strongest: explicit identity OR doc match + explicit full
     if ((journalId || cpr || nameInit || knownDoc) && wantsFull) {
         mode = "full";
-    }
-
-    // Summary only if tied to a specific doc (journal id or known doc)
-    else if ((journalId || cpr || nameInit || knownDoc) && wantsSummary) {
+    } else if ((journalId || knownDoc) && wantsSummary) {
         mode = "summary";
     }
-    console.log("journalId, cpr, nameInit, knownDoc:", journalId, cpr, nameInit, knownDoc);
-    // Otherwise remain "hybrid"
 
-    return {
-        mode, // "hybrid" | "full" | "summary"
-    };
+    return { mode };
 }
