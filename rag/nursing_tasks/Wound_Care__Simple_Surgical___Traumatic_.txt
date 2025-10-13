@@ -1,6 +1,6 @@
 Document Information:
 Task - Wound Care (Simple Surgical / Traumatic)
-Date - 2023-11-06
+Date - 2023-11-01
 Responsible Department - Surgery / Wound Care
 
 Purpose:
