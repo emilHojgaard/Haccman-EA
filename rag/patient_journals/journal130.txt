@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 20.04.56-0548
-Encounter Date - 2023-10-16
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Solveig V.
+CPR-number - 041253-3096
+Encounter Date - 2024-07-09
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Nina Nielsen
+
+Medical History & Prior Results:
+- Past Diagnoses — Osteoporosis (2005), Obesity (2017), Irritable bowel syndrome (1986), Heart failure (HFpEF) (1992), Chronic lower back pain.
+- Recent Lab Results (2024-07-07)
+    Hb 7.0 mmol/L (low)
+    Ferritin 22 µg/L
+    CRP 25 mg/L
+    Creatinine 72 µmol/L
+- Prior Consultations
+    - 2024-06-24 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-01-18 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Empagliflozin 10 mg daily, Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day.
+- Allergies — None known.
 
 Chief Complaint:
-Solveig V. reports shooting pain from lower back down the posterior leg.
+Nina Nielsen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+Nina Nielsen developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+Febrile (36.3 °C), RR 19/min, SpO₂ 98% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Lumbar radiculopathy consistent with sciatica.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
-- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Re-evaluate in 6 weeks or sooner if deficits develop.
+Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. P. Jensen, Psychiatry

@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 23.04.00-6847
-Encounter Date - 2024-06-09
-Author - Dr. J. Knudsen, ENT
-Patient Name - Lene T.
+CPR-number - 170876-8290
+Encounter Date - 2024-12-28
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Lars Mikkelsen
+
+Medical History & Prior Results:
+- Past Diagnoses — Psoriasis (1988), Osteoporosis (2008), Heart failure (HFrEF) (1994), Irritable bowel syndrome (1994), Chronic lower back pain.
+- Recent Lab Results (2024-12-19)
+    Hb 7.3 mmol/L (low)
+    Ferritin 28 µg/L
+    CRP 8 mg/L
+    Creatinine 101 µmol/L
+- Prior Consultations
+    - 2024-04-29 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-07-13 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Pantoprazole 40 mg daily, Metformin 500 mg BID, Amlodipine 5 mg daily, Ramipril 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Lene T. reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Lars Mikkelsen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Lene T. notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Lars Mikkelsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 105/85 mmHg, HR 103 bpm). Abdomen soft, non-tender.
+Vitals: BP 137/72 mmHg, HR 98 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Clinic follow-up in 2 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. V. Laursen, Nephrology

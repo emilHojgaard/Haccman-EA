@@ -1,17 +1,30 @@
 Document Information:
-CPR-number - 01.03.55-4275
-Encounter Date - 2025-07-10
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Brian P.
+CPR-number - 020168-6564
+Encounter Date - 2024-01-13
+Author - Dr. R. Iversen, Neurology
+Patient Name - Julie Østergaard
+
+Medical History & Prior Results:
+- Past Diagnoses — Dyslipidemia (2005), Anxiety (1993), Migraine (1995), Irritable bowel syndrome (1985).
+- Recent Lab Results (2023-10-19)
+    Hb 6.8 mmol/L (low)
+    Ferritin 18 µg/L
+    CRP 20 mg/L
+    Creatinine 109 µmol/L
+- Prior Consultations
+    - 2023-10-12 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-01-08 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Metformin 500 mg BID, Levothyroxine 75 µg daily, Pantoprazole 40 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Brian P. reports thirst, frequent urination, and blurred vision.
+Julie Østergaard reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Brian P. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Julie Østergaard has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Vitals: BP 151/74 mmHg, HR 63 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Vitals: BP 103/92 mmHg, HR 118 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
 Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
@@ -28,7 +41,7 @@ Patient Education & Safety Net:
 Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Clinic follow-up in 2 weeks to assess response and review HbA1c.
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. R. Iversen, Neurology

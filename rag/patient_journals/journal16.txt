@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 02.11.78-6453
-Encounter Date - 2025-07-16
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Kirsten R.
+CPR-number - 061169-9382
+Encounter Date - 2023-06-20
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Christian Mortensen
+
+Medical History & Prior Results:
+- Past Diagnoses — Obesity (1981), Osteoarthritis (2005), Iron Deficiency (1995), Asthma (1988), Chronic lower back pain.
+- Recent Lab Results (2023-05-14)
+    Hb 8.2 mmol/L
+    Ferritin 118 µg/L
+    CRP 16 mg/L
+    Creatinine 55 µmol/L
+- Prior Consultations
+    - 2023-02-21 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-03-25 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Amlodipine 5 mg daily, Bisoprolol 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Kirsten R. presents with black stools and lightheadedness; recent NSAID use.
+Christian Mortensen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Melena noticed over 2 days with fatigue and dizziness on standing. No hematemesis; intermittent epigastric discomfort.
+Christian Mortensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Pale; orthostatic symptoms; HR 102 bpm. Abdomen soft with mild epigastric tenderness; no peritonism.
+Vitals: BP 106/84 mmHg, HR 74 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-Hb low relative to baseline; type and crossmatch sent. Plan for urgent endoscopy after stabilization; BUN may be elevated.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Probable non-variceal upper GI bleed, likely peptic in origin.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Resuscitation as indicated; high-dose PPI infusion/therapy per protocol.
-- Hold NSAIDs/anticoagulants when safe; arrange endoscopy; monitor hemoglobin and hemodynamics.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Explain fasting, procedure expectations, and to report fresh bleeding, dizziness, or syncope immediately.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Endoscopy within 1–1 days depending on stability; outpatient review in 4 weeks.
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. K. Østergaard, General Surgery

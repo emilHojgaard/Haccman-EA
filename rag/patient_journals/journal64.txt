@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 07.07.30-2212
-Encounter Date - 2024-12-28
-Author - Dr. J. Knudsen, ENT
-Patient Name - Søren D.
+CPR-number - 241193-8438
+Encounter Date - 2023-07-17
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Nina Olsen
+
+Medical History & Prior Results:
+- Past Diagnoses — Psoriasis (2013), Dyslipidemia (2019), Osteoporosis (1998).
+- Recent Lab Results (2023-06-28)
+    Hb 6.6 mmol/L (low)
+    Ferritin 91 µg/L
+    CRP 6 mg/L
+    Creatinine 108 µmol/L
+- Prior Consultations
+    - 2023-04-19 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-01-30 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Ramipril 5 mg daily, Amlodipine 5 mg daily, Furosemide 40 mg daily.
+- Allergies — ACE inhibitors (cough).
 
 Chief Complaint:
-Søren D. has dysuria, urinary frequency, and suprapubic discomfort.
+Nina Olsen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Symptoms began 1 days ago after sexual activity; no flank pain or fever. Prior UTI 18 months ago.
+Nina Olsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+Vitals: BP 158/72 mmHg, HR 76 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Uncomplicated lower UTI.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Start short-course antibiotic per local guidance; provide analgesia.
-- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Phone check in 2 days if culture pending or symptoms persist.
+Clinic follow-up in 2 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. E. Dam, Rheumatology

@@ -1,17 +1,30 @@
 Document Information:
-CPR-number - 27.06.01-2942
-Encounter Date - 2023-02-24
+CPR-number - 221279-9781
+Encounter Date - 2023-12-28
 Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Sanne F.
+Patient Name - Thomas Christensen
+
+Medical History & Prior Results:
+- Past Diagnoses — Osteoarthritis (1984), Anxiety (2004).
+- Recent Lab Results (2023-12-22)
+    Hb 7.3 mmol/L (low)
+    Ferritin 95 µg/L
+    CRP 18 mg/L
+    Creatinine 59 µmol/L
+- Prior Consultations
+    - 2023-09-26 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-10-27 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly, Pantoprazole 40 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Sanne F. reports thirst, frequent urination, and blurred vision.
+Thomas Christensen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Sanne F. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Thomas Christensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Vitals: BP 120/73 mmHg, HR 60 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Vitals: BP 166/70 mmHg, HR 59 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
 Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
@@ -28,7 +41,7 @@ Patient Education & Safety Net:
 Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Clinic follow-up in 2 weeks to assess response and review HbA1c.
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
 Dr. M. Petersen, Gastroenterology

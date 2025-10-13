@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 15.09.46-4134
-Encounter Date - 2023-12-04
-Author - Dr. O. Bjørk, Urology
-Patient Name - Rasmus H.
+CPR-number - 201233-1463
+Encounter Date - 2023-07-20
+Author - Dr. R. Iversen, Neurology
+Patient Name - Viggo Thomsen
+
+Medical History & Prior Results:
+- Past Diagnoses — Type 2 Diabetes (2000), Osteoporosis (2004), GERD (1999), Chronic lower back pain.
+- Recent Lab Results (2023-06-05)
+    Hb 6.5 mmol/L (low)
+    Ferritin 82 µg/L
+    CRP 14 mg/L
+    Creatinine 66 µmol/L
+- Prior Consultations
+    - 2023-03-27 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-01-05 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Metformin 500 mg BID, Pantoprazole 40 mg daily, Furosemide 40 mg daily, Lisinopril 10 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Rasmus H. reports shooting pain from lower back down the posterior leg.
+Viggo Thomsen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+Viggo Thomsen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+Febrile (37.0 °C), RR 12/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Lumbar radiculopathy consistent with sciatica.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
-- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Re-evaluate in 5 weeks or sooner if deficits develop.
+Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. R. Iversen, Neurology

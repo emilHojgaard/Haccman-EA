@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 21.04.72-3196
-Encounter Date - 2023-06-20
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Kirsten P.
+CPR-number - 021254-7860
+Encounter Date - 2023-03-16
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Henrik Østergaard
+
+Medical History & Prior Results:
+- Past Diagnoses — Peptic ulcer disease (2010), Type 2 Diabetes (2007), Gout (1995), Anxiety (2011).
+- Recent Lab Results (2023-01-25)
+    Hb 7.9 mmol/L
+    Ferritin 101 µg/L
+    CRP 5 mg/L
+    Creatinine 58 µmol/L
+- Prior Consultations
+    - 2023-02-23 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-01-29 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Levothyroxine 75 µg daily, Empagliflozin 10 mg daily, Amlodipine 5 mg daily, Lisinopril 10 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Kirsten P. reports shooting pain from lower back down the posterior leg.
+Henrik Østergaard reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+Henrik Østergaard notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 122/86 mmHg, HR 80 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Lumbar radiculopathy consistent with sciatica.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
-- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Re-evaluate in 6 weeks or sooner if deficits develop.
+Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. C. Mikkelsen, Endocrinology

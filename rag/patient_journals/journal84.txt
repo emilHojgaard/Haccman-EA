@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 04.11.42-6560
-Encounter Date - 2025-08-31
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Emil P.
+CPR-number - 200234-7050
+Encounter Date - 2025-04-13
+Author - Dr. O. Bjørk, Urology
+Patient Name - Nina Gram
+
+Medical History & Prior Results:
+- Past Diagnoses — Heart failure (HFpEF) (1986), Iron Deficiency (2016), Hypothyroidism (2015).
+- Recent Lab Results (2025-03-22)
+    Hb 7.0 mmol/L (low)
+    Ferritin 114 µg/L
+    CRP 18 mg/L
+    Creatinine 102 µmol/L
+- Prior Consultations
+    - 2025-03-02 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-12-12 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Empagliflozin 10 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily, Atorvastatin 20 mg nightly.
+- Allergies — None known.
 
 Chief Complaint:
-Emil P. reports shooting pain from lower back down the posterior leg.
+Nina Gram reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+Nina Gram has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+Vitals: BP 103/77 mmHg, HR 72 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Lumbar radiculopathy consistent with sciatica.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
-- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Re-evaluate in 5 weeks or sooner if deficits develop.
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. O. Bjørk, Urology

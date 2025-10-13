@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 11.12.76-6576
-Encounter Date - 2025-09-23
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Anders F.
+CPR-number - 230205-5184
+Encounter Date - 2025-08-01
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Rune Poulsen
+
+Medical History & Prior Results:
+- Past Diagnoses — Osteoporosis (2024), Iron Deficiency (2003), Type 2 Diabetes (1994), Chronic lower back pain.
+- Recent Lab Results (2025-07-13)
+    Hb 6.7 mmol/L (low)
+    Ferritin 124 µg/L
+    CRP 12 mg/L
+    Creatinine 57 µmol/L
+- Prior Consultations
+    - 2025-02-21 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-09-08 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Amlodipine 5 mg daily, Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly, Lisinopril 10 mg daily.
+- Allergies — ACE inhibitors (cough).
 
 Chief Complaint:
-Anders F. presents with lower back pain after lifting at work.
+Rune Poulsen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Pain began 4 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+Rune Poulsen developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+Febrile (36.6 °C), RR 15/min, SpO₂ 96% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-No red flags; imaging not indicated at this time. Baseline analgesia plan established.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Acute mechanical low back pain without radicular features.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
-- Provide core-strength and flexibility exercises; avoid bed rest.
-- Reassess if neurological deficits develop or pain persists.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Follow-up in 3 weeks or sooner if red flags arise.
+Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. S. Nielsen, Pulmonology

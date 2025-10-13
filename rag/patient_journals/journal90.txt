@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 01.05.05-4903
-Encounter Date - 2025-09-10
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Carsten N.
+CPR-number - 020902-7201
+Encounter Date - 2025-06-09
+Author - Dr. S. Gram, Hematology
+Patient Name - Maria Kristensen
+
+Medical History & Prior Results:
+- Past Diagnoses — Peptic ulcer disease (2019), Gallstones (2010), Hypothyroidism (2009), Obesity (2020), Chronic lower back pain.
+- Recent Lab Results (2025-05-29)
+    Hb 7.6 mmol/L
+    Ferritin 81 µg/L
+    CRP 10 mg/L
+    Creatinine 104 µmol/L
+- Prior Consultations
+    - 2025-05-02 — Routine check-up — stable BP, mild anemia noted.
+    - 2025-02-08 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Empagliflozin 10 mg daily, Amlodipine 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Carsten N. has dysuria, urinary frequency, and suprapubic discomfort.
+Maria Kristensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Symptoms began 3 days ago after sexual activity; no flank pain or fever. Prior UTI 16 months ago.
+Maria Kristensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 122/78 mmHg, HR 91 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Uncomplicated lower UTI.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Start short-course antibiotic per local guidance; provide analgesia.
-- Hydration advice and timed voiding; discuss prophylaxis options if recurrent.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Phone check in 3 days if culture pending or symptoms persist.
+Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. S. Gram, Hematology

@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 10.11.80-9136
-Encounter Date - 2023-07-28
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Birgit M.
+CPR-number - 280640-9833
+Encounter Date - 2023-06-28
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Peter Laursen
+
+Medical History & Prior Results:
+- Past Diagnoses — Obesity (1988), Type 2 Diabetes (2001), Heart failure (HFrEF) (1982), Gallstones (1981).
+- Recent Lab Results (2023-04-15)
+    Hb 7.5 mmol/L
+    Ferritin 150 µg/L
+    CRP 9 mg/L
+    Creatinine 102 µmol/L
+- Prior Consultations
+    - 2023-04-01 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-05-02 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Lisinopril 10 mg daily, Empagliflozin 10 mg daily, Furosemide 40 mg daily.
+- Allergies — NSAIDs (dyspepsia).
 
 Chief Complaint:
-Birgit M. reports unilateral calf swelling after recent long-haul travel.
+Peter Laursen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+Peter Laursen developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Calf circumference asymmetry 3 cm; warmth and tenderness present; no skin discoloration proximally.
+Febrile (37.8 °C), RR 24/min, SpO₂ 99% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Suspected DVT with travel risk factor.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
-- Leg elevation and ambulation with caution; counsel on bleeding precautions.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Imaging today; treatment plan finalized same day or at next business day review.
+Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. K. Østergaard, General Surgery

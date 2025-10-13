@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 24.01.52-9005
-Encounter Date - 2023-05-24
-Author - Dr. L. Holm, Cardiology
-Patient Name - Søren F.
+CPR-number - 261084-4641
+Encounter Date - 2025-09-19
+Author - Dr. R. Iversen, Neurology
+Patient Name - Maja Holm
+
+Medical History & Prior Results:
+- Past Diagnoses — Hypertension (2021), Migraine (1995), Chronic lower back pain.
+- Recent Lab Results (2025-08-10)
+    Hb 8.0 mmol/L
+    Ferritin 106 µg/L
+    CRP 6 mg/L
+    Creatinine 85 µmol/L
+- Prior Consultations
+    - 2025-04-12 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2025-04-08 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Bisoprolol 5 mg daily, Empagliflozin 10 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Søren F. reports shooting pain from lower back down the posterior leg.
+Maja Holm reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.
+Maja Holm notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 121/70 mmHg, HR 75 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Lumbar radiculopathy consistent with sciatica.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- NSAIDs if appropriate, paced activity, and core-strength physiotherapy.
-- Consider neuropathic agents for severe pain; avoid prolonged bed rest.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Re-evaluate in 6 weeks or sooner if deficits develop.
+Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. L. Holm, Cardiology
+Dr. R. Iversen, Neurology

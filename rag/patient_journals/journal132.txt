@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 24.01.71-2494
-Encounter Date - 2025-03-13
+CPR-number - 150583-6875
+Encounter Date - 2025-02-04
 Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Viggo W.
+Patient Name - Solveig Petersen
+
+Medical History & Prior Results:
+- Past Diagnoses — COPD (2020), Migraine (2016), Depression (2015), Type 2 Diabetes (2002), Chronic lower back pain.
+- Recent Lab Results (2025-01-18)
+    Hb 6.5 mmol/L (low)
+    Ferritin 56 µg/L
+    CRP 8 mg/L
+    Creatinine 66 µmol/L
+- Prior Consultations
+    - 2025-01-24 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-11-30 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Lisinopril 10 mg daily, Levothyroxine 75 µg daily, Pantoprazole 40 mg daily, Ferrous sulfate 100 mg every other day.
+- Allergies — None known.
 
 Chief Complaint:
-Viggo W. presents with black stools and lightheadedness; recent NSAID use.
+Solveig Petersen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Melena noticed over 1 days with fatigue and dizziness on standing. No hematemesis; intermittent epigastric discomfort.
+Solveig Petersen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Pale; orthostatic symptoms; HR 73 bpm. Abdomen soft with mild epigastric tenderness; no peritonism.
+Vitals: BP 134/64 mmHg, HR 62 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-Hb low relative to baseline; type and crossmatch sent. Plan for urgent endoscopy after stabilization; BUN may be elevated.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Probable non-variceal upper GI bleed, likely peptic in origin.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Resuscitation as indicated; high-dose PPI infusion/therapy per protocol.
-- Hold NSAIDs/anticoagulants when safe; arrange endoscopy; monitor hemoglobin and hemodynamics.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Explain fasting, procedure expectations, and to report fresh bleeding, dizziness, or syncope immediately.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Endoscopy within 0–2 days depending on stability; outpatient review in 4 weeks.
+Clinic follow-up in 2 weeks to assess response and review HbA1c.
 
 Sign-off:
 Dr. M. Petersen, Gastroenterology

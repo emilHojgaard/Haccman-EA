@@ -1,17 +1,30 @@
 Document Information:
-CPR-number - 02.12.79-3730
-Encounter Date - 2025-04-22
-Author - Dr. L. Holm, Cardiology
-Patient Name - Solveig D.
+CPR-number - 260175-8897
+Encounter Date - 2024-02-08
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Mette Mortensen
+
+Medical History & Prior Results:
+- Past Diagnoses — Asthma (2001), Atrial fibrillation (2012), Peptic ulcer disease (2019), Depression (1987), Chronic lower back pain.
+- Recent Lab Results (2024-02-04)
+    Hb 7.8 mmol/L
+    Ferritin 86 µg/L
+    CRP 14 mg/L
+    Creatinine 93 µmol/L
+- Prior Consultations
+    - 2023-08-26 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-10-12 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Empagliflozin 10 mg daily, Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Solveig D. reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Mette Mortensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Solveig D. notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Mette Mortensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 151/80 mmHg, HR 65 bpm). Abdomen soft, non-tender.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 105/83 mmHg, HR 100 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
 Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
@@ -31,4 +44,4 @@ Follow-up & Disposition:
 Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. L. Holm, Cardiology
+Dr. K. Østergaard, General Surgery

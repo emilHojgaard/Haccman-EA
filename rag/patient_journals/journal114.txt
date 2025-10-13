@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 07.01.55-3355
-Encounter Date - 2024-11-06
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Magnus W.
+CPR-number - 140353-0464
+Encounter Date - 2023-08-28
+Author - Dr. R. Iversen, Neurology
+Patient Name - Maja Dam
+
+Medical History & Prior Results:
+- Past Diagnoses — Heart failure (HFrEF) (2021), Depression (1999), Chronic lower back pain.
+- Recent Lab Results (2023-08-17)
+    Hb 7.4 mmol/L (low)
+    Ferritin 121 µg/L
+    CRP 14 mg/L
+    Creatinine 86 µmol/L
+- Prior Consultations
+    - 2023-07-01 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-01-01 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Metformin 500 mg BID, Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly.
+- Allergies — None known.
 
 Chief Complaint:
-Magnus W. reports unilateral calf swelling after recent long-haul travel.
+Maja Dam reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+Maja Dam notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Calf circumference asymmetry 2 cm; warmth and tenderness present; no skin discoloration proximally.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 146/94 mmHg, HR 103 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Suspected DVT with travel risk factor.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
-- Leg elevation and ambulation with caution; counsel on bleeding precautions.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Imaging today; treatment plan finalized same day or at next business day review.
+Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. R. Iversen, Neurology

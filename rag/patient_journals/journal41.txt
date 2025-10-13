@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 11.09.36-8564
-Encounter Date - 2023-05-02
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Søren F.
+CPR-number - 130336-5393
+Encounter Date - 2023-07-18
+Author - Dr. J. Knudsen, ENT
+Patient Name - Anja Iversen
+
+Medical History & Prior Results:
+- Past Diagnoses — Obesity (2016), Atrial fibrillation (1990), Osteoarthritis (1987), Chronic lower back pain.
+- Recent Lab Results (2023-06-25)
+    Hb 7.7 mmol/L
+    Ferritin 78 µg/L
+    CRP 21 mg/L
+    Creatinine 66 µmol/L
+- Prior Consultations
+    - 2023-05-22 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2023-04-26 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Levothyroxine 75 µg daily, Furosemide 40 mg daily, Empagliflozin 10 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Søren F. reports worsening ankle swelling and breathlessness on exertion.
+Anja Iversen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Søren F. notes 7 days of increasing dyspnea, orthopnea requiring 2 pillows, and weight gain of 3 kg. Missed diuretics twice last week.
+Anja Iversen developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-BP 101/71 mmHg, HR 103 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+Febrile (37.9 °C), RR 18/min, SpO₂ 99% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
-- Strict fluid/salt guidance and daily weights; educate on early warning signs.
-- Assess triggers and arrange heart failure clinic referral.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Recheck in 1 weeks for weights, symptoms, and labs.
+Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. J. Knudsen, ENT

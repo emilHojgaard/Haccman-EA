@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 08.09.51-7221
-Encounter Date - 2023-04-27
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Jonas Å.
+CPR-number - 040769-5598
+Encounter Date - 2024-08-02
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Anja Mortensen
+
+Medical History & Prior Results:
+- Past Diagnoses — Iron Deficiency (1987), Migraine (2017), COPD (1997), Anxiety (1996).
+- Recent Lab Results (2024-07-11)
+    Hb 7.6 mmol/L
+    Ferritin 30 µg/L
+    CRP 15 mg/L
+    Creatinine 94 µmol/L
+- Prior Consultations
+    - 2024-02-04 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-05-02 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Pantoprazole 40 mg daily, Furosemide 40 mg daily, Bisoprolol 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Jonas Å. presents with lower back pain after lifting at work.
+Anja Mortensen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Pain began 1 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+Anja Mortensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+Vitals: BP 142/69 mmHg, HR 71 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-No red flags; imaging not indicated at this time. Baseline analgesia plan established.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Acute mechanical low back pain without radicular features.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
-- Provide core-strength and flexibility exercises; avoid bed rest.
-- Reassess if neurological deficits develop or pain persists.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Follow-up in 3 weeks or sooner if red flags arise.
+Clinic follow-up in 2 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. E. Dam, Rheumatology

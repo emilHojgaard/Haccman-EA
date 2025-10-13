@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 14.01.91-4077
-Encounter Date - 2023-10-30
-Author - Dr. J. Knudsen, ENT
-Patient Name - Kirsten W.
+CPR-number - 230102-1480
+Encounter Date - 2025-02-06
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Lars Iversen
+
+Medical History & Prior Results:
+- Past Diagnoses — Irritable bowel syndrome (1991), Atrial fibrillation (1998), COPD (1984), Chronic lower back pain.
+- Recent Lab Results (2025-01-07)
+    Hb 7.2 mmol/L (low)
+    Ferritin 22 µg/L
+    CRP 21 mg/L
+    Creatinine 69 µmol/L
+- Prior Consultations
+    - 2024-07-17 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-09-01 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Bisoprolol 5 mg daily, Pantoprazole 40 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Kirsten W. presents with nausea, vomiting, and watery diarrhea.
+Lars Iversen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Symptoms began 2 days ago after a family gathering. No blood in stool; tolerating small sips of fluid; minimal abdominal cramping.
+Lars Iversen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Mild dehydration (dry mucosa); abdomen soft, non-tender; vitals: HR 82 bpm, BP 143/82 mmHg, afebrile to low-grade fever.
+Vitals: BP 160/67 mmHg, HR 82 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-Clinical diagnosis; stool studies not indicated unless severe, prolonged, or high-risk features.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Acute viral gastroenteritis with mild dehydration risk.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Oral rehydration with small frequent sips; simple diet advancement as tolerated.
-- Antiemetic as needed; avoid antimotility agents if red flags develop.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Emphasize hand hygiene and isolation while symptomatic. Return if unable to keep fluids, blood in stool, or signs of severe dehydration.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Symptom check by phone in 2 days if not improved.
+Clinic follow-up in 3 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. V. Laursen, Nephrology

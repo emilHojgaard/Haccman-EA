@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 20.05.34-2224
-Encounter Date - 2025-07-16
-Author - Dr. R. Iversen, Neurology
-Patient Name - Birgit V.
+CPR-number - 191159-5305
+Encounter Date - 2023-11-22
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Niklas Kristensen
+
+Medical History & Prior Results:
+- Past Diagnoses — Obesity (2017), Osteoporosis (2016), Irritable bowel syndrome (2004), Chronic lower back pain.
+- Recent Lab Results (2023-10-28)
+    Hb 7.7 mmol/L
+    Ferritin 142 µg/L
+    CRP 16 mg/L
+    Creatinine 76 µmol/L
+- Prior Consultations
+    - 2023-04-10 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2023-05-18 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Ramipril 5 mg daily, Metformin 500 mg BID.
+- Allergies — None known.
 
 Chief Complaint:
-Birgit V. reports thirst, frequent urination, and blurred vision.
+Niklas Kristensen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Birgit V. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Niklas Kristensen developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Vitals: BP 166/74 mmHg, HR 81 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Febrile (36.2 °C), RR 24/min, SpO₂ 96% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Clinic follow-up in 4 weeks to assess response and review HbA1c.
+Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. K. Østergaard, General Surgery

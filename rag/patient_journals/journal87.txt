@@ -1,17 +1,30 @@
 Document Information:
-CPR-number - 16.05.50-2895
-Encounter Date - 2023-08-25
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Birgit B.
+CPR-number - 070360-4358
+Encounter Date - 2025-04-16
+Author - Dr. O. Bjørk, Urology
+Patient Name - Niklas Jensen
+
+Medical History & Prior Results:
+- Past Diagnoses — Asthma (1997), Obesity (2008), Heart failure (HFrEF) (1980).
+- Recent Lab Results (2025-04-09)
+    Hb 8.2 mmol/L
+    Ferritin 138 µg/L
+    CRP 23 mg/L
+    Creatinine 88 µmol/L
+- Prior Consultations
+    - 2024-08-17 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2025-03-17 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Pantoprazole 40 mg daily, Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly.
+- Allergies — None known.
 
 Chief Complaint:
-Birgit B. reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Niklas Jensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Birgit B. notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Niklas Jensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 143/87 mmHg, HR 61 bpm). Abdomen soft, non-tender.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 147/61 mmHg, HR 85 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
 Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
@@ -31,4 +44,4 @@ Follow-up & Disposition:
 Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. O. Bjørk, Urology

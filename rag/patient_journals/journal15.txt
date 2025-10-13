@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 07.04.59-9009
-Encounter Date - 2024-04-13
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Emil S.
+CPR-number - 200798-2498
+Encounter Date - 2025-01-14
+Author - Dr. L. Holm, Cardiology
+Patient Name - Kirsten Gram
+
+Medical History & Prior Results:
+- Past Diagnoses — Osteoporosis (2002), Anxiety (1986), Chronic lower back pain.
+- Recent Lab Results (2024-10-28)
+    Hb 8.0 mmol/L
+    Ferritin 54 µg/L
+    CRP 11 mg/L
+    Creatinine 56 µmol/L
+- Prior Consultations
+    - 2024-10-27 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-11-14 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Bisoprolol 5 mg daily, Empagliflozin 10 mg daily, Pantoprazole 40 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Emil S. presents with lower back pain after lifting at work.
+Kirsten Gram reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Pain began 3 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+Kirsten Gram notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 100/63 mmHg, HR 75 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-No red flags; imaging not indicated at this time. Baseline analgesia plan established.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Acute mechanical low back pain without radicular features.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
-- Provide core-strength and flexibility exercises; avoid bed rest.
-- Reassess if neurological deficits develop or pain persists.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Follow-up in 6 weeks or sooner if red flags arise.
+Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. L. Holm, Cardiology

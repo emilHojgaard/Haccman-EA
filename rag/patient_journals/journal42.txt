@@ -1,17 +1,30 @@
 Document Information:
-CPR-number - 10.07.03-4897
-Encounter Date - 2025-08-16
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Sanne K.
+CPR-number - 261004-1122
+Encounter Date - 2024-08-05
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Anne Bang
+
+Medical History & Prior Results:
+- Past Diagnoses — Heart failure (HFrEF) (2003), Atrial fibrillation (2001), Gout (2009), Type 2 Diabetes (2002), Chronic lower back pain.
+- Recent Lab Results (2024-07-05)
+    Hb 7.9 mmol/L
+    Ferritin 65 µg/L
+    CRP 5 mg/L
+    Creatinine 103 µmol/L
+- Prior Consultations
+    - 2024-03-23 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-07-21 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Ramipril 5 mg daily, Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day.
+- Allergies — None known.
 
 Chief Complaint:
-Sanne K. complains of fever, productive cough, and right-sided chest pain.
+Anne Bang complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Sanne K. developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Anne Bang developed a sudden cough with green sputum 4 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Febrile (36.8 °C), RR 16/min, SpO₂ 99% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Febrile (37.4 °C), RR 18/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
 CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
@@ -28,7 +41,7 @@ Patient Education & Safety Net:
 Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Safety check in 2 days if outpatient; clinical review in 2 weeks to ensure recovery.
 
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. H. Sørensen, Internal Medicine

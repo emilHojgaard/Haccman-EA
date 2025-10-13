@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 26.03.63-7745
-Encounter Date - 2023-11-20
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Grethe S.
+CPR-number - 171068-8764
+Encounter Date - 2024-01-15
+Author - Dr. O. Bjørk, Urology
+Patient Name - Birgit Gram
+
+Medical History & Prior Results:
+- Past Diagnoses — Heart failure (HFpEF) (2022), Asthma (2012), Chronic lower back pain.
+- Recent Lab Results (2023-11-28)
+    Hb 6.6 mmol/L (low)
+    Ferritin 102 µg/L
+    CRP 2 mg/L
+    Creatinine 108 µmol/L
+- Prior Consultations
+    - 2024-01-05 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-12-14 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Levothyroxine 75 µg daily, Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day.
+- Allergies — None known.
 
 Chief Complaint:
-Grethe S. complains of throbbing unilateral headache with nausea and light sensitivity.
+Birgit Gram complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Headache started 23 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+Birgit Gram developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+Febrile (36.9 °C), RR 13/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Recurrent migraine without aura; current moderate–severe attack.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
-- Hydration and rest; consider preventive strategy review if attack frequency rising.
-- Provide rescue plan for future attacks.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Primary care/neurology follow-up in 3 weeks to evaluate need for prophylaxis.
+Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. O. Bjørk, Urology

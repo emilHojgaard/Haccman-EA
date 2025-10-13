@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 21.06.89-4951
-Encounter Date - 2024-08-16
+CPR-number - 200239-0173
+Encounter Date - 2023-05-24
 Author - Dr. L. Holm, Cardiology
-Patient Name - Sebastian L.
+Patient Name - Frederik Johansen
+
+Medical History & Prior Results:
+- Past Diagnoses — Anxiety (2001), Iron Deficiency (2002), Hypothyroidism (2005), Heart failure (HFpEF) (2010), Chronic lower back pain.
+- Recent Lab Results (2023-05-13)
+    Hb 8.1 mmol/L
+    Ferritin 18 µg/L
+    CRP 6 mg/L
+    Creatinine 80 µmol/L
+- Prior Consultations
+    - 2023-02-10 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-05-18 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Ferrous sulfate 100 mg every other day, Pantoprazole 40 mg daily, Bisoprolol 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Sebastian L. presents with lower back pain after lifting at work.
+Frederik Johansen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Pain began 2 days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.
+Frederik Johansen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.
+Vitals: BP 144/68 mmHg, HR 85 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-No red flags; imaging not indicated at this time. Baseline analgesia plan established.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Acute mechanical low back pain without radicular features.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.
-- Provide core-strength and flexibility exercises; avoid bed rest.
-- Reassess if neurological deficits develop or pain persists.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Follow-up in 5 weeks or sooner if red flags arise.
+Clinic follow-up in 3 weeks to assess response and review HbA1c.
 
 Sign-off:
 Dr. L. Holm, Cardiology

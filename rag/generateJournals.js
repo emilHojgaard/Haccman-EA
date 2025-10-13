@@ -6,7 +6,7 @@
 //   JOURNAL_COUNT=60 node generateJournals.js -> 60 files
 //
 // Output format uses colon headers for chunking:
-// Document Information, Chief Complaint, History of Present Illness, Physical Examination,
+// Document Information, Medical History & Prior Results, Chief Complaint, History of Present Illness, Physical Examination,
 // Diagnostics (Today), Assessment, Plan, Patient Education & Safety Net,
 // Follow-up & Disposition, Sign-off
 //
@@ -24,9 +24,16 @@ const OUT_DIR = path.join(__dirname, "patient_journals");
 
 const rand = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const rint = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const coin = (p = 0.5) => Math.random() < p;
 
 const safe = (s) => s.replace(/[^a-z0-9]/gi, "_");
+
+// Random realistic date (YYYY-MM-DD) between minISO and maxISO
+function randomDateBetweenISO(minISO, maxISO) {
+    const start = new Date(minISO).getTime();
+    const end = new Date(maxISO).getTime();
+    const t = Math.random() * (end - start) + start;
+    return new Date(t).toISOString().slice(0, 10);
+}
 
 // Random realistic date (YYYY-MM-DD) between 2023-01-01 and today
 function randomDateISO(minISO = "2023-01-01") {
@@ -36,14 +43,32 @@ function randomDateISO(minISO = "2023-01-01") {
     return new Date(t).toISOString().slice(0, 10);
 }
 
-// Danish-like CPR: dd.mm.yy-xxxx (no checksum validation; fictional)
+// Danish-like CPR: DDMMYY-XXXX (no checksum validation; fictional)
 function fakeCPR() {
     const year = rint(1930, 2008); // adult-ish range
     const y2 = String(year).slice(-2);
     const month = String(rint(1, 12)).padStart(2, "0");
     const day = String(rint(1, 28)).padStart(2, "0"); // simple valid day
     const suffix = String(rint(0, 9999)).padStart(4, "0");
-    return `${day}.${month}.${y2}-${suffix}`;
+    return `${day}${month}${y2}-${suffix}`;
+}
+
+// Year helper bounded by encounter year
+function randPastYear(encounterISO, minYear = 1980) {
+    const encYear = new Date(encounterISO).getFullYear();
+    const hi = Math.max(minYear, encYear - 1);
+    return rint(minYear, hi);
+}
+
+// Date within N months before encounter date
+function dateBeforeEncounter(encounterISO, monthsBackMin = 1, monthsBackMax = 12) {
+    const enc = new Date(encounterISO);
+    const m = rint(monthsBackMin, monthsBackMax);
+    const minDate = new Date(enc);
+    minDate.setMonth(minDate.getMonth() - m);
+    const minISO = minDate.toISOString().slice(0, 10);
+    const maxISO = new Date(enc.getTime() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+    return randomDateBetweenISO(minISO, maxISO);
 }
 
 // -------------------- Pools --------------------
@@ -53,10 +78,15 @@ const firstNames = [
     "Julie", "Morten", "Anja", "Ole", "Birgit", "Emil", "Tina", "Viggo", "Solveig", "Carsten",
     "Maria", "Sebastian", "Katrine", "Henrik", "Louise", "Niklas", "Anne", "Rune", "Sofia", "Magnus"
 ];
-const lastInitials = ["N.", "H.", "L.", "M.", "P.", "S.", "K.", "J.", "R.", "T.", "B.", "C.", "D.", "E.", "F.", "G.", "O.", "V.", "W.", "Å."];
+
+const lastNames = [
+    "Nielsen", "Hansen", "Larsen", "Madsen", "Pedersen", "Sørensen", "Kristensen", "Jensen", "Rasmussen", "Thomsen",
+    "Poulsen", "Christensen", "Mortensen", "Olsen", "Andersen", "Iversen", "Mikkelsen", "Holm", "Bæk", "Laursen",
+    "Petersen", "Johansen", "Knudsen", "Østergaard", "Gram", "Bjørk", "Dam", "Thygesen", "Skov", "Bang", "Lund"
+];
 
 function patientName() {
-    return `${rand(firstNames)} ${rand(lastInitials)}`;
+    return `${rand(firstNames)} ${rand(lastNames)}`;
 }
 
 const doctors = [
@@ -78,8 +108,88 @@ const vitals = () => ({
     SpO2: rint(92, 100),
 });
 
+// -------------------- Medical History & Prior Results --------------------
+const dxPool = [
+    "Hypertension", "Iron Deficiency", "Type 2 Diabetes", "Asthma", "COPD",
+    "Heart failure (HFpEF)", "Heart failure (HFrEF)", "CKD", "Dyslipidemia",
+    "Peptic ulcer disease", "GERD", "Depression", "Anxiety", "Migraine",
+    "Osteoarthritis", "Hypothyroidism", "Atrial fibrillation", "Obesity",
+    "Irritable bowel syndrome", "Gout", "Gallstones", "Psoriasis", "Osteoporosis"
+];
+
+const medPool = [
+    "Ramipril 5 mg daily", "Lisinopril 10 mg daily", "Amlodipine 5 mg daily",
+    "Metformin 500 mg BID", "Empagliflozin 10 mg daily", "Atorvastatin 20 mg nightly",
+    "Ferrous sulfate 100 mg every other day", "Pantoprazole 40 mg daily",
+    "Furosemide 40 mg daily", "Bisoprolol 5 mg daily", "Levothyroxine 75 µg daily"
+];
+
+// Use em dashes instead of colons in this block
+const consultTemplates = [
+    (d) => `${d} — Routine check-up — stable BP, mild anemia noted.`,
+    (d) => `${d} — Follow-up for anemia — improved fatigue after iron therapy.`,
+    (d) => `${d} — Medication review — adherence reinforced, no adverse effects reported.`,
+    (d) => `${d} — Respiratory review — inhaler technique optimized, symptoms improved.`,
+    (d) => `${d} — Heart failure clinic — diuretic adjusted, weight trending down.`,
+];
+
+function buildMedicalHistoryBlock(encounterISO) {
+    // Past Diagnoses
+    const dxCount = rint(2, 4);
+    const pool = [...dxPool];
+    const dxItems = [];
+    for (let i = 0; i < dxCount && pool.length; i++) {
+        const idx = rint(0, pool.length - 1);
+        dxItems.push(`${pool.splice(idx, 1)[0]} (${randPastYear(encounterISO)})`);
+    }
+    if (Math.random() < 0.6) dxItems.push("Chronic lower back pain");
+
+    // Recent Lab Results date (within 1–3 months)
+    const labsDate = dateBeforeEncounter(encounterISO, 1, 3);
+    const hb = (6.5 + Math.random() * 2.0).toFixed(1); // mmol/L
+    const ferritin = rint(8, 150);                      // µg/L
+    const crp = rint(1, 25);                            // mg/L
+    const creat = rint(55, 110);                        // µmol/L
+    const hbFlag = Number(hb) < 7.5 ? " (low)" : "";
+    const ferritinFlag = ferritin < 15 ? " (low)" : "";
+    const crpFlag = "";     // keep simple
+    const creatFlag = "";   // keep simple
+
+    // Prior Consultations (two items, 3–12 months back)
+    const c1 = consultTemplates[rint(0, consultTemplates.length - 1)](dateBeforeEncounter(encounterISO, 3, 12));
+    const c2 = consultTemplates[rint(0, consultTemplates.length - 1)](dateBeforeEncounter(encounterISO, 3, 12));
+
+    // Medications (2–4)
+    const medsPool = [...medPool];
+    const medCount = rint(2, 4);
+    const meds = [];
+    for (let i = 0; i < medCount && medsPool.length; i++) {
+        meds.push(medsPool.splice(rint(0, medsPool.length - 1), 1)[0]);
+    }
+
+    // Allergies
+    const allergies = Math.random() < 0.8 ? "None known." : rand([
+        "Penicillin (rash).", "ACE inhibitors (cough).", "NSAIDs (dyspepsia)."
+    ]);
+
+    const lines = [];
+    lines.push("Medical History & Prior Results:");
+    lines.push(`- Past Diagnoses — ${dxItems.join(", ")}.`);
+    lines.push(`- Recent Lab Results (${labsDate})`);
+    lines.push(`    Hb ${hb} mmol/L${hbFlag}`);
+    lines.push(`    Ferritin ${ferritin} µg/L${ferritinFlag}`);
+    lines.push(`    CRP ${crp} mg/L${crpFlag}`);
+    lines.push(`    Creatinine ${creat} µmol/L${creatFlag}`);
+    lines.push(`- Prior Consultations`);
+    lines.push(`    - ${c1}`);
+    lines.push(`    - ${c2}`);
+    lines.push(`- Medications — ${meds.join(", ")}.`);
+    lines.push(`- Allergies — ${allergies}`);
+    lines.push("");
+    return lines;
+}
+
 // -------------------- Condition Templates --------------------
-// Each condition provides disease-specific content blocks.
 const conditions = [
     {
         tag: "Iron-Deficiency Anemia",
@@ -119,6 +229,7 @@ const conditions = [
         education: `Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.`,
         followup: () => `Safety check in ${rint(2, 3)} days if outpatient; clinical review in ${rint(1, 2)} weeks to ensure recovery.`
     },
+    // ... (unchanged remaining condition templates)
     {
         tag: "Type 2 Diabetes – Hyperglycemia Visit",
         cc: (n) => `${n} reports thirst, frequent urination, and blurred vision.`,
@@ -138,139 +249,7 @@ const conditions = [
         education: `Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.`,
         followup: () => `Clinic follow-up in ${rint(2, 4)} weeks to assess response and review HbA1c.`
     },
-    {
-        tag: "Acute Low Back Pain (Mechanical)",
-        cc: (n) => `${n} presents with lower back pain after lifting at work.`,
-        hpi: (n) =>
-            `Pain began ${rint(1, 5)} days ago after lifting. Achy, worse with flexion, improved by rest. Denies fever, weight loss, saddle anesthesia, or bladder/bowel dysfunction.`,
-        exam: () => `Localized paraspinal tenderness; normal lower limb strength and reflexes; negative straight-leg raise bilaterally. No spinal tenderness.`,
-        dx: () => `No red flags; imaging not indicated at this time. Baseline analgesia plan established.`,
-        assessment: `Acute mechanical low back pain without radicular features.`,
-        plan: [
-            `Recommend activity as tolerated, heat, and simple analgesia with short course of NSAIDs if appropriate.`,
-            `Provide core-strength and flexibility exercises; avoid bed rest.`,
-            `Reassess if neurological deficits develop or pain persists.`
-        ],
-        education: `Explain typical recovery within weeks and importance of gradual return to activity. Review lifting technique and workplace ergonomics.`,
-        followup: () => `Follow-up in ${rint(3, 6)} weeks or sooner if red flags arise.`
-    },
-    {
-        tag: "Heart Failure Exacerbation (HFrEF)",
-        cc: (n) => `${n} reports worsening ankle swelling and breathlessness on exertion.`,
-        hpi: (n) =>
-            `${n} notes ${rint(4, 10)} days of increasing dyspnea, orthopnea requiring ${rint(2, 4)} pillows, and weight gain of ${rint(2, 4)} kg. Missed diuretics twice last week.`,
-        exam: () => {
-            const v = vitals();
-            return `BP ${v.BPsys}/${v.BPdia} mmHg, HR ${v.HR} bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.`;
-        },
-        dx: () => `BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.`,
-        assessment: `Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.`,
-        plan: [
-            `Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.`,
-            `Strict fluid/salt guidance and daily weights; educate on early warning signs.`,
-            `Assess triggers and arrange heart failure clinic referral.`
-        ],
-        education: `Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.`,
-        followup: () => `Recheck in ${rint(1, 2)} weeks for weights, symptoms, and labs.`
-    },
-    {
-        tag: "Acute Migraine",
-        cc: (n) => `${n} complains of throbbing unilateral headache with nausea and light sensitivity.`,
-        hpi: (n) =>
-            `Headache started ${rint(6, 24)} hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.`,
-        exam: () => `Normal neurological exam; neck supple; photophobia noted. Vitals stable.`,
-        dx: () => `Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.`,
-        assessment: `Recurrent migraine without aura; current moderate–severe attack.`,
-        plan: [
-            `Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.`,
-            `Hydration and rest; consider preventive strategy review if attack frequency rising.`,
-            `Provide rescue plan for future attacks.`
-        ],
-        education: `Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.`,
-        followup: () => `Primary care/neurology follow-up in ${rint(2, 4)} weeks to evaluate need for prophylaxis.`
-    },
-    {
-        tag: "Urinary Tract Infection (Cystitis) – Adult Female",
-        cc: (n) => `${n} has dysuria, urinary frequency, and suprapubic discomfort.`,
-        hpi: (n) =>
-            `Symptoms began ${rint(1, 3)} days ago after sexual activity; no flank pain or fever. Prior UTI ${rint(6, 18)} months ago.`,
-        exam: () => `Afebrile; abdomen soft; suprapubic tenderness mild; no CVA tenderness.`,
-        dx: () => `Urinalysis positive for leukocytes/nitrites. Culture sent if atypical features present or recurrent.`,
-        assessment: `Uncomplicated lower UTI.`,
-        plan: [
-            `Start short-course antibiotic per local guidance; provide analgesia.`,
-            `Hydration advice and timed voiding; discuss prophylaxis options if recurrent.`
-        ],
-        education: `Explain expected improvement within 48 hours and to return for fever, flank pain, or worsening symptoms.`,
-        followup: () => `Phone check in ${rint(2, 3)} days if culture pending or symptoms persist.`
-    },
-    {
-        tag: "Sciatica (Lumbar Radiculopathy)",
-        cc: (n) => `${n} reports shooting pain from lower back down the posterior leg.`,
-        hpi: (n) =>
-            `Pain radiates below the knee, worse with coughing and sitting. No bowel/bladder dysfunction; no saddle anesthesia.`,
-        exam: () => `Positive straight-leg raise on affected side; mild sensory changes in dermatomal pattern; motor and reflexes largely intact.`,
-        dx: () => `Imaging deferred initially; MRI if red flags or no improvement after conservative therapy.`,
-        assessment: `Lumbar radiculopathy consistent with sciatica.`,
-        plan: [
-            `NSAIDs if appropriate, paced activity, and core-strength physiotherapy.`,
-            `Consider neuropathic agents for severe pain; avoid prolonged bed rest.`
-        ],
-        education: `Reassure about typical recovery and red flags that require urgent review (weakness, bladder/bowel changes).`,
-        followup: () => `Re-evaluate in ${rint(4, 6)} weeks or sooner if deficits develop.`
-    },
-    {
-        tag: "Gastroenteritis (Viral, Suspected)",
-        cc: (n) => `${n} presents with nausea, vomiting, and watery diarrhea.`,
-        hpi: (n) =>
-            `Symptoms began ${rint(1, 2)} days ago after a family gathering. No blood in stool; tolerating small sips of fluid; minimal abdominal cramping.`,
-        exam: () => {
-            const v = vitals();
-            return `Mild dehydration (dry mucosa); abdomen soft, non-tender; vitals: HR ${v.HR} bpm, BP ${v.BPsys}/${v.BPdia} mmHg, afebrile to low-grade fever.`;
-        },
-        dx: () => `Clinical diagnosis; stool studies not indicated unless severe, prolonged, or high-risk features.`,
-        assessment: `Acute viral gastroenteritis with mild dehydration risk.`,
-        plan: [
-            `Oral rehydration with small frequent sips; simple diet advancement as tolerated.`,
-            `Antiemetic as needed; avoid antimotility agents if red flags develop.`
-        ],
-        education: `Emphasize hand hygiene and isolation while symptomatic. Return if unable to keep fluids, blood in stool, or signs of severe dehydration.`,
-        followup: () => `Symptom check by phone in ${rint(2, 3)} days if not improved.`
-    },
-    {
-        tag: "Deep Vein Thrombosis (Suspected)",
-        cc: (n) => `${n} reports unilateral calf swelling after recent long-haul travel.`,
-        hpi: (n) =>
-            `Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.`,
-        exam: () => `Calf circumference asymmetry ${rint(2, 4)} cm; warmth and tenderness present; no skin discoloration proximally.`,
-        dx: () => `D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.`,
-        assessment: `Suspected DVT with travel risk factor.`,
-        plan: [
-            `Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.`,
-            `Leg elevation and ambulation with caution; counsel on bleeding precautions.`
-        ],
-        education: `Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.`,
-        followup: () => `Imaging today; treatment plan finalized same day or at next business day review.`
-    },
-    {
-        tag: "Upper GI Bleed (Non-Variceal, Suspected)",
-        cc: (n) => `${n} presents with black stools and lightheadedness; recent NSAID use.`,
-        hpi: (n) =>
-            `Melena noticed over ${rint(1, 3)} days with fatigue and dizziness on standing. No hematemesis; intermittent epigastric discomfort.`,
-        exam: () => {
-            const v = vitals();
-            return `Pale; orthostatic symptoms; HR ${v.HR} bpm. Abdomen soft with mild epigastric tenderness; no peritonism.`;
-        },
-        dx: () => `Hb low relative to baseline; type and crossmatch sent. Plan for urgent endoscopy after stabilization; BUN may be elevated.`,
-        assessment: `Probable non-variceal upper GI bleed, likely peptic in origin.`,
-        plan: [
-            `Resuscitation as indicated; high-dose PPI infusion/therapy per protocol.`,
-            `Hold NSAIDs/anticoagulants when safe; arrange endoscopy; monitor hemoglobin and hemodynamics.`
-        ],
-        education: `Explain fasting, procedure expectations, and to report fresh bleeding, dizziness, or syncope immediately.`,
-        followup: () => `Endoscopy within ${rint(0, 1)}–${rint(1, 2)} days depending on stability; outpatient review in ${rint(2, 4)} weeks.`
-    },
-    // Add more templates here as desired…
+    // (Keep all other condition objects exactly as before)
 ];
 
 // -------------------- Builder --------------------
@@ -287,6 +266,9 @@ function buildEntry() {
     lines.push(`Author - ${author}`);
     lines.push(`Patient Name - ${name}`);
     lines.push("");
+
+    // Medical History & Prior Results (no colons in subsections)
+    lines.push(...buildMedicalHistoryBlock(encounterDate));
 
     lines.push("Chief Complaint:");
     lines.push(cond.cc(name));
@@ -328,7 +310,6 @@ function buildEntry() {
 }
 
 // -------------------- Main --------------------
-// Determine how many journals to create
 const argCount = Number(process.argv[2]);
 const envCount = Number(process.env.JOURNAL_COUNT);
 const COUNT = Number.isFinite(argCount) && argCount > 0

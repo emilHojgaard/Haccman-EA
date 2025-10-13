@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 04.10.40-0279
-Encounter Date - 2023-05-28
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Brian C.
+CPR-number - 240186-5911
+Encounter Date - 2023-12-25
+Author - Dr. R. Iversen, Neurology
+Patient Name - Henrik Kristensen
+
+Medical History & Prior Results:
+- Past Diagnoses — Heart failure (HFpEF) (1992), Heart failure (HFrEF) (2007).
+- Recent Lab Results (2023-12-03)
+    Hb 6.6 mmol/L (low)
+    Ferritin 62 µg/L
+    CRP 17 mg/L
+    Creatinine 96 µmol/L
+- Prior Consultations
+    - 2023-04-23 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-06-03 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Amlodipine 5 mg daily, Atorvastatin 20 mg nightly, Metformin 500 mg BID, Pantoprazole 40 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Brian C. presents with black stools and lightheadedness; recent NSAID use.
+Henrik Kristensen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Melena noticed over 3 days with fatigue and dizziness on standing. No hematemesis; intermittent epigastric discomfort.
+Henrik Kristensen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Pale; orthostatic symptoms; HR 71 bpm. Abdomen soft with mild epigastric tenderness; no peritonism.
+Febrile (37.7 °C), RR 20/min, SpO₂ 96% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Hb low relative to baseline; type and crossmatch sent. Plan for urgent endoscopy after stabilization; BUN may be elevated.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Probable non-variceal upper GI bleed, likely peptic in origin.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Resuscitation as indicated; high-dose PPI infusion/therapy per protocol.
-- Hold NSAIDs/anticoagulants when safe; arrange endoscopy; monitor hemoglobin and hemodynamics.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Explain fasting, procedure expectations, and to report fresh bleeding, dizziness, or syncope immediately.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Endoscopy within 1–1 days depending on stability; outpatient review in 3 weeks.
+Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. R. Iversen, Neurology

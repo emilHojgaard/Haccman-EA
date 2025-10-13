@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 26.06.77-7674
-Encounter Date - 2025-05-11
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Viggo B.
+CPR-number - 060145-9062
+Encounter Date - 2024-07-03
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Anne Bæk
+
+Medical History & Prior Results:
+- Past Diagnoses — Hypertension (2010), Asthma (1990), Peptic ulcer disease (1982), Migraine (2021).
+- Recent Lab Results (2024-06-16)
+    Hb 7.9 mmol/L
+    Ferritin 67 µg/L
+    CRP 22 mg/L
+    Creatinine 94 µmol/L
+- Prior Consultations
+    - 2024-05-27 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2023-07-30 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Pantoprazole 40 mg daily, Bisoprolol 5 mg daily, Ramipril 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Viggo B. presents with black stools and lightheadedness; recent NSAID use.
+Anne Bæk reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Melena noticed over 2 days with fatigue and dizziness on standing. No hematemesis; intermittent epigastric discomfort.
+Anne Bæk notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Pale; orthostatic symptoms; HR 112 bpm. Abdomen soft with mild epigastric tenderness; no peritonism.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 105/71 mmHg, HR 66 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-Hb low relative to baseline; type and crossmatch sent. Plan for urgent endoscopy after stabilization; BUN may be elevated.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Probable non-variceal upper GI bleed, likely peptic in origin.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Resuscitation as indicated; high-dose PPI infusion/therapy per protocol.
-- Hold NSAIDs/anticoagulants when safe; arrange endoscopy; monitor hemoglobin and hemodynamics.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Explain fasting, procedure expectations, and to report fresh bleeding, dizziness, or syncope immediately.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Endoscopy within 1–1 days depending on stability; outpatient review in 2 weeks.
+Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. P. Jensen, Psychiatry

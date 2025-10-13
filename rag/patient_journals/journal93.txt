@@ -1,33 +1,47 @@
 Document Information:
-CPR-number - 07.03.38-8806
-Encounter Date - 2024-11-28
+CPR-number - 220591-9174
+Encounter Date - 2023-04-17
 Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Magnus B.
+Patient Name - Niklas Bæk
+
+Medical History & Prior Results:
+- Past Diagnoses — Heart failure (HFrEF) (1982), Psoriasis (2011), COPD (1986), Chronic lower back pain.
+- Recent Lab Results (2023-03-19)
+    Hb 7.2 mmol/L (low)
+    Ferritin 79 µg/L
+    CRP 4 mg/L
+    Creatinine 76 µmol/L
+- Prior Consultations
+    - 2022-09-07 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-04-07 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Metformin 500 mg BID, Pantoprazole 40 mg daily, Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day.
+- Allergies — None known.
 
 Chief Complaint:
-Magnus B. reports unilateral calf swelling after recent long-haul travel.
+Niklas Bæk reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Gradual onset calf aching and swelling without trauma. No prior VTE; on combined risk due to immobility.
+Niklas Bæk has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Calf circumference asymmetry 4 cm; warmth and tenderness present; no skin discoloration proximally.
+Vitals: BP 116/73 mmHg, HR 79 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-D-dimer if low pretest probability; venous duplex ultrasound arranged. Baseline creatinine reviewed for anticoagulant choice.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Suspected DVT with travel risk factor.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Consider empiric anticoagulation if high suspicion and no contraindications while awaiting imaging.
-- Leg elevation and ambulation with caution; counsel on bleeding precautions.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Discuss VTE risks, warning signs of PE (chest pain, sudden breathlessness), and the importance of adherence if anticoagulation is started.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Imaging today; treatment plan finalized same day or at next business day review.
+Clinic follow-up in 3 weeks to assess response and review HbA1c.
 
 Sign-off:
 Dr. A. Thomsen, Emergency Medicine

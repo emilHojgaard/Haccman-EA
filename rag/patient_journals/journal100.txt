@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 07.08.63-2899
-Encounter Date - 2025-04-27
+CPR-number - 161290-0633
+Encounter Date - 2024-12-03
 Author - Dr. S. Gram, Hematology
-Patient Name - Julie L.
+Patient Name - Niklas Thygesen
+
+Medical History & Prior Results:
+- Past Diagnoses — Osteoporosis (2023), COPD (1983).
+- Recent Lab Results (2024-11-30)
+    Hb 8.1 mmol/L
+    Ferritin 127 µg/L
+    CRP 6 mg/L
+    Creatinine 87 µmol/L
+- Prior Consultations
+    - 2024-02-07 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-10-13 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Bisoprolol 5 mg daily, Lisinopril 10 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Julie L. reports worsening ankle swelling and breathlessness on exertion.
+Niklas Thygesen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Julie L. notes 8 days of increasing dyspnea, orthopnea requiring 4 pillows, and weight gain of 3 kg. Missed diuretics twice last week.
+Niklas Thygesen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-BP 162/66 mmHg, HR 65 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 141/74 mmHg, HR 98 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
-- Strict fluid/salt guidance and daily weights; educate on early warning signs.
-- Assess triggers and arrange heart failure clinic referral.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Recheck in 1 weeks for weights, symptoms, and labs.
+Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
 
 Sign-off:
 Dr. S. Gram, Hematology

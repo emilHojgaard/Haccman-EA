@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 03.04.93-5046
-Encounter Date - 2023-03-11
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Mette F.
+CPR-number - 211205-0827
+Encounter Date - 2023-05-19
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Camilla Christensen
+
+Medical History & Prior Results:
+- Past Diagnoses — COPD (1992), Peptic ulcer disease (2012), Type 2 Diabetes (1994), GERD (2000), Chronic lower back pain.
+- Recent Lab Results (2023-05-10)
+    Hb 7.7 mmol/L
+    Ferritin 145 µg/L
+    CRP 13 mg/L
+    Creatinine 107 µmol/L
+- Prior Consultations
+    - 2022-11-16 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-03-05 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Amlodipine 5 mg daily, Levothyroxine 75 µg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Mette F. complains of throbbing unilateral headache with nausea and light sensitivity.
+Camilla Christensen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Headache started 19 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+Camilla Christensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+Vitals: BP 151/59 mmHg, HR 90 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Recurrent migraine without aura; current moderate–severe attack.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
-- Hydration and rest; consider preventive strategy review if attack frequency rising.
-- Provide rescue plan for future attacks.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Primary care/neurology follow-up in 2 weeks to evaluate need for prophylaxis.
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. V. Laursen, Nephrology

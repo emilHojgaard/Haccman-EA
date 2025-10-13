@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 01.09.42-6050
-Encounter Date - 2025-08-06
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Camilla Å.
+CPR-number - 050645-1344
+Encounter Date - 2023-06-06
+Author - Dr. L. Holm, Cardiology
+Patient Name - Henrik Nielsen
+
+Medical History & Prior Results:
+- Past Diagnoses — Osteoarthritis (2017), Osteoporosis (2004), Chronic lower back pain.
+- Recent Lab Results (2023-05-22)
+    Hb 8.5 mmol/L
+    Ferritin 130 µg/L
+    CRP 18 mg/L
+    Creatinine 105 µmol/L
+- Prior Consultations
+    - 2022-10-26 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2022-10-19 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly.
+- Allergies — None known.
 
 Chief Complaint:
-Camilla Å. reports thirst, frequent urination, and blurred vision.
+Henrik Nielsen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Camilla Å. has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Henrik Nielsen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Vitals: BP 168/82 mmHg, HR 71 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Febrile (36.3 °C), RR 23/min, SpO₂ 94% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Clinic follow-up in 2 weeks to assess response and review HbA1c.
+Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. L. Holm, Cardiology

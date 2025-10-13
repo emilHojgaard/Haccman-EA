@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 06.01.50-3799
-Encounter Date - 2024-06-26
-Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Mette Å.
+CPR-number - 100401-1069
+Encounter Date - 2025-08-05
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Frederik Rasmussen
+
+Medical History & Prior Results:
+- Past Diagnoses — Iron Deficiency (2024), Obesity (1992), Chronic lower back pain.
+- Recent Lab Results (2025-07-08)
+    Hb 6.7 mmol/L (low)
+    Ferritin 15 µg/L
+    CRP 3 mg/L
+    Creatinine 83 µmol/L
+- Prior Consultations
+    - 2024-09-22 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2025-05-20 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Atorvastatin 20 mg nightly, Bisoprolol 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Mette Å. reports worsening ankle swelling and breathlessness on exertion.
+Frederik Rasmussen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Mette Å. notes 6 days of increasing dyspnea, orthopnea requiring 2 pillows, and weight gain of 4 kg. Missed diuretics twice last week.
+Frederik Rasmussen developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-BP 107/65 mmHg, HR 89 bpm; bibasal crackles, elevated JVP surrogate, bilateral pitting edema to mid-shins.
+Febrile (37.9 °C), RR 14/min, SpO₂ 96% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-BNP elevated; CXR shows pulmonary congestion; creatinine and electrolytes checked before diuretic titration.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Acute decompensated systolic heart failure likely precipitated by nonadherence and dietary salt.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Optimize loop diuretics and review guideline-directed therapy (ACEi/ARB/ARNI, beta-blocker, MRA, SGLT2) as tolerated.
-- Strict fluid/salt guidance and daily weights; educate on early warning signs.
-- Assess triggers and arrange heart failure clinic referral.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Teach weight monitoring (call if +2 kg in 3 days), fluid/salt limits, and medication adherence. Encourage vaccination and activity pacing.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Recheck in 1 weeks for weights, symptoms, and labs.
+Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
-Dr. S. Nielsen, Pulmonology
+Dr. A. Thomsen, Emergency Medicine

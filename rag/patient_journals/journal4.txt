@@ -1,34 +1,47 @@
 Document Information:
-CPR-number - 25.01.91-3056
-Encounter Date - 2023-11-22
-Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Solveig R.
+CPR-number - 070243-0264
+Encounter Date - 2023-12-27
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Christian Jensen
+
+Medical History & Prior Results:
+- Past Diagnoses — Peptic ulcer disease (1997), Atrial fibrillation (1987), Chronic lower back pain.
+- Recent Lab Results (2023-12-04)
+    Hb 7.7 mmol/L
+    Ferritin 99 µg/L
+    CRP 17 mg/L
+    Creatinine 95 µmol/L
+- Prior Consultations
+    - 2023-11-28 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-07-13 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day.
+- Allergies — None known.
 
 Chief Complaint:
-Solveig R. complains of throbbing unilateral headache with nausea and light sensitivity.
+Christian Jensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Headache started 19 hours ago, gradual build, similar to prior migraines. Triggered by sleep loss and stress; no focal neurological symptoms.
+Christian Jensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Normal neurological exam; neck supple; photophobia noted. Vitals stable.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 130/83 mmHg, HR 62 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-Clinical diagnosis consistent with prior migraine; no red flags. Consider pregnancy test if applicable and imaging only if atypical.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Recurrent migraine without aura; current moderate–severe attack.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Low-stimulus environment; administer antiemetic and triptan/NSAID per plan.
-- Hydration and rest; consider preventive strategy review if attack frequency rising.
-- Provide rescue plan for future attacks.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Discuss trigger diary, sleep regularity, and limits on acute medication days to avoid rebound.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Primary care/neurology follow-up in 4 weeks to evaluate need for prophylaxis.
+Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. S. Nielsen, Pulmonology
+Dr. K. Østergaard, General Surgery
