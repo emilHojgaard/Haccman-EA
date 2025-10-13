@@ -1,6 +1,6 @@
 Document Information:
 Task - 12-Lead ECG Acquisition
-Date - 2023-02-03
+Date - 2023-08-15
 Responsible Department - Cardiology / ED
 
 Purpose:

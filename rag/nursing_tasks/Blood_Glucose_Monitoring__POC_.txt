@@ -1,6 +1,6 @@
 Document Information:
 Task - Blood Glucose Monitoring (POC)
-Date - 2025-01-21
+Date - 2025-04-22
 Responsible Department - Endocrinology / Medical Ward
 
 Purpose:
