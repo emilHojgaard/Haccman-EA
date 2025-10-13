@@ -70,11 +70,11 @@ export default function BaseUI({
             <div
               style={{ display: "flex", flexDirection: "column", gap: "2vh" }}
             >
-              <SettingsButtons
+              {/* <SettingsButtons
                 setShowSystemprompt={setShowSystemprompt}
                 setGuardrail={setGuardrail}
                 guardrail={guardrail}
-              />
+              /> */}
               <InfoButtons
                 playSoundEffect={playSoundEffect}
                 setShowInformation={setShowInformation}
