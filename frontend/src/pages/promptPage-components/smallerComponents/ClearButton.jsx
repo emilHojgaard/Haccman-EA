@@ -1,11 +1,6 @@
 import { useSoundEffect } from "../../../theLeftoverFiles/SoundEffectContext";
 
-export default function ClearButton({ onClear, playSoundEffect }) {
-  const handleClick = () => {
-    playSoundEffect?.("select");
-    onClear?.();
-  };
-
+export default function ClearButton({ handleClear }) {
   return (
     <div
       style={{
@@ -18,7 +13,7 @@ export default function ClearButton({ onClear, playSoundEffect }) {
       <button
         id="clearAllButton"
         className="the-vaporwave-button2"
-        onClick={handleClick}
+        onClick={handleClear}
       >
         Clear (Tab)
       </button>

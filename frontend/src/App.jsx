@@ -1,4 +1,4 @@
-import Prompt from "./pages/PromptPageSupabase";
+import Prompt from "./pages/PromptPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SoundEffectProvider } from "./theLeftoverFiles/SoundEffectContext";
 import Initial from "./pages/InitialPage";

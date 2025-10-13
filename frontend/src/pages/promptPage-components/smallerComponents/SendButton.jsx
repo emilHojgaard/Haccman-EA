@@ -1,14 +1,14 @@
 export default function SendButton({
   inputValue,
   setInputValue,
-  onSend,
+  sendPrompt,
   playSoundEffect,
 }) {
   const handleClick = () => {
     playSoundEffect?.("select");
     const text = (inputValue || "").trim();
     if (!text) return;
-    onSend(text);
+    sendPrompt(text);
     setInputValue?.("");
   };
 

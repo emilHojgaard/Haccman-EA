@@ -36,7 +36,7 @@ function Prompt(props) {
   const [previousPrompts, setPreviousPrompts] = useState([]);
   const [winState, setWinState] = useState(false);
   const [showContent, setShowContent] = useState(false);
-
+  const [isLoading, setIsLoading] = useState(false);
   const [selectedTask, setSelectedTask] = useState(null);
 
   // hooks
@@ -83,7 +83,11 @@ function Prompt(props) {
       const systemPrompt = selectedTask.systemPrompt;
 
       // 1) Optimistic UI: show user message immediately
-      setPreviousPrompts((prev) => [...prev, { id: "user", message }]);
+      setPreviousPrompts((prev) => [
+        ...prev,
+        { id: "user", message, date: new Date(Date.now()).toLocaleString() },
+      ]);
+      setIsLoading(true);
 
       // 2) Insert prompt row in DB
       const promptRow = await insertPrompt(sessionId, message);
@@ -122,8 +126,13 @@ function Prompt(props) {
     // Add AI response to previous prompts
     setPreviousPrompts((prev) => [
       ...prev,
-      { id: "adversary", message: responseText },
+      {
+        id: "adversary",
+        message: responseText,
+        date: new Date(Date.now()).toLocaleString(),
+      },
     ]);
+    setIsLoading(false);
 
     // Win check
 
@@ -227,6 +236,7 @@ function Prompt(props) {
         selectedTask={selectedTask}
         setSelectedTask={setSelectedTask}
         sourceTitles={sourceTitles}
+        isLoading={isLoading}
       />
     </>
   );

@@ -8,20 +8,23 @@ export default function FullPromptChat({
   sendPrompt,
   playSoundEffect,
   sourceTitles,
+  isLoading,
 }) {
   return (
     <div
       id="boxresponseandprompt"
       style={{ display: "flex", flexDirection: "column", gap: "6vh" }}
     >
+      {console.log("previousPrompts: ", previousPrompts)}
       <PromptWindow
         previousPrompts={previousPrompts}
         sourceTitles={sourceTitles}
         date={date}
+        isLoading={isLoading}
       />
 
       <PromptInputBox
-        onSend={sendPrompt}
+        sendPrompt={sendPrompt}
         playSoundEffect={playSoundEffect}
         setPreviousPrompts={setPreviousPrompts}
       />

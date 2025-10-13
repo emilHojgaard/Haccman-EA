@@ -18,6 +18,7 @@ export default function BaseUI({
   setShowSystemprompt,
   selectedTask,
   sourceTitles,
+  isLoading,
 }) {
   return (
     <div style={{ zIndex: 1 }}>
@@ -50,6 +51,7 @@ export default function BaseUI({
               sendPrompt={sendPrompt}
               playSoundEffect={playSoundEffect}
               sourceTitles={sourceTitles}
+              isLoading={isLoading}
               // selectedBot={selectedBot} (LOOK again if it is needed ! )
               //maybe selectedtask here ? if the systemprompt becomses changable
             />

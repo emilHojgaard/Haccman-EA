@@ -3,7 +3,7 @@ import SendButton from "./SendButton";
 import ClearButton from "./ClearButton";
 
 export default function PromptInputBox({
-  onSend,
+  sendPrompt,
   playSoundEffect,
   setPreviousPrompts,
 }) {
@@ -13,7 +13,7 @@ export default function PromptInputBox({
     const text = inputValue.trim();
     if (!text) return;
     playSoundEffect?.("select");
-    onSend(text);
+    sendPrompt(text);
     setInputValue("");
   };
 
@@ -60,10 +60,10 @@ export default function PromptInputBox({
       <SendButton
         inputValue={inputValue}
         setInputValue={setInputValue}
-        onSend={onSend}
+        sendPrompt={sendPrompt}
         playSoundEffect={playSoundEffect}
       />
-      <ClearButton onClear={handleClear} />
+      <ClearButton handleClear={handleClear} />
     </div>
   );
 }
