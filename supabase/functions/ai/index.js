@@ -1,5 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 import { detectIntent } from "./detectIntent.js";
+import { journalTextToMarkdown } from "./journalTextToMarkdown.js";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*", // lock down in prod
@@ -150,7 +151,14 @@ Your task:
 
       const json = await r.json();
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
-      aiResponsetext += docText ? `\n\n Retrieved document: \n\n${docText}` : "";
+
+      //---- concattenating the retrieved document to the response ----
+      if (journalId !== null || cpr !== null || nameInit !== null) {
+        const textWithMarkdown = journalTextToMarkdown(docText);
+        aiResponsetext += docText ? `\n\n Retrieved document: \n\n${textWithMarkdown}` : "";
+      } else {
+        aiResponsetext += docText ? `\n\n Retrieved document: \n\n${docText}` : "";
+      }
 
       // Return answer 
       return new Response(JSON.stringify({
