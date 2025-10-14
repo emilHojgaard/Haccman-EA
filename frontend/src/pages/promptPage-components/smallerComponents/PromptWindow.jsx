@@ -79,7 +79,7 @@ export default function PromptWindow({
 
               <div className="source-title">
                 {/* Source titles — unique and styled */}
-                {sourceTitles && sourceTitles.length > 0 && (
+                {el.sourceTitles && el.sourceTitles.length > 0 && (
                   <div
                     className="source-title"
                     style={{
