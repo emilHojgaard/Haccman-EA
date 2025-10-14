@@ -15,7 +15,6 @@ export default function FullPromptChat({
       id="boxresponseandprompt"
       style={{ display: "flex", flexDirection: "column", gap: "6vh" }}
     >
-      {console.log("previousPrompts: ", previousPrompts)}
       <PromptWindow
         previousPrompts={previousPrompts}
         sourceTitles={sourceTitles}
