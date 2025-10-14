@@ -353,19 +353,15 @@ export function detectIntent(message) {
     const nameInit = extractFullName(msg);
     const knownDoc = matchKnownDocTitleFast(nmsg, tokens, 2);
 
-    console.log("journalId:", journalId);
-    console.log("cpr:", cpr);
-    console.log("nameInit:", nameInit);
-    console.log("knownDoc:", knownDoc);
+
 
     // Triggers (use pre-normalized lists)
     const wantsFull =
         fuzzyContainsTokens(nmsg, tokens, fullDocTriggers, 1) ||
         fuzzyContainsTokens(nmsg, tokens, retrieveTriggers, 1);
-    console.log("wantsFull:", wantsFull);
     const wantsSummary =
         fuzzyContainsTokens(nmsg, tokens, summaryTriggers, 2);
-    console.log("wantsSummary:", wantsSummary);
+
 
     // Decision (favor "hybrid")
     let mode = "hybrid";
@@ -374,6 +370,15 @@ export function detectIntent(message) {
     } else if ((journalId || knownDoc) && wantsSummary) {
         mode = "summary";
     }
+    console.log("-----------------")
+    console.log("journalId:", journalId);
+    console.log("cpr:", cpr);
+    console.log("nameInit:", nameInit);
+    console.log("knownDoc:", knownDoc);
+    console.log("wantsFull:", wantsFull);
+    console.log("wantsSummary:", wantsSummary);
     console.log("decided mode:", mode);
-    return mode;
+    console.log("-----------------")
+
+    return { mode, journalId, cpr, nameInit, knownDoc };
 }

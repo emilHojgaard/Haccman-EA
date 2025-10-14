@@ -73,15 +73,16 @@ Deno.serve(async (req) => {
       });
     }
     // --- Detect intent to know retrieval methode ---
-    const intent = detectIntent(message);
-    console.log("Detected intent strinyfied:", JSON.stringify(intent));
-    console.log("Detected intent:", intent);
+    const { mode, journalId, cpr, nameInit, knownDoc } = detectIntent(message);
+    const fullname = nameInit ? `${nameInit.first} ${nameInit.last}` : null;
+    console.log("fullname:", fullname);
+    console.log("Entities detected:", { mode, journalId, cpr, fullname, knownDoc });
 
     // --- different retrieval methods ---
-    if (intent === "full") {
+    if (mode === "full") {
 
       // --- Supabase Edge Call (getting document )
-      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: message });
+      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: `journal${journalId}, ${cpr}, ${fullname}, ${knownDoc}` });
       if (rpcErr) {
         return new Response(JSON.stringify({ error: rpcErr.message ?? rpcErr }), {
           status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" },
@@ -156,9 +157,9 @@ Your task:
         titles: docTitle ? [docTitle] : [],
       }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
 
-    } else if (intent === "summary") {
+    } else if (mode === "summary") {
       // --- Supabase Edge Call (getting document ) ---
-      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: message });
+      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: `journal${journalId}, ${cpr}, ${fullname}, ${knownDoc}` });
       if (rpcErr) {
         return new Response(JSON.stringify({ error: rpcErr.message ?? rpcErr }), {
           status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" },
