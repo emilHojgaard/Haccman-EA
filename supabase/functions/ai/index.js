@@ -150,7 +150,7 @@ Your task:
 
       const json = await r.json();
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
-      aiResponsetext += docText ? `\n\n${docTitle} : \n\n${docText}` : "";
+      aiResponsetext += docText ? `\n\n Retrieved document: \n\n${docText}` : "";
 
       // Return answer 
       return new Response(JSON.stringify({
