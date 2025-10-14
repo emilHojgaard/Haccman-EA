@@ -63,8 +63,7 @@ Deno.serve(async (req) => {
   console.log("Request received");
 
   try {
-    const { message, systemPrompt, guardrail } =
-      await req.json();
+    const { message, systemPrompt, guardrail } = await req.json();
 
     if (!OPENAI_API_KEY) {
       return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
@@ -79,13 +78,18 @@ Deno.serve(async (req) => {
 
     // --- different retrieval methods ---
     if (intent === "full") {
-
       // --- Supabase Edge Call (getting document )
-      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: message });
+      const { data, error: rpcErr } = await supabase.rpc("full_text_search", {
+        query_text: message,
+      });
       if (rpcErr) {
-        return new Response(JSON.stringify({ error: rpcErr.message ?? rpcErr }), {
-          status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" },
-        });
+        return new Response(
+          JSON.stringify({ error: rpcErr.message ?? rpcErr }),
+          {
+            status: 400,
+            headers: { ...corsHeaders, "Content-Type": "application/json" },
+          }
+        );
       }
       const doc = Array.isArray(data) ? data[0] : data;
       const docTitle = doc?.title ?? "";
@@ -146,22 +150,30 @@ Your task:
       const json = await r.json();
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
 
-      // Return answer 
-      return new Response(JSON.stringify({
-        mode: "full",
-        aiResponsetext,
-        sources: [],
-        document: doc ? { title: docTitle, full_text: docText } : null,
-        titles: docTitle ? [docTitle] : [],
-      }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
-
+      // Return answer
+      return new Response(
+        JSON.stringify({
+          mode: "full",
+          aiResponsetext,
+          sources: [],
+          document: doc ? { title: docTitle, full_text: docText } : null,
+          titles: docTitle ? [docTitle] : [],
+        }),
+        { headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
     } else if (intent === "summary") {
       // --- Supabase Edge Call (getting document ) ---
-      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: message });
+      const { data, error: rpcErr } = await supabase.rpc("full_text_search", {
+        query_text: message,
+      });
       if (rpcErr) {
-        return new Response(JSON.stringify({ error: rpcErr.message ?? rpcErr }), {
-          status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" },
-        });
+        return new Response(
+          JSON.stringify({ error: rpcErr.message ?? rpcErr }),
+          {
+            status: 400,
+            headers: { ...corsHeaders, "Content-Type": "application/json" },
+          }
+        );
       }
       const doc = Array.isArray(data) ? data[0] : data;
       const docTitle = doc?.title ?? "";
@@ -222,28 +234,40 @@ Your task:
       const json = await r.json();
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
 
-      // --- Return answer --- 
-      return new Response(JSON.stringify({
-        mode: "summary",
-        aiResponsetext,
-        sources: [],
-        document: doc ? { title: docTitle, full_text: docText } : null,
-        titles: docTitle ? [docTitle] : [],
-      }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
-
+      // --- Return answer ---
+      return new Response(
+        JSON.stringify({
+          mode: "summary",
+          aiResponsetext,
+          sources: [],
+          document: doc ? { title: docTitle, full_text: docText } : null,
+          titles: docTitle ? [docTitle] : [],
+        }),
+        { headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
     }
     // fall back mode: Hybrid
     else {
       // --- embedding the query ---
       const queryEmbedding = await embedWithOpenAI(message);
-      // --- Supabase Edge Call (getting chunks ) --- 
-      const { data: matches, error: rpcErr } = await supabase.rpc("hybrid_search_chunks_rrf", {
-        query_text: message, query_embedding: queryEmbedding, match_count: 12,
-      });
+      // --- Supabase Edge Call (getting chunks ) ---
+      const { data: matches, error: rpcErr } = await supabase.rpc(
+        "hybrid_search_chunks_rrf",
+        {
+          query_text: message,
+          query_embedding: queryEmbedding,
+          match_count: 12,
+          min_rrf: 0.017,
+        }
+      );
       if (rpcErr) {
-        return new Response(JSON.stringify({ error: rpcErr.message ?? rpcErr }), {
-          status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" },
-        });
+        return new Response(
+          JSON.stringify({ error: rpcErr.message ?? rpcErr }),
+          {
+            status: 400,
+            headers: { ...corsHeaders, "Content-Type": "application/json" },
+          }
+        );
       }
 
       console.log("Retrieved", matches, "matching chunks");
@@ -291,22 +315,25 @@ Your task:
       // aiResponsetext = redactCPR(aiResponsetext); // optional safety net
 
       // --- Return answer + the sources you used (ids/similarities) ---
-      return new Response(JSON.stringify({
-        mode: "hybrid",
-        aiResponsetext: aiResponsetext,
-        sources: (matches ?? []).map((m, i) => ({
-          id: m.chunk_id,
-          doc_id: m.doc_id,
-          doc_title: m.doc_title,
-          doc_type: m.doc_type,
-          embedding_score: m.embedding_score,
-          keyword_score: m.keyword_score,
-          rrf_score: m.rrf_score,
-          rank: i + 1,
-        })),
-        document: null,
-        titles: (matches ?? []).map(m => m.doc_title),
-      }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
+      return new Response(
+        JSON.stringify({
+          mode: "hybrid",
+          aiResponsetext: aiResponsetext,
+          sources: (matches ?? []).map((m, i) => ({
+            id: m.chunk_id,
+            doc_id: m.doc_id,
+            doc_title: m.doc_title,
+            doc_type: m.doc_type,
+            embedding_score: m.embedding_score,
+            keyword_score: m.keyword_score,
+            rrf_score: m.rrf_score,
+            rank: i + 1,
+          })),
+          document: null,
+          titles: (matches ?? []).map((m) => m.doc_title),
+        }),
+        { headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
     }
   } catch (e) {
     return new Response(JSON.stringify({ error: String(e) }), {
