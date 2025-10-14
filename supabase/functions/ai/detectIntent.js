@@ -333,8 +333,8 @@ function matchKnownDocTitleFast(nmsg, tokens, maxDist = 2) {
         }
     }
 
-    // broad category fallback
-    if (fuzzyContainsTokens(nmsg, tokens, categoryPhrases, 2)) return "category-match";
+    // broad category fallback -- disabled for now; will alow summary without a specific doc title.
+    // if (fuzzyContainsTokens(nmsg, tokens, categoryPhrases, 2)) return "category-match";
 
     return null;
 }
@@ -367,7 +367,7 @@ export function detectIntent(message) {
     let mode = "hybrid";
     if ((journalId || cpr || nameInit || knownDoc) && wantsFull) {
         mode = "full";
-    } else if ((journalId || knownDoc) && wantsSummary) {
+    } else if ((journalId || cpr || nameInit || knownDoc) && wantsSummary) {
         mode = "summary";
     }
     console.log("-----------------")
