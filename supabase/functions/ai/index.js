@@ -74,6 +74,7 @@ Deno.serve(async (req) => {
     }
     // --- Detect intent to know retrieval methode ---
     const intent = detectIntent(message);
+    console.log("Detected intent strinyfied:", JSON.stringify(intent));
     console.log("Detected intent:", intent);
 
     // --- different retrieval methods ---
@@ -143,12 +144,12 @@ Your task:
       }
 
       const json = await r.json();
-      let aiResponseText = json?.choices?.[0]?.message?.content ?? "";
+      let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
 
       // Return answer 
       return new Response(JSON.stringify({
         mode: "full",
-        aiResponseText,
+        aiResponsetext,
         sources: [],
         document: doc ? { title: docTitle, full_text: docText } : null,
         titles: docTitle ? [docTitle] : [],
@@ -219,12 +220,12 @@ Your task:
       }
 
       const json = await r.json();
-      let aiResponseText = json?.choices?.[0]?.message?.content ?? "";
+      let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
 
       // --- Return answer --- 
       return new Response(JSON.stringify({
         mode: "summary",
-        aiResponseText,
+        aiResponsetext,
         sources: [],
         document: doc ? { title: docTitle, full_text: docText } : null,
         titles: docTitle ? [docTitle] : [],

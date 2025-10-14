@@ -281,10 +281,10 @@ export function extractJournalId(text) {
     return id >= 1 && id <= 150 ? id : null;
 }
 
-function extractNameInitial(text) {
-    const re = /(?:^|[^\p{L}])([\p{Lu}][\p{Ll}]+)\s([\p{Lu}])\.(?=\s|$)/u;
+function extractFullName(text) {
+    const re = /(?:^|[^\p{L}])([\p{Lu}][\p{Ll}]+)\s([\p{Lu}][\p{Ll}]+)/u;
     const m = re.exec(text);
-    return m ? { first: m[1], initial: m[2] } : null;
+    return m ? { first: m[1], last: m[2] } : null;
 }
 
 
@@ -350,7 +350,7 @@ export function detectIntent(message) {
     // Entities
     const journalId = extractJournalId(msg);
     const cpr = extractCPR(msg);
-    const nameInit = extractNameInitial(msg);
+    const nameInit = extractFullName(msg);
     const knownDoc = matchKnownDocTitleFast(nmsg, tokens, 2);
 
     console.log("journalId:", journalId);
@@ -374,6 +374,6 @@ export function detectIntent(message) {
     } else if ((journalId || knownDoc) && wantsSummary) {
         mode = "summary";
     }
-
-    return { mode };
+    console.log("decided mode:", mode);
+    return mode;
 }
