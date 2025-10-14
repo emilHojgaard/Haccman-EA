@@ -71,6 +71,7 @@ Deno.serve(async (req) => {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
+
     // --- Detect intent to know retrieval methode ---
     const { mode, journalId, cpr, nameInit, knownDoc } = detectIntent(message);
     const fullname = nameInit ? `${nameInit.first} ${nameInit.last}` : null;
@@ -245,14 +246,28 @@ Your task:
     }
     // fall back mode: Hybrid
     else {
+      //--- normalizing message for querying ---
+      function normalizeForFTS(input) {
+        return (input ?? "")
+          .normalize("NFD")                         // split accents
+          .replace(/\p{Diacritic}/gu, "")          // remove accents (Søren -> Soren)
+          .toLowerCase()
+          .replace(/[^\p{L}\p{N}\s]+/gu, " ")      // strip punctuation (quotes, commas, parens…)
+          .replace(/\s+/g, " ")                    // collapse whitespace
+          .trim();
+      }
+      const normalizedMessage = normalizeForFTS(message);
       // --- embedding the query ---
-      const queryEmbedding = await embedWithOpenAI(message);
+      // const queryEmbedding = await embedWithOpenAI(message);
+      // console.log("Query embedding computed");
+      const normEmbedding = await embedWithOpenAI(normalizedMessage);
+      console.log("Normalized query embedding computed");
       // --- Supabase Edge Call (getting chunks ) ---
       const { data: matches, error: rpcErr } = await supabase.rpc(
         "hybrid_search_chunks_rrf",
         {
-          query_text: message,
-          query_embedding: queryEmbedding,
+          query_text: normalizedMessage,
+          query_embedding: normEmbedding,
           match_count: 12,
           min_rrf: 0.017,
         }

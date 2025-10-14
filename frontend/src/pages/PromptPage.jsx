@@ -97,6 +97,7 @@ function Prompt(props) {
         await sendPromptToAI(message, systemPrompt, guardrail);
       console.log(`AI Response Mode: ${mode.toUpperCase()}\n`);
       console.table(sources);
+      console.log("sources:", sources);
 
       // setting source titles for refferencing
       setSourceTitles(titles || []);
