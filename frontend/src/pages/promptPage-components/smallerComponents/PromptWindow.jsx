@@ -94,7 +94,7 @@ export default function PromptWindow({
                     <span style={{ fontWeight: "bold", color: "black" }}>
                       Sources:
                     </span>
-                    {Array.from(new Set(sourceTitles))
+                    {Array.from(new Set(el.sourceTitles))
                       .filter(Boolean)
                       .map((title, i) => (
                         <span

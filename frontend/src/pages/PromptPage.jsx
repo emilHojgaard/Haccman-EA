@@ -124,6 +124,7 @@ function Prompt(props) {
         id: "adversary",
         message: responseText,
         date: new Date(Date.now()).toLocaleString(),
+        sourceTitles: sourceTitles,
       },
     ]);
     setIsLoading(false);
