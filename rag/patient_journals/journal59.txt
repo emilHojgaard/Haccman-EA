@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 210561-4793
-Encounter Date - 2023-05-19
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Maja Kristensen
+CPR-number - 030200-9645
+Encounter Date - 2023-04-26
+Author - Dr. O. Bjørk, Urology
+Patient Name - Magnus Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — CKD (2005), Hypothyroidism (1982), Atrial fibrillation (2013).
-- Recent Lab Results (2023-03-17)
-    Hb 7.5 mmol/L
-    Ferritin 123 µg/L
+- Past Diagnoses — COPD (2019), Hypertension (1982), Osteoarthritis (2022), Iron Deficiency (2000).
+- Recent Lab Results (2023-04-22)
+    Hb 8.2 mmol/L
+    Ferritin 26 µg/L
     CRP 3 mg/L
-    Creatinine 87 µmol/L
+    Creatinine 86 µmol/L
 - Prior Consultations
-    - 2023-05-12 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-02-26 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Empagliflozin 10 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily, Atorvastatin 20 mg nightly.
+    - 2023-03-24 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-03-19 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Levothyroxine 75 µg daily, Ferrous sulfate 100 mg every other day, Metformin 500 mg BID, Amlodipine 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Maja Kristensen reports thirst, frequent urination, and blurred vision.
+Magnus Dam reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Maja Kristensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Magnus Dam has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Vitals: BP 150/68 mmHg, HR 105 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Vitals: BP 108/78 mmHg, HR 75 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
 Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
@@ -44,4 +44,4 @@ Follow-up & Disposition:
 Clinic follow-up in 3 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. O. Bjørk, Urology

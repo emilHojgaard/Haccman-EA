@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 150803-2749
-Encounter Date - 2023-07-21
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Lene Mikkelsen
+CPR-number - 200346-3169
+Encounter Date - 2025-01-20
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Kirsten Andersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (1990), Migraine (2015), Depression (2017), Chronic lower back pain.
-- Recent Lab Results (2023-06-17)
-    Hb 8.3 mmol/L
-    Ferritin 56 µg/L
-    CRP 12 mg/L
-    Creatinine 57 µmol/L
+- Past Diagnoses — Heart failure (HFrEF) (1983), Depression (2019), Gout (1985), Iron Deficiency (2000), Chronic lower back pain.
+- Recent Lab Results (2024-11-09)
+    Hb 6.5 mmol/L (low)
+    Ferritin 92 µg/L
+    CRP 11 mg/L
+    Creatinine 102 µmol/L
 - Prior Consultations
-    - 2023-07-06 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-04-04 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ramipril 5 mg daily, Levothyroxine 75 µg daily, Amlodipine 5 mg daily, Atorvastatin 20 mg nightly.
-- Allergies — ACE inhibitors (cough).
+    - 2024-10-26 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-11-16 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Ramipril 5 mg daily, Atorvastatin 20 mg nightly, Furosemide 40 mg daily, Metformin 500 mg BID.
+- Allergies — None known.
 
 Chief Complaint:
-Lene Mikkelsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Kirsten Andersen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Lene Mikkelsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Kirsten Andersen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 98/91 mmHg, HR 84 bpm). Abdomen soft, non-tender.
+Febrile (37.5 °C), RR 16/min, SpO₂ 98% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. H. Sørensen, Internal Medicine

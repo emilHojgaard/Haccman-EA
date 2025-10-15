@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 201233-1463
-Encounter Date - 2023-07-20
-Author - Dr. R. Iversen, Neurology
-Patient Name - Viggo Thomsen
+CPR-number - 060245-0527
+Encounter Date - 2024-09-14
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Lars Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (2000), Osteoporosis (2004), GERD (1999), Chronic lower back pain.
-- Recent Lab Results (2023-06-05)
-    Hb 6.5 mmol/L (low)
-    Ferritin 82 µg/L
-    CRP 14 mg/L
-    Creatinine 66 µmol/L
+- Past Diagnoses — Asthma (1988), Dyslipidemia (2020).
+- Recent Lab Results (2024-08-25)
+    Hb 6.7 mmol/L (low)
+    Ferritin 143 µg/L
+    CRP 23 mg/L
+    Creatinine 88 µmol/L
 - Prior Consultations
-    - 2023-03-27 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-01-05 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Metformin 500 mg BID, Pantoprazole 40 mg daily, Furosemide 40 mg daily, Lisinopril 10 mg daily.
+    - 2024-05-27 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-07-06 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Ramipril 5 mg daily, Amlodipine 5 mg daily, Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
 Chief Complaint:
-Viggo Thomsen complains of fever, productive cough, and right-sided chest pain.
+Lars Dam complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Viggo Thomsen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Lars Dam developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Febrile (37.0 °C), RR 12/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Febrile (36.1 °C), RR 25/min, SpO₂ 98% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
 CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
@@ -44,4 +44,4 @@ Follow-up & Disposition:
 Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. E. Dam, Rheumatology

@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 270296-7912
-Encounter Date - 2025-04-29
-Author - Dr. O. Bjørk, Urology
-Patient Name - Brian Holm
+CPR-number - 040452-2073
+Encounter Date - 2025-05-08
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Mette Lund
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (1996), Type 2 Diabetes (1980), Irritable bowel syndrome (2016), Chronic lower back pain.
-- Recent Lab Results (2025-03-27)
-    Hb 6.6 mmol/L (low)
-    Ferritin 36 µg/L
-    CRP 23 mg/L
-    Creatinine 82 µmol/L
+- Past Diagnoses — Obesity (2005), Anxiety (1986), COPD (1984), Chronic lower back pain.
+- Recent Lab Results (2025-04-21)
+    Hb 8.0 mmol/L
+    Ferritin 31 µg/L
+    CRP 25 mg/L
+    Creatinine 58 µmol/L
 - Prior Consultations
-    - 2024-12-26 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2025-01-06 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Furosemide 40 mg daily, Bisoprolol 5 mg daily, Empagliflozin 10 mg daily, Atorvastatin 20 mg nightly.
-- Allergies — None known.
+    - 2024-10-14 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-11-28 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Empagliflozin 10 mg daily, Lisinopril 10 mg daily.
+- Allergies — ACE inhibitors (cough).
 
 Chief Complaint:
-Brian Holm reports thirst, frequent urination, and blurred vision.
+Mette Lund reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Brian Holm has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Mette Lund has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Vitals: BP 99/93 mmHg, HR 66 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Vitals: BP 151/90 mmHg, HR 72 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
 Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
@@ -44,4 +44,4 @@ Follow-up & Disposition:
 Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. T. Bæk, Infectious Diseases

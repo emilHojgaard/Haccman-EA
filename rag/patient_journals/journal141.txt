@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 230400-8940
-Encounter Date - 2025-02-11
-Author - Dr. S. Gram, Hematology
-Patient Name - Rasmus Hansen
+CPR-number - 150197-9765
+Encounter Date - 2023-10-26
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Julie Sørensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Dyslipidemia (2010), CKD (1989), Hypothyroidism (2004), Asthma (2018), Chronic lower back pain.
-- Recent Lab Results (2025-01-25)
-    Hb 7.6 mmol/L
-    Ferritin 63 µg/L
-    CRP 9 mg/L
-    Creatinine 98 µmol/L
+- Past Diagnoses — Depression (1988), COPD (2015), Asthma (2008), Hypertension (1993), Chronic lower back pain.
+- Recent Lab Results (2023-09-16)
+    Hb 6.8 mmol/L (low)
+    Ferritin 134 µg/L
+    CRP 10 mg/L
+    Creatinine 96 µmol/L
 - Prior Consultations
-    - 2025-02-01 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-10-26 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Empagliflozin 10 mg daily, Metformin 500 mg BID, Lisinopril 10 mg daily.
-- Allergies — NSAIDs (dyspepsia).
+    - 2023-07-16 — Routine check-up — stable BP, mild anemia noted.
+    - 2023-10-11 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Ferrous sulfate 100 mg every other day, Levothyroxine 75 µg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Rasmus Hansen reports thirst, frequent urination, and blurred vision.
+Julie Sørensen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Rasmus Hansen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Julie Sørensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Vitals: BP 123/64 mmHg, HR 90 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Vitals: BP 150/64 mmHg, HR 110 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
 Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
@@ -41,7 +41,7 @@ Patient Education & Safety Net:
 Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. V. Laursen, Nephrology

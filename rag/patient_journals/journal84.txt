@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 200234-7050
-Encounter Date - 2025-04-13
-Author - Dr. O. Bjørk, Urology
-Patient Name - Nina Gram
+CPR-number - 250983-2329
+Encounter Date - 2025-02-05
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Carsten Mikkelsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFpEF) (1986), Iron Deficiency (2016), Hypothyroidism (2015).
-- Recent Lab Results (2025-03-22)
-    Hb 7.0 mmol/L (low)
-    Ferritin 114 µg/L
-    CRP 18 mg/L
-    Creatinine 102 µmol/L
+- Past Diagnoses — Gallstones (2003), COPD (1980), Asthma (2011), Chronic lower back pain.
+- Recent Lab Results (2024-12-18)
+    Hb 8.2 mmol/L
+    Ferritin 128 µg/L
+    CRP 13 mg/L
+    Creatinine 88 µmol/L
 - Prior Consultations
-    - 2025-03-02 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-12-12 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Empagliflozin 10 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily, Atorvastatin 20 mg nightly.
-- Allergies — None known.
+    - 2025-01-17 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-09-09 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Ramipril 5 mg daily, Metformin 500 mg BID.
+- Allergies — Penicillin (rash).
 
 Chief Complaint:
-Nina Gram reports thirst, frequent urination, and blurred vision.
+Carsten Mikkelsen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Nina Gram has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Carsten Mikkelsen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Vitals: BP 103/77 mmHg, HR 72 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Febrile (37.3 °C), RR 16/min, SpO₂ 100% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Clinic follow-up in 4 weeks to assess response and review HbA1c.
+Safety check in 2 days if outpatient; clinical review in 2 weeks to ensure recovery.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. T. Bæk, Infectious Diseases

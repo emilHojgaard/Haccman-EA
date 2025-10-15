@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 070360-4358
-Encounter Date - 2025-04-16
-Author - Dr. O. Bjørk, Urology
-Patient Name - Niklas Jensen
+CPR-number - 110775-2468
+Encounter Date - 2025-07-09
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Solveig Pedersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (1997), Obesity (2008), Heart failure (HFrEF) (1980).
-- Recent Lab Results (2025-04-09)
-    Hb 8.2 mmol/L
-    Ferritin 138 µg/L
-    CRP 23 mg/L
-    Creatinine 88 µmol/L
+- Past Diagnoses — Peptic ulcer disease (2001), Hypothyroidism (2017), Migraine (2009), Depression (2020).
+- Recent Lab Results (2025-06-22)
+    Hb 7.7 mmol/L
+    Ferritin 112 µg/L
+    CRP 13 mg/L
+    Creatinine 57 µmol/L
 - Prior Consultations
-    - 2024-08-17 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2025-03-17 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Pantoprazole 40 mg daily, Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly.
+    - 2024-07-17 — Routine check-up — stable BP, mild anemia noted.
+    - 2025-01-25 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Bisoprolol 5 mg daily, Ramipril 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Niklas Jensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Solveig Pedersen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Niklas Jensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Solveig Pedersen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 147/61 mmHg, HR 85 bpm). Abdomen soft, non-tender.
+Vitals: BP 105/59 mmHg, HR 86 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. C. Mikkelsen, Endocrinology

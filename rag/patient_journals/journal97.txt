@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 010587-2578
-Encounter Date - 2023-12-29
+CPR-number - 251046-1870
+Encounter Date - 2023-01-23
 Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Anders Christensen
+Patient Name - Niklas Johansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (1989), Dyslipidemia (1995), Peptic ulcer disease (2003), Chronic lower back pain.
-- Recent Lab Results (2023-11-30)
-    Hb 8.3 mmol/L
-    Ferritin 56 µg/L
-    CRP 14 mg/L
-    Creatinine 96 µmol/L
+- Past Diagnoses — Iron Deficiency (2016), Asthma (2006), Heart failure (HFrEF) (2016), Chronic lower back pain.
+- Recent Lab Results (2022-12-22)
+    Hb 8.5 mmol/L
+    Ferritin 120 µg/L
+    CRP 24 mg/L
+    Creatinine 67 µmol/L
 - Prior Consultations
-    - 2023-11-01 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-09-18 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily.
+    - 2022-06-03 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2022-11-05 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Amlodipine 5 mg daily, Lisinopril 10 mg daily, Metformin 500 mg BID.
 - Allergies — None known.
 
 Chief Complaint:
-Anders Christensen complains of fever, productive cough, and right-sided chest pain.
+Niklas Johansen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Anders Christensen developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Niklas Johansen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Febrile (38.0 °C), RR 19/min, SpO₂ 94% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Febrile (36.1 °C), RR 13/min, SpO₂ 99% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
 CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
@@ -41,7 +41,7 @@ Patient Education & Safety Net:
 Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
 Dr. M. Petersen, Gastroenterology

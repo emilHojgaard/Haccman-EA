@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 081249-5925
-Encounter Date - 2025-05-04
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Henrik Bjørk
+CPR-number - 181287-4210
+Encounter Date - 2023-07-08
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Grethe Laursen
 
 Medical History & Prior Results:
-- Past Diagnoses — Migraine (2023), Peptic ulcer disease (2007), Heart failure (HFrEF) (1992), Hypothyroidism (1996), Chronic lower back pain.
-- Recent Lab Results (2025-04-26)
-    Hb 8.3 mmol/L
-    Ferritin 120 µg/L
-    CRP 4 mg/L
-    Creatinine 96 µmol/L
+- Past Diagnoses — Type 2 Diabetes (1995), COPD (1996), Osteoarthritis (1980), Gallstones (2011), Chronic lower back pain.
+- Recent Lab Results (2023-05-18)
+    Hb 7.1 mmol/L (low)
+    Ferritin 121 µg/L
+    CRP 11 mg/L
+    Creatinine 110 µmol/L
 - Prior Consultations
-    - 2024-08-24 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-12-07 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Empagliflozin 10 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2023-04-26 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-07-01 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Levothyroxine 75 µg daily, Furosemide 40 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Henrik Bjørk reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Grethe Laursen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Henrik Bjørk notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Grethe Laursen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 116/93 mmHg, HR 113 bpm). Abdomen soft, non-tender.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 116/66 mmHg, HR 116 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
 Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
@@ -44,4 +44,4 @@ Follow-up & Disposition:
 Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. T. Bæk, Infectious Diseases

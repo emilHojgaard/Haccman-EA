@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 181055-7050
-Encounter Date - 2023-02-08
-Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Rasmus Olsen
+CPR-number - 251165-8360
+Encounter Date - 2024-02-27
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Solveig Mikkelsen
 
 Medical History & Prior Results:
-- Past Diagnoses — CKD (1981), Atrial fibrillation (2017), Migraine (1997), Heart failure (HFrEF) (1999), Chronic lower back pain.
-- Recent Lab Results (2022-12-29)
-    Hb 7.6 mmol/L
-    Ferritin 62 µg/L
-    CRP 18 mg/L
-    Creatinine 58 µmol/L
+- Past Diagnoses — Dyslipidemia (2001), COPD (2011), GERD (2014), Chronic lower back pain.
+- Recent Lab Results (2024-02-09)
+    Hb 6.8 mmol/L (low)
+    Ferritin 52 µg/L
+    CRP 11 mg/L
+    Creatinine 67 µmol/L
 - Prior Consultations
-    - 2023-01-28 — Routine check-up — stable BP, mild anemia noted.
-    - 2022-09-22 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Ramipril 5 mg daily, Metformin 500 mg BID.
-- Allergies — NSAIDs (dyspepsia).
+    - 2023-08-04 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2023-11-07 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Lisinopril 10 mg daily, Empagliflozin 10 mg daily, Ramipril 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Rasmus Olsen reports thirst, frequent urination, and blurred vision.
+Solveig Mikkelsen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Rasmus Olsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Solveig Mikkelsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Vitals: BP 155/70 mmHg, HR 105 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Vitals: BP 137/82 mmHg, HR 106 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
 Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
@@ -41,7 +41,7 @@ Patient Education & Safety Net:
 Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Clinic follow-up in 2 weeks to assess response and review HbA1c.
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. S. Nielsen, Pulmonology
+Dr. H. Sørensen, Internal Medicine

@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 261060-4233
-Encounter Date - 2023-01-22
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Rasmus Bang
+CPR-number - 150376-4462
+Encounter Date - 2025-01-01
+Author - Dr. S. Gram, Hematology
+Patient Name - Ida Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — Migraine (1994), Gallstones (1987), Gout (2019), Type 2 Diabetes (2022), Chronic lower back pain.
-- Recent Lab Results (2022-10-23)
-    Hb 7.7 mmol/L
-    Ferritin 125 µg/L
-    CRP 22 mg/L
-    Creatinine 108 µmol/L
+- Past Diagnoses — Psoriasis (2006), Anxiety (1995), Irritable bowel syndrome (1994), Obesity (2023), Chronic lower back pain.
+- Recent Lab Results (2024-11-07)
+    Hb 7.5 mmol/L
+    Ferritin 88 µg/L
+    CRP 10 mg/L
+    Creatinine 66 µmol/L
 - Prior Consultations
-    - 2022-10-08 — Routine check-up — stable BP, mild anemia noted.
-    - 2022-12-06 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2024-04-11 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-11-11 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Atorvastatin 20 mg nightly, Ramipril 5 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
 Chief Complaint:
-Rasmus Bang reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Ida Skov reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Rasmus Bang notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Ida Skov has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 140/92 mmHg, HR 72 bpm). Abdomen soft, non-tender.
+Vitals: BP 166/71 mmHg, HR 86 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
+Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. S. Gram, Hematology

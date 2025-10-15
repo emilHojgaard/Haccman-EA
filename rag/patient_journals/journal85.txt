@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 021254-7860
-Encounter Date - 2023-03-16
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Henrik Østergaard
+CPR-number - 071097-2716
+Encounter Date - 2023-09-23
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Anne Andersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (2010), Type 2 Diabetes (2007), Gout (1995), Anxiety (2011).
-- Recent Lab Results (2023-01-25)
-    Hb 7.9 mmol/L
-    Ferritin 101 µg/L
-    CRP 5 mg/L
-    Creatinine 58 µmol/L
+- Past Diagnoses — CKD (1986), Osteoarthritis (2010), Depression (2017), Asthma (2010), Chronic lower back pain.
+- Recent Lab Results (2023-08-07)
+    Hb 6.7 mmol/L (low)
+    Ferritin 89 µg/L
+    CRP 17 mg/L
+    Creatinine 79 µmol/L
 - Prior Consultations
-    - 2023-02-23 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-01-29 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Levothyroxine 75 µg daily, Empagliflozin 10 mg daily, Amlodipine 5 mg daily, Lisinopril 10 mg daily.
+    - 2023-03-30 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-08-04 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Furosemide 40 mg daily, Lisinopril 10 mg daily, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
 Chief Complaint:
-Henrik Østergaard reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Anne Andersen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Henrik Østergaard notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Anne Andersen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 122/86 mmHg, HR 80 bpm). Abdomen soft, non-tender.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 146/72 mmHg, HR 98 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
 Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
@@ -44,4 +44,4 @@ Follow-up & Disposition:
 Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. P. Jensen, Psychiatry

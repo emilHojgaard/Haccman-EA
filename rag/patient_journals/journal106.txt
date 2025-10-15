@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 260175-8897
-Encounter Date - 2024-02-08
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Mette Mortensen
+CPR-number - 100179-5083
+Encounter Date - 2023-03-17
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Kirsten Østergaard
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (2001), Atrial fibrillation (2012), Peptic ulcer disease (2019), Depression (1987), Chronic lower back pain.
-- Recent Lab Results (2024-02-04)
-    Hb 7.8 mmol/L
-    Ferritin 86 µg/L
-    CRP 14 mg/L
-    Creatinine 93 µmol/L
+- Past Diagnoses — Osteoporosis (2001), GERD (2008), Heart failure (HFpEF) (2019), Anxiety (2017).
+- Recent Lab Results (2023-03-14)
+    Hb 7.2 mmol/L (low)
+    Ferritin 10 µg/L (low)
+    CRP 23 mg/L
+    Creatinine 65 µmol/L
 - Prior Consultations
-    - 2023-08-26 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2023-10-12 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Empagliflozin 10 mg daily, Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily.
-- Allergies — None known.
+    - 2023-01-13 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2022-09-28 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day, Metformin 500 mg BID.
+- Allergies — ACE inhibitors (cough).
 
 Chief Complaint:
-Mette Mortensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Kirsten Østergaard reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Mette Mortensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Kirsten Østergaard notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 105/83 mmHg, HR 100 bpm). Abdomen soft, non-tender.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 111/80 mmHg, HR 115 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
 Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
@@ -41,7 +41,7 @@ Patient Education & Safety Net:
 Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. E. Dam, Rheumatology

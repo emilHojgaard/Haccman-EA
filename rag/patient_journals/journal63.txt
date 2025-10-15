@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 031090-5514
-Encounter Date - 2025-09-16
-Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Magnus Rasmussen
+CPR-number - 200773-8005
+Encounter Date - 2025-02-20
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Ole Knudsen
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (1990), Irritable bowel syndrome (1989), Heart failure (HFrEF) (1993), Psoriasis (2020), Chronic lower back pain.
-- Recent Lab Results (2025-09-12)
-    Hb 7.9 mmol/L
-    Ferritin 76 µg/L
-    CRP 21 mg/L
-    Creatinine 75 µmol/L
+- Past Diagnoses — Asthma (1990), Osteoporosis (2018), Iron Deficiency (2012).
+- Recent Lab Results (2025-01-28)
+    Hb 7.6 mmol/L
+    Ferritin 73 µg/L
+    CRP 8 mg/L
+    Creatinine 82 µmol/L
 - Prior Consultations
-    - 2025-08-23 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2025-03-24 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Pantoprazole 40 mg daily, Levothyroxine 75 µg daily.
+    - 2025-02-16 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2025-01-10 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Bisoprolol 5 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Magnus Rasmussen complains of fever, productive cough, and right-sided chest pain.
+Ole Knudsen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Magnus Rasmussen developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Ole Knudsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Febrile (36.0 °C), RR 22/min, SpO₂ 94% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Vitals: BP 113/93 mmHg, HR 109 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Clinic follow-up in 3 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. S. Nielsen, Pulmonology
+Dr. M. Petersen, Gastroenterology

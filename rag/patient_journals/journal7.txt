@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 070874-1807
-Encounter Date - 2024-11-17
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Brian Gram
+CPR-number - 130595-9256
+Encounter Date - 2023-03-04
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Kirsten Larsen
 
 Medical History & Prior Results:
-- Past Diagnoses — GERD (2006), Iron Deficiency (1991), Chronic lower back pain.
-- Recent Lab Results (2024-11-13)
-    Hb 7.4 mmol/L (low)
-    Ferritin 35 µg/L
-    CRP 16 mg/L
-    Creatinine 98 µmol/L
+- Past Diagnoses — Irritable bowel syndrome (2017), Gallstones (2018), Asthma (2000), Heart failure (HFrEF) (1980).
+- Recent Lab Results (2023-02-17)
+    Hb 8.3 mmol/L
+    Ferritin 73 µg/L
+    CRP 19 mg/L
+    Creatinine 67 µmol/L
 - Prior Consultations
-    - 2024-05-19 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-09-18 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Lisinopril 10 mg daily, Furosemide 40 mg daily, Ramipril 5 mg daily, Ferrous sulfate 100 mg every other day.
-- Allergies — Penicillin (rash).
+    - 2022-12-21 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2022-12-25 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Amlodipine 5 mg daily, Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day, Metformin 500 mg BID.
+- Allergies — NSAIDs (dyspepsia).
 
 Chief Complaint:
-Brian Gram complains of fever, productive cough, and right-sided chest pain.
+Kirsten Larsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Brian Gram developed a sudden cough with green sputum 4 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Kirsten Larsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Febrile (38.2 °C), RR 25/min, SpO₂ 92% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 139/67 mmHg, HR 117 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. H. Sørensen, Internal Medicine

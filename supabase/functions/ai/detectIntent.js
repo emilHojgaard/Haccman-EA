@@ -1,3 +1,6 @@
+import cpr from "../../../rag/patient_journals/cprs.json" with { type: "json" };
+import fullnames from "../../../rag/patient_journals/fullnames.json" with { type: "json" };
+
 /***********************
  * 1) Static data
  ***********************/
@@ -132,6 +135,13 @@ const allDocTitles = diseaseDocsList.concat(
 /***********************
  * 2) Utilities (fast)
  ***********************/
+function normalizeCPR(s) {
+    if (!s) return null;
+    const digits = s.replace(/\D/g, "");
+    if (digits.length !== 10) return null;
+    return `${digits.slice(0, 6)}-${digits.slice(6)}`;
+}
+
 function normalizeText(s) {
     return (s || "")
         .toLowerCase()
@@ -223,6 +233,7 @@ function fuzzyContainsTokens(nmsg, tokens, normalizedTargets, maxDist = 1, opts 
 /***********************
  * 3) Precompute caches
  ***********************/
+const cprSet = new Set(cpr.map(normalizeCPR).filter(Boolean));
 
 // Normalize all titles once, and also bucket them by first char + length
 const normalizedTitles = allDocTitles.map(t => normalizeText(t));
@@ -284,16 +295,23 @@ export function extractJournalId(text) {
 function extractFullName(text) {
     const re = /(?:^|[^\p{L}])([\p{Lu}][\p{Ll}]+)\s([\p{Lu}][\p{Ll}]+)/u;
     const m = re.exec(text);
+    if (!fullnames.includes(m)) return null;
     return m ? { first: m[1], last: m[2] } : null;
 }
 
 
 
-function extractCPR(text) {
-    // dd.mm.yy-xxxx, dd-mm-yy-xxxx, dd/mm/yy-xxxx, or 10 digits together
-    const m1 = /\b\d{2}[.\-/ ]\d{2}[.\-/ ]\d{2}[- ]\d{4}\b/.exec(text);
-    const m2 = /\b\d{6}[- ]?\d{4}\b/.exec(text);
-    return m1?.[0] || m2?.[0] || null;
+export function extractCPR(text) {
+    if (typeof text !== "string") return null;
+
+    // match various CPR spellings: dd.mm.yy-xxxx, dd-mm-yy xxxx, ddmmyy-xxxx, 10 digits, etc.
+    const m = text.match(/\b\d{2}[.\-/ ]?\d{2}[.\-/ ]?\d{2}[- ]?\d{4}\b/);
+    if (!m) return null;
+
+    const candidate = normalizeCPR(m[0]);
+    if (!candidate) return null;
+
+    return cprSet.has(candidate) ? candidate : null;
 }
 
 /***********************

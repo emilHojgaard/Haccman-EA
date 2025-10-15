@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 190958-7402
-Encounter Date - 2025-09-26
-Author - Dr. R. Iversen, Neurology
-Patient Name - Ole Bjørk
+CPR-number - 071194-9841
+Encounter Date - 2023-10-29
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Anja Mortensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Osteoporosis (1983), Osteoarthritis (1986).
-- Recent Lab Results (2025-09-12)
-    Hb 6.8 mmol/L (low)
-    Ferritin 44 µg/L
-    CRP 8 mg/L
-    Creatinine 108 µmol/L
+- Past Diagnoses — Atrial fibrillation (2013), Osteoarthritis (2001), Chronic lower back pain.
+- Recent Lab Results (2023-08-16)
+    Hb 7.3 mmol/L (low)
+    Ferritin 96 µg/L
+    CRP 20 mg/L
+    Creatinine 106 µmol/L
 - Prior Consultations
-    - 2025-05-24 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2025-08-16 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ramipril 5 mg daily, Bisoprolol 5 mg daily.
-- Allergies — Penicillin (rash).
+    - 2023-05-02 — Routine check-up — stable BP, mild anemia noted.
+    - 2023-08-04 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Furosemide 40 mg daily, Lisinopril 10 mg daily, Levothyroxine 75 µg daily, Amlodipine 5 mg daily.
+- Allergies — NSAIDs (dyspepsia).
 
 Chief Complaint:
-Ole Bjørk complains of fever, productive cough, and right-sided chest pain.
+Anja Mortensen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Ole Bjørk developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Anja Mortensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Febrile (36.8 °C), RR 18/min, SpO₂ 96% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Vitals: BP 111/80 mmHg, HR 87 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Reinforce medication schedule; consider adding or adjusting therapy per plan.
+- Hydration guidance and sick-day rules; check for precipitating infection.
+- Arrange diabetes education and home glucose monitoring review.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Clinic follow-up in 2 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. K. Østergaard, General Surgery

@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 130165-8100
-Encounter Date - 2025-03-24
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Jonas Sørensen
+CPR-number - 210105-0903
+Encounter Date - 2025-06-05
+Author - Dr. R. Iversen, Neurology
+Patient Name - Ole Hansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypothyroidism (2017), Type 2 Diabetes (2024), GERD (2015), Hypertension (2015).
-- Recent Lab Results (2025-02-24)
-    Hb 7.4 mmol/L (low)
-    Ferritin 112 µg/L
-    CRP 8 mg/L
-    Creatinine 61 µmol/L
+- Past Diagnoses — Anxiety (2017), Peptic ulcer disease (2022), GERD (1986).
+- Recent Lab Results (2025-06-01)
+    Hb 7.1 mmol/L (low)
+    Ferritin 140 µg/L
+    CRP 10 mg/L
+    Creatinine 67 µmol/L
 - Prior Consultations
-    - 2024-10-03 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-12-18 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Empagliflozin 10 mg daily, Ramipril 5 mg daily.
-- Allergies — None known.
+    - 2025-05-17 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-12-03 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Atorvastatin 20 mg nightly, Metformin 500 mg BID, Furosemide 40 mg daily.
+- Allergies — Penicillin (rash).
 
 Chief Complaint:
-Jonas Sørensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Ole Hansen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Jonas Sørensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Ole Hansen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 153/74 mmHg, HR 73 bpm). Abdomen soft, non-tender.
+Febrile (37.9 °C), RR 22/min, SpO₂ 94% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Safety check in 2 days if outpatient; clinical review in 2 weeks to ensure recovery.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. R. Iversen, Neurology

@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 210381-0922
-Encounter Date - 2024-10-15
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Brian Bang
+CPR-number - 080290-1715
+Encounter Date - 2025-04-27
+Author - Dr. R. Iversen, Neurology
+Patient Name - Camilla Mortensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Depression (2021), Psoriasis (1983), COPD (2020), Osteoarthritis (1981), Chronic lower back pain.
-- Recent Lab Results (2024-10-02)
-    Hb 7.9 mmol/L
-    Ferritin 80 µg/L
-    CRP 25 mg/L
-    Creatinine 55 µmol/L
+- Past Diagnoses — Peptic ulcer disease (2011), Heart failure (HFrEF) (1981), Hypothyroidism (2008), CKD (1986), Chronic lower back pain.
+- Recent Lab Results (2025-04-16)
+    Hb 6.9 mmol/L (low)
+    Ferritin 16 µg/L
+    CRP 6 mg/L
+    Creatinine 70 µmol/L
 - Prior Consultations
-    - 2024-09-22 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-04-18 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Bisoprolol 5 mg daily, Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day, Pantoprazole 40 mg daily.
+    - 2024-12-23 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2025-03-02 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Ramipril 5 mg daily, Metformin 500 mg BID.
 - Allergies — None known.
 
 Chief Complaint:
-Brian Bang reports thirst, frequent urination, and blurred vision.
+Camilla Mortensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Brian Bang has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Camilla Mortensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Vitals: BP 106/89 mmHg, HR 60 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 105/73 mmHg, HR 64 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Clinic follow-up in 2 weeks to assess response and review HbA1c.
+Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. R. Iversen, Neurology

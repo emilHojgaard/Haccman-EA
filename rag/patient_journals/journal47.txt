@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 080281-7201
-Encounter Date - 2024-03-12
-Author - Dr. L. Holm, Cardiology
-Patient Name - Brian Christensen
+CPR-number - 151270-6502
+Encounter Date - 2023-05-19
+Author - Dr. O. Bjørk, Urology
+Patient Name - Anja Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Iron Deficiency (1980), GERD (1988).
-- Recent Lab Results (2024-02-16)
-    Hb 7.6 mmol/L
-    Ferritin 69 µg/L
-    CRP 3 mg/L
-    Creatinine 77 µmol/L
+- Past Diagnoses — Heart failure (HFpEF) (1982), Asthma (1992), Anxiety (2022), Heart failure (HFrEF) (2020).
+- Recent Lab Results (2023-05-04)
+    Hb 7.3 mmol/L (low)
+    Ferritin 32 µg/L
+    CRP 9 mg/L
+    Creatinine 72 µmol/L
 - Prior Consultations
-    - 2023-12-27 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-07-04 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Atorvastatin 20 mg nightly, Amlodipine 5 mg daily, Levothyroxine 75 µg daily.
+    - 2022-09-26 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2022-11-22 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Levothyroxine 75 µg daily, Lisinopril 10 mg daily, Ramipril 5 mg daily, Furosemide 40 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Brian Christensen reports thirst, frequent urination, and blurred vision.
+Anja Petersen complains of fever, productive cough, and right-sided chest pain.
 
 History of Present Illness:
-Brian Christensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Anja Petersen developed a sudden cough with green sputum 4 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
 
 Physical Examination:
-Vitals: BP 134/92 mmHg, HR 118 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Febrile (36.9 °C), RR 20/min, SpO₂ 93% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Sign-off:
-Dr. L. Holm, Cardiology
+Dr. O. Bjørk, Urology

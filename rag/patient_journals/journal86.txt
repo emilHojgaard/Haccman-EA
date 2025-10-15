@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 040532-7599
-Encounter Date - 2023-05-21
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Sebastian Nielsen
+CPR-number - 180384-1338
+Encounter Date - 2024-11-28
+Author - Dr. J. Knudsen, ENT
+Patient Name - Camilla Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Osteoarthritis (2005), Heart failure (HFrEF) (2006), Obesity (2016).
-- Recent Lab Results (2023-05-06)
-    Hb 6.7 mmol/L (low)
-    Ferritin 68 µg/L
-    CRP 7 mg/L
-    Creatinine 96 µmol/L
+- Past Diagnoses — Heart failure (HFpEF) (1990), Heart failure (HFrEF) (2007), Anxiety (2022), Type 2 Diabetes (2009).
+- Recent Lab Results (2024-11-24)
+    Hb 7.0 mmol/L (low)
+    Ferritin 24 µg/L
+    CRP 18 mg/L
+    Creatinine 100 µmol/L
 - Prior Consultations
-    - 2023-03-26 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-04-27 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Ramipril 5 mg daily, Pantoprazole 40 mg daily, Ferrous sulfate 100 mg every other day, Levothyroxine 75 µg daily.
-- Allergies — None known.
+    - 2024-07-15 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-10-27 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Atorvastatin 20 mg nightly, Levothyroxine 75 µg daily, Empagliflozin 10 mg daily.
+- Allergies — ACE inhibitors (cough).
 
 Chief Complaint:
-Sebastian Nielsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Camilla Petersen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Sebastian Nielsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Camilla Petersen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 142/72 mmHg, HR 101 bpm). Abdomen soft, non-tender.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 132/89 mmHg, HR 65 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
 Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
@@ -44,4 +44,4 @@ Follow-up & Disposition:
 Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. J. Knudsen, ENT

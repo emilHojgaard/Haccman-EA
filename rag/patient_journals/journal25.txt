@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 021183-1352
-Encounter Date - 2024-11-08
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Thomas Skov
+CPR-number - 030460-6652
+Encounter Date - 2025-08-28
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Julie Mortensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Psoriasis (1983), GERD (1987), Heart failure (HFrEF) (1997), CKD (1998), Chronic lower back pain.
-- Recent Lab Results (2024-08-11)
-    Hb 7.0 mmol/L (low)
-    Ferritin 33 µg/L
-    CRP 14 mg/L
-    Creatinine 95 µmol/L
+- Past Diagnoses — Migraine (2009), Type 2 Diabetes (2018), Irritable bowel syndrome (1983).
+- Recent Lab Results (2025-08-22)
+    Hb 7.9 mmol/L
+    Ferritin 139 µg/L
+    CRP 15 mg/L
+    Creatinine 55 µmol/L
 - Prior Consultations
-    - 2024-07-04 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-08-16 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Ferrous sulfate 100 mg every other day, Pantoprazole 40 mg daily, Ramipril 5 mg daily, Empagliflozin 10 mg daily.
+    - 2025-08-16 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-05-24 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Ferrous sulfate 100 mg every other day, Amlodipine 5 mg daily, Bisoprolol 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Thomas Skov complains of fever, productive cough, and right-sided chest pain.
+Julie Mortensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
 
 History of Present Illness:
-Thomas Skov developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Julie Mortensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
 
 Physical Examination:
-Febrile (37.1 °C), RR 26/min, SpO₂ 94% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 145/87 mmHg, HR 66 bpm). Abdomen soft, non-tender.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+- Review NSAID exposure and consider gastroprotection or alternatives.
+- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. S. Nielsen, Pulmonology

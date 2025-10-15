@@ -152,8 +152,8 @@ function buildMedicalHistoryBlock(encounterISO) {
     const creat = rint(55, 110);                        // µmol/L
     const hbFlag = Number(hb) < 7.5 ? " (low)" : "";
     const ferritinFlag = ferritin < 15 ? " (low)" : "";
-    const crpFlag = "";     // keep simple
-    const creatFlag = "";   // keep simple
+    const crpFlag = "";
+    const creatFlag = "";
 
     // Prior Consultations (two items, 3–12 months back)
     const c1 = consultTemplates[rint(0, consultTemplates.length - 1)](dateBeforeEncounter(encounterISO, 3, 12));
@@ -229,7 +229,7 @@ const conditions = [
         education: `Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.`,
         followup: () => `Safety check in ${rint(2, 3)} days if outpatient; clinical review in ${rint(1, 2)} weeks to ensure recovery.`
     },
-    // ... (unchanged remaining condition templates)
+    // ... keep remaining condition templates unchanged ...
     {
         tag: "Type 2 Diabetes – Hyperglycemia Visit",
         cc: (n) => `${n} reports thirst, frequent urination, and blurred vision.`,
@@ -249,19 +249,19 @@ const conditions = [
         education: `Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.`,
         followup: () => `Clinic follow-up in ${rint(2, 4)} weeks to assess response and review HbA1c.`
     },
-    // (Keep all other condition objects exactly as before)
 ];
 
 // -------------------- Builder --------------------
 function buildEntry() {
     const cond = rand(conditions);
     const name = patientName();
+    const cpr = fakeCPR();
     const encounterDate = randomDateISO();
     const author = authorName();
 
     const lines = [];
     lines.push("Document Information:");
-    lines.push(`CPR-number - ${fakeCPR()}`);
+    lines.push(`CPR-number - ${cpr}`);
     lines.push(`Encounter Date - ${encounterDate}`);
     lines.push(`Author - ${author}`);
     lines.push(`Patient Name - ${name}`);
@@ -306,7 +306,7 @@ function buildEntry() {
     lines.push(author);
     lines.push("");
 
-    return lines.join("\n");
+    return { text: lines.join("\n"), name, cpr };
 }
 
 // -------------------- Main --------------------
@@ -320,8 +320,21 @@ const COUNT = Number.isFinite(argCount) && argCount > 0
 if (fs.existsSync(OUT_DIR)) fs.rmSync(OUT_DIR, { recursive: true, force: true });
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
+// NEW: collectors
+const allNames = [];
+const allCPRs = [];
+
 // Write files
 for (let i = 1; i <= COUNT; i++) {
-    fs.writeFileSync(path.join(OUT_DIR, `journal${i}.txt`), buildEntry(), "utf8");
+    const { text, name, cpr } = buildEntry();
+    fs.writeFileSync(path.join(OUT_DIR, `journal${i}.txt`), text, "utf8");
+    allNames.push(name);
+    allCPRs.push(cpr);
 }
+
+// NEW: export lists (JSON arrays)
+fs.writeFileSync(path.join(OUT_DIR, "fullnames.json"), JSON.stringify(allNames, null, 2), "utf8");
+fs.writeFileSync(path.join(OUT_DIR, "cprs.json"), JSON.stringify(allCPRs, null, 2), "utf8");
+
 console.log(`Generated ${COUNT} detailed journal files in ${OUT_DIR}`);
+console.log(`Also wrote ${path.join(OUT_DIR, "fullnames.json")} and ${path.join(OUT_DIR, "cprs.json")}`);

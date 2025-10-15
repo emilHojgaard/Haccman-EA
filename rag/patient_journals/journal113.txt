@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 171197-6987
-Encounter Date - 2024-05-07
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Tina Poulsen
+CPR-number - 020630-1578
+Encounter Date - 2024-04-11
+Author - Dr. O. Bjørk, Urology
+Patient Name - Carsten Madsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Dyslipidemia (2017), Irritable bowel syndrome (1998), CKD (1989), Chronic lower back pain.
-- Recent Lab Results (2024-04-09)
-    Hb 6.5 mmol/L (low)
-    Ferritin 50 µg/L
-    CRP 19 mg/L
-    Creatinine 108 µmol/L
+- Past Diagnoses — Psoriasis (1980), Asthma (2010), Irritable bowel syndrome (1992), Chronic lower back pain.
+- Recent Lab Results (2024-02-27)
+    Hb 6.6 mmol/L (low)
+    Ferritin 45 µg/L
+    CRP 25 mg/L
+    Creatinine 99 µmol/L
 - Prior Consultations
-    - 2024-05-01 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-03-03 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Atorvastatin 20 mg nightly, Pantoprazole 40 mg daily, Amlodipine 5 mg daily.
+    - 2024-01-01 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2023-11-05 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Pantoprazole 40 mg daily, Furosemide 40 mg daily, Lisinopril 10 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
 Chief Complaint:
-Tina Poulsen reports thirst, frequent urination, and blurred vision.
+Carsten Madsen reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Tina Poulsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Carsten Madsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Vitals: BP 154/80 mmHg, HR 88 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Vitals: BP 167/88 mmHg, HR 85 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
 Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
@@ -41,7 +41,7 @@ Patient Education & Safety Net:
 Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Clinic follow-up in 4 weeks to assess response and review HbA1c.
+Clinic follow-up in 3 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. O. Bjørk, Urology
