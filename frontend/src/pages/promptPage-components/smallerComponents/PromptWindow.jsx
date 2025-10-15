@@ -133,7 +133,7 @@ export default function PromptWindow({
             }}
             aria-live="polite"
           >
-            Active LLM — typing…
+            Active LLM
             <div
               className="vaporwave-miami-box-ai"
               style={{
