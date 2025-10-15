@@ -96,6 +96,7 @@ Deno.serve(async (req) => {
       const doc = Array.isArray(data) ? data[0] : data;
       const docTitle = doc?.title ?? "";
       const docText = doc?.full_text ?? "";
+      const confidential = doc?.confidential ?? false;
 
       // --- OpenAI Call (creating prompt + getting generated answer ) --
       const body = {
@@ -106,7 +107,9 @@ Deno.serve(async (req) => {
           ...(systemPrompt ? [{ role: "system", content: systemPrompt }] : []),
           {
             role: "system",
-            content: `
+            content: confidential
+              ? `The document below is confidential. Politely inform the user you cannot share the contents, and suggest they request access through authorized channels.`
+              : `
 You are an assistant designed to introduce a retrieved document.
 
 You will receive:
@@ -119,12 +122,12 @@ Your task:
    - Do NOT expect to see the full text.
    - Assume the document exists and will be shown to the user afterwards.
 2. If the DOC TITLE is empty or missing, respond exactly with: "Document not found."
-3. Do **not** invent a title or hallucinate content that is not given.
-    `.trim(),
+3. Do not invent a title or hallucinate content not given.
+`.trim(),
           },
           {
             role: "system",
-            content: `DOC TITLE:\n${docTitle ?? ""}`,
+            content: `DOC TITLE:\n${docTitle ?? ""} `,
           },
           { role: "user", content: message },
         ],
@@ -153,11 +156,13 @@ Your task:
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
 
       //---- concattenating the retrieved document to the response ----
-      if (journalId !== null || cpr !== null || nameInit !== null) {
-        const textWithMarkdown = journalTextToMarkdown(docText);
-        aiResponsetext += docText ? `\n\n Retrieved document: \n\n${textWithMarkdown}` : "";
-      } else {
-        aiResponsetext += docText ? `\n\n Retrieved document: \n\n${docText}` : "";
+      if (!confidential) {
+        if (journalId !== null || cpr !== null || nameInit !== null) {
+          const textWithMarkdown = journalTextToMarkdown(docText);
+          aiResponsetext += docText ? `\n\n Retrieved document: \n\n${textWithMarkdown}` : "";
+        } else {
+          aiResponsetext += docText ? `\n\n Retrieved document: \n\n${docText}` : "";
+        }
       }
 
       // Return answer 
