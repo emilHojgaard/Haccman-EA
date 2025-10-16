@@ -1,6 +1,6 @@
 Document Information:
 Disease - Heart Failure with Preserved Ejection Fraction (HFpEF)
-Date - 2025-06-25
+Date - 2024-09-09
 Responsible Department - Cardiology
 
 Overview:

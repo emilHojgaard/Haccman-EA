@@ -1,6 +1,6 @@
 Document Information:
 Disease - Heart Failure with Reduced Ejection Fraction (HFrEF)
-Date - 2025-07-31
+Date - 2023-07-08
 Responsible Department - Cardiology
 
 Overview:

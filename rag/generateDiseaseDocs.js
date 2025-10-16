@@ -19,8 +19,7 @@
 // - File name (disease name) functions as the title outside the document.
 // - Each section is patient-facing and ≥ 1–2 sentences.
 // - Headers end with ":" and content starts on the very next line.
-//
-// ⚠️ Fictional educational content for a game / app prototype. Not medical advice.
+
 
 import fs from "node:fs";
 import path from "node:path";
@@ -29,7 +28,7 @@ import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const OUT_DIR = path.join(__dirname, "disease_docs");
+const OUT_DIR = path.join(__dirname, "general_guidelines");
 if (fs.existsSync(OUT_DIR)) fs.rmSync(OUT_DIR, { recursive: true, force: true });
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
