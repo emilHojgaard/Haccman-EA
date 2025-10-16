@@ -1,6 +1,6 @@
 Document Information:
 Disease - Sepsis (Adult)
-Date - 2024-11-27
+Date - 2023-09-24
 Responsible Department - Acute Medicine/ICU
 
 Overview:

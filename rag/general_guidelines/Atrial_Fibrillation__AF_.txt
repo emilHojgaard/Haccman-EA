@@ -1,6 +1,6 @@
 Document Information:
 Disease - Atrial Fibrillation (AF)
-Date - 2023-05-06
+Date - 2023-05-08
 Responsible Department - Cardiology
 
 Overview:
