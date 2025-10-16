@@ -96,7 +96,7 @@ Deno.serve(async (req) => {
       const doc = Array.isArray(data) ? data[0] : data;
       const docTitle = doc?.title ?? "";
       const docText = doc?.full_text ?? "";
-      const confidential = doc?.confidential ?? false;
+      const confidential = false; //doc?.confidential ?? false;
 
       // --- OpenAI Call (creating prompt + getting generated answer ) --
       const body = {

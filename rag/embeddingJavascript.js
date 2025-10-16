@@ -120,18 +120,17 @@ async function run() {
   // --- DELETE EXISTING CONTENT BEFORE UPLOAD (chunks -> documents) ---
   console.log("Clearing RAG data: chunks then documents …");
 
-  // Delete all rows where primary key is NOT NULL (i.e., every row)
   const delChunks = await supabase
     .from("chunks")
     .delete()
-    .not("id", "is", null);          // IS NOT NULL
+    .not("id", "is", null);
 
   if (delChunks.error) throw delChunks.error;
 
   const delDocs = await supabase
     .from("documents")
     .delete()
-    .not("id", "is", null);          // IS NOT NULL
+    .not("id", "is", null);
 
   if (delDocs.error) throw delDocs.error;
 

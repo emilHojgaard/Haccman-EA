@@ -231,9 +231,24 @@ function fuzzyContainsTokens(nmsg, tokens, normalizedTargets, maxDist = 1, opts 
 }
 
 /***********************
- * 3) Precompute caches
+ * 3) Precompute caches (For speed)
  ***********************/
+//Cpr normalized set
 const cprSet = new Set(cpr.map(normalizeCPR).filter(Boolean));
+
+// Fullnames normalized set + map by first name
+const normalizedFullnames = fullnames
+    .map(n => normalizeText(n).trim().replace(/\s+/g, " ")) // "katrine olsen"
+    .filter(Boolean);
+// indexing last names by first name
+const fullByFirst = new Map();
+for (const n of normalizedFullnames) {
+    const parts = n.split(" ");
+    if (parts.length < 2) continue;
+    const first = parts[0];
+    if (!fullByFirst.has(first)) fullByFirst.set(first, new Set());
+    fullByFirst.get(first).add(n);
+}
 
 // Normalize all titles once, and also bucket them by first char + length
 const normalizedTitles = allDocTitles.map(t => normalizeText(t));
@@ -284,7 +299,7 @@ const categoryPhrases = [
 /***********************
  * 4) Entity extractors
  ***********************/
-export function extractJournalId(text) {
+function extractJournalId(text) {
     const re = /\b(?:journal|jornal|jurnal|jouranl|jorunal|journel|journl|jounal|jonal|junal)[-_ ]?(\d{1,3})\b/i;
     const m = re.exec(text);
     if (!m) return null;
@@ -293,15 +308,28 @@ export function extractJournalId(text) {
 }
 
 function extractFullName(text) {
-    const re = /(?:^|[^\p{L}])([\p{Lu}][\p{Ll}]+)\s([\p{Lu}][\p{Ll}]+)/u;
-    const m = re.exec(text);
-    if (!fullnames.includes(m)) return null;
-    return m ? { first: m[1], last: m[2] } : null;
+    if (!text) return null;
+    const toks = tokenize(text);
+    if (toks.length < 2) return null;
+
+    for (let i = 0; i < toks.length - 1; i++) {
+        const first = toks[i];
+        const last = toks[i + 1];
+        const candidates = fullByFirst.get(first);
+        if (candidates) {
+            const two = `${first} ${last}`;
+            if (candidates.has(two)) {
+                return { first: first[0].toUpperCase() + first.slice(1), last: last[0].toUpperCase() + last.slice(1) };
+            }
+        }
+    }
+
+    return null;
 }
 
 
 
-export function extractCPR(text) {
+function extractCPR(text) {
     if (typeof text !== "string") return null;
 
     // match various CPR spellings: dd.mm.yy-xxxx, dd-mm-yy xxxx, ddmmyy-xxxx, 10 digits, etc.
