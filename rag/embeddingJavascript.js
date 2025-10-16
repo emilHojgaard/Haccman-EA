@@ -117,6 +117,24 @@ async function insertChunks(docId, chunks, title, docType) {
 
 
 async function run() {
+  // --- DELETE EXISTING CONTENT BEFORE UPLOAD (chunks -> documents) ---
+  console.log("Clearing RAG data: chunks then documents …");
+
+  // Delete all rows where primary key is NOT NULL (i.e., every row)
+  const delChunks = await supabase
+    .from("chunks")
+    .delete()
+    .not("id", "is", null);          // IS NOT NULL
+
+  if (delChunks.error) throw delChunks.error;
+
+  const delDocs = await supabase
+    .from("documents")
+    .delete()
+    .not("id", "is", null);          // IS NOT NULL
+
+  if (delDocs.error) throw delDocs.error;
+
   // 1) Collect files from both folders
   const journalFiles = await listTxtFiles(JOURNALS_DIR);
   const diseaseFiles = await listTxtFiles(DISEASES_DIR);
