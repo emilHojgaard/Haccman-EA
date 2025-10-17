@@ -1,6 +1,7 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 import { detectIntent } from "./detectIntent.js";
 import { journalTextToMarkdown } from "./journalTextToMarkdown.js";
+import messageHistory from "./messageHistory.js";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*", // lock down in prod
@@ -64,7 +65,7 @@ Deno.serve(async (req) => {
   console.log("Request received");
 
   try {
-    const { message, systemPrompt, guardrail } = await req.json();
+    const { message, systemPrompt, guardrail, previousPrompts } = await req.json();
 
     if (!OPENAI_API_KEY) {
       return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
@@ -73,10 +74,13 @@ Deno.serve(async (req) => {
       });
     }
 
+    //--- Organize previous prompts ---
+    const chatHistory = messageHistory(previousPrompts, 20);
+
+
     // --- Detect intent to know retrieval methode ---
     const { mode, journalId, cpr, nameInit, knownDoc } = detectIntent(message);
     const fullname = nameInit ? `${nameInit.first} ${nameInit.last}` : null;
-    console.log("fullname:", fullname);
     console.log("Entities detected:", { mode, journalId, cpr, fullname, knownDoc });
 
     // --- different retrieval methods ---
@@ -129,6 +133,7 @@ Your task:
             role: "system",
             content: `DOC TITLE:\n${docTitle ?? ""} `,
           },
+          { role: "user", content: chatHistory },
           { role: "user", content: message },
         ],
       };
@@ -219,6 +224,7 @@ Your task:
             content: `DOC TITLE:\n${docTitle ?? ""}`,
           },
           { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
+          { role: "user", content: chatHistory },
           { role: "user", content: message },
         ],
       };
@@ -313,6 +319,7 @@ Your task:
               "You will receive CONTEXT and a USER question. Answer truthfully based on the CONTEXT. If the CONTEXT does not contain the answer, answer based on your training data. If you don't know, say so.",
           },
           { role: "system", content: `CONTEXT:\n${context}` },
+          { role: "user", content: chatHistory },
           { role: "user", content: message },
         ],
       };

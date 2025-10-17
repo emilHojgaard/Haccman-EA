@@ -94,7 +94,7 @@ function Prompt(props) {
 
       // 3) Call Edge Function (OpenAI) to get reply
       const { mode, aiResponsetext, sources, document, titles } =
-        await sendPromptToAI(message, systemPrompt, guardrail);
+        await sendPromptToAI(message, systemPrompt, guardrail, previousPrompts);
       console.log(`AI Response Mode: ${mode.toUpperCase()}\n`);
       console.table(sources);
       console.log("sources:", sources);
