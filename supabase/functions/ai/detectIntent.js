@@ -416,15 +416,6 @@ export function detectIntent(message) {
     } else if ((journalId || cpr || nameInit || knownDoc) && wantsSummary) {
         mode = "summary";
     }
-    console.log("-----------------")
-    console.log("journalId:", journalId);
-    console.log("cpr:", cpr);
-    console.log("nameInit:", nameInit);
-    console.log("knownDoc:", knownDoc);
-    console.log("wantsFull:", wantsFull);
-    console.log("wantsSummary:", wantsSummary);
-    console.log("decided mode:", mode);
-    console.log("-----------------")
 
     return { mode, journalId, cpr, nameInit, knownDoc };
 }
