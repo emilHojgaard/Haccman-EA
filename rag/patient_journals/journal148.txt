@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 271178-0684
-Encounter Date - 2024-05-12
-Author - Dr. J. Knudsen, ENT
-Patient Name - Carsten Østergaard
+CPR-number - 020959-2066
+Encounter Date - 2025-03-09
+Author - Dr. L. Holm, Cardiology
+Patient Name - Søren Larsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (1980), CKD (2022), Gallstones (2009), Obesity (1998), Chronic lower back pain.
-- Recent Lab Results (2024-04-24)
-    Hb 8.0 mmol/L
-    Ferritin 137 µg/L
+- Past Diagnoses — Osteoporosis (1985), Iron Deficiency (2004), Chronic lower back pain.
+- Recent Lab Results (2025-02-23)
+    Hb 7.3 mmol/L (low)
+    Ferritin 17 µg/L
     CRP 3 mg/L
-    Creatinine 98 µmol/L
+    Creatinine 64 µmol/L
 - Prior Consultations
-    - 2023-11-11 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-01-22 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Furosemide 40 mg daily, Pantoprazole 40 mg daily.
-- Allergies — None known.
+    - 2024-12-24 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-11-25 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Empagliflozin 10 mg daily, Lisinopril 10 mg daily, Furosemide 40 mg daily, Atorvastatin 20 mg nightly.
+- Allergies — NSAIDs (dyspepsia).
 
-Chief Complaint:
-Carsten Østergaard presents with redness and swelling of the lower leg.
-
-History of Present Illness:
-Carsten Østergaard noticed redness and tenderness spreading over 2 days. No trauma reported.
-
-Physical Examination:
-Warm, erythematous area with indistinct margins, mild edema. T 37.2 °C.
-
-Diagnostics (Today):
-Clinical cellulitis; CBC and CRP elevated.
-
-Assessment:
-Bacterial cellulitis, likely streptococcal.
+Present Illness:
+   - Søren Larsen complains of fever, productive cough, and right-sided chest pain.
+- History of Present Illness
+   - Søren Larsen developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+- Physical Examination
+   - Febrile (36.1 °C), RR 23/min, SpO₂ 93% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+- Diagnostics (Today)
+   - CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+- Assessment
+   - Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Start empiric oral antibiotic covering streptococci.
-- Mark margin and monitor spread.
-- Elevate limb and manage pain.
+   - Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+   - Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+   - Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Follow-up & Disposition
+   - Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
 
 Patient Education & Safety Net:
-Explain signs of worsening infection and when to seek urgent review.
-
-Follow-up & Disposition:
-Review in 2 days to assess response.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. L. Holm, Cardiology

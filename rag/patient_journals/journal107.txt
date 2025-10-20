@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 150736-1740
-Encounter Date - 2023-10-21
-Author - Dr. J. Knudsen, ENT
-Patient Name - Christian Christensen
+CPR-number - 260455-3639
+Encounter Date - 2025-09-04
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Tina Laursen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gallstones (1983), Anxiety (1985), Chronic lower back pain.
-- Recent Lab Results (2023-09-29)
-    Hb 8.4 mmol/L
-    Ferritin 86 µg/L
-    CRP 5 mg/L
-    Creatinine 77 µmol/L
+- Past Diagnoses — Gout (1985), COPD (1994), GERD (2018), Peptic ulcer disease (2010), Chronic lower back pain.
+- Recent Lab Results (2025-07-19)
+    Hb 7.8 mmol/L
+    Ferritin 23 µg/L
+    CRP 21 mg/L
+    Creatinine 99 µmol/L
 - Prior Consultations
-    - 2023-08-03 — Routine check-up — stable BP, mild anemia noted.
-    - 2022-10-26 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Furosemide 40 mg daily, Metformin 500 mg BID, Atorvastatin 20 mg nightly.
+    - 2025-06-16 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-05-31 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Lisinopril 10 mg daily, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
-Chief Complaint:
-Christian Christensen presents with fever, flank pain, and urinary symptoms.
-
-History of Present Illness:
-Christian Christensen reports 1 days of dysuria, chills, and right-sided flank pain.
-
-Physical Examination:
-T 37.0 °C, costovertebral angle tenderness on right side. HR 79 bpm.
-
-Diagnostics (Today):
-Urinalysis positive for nitrites; elevated CRP and WBC.
-
-Assessment:
-Acute pyelonephritis.
+Present Illness:
+   - Tina Laursen reports nightmares, flashbacks, and hypervigilance.
+- History of Present Illness
+   - Tina Laursen experienced a traumatic event 3 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
+- Physical Examination
+   - Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 157/92, HR 116 bpm.
+- Diagnostics (Today)
+   - Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
+- Assessment
+   - Post-traumatic stress disorder.
 
 Plan:
-- Start empiric antibiotic therapy.
-- Hydration and pain control.
-- Hospitalize if vomiting or sepsis.
+   - Refer for trauma-focused CBT or EMDR.
+   - Avoid routine benzodiazepine use.
+   - Consider SSRI if comorbid depression or anxiety.
+- Follow-up & Disposition
+   - Follow-up in 5 weeks to review therapy engagement.
 
 Patient Education & Safety Net:
-Advise early presentation for recurrence; complete full antibiotic course.
-
-Follow-up & Disposition:
-Recheck in 8 days to confirm recovery.
+Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. E. Dam, Rheumatology

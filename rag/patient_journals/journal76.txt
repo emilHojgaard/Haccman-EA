@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 240800-0496
-Encounter Date - 2024-09-13
-Author - Dr. J. Knudsen, ENT
-Patient Name - Katrine Kristensen
+CPR-number - 060175-2558
+Encounter Date - 2023-06-15
+Author - Dr. L. Holm, Cardiology
+Patient Name - Sofia Madsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (2006), Gout (1982).
-- Recent Lab Results (2024-09-07)
-    Hb 6.6 mmol/L (low)
-    Ferritin 109 µg/L
-    CRP 10 mg/L
-    Creatinine 58 µmol/L
+- Past Diagnoses — Gallstones (2005), Iron Deficiency (1992), Osteoporosis (2011), Dyslipidemia (1980).
+- Recent Lab Results (2023-05-31)
+    Hb 7.2 mmol/L (low)
+    Ferritin 99 µg/L
+    CRP 20 mg/L
+    Creatinine 101 µmol/L
 - Prior Consultations
-    - 2024-06-15 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-08-24 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Bisoprolol 5 mg daily, Levothyroxine 75 µg daily.
+    - 2023-05-13 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2022-10-24 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Furosemide 40 mg daily, Amlodipine 5 mg daily, Levothyroxine 75 µg daily, Bisoprolol 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Katrine Kristensen reports sudden onset of joint pain and swelling.
-
-History of Present Illness:
-Katrine Kristensen developed severe pain in the first MTP joint overnight, with redness and swelling. No trauma or fever.
-
-Physical Examination:
-Erythematous, tender MTP joint. Vitals: BP 132/66, HR 111.
-
-Diagnostics (Today):
-Serum uric acid elevated; joint aspirate with monosodium urate crystals.
-
-Assessment:
-Acute gout attack.
+Present Illness:
+   - Sofia Madsen reports stress and low mood following a recent life event.
+- History of Present Illness
+   - Sofia Madsen describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
+- Physical Examination
+   - Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 119/62).
+- Diagnostics (Today)
+   - Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
+- Assessment
+   - Adjustment disorder with mixed anxiety and depressed mood.
 
 Plan:
-- Start NSAID or colchicine (if renal function allows).
-- Elevate limb and apply ice packs.
-- Review long-term urate-lowering therapy adherence.
+   - Provide supportive counselling.
+   - Encourage coping strategies and social support.
+   - Short-term anxiolytic if severe insomnia or anxiety.
+- Follow-up & Disposition
+   - Follow-up in 3 weeks to reassess.
 
 Patient Education & Safety Net:
-Avoid alcohol and purine-rich foods; maintain hydration.
-
-Follow-up & Disposition:
-Follow-up in 5 days to monitor improvement.
+Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. L. Holm, Cardiology

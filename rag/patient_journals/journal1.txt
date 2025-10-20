@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 040948-8367
-Encounter Date - 2024-09-27
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Katrine Madsen
+CPR-number - 140470-3937
+Encounter Date - 2023-10-14
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Sofia Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (2013), Heart failure (HFrEF) (2010), Chronic lower back pain.
-- Recent Lab Results (2024-08-07)
-    Hb 7.9 mmol/L
-    Ferritin 78 µg/L
-    CRP 11 mg/L
-    Creatinine 82 µmol/L
+- Past Diagnoses — Asthma (2017), Dyslipidemia (1981), Depression (1984).
+- Recent Lab Results (2023-09-04)
+    Hb 8.4 mmol/L
+    Ferritin 54 µg/L
+    CRP 18 mg/L
+    Creatinine 100 µmol/L
 - Prior Consultations
-    - 2024-07-01 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-09-16 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Pantoprazole 40 mg daily, Empagliflozin 10 mg daily.
+    - 2023-07-20 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-08-02 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Metformin 500 mg BID, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
-Chief Complaint:
-Katrine Madsen reports worsening lower back pain.
-
-History of Present Illness:
-Katrine Madsen has chronic back pain now intensified after lifting or prolonged sitting. No radicular symptoms or incontinence.
-
-Physical Examination:
-Paraspinal muscle tenderness, normal reflexes and strength. BP 166/97.
-
-Diagnostics (Today):
-Mechanical exacerbation of chronic low back pain.
-
-Assessment:
-Chronic low back pain, acute exacerbation.
+Present Illness:
+   - Sofia Petersen reports thirst, frequent urination, and blurred vision.
+- History of Present Illness
+   - Sofia Petersen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+- Physical Examination
+   - Vitals: BP 127/72 mmHg, HR 116 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+- Diagnostics (Today)
+   - Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+- Assessment
+   - Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Encourage activity as tolerated.
-- Use heat therapy and simple analgesics.
-- Refer for physiotherapy if persistent.
+   - Reinforce medication schedule; consider adding or adjusting therapy per plan.
+   - Hydration guidance and sick-day rules; check for precipitating infection.
+   - Arrange diabetes education and home glucose monitoring review.
+- Follow-up & Disposition
+   - Clinic follow-up in 3 weeks to assess response and review HbA1c.
 
 Patient Education & Safety Net:
-Discuss posture, core strengthening, and weight control.
-
-Follow-up & Disposition:
-Follow-up in 6 weeks.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. M. Petersen, Gastroenterology

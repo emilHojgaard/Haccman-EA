@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 080975-6768
-Encounter Date - 2023-05-09
-Author - Dr. J. Knudsen, ENT
-Patient Name - Maja Petersen
+CPR-number - 210755-9115
+Encounter Date - 2024-04-30
+Author - Dr. R. Iversen, Neurology
+Patient Name - Rune Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Atrial fibrillation (1999), Gallstones (2010), CKD (1984).
-- Recent Lab Results (2023-03-30)
-    Hb 7.2 mmol/L (low)
-    Ferritin 85 µg/L
-    CRP 16 mg/L
-    Creatinine 92 µmol/L
+- Past Diagnoses — Osteoporosis (2017), Type 2 Diabetes (1984), CKD (1985), Peptic ulcer disease (1993), Chronic lower back pain.
+- Recent Lab Results (2024-04-04)
+    Hb 6.8 mmol/L (low)
+    Ferritin 134 µg/L
+    CRP 15 mg/L
+    Creatinine 57 µmol/L
 - Prior Consultations
-    - 2023-04-25 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-04-06 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Amlodipine 5 mg daily, Metformin 500 mg BID, Ramipril 5 mg daily.
+    - 2023-12-18 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-08-27 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day, Metformin 500 mg BID.
 - Allergies — None known.
 
-Chief Complaint:
-Maja Petersen reports decreased need for sleep, elevated mood, and increased goal-directed activity.
-
-History of Present Illness:
-Maja Petersen describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
-
-Physical Examination:
-Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 109/91, HR 107 bpm).
-
-Diagnostics (Today):
-Findings consistent with manic episode; labs for lithium and thyroid function ordered.
-
-Assessment:
-Bipolar affective disorder, type I, current manic episode.
+Present Illness:
+   - Rune Petersen reports persistent sadness, fatigue, and loss of interest in usual activities.
+- History of Present Illness
+   - Rune Petersen has felt low for the past 4 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
+- Physical Examination
+   - Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 139/63, HR 102).
+- Diagnostics (Today)
+   - Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
+- Assessment
+   - Major depressive episode, moderate severity.
 
 Plan:
-- Continue or initiate mood stabilizer (e.g., lithium or valproate).
-- Discontinue antidepressants if present.
-- Offer short inpatient stabilization if insight poor or risk increases.
+   - Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
+   - Encourage structured daily routine and gradual activity.
+   - Refer for psychotherapy or CBT.
+- Follow-up & Disposition
+   - Follow-up in 4 weeks to assess mood and adherence.
 
 Patient Education & Safety Net:
-Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
-
-Follow-up & Disposition:
-Follow-up in 7 days to reassess mood and safety.
+Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. R. Iversen, Neurology

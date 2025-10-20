@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 101194-5450
-Encounter Date - 2024-10-26
-Author - Dr. S. Gram, Hematology
-Patient Name - Viggo Iversen
+CPR-number - 251240-1779
+Encounter Date - 2024-07-19
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Nina Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFrEF) (2004), CKD (1993).
-- Recent Lab Results (2024-08-01)
-    Hb 7.6 mmol/L
-    Ferritin 52 µg/L
-    CRP 14 mg/L
-    Creatinine 56 µmol/L
+- Past Diagnoses — Osteoporosis (1980), CKD (1981), Heart failure (HFpEF) (1981).
+- Recent Lab Results (2024-06-18)
+    Hb 8.0 mmol/L
+    Ferritin 41 µg/L
+    CRP 25 mg/L
+    Creatinine 106 µmol/L
 - Prior Consultations
-    - 2024-07-06 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-09-13 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Ramipril 5 mg daily, Amlodipine 5 mg daily.
+    - 2023-11-29 — Routine check-up — stable BP, mild anemia noted.
+    - 2023-11-07 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Atorvastatin 20 mg nightly, Pantoprazole 40 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Viggo Iversen presents with throbbing unilateral headache and nausea.
-
-History of Present Illness:
-Viggo Iversen reports recurrent headaches lasting 20 hours, aggravated by light and noise. No focal neurological deficits.
-
-Physical Examination:
-Normal neuro exam. BP 146/88, HR 79.
-
-Diagnostics (Today):
-Clinical diagnosis of migraine; exclude secondary causes if atypical.
-
-Assessment:
-Migraine without aura.
+Present Illness:
+   - Nina Petersen reports sore throat, cough, and mild fever.
+- History of Present Illness
+   - Nina Petersen developed nasal congestion and cough 3 days ago. No dyspnea or chest pain.
+- Physical Examination
+   - T 37.8 °C, mild pharyngeal erythema, lungs clear.
+- Diagnostics (Today)
+   - Clinical diagnosis of viral upper respiratory tract infection.
+- Assessment
+   - Viral URI.
 
 Plan:
-- Administer triptan and antiemetic as needed.
-- Avoid triggers, maintain hydration and regular sleep.
-- Consider prophylactic therapy if frequent attacks.
+   - Supportive care: rest, fluids, paracetamol for fever.
+   - Avoid unnecessary antibiotics.
+   - Educate on hygiene and infection control.
+- Follow-up & Disposition
+   - Follow-up only if symptoms persist beyond 10 days.
 
 Patient Education & Safety Net:
-Discuss trigger identification and medication overuse prevention.
-
-Follow-up & Disposition:
-Follow-up in 8 weeks for frequency reassessment.
+Reassure benign course; return if high fever or worsening.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. H. Sørensen, Internal Medicine

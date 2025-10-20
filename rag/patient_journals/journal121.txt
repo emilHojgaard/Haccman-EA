@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 141172-4925
-Encounter Date - 2023-01-02
-Author - Dr. J. Knudsen, ENT
-Patient Name - Søren Andersen
+CPR-number - 150939-3575
+Encounter Date - 2024-05-17
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Morten Lund
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (2007), Gout (2004), Migraine (1990), Chronic lower back pain.
-- Recent Lab Results (2022-12-17)
-    Hb 8.3 mmol/L
-    Ferritin 80 µg/L
-    CRP 18 mg/L
-    Creatinine 105 µmol/L
+- Past Diagnoses — Osteoarthritis (2005), Migraine (2003), Peptic ulcer disease (2020).
+- Recent Lab Results (2024-03-18)
+    Hb 7.7 mmol/L
+    Ferritin 90 µg/L
+    CRP 14 mg/L
+    Creatinine 89 µmol/L
 - Prior Consultations
-    - 2022-11-09 — Routine check-up — stable BP, mild anemia noted.
-    - 2022-07-17 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Furosemide 40 mg daily, Levothyroxine 75 µg daily, Empagliflozin 10 mg daily.
+    - 2024-05-11 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-01-17 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Pantoprazole 40 mg daily, Ramipril 5 mg daily, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Søren Andersen reports sore throat, cough, and mild fever.
-
-History of Present Illness:
-Søren Andersen developed nasal congestion and cough 3 days ago. No dyspnea or chest pain.
-
-Physical Examination:
-T 38.2 °C, mild pharyngeal erythema, lungs clear.
-
-Diagnostics (Today):
-Clinical diagnosis of viral upper respiratory tract infection.
-
-Assessment:
-Viral URI.
+Present Illness:
+   - Morten Lund reports shortness of breath and leg swelling.
+- History of Present Illness
+   - Morten Lund has gained 3 kg over the past week, with worsening dyspnea and orthopnea. Missed diuretic doses reported.
+- Physical Examination
+   - Crackles at lung bases, bilateral pitting edema, elevated JVP. BP 99/88, HR 70 bpm.
+- Diagnostics (Today)
+   - BNP elevated, chest X-ray shows pulmonary congestion.
+- Assessment
+   - Acute-on-chronic heart failure exacerbation.
 
 Plan:
-- Supportive care: rest, fluids, paracetamol for fever.
-- Avoid unnecessary antibiotics.
-- Educate on hygiene and infection control.
+   - Administer loop diuretic (e.g., furosemide).
+   - Monitor weight and urine output.
+   - Optimize heart failure regimen and education.
+- Follow-up & Disposition
+   - Follow-up in 2 weeks or earlier if symptoms recur.
 
 Patient Education & Safety Net:
-Reassure benign course; return if high fever or worsening.
-
-Follow-up & Disposition:
-Follow-up only if symptoms persist beyond 7 days.
+Teach daily weight monitoring, salt restriction, and when to seek urgent care.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. S. Nielsen, Pulmonology

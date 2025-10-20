@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 180933-3854
-Encounter Date - 2024-06-20
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Carsten Holm
+CPR-number - 060398-2069
+Encounter Date - 2025-01-07
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Rasmus Kristensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypothyroidism (2013), Irritable bowel syndrome (2005), Type 2 Diabetes (1989), Chronic lower back pain.
-- Recent Lab Results (2024-03-27)
-    Hb 7.0 mmol/L (low)
-    Ferritin 28 µg/L
-    CRP 10 mg/L
-    Creatinine 74 µmol/L
+- Past Diagnoses — Psoriasis (2016), Gallstones (2011), Depression (1994).
+- Recent Lab Results (2025-01-03)
+    Hb 7.8 mmol/L
+    Ferritin 107 µg/L
+    CRP 9 mg/L
+    Creatinine 71 µmol/L
 - Prior Consultations
-    - 2024-01-29 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-07-25 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly.
-- Allergies — None known.
+    - 2024-11-02 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-12-07 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Bisoprolol 5 mg daily, Pantoprazole 40 mg daily.
+- Allergies — ACE inhibitors (cough).
 
-Chief Complaint:
-Carsten Holm presents with hearing voices and increased suspiciousness.
-
-History of Present Illness:
-Carsten Holm reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
-
-Physical Examination:
-Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 156/76, HR 79 bpm.
-
-Diagnostics (Today):
-Active psychosis; rule out intoxication or medical cause.
-
-Assessment:
-Schizophrenia, acute exacerbation due to medication nonadherence.
+Present Illness:
+   - Rasmus Kristensen reports dysuria, frequency, and suprapubic discomfort.
+- History of Present Illness
+   - Rasmus Kristensen developed burning on urination for 2 days. No flank pain or fever.
+- Physical Examination
+   - Afebrile (37.9 °C), suprapubic tenderness. No costovertebral angle tenderness.
+- Diagnostics (Today)
+   - Urinalysis positive for nitrites and leukocytes.
+- Assessment
+   - Uncomplicated lower urinary tract infection.
 
 Plan:
-- Restart antipsychotic (oral or depot).
-- Ensure safe environment; involve crisis team.
-- Assess capacity and consider inpatient admission if risk present.
+   - Start short course of oral antibiotic per protocol.
+   - Encourage fluid intake.
+   - Review symptoms resolution.
+- Follow-up & Disposition
+   - Follow-up if symptoms persist beyond 3 days.
 
 Patient Education & Safety Net:
-Discuss importance of medication adherence and early relapse signs with patient and relatives.
-
-Follow-up & Disposition:
-Close follow-up within 3 days or inpatient as required.
+Advise to complete antibiotics and monitor for fever or flank pain.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. S. Nielsen, Pulmonology

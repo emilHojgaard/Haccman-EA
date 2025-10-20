@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 170782-2555
-Encounter Date - 2024-12-12
-Author - Dr. V. Laursen, Nephrology
-Patient Name - Sanne Pedersen
+CPR-number - 150440-9915
+Encounter Date - 2024-09-29
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Thomas Østergaard
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFrEF) (2012), GERD (2006).
-- Recent Lab Results (2024-12-03)
-    Hb 7.1 mmol/L (low)
-    Ferritin 122 µg/L
-    CRP 7 mg/L
-    Creatinine 74 µmol/L
+- Past Diagnoses — Heart failure (HFrEF) (2014), Depression (1999).
+- Recent Lab Results (2024-09-10)
+    Hb 7.6 mmol/L
+    Ferritin 48 µg/L
+    CRP 17 mg/L
+    Creatinine 64 µmol/L
 - Prior Consultations
-    - 2024-10-31 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-07-13 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Levothyroxine 75 µg daily, Empagliflozin 10 mg daily, Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily.
+    - 2024-03-28 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-02-23 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Ramipril 5 mg daily, Levothyroxine 75 µg daily, Pantoprazole 40 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Sanne Pedersen reports constant worry, muscle tension, and poor sleep.
-
-History of Present Illness:
-Sanne Pedersen describes months of excessive anxiety difficult to control, with restlessness and fatigue. Denies panic attacks or substance misuse.
-
-Physical Examination:
-Anxious affect, fidgeting. HR 116 bpm, BP 103/66 mmHg. No tremor or thyrotoxicosis signs.
-
-Diagnostics (Today):
-Persistent anxiety with somatic tension; exclude thyroid and cardiac causes.
-
-Assessment:
-Generalized anxiety disorder.
+Present Illness:
+   - Thomas Østergaard reports worsening lower back pain.
+- History of Present Illness
+   - Thomas Østergaard has chronic back pain now intensified after lifting or prolonged sitting. No radicular symptoms or incontinence.
+- Physical Examination
+   - Paraspinal muscle tenderness, normal reflexes and strength. BP 128/83.
+- Diagnostics (Today)
+   - Mechanical exacerbation of chronic low back pain.
+- Assessment
+   - Chronic low back pain, acute exacerbation.
 
 Plan:
-- Begin CBT-focused therapy; consider SSRI or SNRI if persistent.
-- Teach breathing and relaxation exercises.
-- Avoid benzodiazepines long term.
+   - Encourage activity as tolerated.
+   - Use heat therapy and simple analgesics.
+   - Refer for physiotherapy if persistent.
+- Follow-up & Disposition
+   - Follow-up in 4 weeks.
 
 Patient Education & Safety Net:
-Explain nature of chronic anxiety and coping tools. Encourage sleep hygiene and regular exercise.
-
-Follow-up & Disposition:
-Review in 4 weeks to monitor response.
+Discuss posture, core strengthening, and weight control.
 
 Sign-off:
-Dr. V. Laursen, Nephrology
+Dr. H. Sørensen, Internal Medicine

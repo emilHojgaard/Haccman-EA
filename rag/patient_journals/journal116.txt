@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 120750-3154
-Encounter Date - 2024-02-11
+CPR-number - 260943-9760
+Encounter Date - 2025-02-05
 Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Solveig Hansen
+Patient Name - Ole Gram
 
 Medical History & Prior Results:
-- Past Diagnoses — Atrial fibrillation (2001), Peptic ulcer disease (2005), Hypothyroidism (2008), GERD (2008), Chronic lower back pain.
-- Recent Lab Results (2023-12-21)
-    Hb 7.2 mmol/L (low)
-    Ferritin 138 µg/L
+- Past Diagnoses — Anxiety (1990), Dyslipidemia (1999), Heart failure (HFpEF) (1980), Gout (2000), Chronic lower back pain.
+- Recent Lab Results (2025-01-08)
+    Hb 7.6 mmol/L
+    Ferritin 52 µg/L
     CRP 16 mg/L
-    Creatinine 110 µmol/L
+    Creatinine 87 µmol/L
 - Prior Consultations
-    - 2023-09-19 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-02-03 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day.
-- Allergies — None known.
+    - 2024-07-21 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-07-29 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Bisoprolol 5 mg daily, Metformin 500 mg BID.
+- Allergies — Penicillin (rash).
 
-Chief Complaint:
-Solveig Hansen reports recurrent episodes of sudden intense fear and palpitations.
-
-History of Present Illness:
-Solveig Hansen describes abrupt attacks of shortness of breath, chest tightness, and fear of dying lasting 8 minutes. Between attacks, anticipatory anxiety persists.
-
-Physical Examination:
-During visit, mildly anxious, HR 68 bpm, BP 124/71. ECG normal.
-
-Diagnostics (Today):
-Recurrent panic attacks without underlying cardiac or endocrine cause.
-
-Assessment:
-Panic disorder.
+Present Illness:
+   - Ole Gram presents with throbbing unilateral headache and nausea.
+- History of Present Illness
+   - Ole Gram reports recurrent headaches lasting 22 hours, aggravated by light and noise. No focal neurological deficits.
+- Physical Examination
+   - Normal neuro exam. BP 136/60, HR 102.
+- Diagnostics (Today)
+   - Clinical diagnosis of migraine; exclude secondary causes if atypical.
+- Assessment
+   - Migraine without aura.
 
 Plan:
-- Provide CBT focused on panic management.
-- Consider SSRI for long-term control.
-- Educate on breathing and relaxation techniques.
+   - Administer triptan and antiemetic as needed.
+   - Avoid triggers, maintain hydration and regular sleep.
+   - Consider prophylactic therapy if frequent attacks.
+- Follow-up & Disposition
+   - Follow-up in 6 weeks for frequency reassessment.
 
 Patient Education & Safety Net:
-Explain physiological basis of panic and avoidance behaviors. Encourage gradual exposure to feared situations.
-
-Follow-up & Disposition:
-Follow-up in 4 weeks for progress evaluation.
+Discuss trigger identification and medication overuse prevention.
 
 Sign-off:
 Dr. S. Nielsen, Pulmonology

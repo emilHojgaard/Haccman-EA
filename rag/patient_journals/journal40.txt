@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 130107-5514
-Encounter Date - 2023-09-06
-Author - Dr. O. Bjørk, Urology
-Patient Name - Louise Andersen
+CPR-number - 220850-5870
+Encounter Date - 2024-04-12
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Henrik Christensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (2015), Psoriasis (2000), Migraine (2016), Hypothyroidism (2019).
-- Recent Lab Results (2023-07-02)
-    Hb 7.9 mmol/L
-    Ferritin 134 µg/L
-    CRP 23 mg/L
-    Creatinine 103 µmol/L
+- Past Diagnoses — Psoriasis (1989), Osteoarthritis (2006).
+- Recent Lab Results (2024-03-14)
+    Hb 7.8 mmol/L
+    Ferritin 49 µg/L
+    CRP 8 mg/L
+    Creatinine 105 µmol/L
 - Prior Consultations
-    - 2023-06-26 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-04-22 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Lisinopril 10 mg daily, Furosemide 40 mg daily.
+    - 2023-11-06 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-02-26 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Furosemide 40 mg daily, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
-Chief Complaint:
-Louise Andersen reports decreased need for sleep, elevated mood, and increased goal-directed activity.
-
-History of Present Illness:
-Louise Andersen describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
-
-Physical Examination:
-Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 134/85, HR 92 bpm).
-
-Diagnostics (Today):
-Findings consistent with manic episode; labs for lithium and thyroid function ordered.
-
-Assessment:
-Bipolar affective disorder, type I, current manic episode.
+Present Illness:
+   - Henrik Christensen reports nightmares, flashbacks, and hypervigilance.
+- History of Present Illness
+   - Henrik Christensen experienced a traumatic event 12 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
+- Physical Examination
+   - Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 98/70, HR 81 bpm.
+- Diagnostics (Today)
+   - Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
+- Assessment
+   - Post-traumatic stress disorder.
 
 Plan:
-- Continue or initiate mood stabilizer (e.g., lithium or valproate).
-- Discontinue antidepressants if present.
-- Offer short inpatient stabilization if insight poor or risk increases.
+   - Refer for trauma-focused CBT or EMDR.
+   - Avoid routine benzodiazepine use.
+   - Consider SSRI if comorbid depression or anxiety.
+- Follow-up & Disposition
+   - Follow-up in 3 weeks to review therapy engagement.
 
 Patient Education & Safety Net:
-Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
-
-Follow-up & Disposition:
-Follow-up in 5 days to reassess mood and safety.
+Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. K. Østergaard, General Surgery

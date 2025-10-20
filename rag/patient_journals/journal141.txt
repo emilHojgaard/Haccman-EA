@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 201064-3970
-Encounter Date - 2023-05-15
-Author - Dr. J. Knudsen, ENT
-Patient Name - Søren Petersen
+CPR-number - 260930-2664
+Encounter Date - 2023-02-14
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Maria Gram
 
 Medical History & Prior Results:
-- Past Diagnoses — Gallstones (1995), Psoriasis (1980), GERD (2015), Chronic lower back pain.
-- Recent Lab Results (2023-04-01)
-    Hb 7.5 mmol/L
-    Ferritin 85 µg/L
-    CRP 8 mg/L
-    Creatinine 64 µmol/L
+- Past Diagnoses — Type 2 Diabetes (1995), Gallstones (2001), Hypothyroidism (2019), Hypertension (1996).
+- Recent Lab Results (2022-11-19)
+    Hb 8.1 mmol/L
+    Ferritin 49 µg/L
+    CRP 9 mg/L
+    Creatinine 83 µmol/L
 - Prior Consultations
-    - 2023-03-08 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2022-12-15 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day, Ramipril 5 mg daily.
+    - 2022-12-06 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2022-11-26 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Empagliflozin 10 mg daily, Atorvastatin 20 mg nightly, Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
-Chief Complaint:
-Søren Petersen reports sore throat, cough, and mild fever.
-
-History of Present Illness:
-Søren Petersen developed nasal congestion and cough 2 days ago. No dyspnea or chest pain.
-
-Physical Examination:
-T 37.5 °C, mild pharyngeal erythema, lungs clear.
-
-Diagnostics (Today):
-Clinical diagnosis of viral upper respiratory tract infection.
-
-Assessment:
-Viral URI.
+Present Illness:
+   - Maria Gram presents for follow-up with persistently elevated blood pressure readings.
+- History of Present Illness
+   - Maria Gram notes occasional headaches and dizziness. Adherence to medication inconsistent; diet high in salt.
+- Physical Examination
+   - BP 167/68 mmHg, HR 68 bpm, no edema, no murmurs.
+- Diagnostics (Today)
+   - Office BP elevated; renal function and electrolytes ordered.
+- Assessment
+   - Essential hypertension, suboptimally controlled.
 
 Plan:
-- Supportive care: rest, fluids, paracetamol for fever.
-- Avoid unnecessary antibiotics.
-- Educate on hygiene and infection control.
+   - Reinforce lifestyle modification (salt restriction, exercise).
+   - Increase or add antihypertensive therapy.
+   - Monitor home BP readings.
+- Follow-up & Disposition
+   - Review in 5 weeks with BP log.
 
 Patient Education & Safety Net:
-Reassure benign course; return if high fever or worsening.
-
-Follow-up & Disposition:
-Follow-up only if symptoms persist beyond 10 days.
+Explain importance of adherence and cardiovascular risk reduction.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. H. Sørensen, Internal Medicine

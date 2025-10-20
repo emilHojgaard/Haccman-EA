@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 011093-1333
-Encounter Date - 2024-11-29
+CPR-number - 030362-2141
+Encounter Date - 2023-03-06
 Author - Dr. J. Knudsen, ENT
-Patient Name - Anja Olsen
+Patient Name - Emil Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — Dyslipidemia (2008), Osteoporosis (2003), Chronic lower back pain.
-- Recent Lab Results (2024-09-29)
-    Hb 8.0 mmol/L
-    Ferritin 14 µg/L (low)
-    CRP 6 mg/L
-    Creatinine 60 µmol/L
+- Past Diagnoses — GERD (1984), Anxiety (2011), Type 2 Diabetes (2020), Chronic lower back pain.
+- Recent Lab Results (2023-01-04)
+    Hb 6.8 mmol/L (low)
+    Ferritin 85 µg/L
+    CRP 23 mg/L
+    Creatinine 94 µmol/L
 - Prior Consultations
-    - 2024-11-19 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-11-11 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Empagliflozin 10 mg daily, Ramipril 5 mg daily.
+    - 2023-01-29 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2022-12-04 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Metformin 500 mg BID, Furosemide 40 mg daily, Ramipril 5 mg daily, Lisinopril 10 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Anja Olsen presents with hearing voices and increased suspiciousness.
-
-History of Present Illness:
-Anja Olsen reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
-
-Physical Examination:
-Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 157/82, HR 66 bpm.
-
-Diagnostics (Today):
-Active psychosis; rule out intoxication or medical cause.
-
-Assessment:
-Schizophrenia, acute exacerbation due to medication nonadherence.
+Present Illness:
+   - Emil Dam reports nightmares, flashbacks, and hypervigilance.
+- History of Present Illness
+   - Emil Dam experienced a traumatic event 10 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
+- Physical Examination
+   - Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 160/81, HR 112 bpm.
+- Diagnostics (Today)
+   - Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
+- Assessment
+   - Post-traumatic stress disorder.
 
 Plan:
-- Restart antipsychotic (oral or depot).
-- Ensure safe environment; involve crisis team.
-- Assess capacity and consider inpatient admission if risk present.
+   - Refer for trauma-focused CBT or EMDR.
+   - Avoid routine benzodiazepine use.
+   - Consider SSRI if comorbid depression or anxiety.
+- Follow-up & Disposition
+   - Follow-up in 5 weeks to review therapy engagement.
 
 Patient Education & Safety Net:
-Discuss importance of medication adherence and early relapse signs with patient and relatives.
-
-Follow-up & Disposition:
-Close follow-up within 7 days or inpatient as required.
+Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
 
 Sign-off:
 Dr. J. Knudsen, ENT

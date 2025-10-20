@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 150485-4147
-Encounter Date - 2023-07-27
-Author - Dr. J. Knudsen, ENT
-Patient Name - Nina Andersen
+CPR-number - 090644-4403
+Encounter Date - 2024-11-03
+Author - Dr. S. Gram, Hematology
+Patient Name - Helle Rasmussen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (2004), Migraine (1985).
-- Recent Lab Results (2023-07-16)
-    Hb 8.2 mmol/L
-    Ferritin 81 µg/L
-    CRP 21 mg/L
-    Creatinine 74 µmol/L
+- Past Diagnoses — Psoriasis (2016), Iron Deficiency (1990), Depression (2000).
+- Recent Lab Results (2024-10-30)
+    Hb 7.2 mmol/L (low)
+    Ferritin 100 µg/L
+    CRP 9 mg/L
+    Creatinine 101 µmol/L
 - Prior Consultations
-    - 2023-06-07 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2023-05-13 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ferrous sulfate 100 mg every other day, Pantoprazole 40 mg daily.
-- Allergies — ACE inhibitors (cough).
+    - 2023-12-06 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-08-27 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Atorvastatin 20 mg nightly, Metformin 500 mg BID, Amlodipine 5 mg daily.
+- Allergies — None known.
 
-Chief Complaint:
-Nina Andersen reports dysuria, frequency, and suprapubic discomfort.
-
-History of Present Illness:
-Nina Andersen developed burning on urination for 5 days. No flank pain or fever.
-
-Physical Examination:
-Afebrile (37.8 °C), suprapubic tenderness. No costovertebral angle tenderness.
-
-Diagnostics (Today):
-Urinalysis positive for nitrites and leukocytes.
-
-Assessment:
-Uncomplicated lower urinary tract infection.
+Present Illness:
+   - Helle Rasmussen presents for follow-up with persistently elevated blood pressure readings.
+- History of Present Illness
+   - Helle Rasmussen notes occasional headaches and dizziness. Adherence to medication inconsistent; diet high in salt.
+- Physical Examination
+   - BP 161/81 mmHg, HR 82 bpm, no edema, no murmurs.
+- Diagnostics (Today)
+   - Office BP elevated; renal function and electrolytes ordered.
+- Assessment
+   - Essential hypertension, suboptimally controlled.
 
 Plan:
-- Start short course of oral antibiotic per protocol.
-- Encourage fluid intake.
-- Review symptoms resolution.
+   - Reinforce lifestyle modification (salt restriction, exercise).
+   - Increase or add antihypertensive therapy.
+   - Monitor home BP readings.
+- Follow-up & Disposition
+   - Review in 6 weeks with BP log.
 
 Patient Education & Safety Net:
-Advise to complete antibiotics and monitor for fever or flank pain.
-
-Follow-up & Disposition:
-Follow-up if symptoms persist beyond 4 days.
+Explain importance of adherence and cardiovascular risk reduction.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. S. Gram, Hematology

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 060269-0813
-Encounter Date - 2023-07-01
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Viggo Pedersen
+CPR-number - 180676-8311
+Encounter Date - 2023-04-08
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Søren Bjørk
 
 Medical History & Prior Results:
-- Past Diagnoses — Atrial fibrillation (1987), Iron Deficiency (1986).
-- Recent Lab Results (2023-05-20)
-    Hb 7.2 mmol/L (low)
-    Ferritin 8 µg/L (low)
-    CRP 14 mg/L
-    Creatinine 104 µmol/L
+- Past Diagnoses — Peptic ulcer disease (2014), Hypertension (2016).
+- Recent Lab Results (2023-01-09)
+    Hb 6.7 mmol/L (low)
+    Ferritin 20 µg/L
+    CRP 23 mg/L
+    Creatinine 98 µmol/L
 - Prior Consultations
-    - 2023-03-08 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-06-27 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Pantoprazole 40 mg daily, Ramipril 5 mg daily, Lisinopril 10 mg daily, Amlodipine 5 mg daily.
+    - 2023-03-25 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2022-07-28 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Metformin 500 mg BID, Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
-Chief Complaint:
-Viggo Pedersen reports sore throat, cough, and mild fever.
-
-History of Present Illness:
-Viggo Pedersen developed nasal congestion and cough 2 days ago. No dyspnea or chest pain.
-
-Physical Examination:
-T 37.5 °C, mild pharyngeal erythema, lungs clear.
-
-Diagnostics (Today):
-Clinical diagnosis of viral upper respiratory tract infection.
-
-Assessment:
-Viral URI.
+Present Illness:
+   - Søren Bjørk reports thirst, frequent urination, and blurred vision.
+- History of Present Illness
+   - Søren Bjørk has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+- Physical Examination
+   - Vitals: BP 110/70 mmHg, HR 65 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+- Diagnostics (Today)
+   - Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+- Assessment
+   - Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Supportive care: rest, fluids, paracetamol for fever.
-- Avoid unnecessary antibiotics.
-- Educate on hygiene and infection control.
+   - Reinforce medication schedule; consider adding or adjusting therapy per plan.
+   - Hydration guidance and sick-day rules; check for precipitating infection.
+   - Arrange diabetes education and home glucose monitoring review.
+- Follow-up & Disposition
+   - Clinic follow-up in 2 weeks to assess response and review HbA1c.
 
 Patient Education & Safety Net:
-Reassure benign course; return if high fever or worsening.
-
-Follow-up & Disposition:
-Follow-up only if symptoms persist beyond 7 days.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. H. Sørensen, Internal Medicine

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 231258-1149
-Encounter Date - 2023-04-30
-Author - Dr. J. Knudsen, ENT
-Patient Name - Sanne Gram
+CPR-number - 220853-8800
+Encounter Date - 2024-02-04
+Author - Dr. L. Holm, Cardiology
+Patient Name - Jonas Gram
 
 Medical History & Prior Results:
-- Past Diagnoses — Iron Deficiency (1993), Gout (2003), Heart failure (HFrEF) (2017), Heart failure (HFpEF) (1982), Chronic lower back pain.
-- Recent Lab Results (2023-04-13)
-    Hb 7.1 mmol/L (low)
-    Ferritin 69 µg/L
-    CRP 8 mg/L
-    Creatinine 88 µmol/L
+- Past Diagnoses — Dyslipidemia (2016), Osteoarthritis (2015), Chronic lower back pain.
+- Recent Lab Results (2024-01-16)
+    Hb 8.4 mmol/L
+    Ferritin 93 µg/L
+    CRP 12 mg/L
+    Creatinine 81 µmol/L
 - Prior Consultations
-    - 2023-04-18 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-03-08 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Empagliflozin 10 mg daily, Furosemide 40 mg daily.
-- Allergies — None known.
+    - 2023-10-04 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-09-12 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Pantoprazole 40 mg daily, Lisinopril 10 mg daily, Ramipril 5 mg daily, Atorvastatin 20 mg nightly.
+- Allergies — NSAIDs (dyspepsia).
 
-Chief Complaint:
-Sanne Gram reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
-
-History of Present Illness:
-Sanne Gram notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
-
-Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 155/91 mmHg, HR 69 bpm). Abdomen soft, non-tender.
-
-Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
-
-Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Present Illness:
+   - Jonas Gram presents for follow-up with persistently elevated blood pressure readings.
+- History of Present Illness
+   - Jonas Gram notes occasional headaches and dizziness. Adherence to medication inconsistent; diet high in salt.
+- Physical Examination
+   - BP 126/60 mmHg, HR 72 bpm, no edema, no murmurs.
+- Diagnostics (Today)
+   - Office BP elevated; renal function and electrolytes ordered.
+- Assessment
+   - Essential hypertension, suboptimally controlled.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+   - Reinforce lifestyle modification (salt restriction, exercise).
+   - Increase or add antihypertensive therapy.
+   - Monitor home BP readings.
+- Follow-up & Disposition
+   - Review in 4 weeks with BP log.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
-
-Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Explain importance of adherence and cardiovascular risk reduction.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. L. Holm, Cardiology

@@ -65,7 +65,7 @@ Deno.serve(async (req) => {
   console.log("Request received");
 
   try {
-    const { message, systemPrompt, guardrail, previousPrompts } = await req.json();
+    const { message, systemPrompt, constrain, guardrail, previousPrompts } = await req.json();
 
     if (!OPENAI_API_KEY) {
       return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
@@ -108,31 +108,27 @@ Deno.serve(async (req) => {
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: guardrail },
-          ...(systemPrompt ? [{ role: "system", content: systemPrompt }] : []),
+          ...(systemPrompt ? [{ role: "system", content: systemPrompt + constrain }] : []),
           {
             role: "system",
             content: confidential
               ? `The document below is confidential. Politely inform the user you cannot share the contents, and suggest they request access through authorized channels.`
               : `
-You are an assistant designed to introduce a retrieved document.
+Your task is to present the retrieved document.
 
 You will receive:
 - A **DOC TITLE** (the name of the retrieved document)
+- A **DOCUMENT** (the content of the retrieved document)
 - A **USER question**
 
 Your task:
-1. If the DOC TITLE is NOT empty, write a short, polite introduction of the retrieved document based on the DOC TITLE and USER question.
-   - Do NOT say "Document not found".
-   - Do NOT expect to see the full text.
-   - Assume the document exists and will be shown to the user afterwards.
-2. If the DOC TITLE is empty or missing, respond exactly with: "Document not found."
-3. Do not invent a title or hallucinate content not given.
+1. If the DOC TITLE and DOCUMENT is NOT empty, present the FULL DOCUMENT without changes.
+2. If the DOC TITLE or DOCUMENT is empty or missing, respond exactly with: "Document not found."
+3. Do **not** invent a title or hallucinate content that is not given.
 `.trim(),
           },
-          {
-            role: "system",
-            content: `DOC TITLE:\n${docTitle ?? ""} `,
-          },
+          { role: "system", content: `DOC TITLE:\n${docTitle ?? ""} ` },
+          { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
           { role: "user", content: chatHistory },
           { role: "user", content: message },
         ],
@@ -159,16 +155,6 @@ Your task:
 
       const json = await r.json();
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
-
-      //---- concattenating the retrieved document to the response ----
-      if (!confidential) {
-        if (journalId !== null || cpr !== null || nameInit !== null) {
-          const textWithMarkdown = journalTextToMarkdown(docText);
-          aiResponsetext += docText ? `\n\n Retrieved document: \n\n${textWithMarkdown}` : "";
-        } else {
-          aiResponsetext += docText ? `\n\n Retrieved document: \n\n${docText}` : "";
-        }
-      }
 
       // Return answer 
       return new Response(JSON.stringify({
@@ -202,7 +188,7 @@ Your task:
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: guardrail },
-          ...(systemPrompt ? [{ role: "system", content: systemPrompt }] : []),
+          ...(systemPrompt ? [{ role: "system", content: systemPrompt + constrain }] : []),
           {
             role: "system",
             content: `
@@ -312,7 +298,7 @@ Your task:
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: guardrail },
-          ...(systemPrompt ? [{ role: "system", content: systemPrompt }] : []),
+          ...(systemPrompt ? [{ role: "system", content: systemPrompt + constrain }] : []),
           {
             role: "system",
             content:

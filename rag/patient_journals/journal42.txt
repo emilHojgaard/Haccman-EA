@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 200497-6487
-Encounter Date - 2023-07-24
-Author - Dr. V. Laursen, Nephrology
-Patient Name - Frederik Mortensen
+CPR-number - 230797-2513
+Encounter Date - 2024-01-14
+Author - Dr. L. Holm, Cardiology
+Patient Name - Katrine Kristensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Osteoarthritis (2003), Irritable bowel syndrome (2008), Heart failure (HFpEF) (1988), Osteoporosis (2002).
-- Recent Lab Results (2023-06-24)
-    Hb 6.8 mmol/L (low)
-    Ferritin 99 µg/L
-    CRP 5 mg/L
-    Creatinine 76 µmol/L
+- Past Diagnoses — Anxiety (2000), Iron Deficiency (2015), Atrial fibrillation (2005), Chronic lower back pain.
+- Recent Lab Results (2024-01-08)
+    Hb 7.1 mmol/L (low)
+    Ferritin 66 µg/L
+    CRP 16 mg/L
+    Creatinine 64 µmol/L
 - Prior Consultations
-    - 2023-07-09 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2022-10-22 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Ferrous sulfate 100 mg every other day, Lisinopril 10 mg daily, Bisoprolol 5 mg daily.
+    - 2023-09-16 — Routine check-up — stable BP, mild anemia noted.
+    - 2023-11-03 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Metformin 500 mg BID, Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
-Chief Complaint:
-Frederik Mortensen reports epigastric pain and indigestion.
-
-History of Present Illness:
-Frederik Mortensen has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
-
-Physical Examination:
-Epigastric tenderness, no guarding. Vitals: BP 159/77, HR 82.
-
-Diagnostics (Today):
-Suspected gastritis/ulcer; H. pylori test ordered.
-
-Assessment:
-Peptic ulcer disease, likely NSAID-related.
+Present Illness:
+   - Katrine Kristensen reports constant worry, muscle tension, and poor sleep.
+- History of Present Illness
+   - Katrine Kristensen describes months of excessive anxiety difficult to control, with restlessness and fatigue. Denies panic attacks or substance misuse.
+- Physical Examination
+   - Anxious affect, fidgeting. HR 86 bpm, BP 155/75 mmHg. No tremor or thyrotoxicosis signs.
+- Diagnostics (Today)
+   - Persistent anxiety with somatic tension; exclude thyroid and cardiac causes.
+- Assessment
+   - Generalized anxiety disorder.
 
 Plan:
-- Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
-- If positive, treat H. pylori.
-- Advise small, frequent meals and limit alcohol/caffeine.
+   - Begin CBT-focused therapy; consider SSRI or SNRI if persistent.
+   - Teach breathing and relaxation exercises.
+   - Avoid benzodiazepines long term.
+- Follow-up & Disposition
+   - Review in 4 weeks to monitor response.
 
 Patient Education & Safety Net:
-Explain risk factors and warning signs of bleeding.
-
-Follow-up & Disposition:
-Reassess in 5 weeks; consider endoscopy if persistent.
+Explain nature of chronic anxiety and coping tools. Encourage sleep hygiene and regular exercise.
 
 Sign-off:
-Dr. V. Laursen, Nephrology
+Dr. L. Holm, Cardiology

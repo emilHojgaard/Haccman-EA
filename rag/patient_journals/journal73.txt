@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 140392-4476
-Encounter Date - 2024-05-27
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Louise Lund
+CPR-number - 220138-2319
+Encounter Date - 2025-02-20
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Magnus Madsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypothyroidism (1995), Asthma (1993), Migraine (2010), Depression (1994), Chronic lower back pain.
-- Recent Lab Results (2024-05-17)
-    Hb 6.9 mmol/L (low)
-    Ferritin 44 µg/L
-    CRP 15 mg/L
-    Creatinine 68 µmol/L
+- Past Diagnoses — CKD (1982), Depression (2023), Peptic ulcer disease (1998), Gout (1997).
+- Recent Lab Results (2025-01-26)
+    Hb 7.9 mmol/L
+    Ferritin 147 µg/L
+    CRP 9 mg/L
+    Creatinine 74 µmol/L
 - Prior Consultations
-    - 2024-04-04 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-04-22 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Ferrous sulfate 100 mg every other day, Ramipril 5 mg daily.
+    - 2024-10-22 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-11-02 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Lisinopril 10 mg daily, Bisoprolol 5 mg daily, Amlodipine 5 mg daily, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Louise Lund complains of fever, productive cough, and right-sided chest pain.
-
-History of Present Illness:
-Louise Lund developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
-
-Physical Examination:
-Febrile (38.2 °C), RR 24/min, SpO₂ 95% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
-
-Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
-
-Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Present Illness:
+   - Magnus Madsen complains of fever, productive cough, and right-sided chest pain.
+- History of Present Illness
+   - Magnus Madsen developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+- Physical Examination
+   - Febrile (37.2 °C), RR 14/min, SpO₂ 94% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+- Diagnostics (Today)
+   - CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+- Assessment
+   - Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+   - Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+   - Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+   - Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Follow-up & Disposition
+   - Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
 
 Patient Education & Safety Net:
 Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
-Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
-
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. A. Thomsen, Emergency Medicine

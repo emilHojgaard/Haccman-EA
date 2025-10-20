@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 110463-5945
-Encounter Date - 2025-06-22
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Emil Christensen
+CPR-number - 221288-8908
+Encounter Date - 2025-01-22
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Carsten Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (1991), Osteoporosis (1987).
-- Recent Lab Results (2025-06-18)
-    Hb 8.5 mmol/L
-    Ferritin 13 µg/L (low)
-    CRP 17 mg/L
-    Creatinine 97 µmol/L
+- Past Diagnoses — Iron Deficiency (1993), COPD (2013), Chronic lower back pain.
+- Recent Lab Results (2025-01-05)
+    Hb 8.4 mmol/L
+    Ferritin 127 µg/L
+    CRP 4 mg/L
+    Creatinine 99 µmol/L
 - Prior Consultations
-    - 2025-04-18 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-09-16 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Furosemide 40 mg daily, Lisinopril 10 mg daily, Levothyroxine 75 µg daily.
-- Allergies — NSAIDs (dyspepsia).
+    - 2024-05-13 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2025-01-20 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Bisoprolol 5 mg daily, Amlodipine 5 mg daily, Pantoprazole 40 mg daily, Levothyroxine 75 µg daily.
+- Allergies — None known.
 
-Chief Complaint:
-Emil Christensen reports stress and low mood following a recent life event.
-
-History of Present Illness:
-Emil Christensen describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
-
-Physical Examination:
-Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 115/89).
-
-Diagnostics (Today):
-Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
-
-Assessment:
-Adjustment disorder with mixed anxiety and depressed mood.
+Present Illness:
+   - Carsten Skov reports persistent sadness, fatigue, and loss of interest in usual activities.
+- History of Present Illness
+   - Carsten Skov has felt low for the past 4 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
+- Physical Examination
+   - Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 138/82, HR 89).
+- Diagnostics (Today)
+   - Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
+- Assessment
+   - Major depressive episode, moderate severity.
 
 Plan:
-- Provide supportive counselling.
-- Encourage coping strategies and social support.
-- Short-term anxiolytic if severe insomnia or anxiety.
+   - Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
+   - Encourage structured daily routine and gradual activity.
+   - Refer for psychotherapy or CBT.
+- Follow-up & Disposition
+   - Follow-up in 2 weeks to assess mood and adherence.
 
 Patient Education & Safety Net:
-Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
-
-Follow-up & Disposition:
-Follow-up in 5 weeks to reassess.
+Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. V. Laursen, Nephrology

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 050772-3890
-Encounter Date - 2023-10-27
-Author - Dr. R. Iversen, Neurology
-Patient Name - Sebastian Iversen
+CPR-number - 090264-9703
+Encounter Date - 2025-10-17
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Lars Mortensen
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (1988), Psoriasis (2014), Chronic lower back pain.
-- Recent Lab Results (2023-10-04)
-    Hb 7.4 mmol/L (low)
-    Ferritin 69 µg/L
-    CRP 23 mg/L
-    Creatinine 71 µmol/L
+- Past Diagnoses — Irritable bowel syndrome (1990), Dyslipidemia (2017), COPD (2000).
+- Recent Lab Results (2025-08-26)
+    Hb 6.8 mmol/L (low)
+    Ferritin 101 µg/L
+    CRP 8 mg/L
+    Creatinine 65 µmol/L
 - Prior Consultations
-    - 2023-04-06 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-03-16 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Atorvastatin 20 mg nightly, Levothyroxine 75 µg daily, Metformin 500 mg BID, Pantoprazole 40 mg daily.
+    - 2025-05-12 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2025-07-21 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Bisoprolol 5 mg daily, Levothyroxine 75 µg daily, Amlodipine 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Sebastian Iversen complains of increased cough, sputum, and breathlessness.
-
-History of Present Illness:
-Sebastian Iversen reports 5 days of worsening cough with purulent sputum and wheeze. No fever or chest pain.
-
-Physical Examination:
-RR 18/min, SpO₂ 95%. Wheezes and prolonged expiration on auscultation.
-
-Diagnostics (Today):
-Likely infective COPD exacerbation; sputum culture if severe.
-
-Assessment:
-COPD exacerbation, mild to moderate.
+Present Illness:
+   - Lars Mortensen presents for follow-up with persistently elevated blood pressure readings.
+- History of Present Illness
+   - Lars Mortensen notes occasional headaches and dizziness. Adherence to medication inconsistent; diet high in salt.
+- Physical Examination
+   - BP 108/75 mmHg, HR 72 bpm, no edema, no murmurs.
+- Diagnostics (Today)
+   - Office BP elevated; renal function and electrolytes ordered.
+- Assessment
+   - Essential hypertension, suboptimally controlled.
 
 Plan:
-- Increase bronchodilator frequency.
-- Start oral corticosteroid and consider antibiotic if purulent.
-- Ensure inhaler technique and smoking cessation advice.
+   - Reinforce lifestyle modification (salt restriction, exercise).
+   - Increase or add antihypertensive therapy.
+   - Monitor home BP readings.
+- Follow-up & Disposition
+   - Review in 3 weeks with BP log.
 
 Patient Education & Safety Net:
-Discuss exacerbation action plan and vaccination importance.
-
-Follow-up & Disposition:
-Review in 4 weeks post-treatment.
+Explain importance of adherence and cardiovascular risk reduction.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. S. Nielsen, Pulmonology

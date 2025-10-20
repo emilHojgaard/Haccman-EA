@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 271172-7761
-Encounter Date - 2025-04-30
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Rune Dam
+CPR-number - 160401-2423
+Encounter Date - 2024-11-02
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Birgit Johansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Dyslipidemia (2000), Depression (1987), Migraine (1996), Atrial fibrillation (1982), Chronic lower back pain.
-- Recent Lab Results (2025-04-10)
-    Hb 6.8 mmol/L (low)
-    Ferritin 58 µg/L
-    CRP 7 mg/L
-    Creatinine 90 µmol/L
+- Past Diagnoses — Gallstones (2019), COPD (1997), Asthma (1981), Anxiety (1999).
+- Recent Lab Results (2024-08-22)
+    Hb 7.4 mmol/L (low)
+    Ferritin 143 µg/L
+    CRP 22 mg/L
+    Creatinine 75 µmol/L
 - Prior Consultations
-    - 2025-04-20 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-10-12 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day, Ramipril 5 mg daily, Amlodipine 5 mg daily.
-- Allergies — Penicillin (rash).
+    - 2024-09-12 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-04-19 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Atorvastatin 20 mg nightly, Empagliflozin 10 mg daily, Ramipril 5 mg daily.
+- Allergies — None known.
 
-Chief Complaint:
-Rune Dam reports stress and low mood following a recent life event.
-
-History of Present Illness:
-Rune Dam describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
-
-Physical Examination:
-Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 111/78).
-
-Diagnostics (Today):
-Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
-
-Assessment:
-Adjustment disorder with mixed anxiety and depressed mood.
+Present Illness:
+   - Birgit Johansen complains of fever, productive cough, and right-sided chest pain.
+- History of Present Illness
+   - Birgit Johansen developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+- Physical Examination
+   - Febrile (36.7 °C), RR 14/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+- Diagnostics (Today)
+   - CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+- Assessment
+   - Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
 
 Plan:
-- Provide supportive counselling.
-- Encourage coping strategies and social support.
-- Short-term anxiolytic if severe insomnia or anxiety.
+   - Start empiric antibiotics per local protocol; provide antipyretics and hydration.
+   - Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
+   - Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Follow-up & Disposition
+   - Safety check in 2 days if outpatient; clinical review in 2 weeks to ensure recovery.
 
 Patient Education & Safety Net:
-Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
-
-Follow-up & Disposition:
-Follow-up in 5 weeks to reassess.
+Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. V. Laursen, Nephrology

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 140687-1025
-Encounter Date - 2025-09-23
-Author - Dr. V. Laursen, Nephrology
-Patient Name - Louise Skov
+CPR-number - 240456-7874
+Encounter Date - 2024-11-14
+Author - Dr. S. Gram, Hematology
+Patient Name - Louise Andersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (1998), Osteoarthritis (1998), Heart failure (HFrEF) (1996), Iron Deficiency (2011), Chronic lower back pain.
-- Recent Lab Results (2025-09-12)
-    Hb 7.0 mmol/L (low)
-    Ferritin 28 µg/L
-    CRP 1 mg/L
-    Creatinine 75 µmol/L
+- Past Diagnoses — Depression (1994), Peptic ulcer disease (1993), GERD (1987).
+- Recent Lab Results (2024-10-18)
+    Hb 7.2 mmol/L (low)
+    Ferritin 23 µg/L
+    CRP 16 mg/L
+    Creatinine 91 µmol/L
 - Prior Consultations
-    - 2025-05-26 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2025-08-11 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Ramipril 5 mg daily, Furosemide 40 mg daily, Empagliflozin 10 mg daily.
+    - 2024-07-28 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-08-21 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Bisoprolol 5 mg daily, Pantoprazole 40 mg daily, Furosemide 40 mg daily, Lisinopril 10 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Louise Skov reports decreased need for sleep, elevated mood, and increased goal-directed activity.
-
-History of Present Illness:
-Louise Skov describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
-
-Physical Examination:
-Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 109/80, HR 92 bpm).
-
-Diagnostics (Today):
-Findings consistent with manic episode; labs for lithium and thyroid function ordered.
-
-Assessment:
-Bipolar affective disorder, type I, current manic episode.
+Present Illness:
+   - Louise Andersen reports sore throat, cough, and mild fever.
+- History of Present Illness
+   - Louise Andersen developed nasal congestion and cough 2 days ago. No dyspnea or chest pain.
+- Physical Examination
+   - T 36.3 °C, mild pharyngeal erythema, lungs clear.
+- Diagnostics (Today)
+   - Clinical diagnosis of viral upper respiratory tract infection.
+- Assessment
+   - Viral URI.
 
 Plan:
-- Continue or initiate mood stabilizer (e.g., lithium or valproate).
-- Discontinue antidepressants if present.
-- Offer short inpatient stabilization if insight poor or risk increases.
+   - Supportive care: rest, fluids, paracetamol for fever.
+   - Avoid unnecessary antibiotics.
+   - Educate on hygiene and infection control.
+- Follow-up & Disposition
+   - Follow-up only if symptoms persist beyond 10 days.
 
 Patient Education & Safety Net:
-Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
-
-Follow-up & Disposition:
-Follow-up in 8 days to reassess mood and safety.
+Reassure benign course; return if high fever or worsening.
 
 Sign-off:
-Dr. V. Laursen, Nephrology
+Dr. S. Gram, Hematology

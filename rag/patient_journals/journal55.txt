@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 140231-6725
-Encounter Date - 2024-06-19
-Author - Dr. R. Iversen, Neurology
-Patient Name - Carsten Petersen
+CPR-number - 061155-0436
+Encounter Date - 2025-07-30
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Søren Larsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Obesity (1981), Type 2 Diabetes (2000), Hypertension (2018).
-- Recent Lab Results (2024-06-11)
-    Hb 6.8 mmol/L (low)
-    Ferritin 73 µg/L
-    CRP 10 mg/L
-    Creatinine 104 µmol/L
+- Past Diagnoses — Migraine (1995), Gallstones (1993), Iron Deficiency (1982), Atrial fibrillation (1988).
+- Recent Lab Results (2025-05-30)
+    Hb 8.5 mmol/L
+    Ferritin 20 µg/L
+    CRP 17 mg/L
+    Creatinine 88 µmol/L
 - Prior Consultations
-    - 2024-05-16 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-01-03 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ramipril 5 mg daily, Pantoprazole 40 mg daily, Lisinopril 10 mg daily, Empagliflozin 10 mg daily.
+    - 2025-04-27 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2025-06-06 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Lisinopril 10 mg daily, Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Carsten Petersen presents with joint stiffness and increased pain.
-
-History of Present Illness:
-Carsten Petersen notes worsening knee pain over 10 days, aggravated by activity. No trauma or systemic symptoms.
-
-Physical Examination:
-Mild joint effusion, bony tenderness, no warmth. BP 128/92.
-
-Diagnostics (Today):
-No acute inflammation; radiographs show osteoarthritic changes.
-
-Assessment:
-Osteoarthritis flare-up.
+Present Illness:
+   - Søren Larsen presents with right lower quadrant abdominal pain and nausea.
+- History of Present Illness
+   - Søren Larsen reports 16 hours of migrating abdominal pain, initially periumbilical, now localized to right iliac fossa, with mild fever.
+- Physical Examination
+   - T 36.3 °C, tenderness and rebound in right lower quadrant, guarding present.
+- Diagnostics (Today)
+   - Leukocytosis and elevated CRP; ultrasound/CT confirms inflamed appendix.
+- Assessment
+   - Acute appendicitis.
 
 Plan:
-- Use acetaminophen or topical NSAID.
-- Encourage physiotherapy and weight management.
-- Avoid prolonged inactivity.
+   - NPO, IV fluids, analgesia.
+   - Surgical evaluation for appendectomy.
+   - Administer pre-operative antibiotics.
+- Follow-up & Disposition
+   - Postoperative review in 10 days.
 
 Patient Education & Safety Net:
-Discuss chronic nature of OA and exercise importance.
-
-Follow-up & Disposition:
-Reassess pain control in 7 weeks.
+Explain surgical procedure and recovery expectations.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. P. Jensen, Psychiatry

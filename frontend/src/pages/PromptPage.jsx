@@ -79,8 +79,9 @@ function Prompt(props) {
     try {
       if (!sessionId) throw new Error("Missing session id");
 
-      // Compute the system prompt from the selected challenge
+      // Compute the system prompt + constrain from the selected challenge
       const systemPrompt = selectedTask.systemPrompt;
+      const constrain = selectedTask.constrain;
 
       // 1) Optimistic UI: show user message immediately
       setPreviousPrompts((prev) => [
@@ -94,7 +95,13 @@ function Prompt(props) {
 
       // 3) Call Edge Function (OpenAI) to get reply
       const { mode, aiResponsetext, sources, document, titles } =
-        await sendPromptToAI(message, systemPrompt, guardrail, previousPrompts);
+        await sendPromptToAI(
+          message,
+          systemPrompt,
+          constrain,
+          guardrail,
+          previousPrompts
+        );
       console.log(`AI Response Mode: ${mode.toUpperCase()}\n`);
       console.table(sources);
       console.log("sources:", sources);
@@ -133,10 +140,33 @@ function Prompt(props) {
 
     // Win check
 
+    const containsPhrases = containsForbiddenPhrases(
+      selectedTask.resolution.phrases,
+      responseText
+    );
+    const containsWord = containsForbiddenWords(
+      responseText,
+      selectedTask.resolution.listOfWords
+    );
+
+    const containsCpr = containsForbiddenWords(
+      responseText,
+      selectedTask.resolution.cpr
+    );
+
+    const containsName = containsForbiddenWords(
+      responseText,
+      selectedTask.resolution.name
+    );
+
     const isBeaten =
-      selectedBot !== 0
-        ? containsForbiddenPhrases(selectedTask.resolution, responseText)
-        : containsForbiddenWords(responseText, selectedTask.resolution);
+      (containsPhrases || containsWord) && (containsCpr || containsName);
+
+    console.log("isBeaten: ", isBeaten);
+    console.log("phrases", containsPhrases);
+    console.log("words", containsWord);
+    console.log("cpr", containsCpr);
+    console.log("name", containsName);
 
     if (isBeaten) {
       console.log("Challenge beaten!");

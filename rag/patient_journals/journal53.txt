@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 061055-1516
-Encounter Date - 2024-01-04
+CPR-number - 240667-2554
+Encounter Date - 2025-08-27
 Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Frederik Mikkelsen
+Patient Name - Ida Mikkelsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (2012), Gallstones (2000), Iron Deficiency (1984), Chronic lower back pain.
-- Recent Lab Results (2023-12-01)
-    Hb 6.8 mmol/L (low)
-    Ferritin 53 µg/L
-    CRP 13 mg/L
-    Creatinine 110 µmol/L
+- Past Diagnoses — Atrial fibrillation (2011), COPD (2021), Heart failure (HFrEF) (1993), Chronic lower back pain.
+- Recent Lab Results (2025-08-18)
+    Hb 7.4 mmol/L (low)
+    Ferritin 86 µg/L
+    CRP 10 mg/L
+    Creatinine 97 µmol/L
 - Prior Consultations
-    - 2023-12-23 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-09-04 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Empagliflozin 10 mg daily, Ramipril 5 mg daily, Atorvastatin 20 mg nightly.
+    - 2025-06-24 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-02-21 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Furosemide 40 mg daily, Levothyroxine 75 µg daily, Ramipril 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Frederik Mikkelsen presents with hearing voices and increased suspiciousness.
-
-History of Present Illness:
-Frederik Mikkelsen reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
-
-Physical Examination:
-Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 158/65, HR 110 bpm.
-
-Diagnostics (Today):
-Active psychosis; rule out intoxication or medical cause.
-
-Assessment:
-Schizophrenia, acute exacerbation due to medication nonadherence.
+Present Illness:
+   - Ida Mikkelsen presents with fever, flank pain, and urinary symptoms.
+- History of Present Illness
+   - Ida Mikkelsen reports 1 days of dysuria, chills, and right-sided flank pain.
+- Physical Examination
+   - T 37.4 °C, costovertebral angle tenderness on right side. HR 67 bpm.
+- Diagnostics (Today)
+   - Urinalysis positive for nitrites; elevated CRP and WBC.
+- Assessment
+   - Acute pyelonephritis.
 
 Plan:
-- Restart antipsychotic (oral or depot).
-- Ensure safe environment; involve crisis team.
-- Assess capacity and consider inpatient admission if risk present.
+   - Start empiric antibiotic therapy.
+   - Hydration and pain control.
+   - Hospitalize if vomiting or sepsis.
+- Follow-up & Disposition
+   - Recheck in 10 days to confirm recovery.
 
 Patient Education & Safety Net:
-Discuss importance of medication adherence and early relapse signs with patient and relatives.
-
-Follow-up & Disposition:
-Close follow-up within 4 days or inpatient as required.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Sign-off:
 Dr. C. Mikkelsen, Endocrinology

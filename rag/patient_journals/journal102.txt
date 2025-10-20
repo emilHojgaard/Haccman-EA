@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 280952-0092
-Encounter Date - 2025-01-07
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Helle Jensen
+CPR-number - 170734-8069
+Encounter Date - 2023-10-23
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Maria Jensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (2007), Migraine (1986), Osteoporosis (1997).
-- Recent Lab Results (2024-12-16)
-    Hb 7.8 mmol/L
-    Ferritin 87 µg/L
-    CRP 7 mg/L
-    Creatinine 107 µmol/L
+- Past Diagnoses — Osteoarthritis (1982), Dyslipidemia (1980), Chronic lower back pain.
+- Recent Lab Results (2023-10-09)
+    Hb 7.0 mmol/L (low)
+    Ferritin 9 µg/L (low)
+    CRP 1 mg/L
+    Creatinine 62 µmol/L
 - Prior Consultations
-    - 2024-06-13 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-12-18 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Amlodipine 5 mg daily, Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day.
-- Allergies — ACE inhibitors (cough).
+    - 2023-08-17 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-08-24 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Pantoprazole 40 mg daily, Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day.
+- Allergies — None known.
 
-Chief Complaint:
-Helle Jensen presents with redness and swelling of the lower leg.
-
-History of Present Illness:
-Helle Jensen noticed redness and tenderness spreading over 3 days. No trauma reported.
-
-Physical Examination:
-Warm, erythematous area with indistinct margins, mild edema. T 37.0 °C.
-
-Diagnostics (Today):
-Clinical cellulitis; CBC and CRP elevated.
-
-Assessment:
-Bacterial cellulitis, likely streptococcal.
+Present Illness:
+   - Maria Jensen reports thirst, frequent urination, and blurred vision.
+- History of Present Illness
+   - Maria Jensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+- Physical Examination
+   - Vitals: BP 148/58 mmHg, HR 99 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+- Diagnostics (Today)
+   - Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+- Assessment
+   - Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Start empiric oral antibiotic covering streptococci.
-- Mark margin and monitor spread.
-- Elevate limb and manage pain.
+   - Reinforce medication schedule; consider adding or adjusting therapy per plan.
+   - Hydration guidance and sick-day rules; check for precipitating infection.
+   - Arrange diabetes education and home glucose monitoring review.
+- Follow-up & Disposition
+   - Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Patient Education & Safety Net:
-Explain signs of worsening infection and when to seek urgent review.
-
-Follow-up & Disposition:
-Review in 2 days to assess response.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. A. Thomsen, Emergency Medicine

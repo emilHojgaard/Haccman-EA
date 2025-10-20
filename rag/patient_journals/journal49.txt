@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 210248-1668
-Encounter Date - 2025-03-19
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Ida Larsen
+CPR-number - 060135-4841
+Encounter Date - 2024-01-24
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Søren Bang
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (2013), Iron Deficiency (1982), CKD (1983), Peptic ulcer disease (1997), Chronic lower back pain.
-- Recent Lab Results (2025-02-11)
-    Hb 7.5 mmol/L
-    Ferritin 26 µg/L
-    CRP 12 mg/L
-    Creatinine 82 µmol/L
+- Past Diagnoses — Irritable bowel syndrome (1990), Obesity (2000), Gallstones (1980), COPD (2000).
+- Recent Lab Results (2024-01-12)
+    Hb 6.7 mmol/L (low)
+    Ferritin 60 µg/L
+    CRP 18 mg/L
+    Creatinine 92 µmol/L
 - Prior Consultations
-    - 2024-07-31 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-12-27 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Furosemide 40 mg daily, Metformin 500 mg BID, Atorvastatin 20 mg nightly.
+    - 2023-11-11 — Routine check-up — stable BP, mild anemia noted.
+    - 2023-12-16 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Ramipril 5 mg daily, Furosemide 40 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Ida Larsen reports stress and low mood following a recent life event.
-
-History of Present Illness:
-Ida Larsen describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
-
-Physical Examination:
-Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 158/70).
-
-Diagnostics (Today):
-Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
-
-Assessment:
-Adjustment disorder with mixed anxiety and depressed mood.
+Present Illness:
+   - Søren Bang presents with joint stiffness and increased pain.
+- History of Present Illness
+   - Søren Bang notes worsening knee pain over 6 days, aggravated by activity. No trauma or systemic symptoms.
+- Physical Examination
+   - Mild joint effusion, bony tenderness, no warmth. BP 117/61.
+- Diagnostics (Today)
+   - No acute inflammation; radiographs show osteoarthritic changes.
+- Assessment
+   - Osteoarthritis flare-up.
 
 Plan:
-- Provide supportive counselling.
-- Encourage coping strategies and social support.
-- Short-term anxiolytic if severe insomnia or anxiety.
+   - Use acetaminophen or topical NSAID.
+   - Encourage physiotherapy and weight management.
+   - Avoid prolonged inactivity.
+- Follow-up & Disposition
+   - Reassess pain control in 8 weeks.
 
 Patient Education & Safety Net:
-Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
-
-Follow-up & Disposition:
-Follow-up in 5 weeks to reassess.
+Discuss chronic nature of OA and exercise importance.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. V. Laursen, Nephrology

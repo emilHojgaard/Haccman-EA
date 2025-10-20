@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 101178-4988
-Encounter Date - 2024-08-22
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Katrine Nielsen
+CPR-number - 231208-4026
+Encounter Date - 2024-01-25
+Author - Dr. R. Iversen, Neurology
+Patient Name - Emil Sørensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Atrial fibrillation (1984), Type 2 Diabetes (2014), Obesity (2003), CKD (1980), Chronic lower back pain.
-- Recent Lab Results (2024-07-06)
-    Hb 7.6 mmol/L
-    Ferritin 115 µg/L
+- Past Diagnoses — Iron Deficiency (2016), Psoriasis (2000), Chronic lower back pain.
+- Recent Lab Results (2024-01-22)
+    Hb 8.2 mmol/L
+    Ferritin 47 µg/L
     CRP 16 mg/L
-    Creatinine 93 µmol/L
+    Creatinine 89 µmol/L
 - Prior Consultations
-    - 2024-02-28 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-07-25 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Amlodipine 5 mg daily, Furosemide 40 mg daily, Pantoprazole 40 mg daily.
+    - 2023-04-09 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-01-09 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Bisoprolol 5 mg daily, Furosemide 40 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Katrine Nielsen reports worsening lower back pain.
-
-History of Present Illness:
-Katrine Nielsen has chronic back pain now intensified after lifting or prolonged sitting. No radicular symptoms or incontinence.
-
-Physical Examination:
-Paraspinal muscle tenderness, normal reflexes and strength. BP 148/92.
-
-Diagnostics (Today):
-Mechanical exacerbation of chronic low back pain.
-
-Assessment:
-Chronic low back pain, acute exacerbation.
+Present Illness:
+   - Emil Sørensen presents with fever, flank pain, and urinary symptoms.
+- History of Present Illness
+   - Emil Sørensen reports 2 days of dysuria, chills, and right-sided flank pain.
+- Physical Examination
+   - T 36.9 °C, costovertebral angle tenderness on right side. HR 90 bpm.
+- Diagnostics (Today)
+   - Urinalysis positive for nitrites; elevated CRP and WBC.
+- Assessment
+   - Acute pyelonephritis.
 
 Plan:
-- Encourage activity as tolerated.
-- Use heat therapy and simple analgesics.
-- Refer for physiotherapy if persistent.
+   - Start empiric antibiotic therapy.
+   - Hydration and pain control.
+   - Hospitalize if vomiting or sepsis.
+- Follow-up & Disposition
+   - Recheck in 7 days to confirm recovery.
 
 Patient Education & Safety Net:
-Discuss posture, core strengthening, and weight control.
-
-Follow-up & Disposition:
-Follow-up in 5 weeks.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. R. Iversen, Neurology

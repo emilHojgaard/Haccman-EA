@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 060495-6952
-Encounter Date - 2024-07-10
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Sanne Bæk
+CPR-number - 120246-8727
+Encounter Date - 2025-09-07
+Author - Dr. R. Iversen, Neurology
+Patient Name - Mette Lund
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (1992), Osteoarthritis (2022), Asthma (2020), Heart failure (HFpEF) (1981).
-- Recent Lab Results (2024-06-20)
-    Hb 7.4 mmol/L (low)
-    Ferritin 32 µg/L
-    CRP 18 mg/L
-    Creatinine 75 µmol/L
+- Past Diagnoses — Osteoporosis (2008), Depression (2015), Peptic ulcer disease (1984), Chronic lower back pain.
+- Recent Lab Results (2025-07-14)
+    Hb 7.0 mmol/L (low)
+    Ferritin 115 µg/L
+    CRP 14 mg/L
+    Creatinine 102 µmol/L
 - Prior Consultations
-    - 2024-05-27 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-06-13 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Bisoprolol 5 mg daily, Levothyroxine 75 µg daily.
-- Allergies — None known.
+    - 2025-08-12 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-04-24 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly, Bisoprolol 5 mg daily.
+- Allergies — NSAIDs (dyspepsia).
 
-Chief Complaint:
-Sanne Bæk presents with fever, flank pain, and urinary symptoms.
-
-History of Present Illness:
-Sanne Bæk reports 2 days of dysuria, chills, and right-sided flank pain.
-
-Physical Examination:
-T 36.6 °C, costovertebral angle tenderness on right side. HR 110 bpm.
-
-Diagnostics (Today):
-Urinalysis positive for nitrites; elevated CRP and WBC.
-
-Assessment:
-Acute pyelonephritis.
+Present Illness:
+   - Mette Lund reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+- History of Present Illness
+   - Mette Lund notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+- Physical Examination
+   - Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 161/77 mmHg, HR 86 bpm). Abdomen soft, non-tender.
+- Diagnostics (Today)
+   - Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+- Assessment
+   - Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Start empiric antibiotic therapy.
-- Hydration and pain control.
-- Hospitalize if vomiting or sepsis.
+   - Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+   - Review NSAID exposure and consider gastroprotection or alternatives.
+   - Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Follow-up & Disposition
+   - Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
 
 Patient Education & Safety Net:
-Advise early presentation for recurrence; complete full antibiotic course.
-
-Follow-up & Disposition:
-Recheck in 7 days to confirm recovery.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. R. Iversen, Neurology

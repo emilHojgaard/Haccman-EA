@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 230896-1051
-Encounter Date - 2024-10-07
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Maria Sørensen
+CPR-number - 080985-7783
+Encounter Date - 2024-06-09
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Morten Iversen
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFrEF) (1996), Obesity (2010), Depression (1992), Chronic lower back pain.
-- Recent Lab Results (2024-09-16)
-    Hb 7.5 mmol/L
-    Ferritin 86 µg/L
-    CRP 15 mg/L
-    Creatinine 92 µmol/L
+- Past Diagnoses — Gout (1992), Hypertension (2004), Atrial fibrillation (1997).
+- Recent Lab Results (2024-04-12)
+    Hb 7.6 mmol/L
+    Ferritin 114 µg/L
+    CRP 3 mg/L
+    Creatinine 65 µmol/L
 - Prior Consultations
-    - 2024-10-02 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-10-02 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Ramipril 5 mg daily, Levothyroxine 75 µg daily.
+    - 2023-12-06 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-09-10 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Ramipril 5 mg daily, Lisinopril 10 mg daily, Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
-Chief Complaint:
-Maria Sørensen reports dysuria, frequency, and suprapubic discomfort.
-
-History of Present Illness:
-Maria Sørensen developed burning on urination for 4 days. No flank pain or fever.
-
-Physical Examination:
-Afebrile (37.6 °C), suprapubic tenderness. No costovertebral angle tenderness.
-
-Diagnostics (Today):
-Urinalysis positive for nitrites and leukocytes.
-
-Assessment:
-Uncomplicated lower urinary tract infection.
+Present Illness:
+   - Morten Iversen reports recurrent episodes of sudden intense fear and palpitations.
+- History of Present Illness
+   - Morten Iversen describes abrupt attacks of shortness of breath, chest tightness, and fear of dying lasting 15 minutes. Between attacks, anticipatory anxiety persists.
+- Physical Examination
+   - During visit, mildly anxious, HR 96 bpm, BP 109/75. ECG normal.
+- Diagnostics (Today)
+   - Recurrent panic attacks without underlying cardiac or endocrine cause.
+- Assessment
+   - Panic disorder.
 
 Plan:
-- Start short course of oral antibiotic per protocol.
-- Encourage fluid intake.
-- Review symptoms resolution.
+   - Provide CBT focused on panic management.
+   - Consider SSRI for long-term control.
+   - Educate on breathing and relaxation techniques.
+- Follow-up & Disposition
+   - Follow-up in 4 weeks for progress evaluation.
 
 Patient Education & Safety Net:
-Advise to complete antibiotics and monitor for fever or flank pain.
-
-Follow-up & Disposition:
-Follow-up if symptoms persist beyond 3 days.
+Explain physiological basis of panic and avoidance behaviors. Encourage gradual exposure to feared situations.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. H. Sørensen, Internal Medicine

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 111200-3174
-Encounter Date - 2023-10-05
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Sofia Sørensen
+CPR-number - 061179-2210
+Encounter Date - 2024-12-12
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Brian Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (2012), Heart failure (HFpEF) (1998), Irritable bowel syndrome (2007), Chronic lower back pain.
-- Recent Lab Results (2023-09-29)
-    Hb 6.7 mmol/L (low)
-    Ferritin 132 µg/L
-    CRP 16 mg/L
-    Creatinine 79 µmol/L
+- Past Diagnoses — GERD (2014), Migraine (1998), Anxiety (2019), Peptic ulcer disease (2023).
+- Recent Lab Results (2024-10-14)
+    Hb 7.2 mmol/L (low)
+    Ferritin 59 µg/L
+    CRP 3 mg/L
+    Creatinine 56 µmol/L
 - Prior Consultations
-    - 2023-06-18 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-08-04 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Levothyroxine 75 µg daily, Ferrous sulfate 100 mg every other day.
+    - 2024-03-24 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-12-07 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Pantoprazole 40 mg daily, Bisoprolol 5 mg daily, Levothyroxine 75 µg daily, Ramipril 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Sofia Sørensen presents with joint stiffness and increased pain.
-
-History of Present Illness:
-Sofia Sørensen notes worsening knee pain over 12 days, aggravated by activity. No trauma or systemic symptoms.
-
-Physical Examination:
-Mild joint effusion, bony tenderness, no warmth. BP 149/97.
-
-Diagnostics (Today):
-No acute inflammation; radiographs show osteoarthritic changes.
-
-Assessment:
-Osteoarthritis flare-up.
+Present Illness:
+   - Brian Skov presents with hearing voices and increased suspiciousness.
+- History of Present Illness
+   - Brian Skov reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
+- Physical Examination
+   - Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 150/81, HR 112 bpm.
+- Diagnostics (Today)
+   - Active psychosis; rule out intoxication or medical cause.
+- Assessment
+   - Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- Use acetaminophen or topical NSAID.
-- Encourage physiotherapy and weight management.
-- Avoid prolonged inactivity.
+   - Restart antipsychotic (oral or depot).
+   - Ensure safe environment; involve crisis team.
+   - Assess capacity and consider inpatient admission if risk present.
+- Follow-up & Disposition
+   - Close follow-up within 7 days or inpatient as required.
 
 Patient Education & Safety Net:
-Discuss chronic nature of OA and exercise importance.
-
-Follow-up & Disposition:
-Reassess pain control in 7 weeks.
+Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. E. Dam, Rheumatology

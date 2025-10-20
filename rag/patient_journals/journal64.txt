@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 110458-4934
-Encounter Date - 2023-06-25
-Author - Dr. S. Gram, Hematology
-Patient Name - Maja Andersen
+CPR-number - 160370-7156
+Encounter Date - 2024-11-14
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Maria Pedersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (2010), Osteoarthritis (2017), Migraine (2008), Peptic ulcer disease (2007), Chronic lower back pain.
-- Recent Lab Results (2023-06-21)
-    Hb 8.3 mmol/L
-    Ferritin 71 µg/L
-    CRP 18 mg/L
-    Creatinine 57 µmol/L
+- Past Diagnoses — Migraine (2017), Iron Deficiency (2016), Psoriasis (1998), Heart failure (HFpEF) (2013), Chronic lower back pain.
+- Recent Lab Results (2024-09-04)
+    Hb 6.6 mmol/L (low)
+    Ferritin 128 µg/L
+    CRP 19 mg/L
+    Creatinine 64 µmol/L
 - Prior Consultations
-    - 2023-06-11 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2023-06-18 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Ferrous sulfate 100 mg every other day, Pantoprazole 40 mg daily.
-- Allergies — None known.
+    - 2024-09-08 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-11-01 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Levothyroxine 75 µg daily, Lisinopril 10 mg daily.
+- Allergies — Penicillin (rash).
 
-Chief Complaint:
-Maja Andersen presents with redness and swelling of the lower leg.
-
-History of Present Illness:
-Maja Andersen noticed redness and tenderness spreading over 1 days. No trauma reported.
-
-Physical Examination:
-Warm, erythematous area with indistinct margins, mild edema. T 36.7 °C.
-
-Diagnostics (Today):
-Clinical cellulitis; CBC and CRP elevated.
-
-Assessment:
-Bacterial cellulitis, likely streptococcal.
+Present Illness:
+   - Maria Pedersen presents for follow-up with persistently elevated blood pressure readings.
+- History of Present Illness
+   - Maria Pedersen notes occasional headaches and dizziness. Adherence to medication inconsistent; diet high in salt.
+- Physical Examination
+   - BP 154/84 mmHg, HR 71 bpm, no edema, no murmurs.
+- Diagnostics (Today)
+   - Office BP elevated; renal function and electrolytes ordered.
+- Assessment
+   - Essential hypertension, suboptimally controlled.
 
 Plan:
-- Start empiric oral antibiotic covering streptococci.
-- Mark margin and monitor spread.
-- Elevate limb and manage pain.
+   - Reinforce lifestyle modification (salt restriction, exercise).
+   - Increase or add antihypertensive therapy.
+   - Monitor home BP readings.
+- Follow-up & Disposition
+   - Review in 4 weeks with BP log.
 
 Patient Education & Safety Net:
-Explain signs of worsening infection and when to seek urgent review.
-
-Follow-up & Disposition:
-Review in 3 days to assess response.
+Explain importance of adherence and cardiovascular risk reduction.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. T. Bæk, Infectious Diseases

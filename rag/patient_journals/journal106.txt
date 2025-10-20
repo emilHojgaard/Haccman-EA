@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 100945-8775
-Encounter Date - 2023-12-23
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Peter Johansen
+CPR-number - 221150-6685
+Encounter Date - 2024-11-05
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Anja Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — GERD (2008), Migraine (2021), Atrial fibrillation (2015), Obesity (2001).
-- Recent Lab Results (2023-11-24)
-    Hb 8.0 mmol/L
-    Ferritin 21 µg/L
-    CRP 4 mg/L
-    Creatinine 73 µmol/L
+- Past Diagnoses — CKD (1999), GERD (2018), COPD (1995), Chronic lower back pain.
+- Recent Lab Results (2024-09-28)
+    Hb 7.7 mmol/L
+    Ferritin 64 µg/L
+    CRP 7 mg/L
+    Creatinine 88 µmol/L
 - Prior Consultations
-    - 2023-07-07 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-11-10 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Empagliflozin 10 mg daily, Ramipril 5 mg daily.
+    - 2024-08-04 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-06-07 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Bisoprolol 5 mg daily, Pantoprazole 40 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Peter Johansen reports thirst, frequent urination, and blurred vision.
-
-History of Present Illness:
-Peter Johansen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
-
-Physical Examination:
-Vitals: BP 120/61 mmHg, HR 95 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
-
-Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
-
-Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Present Illness:
+   - Anja Skov presents with redness and swelling of the lower leg.
+- History of Present Illness
+   - Anja Skov noticed redness and tenderness spreading over 3 days. No trauma reported.
+- Physical Examination
+   - Warm, erythematous area with indistinct margins, mild edema. T 37.7 °C.
+- Diagnostics (Today)
+   - Clinical cellulitis; CBC and CRP elevated.
+- Assessment
+   - Bacterial cellulitis, likely streptococcal.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+   - Start empiric oral antibiotic covering streptococci.
+   - Mark margin and monitor spread.
+   - Elevate limb and manage pain.
+- Follow-up & Disposition
+   - Review in 2 days to assess response.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
-
-Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Explain signs of worsening infection and when to seek urgent review.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. C. Mikkelsen, Endocrinology

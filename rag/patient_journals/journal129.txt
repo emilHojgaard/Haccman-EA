@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 230749-8524
-Encounter Date - 2024-02-12
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Kirsten Bæk
+CPR-number - 120373-8585
+Encounter Date - 2024-02-22
+Author - Dr. O. Bjørk, Urology
+Patient Name - Jonas Sørensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Dyslipidemia (1998), Hypertension (2022), Atrial fibrillation (2005).
-- Recent Lab Results (2024-01-27)
-    Hb 7.4 mmol/L (low)
-    Ferritin 70 µg/L
-    CRP 6 mg/L
-    Creatinine 108 µmol/L
+- Past Diagnoses — Migraine (1988), Iron Deficiency (2017), Heart failure (HFpEF) (2006), GERD (2020), Chronic lower back pain.
+- Recent Lab Results (2024-02-11)
+    Hb 7.5 mmol/L
+    Ferritin 56 µg/L
+    CRP 23 mg/L
+    Creatinine 61 µmol/L
 - Prior Consultations
-    - 2023-12-26 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-09-09 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Metformin 500 mg BID, Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly.
+    - 2024-02-08 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-10-16 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Ramipril 5 mg daily, Bisoprolol 5 mg daily, Furosemide 40 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Kirsten Bæk reports epigastric pain and indigestion.
-
-History of Present Illness:
-Kirsten Bæk has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
-
-Physical Examination:
-Epigastric tenderness, no guarding. Vitals: BP 162/65, HR 74.
-
-Diagnostics (Today):
-Suspected gastritis/ulcer; H. pylori test ordered.
-
-Assessment:
-Peptic ulcer disease, likely NSAID-related.
+Present Illness:
+   - Jonas Sørensen reports sudden onset of joint pain and swelling.
+- History of Present Illness
+   - Jonas Sørensen developed severe pain in the first MTP joint overnight, with redness and swelling. No trauma or fever.
+- Physical Examination
+   - Erythematous, tender MTP joint. Vitals: BP 163/67, HR 96.
+- Diagnostics (Today)
+   - Serum uric acid elevated; joint aspirate with monosodium urate crystals.
+- Assessment
+   - Acute gout attack.
 
 Plan:
-- Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
-- If positive, treat H. pylori.
-- Advise small, frequent meals and limit alcohol/caffeine.
+   - Start NSAID or colchicine (if renal function allows).
+   - Elevate limb and apply ice packs.
+   - Review long-term urate-lowering therapy adherence.
+- Follow-up & Disposition
+   - Follow-up in 3 days to monitor improvement.
 
 Patient Education & Safety Net:
-Explain risk factors and warning signs of bleeding.
-
-Follow-up & Disposition:
-Reassess in 6 weeks; consider endoscopy if persistent.
+Avoid alcohol and purine-rich foods; maintain hydration.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. O. Bjørk, Urology

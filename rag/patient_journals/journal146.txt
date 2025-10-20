@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 060702-3815
-Encounter Date - 2023-06-24
+CPR-number - 160556-3153
+Encounter Date - 2023-08-01
 Author - Dr. J. Knudsen, ENT
-Patient Name - Peter Knudsen
+Patient Name - Emil Østergaard
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFpEF) (2019), Iron Deficiency (1998).
-- Recent Lab Results (2023-04-28)
-    Hb 7.5 mmol/L
-    Ferritin 57 µg/L
-    CRP 1 mg/L
-    Creatinine 79 µmol/L
+- Past Diagnoses — Migraine (2012), Gout (1993), Chronic lower back pain.
+- Recent Lab Results (2023-07-20)
+    Hb 7.2 mmol/L (low)
+    Ferritin 25 µg/L
+    CRP 16 mg/L
+    Creatinine 96 µmol/L
 - Prior Consultations
-    - 2023-05-21 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-02-11 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Levothyroxine 75 µg daily, Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2023-06-22 — Routine check-up — stable BP, mild anemia noted.
+    - 2022-10-16 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Ramipril 5 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Peter Knudsen reports nightmares, flashbacks, and hypervigilance.
-
-History of Present Illness:
-Peter Knudsen experienced a traumatic event 3 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
-
-Physical Examination:
-Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 117/58, HR 88 bpm.
-
-Diagnostics (Today):
-Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
-
-Assessment:
-Post-traumatic stress disorder.
+Present Illness:
+   - Emil Østergaard reports sudden onset of joint pain and swelling.
+- History of Present Illness
+   - Emil Østergaard developed severe pain in the first MTP joint overnight, with redness and swelling. No trauma or fever.
+- Physical Examination
+   - Erythematous, tender MTP joint. Vitals: BP 116/81, HR 116.
+- Diagnostics (Today)
+   - Serum uric acid elevated; joint aspirate with monosodium urate crystals.
+- Assessment
+   - Acute gout attack.
 
 Plan:
-- Refer for trauma-focused CBT or EMDR.
-- Avoid routine benzodiazepine use.
-- Consider SSRI if comorbid depression or anxiety.
+   - Start NSAID or colchicine (if renal function allows).
+   - Elevate limb and apply ice packs.
+   - Review long-term urate-lowering therapy adherence.
+- Follow-up & Disposition
+   - Follow-up in 5 days to monitor improvement.
 
 Patient Education & Safety Net:
-Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
-
-Follow-up & Disposition:
-Follow-up in 3 weeks to review therapy engagement.
+Avoid alcohol and purine-rich foods; maintain hydration.
 
 Sign-off:
 Dr. J. Knudsen, ENT

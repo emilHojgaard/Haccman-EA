@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 260684-5428
-Encounter Date - 2023-03-07
-Author - Dr. J. Knudsen, ENT
-Patient Name - Ida Olsen
+CPR-number - 280603-6653
+Encounter Date - 2025-03-09
+Author - Dr. R. Iversen, Neurology
+Patient Name - Rasmus Østergaard
 
 Medical History & Prior Results:
-- Past Diagnoses — Gallstones (1990), Osteoporosis (2001), Dyslipidemia (1983).
-- Recent Lab Results (2023-03-04)
+- Past Diagnoses — Psoriasis (1983), Anxiety (1983), Dyslipidemia (2024), Chronic lower back pain.
+- Recent Lab Results (2025-02-06)
     Hb 7.6 mmol/L
-    Ferritin 20 µg/L
-    CRP 16 mg/L
-    Creatinine 73 µmol/L
+    Ferritin 114 µg/L
+    CRP 1 mg/L
+    Creatinine 98 µmol/L
 - Prior Consultations
-    - 2022-12-22 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2023-01-16 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ramipril 5 mg daily, Metformin 500 mg BID, Atorvastatin 20 mg nightly.
+    - 2025-01-27 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-01-19 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Atorvastatin 20 mg nightly, Levothyroxine 75 µg daily, Amlodipine 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Ida Olsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
-
-History of Present Illness:
-Ida Olsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
-
-Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 158/82 mmHg, HR 63 bpm). Abdomen soft, non-tender.
-
-Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
-
-Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Present Illness:
+   - Rasmus Østergaard presents with fever, flank pain, and urinary symptoms.
+- History of Present Illness
+   - Rasmus Østergaard reports 3 days of dysuria, chills, and right-sided flank pain.
+- Physical Examination
+   - T 37.9 °C, costovertebral angle tenderness on right side. HR 104 bpm.
+- Diagnostics (Today)
+   - Urinalysis positive for nitrites; elevated CRP and WBC.
+- Assessment
+   - Acute pyelonephritis.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+   - Start empiric antibiotic therapy.
+   - Hydration and pain control.
+   - Hospitalize if vomiting or sepsis.
+- Follow-up & Disposition
+   - Recheck in 8 days to confirm recovery.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
-
-Follow-up & Disposition:
-Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. R. Iversen, Neurology

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 230331-1836
-Encounter Date - 2024-06-04
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Thomas Hansen
+CPR-number - 020570-7343
+Encounter Date - 2025-09-03
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Jonas Hansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFpEF) (2023), COPD (2012), Chronic lower back pain.
-- Recent Lab Results (2024-05-07)
-    Hb 7.9 mmol/L
-    Ferritin 15 µg/L
-    CRP 9 mg/L
-    Creatinine 86 µmol/L
+- Past Diagnoses — Hypothyroidism (2000), Obesity (2019), Osteoporosis (2011), CKD (1998), Chronic lower back pain.
+- Recent Lab Results (2025-07-10)
+    Hb 6.5 mmol/L (low)
+    Ferritin 34 µg/L
+    CRP 25 mg/L
+    Creatinine 65 µmol/L
 - Prior Consultations
-    - 2024-05-30 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-05-17 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Pantoprazole 40 mg daily, Levothyroxine 75 µg daily, Atorvastatin 20 mg nightly.
+    - 2025-02-08 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2025-08-01 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Metformin 500 mg BID, Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
-Chief Complaint:
-Thomas Hansen reports stress and low mood following a recent life event.
-
-History of Present Illness:
-Thomas Hansen describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
-
-Physical Examination:
-Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 112/65).
-
-Diagnostics (Today):
-Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
-
-Assessment:
-Adjustment disorder with mixed anxiety and depressed mood.
+Present Illness:
+   - Jonas Hansen reports worsening lower back pain.
+- History of Present Illness
+   - Jonas Hansen has chronic back pain now intensified after lifting or prolonged sitting. No radicular symptoms or incontinence.
+- Physical Examination
+   - Paraspinal muscle tenderness, normal reflexes and strength. BP 131/96.
+- Diagnostics (Today)
+   - Mechanical exacerbation of chronic low back pain.
+- Assessment
+   - Chronic low back pain, acute exacerbation.
 
 Plan:
-- Provide supportive counselling.
-- Encourage coping strategies and social support.
-- Short-term anxiolytic if severe insomnia or anxiety.
+   - Encourage activity as tolerated.
+   - Use heat therapy and simple analgesics.
+   - Refer for physiotherapy if persistent.
+- Follow-up & Disposition
+   - Follow-up in 5 weeks.
 
 Patient Education & Safety Net:
-Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
-
-Follow-up & Disposition:
-Follow-up in 4 weeks to reassess.
+Discuss posture, core strengthening, and weight control.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. E. Dam, Rheumatology

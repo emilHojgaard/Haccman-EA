@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 281252-4017
-Encounter Date - 2024-05-25
-Author - Dr. J. Knudsen, ENT
-Patient Name - Mette Petersen
+CPR-number - 150354-2658
+Encounter Date - 2024-10-15
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Mette Sørensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Iron Deficiency (1991), CKD (1998), Chronic lower back pain.
-- Recent Lab Results (2024-05-05)
-    Hb 7.2 mmol/L (low)
-    Ferritin 126 µg/L
-    CRP 24 mg/L
-    Creatinine 56 µmol/L
+- Past Diagnoses — Migraine (1998), Gout (1987), Asthma (2016), Chronic lower back pain.
+- Recent Lab Results (2024-08-30)
+    Hb 6.7 mmol/L (low)
+    Ferritin 150 µg/L
+    CRP 4 mg/L
+    Creatinine 83 µmol/L
 - Prior Consultations
-    - 2024-02-08 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-03-06 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Bisoprolol 5 mg daily, Levothyroxine 75 µg daily.
+    - 2024-09-08 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-08-09 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Empagliflozin 10 mg daily, Ramipril 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Mette Petersen complains of increased cough, sputum, and breathlessness.
-
-History of Present Illness:
-Mette Petersen reports 5 days of worsening cough with purulent sputum and wheeze. No fever or chest pain.
-
-Physical Examination:
-RR 24/min, SpO₂ 100%. Wheezes and prolonged expiration on auscultation.
-
-Diagnostics (Today):
-Likely infective COPD exacerbation; sputum culture if severe.
-
-Assessment:
-COPD exacerbation, mild to moderate.
+Present Illness:
+   - Mette Sørensen presents with joint stiffness and increased pain.
+- History of Present Illness
+   - Mette Sørensen notes worsening knee pain over 9 days, aggravated by activity. No trauma or systemic symptoms.
+- Physical Examination
+   - Mild joint effusion, bony tenderness, no warmth. BP 109/58.
+- Diagnostics (Today)
+   - No acute inflammation; radiographs show osteoarthritic changes.
+- Assessment
+   - Osteoarthritis flare-up.
 
 Plan:
-- Increase bronchodilator frequency.
-- Start oral corticosteroid and consider antibiotic if purulent.
-- Ensure inhaler technique and smoking cessation advice.
+   - Use acetaminophen or topical NSAID.
+   - Encourage physiotherapy and weight management.
+   - Avoid prolonged inactivity.
+- Follow-up & Disposition
+   - Reassess pain control in 8 weeks.
 
 Patient Education & Safety Net:
-Discuss exacerbation action plan and vaccination importance.
-
-Follow-up & Disposition:
-Review in 4 weeks post-treatment.
+Discuss chronic nature of OA and exercise importance.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. E. Dam, Rheumatology

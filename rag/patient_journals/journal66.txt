@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 140646-5143
-Encounter Date - 2025-08-12
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Magnus Lund
+CPR-number - 060365-1536
+Encounter Date - 2024-10-08
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Lars Christensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypothyroidism (2020), Atrial fibrillation (1998).
-- Recent Lab Results (2025-06-12)
-    Hb 7.5 mmol/L
-    Ferritin 107 µg/L
-    CRP 21 mg/L
-    Creatinine 91 µmol/L
+- Past Diagnoses — Gallstones (2020), Peptic ulcer disease (2019).
+- Recent Lab Results (2024-08-31)
+    Hb 7.7 mmol/L
+    Ferritin 25 µg/L
+    CRP 10 mg/L
+    Creatinine 67 µmol/L
 - Prior Consultations
-    - 2025-02-19 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2025-08-02 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Furosemide 40 mg daily, Ramipril 5 mg daily.
+    - 2024-02-21 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-09-11 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Metformin 500 mg BID, Amlodipine 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Magnus Lund presents with throbbing unilateral headache and nausea.
-
-History of Present Illness:
-Magnus Lund reports recurrent headaches lasting 21 hours, aggravated by light and noise. No focal neurological deficits.
-
-Physical Examination:
-Normal neuro exam. BP 108/63, HR 113.
-
-Diagnostics (Today):
-Clinical diagnosis of migraine; exclude secondary causes if atypical.
-
-Assessment:
-Migraine without aura.
+Present Illness:
+   - Lars Christensen presents with throbbing unilateral headache and nausea.
+- History of Present Illness
+   - Lars Christensen reports recurrent headaches lasting 8 hours, aggravated by light and noise. No focal neurological deficits.
+- Physical Examination
+   - Normal neuro exam. BP 128/63, HR 117.
+- Diagnostics (Today)
+   - Clinical diagnosis of migraine; exclude secondary causes if atypical.
+- Assessment
+   - Migraine without aura.
 
 Plan:
-- Administer triptan and antiemetic as needed.
-- Avoid triggers, maintain hydration and regular sleep.
-- Consider prophylactic therapy if frequent attacks.
+   - Administer triptan and antiemetic as needed.
+   - Avoid triggers, maintain hydration and regular sleep.
+   - Consider prophylactic therapy if frequent attacks.
+- Follow-up & Disposition
+   - Follow-up in 6 weeks for frequency reassessment.
 
 Patient Education & Safety Net:
 Discuss trigger identification and medication overuse prevention.
 
-Follow-up & Disposition:
-Follow-up in 8 weeks for frequency reassessment.
-
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. S. Nielsen, Pulmonology

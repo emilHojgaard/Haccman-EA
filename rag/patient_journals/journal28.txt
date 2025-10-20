@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 030980-8463
-Encounter Date - 2025-08-04
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Brian Dam
+CPR-number - 180782-4510
+Encounter Date - 2024-10-16
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Anja Sørensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Migraine (2001), Gallstones (1984).
-- Recent Lab Results (2025-06-14)
-    Hb 6.7 mmol/L (low)
-    Ferritin 71 µg/L
-    CRP 6 mg/L
-    Creatinine 80 µmol/L
+- Past Diagnoses — Migraine (1990), Irritable bowel syndrome (1980), GERD (1982).
+- Recent Lab Results (2024-09-06)
+    Hb 6.6 mmol/L (low)
+    Ferritin 25 µg/L
+    CRP 8 mg/L
+    Creatinine 63 µmol/L
 - Prior Consultations
-    - 2025-03-05 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2025-05-25 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Bisoprolol 5 mg daily, Lisinopril 10 mg daily, Metformin 500 mg BID.
-- Allergies — NSAIDs (dyspepsia).
+    - 2024-03-17 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-07-19 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Ferrous sulfate 100 mg every other day, Furosemide 40 mg daily.
+- Allergies — None known.
 
-Chief Complaint:
-Brian Dam complains of increased cough, sputum, and breathlessness.
-
-History of Present Illness:
-Brian Dam reports 3 days of worsening cough with purulent sputum and wheeze. No fever or chest pain.
-
-Physical Examination:
-RR 17/min, SpO₂ 92%. Wheezes and prolonged expiration on auscultation.
-
-Diagnostics (Today):
-Likely infective COPD exacerbation; sputum culture if severe.
-
-Assessment:
-COPD exacerbation, mild to moderate.
+Present Illness:
+   - Anja Sørensen reports sore throat, cough, and mild fever.
+- History of Present Illness
+   - Anja Sørensen developed nasal congestion and cough 3 days ago. No dyspnea or chest pain.
+- Physical Examination
+   - T 37.0 °C, mild pharyngeal erythema, lungs clear.
+- Diagnostics (Today)
+   - Clinical diagnosis of viral upper respiratory tract infection.
+- Assessment
+   - Viral URI.
 
 Plan:
-- Increase bronchodilator frequency.
-- Start oral corticosteroid and consider antibiotic if purulent.
-- Ensure inhaler technique and smoking cessation advice.
+   - Supportive care: rest, fluids, paracetamol for fever.
+   - Avoid unnecessary antibiotics.
+   - Educate on hygiene and infection control.
+- Follow-up & Disposition
+   - Follow-up only if symptoms persist beyond 10 days.
 
 Patient Education & Safety Net:
-Discuss exacerbation action plan and vaccination importance.
-
-Follow-up & Disposition:
-Review in 4 weeks post-treatment.
+Reassure benign course; return if high fever or worsening.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. T. Bæk, Infectious Diseases

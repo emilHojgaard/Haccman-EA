@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 011007-5434
-Encounter Date - 2025-08-24
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Anders Gram
+CPR-number - 160273-4955
+Encounter Date - 2023-05-12
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Sanne Andersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypothyroidism (2015), Gallstones (1992).
-- Recent Lab Results (2025-08-15)
-    Hb 8.5 mmol/L
-    Ferritin 32 µg/L
-    CRP 3 mg/L
-    Creatinine 90 µmol/L
+- Past Diagnoses — Type 2 Diabetes (2007), Irritable bowel syndrome (1982), Osteoarthritis (2015), Asthma (2020).
+- Recent Lab Results (2023-05-01)
+    Hb 6.9 mmol/L (low)
+    Ferritin 65 µg/L
+    CRP 21 mg/L
+    Creatinine 82 µmol/L
 - Prior Consultations
-    - 2025-08-22 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2025-02-13 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Pantoprazole 40 mg daily, Lisinopril 10 mg daily, Bisoprolol 5 mg daily, Amlodipine 5 mg daily.
-- Allergies — ACE inhibitors (cough).
+    - 2022-11-11 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2022-07-11 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Pantoprazole 40 mg daily, Lisinopril 10 mg daily, Atorvastatin 20 mg nightly, Amlodipine 5 mg daily.
+- Allergies — None known.
 
-Chief Complaint:
-Anders Gram presents with hearing voices and increased suspiciousness.
-
-History of Present Illness:
-Anders Gram reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
-
-Physical Examination:
-Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 161/68, HR 93 bpm.
-
-Diagnostics (Today):
-Active psychosis; rule out intoxication or medical cause.
-
-Assessment:
-Schizophrenia, acute exacerbation due to medication nonadherence.
+Present Illness:
+   - Sanne Andersen presents with joint stiffness and increased pain.
+- History of Present Illness
+   - Sanne Andersen notes worsening knee pain over 9 days, aggravated by activity. No trauma or systemic symptoms.
+- Physical Examination
+   - Mild joint effusion, bony tenderness, no warmth. BP 161/86.
+- Diagnostics (Today)
+   - No acute inflammation; radiographs show osteoarthritic changes.
+- Assessment
+   - Osteoarthritis flare-up.
 
 Plan:
-- Restart antipsychotic (oral or depot).
-- Ensure safe environment; involve crisis team.
-- Assess capacity and consider inpatient admission if risk present.
+   - Use acetaminophen or topical NSAID.
+   - Encourage physiotherapy and weight management.
+   - Avoid prolonged inactivity.
+- Follow-up & Disposition
+   - Reassess pain control in 6 weeks.
 
 Patient Education & Safety Net:
-Discuss importance of medication adherence and early relapse signs with patient and relatives.
-
-Follow-up & Disposition:
-Close follow-up within 7 days or inpatient as required.
+Discuss chronic nature of OA and exercise importance.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. S. Nielsen, Pulmonology

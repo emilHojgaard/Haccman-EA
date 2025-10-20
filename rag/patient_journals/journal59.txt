@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 201094-1061
-Encounter Date - 2024-05-22
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Emil Mikkelsen
+CPR-number - 211200-4218
+Encounter Date - 2023-12-05
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Sebastian Hansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Iron Deficiency (1996), GERD (1981), Psoriasis (2003).
-- Recent Lab Results (2024-04-25)
-    Hb 8.3 mmol/L
-    Ferritin 68 µg/L
-    CRP 20 mg/L
-    Creatinine 57 µmol/L
+- Past Diagnoses — Peptic ulcer disease (2007), Irritable bowel syndrome (2016), Osteoporosis (1980), Chronic lower back pain.
+- Recent Lab Results (2023-11-13)
+    Hb 7.4 mmol/L (low)
+    Ferritin 32 µg/L
+    CRP 10 mg/L
+    Creatinine 62 µmol/L
 - Prior Consultations
-    - 2024-02-23 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-12-01 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Pantoprazole 40 mg daily, Atorvastatin 20 mg nightly.
+    - 2023-05-26 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2023-08-17 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Pantoprazole 40 mg daily, Ferrous sulfate 100 mg every other day, Furosemide 40 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Emil Mikkelsen reports persistent sadness, fatigue, and loss of interest in usual activities.
-
-History of Present Illness:
-Emil Mikkelsen has felt low for the past 8 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
-
-Physical Examination:
-Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 161/88, HR 61).
-
-Diagnostics (Today):
-Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
-
-Assessment:
-Major depressive episode, moderate severity.
+Present Illness:
+   - Sebastian Hansen complains of increased cough, sputum, and breathlessness.
+- History of Present Illness
+   - Sebastian Hansen reports 4 days of worsening cough with purulent sputum and wheeze. No fever or chest pain.
+- Physical Examination
+   - RR 25/min, SpO₂ 96%. Wheezes and prolonged expiration on auscultation.
+- Diagnostics (Today)
+   - Likely infective COPD exacerbation; sputum culture if severe.
+- Assessment
+   - COPD exacerbation, mild to moderate.
 
 Plan:
-- Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
-- Encourage structured daily routine and gradual activity.
-- Refer for psychotherapy or CBT.
+   - Increase bronchodilator frequency.
+   - Start oral corticosteroid and consider antibiotic if purulent.
+   - Ensure inhaler technique and smoking cessation advice.
+- Follow-up & Disposition
+   - Review in 2 weeks post-treatment.
 
 Patient Education & Safety Net:
-Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
-
-Follow-up & Disposition:
-Follow-up in 3 weeks to assess mood and adherence.
+Discuss exacerbation action plan and vaccination importance.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. S. Nielsen, Pulmonology

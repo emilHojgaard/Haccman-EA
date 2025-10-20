@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 130751-3222
-Encounter Date - 2023-04-12
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Sanne Madsen
+CPR-number - 060163-0858
+Encounter Date - 2024-02-19
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Søren Rasmussen
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (1984), Osteoporosis (2014), Type 2 Diabetes (1991), Hypertension (2021), Chronic lower back pain.
-- Recent Lab Results (2023-03-23)
-    Hb 6.9 mmol/L (low)
-    Ferritin 13 µg/L (low)
-    CRP 24 mg/L
+- Past Diagnoses — Gout (2020), Osteoporosis (1998), Peptic ulcer disease (1991), Atrial fibrillation (1988).
+- Recent Lab Results (2024-02-03)
+    Hb 8.3 mmol/L
+    Ferritin 45 µg/L
+    CRP 13 mg/L
     Creatinine 75 µmol/L
 - Prior Consultations
-    - 2022-09-13 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-01-30 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Amlodipine 5 mg daily, Ramipril 5 mg daily, Empagliflozin 10 mg daily, Bisoprolol 5 mg daily.
+    - 2023-09-30 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-07-31 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Furosemide 40 mg daily, Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
-Chief Complaint:
-Sanne Madsen reports sore throat, cough, and mild fever.
-
-History of Present Illness:
-Sanne Madsen developed nasal congestion and cough 4 days ago. No dyspnea or chest pain.
-
-Physical Examination:
-T 37.4 °C, mild pharyngeal erythema, lungs clear.
-
-Diagnostics (Today):
-Clinical diagnosis of viral upper respiratory tract infection.
-
-Assessment:
-Viral URI.
+Present Illness:
+   - Søren Rasmussen reports persistent sadness, fatigue, and loss of interest in usual activities.
+- History of Present Illness
+   - Søren Rasmussen has felt low for the past 3 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
+- Physical Examination
+   - Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 116/87, HR 85).
+- Diagnostics (Today)
+   - Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
+- Assessment
+   - Major depressive episode, moderate severity.
 
 Plan:
-- Supportive care: rest, fluids, paracetamol for fever.
-- Avoid unnecessary antibiotics.
-- Educate on hygiene and infection control.
+   - Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
+   - Encourage structured daily routine and gradual activity.
+   - Refer for psychotherapy or CBT.
+- Follow-up & Disposition
+   - Follow-up in 2 weeks to assess mood and adherence.
 
 Patient Education & Safety Net:
-Reassure benign course; return if high fever or worsening.
-
-Follow-up & Disposition:
-Follow-up only if symptoms persist beyond 7 days.
+Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. V. Laursen, Nephrology

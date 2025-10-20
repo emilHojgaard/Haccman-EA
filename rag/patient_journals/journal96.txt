@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 200650-3906
-Encounter Date - 2024-11-17
-Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Søren Mortensen
+CPR-number - 170497-8416
+Encounter Date - 2023-11-26
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Lars Laursen
 
 Medical History & Prior Results:
-- Past Diagnoses — Depression (2009), Asthma (2007), GERD (2005), Peptic ulcer disease (1999).
-- Recent Lab Results (2024-10-24)
-    Hb 8.3 mmol/L
-    Ferritin 69 µg/L
-    CRP 8 mg/L
-    Creatinine 97 µmol/L
+- Past Diagnoses — Iron Deficiency (1999), Hypothyroidism (1998), Hypertension (1990).
+- Recent Lab Results (2023-11-05)
+    Hb 7.1 mmol/L (low)
+    Ferritin 140 µg/L
+    CRP 22 mg/L
+    Creatinine 69 µmol/L
 - Prior Consultations
-    - 2024-11-08 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-02-26 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Ferrous sulfate 100 mg every other day, Lisinopril 10 mg daily.
+    - 2023-07-02 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-06-01 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Lisinopril 10 mg daily, Metformin 500 mg BID, Amlodipine 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Søren Mortensen reports decreased need for sleep, elevated mood, and increased goal-directed activity.
-
-History of Present Illness:
-Søren Mortensen describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
-
-Physical Examination:
-Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 147/93, HR 63 bpm).
-
-Diagnostics (Today):
-Findings consistent with manic episode; labs for lithium and thyroid function ordered.
-
-Assessment:
-Bipolar affective disorder, type I, current manic episode.
+Present Illness:
+   - Lars Laursen reports thirst, frequent urination, and blurred vision.
+- History of Present Illness
+   - Lars Laursen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+- Physical Examination
+   - Vitals: BP 155/59 mmHg, HR 117 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+- Diagnostics (Today)
+   - Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+- Assessment
+   - Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Continue or initiate mood stabilizer (e.g., lithium or valproate).
-- Discontinue antidepressants if present.
-- Offer short inpatient stabilization if insight poor or risk increases.
+   - Reinforce medication schedule; consider adding or adjusting therapy per plan.
+   - Hydration guidance and sick-day rules; check for precipitating infection.
+   - Arrange diabetes education and home glucose monitoring review.
+- Follow-up & Disposition
+   - Clinic follow-up in 2 weeks to assess response and review HbA1c.
 
 Patient Education & Safety Net:
-Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
-
-Follow-up & Disposition:
-Follow-up in 7 days to reassess mood and safety.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Sign-off:
-Dr. S. Nielsen, Pulmonology
+Dr. P. Jensen, Psychiatry

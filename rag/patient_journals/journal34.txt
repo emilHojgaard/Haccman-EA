@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 240459-3356
-Encounter Date - 2025-09-24
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Nina Skov
+CPR-number - 231106-1551
+Encounter Date - 2024-02-03
+Author - Dr. S. Gram, Hematology
+Patient Name - Ole Olsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (2005), CKD (2021), GERD (2010), Atrial fibrillation (2021), Chronic lower back pain.
-- Recent Lab Results (2025-07-24)
-    Hb 6.9 mmol/L (low)
-    Ferritin 11 µg/L (low)
-    CRP 21 mg/L
-    Creatinine 60 µmol/L
+- Past Diagnoses — CKD (1985), Migraine (1985), Type 2 Diabetes (1991), Irritable bowel syndrome (2008).
+- Recent Lab Results (2024-01-21)
+    Hb 7.5 mmol/L
+    Ferritin 52 µg/L
+    CRP 19 mg/L
+    Creatinine 70 µmol/L
 - Prior Consultations
-    - 2025-07-11 — Routine check-up — stable BP, mild anemia noted.
-    - 2025-04-16 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Levothyroxine 75 µg daily, Bisoprolol 5 mg daily.
-- Allergies — None known.
+    - 2023-08-31 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2023-12-01 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Atorvastatin 20 mg nightly, Metformin 500 mg BID, Bisoprolol 5 mg daily, Lisinopril 10 mg daily.
+- Allergies — NSAIDs (dyspepsia).
 
-Chief Complaint:
-Nina Skov presents with right lower quadrant abdominal pain and nausea.
-
-History of Present Illness:
-Nina Skov reports 22 hours of migrating abdominal pain, initially periumbilical, now localized to right iliac fossa, with mild fever.
-
-Physical Examination:
-T 37.0 °C, tenderness and rebound in right lower quadrant, guarding present.
-
-Diagnostics (Today):
-Leukocytosis and elevated CRP; ultrasound/CT confirms inflamed appendix.
-
-Assessment:
-Acute appendicitis.
+Present Illness:
+   - Ole Olsen presents with hearing voices and increased suspiciousness.
+- History of Present Illness
+   - Ole Olsen reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
+- Physical Examination
+   - Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 131/75, HR 75 bpm.
+- Diagnostics (Today)
+   - Active psychosis; rule out intoxication or medical cause.
+- Assessment
+   - Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- NPO, IV fluids, analgesia.
-- Surgical evaluation for appendectomy.
-- Administer pre-operative antibiotics.
+   - Restart antipsychotic (oral or depot).
+   - Ensure safe environment; involve crisis team.
+   - Assess capacity and consider inpatient admission if risk present.
+- Follow-up & Disposition
+   - Close follow-up within 6 days or inpatient as required.
 
 Patient Education & Safety Net:
-Explain surgical procedure and recovery expectations.
-
-Follow-up & Disposition:
-Postoperative review in 7 days.
+Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. S. Gram, Hematology

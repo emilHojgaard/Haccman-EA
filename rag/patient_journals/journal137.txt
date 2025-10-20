@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 090345-3351
-Encounter Date - 2023-02-16
-Author - Dr. J. Knudsen, ENT
-Patient Name - Emil Østergaard
+CPR-number - 120680-7781
+Encounter Date - 2023-07-07
+Author - Dr. R. Iversen, Neurology
+Patient Name - Camilla Laursen
 
 Medical History & Prior Results:
-- Past Diagnoses — Depression (1983), GERD (2021), Hypertension (2011).
-- Recent Lab Results (2022-11-20)
-    Hb 6.9 mmol/L (low)
-    Ferritin 41 µg/L
-    CRP 23 mg/L
-    Creatinine 109 µmol/L
+- Past Diagnoses — Peptic ulcer disease (1996), Gallstones (1986), Heart failure (HFpEF) (1996).
+- Recent Lab Results (2023-06-23)
+    Hb 7.1 mmol/L (low)
+    Ferritin 149 µg/L
+    CRP 10 mg/L
+    Creatinine 85 µmol/L
 - Prior Consultations
-    - 2022-12-10 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-01-06 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day, Metformin 500 mg BID, Pantoprazole 40 mg daily.
-- Allergies — None known.
+    - 2023-06-13 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2022-11-14 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Levothyroxine 75 µg daily, Bisoprolol 5 mg daily.
+- Allergies — NSAIDs (dyspepsia).
 
-Chief Complaint:
-Emil Østergaard presents with throbbing unilateral headache and nausea.
-
-History of Present Illness:
-Emil Østergaard reports recurrent headaches lasting 18 hours, aggravated by light and noise. No focal neurological deficits.
-
-Physical Examination:
-Normal neuro exam. BP 135/94, HR 66.
-
-Diagnostics (Today):
-Clinical diagnosis of migraine; exclude secondary causes if atypical.
-
-Assessment:
-Migraine without aura.
+Present Illness:
+   - Camilla Laursen reports thirst, frequent urination, and blurred vision.
+- History of Present Illness
+   - Camilla Laursen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+- Physical Examination
+   - Vitals: BP 131/68 mmHg, HR 61 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+- Diagnostics (Today)
+   - Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+- Assessment
+   - Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- Administer triptan and antiemetic as needed.
-- Avoid triggers, maintain hydration and regular sleep.
-- Consider prophylactic therapy if frequent attacks.
+   - Reinforce medication schedule; consider adding or adjusting therapy per plan.
+   - Hydration guidance and sick-day rules; check for precipitating infection.
+   - Arrange diabetes education and home glucose monitoring review.
+- Follow-up & Disposition
+   - Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Patient Education & Safety Net:
-Discuss trigger identification and medication overuse prevention.
-
-Follow-up & Disposition:
-Follow-up in 8 weeks for frequency reassessment.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. R. Iversen, Neurology

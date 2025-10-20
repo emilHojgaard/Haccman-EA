@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 190268-8899
-Encounter Date - 2024-06-06
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Niklas Bæk
+CPR-number - 010964-4214
+Encounter Date - 2025-02-27
+Author - Dr. S. Gram, Hematology
+Patient Name - Katrine Holm
 
 Medical History & Prior Results:
-- Past Diagnoses — Osteoporosis (1997), Psoriasis (1988), Chronic lower back pain.
-- Recent Lab Results (2024-05-27)
-    Hb 8.2 mmol/L
-    Ferritin 17 µg/L
-    CRP 23 mg/L
-    Creatinine 104 µmol/L
+- Past Diagnoses — Gallstones (1991), Osteoporosis (1998), Hypertension (2009), Chronic lower back pain.
+- Recent Lab Results (2025-01-06)
+    Hb 8.1 mmol/L
+    Ferritin 32 µg/L
+    CRP 3 mg/L
+    Creatinine 87 µmol/L
 - Prior Consultations
-    - 2024-05-04 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-05-16 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Bisoprolol 5 mg daily, Furosemide 40 mg daily, Empagliflozin 10 mg daily.
+    - 2024-05-22 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-07-26 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Pantoprazole 40 mg daily, Empagliflozin 10 mg daily, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
-Chief Complaint:
-Niklas Bæk reports thirst, frequent urination, and blurred vision.
-
-History of Present Illness:
-Niklas Bæk has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
-
-Physical Examination:
-Vitals: BP 127/91 mmHg, HR 97 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
-
-Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
-
-Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Present Illness:
+   - Katrine Holm reports nightmares, flashbacks, and hypervigilance.
+- History of Present Illness
+   - Katrine Holm experienced a traumatic event 12 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
+- Physical Examination
+   - Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 122/89, HR 95 bpm.
+- Diagnostics (Today)
+   - Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
+- Assessment
+   - Post-traumatic stress disorder.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+   - Refer for trauma-focused CBT or EMDR.
+   - Avoid routine benzodiazepine use.
+   - Consider SSRI if comorbid depression or anxiety.
+- Follow-up & Disposition
+   - Follow-up in 3 weeks to review therapy engagement.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
-
-Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. S. Gram, Hematology

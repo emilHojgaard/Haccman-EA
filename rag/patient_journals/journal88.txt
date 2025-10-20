@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 150450-6968
-Encounter Date - 2025-02-25
-Author - Dr. R. Iversen, Neurology
-Patient Name - Rune Sørensen
+CPR-number - 050651-0326
+Encounter Date - 2023-08-23
+Author - Dr. L. Holm, Cardiology
+Patient Name - Nina Bæk
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (1995), Asthma (1980), Gallstones (2007), Chronic lower back pain.
-- Recent Lab Results (2025-01-29)
+- Past Diagnoses — COPD (2020), Hypertension (1986), Atrial fibrillation (2014).
+- Recent Lab Results (2023-06-15)
     Hb 8.0 mmol/L
-    Ferritin 119 µg/L
-    CRP 18 mg/L
-    Creatinine 79 µmol/L
+    Ferritin 14 µg/L (low)
+    CRP 2 mg/L
+    Creatinine 93 µmol/L
 - Prior Consultations
-    - 2024-05-31 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-05-11 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Furosemide 40 mg daily, Metformin 500 mg BID.
-- Allergies — ACE inhibitors (cough).
+    - 2023-06-27 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-03-16 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Levothyroxine 75 µg daily, Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly.
+- Allergies — None known.
 
-Chief Complaint:
-Rune Sørensen presents with redness and swelling of the lower leg.
-
-History of Present Illness:
-Rune Sørensen noticed redness and tenderness spreading over 3 days. No trauma reported.
-
-Physical Examination:
-Warm, erythematous area with indistinct margins, mild edema. T 36.8 °C.
-
-Diagnostics (Today):
-Clinical cellulitis; CBC and CRP elevated.
-
-Assessment:
-Bacterial cellulitis, likely streptococcal.
+Present Illness:
+   - Nina Bæk presents with right lower quadrant abdominal pain and nausea.
+- History of Present Illness
+   - Nina Bæk reports 18 hours of migrating abdominal pain, initially periumbilical, now localized to right iliac fossa, with mild fever.
+- Physical Examination
+   - T 36.4 °C, tenderness and rebound in right lower quadrant, guarding present.
+- Diagnostics (Today)
+   - Leukocytosis and elevated CRP; ultrasound/CT confirms inflamed appendix.
+- Assessment
+   - Acute appendicitis.
 
 Plan:
-- Start empiric oral antibiotic covering streptococci.
-- Mark margin and monitor spread.
-- Elevate limb and manage pain.
+   - NPO, IV fluids, analgesia.
+   - Surgical evaluation for appendectomy.
+   - Administer pre-operative antibiotics.
+- Follow-up & Disposition
+   - Postoperative review in 8 days.
 
 Patient Education & Safety Net:
-Explain signs of worsening infection and when to seek urgent review.
-
-Follow-up & Disposition:
-Review in 2 days to assess response.
+Explain surgical procedure and recovery expectations.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. L. Holm, Cardiology

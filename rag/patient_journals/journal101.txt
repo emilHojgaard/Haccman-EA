@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 080857-1366
-Encounter Date - 2024-02-10
-Author - Dr. S. Gram, Hematology
-Patient Name - Brian Østergaard
+CPR-number - 211260-2260
+Encounter Date - 2023-05-22
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Brian Knudsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (1995), Hypothyroidism (2007).
-- Recent Lab Results (2024-01-26)
-    Hb 7.3 mmol/L (low)
-    Ferritin 22 µg/L
-    CRP 18 mg/L
-    Creatinine 99 µmol/L
+- Past Diagnoses — Migraine (1993), Atrial fibrillation (2019), Irritable bowel syndrome (1994), Chronic lower back pain.
+- Recent Lab Results (2023-05-20)
+    Hb 7.0 mmol/L (low)
+    Ferritin 67 µg/L
+    CRP 1 mg/L
+    Creatinine 64 µmol/L
 - Prior Consultations
-    - 2023-12-27 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2023-09-08 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Amlodipine 5 mg daily, Levothyroxine 75 µg daily.
-- Allergies — ACE inhibitors (cough).
+    - 2022-10-24 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2023-01-25 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Bisoprolol 5 mg daily, Ramipril 5 mg daily.
+- Allergies — Penicillin (rash).
 
-Chief Complaint:
-Brian Østergaard presents with redness and swelling of the lower leg.
-
-History of Present Illness:
-Brian Østergaard noticed redness and tenderness spreading over 3 days. No trauma reported.
-
-Physical Examination:
-Warm, erythematous area with indistinct margins, mild edema. T 37.4 °C.
-
-Diagnostics (Today):
-Clinical cellulitis; CBC and CRP elevated.
-
-Assessment:
-Bacterial cellulitis, likely streptococcal.
+Present Illness:
+   - Brian Knudsen presents with redness and swelling of the lower leg.
+- History of Present Illness
+   - Brian Knudsen noticed redness and tenderness spreading over 3 days. No trauma reported.
+- Physical Examination
+   - Warm, erythematous area with indistinct margins, mild edema. T 37.0 °C.
+- Diagnostics (Today)
+   - Clinical cellulitis; CBC and CRP elevated.
+- Assessment
+   - Bacterial cellulitis, likely streptococcal.
 
 Plan:
-- Start empiric oral antibiotic covering streptococci.
-- Mark margin and monitor spread.
-- Elevate limb and manage pain.
+   - Start empiric oral antibiotic covering streptococci.
+   - Mark margin and monitor spread.
+   - Elevate limb and manage pain.
+- Follow-up & Disposition
+   - Review in 3 days to assess response.
 
 Patient Education & Safety Net:
 Explain signs of worsening infection and when to seek urgent review.
 
-Follow-up & Disposition:
-Review in 3 days to assess response.
-
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. A. Thomsen, Emergency Medicine

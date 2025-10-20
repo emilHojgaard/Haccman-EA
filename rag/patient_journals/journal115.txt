@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 280543-6180
-Encounter Date - 2025-02-21
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Anders Petersen
+CPR-number - 150680-5170
+Encounter Date - 2023-02-03
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Maria Østergaard
 
 Medical History & Prior Results:
-- Past Diagnoses — CKD (2020), Dyslipidemia (2020), Atrial fibrillation (2007).
-- Recent Lab Results (2025-01-27)
-    Hb 7.2 mmol/L (low)
-    Ferritin 120 µg/L
-    CRP 16 mg/L
-    Creatinine 90 µmol/L
+- Past Diagnoses — Hypothyroidism (1987), Peptic ulcer disease (1993).
+- Recent Lab Results (2023-01-03)
+    Hb 7.0 mmol/L (low)
+    Ferritin 85 µg/L
+    CRP 20 mg/L
+    Creatinine 89 µmol/L
 - Prior Consultations
-    - 2024-06-14 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-10-24 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Ferrous sulfate 100 mg every other day, Metformin 500 mg BID.
+    - 2022-05-06 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2022-08-07 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Metformin 500 mg BID, Ramipril 5 mg daily, Bisoprolol 5 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Anders Petersen reports recurrent episodes of sudden intense fear and palpitations.
-
-History of Present Illness:
-Anders Petersen describes abrupt attacks of shortness of breath, chest tightness, and fear of dying lasting 7 minutes. Between attacks, anticipatory anxiety persists.
-
-Physical Examination:
-During visit, mildly anxious, HR 71 bpm, BP 159/65. ECG normal.
-
-Diagnostics (Today):
-Recurrent panic attacks without underlying cardiac or endocrine cause.
-
-Assessment:
-Panic disorder.
+Present Illness:
+   - Maria Østergaard presents with redness and swelling of the lower leg.
+- History of Present Illness
+   - Maria Østergaard noticed redness and tenderness spreading over 3 days. No trauma reported.
+- Physical Examination
+   - Warm, erythematous area with indistinct margins, mild edema. T 37.2 °C.
+- Diagnostics (Today)
+   - Clinical cellulitis; CBC and CRP elevated.
+- Assessment
+   - Bacterial cellulitis, likely streptococcal.
 
 Plan:
-- Provide CBT focused on panic management.
-- Consider SSRI for long-term control.
-- Educate on breathing and relaxation techniques.
+   - Start empiric oral antibiotic covering streptococci.
+   - Mark margin and monitor spread.
+   - Elevate limb and manage pain.
+- Follow-up & Disposition
+   - Review in 3 days to assess response.
 
 Patient Education & Safety Net:
-Explain physiological basis of panic and avoidance behaviors. Encourage gradual exposure to feared situations.
-
-Follow-up & Disposition:
-Follow-up in 6 weeks for progress evaluation.
+Explain signs of worsening infection and when to seek urgent review.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. K. Østergaard, General Surgery

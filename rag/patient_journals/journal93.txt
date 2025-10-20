@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 260407-8707
-Encounter Date - 2023-09-19
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Birgit Olsen
+CPR-number - 221285-5750
+Encounter Date - 2023-03-23
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Sofia Pedersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (2007), Depression (2013), Asthma (1980), Obesity (1993), Chronic lower back pain.
-- Recent Lab Results (2023-09-08)
-    Hb 7.0 mmol/L (low)
-    Ferritin 97 µg/L
-    CRP 2 mg/L
-    Creatinine 66 µmol/L
+- Past Diagnoses — Heart failure (HFpEF) (1986), Atrial fibrillation (1994), Migraine (1984), Depression (2016).
+- Recent Lab Results (2023-03-07)
+    Hb 6.7 mmol/L (low)
+    Ferritin 87 µg/L
+    CRP 23 mg/L
+    Creatinine 77 µmol/L
 - Prior Consultations
-    - 2023-05-20 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-05-28 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Ferrous sulfate 100 mg every other day, Furosemide 40 mg daily, Metformin 500 mg BID, Lisinopril 10 mg daily.
+    - 2023-01-10 — Routine check-up — stable BP, mild anemia noted.
+    - 2023-01-20 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Levothyroxine 75 µg daily, Pantoprazole 40 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Birgit Olsen complains of fever, productive cough, and right-sided chest pain.
-
-History of Present Illness:
-Birgit Olsen developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
-
-Physical Examination:
-Febrile (36.3 °C), RR 21/min, SpO₂ 99% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
-
-Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
-
-Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Present Illness:
+   - Sofia Pedersen reports stress and low mood following a recent life event.
+- History of Present Illness
+   - Sofia Pedersen describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
+- Physical Examination
+   - Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 110/91).
+- Diagnostics (Today)
+   - Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
+- Assessment
+   - Adjustment disorder with mixed anxiety and depressed mood.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+   - Provide supportive counselling.
+   - Encourage coping strategies and social support.
+   - Short-term anxiolytic if severe insomnia or anxiety.
+- Follow-up & Disposition
+   - Follow-up in 5 weeks to reassess.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
-
-Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. A. Thomsen, Emergency Medicine

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 041188-4941
-Encounter Date - 2023-06-11
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Kirsten Østergaard
+CPR-number - 101272-0122
+Encounter Date - 2024-06-10
+Author - Dr. L. Holm, Cardiology
+Patient Name - Sebastian Holm
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (1994), Iron Deficiency (2008), GERD (1985), Psoriasis (1983).
-- Recent Lab Results (2023-05-14)
-    Hb 6.8 mmol/L (low)
-    Ferritin 41 µg/L
-    CRP 1 mg/L
-    Creatinine 78 µmol/L
+- Past Diagnoses — Gout (2003), Dyslipidemia (1983), Migraine (2013).
+- Recent Lab Results (2024-05-21)
+    Hb 7.2 mmol/L (low)
+    Ferritin 8 µg/L (low)
+    CRP 10 mg/L
+    Creatinine 75 µmol/L
 - Prior Consultations
-    - 2022-12-26 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-04-09 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily, Lisinopril 10 mg daily.
+    - 2023-10-19 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-06-02 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Lisinopril 10 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
-Chief Complaint:
-Kirsten Østergaard presents with joint stiffness and increased pain.
-
-History of Present Illness:
-Kirsten Østergaard notes worsening knee pain over 8 days, aggravated by activity. No trauma or systemic symptoms.
-
-Physical Examination:
-Mild joint effusion, bony tenderness, no warmth. BP 130/81.
-
-Diagnostics (Today):
-No acute inflammation; radiographs show osteoarthritic changes.
-
-Assessment:
-Osteoarthritis flare-up.
+Present Illness:
+   - Sebastian Holm reports constant worry, muscle tension, and poor sleep.
+- History of Present Illness
+   - Sebastian Holm describes months of excessive anxiety difficult to control, with restlessness and fatigue. Denies panic attacks or substance misuse.
+- Physical Examination
+   - Anxious affect, fidgeting. HR 83 bpm, BP 104/90 mmHg. No tremor or thyrotoxicosis signs.
+- Diagnostics (Today)
+   - Persistent anxiety with somatic tension; exclude thyroid and cardiac causes.
+- Assessment
+   - Generalized anxiety disorder.
 
 Plan:
-- Use acetaminophen or topical NSAID.
-- Encourage physiotherapy and weight management.
-- Avoid prolonged inactivity.
+   - Begin CBT-focused therapy; consider SSRI or SNRI if persistent.
+   - Teach breathing and relaxation exercises.
+   - Avoid benzodiazepines long term.
+- Follow-up & Disposition
+   - Review in 6 weeks to monitor response.
 
 Patient Education & Safety Net:
-Discuss chronic nature of OA and exercise importance.
-
-Follow-up & Disposition:
-Reassess pain control in 4 weeks.
+Explain nature of chronic anxiety and coping tools. Encourage sleep hygiene and regular exercise.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. L. Holm, Cardiology

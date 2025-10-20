@@ -56,7 +56,8 @@ function dirFromPath(p) {
 }
 
 function chunkSmart(text) {
-  const sections = text.split(/\n(?=[A-Z][A-Za-z\s/()'-]*:)/g).map(s => s.trim()).filter(Boolean);
+  const sections = text.split(/\r?\n(?=^[^\r\n]*:\s*$)/m).map(s => s.trim()).filter(Boolean);
+  console.log("chunks :", sections);
   return sections
 }
 
@@ -89,7 +90,14 @@ async function upsertDocument({ title, docType, fullText, confidential }) {
 }
 
 async function insertChunks(docId, chunks, title, docType) {
-  const PREFIX = `TITLE: ${title}\nTYPE: ${docType}\n---\n`;
+  let PREFIX = `TITLE: ${title}\nTYPE: ${docType}\n---\n`;
+
+  if (docType === "patient_journals") {
+    const cprNumber = chunks[0].match(/CPR-number\s*-\s*([\d\-]+)/i)?.[1];
+    const patientName = chunks[0].match(/^[ \t]*Patient Name\s*[-:—]\s*([^\r\n]+)/mi)?.[1];
+    PREFIX = `TITLE: ${title}\nDOCUMENT TYPE: ${docType} ${patientName && `\nPATIENT NAME: ${patientName}`} ${cprNumber && `\nCPR: ${cprNumber}`}\n---\n`;
+  }
+
   const BATCH = 64;
 
   for (let start = 0; start < chunks.length; start += BATCH) {
