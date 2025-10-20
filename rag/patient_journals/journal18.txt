@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 040786-4168
-Encounter Date - 2023-04-03
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Morten Kristensen
+CPR-number - 021286-4964
+Encounter Date - 2023-05-23
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Mette Knudsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (1994), Depression (2005), Chronic lower back pain.
-- Recent Lab Results (2023-01-07)
-    Hb 8.4 mmol/L
-    Ferritin 138 µg/L
-    CRP 23 mg/L
-    Creatinine 110 µmol/L
+- Past Diagnoses — Iron Deficiency (2013), Heart failure (HFrEF) (2012), Osteoarthritis (2020), Chronic lower back pain.
+- Recent Lab Results (2023-04-19)
+    Hb 8.2 mmol/L
+    Ferritin 33 µg/L
+    CRP 12 mg/L
+    Creatinine 86 µmol/L
 - Prior Consultations
-    - 2022-09-06 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-02-26 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Pantoprazole 40 mg daily, Empagliflozin 10 mg daily, Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2022-12-27 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2022-11-12 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Pantoprazole 40 mg daily, Ramipril 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Morten Kristensen presents with hearing voices and increased suspiciousness.
-
-History of Present Illness:
-Morten Kristensen reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
-
-Physical Examination:
-Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 98/64, HR 77 bpm.
-
-Diagnostics (Today):
-Active psychosis; rule out intoxication or medical cause.
-
-Assessment:
-Schizophrenia, acute exacerbation due to medication nonadherence.
+Present Illness:
+   - Mette Knudsen presents with hearing voices and increased suspiciousness.
+- History of Present Illness
+   - Mette Knudsen reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
+- Physical Examination
+   - Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 158/80, HR 69 bpm.
+- Diagnostics (Today)
+   - Active psychosis; rule out intoxication or medical cause.
+- Assessment
+   - Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- Restart antipsychotic (oral or depot).
-- Ensure safe environment; involve crisis team.
-- Assess capacity and consider inpatient admission if risk present.
+   - Restart antipsychotic (oral or depot).
+   - Ensure safe environment; involve crisis team.
+   - Assess capacity and consider inpatient admission if risk present.
+- Follow-up & Disposition
+   - Close follow-up within 6 days or inpatient as required.
 
 Patient Education & Safety Net:
 Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
-Follow-up & Disposition:
-Close follow-up within 6 days or inpatient as required.
-
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. S. Nielsen, Pulmonology

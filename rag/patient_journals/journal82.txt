@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 280605-5028
-Encounter Date - 2024-04-17
-Author - Dr. V. Laursen, Nephrology
-Patient Name - Anders Mikkelsen
+CPR-number - 031180-1172
+Encounter Date - 2023-01-11
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Sebastian Gram
 
 Medical History & Prior Results:
-- Past Diagnoses — Iron Deficiency (1998), Irritable bowel syndrome (2022).
-- Recent Lab Results (2024-03-11)
-    Hb 7.9 mmol/L
-    Ferritin 89 µg/L
-    CRP 19 mg/L
-    Creatinine 68 µmol/L
+- Past Diagnoses — GERD (2006), CKD (2013), Gallstones (1998), Chronic lower back pain.
+- Recent Lab Results (2022-12-20)
+    Hb 8.2 mmol/L
+    Ferritin 138 µg/L
+    CRP 1 mg/L
+    Creatinine 92 µmol/L
 - Prior Consultations
-    - 2023-08-14 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-03-05 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Lisinopril 10 mg daily, Metformin 500 mg BID, Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2022-07-14 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2022-05-08 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Furosemide 40 mg daily, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Anders Mikkelsen reports nightmares, flashbacks, and hypervigilance.
-
-History of Present Illness:
-Anders Mikkelsen experienced a traumatic event 8 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
-
-Physical Examination:
-Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 101/87, HR 66 bpm.
-
-Diagnostics (Today):
-Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
-
-Assessment:
-Post-traumatic stress disorder.
+Present Illness:
+   - Sebastian Gram reports constant worry, muscle tension, and poor sleep.
+- History of Present Illness
+   - Sebastian Gram describes months of excessive anxiety difficult to control, with restlessness and fatigue. Denies panic attacks or substance misuse.
+- Physical Examination
+   - Anxious affect, fidgeting. HR 110 bpm, BP 99/96 mmHg. No tremor or thyrotoxicosis signs.
+- Diagnostics (Today)
+   - Persistent anxiety with somatic tension; exclude thyroid and cardiac causes.
+- Assessment
+   - Generalized anxiety disorder.
 
 Plan:
-- Refer for trauma-focused CBT or EMDR.
-- Avoid routine benzodiazepine use.
-- Consider SSRI if comorbid depression or anxiety.
+   - Begin CBT-focused therapy; consider SSRI or SNRI if persistent.
+   - Teach breathing and relaxation exercises.
+   - Avoid benzodiazepines long term.
+- Follow-up & Disposition
+   - Review in 4 weeks to monitor response.
 
 Patient Education & Safety Net:
-Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
-
-Follow-up & Disposition:
-Follow-up in 4 weeks to review therapy engagement.
+Explain nature of chronic anxiety and coping tools. Encourage sleep hygiene and regular exercise.
 
 Sign-off:
-Dr. V. Laursen, Nephrology
+Dr. C. Mikkelsen, Endocrinology

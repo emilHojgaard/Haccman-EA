@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 171088-2851
-Encounter Date - 2024-06-23
-Author - Dr. R. Iversen, Neurology
-Patient Name - Frederik Petersen
+CPR-number - 160178-2755
+Encounter Date - 2024-04-02
+Author - Dr. L. Holm, Cardiology
+Patient Name - Mette Poulsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (2014), CKD (1987), Heart failure (HFrEF) (2018).
-- Recent Lab Results (2024-06-06)
-    Hb 8.3 mmol/L
-    Ferritin 22 µg/L
-    CRP 4 mg/L
-    Creatinine 57 µmol/L
+- Past Diagnoses — Dyslipidemia (2006), Psoriasis (2022), Chronic lower back pain.
+- Recent Lab Results (2024-03-04)
+    Hb 6.7 mmol/L (low)
+    Ferritin 26 µg/L
+    CRP 1 mg/L
+    Creatinine 87 µmol/L
 - Prior Consultations
-    - 2024-03-26 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-02-01 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Ferrous sulfate 100 mg every other day, Amlodipine 5 mg daily, Atorvastatin 20 mg nightly.
+    - 2023-10-26 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-12-30 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Pantoprazole 40 mg daily, Lisinopril 10 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
-Chief Complaint:
-Frederik Petersen reports sudden onset of joint pain and swelling.
-
-History of Present Illness:
-Frederik Petersen developed severe pain in the first MTP joint overnight, with redness and swelling. No trauma or fever.
-
-Physical Examination:
-Erythematous, tender MTP joint. Vitals: BP 113/64, HR 116.
-
-Diagnostics (Today):
-Serum uric acid elevated; joint aspirate with monosodium urate crystals.
-
-Assessment:
-Acute gout attack.
+Present Illness:
+   - Mette Poulsen reports dysuria, frequency, and suprapubic discomfort.
+- History of Present Illness
+   - Mette Poulsen developed burning on urination for 3 days. No flank pain or fever.
+- Physical Examination
+   - Afebrile (36.0 °C), suprapubic tenderness. No costovertebral angle tenderness.
+- Diagnostics (Today)
+   - Urinalysis positive for nitrites and leukocytes.
+- Assessment
+   - Uncomplicated lower urinary tract infection.
 
 Plan:
-- Start NSAID or colchicine (if renal function allows).
-- Elevate limb and apply ice packs.
-- Review long-term urate-lowering therapy adherence.
+   - Start short course of oral antibiotic per protocol.
+   - Encourage fluid intake.
+   - Review symptoms resolution.
+- Follow-up & Disposition
+   - Follow-up if symptoms persist beyond 3 days.
 
 Patient Education & Safety Net:
-Avoid alcohol and purine-rich foods; maintain hydration.
-
-Follow-up & Disposition:
-Follow-up in 7 days to monitor improvement.
+Advise to complete antibiotics and monitor for fever or flank pain.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. L. Holm, Cardiology

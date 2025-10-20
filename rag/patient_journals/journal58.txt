@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 170633-4295
-Encounter Date - 2024-06-09
-Author - Dr. L. Holm, Cardiology
-Patient Name - Søren Knudsen
+CPR-number - 140644-6496
+Encounter Date - 2025-03-22
+Author - Dr. S. Gram, Hematology
+Patient Name - Ole Lund
 
 Medical History & Prior Results:
-- Past Diagnoses — Psoriasis (1982), Osteoporosis (2021), CKD (1993), Obesity (1987).
-- Recent Lab Results (2024-04-09)
-    Hb 6.8 mmol/L (low)
-    Ferritin 113 µg/L
-    CRP 11 mg/L
-    Creatinine 108 µmol/L
+- Past Diagnoses — Heart failure (HFrEF) (2003), Anxiety (2006), Migraine (2019), Gallstones (1991).
+- Recent Lab Results (2025-01-19)
+    Hb 8.3 mmol/L
+    Ferritin 146 µg/L
+    CRP 10 mg/L
+    Creatinine 104 µmol/L
 - Prior Consultations
-    - 2024-03-09 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-03-22 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Pantoprazole 40 mg daily, Lisinopril 10 mg daily, Levothyroxine 75 µg daily, Ferrous sulfate 100 mg every other day.
+    - 2024-05-01 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2025-03-11 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Furosemide 40 mg daily, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Søren Knudsen reports stress and low mood following a recent life event.
-
-History of Present Illness:
-Søren Knudsen describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
-
-Physical Examination:
-Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 98/85).
-
-Diagnostics (Today):
-Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
-
-Assessment:
-Adjustment disorder with mixed anxiety and depressed mood.
+Present Illness:
+   - Ole Lund reports decreased need for sleep, elevated mood, and increased goal-directed activity.
+- History of Present Illness
+   - Ole Lund describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
+- Physical Examination
+   - Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 153/70, HR 69 bpm).
+- Diagnostics (Today)
+   - Findings consistent with manic episode; labs for lithium and thyroid function ordered.
+- Assessment
+   - Bipolar affective disorder, type I, current manic episode.
 
 Plan:
-- Provide supportive counselling.
-- Encourage coping strategies and social support.
-- Short-term anxiolytic if severe insomnia or anxiety.
+   - Continue or initiate mood stabilizer (e.g., lithium or valproate).
+   - Discontinue antidepressants if present.
+   - Offer short inpatient stabilization if insight poor or risk increases.
+- Follow-up & Disposition
+   - Follow-up in 8 days to reassess mood and safety.
 
 Patient Education & Safety Net:
-Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
-
-Follow-up & Disposition:
-Follow-up in 3 weeks to reassess.
+Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
 
 Sign-off:
-Dr. L. Holm, Cardiology
+Dr. S. Gram, Hematology

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 180487-0178
-Encounter Date - 2024-01-19
+CPR-number - 200674-8132
+Encounter Date - 2025-07-16
 Author - Dr. P. Jensen, Psychiatry
-Patient Name - Helle Gram
+Patient Name - Henrik Gram
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (2007), Migraine (1990), Chronic lower back pain.
-- Recent Lab Results (2023-11-30)
-    Hb 7.5 mmol/L
-    Ferritin 45 µg/L
-    CRP 11 mg/L
-    Creatinine 82 µmol/L
+- Past Diagnoses — Heart failure (HFpEF) (2016), Obesity (1993), Chronic lower back pain.
+- Recent Lab Results (2025-07-06)
+    Hb 8.3 mmol/L
+    Ferritin 84 µg/L
+    CRP 1 mg/L
+    Creatinine 73 µmol/L
 - Prior Consultations
-    - 2023-11-28 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-08-06 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day, Levothyroxine 75 µg daily, Atorvastatin 20 mg nightly.
+    - 2024-09-20 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2025-05-01 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Metformin 500 mg BID, Lisinopril 10 mg daily, Bisoprolol 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Helle Gram reports persistent sadness, fatigue, and loss of interest in usual activities.
-
-History of Present Illness:
-Helle Gram has felt low for the past 7 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
-
-Physical Examination:
-Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 114/87, HR 118).
-
-Diagnostics (Today):
-Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
-
-Assessment:
-Major depressive episode, moderate severity.
+Present Illness:
+   - Henrik Gram reports dysuria, frequency, and suprapubic discomfort.
+- History of Present Illness
+   - Henrik Gram developed burning on urination for 5 days. No flank pain or fever.
+- Physical Examination
+   - Afebrile (37.8 °C), suprapubic tenderness. No costovertebral angle tenderness.
+- Diagnostics (Today)
+   - Urinalysis positive for nitrites and leukocytes.
+- Assessment
+   - Uncomplicated lower urinary tract infection.
 
 Plan:
-- Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
-- Encourage structured daily routine and gradual activity.
-- Refer for psychotherapy or CBT.
+   - Start short course of oral antibiotic per protocol.
+   - Encourage fluid intake.
+   - Review symptoms resolution.
+- Follow-up & Disposition
+   - Follow-up if symptoms persist beyond 5 days.
 
 Patient Education & Safety Net:
-Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
-
-Follow-up & Disposition:
-Follow-up in 4 weeks to assess mood and adherence.
+Advise to complete antibiotics and monitor for fever or flank pain.
 
 Sign-off:
 Dr. P. Jensen, Psychiatry

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 240766-6464
-Encounter Date - 2023-09-22
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Morten Larsen
+CPR-number - 250880-7901
+Encounter Date - 2023-07-01
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Maria Østergaard
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypothyroidism (1989), Heart failure (HFpEF) (1996), Chronic lower back pain.
-- Recent Lab Results (2023-08-20)
-    Hb 7.1 mmol/L (low)
-    Ferritin 83 µg/L
-    CRP 2 mg/L
-    Creatinine 84 µmol/L
+- Past Diagnoses — Depression (1990), COPD (1988), Chronic lower back pain.
+- Recent Lab Results (2023-04-21)
+    Hb 6.6 mmol/L (low)
+    Ferritin 86 µg/L
+    CRP 8 mg/L
+    Creatinine 85 µmol/L
 - Prior Consultations
-    - 2023-04-16 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2023-02-04 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Atorvastatin 20 mg nightly, Empagliflozin 10 mg daily, Metformin 500 mg BID.
-- Allergies — NSAIDs (dyspepsia).
+    - 2022-09-12 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-03-12 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Atorvastatin 20 mg nightly, Metformin 500 mg BID, Amlodipine 5 mg daily.
+- Allergies — None known.
 
-Chief Complaint:
-Morten Larsen presents with fever, flank pain, and urinary symptoms.
-
-History of Present Illness:
-Morten Larsen reports 2 days of dysuria, chills, and right-sided flank pain.
-
-Physical Examination:
-T 38.1 °C, costovertebral angle tenderness on right side. HR 103 bpm.
-
-Diagnostics (Today):
-Urinalysis positive for nitrites; elevated CRP and WBC.
-
-Assessment:
-Acute pyelonephritis.
+Present Illness:
+   - Maria Østergaard presents with hearing voices and increased suspiciousness.
+- History of Present Illness
+   - Maria Østergaard reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
+- Physical Examination
+   - Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 98/69, HR 110 bpm.
+- Diagnostics (Today)
+   - Active psychosis; rule out intoxication or medical cause.
+- Assessment
+   - Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- Start empiric antibiotic therapy.
-- Hydration and pain control.
-- Hospitalize if vomiting or sepsis.
+   - Restart antipsychotic (oral or depot).
+   - Ensure safe environment; involve crisis team.
+   - Assess capacity and consider inpatient admission if risk present.
+- Follow-up & Disposition
+   - Close follow-up within 3 days or inpatient as required.
 
 Patient Education & Safety Net:
-Advise early presentation for recurrence; complete full antibiotic course.
-
-Follow-up & Disposition:
-Recheck in 8 days to confirm recovery.
+Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. M. Petersen, Gastroenterology

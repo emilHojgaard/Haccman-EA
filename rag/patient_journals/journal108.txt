@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 060459-6052
-Encounter Date - 2025-02-24
-Author - Dr. V. Laursen, Nephrology
-Patient Name - Birgit Mikkelsen
+CPR-number - 210854-3662
+Encounter Date - 2024-04-28
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Niklas Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (2011), Obesity (2004), Peptic ulcer disease (1982).
-- Recent Lab Results (2025-02-13)
-    Hb 7.5 mmol/L
-    Ferritin 42 µg/L
-    CRP 14 mg/L
-    Creatinine 89 µmol/L
+- Past Diagnoses — Iron Deficiency (1994), Gout (1995).
+- Recent Lab Results (2024-04-20)
+    Hb 7.2 mmol/L (low)
+    Ferritin 66 µg/L
+    CRP 2 mg/L
+    Creatinine 68 µmol/L
 - Prior Consultations
-    - 2025-01-27 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-08-05 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Furosemide 40 mg daily, Levothyroxine 75 µg daily, Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day.
+    - 2024-01-22 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-03-24 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Ramipril 5 mg daily, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
-Chief Complaint:
-Birgit Mikkelsen reports decreased need for sleep, elevated mood, and increased goal-directed activity.
-
-History of Present Illness:
-Birgit Mikkelsen describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
-
-Physical Examination:
-Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 162/69, HR 114 bpm).
-
-Diagnostics (Today):
-Findings consistent with manic episode; labs for lithium and thyroid function ordered.
-
-Assessment:
-Bipolar affective disorder, type I, current manic episode.
+Present Illness:
+   - Niklas Petersen reports stress and low mood following a recent life event.
+- History of Present Illness
+   - Niklas Petersen describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
+- Physical Examination
+   - Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 103/65).
+- Diagnostics (Today)
+   - Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
+- Assessment
+   - Adjustment disorder with mixed anxiety and depressed mood.
 
 Plan:
-- Continue or initiate mood stabilizer (e.g., lithium or valproate).
-- Discontinue antidepressants if present.
-- Offer short inpatient stabilization if insight poor or risk increases.
+   - Provide supportive counselling.
+   - Encourage coping strategies and social support.
+   - Short-term anxiolytic if severe insomnia or anxiety.
+- Follow-up & Disposition
+   - Follow-up in 4 weeks to reassess.
 
 Patient Education & Safety Net:
-Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
-
-Follow-up & Disposition:
-Follow-up in 5 days to reassess mood and safety.
+Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
 
 Sign-off:
-Dr. V. Laursen, Nephrology
+Dr. S. Nielsen, Pulmonology

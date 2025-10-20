@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 131069-9312
-Encounter Date - 2024-02-05
-Author - Dr. S. Gram, Hematology
-Patient Name - Peter Andersen
+CPR-number - 130997-3782
+Encounter Date - 2023-02-22
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Lars Laursen
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (1981), Iron Deficiency (2014), Heart failure (HFrEF) (1991), Chronic lower back pain.
-- Recent Lab Results (2024-01-24)
-    Hb 6.5 mmol/L (low)
-    Ferritin 134 µg/L
-    CRP 2 mg/L
-    Creatinine 105 µmol/L
+- Past Diagnoses — Dyslipidemia (2010), Iron Deficiency (2010), Irritable bowel syndrome (2017), COPD (2020), Chronic lower back pain.
+- Recent Lab Results (2023-01-23)
+    Hb 7.5 mmol/L
+    Ferritin 29 µg/L
+    CRP 7 mg/L
+    Creatinine 95 µmol/L
 - Prior Consultations
-    - 2023-07-11 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-11-27 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ramipril 5 mg daily, Metformin 500 mg BID, Atorvastatin 20 mg nightly.
-- Allergies — Penicillin (rash).
+    - 2022-09-02 — Routine check-up — stable BP, mild anemia noted.
+    - 2022-10-20 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Atorvastatin 20 mg nightly, Levothyroxine 75 µg daily, Empagliflozin 10 mg daily, Amlodipine 5 mg daily.
+- Allergies — ACE inhibitors (cough).
 
-Chief Complaint:
-Peter Andersen reports stress and low mood following a recent life event.
-
-History of Present Illness:
-Peter Andersen describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
-
-Physical Examination:
-Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 150/63).
-
-Diagnostics (Today):
-Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
-
-Assessment:
-Adjustment disorder with mixed anxiety and depressed mood.
+Present Illness:
+   - Lars Laursen presents with redness and swelling of the lower leg.
+- History of Present Illness
+   - Lars Laursen noticed redness and tenderness spreading over 2 days. No trauma reported.
+- Physical Examination
+   - Warm, erythematous area with indistinct margins, mild edema. T 36.9 °C.
+- Diagnostics (Today)
+   - Clinical cellulitis; CBC and CRP elevated.
+- Assessment
+   - Bacterial cellulitis, likely streptococcal.
 
 Plan:
-- Provide supportive counselling.
-- Encourage coping strategies and social support.
-- Short-term anxiolytic if severe insomnia or anxiety.
+   - Start empiric oral antibiotic covering streptococci.
+   - Mark margin and monitor spread.
+   - Elevate limb and manage pain.
+- Follow-up & Disposition
+   - Review in 3 days to assess response.
 
 Patient Education & Safety Net:
-Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
-
-Follow-up & Disposition:
-Follow-up in 5 weeks to reassess.
+Explain signs of worsening infection and when to seek urgent review.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. M. Petersen, Gastroenterology

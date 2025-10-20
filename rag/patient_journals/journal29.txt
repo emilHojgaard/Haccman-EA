@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 101192-7767
-Encounter Date - 2024-07-14
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Thomas Skov
+CPR-number - 120451-4493
+Encounter Date - 2025-09-18
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Peter Johansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (2004), Hypothyroidism (2005), Osteoporosis (2005), Chronic lower back pain.
-- Recent Lab Results (2024-07-07)
-    Hb 7.6 mmol/L
-    Ferritin 100 µg/L
-    CRP 13 mg/L
-    Creatinine 59 µmol/L
+- Past Diagnoses — Hypothyroidism (2010), Dyslipidemia (2003), Depression (2014).
+- Recent Lab Results (2025-07-30)
+    Hb 7.9 mmol/L
+    Ferritin 92 µg/L
+    CRP 17 mg/L
+    Creatinine 75 µmol/L
 - Prior Consultations
-    - 2024-05-31 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-06-05 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Atorvastatin 20 mg nightly, Bisoprolol 5 mg daily, Metformin 500 mg BID, Ramipril 5 mg daily.
+    - 2025-06-26 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2025-07-03 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Empagliflozin 10 mg daily, Amlodipine 5 mg daily, Bisoprolol 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Thomas Skov presents with right lower quadrant abdominal pain and nausea.
-
-History of Present Illness:
-Thomas Skov reports 6 hours of migrating abdominal pain, initially periumbilical, now localized to right iliac fossa, with mild fever.
-
-Physical Examination:
-T 38.2 °C, tenderness and rebound in right lower quadrant, guarding present.
-
-Diagnostics (Today):
-Leukocytosis and elevated CRP; ultrasound/CT confirms inflamed appendix.
-
-Assessment:
-Acute appendicitis.
+Present Illness:
+   - Peter Johansen reports thirst, frequent urination, and blurred vision.
+- History of Present Illness
+   - Peter Johansen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+- Physical Examination
+   - Vitals: BP 150/77 mmHg, HR 96 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+- Diagnostics (Today)
+   - Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+- Assessment
+   - Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
 
 Plan:
-- NPO, IV fluids, analgesia.
-- Surgical evaluation for appendectomy.
-- Administer pre-operative antibiotics.
+   - Reinforce medication schedule; consider adding or adjusting therapy per plan.
+   - Hydration guidance and sick-day rules; check for precipitating infection.
+   - Arrange diabetes education and home glucose monitoring review.
+- Follow-up & Disposition
+   - Clinic follow-up in 4 weeks to assess response and review HbA1c.
 
 Patient Education & Safety Net:
-Explain surgical procedure and recovery expectations.
-
-Follow-up & Disposition:
-Postoperative review in 9 days.
+Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. A. Thomsen, Emergency Medicine

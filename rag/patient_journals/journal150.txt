@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 260864-9266
-Encounter Date - 2023-07-04
-Author - Dr. R. Iversen, Neurology
-Patient Name - Birgit Andersen
+CPR-number - 160750-3962
+Encounter Date - 2024-01-14
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Maria Pedersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (2006), Osteoporosis (1989).
-- Recent Lab Results (2023-06-09)
-    Hb 8.3 mmol/L
-    Ferritin 20 µg/L
-    CRP 5 mg/L
-    Creatinine 92 µmol/L
+- Past Diagnoses — Anxiety (2008), Psoriasis (2012), Atrial fibrillation (2017), Osteoarthritis (2014).
+- Recent Lab Results (2024-01-08)
+    Hb 7.0 mmol/L (low)
+    Ferritin 69 µg/L
+    CRP 21 mg/L
+    Creatinine 103 µmol/L
 - Prior Consultations
-    - 2023-04-18 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2022-09-30 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Pantoprazole 40 mg daily, Empagliflozin 10 mg daily, Amlodipine 5 mg daily.
+    - 2023-06-01 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-09-03 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Pantoprazole 40 mg daily, Amlodipine 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Birgit Andersen reports persistent sadness, fatigue, and loss of interest in usual activities.
-
-History of Present Illness:
-Birgit Andersen has felt low for the past 5 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
-
-Physical Examination:
-Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 146/88, HR 98).
-
-Diagnostics (Today):
-Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
-
-Assessment:
-Major depressive episode, moderate severity.
+Present Illness:
+   - Maria Pedersen reports constant worry, muscle tension, and poor sleep.
+- History of Present Illness
+   - Maria Pedersen describes months of excessive anxiety difficult to control, with restlessness and fatigue. Denies panic attacks or substance misuse.
+- Physical Examination
+   - Anxious affect, fidgeting. HR 80 bpm, BP 141/94 mmHg. No tremor or thyrotoxicosis signs.
+- Diagnostics (Today)
+   - Persistent anxiety with somatic tension; exclude thyroid and cardiac causes.
+- Assessment
+   - Generalized anxiety disorder.
 
 Plan:
-- Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
-- Encourage structured daily routine and gradual activity.
-- Refer for psychotherapy or CBT.
+   - Begin CBT-focused therapy; consider SSRI or SNRI if persistent.
+   - Teach breathing and relaxation exercises.
+   - Avoid benzodiazepines long term.
+- Follow-up & Disposition
+   - Review in 5 weeks to monitor response.
 
 Patient Education & Safety Net:
-Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
-
-Follow-up & Disposition:
-Follow-up in 2 weeks to assess mood and adherence.
+Explain nature of chronic anxiety and coping tools. Encourage sleep hygiene and regular exercise.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. V. Laursen, Nephrology

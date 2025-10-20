@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 040967-5906
-Encounter Date - 2025-01-09
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Rasmus Dam
+CPR-number - 090292-7723
+Encounter Date - 2025-02-02
+Author - Dr. R. Iversen, Neurology
+Patient Name - Emil Mortensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (2022), Psoriasis (2016), Anxiety (2010), Chronic lower back pain.
-- Recent Lab Results (2024-12-13)
-    Hb 7.8 mmol/L
-    Ferritin 12 µg/L (low)
-    CRP 22 mg/L
-    Creatinine 74 µmol/L
+- Past Diagnoses — Atrial fibrillation (2024), Obesity (2012), Asthma (1986).
+- Recent Lab Results (2024-11-24)
+    Hb 7.2 mmol/L (low)
+    Ferritin 27 µg/L
+    CRP 6 mg/L
+    Creatinine 56 µmol/L
 - Prior Consultations
-    - 2024-12-29 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-03-04 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Pantoprazole 40 mg daily, Empagliflozin 10 mg daily.
+    - 2025-01-26 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-10-19 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Metformin 500 mg BID, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Rasmus Dam reports persistent sadness, fatigue, and loss of interest in usual activities.
-
-History of Present Illness:
-Rasmus Dam has felt low for the past 7 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
-
-Physical Examination:
-Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 108/65, HR 99).
-
-Diagnostics (Today):
-Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
-
-Assessment:
-Major depressive episode, moderate severity.
+Present Illness:
+   - Emil Mortensen presents with joint stiffness and increased pain.
+- History of Present Illness
+   - Emil Mortensen notes worsening knee pain over 14 days, aggravated by activity. No trauma or systemic symptoms.
+- Physical Examination
+   - Mild joint effusion, bony tenderness, no warmth. BP 120/87.
+- Diagnostics (Today)
+   - No acute inflammation; radiographs show osteoarthritic changes.
+- Assessment
+   - Osteoarthritis flare-up.
 
 Plan:
-- Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
-- Encourage structured daily routine and gradual activity.
-- Refer for psychotherapy or CBT.
+   - Use acetaminophen or topical NSAID.
+   - Encourage physiotherapy and weight management.
+   - Avoid prolonged inactivity.
+- Follow-up & Disposition
+   - Reassess pain control in 4 weeks.
 
 Patient Education & Safety Net:
-Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
-
-Follow-up & Disposition:
-Follow-up in 4 weeks to assess mood and adherence.
+Discuss chronic nature of OA and exercise importance.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. R. Iversen, Neurology

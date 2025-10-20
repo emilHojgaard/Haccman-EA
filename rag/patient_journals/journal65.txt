@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 141150-4420
-Encounter Date - 2024-10-08
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Sanne Sørensen
+CPR-number - 101240-8855
+Encounter Date - 2025-07-25
+Author - Dr. J. Knudsen, ENT
+Patient Name - Maja Iversen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (1986), CKD (2005), Heart failure (HFpEF) (2017), Gallstones (2019).
-- Recent Lab Results (2024-09-06)
-    Hb 6.6 mmol/L (low)
-    Ferritin 34 µg/L
-    CRP 16 mg/L
-    Creatinine 89 µmol/L
+- Past Diagnoses — GERD (1993), Dyslipidemia (2023), Hypothyroidism (2019), Atrial fibrillation (2024), Chronic lower back pain.
+- Recent Lab Results (2025-06-29)
+    Hb 8.4 mmol/L
+    Ferritin 92 µg/L
+    CRP 20 mg/L
+    Creatinine 109 µmol/L
 - Prior Consultations
-    - 2024-06-22 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-05-20 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Pantoprazole 40 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2025-03-21 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2025-06-17 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
-Chief Complaint:
-Sanne Sørensen presents with redness and swelling of the lower leg.
-
-History of Present Illness:
-Sanne Sørensen noticed redness and tenderness spreading over 2 days. No trauma reported.
-
-Physical Examination:
-Warm, erythematous area with indistinct margins, mild edema. T 36.7 °C.
-
-Diagnostics (Today):
-Clinical cellulitis; CBC and CRP elevated.
-
-Assessment:
-Bacterial cellulitis, likely streptococcal.
+Present Illness:
+   - Maja Iversen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+- History of Present Illness
+   - Maja Iversen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+- Physical Examination
+   - Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 136/81 mmHg, HR 106 bpm). Abdomen soft, non-tender.
+- Diagnostics (Today)
+   - Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+- Assessment
+   - Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
 
 Plan:
-- Start empiric oral antibiotic covering streptococci.
-- Mark margin and monitor spread.
-- Elevate limb and manage pain.
+   - Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
+   - Review NSAID exposure and consider gastroprotection or alternatives.
+   - Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Follow-up & Disposition
+   - Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
 
 Patient Education & Safety Net:
-Explain signs of worsening infection and when to seek urgent review.
-
-Follow-up & Disposition:
-Review in 2 days to assess response.
+Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. J. Knudsen, ENT

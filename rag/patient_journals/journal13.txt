@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 230352-2792
-Encounter Date - 2025-02-14
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Viggo Gram
+CPR-number - 060761-1688
+Encounter Date - 2025-10-12
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Maja Bang
 
 Medical History & Prior Results:
-- Past Diagnoses — Gallstones (2018), Hypertension (1988), CKD (2019), Type 2 Diabetes (2013), Chronic lower back pain.
-- Recent Lab Results (2024-12-22)
-    Hb 7.8 mmol/L
+- Past Diagnoses — Heart failure (HFrEF) (1990), Migraine (1990), Psoriasis (2018), Chronic lower back pain.
+- Recent Lab Results (2025-10-02)
+    Hb 8.2 mmol/L
     Ferritin 96 µg/L
-    CRP 10 mg/L
-    Creatinine 75 µmol/L
+    CRP 8 mg/L
+    Creatinine 69 µmol/L
 - Prior Consultations
-    - 2025-02-03 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-08-10 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Amlodipine 5 mg daily, Ramipril 5 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily.
-- Allergies — ACE inhibitors (cough).
+    - 2025-08-28 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-08-16 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Atorvastatin 20 mg nightly, Empagliflozin 10 mg daily, Amlodipine 5 mg daily.
+- Allergies — None known.
 
-Chief Complaint:
-Viggo Gram reports thirst, frequent urination, and blurred vision.
-
-History of Present Illness:
-Viggo Gram has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
-
-Physical Examination:
-Vitals: BP 157/86 mmHg, HR 80 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
-
-Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
-
-Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Present Illness:
+   - Maja Bang reports epigastric pain and indigestion.
+- History of Present Illness
+   - Maja Bang has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
+- Physical Examination
+   - Epigastric tenderness, no guarding. Vitals: BP 149/63, HR 98.
+- Diagnostics (Today)
+   - Suspected gastritis/ulcer; H. pylori test ordered.
+- Assessment
+   - Peptic ulcer disease, likely NSAID-related.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+   - Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
+   - If positive, treat H. pylori.
+   - Advise small, frequent meals and limit alcohol/caffeine.
+- Follow-up & Disposition
+   - Reassess in 6 weeks; consider endoscopy if persistent.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
-
-Follow-up & Disposition:
-Clinic follow-up in 2 weeks to assess response and review HbA1c.
+Explain risk factors and warning signs of bleeding.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. A. Thomsen, Emergency Medicine

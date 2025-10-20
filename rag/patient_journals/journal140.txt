@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 160394-4322
-Encounter Date - 2025-05-22
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Magnus Hansen
+CPR-number - 200494-2585
+Encounter Date - 2025-03-08
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Louise Mortensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Psoriasis (2001), Dyslipidemia (1985), Chronic lower back pain.
-- Recent Lab Results (2025-05-17)
-    Hb 7.3 mmol/L (low)
-    Ferritin 26 µg/L
+- Past Diagnoses — Atrial fibrillation (2001), Heart failure (HFrEF) (2020), Irritable bowel syndrome (2024), Anxiety (1980).
+- Recent Lab Results (2025-02-14)
+    Hb 7.5 mmol/L
+    Ferritin 78 µg/L
     CRP 16 mg/L
-    Creatinine 72 µmol/L
+    Creatinine 94 µmol/L
 - Prior Consultations
-    - 2025-04-10 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-12-24 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Amlodipine 5 mg daily, Empagliflozin 10 mg daily, Pantoprazole 40 mg daily.
+    - 2024-11-05 — Routine check-up — stable BP, mild anemia noted.
+    - 2025-03-05 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day, Ramipril 5 mg daily, Lisinopril 10 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Magnus Hansen reports epigastric pain and indigestion.
-
-History of Present Illness:
-Magnus Hansen has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
-
-Physical Examination:
-Epigastric tenderness, no guarding. Vitals: BP 158/88, HR 105.
-
-Diagnostics (Today):
-Suspected gastritis/ulcer; H. pylori test ordered.
-
-Assessment:
-Peptic ulcer disease, likely NSAID-related.
+Present Illness:
+   - Louise Mortensen reports stress and low mood following a recent life event.
+- History of Present Illness
+   - Louise Mortensen describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
+- Physical Examination
+   - Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 103/94).
+- Diagnostics (Today)
+   - Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
+- Assessment
+   - Adjustment disorder with mixed anxiety and depressed mood.
 
 Plan:
-- Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
-- If positive, treat H. pylori.
-- Advise small, frequent meals and limit alcohol/caffeine.
+   - Provide supportive counselling.
+   - Encourage coping strategies and social support.
+   - Short-term anxiolytic if severe insomnia or anxiety.
+- Follow-up & Disposition
+   - Follow-up in 5 weeks to reassess.
 
 Patient Education & Safety Net:
-Explain risk factors and warning signs of bleeding.
-
-Follow-up & Disposition:
-Reassess in 6 weeks; consider endoscopy if persistent.
+Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. T. Bæk, Infectious Diseases

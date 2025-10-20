@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 280458-9274
-Encounter Date - 2024-03-03
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Julie Christensen
+CPR-number - 060182-6742
+Encounter Date - 2025-08-18
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Brian Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (1982), Iron Deficiency (1982).
-- Recent Lab Results (2023-12-12)
-    Hb 7.8 mmol/L
-    Ferritin 51 µg/L
-    CRP 14 mg/L
-    Creatinine 60 µmol/L
+- Past Diagnoses — COPD (2009), Osteoarthritis (2000), GERD (2010), Asthma (2020).
+- Recent Lab Results (2025-08-16)
+    Hb 8.2 mmol/L
+    Ferritin 50 µg/L
+    CRP 23 mg/L
+    Creatinine 68 µmol/L
 - Prior Consultations
-    - 2023-10-24 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-12-13 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Bisoprolol 5 mg daily, Pantoprazole 40 mg daily, Amlodipine 5 mg daily, Empagliflozin 10 mg daily.
+    - 2025-06-25 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-01-26 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Ferrous sulfate 100 mg every other day, Empagliflozin 10 mg daily, Bisoprolol 5 mg daily, Metformin 500 mg BID.
 - Allergies — None known.
 
-Chief Complaint:
-Julie Christensen reports sore throat, cough, and mild fever.
-
-History of Present Illness:
-Julie Christensen developed nasal congestion and cough 2 days ago. No dyspnea or chest pain.
-
-Physical Examination:
-T 36.5 °C, mild pharyngeal erythema, lungs clear.
-
-Diagnostics (Today):
-Clinical diagnosis of viral upper respiratory tract infection.
-
-Assessment:
-Viral URI.
+Present Illness:
+   - Brian Skov reports worsening lower back pain.
+- History of Present Illness
+   - Brian Skov has chronic back pain now intensified after lifting or prolonged sitting. No radicular symptoms or incontinence.
+- Physical Examination
+   - Paraspinal muscle tenderness, normal reflexes and strength. BP 109/80.
+- Diagnostics (Today)
+   - Mechanical exacerbation of chronic low back pain.
+- Assessment
+   - Chronic low back pain, acute exacerbation.
 
 Plan:
-- Supportive care: rest, fluids, paracetamol for fever.
-- Avoid unnecessary antibiotics.
-- Educate on hygiene and infection control.
+   - Encourage activity as tolerated.
+   - Use heat therapy and simple analgesics.
+   - Refer for physiotherapy if persistent.
+- Follow-up & Disposition
+   - Follow-up in 5 weeks.
 
 Patient Education & Safety Net:
-Reassure benign course; return if high fever or worsening.
-
-Follow-up & Disposition:
-Follow-up only if symptoms persist beyond 9 days.
+Discuss posture, core strengthening, and weight control.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. C. Mikkelsen, Endocrinology

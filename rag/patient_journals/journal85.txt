@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 131084-9351
-Encounter Date - 2023-06-01
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Ida Dam
+CPR-number - 191273-3796
+Encounter Date - 2025-08-20
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Niklas Thomsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Psoriasis (1995), Irritable bowel syndrome (1990), Iron Deficiency (2011), Gout (2004), Chronic lower back pain.
-- Recent Lab Results (2023-05-13)
-    Hb 7.1 mmol/L (low)
-    Ferritin 150 µg/L
-    CRP 3 mg/L
-    Creatinine 65 µmol/L
+- Past Diagnoses — Migraine (2015), Anxiety (2023).
+- Recent Lab Results (2025-07-04)
+    Hb 6.9 mmol/L (low)
+    Ferritin 145 µg/L
+    CRP 19 mg/L
+    Creatinine 94 µmol/L
 - Prior Consultations
-    - 2023-02-09 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-05-21 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Metformin 500 mg BID, Ramipril 5 mg daily, Pantoprazole 40 mg daily.
+    - 2025-03-29 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-06-27 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Empagliflozin 10 mg daily, Ferrous sulfate 100 mg every other day, Amlodipine 5 mg daily, Metformin 500 mg BID.
 - Allergies — None known.
 
-Chief Complaint:
-Ida Dam reports worsening lower back pain.
-
-History of Present Illness:
-Ida Dam has chronic back pain now intensified after lifting or prolonged sitting. No radicular symptoms or incontinence.
-
-Physical Examination:
-Paraspinal muscle tenderness, normal reflexes and strength. BP 140/81.
-
-Diagnostics (Today):
-Mechanical exacerbation of chronic low back pain.
-
-Assessment:
-Chronic low back pain, acute exacerbation.
+Present Illness:
+   - Niklas Thomsen presents with throbbing unilateral headache and nausea.
+- History of Present Illness
+   - Niklas Thomsen reports recurrent headaches lasting 18 hours, aggravated by light and noise. No focal neurological deficits.
+- Physical Examination
+   - Normal neuro exam. BP 120/94, HR 105.
+- Diagnostics (Today)
+   - Clinical diagnosis of migraine; exclude secondary causes if atypical.
+- Assessment
+   - Migraine without aura.
 
 Plan:
-- Encourage activity as tolerated.
-- Use heat therapy and simple analgesics.
-- Refer for physiotherapy if persistent.
+   - Administer triptan and antiemetic as needed.
+   - Avoid triggers, maintain hydration and regular sleep.
+   - Consider prophylactic therapy if frequent attacks.
+- Follow-up & Disposition
+   - Follow-up in 7 weeks for frequency reassessment.
 
 Patient Education & Safety Net:
-Discuss posture, core strengthening, and weight control.
-
-Follow-up & Disposition:
-Follow-up in 5 weeks.
+Discuss trigger identification and medication overuse prevention.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. S. Nielsen, Pulmonology

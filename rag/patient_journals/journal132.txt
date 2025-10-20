@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 050693-4240
-Encounter Date - 2024-08-25
-Author - Dr. O. Bjørk, Urology
-Patient Name - Sofia Dam
+CPR-number - 261075-6311
+Encounter Date - 2024-08-07
+Author - Dr. S. Gram, Hematology
+Patient Name - Brian Bjørk
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFrEF) (2002), Peptic ulcer disease (2018), Chronic lower back pain.
-- Recent Lab Results (2024-07-15)
-    Hb 7.5 mmol/L
-    Ferritin 14 µg/L (low)
-    CRP 6 mg/L
-    Creatinine 103 µmol/L
+- Past Diagnoses — Gallstones (1989), Osteoporosis (1997).
+- Recent Lab Results (2024-06-09)
+    Hb 7.2 mmol/L (low)
+    Ferritin 142 µg/L
+    CRP 20 mg/L
+    Creatinine 86 µmol/L
 - Prior Consultations
-    - 2024-07-01 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-06-16 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly.
+    - 2024-04-16 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-05-12 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Atorvastatin 20 mg nightly, Bisoprolol 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Sofia Dam presents with joint stiffness and increased pain.
-
-History of Present Illness:
-Sofia Dam notes worsening knee pain over 7 days, aggravated by activity. No trauma or systemic symptoms.
-
-Physical Examination:
-Mild joint effusion, bony tenderness, no warmth. BP 102/68.
-
-Diagnostics (Today):
-No acute inflammation; radiographs show osteoarthritic changes.
-
-Assessment:
-Osteoarthritis flare-up.
+Present Illness:
+   - Brian Bjørk reports epigastric pain and indigestion.
+- History of Present Illness
+   - Brian Bjørk has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
+- Physical Examination
+   - Epigastric tenderness, no guarding. Vitals: BP 152/89, HR 96.
+- Diagnostics (Today)
+   - Suspected gastritis/ulcer; H. pylori test ordered.
+- Assessment
+   - Peptic ulcer disease, likely NSAID-related.
 
 Plan:
-- Use acetaminophen or topical NSAID.
-- Encourage physiotherapy and weight management.
-- Avoid prolonged inactivity.
+   - Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
+   - If positive, treat H. pylori.
+   - Advise small, frequent meals and limit alcohol/caffeine.
+- Follow-up & Disposition
+   - Reassess in 6 weeks; consider endoscopy if persistent.
 
 Patient Education & Safety Net:
-Discuss chronic nature of OA and exercise importance.
-
-Follow-up & Disposition:
-Reassess pain control in 8 weeks.
+Explain risk factors and warning signs of bleeding.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. S. Gram, Hematology

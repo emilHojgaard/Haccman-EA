@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 080941-3214
-Encounter Date - 2023-01-13
-Author - Dr. S. Gram, Hematology
-Patient Name - Frederik Johansen
+CPR-number - 110939-9095
+Encounter Date - 2025-07-30
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Viggo Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — CKD (2021), Anxiety (1988), Migraine (2010), Chronic lower back pain.
-- Recent Lab Results (2022-10-18)
-    Hb 7.6 mmol/L
-    Ferritin 9 µg/L (low)
-    CRP 19 mg/L
-    Creatinine 84 µmol/L
+- Past Diagnoses — Obesity (2018), Asthma (1985), Dyslipidemia (1999), Gout (2006), Chronic lower back pain.
+- Recent Lab Results (2025-06-22)
+    Hb 8.4 mmol/L
+    Ferritin 105 µg/L
+    CRP 3 mg/L
+    Creatinine 108 µmol/L
 - Prior Consultations
-    - 2022-10-02 — Routine check-up — stable BP, mild anemia noted.
-    - 2022-09-01 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Amlodipine 5 mg daily, Pantoprazole 40 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily.
+    - 2025-03-12 — Routine check-up — stable BP, mild anemia noted.
+    - 2025-05-26 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Empagliflozin 10 mg daily, Lisinopril 10 mg daily, Metformin 500 mg BID, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
-Chief Complaint:
-Frederik Johansen reports epigastric pain and indigestion.
-
-History of Present Illness:
-Frederik Johansen has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
-
-Physical Examination:
-Epigastric tenderness, no guarding. Vitals: BP 119/74, HR 69.
-
-Diagnostics (Today):
-Suspected gastritis/ulcer; H. pylori test ordered.
-
-Assessment:
-Peptic ulcer disease, likely NSAID-related.
+Present Illness:
+   - Viggo Petersen presents with throbbing unilateral headache and nausea.
+- History of Present Illness
+   - Viggo Petersen reports recurrent headaches lasting 20 hours, aggravated by light and noise. No focal neurological deficits.
+- Physical Examination
+   - Normal neuro exam. BP 131/66, HR 108.
+- Diagnostics (Today)
+   - Clinical diagnosis of migraine; exclude secondary causes if atypical.
+- Assessment
+   - Migraine without aura.
 
 Plan:
-- Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
-- If positive, treat H. pylori.
-- Advise small, frequent meals and limit alcohol/caffeine.
+   - Administer triptan and antiemetic as needed.
+   - Avoid triggers, maintain hydration and regular sleep.
+   - Consider prophylactic therapy if frequent attacks.
+- Follow-up & Disposition
+   - Follow-up in 6 weeks for frequency reassessment.
 
 Patient Education & Safety Net:
-Explain risk factors and warning signs of bleeding.
-
-Follow-up & Disposition:
-Reassess in 4 weeks; consider endoscopy if persistent.
+Discuss trigger identification and medication overuse prevention.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. M. Petersen, Gastroenterology

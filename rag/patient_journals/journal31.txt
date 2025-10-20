@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 100708-7585
-Encounter Date - 2024-10-07
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Lene Poulsen
+CPR-number - 060304-5868
+Encounter Date - 2023-10-29
+Author - Dr. O. Bjørk, Urology
+Patient Name - Ida Rasmussen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (2019), Iron Deficiency (2005), Migraine (1992), Asthma (2020), Chronic lower back pain.
-- Recent Lab Results (2024-09-17)
-    Hb 7.3 mmol/L (low)
-    Ferritin 43 µg/L
-    CRP 21 mg/L
-    Creatinine 82 µmol/L
+- Past Diagnoses — Asthma (2009), Osteoarthritis (2014), Osteoporosis (2007), Chronic lower back pain.
+- Recent Lab Results (2023-09-01)
+    Hb 7.2 mmol/L (low)
+    Ferritin 86 µg/L
+    CRP 11 mg/L
+    Creatinine 58 µmol/L
 - Prior Consultations
-    - 2024-06-28 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-08-03 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Furosemide 40 mg daily, Levothyroxine 75 µg daily.
-- Allergies — Penicillin (rash).
+    - 2022-11-22 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-06-14 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Furosemide 40 mg daily, Ramipril 5 mg daily.
+- Allergies — None known.
 
-Chief Complaint:
-Lene Poulsen presents with right lower quadrant abdominal pain and nausea.
-
-History of Present Illness:
-Lene Poulsen reports 18 hours of migrating abdominal pain, initially periumbilical, now localized to right iliac fossa, with mild fever.
-
-Physical Examination:
-T 38.2 °C, tenderness and rebound in right lower quadrant, guarding present.
-
-Diagnostics (Today):
-Leukocytosis and elevated CRP; ultrasound/CT confirms inflamed appendix.
-
-Assessment:
-Acute appendicitis.
+Present Illness:
+   - Ida Rasmussen presents with right lower quadrant abdominal pain and nausea.
+- History of Present Illness
+   - Ida Rasmussen reports 9 hours of migrating abdominal pain, initially periumbilical, now localized to right iliac fossa, with mild fever.
+- Physical Examination
+   - T 37.4 °C, tenderness and rebound in right lower quadrant, guarding present.
+- Diagnostics (Today)
+   - Leukocytosis and elevated CRP; ultrasound/CT confirms inflamed appendix.
+- Assessment
+   - Acute appendicitis.
 
 Plan:
-- NPO, IV fluids, analgesia.
-- Surgical evaluation for appendectomy.
-- Administer pre-operative antibiotics.
+   - NPO, IV fluids, analgesia.
+   - Surgical evaluation for appendectomy.
+   - Administer pre-operative antibiotics.
+- Follow-up & Disposition
+   - Postoperative review in 9 days.
 
 Patient Education & Safety Net:
 Explain surgical procedure and recovery expectations.
 
-Follow-up & Disposition:
-Postoperative review in 9 days.
-
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. O. Bjørk, Urology

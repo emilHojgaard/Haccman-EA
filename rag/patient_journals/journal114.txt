@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 231282-3132
-Encounter Date - 2025-03-14
-Author - Dr. S. Gram, Hematology
-Patient Name - Anders Lund
+CPR-number - 141264-6196
+Encounter Date - 2024-10-18
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Helle Holm
 
 Medical History & Prior Results:
-- Past Diagnoses — Migraine (2000), Depression (1984), Gout (2009), Chronic lower back pain.
-- Recent Lab Results (2025-01-11)
-    Hb 6.6 mmol/L (low)
-    Ferritin 8 µg/L (low)
-    CRP 11 mg/L
-    Creatinine 80 µmol/L
+- Past Diagnoses — Gallstones (2000), Migraine (1985), Type 2 Diabetes (1996), Atrial fibrillation (1990), Chronic lower back pain.
+- Recent Lab Results (2024-10-01)
+    Hb 6.9 mmol/L (low)
+    Ferritin 100 µg/L
+    CRP 5 mg/L
+    Creatinine 92 µmol/L
 - Prior Consultations
-    - 2025-02-24 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-10-08 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day, Furosemide 40 mg daily.
-- Allergies — None known.
+    - 2024-03-23 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-03-25 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Pantoprazole 40 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily, Ramipril 5 mg daily.
+- Allergies — Penicillin (rash).
 
-Chief Complaint:
-Anders Lund reports shortness of breath and leg swelling.
-
-History of Present Illness:
-Anders Lund has gained 2 kg over the past week, with worsening dyspnea and orthopnea. Missed diuretic doses reported.
-
-Physical Examination:
-Crackles at lung bases, bilateral pitting edema, elevated JVP. BP 129/68, HR 71 bpm.
-
-Diagnostics (Today):
-BNP elevated, chest X-ray shows pulmonary congestion.
-
-Assessment:
-Acute-on-chronic heart failure exacerbation.
+Present Illness:
+   - Helle Holm reports recurrent episodes of sudden intense fear and palpitations.
+- History of Present Illness
+   - Helle Holm describes abrupt attacks of shortness of breath, chest tightness, and fear of dying lasting 5 minutes. Between attacks, anticipatory anxiety persists.
+- Physical Examination
+   - During visit, mildly anxious, HR 87 bpm, BP 135/83. ECG normal.
+- Diagnostics (Today)
+   - Recurrent panic attacks without underlying cardiac or endocrine cause.
+- Assessment
+   - Panic disorder.
 
 Plan:
-- Administer loop diuretic (e.g., furosemide).
-- Monitor weight and urine output.
-- Optimize heart failure regimen and education.
+   - Provide CBT focused on panic management.
+   - Consider SSRI for long-term control.
+   - Educate on breathing and relaxation techniques.
+- Follow-up & Disposition
+   - Follow-up in 6 weeks for progress evaluation.
 
 Patient Education & Safety Net:
-Teach daily weight monitoring, salt restriction, and when to seek urgent care.
-
-Follow-up & Disposition:
-Follow-up in 1 weeks or earlier if symptoms recur.
+Explain physiological basis of panic and avoidance behaviors. Encourage gradual exposure to feared situations.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. V. Laursen, Nephrology

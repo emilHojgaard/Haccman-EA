@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 010879-2011
-Encounter Date - 2024-02-01
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Grethe Andersen
+CPR-number - 070607-6181
+Encounter Date - 2025-01-09
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Søren Bang
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (2007), COPD (1993), Peptic ulcer disease (1995).
-- Recent Lab Results (2024-01-13)
-    Hb 7.1 mmol/L (low)
-    Ferritin 31 µg/L
-    CRP 8 mg/L
-    Creatinine 71 µmol/L
+- Past Diagnoses — Migraine (1994), Anxiety (1984), Chronic lower back pain.
+- Recent Lab Results (2024-12-27)
+    Hb 6.9 mmol/L (low)
+    Ferritin 148 µg/L
+    CRP 23 mg/L
+    Creatinine 94 µmol/L
 - Prior Consultations
-    - 2024-01-16 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2023-10-29 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Ferrous sulfate 100 mg every other day, Lisinopril 10 mg daily.
-- Allergies — None known.
+    - 2024-12-11 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-08-31 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Lisinopril 10 mg daily, Pantoprazole 40 mg daily.
+- Allergies — ACE inhibitors (cough).
 
-Chief Complaint:
-Grethe Andersen reports decreased need for sleep, elevated mood, and increased goal-directed activity.
-
-History of Present Illness:
-Grethe Andersen describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
-
-Physical Examination:
-Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 117/64, HR 98 bpm).
-
-Diagnostics (Today):
-Findings consistent with manic episode; labs for lithium and thyroid function ordered.
-
-Assessment:
-Bipolar affective disorder, type I, current manic episode.
+Present Illness:
+   - Søren Bang reports constant worry, muscle tension, and poor sleep.
+- History of Present Illness
+   - Søren Bang describes months of excessive anxiety difficult to control, with restlessness and fatigue. Denies panic attacks or substance misuse.
+- Physical Examination
+   - Anxious affect, fidgeting. HR 74 bpm, BP 145/63 mmHg. No tremor or thyrotoxicosis signs.
+- Diagnostics (Today)
+   - Persistent anxiety with somatic tension; exclude thyroid and cardiac causes.
+- Assessment
+   - Generalized anxiety disorder.
 
 Plan:
-- Continue or initiate mood stabilizer (e.g., lithium or valproate).
-- Discontinue antidepressants if present.
-- Offer short inpatient stabilization if insight poor or risk increases.
+   - Begin CBT-focused therapy; consider SSRI or SNRI if persistent.
+   - Teach breathing and relaxation exercises.
+   - Avoid benzodiazepines long term.
+- Follow-up & Disposition
+   - Review in 3 weeks to monitor response.
 
 Patient Education & Safety Net:
-Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
-
-Follow-up & Disposition:
-Follow-up in 9 days to reassess mood and safety.
+Explain nature of chronic anxiety and coping tools. Encourage sleep hygiene and regular exercise.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. T. Bæk, Infectious Diseases

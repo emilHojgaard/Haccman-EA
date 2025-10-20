@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 250889-3903
-Encounter Date - 2024-07-11
+CPR-number - 230958-2379
+Encounter Date - 2025-04-24
 Author - Dr. R. Iversen, Neurology
-Patient Name - Emil Jensen
+Patient Name - Grethe Pedersen
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (1993), Atrial fibrillation (2000), Chronic lower back pain.
-- Recent Lab Results (2024-06-22)
-    Hb 8.5 mmol/L
-    Ferritin 141 µg/L
+- Past Diagnoses — COPD (1992), Irritable bowel syndrome (2010).
+- Recent Lab Results (2025-04-13)
+    Hb 7.8 mmol/L
+    Ferritin 39 µg/L
     CRP 20 mg/L
     Creatinine 96 µmol/L
 - Prior Consultations
-    - 2024-01-16 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-02-28 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Amlodipine 5 mg daily, Atorvastatin 20 mg nightly.
+    - 2025-01-22 — Routine check-up — stable BP, mild anemia noted.
+    - 2025-01-08 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Bisoprolol 5 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Emil Jensen reports nightmares, flashbacks, and hypervigilance.
-
-History of Present Illness:
-Emil Jensen experienced a traumatic event 9 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
-
-Physical Examination:
-Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 102/97, HR 109 bpm.
-
-Diagnostics (Today):
-Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
-
-Assessment:
-Post-traumatic stress disorder.
+Present Illness:
+   - Grethe Pedersen presents with redness and swelling of the lower leg.
+- History of Present Illness
+   - Grethe Pedersen noticed redness and tenderness spreading over 2 days. No trauma reported.
+- Physical Examination
+   - Warm, erythematous area with indistinct margins, mild edema. T 36.2 °C.
+- Diagnostics (Today)
+   - Clinical cellulitis; CBC and CRP elevated.
+- Assessment
+   - Bacterial cellulitis, likely streptococcal.
 
 Plan:
-- Refer for trauma-focused CBT or EMDR.
-- Avoid routine benzodiazepine use.
-- Consider SSRI if comorbid depression or anxiety.
+   - Start empiric oral antibiotic covering streptococci.
+   - Mark margin and monitor spread.
+   - Elevate limb and manage pain.
+- Follow-up & Disposition
+   - Review in 3 days to assess response.
 
 Patient Education & Safety Net:
-Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
-
-Follow-up & Disposition:
-Follow-up in 3 weeks to review therapy engagement.
+Explain signs of worsening infection and when to seek urgent review.
 
 Sign-off:
 Dr. R. Iversen, Neurology

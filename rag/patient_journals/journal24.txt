@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 081250-2459
-Encounter Date - 2024-10-12
-Author - Dr. V. Laursen, Nephrology
-Patient Name - Morten Johansen
+CPR-number - 120900-9944
+Encounter Date - 2025-08-30
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Brian Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — Osteoporosis (1982), Dyslipidemia (1988), Chronic lower back pain.
-- Recent Lab Results (2024-09-20)
-    Hb 7.8 mmol/L
-    Ferritin 86 µg/L
-    CRP 16 mg/L
-    Creatinine 55 µmol/L
+- Past Diagnoses — Heart failure (HFpEF) (1982), Type 2 Diabetes (1984), Gout (1993), COPD (1992).
+- Recent Lab Results (2025-08-10)
+    Hb 6.6 mmol/L (low)
+    Ferritin 33 µg/L
+    CRP 25 mg/L
+    Creatinine 95 µmol/L
 - Prior Consultations
-    - 2024-04-20 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-05-07 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Amlodipine 5 mg daily, Bisoprolol 5 mg daily, Ramipril 5 mg daily.
-- Allergies — None known.
+    - 2025-07-15 — Routine check-up — stable BP, mild anemia noted.
+    - 2025-01-07 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Pantoprazole 40 mg daily, Furosemide 40 mg daily.
+- Allergies — NSAIDs (dyspepsia).
 
-Chief Complaint:
-Morten Johansen reports persistent sadness, fatigue, and loss of interest in usual activities.
-
-History of Present Illness:
-Morten Johansen has felt low for the past 4 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
-
-Physical Examination:
-Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 159/71, HR 96).
-
-Diagnostics (Today):
-Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
-
-Assessment:
-Major depressive episode, moderate severity.
+Present Illness:
+   - Brian Dam reports shortness of breath and leg swelling.
+- History of Present Illness
+   - Brian Dam has gained 3 kg over the past week, with worsening dyspnea and orthopnea. Missed diuretic doses reported.
+- Physical Examination
+   - Crackles at lung bases, bilateral pitting edema, elevated JVP. BP 123/93, HR 94 bpm.
+- Diagnostics (Today)
+   - BNP elevated, chest X-ray shows pulmonary congestion.
+- Assessment
+   - Acute-on-chronic heart failure exacerbation.
 
 Plan:
-- Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
-- Encourage structured daily routine and gradual activity.
-- Refer for psychotherapy or CBT.
+   - Administer loop diuretic (e.g., furosemide).
+   - Monitor weight and urine output.
+   - Optimize heart failure regimen and education.
+- Follow-up & Disposition
+   - Follow-up in 2 weeks or earlier if symptoms recur.
 
 Patient Education & Safety Net:
-Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
-
-Follow-up & Disposition:
-Follow-up in 4 weeks to assess mood and adherence.
+Teach daily weight monitoring, salt restriction, and when to seek urgent care.
 
 Sign-off:
-Dr. V. Laursen, Nephrology
+Dr. A. Thomsen, Emergency Medicine

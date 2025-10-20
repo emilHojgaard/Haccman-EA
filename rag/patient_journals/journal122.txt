@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 050751-2212
-Encounter Date - 2024-01-05
-Author - Dr. S. Gram, Hematology
-Patient Name - Anne Dam
+CPR-number - 120932-0452
+Encounter Date - 2025-03-16
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Carsten Larsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (1986), Hypothyroidism (1983).
-- Recent Lab Results (2023-12-27)
-    Hb 7.7 mmol/L
-    Ferritin 70 µg/L
-    CRP 11 mg/L
-    Creatinine 108 µmol/L
+- Past Diagnoses — Migraine (2013), CKD (1990), Hypertension (1998), Peptic ulcer disease (1989), Chronic lower back pain.
+- Recent Lab Results (2025-02-27)
+    Hb 6.9 mmol/L (low)
+    Ferritin 44 µg/L
+    CRP 25 mg/L
+    Creatinine 75 µmol/L
 - Prior Consultations
-    - 2023-03-15 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-12-15 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Bisoprolol 5 mg daily, Pantoprazole 40 mg daily, Ramipril 5 mg daily, Ferrous sulfate 100 mg every other day.
-- Allergies — NSAIDs (dyspepsia).
+    - 2025-03-03 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2025-01-22 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Amlodipine 5 mg daily, Empagliflozin 10 mg daily, Lisinopril 10 mg daily, Bisoprolol 5 mg daily.
+- Allergies — None known.
 
-Chief Complaint:
-Anne Dam presents with joint stiffness and increased pain.
-
-History of Present Illness:
-Anne Dam notes worsening knee pain over 10 days, aggravated by activity. No trauma or systemic symptoms.
-
-Physical Examination:
-Mild joint effusion, bony tenderness, no warmth. BP 155/93.
-
-Diagnostics (Today):
-No acute inflammation; radiographs show osteoarthritic changes.
-
-Assessment:
-Osteoarthritis flare-up.
+Present Illness:
+   - Carsten Larsen reports epigastric pain and indigestion.
+- History of Present Illness
+   - Carsten Larsen has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
+- Physical Examination
+   - Epigastric tenderness, no guarding. Vitals: BP 160/71, HR 94.
+- Diagnostics (Today)
+   - Suspected gastritis/ulcer; H. pylori test ordered.
+- Assessment
+   - Peptic ulcer disease, likely NSAID-related.
 
 Plan:
-- Use acetaminophen or topical NSAID.
-- Encourage physiotherapy and weight management.
-- Avoid prolonged inactivity.
+   - Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
+   - If positive, treat H. pylori.
+   - Advise small, frequent meals and limit alcohol/caffeine.
+- Follow-up & Disposition
+   - Reassess in 4 weeks; consider endoscopy if persistent.
 
 Patient Education & Safety Net:
-Discuss chronic nature of OA and exercise importance.
-
-Follow-up & Disposition:
-Reassess pain control in 5 weeks.
+Explain risk factors and warning signs of bleeding.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. C. Mikkelsen, Endocrinology

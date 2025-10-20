@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 100197-4217
-Encounter Date - 2025-05-23
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Katrine Bæk
+CPR-number - 050591-5247
+Encounter Date - 2024-06-29
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Louise Holm
 
 Medical History & Prior Results:
-- Past Diagnoses — Depression (1992), Osteoporosis (2024).
-- Recent Lab Results (2025-05-16)
-    Hb 7.0 mmol/L (low)
-    Ferritin 26 µg/L
-    CRP 17 mg/L
-    Creatinine 85 µmol/L
+- Past Diagnoses — Asthma (1980), COPD (1995), Chronic lower back pain.
+- Recent Lab Results (2024-06-15)
+    Hb 8.3 mmol/L
+    Ferritin 131 µg/L
+    CRP 7 mg/L
+    Creatinine 72 µmol/L
 - Prior Consultations
-    - 2025-04-30 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-10-16 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Pantoprazole 40 mg daily, Metformin 500 mg BID, Lisinopril 10 mg daily.
+    - 2023-12-17 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-07-28 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Lisinopril 10 mg daily, Metformin 500 mg BID.
 - Allergies — None known.
 
-Chief Complaint:
-Katrine Bæk reports nightmares, flashbacks, and hypervigilance.
-
-History of Present Illness:
-Katrine Bæk experienced a traumatic event 5 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
-
-Physical Examination:
-Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 140/63, HR 80 bpm.
-
-Diagnostics (Today):
-Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
-
-Assessment:
-Post-traumatic stress disorder.
+Present Illness:
+   - Louise Holm presents with throbbing unilateral headache and nausea.
+- History of Present Illness
+   - Louise Holm reports recurrent headaches lasting 15 hours, aggravated by light and noise. No focal neurological deficits.
+- Physical Examination
+   - Normal neuro exam. BP 164/76, HR 60.
+- Diagnostics (Today)
+   - Clinical diagnosis of migraine; exclude secondary causes if atypical.
+- Assessment
+   - Migraine without aura.
 
 Plan:
-- Refer for trauma-focused CBT or EMDR.
-- Avoid routine benzodiazepine use.
-- Consider SSRI if comorbid depression or anxiety.
+   - Administer triptan and antiemetic as needed.
+   - Avoid triggers, maintain hydration and regular sleep.
+   - Consider prophylactic therapy if frequent attacks.
+- Follow-up & Disposition
+   - Follow-up in 5 weeks for frequency reassessment.
 
 Patient Education & Safety Net:
-Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
-
-Follow-up & Disposition:
-Follow-up in 5 weeks to review therapy engagement.
+Discuss trigger identification and medication overuse prevention.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. E. Dam, Rheumatology

@@ -1,47 +1,42 @@
 Document Information:
-CPR-number - 180891-8585
-Encounter Date - 2025-08-18
-Author - Dr. R. Iversen, Neurology
-Patient Name - Jonas Laursen
+CPR-number - 170497-9354
+Encounter Date - 2024-12-08
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Magnus Lund
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFrEF) (1982), Iron Deficiency (2022), Chronic lower back pain.
-- Recent Lab Results (2025-06-19)
-    Hb 8.3 mmol/L
-    Ferritin 21 µg/L
-    CRP 3 mg/L
-    Creatinine 80 µmol/L
+- Past Diagnoses — Heart failure (HFpEF) (1982), Peptic ulcer disease (2023), Gallstones (2004), Chronic lower back pain.
+- Recent Lab Results (2024-11-24)
+    Hb 6.7 mmol/L (low)
+    Ferritin 28 µg/L
+    CRP 23 mg/L
+    Creatinine 71 µmol/L
 - Prior Consultations
-    - 2025-07-11 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-12-19 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Lisinopril 10 mg daily, Levothyroxine 75 µg daily, Amlodipine 5 mg daily, Furosemide 40 mg daily.
+    - 2024-03-07 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-06-16 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Levothyroxine 75 µg daily, Amlodipine 5 mg daily.
 - Allergies — None known.
 
-Chief Complaint:
-Jonas Laursen reports constant worry, muscle tension, and poor sleep.
-
-History of Present Illness:
-Jonas Laursen describes months of excessive anxiety difficult to control, with restlessness and fatigue. Denies panic attacks or substance misuse.
-
-Physical Examination:
-Anxious affect, fidgeting. HR 109 bpm, BP 127/94 mmHg. No tremor or thyrotoxicosis signs.
-
-Diagnostics (Today):
-Persistent anxiety with somatic tension; exclude thyroid and cardiac causes.
-
-Assessment:
-Generalized anxiety disorder.
+Present Illness:
+   - Magnus Lund presents with fever, flank pain, and urinary symptoms.
+- History of Present Illness
+   - Magnus Lund reports 3 days of dysuria, chills, and right-sided flank pain.
+- Physical Examination
+   - T 37.0 °C, costovertebral angle tenderness on right side. HR 92 bpm.
+- Diagnostics (Today)
+   - Urinalysis positive for nitrites; elevated CRP and WBC.
+- Assessment
+   - Acute pyelonephritis.
 
 Plan:
-- Begin CBT-focused therapy; consider SSRI or SNRI if persistent.
-- Teach breathing and relaxation exercises.
-- Avoid benzodiazepines long term.
+   - Start empiric antibiotic therapy.
+   - Hydration and pain control.
+   - Hospitalize if vomiting or sepsis.
+- Follow-up & Disposition
+   - Recheck in 10 days to confirm recovery.
 
 Patient Education & Safety Net:
-Explain nature of chronic anxiety and coping tools. Encourage sleep hygiene and regular exercise.
-
-Follow-up & Disposition:
-Review in 5 weeks to monitor response.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. K. Østergaard, General Surgery

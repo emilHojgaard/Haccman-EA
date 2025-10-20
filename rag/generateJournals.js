@@ -284,10 +284,10 @@ function buildMedicalHistoryBlock(encounterISO) {
     Math.random() < 0.8
       ? "None known."
       : rand([
-          "Penicillin (rash).",
-          "ACE inhibitors (cough).",
-          "NSAIDs (dyspepsia).",
-        ]);
+        "Penicillin (rash).",
+        "ACE inhibitors (cough).",
+        "NSAIDs (dyspepsia).",
+      ]);
 
   const lines = [];
   lines.push("Medical History & Prior Results:");
@@ -853,36 +853,26 @@ function buildEntry() {
   // Medical History & Prior Results (no colons in subsections)
   lines.push(...buildMedicalHistoryBlock(encounterDate));
 
-  lines.push("Chief Complaint:");
-  lines.push(cond.cc(name));
-  lines.push("");
-
-  lines.push("History of Present Illness:");
-  lines.push(cond.hpi(name));
-  lines.push("");
-
-  lines.push("Physical Examination:");
-  lines.push(cond.exam());
-  lines.push("");
-
-  lines.push("Diagnostics (Today):");
-  lines.push(cond.dx());
-  lines.push("");
-
-  lines.push("Assessment:");
-  lines.push(cond.assessment);
+  lines.push("Present Illness:");
+  lines.push(`   - ${cond.cc(name)}`);
+  lines.push(`- History of Present Illness`);
+  lines.push(`   - ${cond.hpi(name)}`);
+  lines.push(`- Physical Examination`);
+  lines.push(`   - ${cond.exam()}`);
+  lines.push(`- Diagnostics (Today)`);
+  lines.push(`   - ${cond.dx()}`);
+  lines.push(`- Assessment`);
+  lines.push(`   - ${cond.assessment}`);
   lines.push("");
 
   lines.push("Plan:");
-  for (const p of cond.plan) lines.push(`- ${p}`);
+  for (const p of cond.plan) lines.push(`   - ${p}`);
+  lines.push("- Follow-up & Disposition");
+  lines.push(`   - ${cond.followup()}`);
   lines.push("");
 
   lines.push("Patient Education & Safety Net:");
   lines.push(cond.education);
-  lines.push("");
-
-  lines.push("Follow-up & Disposition:");
-  lines.push(cond.followup());
   lines.push("");
 
   lines.push("Sign-off:");
@@ -899,8 +889,8 @@ const COUNT =
   Number.isFinite(argCount) && argCount > 0
     ? Math.floor(argCount)
     : Number.isFinite(envCount) && envCount > 0
-    ? Math.floor(envCount)
-    : 150;
+      ? Math.floor(envCount)
+      : 150;
 
 // Fresh output directory
 if (fs.existsSync(OUT_DIR))
