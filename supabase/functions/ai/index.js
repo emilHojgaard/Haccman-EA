@@ -65,7 +65,7 @@ Deno.serve(async (req) => {
   console.log("Request received");
 
   try {
-    const { message, systemPrompt, guardrail, previousPrompts } = await req.json();
+    const { message, systemPrompt, constrain, guardrail, previousPrompts } = await req.json();
 
     if (!OPENAI_API_KEY) {
       return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
@@ -108,7 +108,7 @@ Deno.serve(async (req) => {
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: guardrail },
-          ...(systemPrompt ? [{ role: "system", content: systemPrompt }] : []),
+          ...(systemPrompt ? [{ role: "system", content: systemPrompt + constrain }] : []),
           {
             role: "system",
             content: confidential
@@ -202,7 +202,7 @@ Your task:
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: guardrail },
-          ...(systemPrompt ? [{ role: "system", content: systemPrompt }] : []),
+          ...(systemPrompt ? [{ role: "system", content: systemPrompt + constrain }] : []),
           {
             role: "system",
             content: `
@@ -312,7 +312,7 @@ Your task:
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: guardrail },
-          ...(systemPrompt ? [{ role: "system", content: systemPrompt }] : []),
+          ...(systemPrompt ? [{ role: "system", content: systemPrompt + constrain }] : []),
           {
             role: "system",
             content:

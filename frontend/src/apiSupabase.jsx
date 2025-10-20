@@ -8,6 +8,7 @@ const FN_URL =
 export async function sendPromptToAI(
   message,
   systemPrompt,
+  constrain,
   guardrail,
   previousPrompts
 ) {
@@ -24,7 +25,13 @@ export async function sendPromptToAI(
         ? { Authorization: `Bearer ${session.access_token}` }
         : {}),
     },
-    body: JSON.stringify({ message, systemPrompt, guardrail, previousPrompts }),
+    body: JSON.stringify({
+      message,
+      systemPrompt,
+      constrain,
+      guardrail,
+      previousPrompts,
+    }),
   });
 
   if (!resp.ok) {
