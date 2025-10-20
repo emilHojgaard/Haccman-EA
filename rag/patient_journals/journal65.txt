@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 120252-8114
-Encounter Date - 2023-06-14
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Henrik Sørensen
+CPR-number - 141150-4420
+Encounter Date - 2024-10-08
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Sanne Sørensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Obesity (2008), Heart failure (HFpEF) (2013).
-- Recent Lab Results (2023-05-15)
-    Hb 8.3 mmol/L
-    Ferritin 130 µg/L
-    CRP 10 mg/L
-    Creatinine 71 µmol/L
+- Past Diagnoses — Asthma (1986), CKD (2005), Heart failure (HFpEF) (2017), Gallstones (2019).
+- Recent Lab Results (2024-09-06)
+    Hb 6.6 mmol/L (low)
+    Ferritin 34 µg/L
+    CRP 16 mg/L
+    Creatinine 89 µmol/L
 - Prior Consultations
-    - 2022-09-07 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-03-05 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Pantoprazole 40 mg daily, Lisinopril 10 mg daily.
+    - 2024-06-22 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-05-20 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Pantoprazole 40 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
 Chief Complaint:
-Henrik Sørensen complains of fever, productive cough, and right-sided chest pain.
+Sanne Sørensen presents with redness and swelling of the lower leg.
 
 History of Present Illness:
-Henrik Sørensen developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Sanne Sørensen noticed redness and tenderness spreading over 2 days. No trauma reported.
 
 Physical Examination:
-Febrile (36.9 °C), RR 15/min, SpO₂ 92% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Warm, erythematous area with indistinct margins, mild edema. T 36.7 °C.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Clinical cellulitis; CBC and CRP elevated.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Bacterial cellulitis, likely streptococcal.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Start empiric oral antibiotic covering streptococci.
+- Mark margin and monitor spread.
+- Elevate limb and manage pain.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Explain signs of worsening infection and when to seek urgent review.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Review in 2 days to assess response.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. A. Thomsen, Emergency Medicine

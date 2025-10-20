@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 180854-1692
-Encounter Date - 2025-07-07
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Emil Sørensen
+CPR-number - 100874-7608
+Encounter Date - 2025-05-15
+Author - Dr. O. Bjørk, Urology
+Patient Name - Brian Poulsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (2001), CKD (1994), Obesity (2018), COPD (2015), Chronic lower back pain.
-- Recent Lab Results (2025-05-10)
-    Hb 7.4 mmol/L (low)
-    Ferritin 72 µg/L
-    CRP 19 mg/L
-    Creatinine 98 µmol/L
+- Past Diagnoses — Gout (1987), GERD (2014), Type 2 Diabetes (1998), Dyslipidemia (2017), Chronic lower back pain.
+- Recent Lab Results (2025-03-22)
+    Hb 8.2 mmol/L
+    Ferritin 11 µg/L (low)
+    CRP 15 mg/L
+    Creatinine 96 µmol/L
 - Prior Consultations
-    - 2025-05-06 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2025-04-27 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Ramipril 5 mg daily, Atorvastatin 20 mg nightly, Bisoprolol 5 mg daily.
+    - 2025-04-12 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-12-20 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Lisinopril 10 mg daily, Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
 Chief Complaint:
-Emil Sørensen reports thirst, frequent urination, and blurred vision.
+Brian Poulsen reports shortness of breath and leg swelling.
 
 History of Present Illness:
-Emil Sørensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Brian Poulsen has gained 2 kg over the past week, with worsening dyspnea and orthopnea. Missed diuretic doses reported.
 
 Physical Examination:
-Vitals: BP 122/58 mmHg, HR 84 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Crackles at lung bases, bilateral pitting edema, elevated JVP. BP 141/73, HR 93 bpm.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+BNP elevated, chest X-ray shows pulmonary congestion.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Acute-on-chronic heart failure exacerbation.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Administer loop diuretic (e.g., furosemide).
+- Monitor weight and urine output.
+- Optimize heart failure regimen and education.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Teach daily weight monitoring, salt restriction, and when to seek urgent care.
 
 Follow-up & Disposition:
-Clinic follow-up in 2 weeks to assess response and review HbA1c.
+Follow-up in 2 weeks or earlier if symptoms recur.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. O. Bjørk, Urology

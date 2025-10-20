@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 200773-8005
-Encounter Date - 2025-02-20
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Ole Knudsen
+CPR-number - 240789-2643
+Encounter Date - 2025-08-17
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Jonas Lund
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (1990), Osteoporosis (2018), Iron Deficiency (2012).
-- Recent Lab Results (2025-01-28)
-    Hb 7.6 mmol/L
-    Ferritin 73 µg/L
-    CRP 8 mg/L
-    Creatinine 82 µmol/L
+- Past Diagnoses — Osteoporosis (2019), Anxiety (1982), Heart failure (HFrEF) (2019).
+- Recent Lab Results (2025-07-30)
+    Hb 8.3 mmol/L
+    Ferritin 84 µg/L
+    CRP 14 mg/L
+    Creatinine 68 µmol/L
 - Prior Consultations
-    - 2025-02-16 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2025-01-10 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Bisoprolol 5 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily.
+    - 2025-04-01 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-12-28 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Amlodipine 5 mg daily, Lisinopril 10 mg daily, Furosemide 40 mg daily, Bisoprolol 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Ole Knudsen reports thirst, frequent urination, and blurred vision.
+Jonas Lund presents with right lower quadrant abdominal pain and nausea.
 
 History of Present Illness:
-Ole Knudsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Jonas Lund reports 23 hours of migrating abdominal pain, initially periumbilical, now localized to right iliac fossa, with mild fever.
 
 Physical Examination:
-Vitals: BP 113/93 mmHg, HR 109 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+T 38.1 °C, tenderness and rebound in right lower quadrant, guarding present.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Leukocytosis and elevated CRP; ultrasound/CT confirms inflamed appendix.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Acute appendicitis.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- NPO, IV fluids, analgesia.
+- Surgical evaluation for appendectomy.
+- Administer pre-operative antibiotics.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Explain surgical procedure and recovery expectations.
 
 Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Postoperative review in 8 days.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. C. Mikkelsen, Endocrinology

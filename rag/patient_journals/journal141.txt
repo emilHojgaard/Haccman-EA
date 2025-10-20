@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 150197-9765
-Encounter Date - 2023-10-26
-Author - Dr. V. Laursen, Nephrology
-Patient Name - Julie Sørensen
+CPR-number - 201064-3970
+Encounter Date - 2023-05-15
+Author - Dr. J. Knudsen, ENT
+Patient Name - Søren Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Depression (1988), COPD (2015), Asthma (2008), Hypertension (1993), Chronic lower back pain.
-- Recent Lab Results (2023-09-16)
-    Hb 6.8 mmol/L (low)
-    Ferritin 134 µg/L
-    CRP 10 mg/L
-    Creatinine 96 µmol/L
+- Past Diagnoses — Gallstones (1995), Psoriasis (1980), GERD (2015), Chronic lower back pain.
+- Recent Lab Results (2023-04-01)
+    Hb 7.5 mmol/L
+    Ferritin 85 µg/L
+    CRP 8 mg/L
+    Creatinine 64 µmol/L
 - Prior Consultations
-    - 2023-07-16 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-10-11 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ferrous sulfate 100 mg every other day, Levothyroxine 75 µg daily.
+    - 2023-03-08 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2022-12-15 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day, Ramipril 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Julie Sørensen reports thirst, frequent urination, and blurred vision.
+Søren Petersen reports sore throat, cough, and mild fever.
 
 History of Present Illness:
-Julie Sørensen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Søren Petersen developed nasal congestion and cough 2 days ago. No dyspnea or chest pain.
 
 Physical Examination:
-Vitals: BP 150/64 mmHg, HR 110 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+T 37.5 °C, mild pharyngeal erythema, lungs clear.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Clinical diagnosis of viral upper respiratory tract infection.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Viral URI.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Supportive care: rest, fluids, paracetamol for fever.
+- Avoid unnecessary antibiotics.
+- Educate on hygiene and infection control.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Reassure benign course; return if high fever or worsening.
 
 Follow-up & Disposition:
-Clinic follow-up in 4 weeks to assess response and review HbA1c.
+Follow-up only if symptoms persist beyond 10 days.
 
 Sign-off:
-Dr. V. Laursen, Nephrology
+Dr. J. Knudsen, ENT

@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 100577-3688
-Encounter Date - 2024-04-19
-Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Lene Laursen
+CPR-number - 131269-6578
+Encounter Date - 2024-12-25
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Sebastian Jensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (1989), Gout (1983), Chronic lower back pain.
-- Recent Lab Results (2024-03-20)
-    Hb 8.0 mmol/L
-    Ferritin 109 µg/L
-    CRP 11 mg/L
-    Creatinine 60 µmol/L
+- Past Diagnoses — Hypertension (1990), Osteoarthritis (1980).
+- Recent Lab Results (2024-10-18)
+    Hb 6.6 mmol/L (low)
+    Ferritin 67 µg/L
+    CRP 14 mg/L
+    Creatinine 62 µmol/L
 - Prior Consultations
-    - 2023-10-18 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-12-22 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Bisoprolol 5 mg daily, Empagliflozin 10 mg daily.
+    - 2024-10-06 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-12-16 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Atorvastatin 20 mg nightly, Lisinopril 10 mg daily, Amlodipine 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Lene Laursen complains of fever, productive cough, and right-sided chest pain.
+Sebastian Jensen reports epigastric pain and indigestion.
 
 History of Present Illness:
-Lene Laursen developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Sebastian Jensen has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
 
 Physical Examination:
-Febrile (37.8 °C), RR 17/min, SpO₂ 93% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Epigastric tenderness, no guarding. Vitals: BP 162/78, HR 112.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Suspected gastritis/ulcer; H. pylori test ordered.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Peptic ulcer disease, likely NSAID-related.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
+- If positive, treat H. pylori.
+- Advise small, frequent meals and limit alcohol/caffeine.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Explain risk factors and warning signs of bleeding.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Reassess in 5 weeks; consider endoscopy if persistent.
 
 Sign-off:
-Dr. S. Nielsen, Pulmonology
+Dr. P. Jensen, Psychiatry

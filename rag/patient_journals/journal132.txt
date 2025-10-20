@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 060551-5284
-Encounter Date - 2024-03-31
-Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Kirsten Poulsen
+CPR-number - 050693-4240
+Encounter Date - 2024-08-25
+Author - Dr. O. Bjørk, Urology
+Patient Name - Sofia Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (2004), Hypertension (2019), Chronic lower back pain.
-- Recent Lab Results (2024-02-07)
-    Hb 8.5 mmol/L
-    Ferritin 146 µg/L
-    CRP 19 mg/L
-    Creatinine 83 µmol/L
+- Past Diagnoses — Heart failure (HFrEF) (2002), Peptic ulcer disease (2018), Chronic lower back pain.
+- Recent Lab Results (2024-07-15)
+    Hb 7.5 mmol/L
+    Ferritin 14 µg/L (low)
+    CRP 6 mg/L
+    Creatinine 103 µmol/L
 - Prior Consultations
-    - 2023-12-25 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2023-11-07 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Ramipril 5 mg daily, Amlodipine 5 mg daily, Bisoprolol 5 mg daily.
+    - 2024-07-01 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-06-16 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
 Chief Complaint:
-Kirsten Poulsen reports thirst, frequent urination, and blurred vision.
+Sofia Dam presents with joint stiffness and increased pain.
 
 History of Present Illness:
-Kirsten Poulsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Sofia Dam notes worsening knee pain over 7 days, aggravated by activity. No trauma or systemic symptoms.
 
 Physical Examination:
-Vitals: BP 125/60 mmHg, HR 85 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Mild joint effusion, bony tenderness, no warmth. BP 102/68.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+No acute inflammation; radiographs show osteoarthritic changes.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Osteoarthritis flare-up.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Use acetaminophen or topical NSAID.
+- Encourage physiotherapy and weight management.
+- Avoid prolonged inactivity.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Discuss chronic nature of OA and exercise importance.
 
 Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Reassess pain control in 8 weeks.
 
 Sign-off:
-Dr. S. Nielsen, Pulmonology
+Dr. O. Bjørk, Urology

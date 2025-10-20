@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 181287-4210
-Encounter Date - 2023-07-08
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Grethe Laursen
+CPR-number - 010786-9601
+Encounter Date - 2025-03-26
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Mette Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (1995), COPD (1996), Osteoarthritis (1980), Gallstones (2011), Chronic lower back pain.
-- Recent Lab Results (2023-05-18)
-    Hb 7.1 mmol/L (low)
-    Ferritin 121 µg/L
-    CRP 11 mg/L
-    Creatinine 110 µmol/L
+- Past Diagnoses — Type 2 Diabetes (1998), Osteoarthritis (2014), Chronic lower back pain.
+- Recent Lab Results (2025-03-19)
+    Hb 8.3 mmol/L
+    Ferritin 126 µg/L
+    CRP 24 mg/L
+    Creatinine 79 µmol/L
 - Prior Consultations
-    - 2023-04-26 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-07-01 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Levothyroxine 75 µg daily, Furosemide 40 mg daily.
+    - 2024-07-05 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-02-08 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Metformin 500 mg BID, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
 Chief Complaint:
-Grethe Laursen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Mette Dam reports shortness of breath and leg swelling.
 
 History of Present Illness:
-Grethe Laursen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Mette Dam has gained 3 kg over the past week, with worsening dyspnea and orthopnea. Missed diuretic doses reported.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 116/66 mmHg, HR 116 bpm). Abdomen soft, non-tender.
+Crackles at lung bases, bilateral pitting edema, elevated JVP. BP 110/63, HR 91 bpm.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+BNP elevated, chest X-ray shows pulmonary congestion.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Acute-on-chronic heart failure exacerbation.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Administer loop diuretic (e.g., furosemide).
+- Monitor weight and urine output.
+- Optimize heart failure regimen and education.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Teach daily weight monitoring, salt restriction, and when to seek urgent care.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Follow-up in 2 weeks or earlier if symptoms recur.
 
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. C. Mikkelsen, Endocrinology

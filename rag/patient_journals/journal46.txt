@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 281194-7321
-Encounter Date - 2025-08-15
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Solveig Sørensen
+CPR-number - 180933-3854
+Encounter Date - 2024-06-20
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Carsten Holm
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (2024), Iron Deficiency (1986), Osteoporosis (2013), Heart failure (HFrEF) (2005), Chronic lower back pain.
-- Recent Lab Results (2025-07-12)
-    Hb 7.2 mmol/L (low)
-    Ferritin 136 µg/L
-    CRP 16 mg/L
-    Creatinine 97 µmol/L
+- Past Diagnoses — Hypothyroidism (2013), Irritable bowel syndrome (2005), Type 2 Diabetes (1989), Chronic lower back pain.
+- Recent Lab Results (2024-03-27)
+    Hb 7.0 mmol/L (low)
+    Ferritin 28 µg/L
+    CRP 10 mg/L
+    Creatinine 74 µmol/L
 - Prior Consultations
-    - 2025-06-16 — Routine check-up — stable BP, mild anemia noted.
-    - 2025-06-05 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Amlodipine 5 mg daily, Levothyroxine 75 µg daily.
+    - 2024-01-29 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-07-25 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
 Chief Complaint:
-Solveig Sørensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Carsten Holm presents with hearing voices and increased suspiciousness.
 
 History of Present Illness:
-Solveig Sørensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Carsten Holm reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 118/80 mmHg, HR 77 bpm). Abdomen soft, non-tender.
+Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 156/76, HR 79 bpm.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Active psychosis; rule out intoxication or medical cause.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Restart antipsychotic (oral or depot).
+- Ensure safe environment; involve crisis team.
+- Assess capacity and consider inpatient admission if risk present.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Close follow-up within 3 days or inpatient as required.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. H. Sørensen, Internal Medicine

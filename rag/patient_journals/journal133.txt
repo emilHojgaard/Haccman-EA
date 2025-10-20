@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 110978-8526
-Encounter Date - 2024-05-17
-Author - Dr. J. Knudsen, ENT
-Patient Name - Mette Skov
+CPR-number - 130791-9209
+Encounter Date - 2025-06-26
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Rune Larsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (2021), CKD (1999), Heart failure (HFrEF) (2018), Peptic ulcer disease (2014), Chronic lower back pain.
-- Recent Lab Results (2024-04-27)
-    Hb 7.1 mmol/L (low)
-    Ferritin 71 µg/L
-    CRP 5 mg/L
-    Creatinine 107 µmol/L
+- Past Diagnoses — Obesity (2013), COPD (1984), Chronic lower back pain.
+- Recent Lab Results (2025-05-23)
+    Hb 6.6 mmol/L (low)
+    Ferritin 141 µg/L
+    CRP 25 mg/L
+    Creatinine 70 µmol/L
 - Prior Consultations
-    - 2024-02-24 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-03-18 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Pantoprazole 40 mg daily, Ramipril 5 mg daily, Metformin 500 mg BID.
+    - 2024-10-11 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-11-21 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Atorvastatin 20 mg nightly, Metformin 500 mg BID.
 - Allergies — None known.
 
 Chief Complaint:
-Mette Skov reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Rune Larsen presents for follow-up with persistently elevated blood pressure readings.
 
 History of Present Illness:
-Mette Skov notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Rune Larsen notes occasional headaches and dizziness. Adherence to medication inconsistent; diet high in salt.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 159/81 mmHg, HR 103 bpm). Abdomen soft, non-tender.
+BP 107/72 mmHg, HR 78 bpm, no edema, no murmurs.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Office BP elevated; renal function and electrolytes ordered.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Essential hypertension, suboptimally controlled.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Reinforce lifestyle modification (salt restriction, exercise).
+- Increase or add antihypertensive therapy.
+- Monitor home BP readings.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Explain importance of adherence and cardiovascular risk reduction.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Review in 3 weeks with BP log.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. S. Nielsen, Pulmonology

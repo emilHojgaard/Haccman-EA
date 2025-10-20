@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 260363-6785
-Encounter Date - 2024-11-23
-Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Thomas Gram
+CPR-number - 270855-3623
+Encounter Date - 2024-11-20
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Peter Christensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (2019), Obesity (2014), Chronic lower back pain.
-- Recent Lab Results (2024-09-26)
-    Hb 8.5 mmol/L
-    Ferritin 83 µg/L
-    CRP 15 mg/L
-    Creatinine 74 µmol/L
+- Past Diagnoses — Depression (2009), Atrial fibrillation (2000), Type 2 Diabetes (2012), CKD (2023).
+- Recent Lab Results (2024-10-04)
+    Hb 7.4 mmol/L (low)
+    Ferritin 41 µg/L
+    CRP 2 mg/L
+    Creatinine 70 µmol/L
 - Prior Consultations
-    - 2024-10-16 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-06-03 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Furosemide 40 mg daily, Ramipril 5 mg daily.
-- Allergies — None known.
+    - 2024-06-01 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-04-16 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Ferrous sulfate 100 mg every other day, Lisinopril 10 mg daily, Ramipril 5 mg daily.
+- Allergies — NSAIDs (dyspepsia).
 
 Chief Complaint:
-Thomas Gram reports thirst, frequent urination, and blurred vision.
+Peter Christensen presents with fever, flank pain, and urinary symptoms.
 
 History of Present Illness:
-Thomas Gram has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Peter Christensen reports 2 days of dysuria, chills, and right-sided flank pain.
 
 Physical Examination:
-Vitals: BP 103/88 mmHg, HR 95 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+T 37.0 °C, costovertebral angle tenderness on right side. HR 103 bpm.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Urinalysis positive for nitrites; elevated CRP and WBC.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Acute pyelonephritis.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Start empiric antibiotic therapy.
+- Hydration and pain control.
+- Hospitalize if vomiting or sepsis.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Follow-up & Disposition:
-Clinic follow-up in 4 weeks to assess response and review HbA1c.
+Recheck in 9 days to confirm recovery.
 
 Sign-off:
-Dr. C. Mikkelsen, Endocrinology
+Dr. M. Petersen, Gastroenterology

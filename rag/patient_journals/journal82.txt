@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 091045-3673
-Encounter Date - 2024-12-05
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Camilla Mikkelsen
+CPR-number - 280605-5028
+Encounter Date - 2024-04-17
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Anders Mikkelsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (2022), Hypertension (2009), Atrial fibrillation (2022), Heart failure (HFpEF) (1992).
-- Recent Lab Results (2024-11-29)
-    Hb 6.9 mmol/L (low)
-    Ferritin 130 µg/L
-    CRP 7 mg/L
-    Creatinine 59 µmol/L
+- Past Diagnoses — Iron Deficiency (1998), Irritable bowel syndrome (2022).
+- Recent Lab Results (2024-03-11)
+    Hb 7.9 mmol/L
+    Ferritin 89 µg/L
+    CRP 19 mg/L
+    Creatinine 68 µmol/L
 - Prior Consultations
-    - 2024-07-16 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-08-09 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Atorvastatin 20 mg nightly, Pantoprazole 40 mg daily.
+    - 2023-08-14 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-03-05 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Lisinopril 10 mg daily, Metformin 500 mg BID, Amlodipine 5 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
 Chief Complaint:
-Camilla Mikkelsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Anders Mikkelsen reports nightmares, flashbacks, and hypervigilance.
 
 History of Present Illness:
-Camilla Mikkelsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Anders Mikkelsen experienced a traumatic event 8 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 165/75 mmHg, HR 98 bpm). Abdomen soft, non-tender.
+Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 101/87, HR 66 bpm.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Post-traumatic stress disorder.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Refer for trauma-focused CBT or EMDR.
+- Avoid routine benzodiazepine use.
+- Consider SSRI if comorbid depression or anxiety.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Follow-up in 4 weeks to review therapy engagement.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. V. Laursen, Nephrology

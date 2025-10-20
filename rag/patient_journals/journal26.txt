@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 040642-3162
-Encounter Date - 2023-03-27
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Maja Bjørk
+CPR-number - 190275-0289
+Encounter Date - 2024-12-29
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Helle Bjørk
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (1996), Heart failure (HFpEF) (1993), GERD (1995), Atrial fibrillation (2019).
-- Recent Lab Results (2023-01-26)
-    Hb 6.5 mmol/L (low)
-    Ferritin 16 µg/L
-    CRP 11 mg/L
-    Creatinine 103 µmol/L
+- Past Diagnoses — Gallstones (2016), Depression (1995), Peptic ulcer disease (2002).
+- Recent Lab Results (2024-12-03)
+    Hb 7.7 mmol/L
+    Ferritin 48 µg/L
+    CRP 21 mg/L
+    Creatinine 64 µmol/L
 - Prior Consultations
-    - 2023-03-23 — Routine check-up — stable BP, mild anemia noted.
-    - 2022-11-20 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Pantoprazole 40 mg daily, Metformin 500 mg BID.
+    - 2024-09-23 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-12-17 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly, Furosemide 40 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Maja Bjørk complains of fever, productive cough, and right-sided chest pain.
+Helle Bjørk reports decreased need for sleep, elevated mood, and increased goal-directed activity.
 
 History of Present Illness:
-Maja Bjørk developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Helle Bjørk describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
 
 Physical Examination:
-Febrile (37.7 °C), RR 18/min, SpO₂ 93% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 102/87, HR 86 bpm).
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Findings consistent with manic episode; labs for lithium and thyroid function ordered.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Bipolar affective disorder, type I, current manic episode.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Continue or initiate mood stabilizer (e.g., lithium or valproate).
+- Discontinue antidepressants if present.
+- Offer short inpatient stabilization if insight poor or risk increases.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Follow-up in 5 days to reassess mood and safety.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. T. Bæk, Infectious Diseases

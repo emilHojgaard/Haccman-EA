@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 251046-1870
-Encounter Date - 2023-01-23
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Niklas Johansen
+CPR-number - 011007-5434
+Encounter Date - 2025-08-24
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Anders Gram
 
 Medical History & Prior Results:
-- Past Diagnoses — Iron Deficiency (2016), Asthma (2006), Heart failure (HFrEF) (2016), Chronic lower back pain.
-- Recent Lab Results (2022-12-22)
+- Past Diagnoses — Hypothyroidism (2015), Gallstones (1992).
+- Recent Lab Results (2025-08-15)
     Hb 8.5 mmol/L
-    Ferritin 120 µg/L
-    CRP 24 mg/L
-    Creatinine 67 µmol/L
+    Ferritin 32 µg/L
+    CRP 3 mg/L
+    Creatinine 90 µmol/L
 - Prior Consultations
-    - 2022-06-03 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2022-11-05 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Amlodipine 5 mg daily, Lisinopril 10 mg daily, Metformin 500 mg BID.
-- Allergies — None known.
+    - 2025-08-22 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2025-02-13 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Pantoprazole 40 mg daily, Lisinopril 10 mg daily, Bisoprolol 5 mg daily, Amlodipine 5 mg daily.
+- Allergies — ACE inhibitors (cough).
 
 Chief Complaint:
-Niklas Johansen complains of fever, productive cough, and right-sided chest pain.
+Anders Gram presents with hearing voices and increased suspiciousness.
 
 History of Present Illness:
-Niklas Johansen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Anders Gram reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
 
 Physical Examination:
-Febrile (36.1 °C), RR 13/min, SpO₂ 99% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 161/68, HR 93 bpm.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Active psychosis; rule out intoxication or medical cause.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Restart antipsychotic (oral or depot).
+- Ensure safe environment; involve crisis team.
+- Assess capacity and consider inpatient admission if risk present.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Close follow-up within 7 days or inpatient as required.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. E. Dam, Rheumatology

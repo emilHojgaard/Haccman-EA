@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 071168-0776
-Encounter Date - 2023-01-29
-Author - Dr. V. Laursen, Nephrology
-Patient Name - Niklas Rasmussen
+CPR-number - 200650-3906
+Encounter Date - 2024-11-17
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Søren Mortensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Type 2 Diabetes (1982), Osteoporosis (2016), Chronic lower back pain.
-- Recent Lab Results (2022-12-19)
-    Hb 7.7 mmol/L
-    Ferritin 52 µg/L
-    CRP 9 mg/L
-    Creatinine 58 µmol/L
+- Past Diagnoses — Depression (2009), Asthma (2007), GERD (2005), Peptic ulcer disease (1999).
+- Recent Lab Results (2024-10-24)
+    Hb 8.3 mmol/L
+    Ferritin 69 µg/L
+    CRP 8 mg/L
+    Creatinine 97 µmol/L
 - Prior Consultations
-    - 2022-08-14 — Routine check-up — stable BP, mild anemia noted.
-    - 2022-11-29 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Furosemide 40 mg daily, Bisoprolol 5 mg daily.
+    - 2024-11-08 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-02-26 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Ferrous sulfate 100 mg every other day, Lisinopril 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Niklas Rasmussen complains of fever, productive cough, and right-sided chest pain.
+Søren Mortensen reports decreased need for sleep, elevated mood, and increased goal-directed activity.
 
 History of Present Illness:
-Niklas Rasmussen developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Søren Mortensen describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
 
 Physical Examination:
-Febrile (36.5 °C), RR 16/min, SpO₂ 95% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 147/93, HR 63 bpm).
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Findings consistent with manic episode; labs for lithium and thyroid function ordered.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Bipolar affective disorder, type I, current manic episode.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Continue or initiate mood stabilizer (e.g., lithium or valproate).
+- Discontinue antidepressants if present.
+- Offer short inpatient stabilization if insight poor or risk increases.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up in 7 days to reassess mood and safety.
 
 Sign-off:
-Dr. V. Laursen, Nephrology
+Dr. S. Nielsen, Pulmonology

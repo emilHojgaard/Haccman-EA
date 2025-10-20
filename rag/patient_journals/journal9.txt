@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 180852-0078
-Encounter Date - 2024-02-27
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Tina Lund
+CPR-number - 020151-0239
+Encounter Date - 2024-08-19
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Søren Bang
 
 Medical History & Prior Results:
-- Past Diagnoses — Migraine (1997), COPD (2013), Atrial fibrillation (1992), Asthma (2014), Chronic lower back pain.
-- Recent Lab Results (2024-02-06)
-    Hb 7.1 mmol/L (low)
-    Ferritin 76 µg/L
-    CRP 24 mg/L
-    Creatinine 79 µmol/L
+- Past Diagnoses — GERD (1981), Heart failure (HFpEF) (1999), CKD (2016), Chronic lower back pain.
+- Recent Lab Results (2024-06-11)
+    Hb 7.8 mmol/L
+    Ferritin 49 µg/L
+    CRP 23 mg/L
+    Creatinine 90 µmol/L
 - Prior Consultations
-    - 2024-02-02 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-08-28 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Levothyroxine 75 µg daily, Furosemide 40 mg daily.
+    - 2023-11-09 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-05-10 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Ramipril 5 mg daily, Levothyroxine 75 µg daily, Furosemide 40 mg daily, Lisinopril 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Tina Lund reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Søren Bang reports sore throat, cough, and mild fever.
 
 History of Present Illness:
-Tina Lund notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Søren Bang developed nasal congestion and cough 5 days ago. No dyspnea or chest pain.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 105/60 mmHg, HR 93 bpm). Abdomen soft, non-tender.
+T 38.2 °C, mild pharyngeal erythema, lungs clear.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Clinical diagnosis of viral upper respiratory tract infection.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Viral URI.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Supportive care: rest, fluids, paracetamol for fever.
+- Avoid unnecessary antibiotics.
+- Educate on hygiene and infection control.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Reassure benign course; return if high fever or worsening.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Follow-up only if symptoms persist beyond 10 days.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. V. Laursen, Nephrology

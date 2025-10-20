@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 020630-1578
-Encounter Date - 2024-04-11
-Author - Dr. O. Bjørk, Urology
-Patient Name - Carsten Madsen
+CPR-number - 280159-2056
+Encounter Date - 2024-07-30
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Søren Johansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Psoriasis (1980), Asthma (2010), Irritable bowel syndrome (1992), Chronic lower back pain.
-- Recent Lab Results (2024-02-27)
-    Hb 6.6 mmol/L (low)
-    Ferritin 45 µg/L
-    CRP 25 mg/L
+- Past Diagnoses — Irritable bowel syndrome (2018), Depression (2011), Osteoarthritis (2013), Asthma (1992).
+- Recent Lab Results (2024-07-23)
+    Hb 7.2 mmol/L (low)
+    Ferritin 83 µg/L
+    CRP 17 mg/L
     Creatinine 99 µmol/L
 - Prior Consultations
-    - 2024-01-01 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-11-05 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Pantoprazole 40 mg daily, Furosemide 40 mg daily, Lisinopril 10 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2023-11-16 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-02-09 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Empagliflozin 10 mg daily, Ramipril 5 mg daily, Lisinopril 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Carsten Madsen reports thirst, frequent urination, and blurred vision.
+Søren Johansen reports sore throat, cough, and mild fever.
 
 History of Present Illness:
-Carsten Madsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Søren Johansen developed nasal congestion and cough 5 days ago. No dyspnea or chest pain.
 
 Physical Examination:
-Vitals: BP 167/88 mmHg, HR 85 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+T 36.5 °C, mild pharyngeal erythema, lungs clear.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Clinical diagnosis of viral upper respiratory tract infection.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Viral URI.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Supportive care: rest, fluids, paracetamol for fever.
+- Avoid unnecessary antibiotics.
+- Educate on hygiene and infection control.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Reassure benign course; return if high fever or worsening.
 
 Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Follow-up only if symptoms persist beyond 8 days.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. E. Dam, Rheumatology

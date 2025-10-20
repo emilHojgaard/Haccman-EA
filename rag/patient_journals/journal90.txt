@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 150494-1541
-Encounter Date - 2025-01-18
-Author - Dr. L. Holm, Cardiology
-Patient Name - Katrine Bang
+CPR-number - 060966-2828
+Encounter Date - 2024-03-10
+Author - Dr. J. Knudsen, ENT
+Patient Name - Rune Johansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (1996), Gout (2001), Migraine (2008), Chronic lower back pain.
-- Recent Lab Results (2024-12-23)
-    Hb 8.0 mmol/L
-    Ferritin 81 µg/L
-    CRP 11 mg/L
-    Creatinine 109 µmol/L
+- Past Diagnoses — Osteoporosis (1998), Dyslipidemia (1992).
+- Recent Lab Results (2023-12-23)
+    Hb 7.2 mmol/L (low)
+    Ferritin 88 µg/L
+    CRP 25 mg/L
+    Creatinine 67 µmol/L
 - Prior Consultations
-    - 2024-09-12 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-12-08 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Pantoprazole 40 mg daily, Lisinopril 10 mg daily, Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2023-11-14 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-10-07 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Levothyroxine 75 µg daily, Lisinopril 10 mg daily, Ramipril 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Katrine Bang reports thirst, frequent urination, and blurred vision.
+Rune Johansen complains of increased cough, sputum, and breathlessness.
 
 History of Present Illness:
-Katrine Bang has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Rune Johansen reports 6 days of worsening cough with purulent sputum and wheeze. No fever or chest pain.
 
 Physical Examination:
-Vitals: BP 108/88 mmHg, HR 109 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+RR 14/min, SpO₂ 99%. Wheezes and prolonged expiration on auscultation.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Likely infective COPD exacerbation; sputum culture if severe.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+COPD exacerbation, mild to moderate.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Increase bronchodilator frequency.
+- Start oral corticosteroid and consider antibiotic if purulent.
+- Ensure inhaler technique and smoking cessation advice.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Discuss exacerbation action plan and vaccination importance.
 
 Follow-up & Disposition:
-Clinic follow-up in 4 weeks to assess response and review HbA1c.
+Review in 2 weeks post-treatment.
 
 Sign-off:
-Dr. L. Holm, Cardiology
+Dr. J. Knudsen, ENT

@@ -1,30 +1,30 @@
 Document Information:
-CPR-number - 230155-1110
-Encounter Date - 2025-05-18
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Lene Gram
+CPR-number - 190268-8899
+Encounter Date - 2024-06-06
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Niklas Bæk
 
 Medical History & Prior Results:
-- Past Diagnoses — Atrial fibrillation (1993), Asthma (2006), Gallstones (2002), Heart failure (HFrEF) (1997).
-- Recent Lab Results (2025-05-04)
-    Hb 7.2 mmol/L (low)
-    Ferritin 36 µg/L
-    CRP 18 mg/L
-    Creatinine 82 µmol/L
+- Past Diagnoses — Osteoporosis (1997), Psoriasis (1988), Chronic lower back pain.
+- Recent Lab Results (2024-05-27)
+    Hb 8.2 mmol/L
+    Ferritin 17 µg/L
+    CRP 23 mg/L
+    Creatinine 104 µmol/L
 - Prior Consultations
-    - 2024-07-21 — Routine check-up — stable BP, mild anemia noted.
-    - 2025-02-12 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Ramipril 5 mg daily, Atorvastatin 20 mg nightly.
+    - 2024-05-04 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-05-16 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Bisoprolol 5 mg daily, Furosemide 40 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Lene Gram reports thirst, frequent urination, and blurred vision.
+Niklas Bæk reports thirst, frequent urination, and blurred vision.
 
 History of Present Illness:
-Lene Gram has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Niklas Bæk has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
 
 Physical Examination:
-Vitals: BP 154/65 mmHg, HR 96 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Vitals: BP 127/91 mmHg, HR 97 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
 
 Diagnostics (Today):
 Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
@@ -41,7 +41,7 @@ Patient Education & Safety Net:
 Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
 
 Follow-up & Disposition:
-Clinic follow-up in 4 weeks to assess response and review HbA1c.
+Clinic follow-up in 3 weeks to assess response and review HbA1c.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. H. Sørensen, Internal Medicine

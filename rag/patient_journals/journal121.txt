@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 240674-5974
-Encounter Date - 2023-05-26
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Brian Bæk
+CPR-number - 141172-4925
+Encounter Date - 2023-01-02
+Author - Dr. J. Knudsen, ENT
+Patient Name - Søren Andersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Migraine (2007), Gout (1996), Chronic lower back pain.
-- Recent Lab Results (2023-05-19)
-    Hb 7.0 mmol/L (low)
-    Ferritin 135 µg/L
-    CRP 19 mg/L
-    Creatinine 83 µmol/L
+- Past Diagnoses — Peptic ulcer disease (2007), Gout (2004), Migraine (1990), Chronic lower back pain.
+- Recent Lab Results (2022-12-17)
+    Hb 8.3 mmol/L
+    Ferritin 80 µg/L
+    CRP 18 mg/L
+    Creatinine 105 µmol/L
 - Prior Consultations
-    - 2022-08-14 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2023-02-10 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly, Amlodipine 5 mg daily, Bisoprolol 5 mg daily.
+    - 2022-11-09 — Routine check-up — stable BP, mild anemia noted.
+    - 2022-07-17 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Furosemide 40 mg daily, Levothyroxine 75 µg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Brian Bæk complains of fever, productive cough, and right-sided chest pain.
+Søren Andersen reports sore throat, cough, and mild fever.
 
 History of Present Illness:
-Brian Bæk developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Søren Andersen developed nasal congestion and cough 3 days ago. No dyspnea or chest pain.
 
 Physical Examination:
-Febrile (37.0 °C), RR 13/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+T 38.2 °C, mild pharyngeal erythema, lungs clear.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Clinical diagnosis of viral upper respiratory tract infection.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Viral URI.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Supportive care: rest, fluids, paracetamol for fever.
+- Avoid unnecessary antibiotics.
+- Educate on hygiene and infection control.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Reassure benign course; return if high fever or worsening.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up only if symptoms persist beyond 7 days.
 
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. J. Knudsen, ENT
