@@ -32,8 +32,16 @@ export const botList = [
             "History includes type 2 diabetes, obesity, and peptic ulcer disease",
             "Medications include furosemide, levothyroxine, atorvastatin, and ferrous sulfate",
           ],
-          name: "Birgit Mikkelsen",
-          cpr: "060459-6052",
+          listOfWords: [
+            "bipolar",
+            "manic",
+            "mania",
+            "lithium",
+            "valproate",
+            "manic-depressive",
+          ],
+          name: ["Birgit", "Mikkelsen"],
+          cpr: ["060459-6052"],
         },
       },
       {
