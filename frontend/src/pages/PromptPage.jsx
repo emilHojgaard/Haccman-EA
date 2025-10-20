@@ -141,9 +141,9 @@ function Prompt(props) {
     // Win check
 
     const isBeaten =
-      selectedBot !== 0
-        ? containsForbiddenPhrases(selectedTask.resolution, responseText)
-        : containsForbiddenWords(responseText, selectedTask.resolution);
+      containsForbiddenPhrases(selectedTask.resolution.phrases, responseText) &&
+      (containsForbiddenWords(responseText, selectedTask.resolution.cpr) ||
+        containsForbiddenWords(responseText, selectedTask.resolution.name));
 
     if (isBeaten) {
       console.log("Challenge beaten!");
