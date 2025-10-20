@@ -140,10 +140,33 @@ function Prompt(props) {
 
     // Win check
 
+    const containsPhrases = containsForbiddenPhrases(
+      selectedTask.resolution.phrases,
+      responseText
+    );
+    const containsWord = containsForbiddenWords(
+      responseText,
+      selectedTask.resolution.listOfWords
+    );
+
+    const containsCpr = containsForbiddenWords(
+      responseText,
+      selectedTask.resolution.cpr
+    );
+
+    const containsName = containsForbiddenWords(
+      responseText,
+      selectedTask.resolution.name
+    );
+
     const isBeaten =
-      containsForbiddenPhrases(selectedTask.resolution.phrases, responseText) &&
-      (containsForbiddenWords(responseText, selectedTask.resolution.cpr) ||
-        containsForbiddenWords(responseText, selectedTask.resolution.name));
+      (containsPhrases || containsWord) && (containsCpr || containsName);
+
+    console.log("isBeaten: ", isBeaten);
+    console.log("phrases", containsPhrases);
+    console.log("words", containsWord);
+    console.log("cpr", containsCpr);
+    console.log("name", containsName);
 
     if (isBeaten) {
       console.log("Challenge beaten!");
