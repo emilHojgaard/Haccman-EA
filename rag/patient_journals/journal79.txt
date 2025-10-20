@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 220769-2423
-Encounter Date - 2025-05-02
-Author - Dr. S. Gram, Hematology
-Patient Name - Birgit Dam
+CPR-number - 280458-9274
+Encounter Date - 2024-03-03
+Author - Dr. H. Sørensen, Internal Medicine
+Patient Name - Julie Christensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Atrial fibrillation (2007), Depression (2015), Obesity (2017), Chronic lower back pain.
-- Recent Lab Results (2025-04-11)
-    Hb 7.5 mmol/L
-    Ferritin 150 µg/L
-    CRP 7 mg/L
-    Creatinine 84 µmol/L
+- Past Diagnoses — COPD (1982), Iron Deficiency (1982).
+- Recent Lab Results (2023-12-12)
+    Hb 7.8 mmol/L
+    Ferritin 51 µg/L
+    CRP 14 mg/L
+    Creatinine 60 µmol/L
 - Prior Consultations
-    - 2025-01-25 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-12-28 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Ramipril 5 mg daily, Pantoprazole 40 mg daily.
+    - 2023-10-24 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-12-13 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Bisoprolol 5 mg daily, Pantoprazole 40 mg daily, Amlodipine 5 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Birgit Dam complains of fever, productive cough, and right-sided chest pain.
+Julie Christensen reports sore throat, cough, and mild fever.
 
 History of Present Illness:
-Birgit Dam developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Julie Christensen developed nasal congestion and cough 2 days ago. No dyspnea or chest pain.
 
 Physical Examination:
-Febrile (37.7 °C), RR 25/min, SpO₂ 100% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+T 36.5 °C, mild pharyngeal erythema, lungs clear.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Clinical diagnosis of viral upper respiratory tract infection.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Viral URI.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Supportive care: rest, fluids, paracetamol for fever.
+- Avoid unnecessary antibiotics.
+- Educate on hygiene and infection control.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Reassure benign course; return if high fever or worsening.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up only if symptoms persist beyond 9 days.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. H. Sørensen, Internal Medicine

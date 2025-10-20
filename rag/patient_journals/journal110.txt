@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 120694-2021
-Encounter Date - 2025-05-21
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Solveig Lund
+CPR-number - 231175-6039
+Encounter Date - 2023-07-02
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Morten Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (2016), GERD (1987), Heart failure (HFpEF) (1988), Hypothyroidism (1991).
-- Recent Lab Results (2025-04-29)
-    Hb 8.2 mmol/L
-    Ferritin 94 µg/L
-    CRP 24 mg/L
-    Creatinine 81 µmol/L
+- Past Diagnoses — Asthma (2015), Dyslipidemia (2001), Hypertension (2018).
+- Recent Lab Results (2023-05-11)
+    Hb 7.0 mmol/L (low)
+    Ferritin 67 µg/L
+    CRP 10 mg/L
+    Creatinine 60 µmol/L
 - Prior Consultations
-    - 2025-03-20 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2025-04-04 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Ramipril 5 mg daily, Metformin 500 mg BID, Levothyroxine 75 µg daily.
+    - 2022-12-15 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-03-01 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day, Amlodipine 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Solveig Lund reports thirst, frequent urination, and blurred vision.
+Morten Skov presents with hearing voices and increased suspiciousness.
 
 History of Present Illness:
-Solveig Lund has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Morten Skov reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
 
 Physical Examination:
-Vitals: BP 104/80 mmHg, HR 63 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 119/76, HR 64 bpm.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Active psychosis; rule out intoxication or medical cause.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Restart antipsychotic (oral or depot).
+- Ensure safe environment; involve crisis team.
+- Assess capacity and consider inpatient admission if risk present.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
 Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Close follow-up within 7 days or inpatient as required.
 
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. A. Thomsen, Emergency Medicine

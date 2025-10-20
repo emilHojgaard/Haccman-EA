@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 230743-5469
-Encounter Date - 2023-06-02
+CPR-number - 280543-6180
+Encounter Date - 2025-02-21
 Author - Dr. C. Mikkelsen, Endocrinology
-Patient Name - Niklas Madsen
+Patient Name - Anders Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Depression (2012), Migraine (1997).
-- Recent Lab Results (2023-05-05)
+- Past Diagnoses — CKD (2020), Dyslipidemia (2020), Atrial fibrillation (2007).
+- Recent Lab Results (2025-01-27)
     Hb 7.2 mmol/L (low)
-    Ferritin 39 µg/L
-    CRP 21 mg/L
-    Creatinine 82 µmol/L
+    Ferritin 120 µg/L
+    CRP 16 mg/L
+    Creatinine 90 µmol/L
 - Prior Consultations
-    - 2022-10-26 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-05-20 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Furosemide 40 mg daily, Lisinopril 10 mg daily, Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day.
+    - 2024-06-14 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-10-24 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Ferrous sulfate 100 mg every other day, Metformin 500 mg BID.
 - Allergies — None known.
 
 Chief Complaint:
-Niklas Madsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Anders Petersen reports recurrent episodes of sudden intense fear and palpitations.
 
 History of Present Illness:
-Niklas Madsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Anders Petersen describes abrupt attacks of shortness of breath, chest tightness, and fear of dying lasting 7 minutes. Between attacks, anticipatory anxiety persists.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 107/80 mmHg, HR 77 bpm). Abdomen soft, non-tender.
+During visit, mildly anxious, HR 71 bpm, BP 159/65. ECG normal.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Recurrent panic attacks without underlying cardiac or endocrine cause.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Panic disorder.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Provide CBT focused on panic management.
+- Consider SSRI for long-term control.
+- Educate on breathing and relaxation techniques.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Explain physiological basis of panic and avoidance behaviors. Encourage gradual exposure to feared situations.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
+Follow-up in 6 weeks for progress evaluation.
 
 Sign-off:
 Dr. C. Mikkelsen, Endocrinology

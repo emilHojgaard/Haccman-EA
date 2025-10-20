@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 061298-6447
-Encounter Date - 2023-02-08
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Lars Gram
+CPR-number - 230896-1051
+Encounter Date - 2024-10-07
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Maria Sørensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypertension (1994), Asthma (1985), Gallstones (1986), CKD (1983), Chronic lower back pain.
-- Recent Lab Results (2022-12-07)
-    Hb 7.2 mmol/L (low)
-    Ferritin 37 µg/L
-    CRP 10 mg/L
-    Creatinine 80 µmol/L
+- Past Diagnoses — Heart failure (HFrEF) (1996), Obesity (2010), Depression (1992), Chronic lower back pain.
+- Recent Lab Results (2024-09-16)
+    Hb 7.5 mmol/L
+    Ferritin 86 µg/L
+    CRP 15 mg/L
+    Creatinine 92 µmol/L
 - Prior Consultations
-    - 2022-10-04 — Routine check-up — stable BP, mild anemia noted.
-    - 2022-04-17 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Amlodipine 5 mg daily, Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day.
+    - 2024-10-02 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-10-02 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Ramipril 5 mg daily, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Lars Gram reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Maria Sørensen reports dysuria, frequency, and suprapubic discomfort.
 
 History of Present Illness:
-Lars Gram notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Maria Sørensen developed burning on urination for 4 days. No flank pain or fever.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 166/71 mmHg, HR 99 bpm). Abdomen soft, non-tender.
+Afebrile (37.6 °C), suprapubic tenderness. No costovertebral angle tenderness.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Urinalysis positive for nitrites and leukocytes.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Uncomplicated lower urinary tract infection.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Start short course of oral antibiotic per protocol.
+- Encourage fluid intake.
+- Review symptoms resolution.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Advise to complete antibiotics and monitor for fever or flank pain.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Follow-up if symptoms persist beyond 3 days.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. M. Petersen, Gastroenterology

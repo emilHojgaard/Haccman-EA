@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 051044-9814
-Encounter Date - 2024-02-27
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Christian Olsen
+CPR-number - 180274-2400
+Encounter Date - 2023-12-19
+Author - Dr. R. Iversen, Neurology
+Patient Name - Louise Østergaard
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFpEF) (2015), Atrial fibrillation (2014), Asthma (2010).
-- Recent Lab Results (2024-01-16)
-    Hb 7.5 mmol/L
-    Ferritin 74 µg/L
-    CRP 9 mg/L
-    Creatinine 68 µmol/L
+- Past Diagnoses — COPD (2006), Dyslipidemia (2010), Iron Deficiency (2001).
+- Recent Lab Results (2023-11-01)
+    Hb 7.3 mmol/L (low)
+    Ferritin 25 µg/L
+    CRP 15 mg/L
+    Creatinine 72 µmol/L
 - Prior Consultations
-    - 2023-11-06 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-01-18 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Pantoprazole 40 mg daily, Levothyroxine 75 µg daily.
+    - 2023-01-28 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-09-14 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Ramipril 5 mg daily, Furosemide 40 mg daily, Bisoprolol 5 mg daily, Metformin 500 mg BID.
 - Allergies — None known.
 
 Chief Complaint:
-Christian Olsen reports thirst, frequent urination, and blurred vision.
+Louise Østergaard reports stress and low mood following a recent life event.
 
 History of Present Illness:
-Christian Olsen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Louise Østergaard describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
 
 Physical Examination:
-Vitals: BP 112/67 mmHg, HR 108 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 151/65).
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Adjustment disorder with mixed anxiety and depressed mood.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Provide supportive counselling.
+- Encourage coping strategies and social support.
+- Short-term anxiolytic if severe insomnia or anxiety.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
 
 Follow-up & Disposition:
-Clinic follow-up in 4 weeks to assess response and review HbA1c.
+Follow-up in 5 weeks to reassess.
 
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. R. Iversen, Neurology

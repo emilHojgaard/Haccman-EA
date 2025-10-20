@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 160931-0788
-Encounter Date - 2025-07-10
+CPR-number - 040948-8367
+Encounter Date - 2024-09-27
 Author - Dr. E. Dam, Rheumatology
-Patient Name - Anne Hansen
+Patient Name - Katrine Madsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (1989), Dyslipidemia (2003), Heart failure (HFrEF) (2024).
-- Recent Lab Results (2025-06-23)
-    Hb 7.3 mmol/L (low)
-    Ferritin 120 µg/L
-    CRP 10 mg/L
-    Creatinine 69 µmol/L
+- Past Diagnoses — Gout (2013), Heart failure (HFrEF) (2010), Chronic lower back pain.
+- Recent Lab Results (2024-08-07)
+    Hb 7.9 mmol/L
+    Ferritin 78 µg/L
+    CRP 11 mg/L
+    Creatinine 82 µmol/L
 - Prior Consultations
-    - 2025-02-03 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2025-02-14 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Ferrous sulfate 100 mg every other day, Pantoprazole 40 mg daily, Ramipril 5 mg daily, Atorvastatin 20 mg nightly.
+    - 2024-07-01 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-09-16 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Pantoprazole 40 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Anne Hansen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Katrine Madsen reports worsening lower back pain.
 
 History of Present Illness:
-Anne Hansen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Katrine Madsen has chronic back pain now intensified after lifting or prolonged sitting. No radicular symptoms or incontinence.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 134/70 mmHg, HR 104 bpm). Abdomen soft, non-tender.
+Paraspinal muscle tenderness, normal reflexes and strength. BP 166/97.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Mechanical exacerbation of chronic low back pain.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Chronic low back pain, acute exacerbation.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Encourage activity as tolerated.
+- Use heat therapy and simple analgesics.
+- Refer for physiotherapy if persistent.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss posture, core strengthening, and weight control.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
+Follow-up in 6 weeks.
 
 Sign-off:
 Dr. E. Dam, Rheumatology

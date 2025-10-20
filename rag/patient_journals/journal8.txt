@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 120532-5490
-Encounter Date - 2024-01-18
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Lene Bæk
+CPR-number - 170782-2555
+Encounter Date - 2024-12-12
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Sanne Pedersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypertension (1996), Gallstones (2005), Obesity (1984), Osteoporosis (2001).
-- Recent Lab Results (2023-11-29)
-    Hb 7.2 mmol/L (low)
-    Ferritin 20 µg/L
-    CRP 22 mg/L
-    Creatinine 103 µmol/L
+- Past Diagnoses — Heart failure (HFrEF) (2012), GERD (2006).
+- Recent Lab Results (2024-12-03)
+    Hb 7.1 mmol/L (low)
+    Ferritin 122 µg/L
+    CRP 7 mg/L
+    Creatinine 74 µmol/L
 - Prior Consultations
-    - 2023-09-23 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-05-25 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly, Levothyroxine 75 µg daily.
+    - 2024-10-31 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-07-13 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Levothyroxine 75 µg daily, Empagliflozin 10 mg daily, Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Lene Bæk reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Sanne Pedersen reports constant worry, muscle tension, and poor sleep.
 
 History of Present Illness:
-Lene Bæk notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Sanne Pedersen describes months of excessive anxiety difficult to control, with restlessness and fatigue. Denies panic attacks or substance misuse.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 104/74 mmHg, HR 91 bpm). Abdomen soft, non-tender.
+Anxious affect, fidgeting. HR 116 bpm, BP 103/66 mmHg. No tremor or thyrotoxicosis signs.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Persistent anxiety with somatic tension; exclude thyroid and cardiac causes.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Generalized anxiety disorder.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Begin CBT-focused therapy; consider SSRI or SNRI if persistent.
+- Teach breathing and relaxation exercises.
+- Avoid benzodiazepines long term.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Explain nature of chronic anxiety and coping tools. Encourage sleep hygiene and regular exercise.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Review in 4 weeks to monitor response.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. V. Laursen, Nephrology

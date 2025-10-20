@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 130595-9256
-Encounter Date - 2023-03-04
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Kirsten Larsen
+CPR-number - 101194-5450
+Encounter Date - 2024-10-26
+Author - Dr. S. Gram, Hematology
+Patient Name - Viggo Iversen
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (2017), Gallstones (2018), Asthma (2000), Heart failure (HFrEF) (1980).
-- Recent Lab Results (2023-02-17)
-    Hb 8.3 mmol/L
-    Ferritin 73 µg/L
-    CRP 19 mg/L
-    Creatinine 67 µmol/L
+- Past Diagnoses — Heart failure (HFrEF) (2004), CKD (1993).
+- Recent Lab Results (2024-08-01)
+    Hb 7.6 mmol/L
+    Ferritin 52 µg/L
+    CRP 14 mg/L
+    Creatinine 56 µmol/L
 - Prior Consultations
-    - 2022-12-21 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2022-12-25 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Amlodipine 5 mg daily, Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day, Metformin 500 mg BID.
-- Allergies — NSAIDs (dyspepsia).
+    - 2024-07-06 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-09-13 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Ramipril 5 mg daily, Amlodipine 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Kirsten Larsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Viggo Iversen presents with throbbing unilateral headache and nausea.
 
 History of Present Illness:
-Kirsten Larsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Viggo Iversen reports recurrent headaches lasting 20 hours, aggravated by light and noise. No focal neurological deficits.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 139/67 mmHg, HR 117 bpm). Abdomen soft, non-tender.
+Normal neuro exam. BP 146/88, HR 79.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Clinical diagnosis of migraine; exclude secondary causes if atypical.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Migraine without aura.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Administer triptan and antiemetic as needed.
+- Avoid triggers, maintain hydration and regular sleep.
+- Consider prophylactic therapy if frequent attacks.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss trigger identification and medication overuse prevention.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Follow-up in 8 weeks for frequency reassessment.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. S. Gram, Hematology

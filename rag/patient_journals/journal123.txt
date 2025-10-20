@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 240433-8005
-Encounter Date - 2023-09-30
-Author - Dr. S. Gram, Hematology
-Patient Name - Louise Jensen
+CPR-number - 100197-4217
+Encounter Date - 2025-05-23
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Katrine Bæk
 
 Medical History & Prior Results:
-- Past Diagnoses — Dyslipidemia (1990), GERD (2011), Asthma (1985), Osteoporosis (2005), Chronic lower back pain.
-- Recent Lab Results (2023-09-23)
-    Hb 6.7 mmol/L (low)
-    Ferritin 82 µg/L
-    CRP 19 mg/L
-    Creatinine 101 µmol/L
+- Past Diagnoses — Depression (1992), Osteoporosis (2024).
+- Recent Lab Results (2025-05-16)
+    Hb 7.0 mmol/L (low)
+    Ferritin 26 µg/L
+    CRP 17 mg/L
+    Creatinine 85 µmol/L
 - Prior Consultations
-    - 2023-05-01 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-04-06 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Lisinopril 10 mg daily, Ferrous sulfate 100 mg every other day, Levothyroxine 75 µg daily, Ramipril 5 mg daily.
+    - 2025-04-30 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-10-16 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Pantoprazole 40 mg daily, Metformin 500 mg BID, Lisinopril 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Louise Jensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Katrine Bæk reports nightmares, flashbacks, and hypervigilance.
 
 History of Present Illness:
-Louise Jensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Katrine Bæk experienced a traumatic event 5 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 143/64 mmHg, HR 112 bpm). Abdomen soft, non-tender.
+Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 140/63, HR 80 bpm.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Post-traumatic stress disorder.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Refer for trauma-focused CBT or EMDR.
+- Avoid routine benzodiazepine use.
+- Consider SSRI if comorbid depression or anxiety.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
+Follow-up in 5 weeks to review therapy engagement.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. P. Jensen, Psychiatry

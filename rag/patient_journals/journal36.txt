@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 021253-3620
-Encounter Date - 2025-06-22
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Maria Laursen
+CPR-number - 010691-5321
+Encounter Date - 2024-02-13
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Jonas Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypertension (2007), Dyslipidemia (1995).
-- Recent Lab Results (2025-05-12)
-    Hb 7.2 mmol/L (low)
-    Ferritin 77 µg/L
-    CRP 11 mg/L
-    Creatinine 68 µmol/L
+- Past Diagnoses — Hypothyroidism (1983), Dyslipidemia (1987), Hypertension (2000), Chronic lower back pain.
+- Recent Lab Results (2023-12-26)
+    Hb 8.1 mmol/L
+    Ferritin 58 µg/L
+    CRP 18 mg/L
+    Creatinine 55 µmol/L
 - Prior Consultations
-    - 2025-03-26 — Routine check-up — stable BP, mild anemia noted.
-    - 2025-02-25 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Atorvastatin 20 mg nightly, Pantoprazole 40 mg daily, Ferrous sulfate 100 mg every other day, Ramipril 5 mg daily.
-- Allergies — None known.
+    - 2023-10-19 — Routine check-up — stable BP, mild anemia noted.
+    - 2023-07-16 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Bisoprolol 5 mg daily, Amlodipine 5 mg daily.
+- Allergies — NSAIDs (dyspepsia).
 
 Chief Complaint:
-Maria Laursen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Jonas Dam presents with redness and swelling of the lower leg.
 
 History of Present Illness:
-Maria Laursen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Jonas Dam noticed redness and tenderness spreading over 3 days. No trauma reported.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 99/90 mmHg, HR 82 bpm). Abdomen soft, non-tender.
+Warm, erythematous area with indistinct margins, mild edema. T 38.0 °C.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Clinical cellulitis; CBC and CRP elevated.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Bacterial cellulitis, likely streptococcal.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Start empiric oral antibiotic covering streptococci.
+- Mark margin and monitor spread.
+- Elevate limb and manage pain.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Explain signs of worsening infection and when to seek urgent review.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Review in 3 days to assess response.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. S. Nielsen, Pulmonology

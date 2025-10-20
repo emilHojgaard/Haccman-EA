@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 240990-1779
-Encounter Date - 2024-08-03
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Emil Johansen
+CPR-number - 020998-1290
+Encounter Date - 2023-04-23
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Helle Bæk
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (1990), Heart failure (HFrEF) (1990), Iron Deficiency (2011).
-- Recent Lab Results (2024-07-05)
-    Hb 8.2 mmol/L
-    Ferritin 150 µg/L
-    CRP 15 mg/L
-    Creatinine 78 µmol/L
+- Past Diagnoses — Anxiety (2000), Psoriasis (2021).
+- Recent Lab Results (2023-04-06)
+    Hb 7.0 mmol/L (low)
+    Ferritin 73 µg/L
+    CRP 25 mg/L
+    Creatinine 64 µmol/L
 - Prior Consultations
-    - 2023-12-12 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-05-11 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Pantoprazole 40 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily.
-- Allergies — None known.
+    - 2023-02-17 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2022-11-29 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Empagliflozin 10 mg daily, Pantoprazole 40 mg daily, Atorvastatin 20 mg nightly.
+- Allergies — NSAIDs (dyspepsia).
 
 Chief Complaint:
-Emil Johansen complains of fever, productive cough, and right-sided chest pain.
+Helle Bæk reports persistent sadness, fatigue, and loss of interest in usual activities.
 
 History of Present Illness:
-Emil Johansen developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Helle Bæk has felt low for the past 6 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
 
 Physical Examination:
-Febrile (37.0 °C), RR 21/min, SpO₂ 100% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 107/68, HR 82).
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Major depressive episode, moderate severity.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
+- Encourage structured daily routine and gradual activity.
+- Refer for psychotherapy or CBT.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up in 2 weeks to assess mood and adherence.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. T. Bæk, Infectious Diseases

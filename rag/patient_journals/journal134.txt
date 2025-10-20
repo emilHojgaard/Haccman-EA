@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 280543-3398
-Encounter Date - 2025-01-20
-Author - Dr. O. Bjørk, Urology
-Patient Name - Rasmus Larsen
+CPR-number - 080348-1638
+Encounter Date - 2023-03-30
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Niklas Mikkelsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gallstones (1996), Peptic ulcer disease (2024), Gout (2017), Chronic lower back pain.
-- Recent Lab Results (2025-01-03)
-    Hb 7.0 mmol/L (low)
-    Ferritin 19 µg/L
-    CRP 3 mg/L
-    Creatinine 93 µmol/L
+- Past Diagnoses — Heart failure (HFpEF) (1986), Obesity (2021), Hypertension (1994), Peptic ulcer disease (2006).
+- Recent Lab Results (2023-03-28)
+    Hb 7.5 mmol/L
+    Ferritin 47 µg/L
+    CRP 5 mg/L
+    Creatinine 75 µmol/L
 - Prior Consultations
-    - 2024-04-29 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-10-24 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Bisoprolol 5 mg daily, Empagliflozin 10 mg daily.
+    - 2023-02-14 — Routine check-up — stable BP, mild anemia noted.
+    - 2022-04-16 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Pantoprazole 40 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
 Chief Complaint:
-Rasmus Larsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Niklas Mikkelsen presents with fever, flank pain, and urinary symptoms.
 
 History of Present Illness:
-Rasmus Larsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Niklas Mikkelsen reports 2 days of dysuria, chills, and right-sided flank pain.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 133/98 mmHg, HR 84 bpm). Abdomen soft, non-tender.
+T 38.2 °C, costovertebral angle tenderness on right side. HR 71 bpm.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Urinalysis positive for nitrites; elevated CRP and WBC.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Acute pyelonephritis.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Start empiric antibiotic therapy.
+- Hydration and pain control.
+- Hospitalize if vomiting or sepsis.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Recheck in 10 days to confirm recovery.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. P. Jensen, Psychiatry

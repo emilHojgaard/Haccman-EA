@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 151270-6502
-Encounter Date - 2023-05-19
-Author - Dr. O. Bjørk, Urology
-Patient Name - Anja Petersen
+CPR-number - 070240-5133
+Encounter Date - 2024-11-04
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Peter Thomsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFpEF) (1982), Asthma (1992), Anxiety (2022), Heart failure (HFrEF) (2020).
-- Recent Lab Results (2023-05-04)
-    Hb 7.3 mmol/L (low)
-    Ferritin 32 µg/L
+- Past Diagnoses — COPD (1992), Osteoarthritis (2023), Heart failure (HFrEF) (2017), GERD (2015), Chronic lower back pain.
+- Recent Lab Results (2024-09-08)
+    Hb 7.7 mmol/L
+    Ferritin 114 µg/L
     CRP 9 mg/L
-    Creatinine 72 µmol/L
+    Creatinine 83 µmol/L
 - Prior Consultations
-    - 2022-09-26 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2022-11-22 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Levothyroxine 75 µg daily, Lisinopril 10 mg daily, Ramipril 5 mg daily, Furosemide 40 mg daily.
+    - 2024-05-04 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-09-05 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Anja Petersen complains of fever, productive cough, and right-sided chest pain.
+Peter Thomsen reports sudden onset of joint pain and swelling.
 
 History of Present Illness:
-Anja Petersen developed a sudden cough with green sputum 4 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Peter Thomsen developed severe pain in the first MTP joint overnight, with redness and swelling. No trauma or fever.
 
 Physical Examination:
-Febrile (36.9 °C), RR 20/min, SpO₂ 93% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Erythematous, tender MTP joint. Vitals: BP 103/68, HR 115.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Serum uric acid elevated; joint aspirate with monosodium urate crystals.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Acute gout attack.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Start NSAID or colchicine (if renal function allows).
+- Elevate limb and apply ice packs.
+- Review long-term urate-lowering therapy adherence.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Avoid alcohol and purine-rich foods; maintain hydration.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up in 3 days to monitor improvement.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. V. Laursen, Nephrology

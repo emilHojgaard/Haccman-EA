@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 030298-0830
-Encounter Date - 2025-07-03
-Author - Dr. L. Holm, Cardiology
-Patient Name - Anne Sørensen
+CPR-number - 160394-4322
+Encounter Date - 2025-05-22
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Magnus Hansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (1997), GERD (1981), Chronic lower back pain.
-- Recent Lab Results (2025-06-21)
-    Hb 7.5 mmol/L
-    Ferritin 144 µg/L
-    CRP 6 mg/L
-    Creatinine 93 µmol/L
+- Past Diagnoses — Psoriasis (2001), Dyslipidemia (1985), Chronic lower back pain.
+- Recent Lab Results (2025-05-17)
+    Hb 7.3 mmol/L (low)
+    Ferritin 26 µg/L
+    CRP 16 mg/L
+    Creatinine 72 µmol/L
 - Prior Consultations
-    - 2025-03-21 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-10-10 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Bisoprolol 5 mg daily, Pantoprazole 40 mg daily, Empagliflozin 10 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2025-04-10 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-12-24 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Amlodipine 5 mg daily, Empagliflozin 10 mg daily, Pantoprazole 40 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Anne Sørensen complains of fever, productive cough, and right-sided chest pain.
+Magnus Hansen reports epigastric pain and indigestion.
 
 History of Present Illness:
-Anne Sørensen developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Magnus Hansen has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
 
 Physical Examination:
-Febrile (37.5 °C), RR 25/min, SpO₂ 99% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Epigastric tenderness, no guarding. Vitals: BP 158/88, HR 105.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Suspected gastritis/ulcer; H. pylori test ordered.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Peptic ulcer disease, likely NSAID-related.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
+- If positive, treat H. pylori.
+- Advise small, frequent meals and limit alcohol/caffeine.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Explain risk factors and warning signs of bleeding.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Reassess in 6 weeks; consider endoscopy if persistent.
 
 Sign-off:
-Dr. L. Holm, Cardiology
+Dr. K. Østergaard, General Surgery

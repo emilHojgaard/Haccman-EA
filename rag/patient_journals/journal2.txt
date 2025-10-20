@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 050600-9973
-Encounter Date - 2025-03-05
+CPR-number - 230160-8964
+Encounter Date - 2024-03-31
 Author - Dr. K. Østergaard, General Surgery
-Patient Name - Rune Bæk
+Patient Name - Lars Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (1997), Peptic ulcer disease (2004), Heart failure (HFrEF) (2011), Chronic lower back pain.
-- Recent Lab Results (2025-02-14)
-    Hb 7.3 mmol/L (low)
-    Ferritin 57 µg/L
-    CRP 20 mg/L
-    Creatinine 55 µmol/L
+- Past Diagnoses — Hypothyroidism (1995), Psoriasis (2019), Dyslipidemia (2008), Chronic lower back pain.
+- Recent Lab Results (2024-03-19)
+    Hb 7.9 mmol/L
+    Ferritin 8 µg/L (low)
+    CRP 8 mg/L
+    Creatinine 108 µmol/L
 - Prior Consultations
-    - 2025-02-20 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2025-02-17 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Levothyroxine 75 µg daily, Lisinopril 10 mg daily.
+    - 2023-07-06 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-03-20 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Amlodipine 5 mg daily, Levothyroxine 75 µg daily, Lisinopril 10 mg daily, Ramipril 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Rune Bæk reports thirst, frequent urination, and blurred vision.
+Lars Skov presents with redness and swelling of the lower leg.
 
 History of Present Illness:
-Rune Bæk has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Lars Skov noticed redness and tenderness spreading over 1 days. No trauma reported.
 
 Physical Examination:
-Vitals: BP 104/74 mmHg, HR 113 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Warm, erythematous area with indistinct margins, mild edema. T 36.7 °C.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Clinical cellulitis; CBC and CRP elevated.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Bacterial cellulitis, likely streptococcal.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Start empiric oral antibiotic covering streptococci.
+- Mark margin and monitor spread.
+- Elevate limb and manage pain.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Explain signs of worsening infection and when to seek urgent review.
 
 Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Review in 2 days to assess response.
 
 Sign-off:
 Dr. K. Østergaard, General Surgery

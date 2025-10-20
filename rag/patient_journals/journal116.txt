@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 260700-4093
-Encounter Date - 2025-01-25
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Peter Holm
+CPR-number - 120750-3154
+Encounter Date - 2024-02-11
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Solveig Hansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (2020), Psoriasis (1987), Osteoarthritis (1980), GERD (1999).
-- Recent Lab Results (2024-12-21)
-    Hb 6.7 mmol/L (low)
-    Ferritin 51 µg/L
+- Past Diagnoses — Atrial fibrillation (2001), Peptic ulcer disease (2005), Hypothyroidism (2008), GERD (2008), Chronic lower back pain.
+- Recent Lab Results (2023-12-21)
+    Hb 7.2 mmol/L (low)
+    Ferritin 138 µg/L
     CRP 16 mg/L
-    Creatinine 75 µmol/L
+    Creatinine 110 µmol/L
 - Prior Consultations
-    - 2025-01-08 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-04-24 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Ferrous sulfate 100 mg every other day, Lisinopril 10 mg daily, Pantoprazole 40 mg daily.
-- Allergies — NSAIDs (dyspepsia).
+    - 2023-09-19 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-02-03 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day.
+- Allergies — None known.
 
 Chief Complaint:
-Peter Holm reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Solveig Hansen reports recurrent episodes of sudden intense fear and palpitations.
 
 History of Present Illness:
-Peter Holm notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Solveig Hansen describes abrupt attacks of shortness of breath, chest tightness, and fear of dying lasting 8 minutes. Between attacks, anticipatory anxiety persists.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 145/75 mmHg, HR 111 bpm). Abdomen soft, non-tender.
+During visit, mildly anxious, HR 68 bpm, BP 124/71. ECG normal.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Recurrent panic attacks without underlying cardiac or endocrine cause.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Panic disorder.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Provide CBT focused on panic management.
+- Consider SSRI for long-term control.
+- Educate on breathing and relaxation techniques.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Explain physiological basis of panic and avoidance behaviors. Encourage gradual exposure to feared situations.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Follow-up in 4 weeks for progress evaluation.
 
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. S. Nielsen, Pulmonology

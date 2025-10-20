@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 160432-4603
-Encounter Date - 2025-08-01
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Carsten Holm
+CPR-number - 191088-3765
+Encounter Date - 2025-05-22
+Author - Dr. R. Iversen, Neurology
+Patient Name - Henrik Hansen
 
 Medical History & Prior Results:
-- Past Diagnoses — Atrial fibrillation (2018), Heart failure (HFrEF) (2023), Hypertension (2005), Depression (2013), Chronic lower back pain.
-- Recent Lab Results (2025-07-14)
-    Hb 8.4 mmol/L
-    Ferritin 77 µg/L
-    CRP 16 mg/L
-    Creatinine 96 µmol/L
+- Past Diagnoses — GERD (1995), Gout (1986), Hypertension (2004), Chronic lower back pain.
+- Recent Lab Results (2025-05-05)
+    Hb 7.1 mmol/L (low)
+    Ferritin 111 µg/L
+    CRP 6 mg/L
+    Creatinine 71 µmol/L
 - Prior Consultations
-    - 2025-03-27 — Routine check-up — stable BP, mild anemia noted.
-    - 2025-07-26 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Furosemide 40 mg daily, Empagliflozin 10 mg daily, Amlodipine 5 mg daily.
-- Allergies — Penicillin (rash).
+    - 2025-03-21 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2025-03-31 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Empagliflozin 10 mg daily, Ferrous sulfate 100 mg every other day.
+- Allergies — None known.
 
 Chief Complaint:
-Carsten Holm complains of fever, productive cough, and right-sided chest pain.
+Henrik Hansen reports nightmares, flashbacks, and hypervigilance.
 
 History of Present Illness:
-Carsten Holm developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Henrik Hansen experienced a traumatic event 9 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
 
 Physical Examination:
-Febrile (38.3 °C), RR 23/min, SpO₂ 95% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 125/74, HR 118 bpm.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Post-traumatic stress disorder.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Refer for trauma-focused CBT or EMDR.
+- Avoid routine benzodiazepine use.
+- Consider SSRI if comorbid depression or anxiety.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Follow-up in 5 weeks to review therapy engagement.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. R. Iversen, Neurology

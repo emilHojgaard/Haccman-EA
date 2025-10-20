@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 220832-0540
-Encounter Date - 2025-08-31
-Author - Dr. V. Laursen, Nephrology
-Patient Name - Sanne Bæk
+CPR-number - 140231-6725
+Encounter Date - 2024-06-19
+Author - Dr. R. Iversen, Neurology
+Patient Name - Carsten Petersen
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (1998), Gout (2004), Gallstones (2002), Chronic lower back pain.
-- Recent Lab Results (2025-08-10)
-    Hb 7.8 mmol/L
-    Ferritin 66 µg/L
-    CRP 23 mg/L
-    Creatinine 68 µmol/L
+- Past Diagnoses — Obesity (1981), Type 2 Diabetes (2000), Hypertension (2018).
+- Recent Lab Results (2024-06-11)
+    Hb 6.8 mmol/L (low)
+    Ferritin 73 µg/L
+    CRP 10 mg/L
+    Creatinine 104 µmol/L
 - Prior Consultations
-    - 2025-05-06 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2025-03-28 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Ferrous sulfate 100 mg every other day, Levothyroxine 75 µg daily.
+    - 2024-05-16 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-01-03 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Ramipril 5 mg daily, Pantoprazole 40 mg daily, Lisinopril 10 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Sanne Bæk reports thirst, frequent urination, and blurred vision.
+Carsten Petersen presents with joint stiffness and increased pain.
 
 History of Present Illness:
-Sanne Bæk has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Carsten Petersen notes worsening knee pain over 10 days, aggravated by activity. No trauma or systemic symptoms.
 
 Physical Examination:
-Vitals: BP 141/65 mmHg, HR 83 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Mild joint effusion, bony tenderness, no warmth. BP 128/92.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+No acute inflammation; radiographs show osteoarthritic changes.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Osteoarthritis flare-up.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Use acetaminophen or topical NSAID.
+- Encourage physiotherapy and weight management.
+- Avoid prolonged inactivity.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Discuss chronic nature of OA and exercise importance.
 
 Follow-up & Disposition:
-Clinic follow-up in 4 weeks to assess response and review HbA1c.
+Reassess pain control in 7 weeks.
 
 Sign-off:
-Dr. V. Laursen, Nephrology
+Dr. R. Iversen, Neurology

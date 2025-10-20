@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 080290-1715
-Encounter Date - 2025-04-27
-Author - Dr. R. Iversen, Neurology
-Patient Name - Camilla Mortensen
+CPR-number - 271172-7761
+Encounter Date - 2025-04-30
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Rune Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (2011), Heart failure (HFrEF) (1981), Hypothyroidism (2008), CKD (1986), Chronic lower back pain.
-- Recent Lab Results (2025-04-16)
-    Hb 6.9 mmol/L (low)
-    Ferritin 16 µg/L
-    CRP 6 mg/L
-    Creatinine 70 µmol/L
+- Past Diagnoses — Dyslipidemia (2000), Depression (1987), Migraine (1996), Atrial fibrillation (1982), Chronic lower back pain.
+- Recent Lab Results (2025-04-10)
+    Hb 6.8 mmol/L (low)
+    Ferritin 58 µg/L
+    CRP 7 mg/L
+    Creatinine 90 µmol/L
 - Prior Consultations
-    - 2024-12-23 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2025-03-02 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Ramipril 5 mg daily, Metformin 500 mg BID.
-- Allergies — None known.
+    - 2025-04-20 — Routine check-up — stable BP, mild anemia noted.
+    - 2024-10-12 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day, Ramipril 5 mg daily, Amlodipine 5 mg daily.
+- Allergies — Penicillin (rash).
 
 Chief Complaint:
-Camilla Mortensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Rune Dam reports stress and low mood following a recent life event.
 
 History of Present Illness:
-Camilla Mortensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Rune Dam describes sadness, irritability, and worry after recent psychosocial stressor (job loss, relationship conflict). Duration <6 months.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 105/73 mmHg, HR 64 bpm). Abdomen soft, non-tender.
+Mildly tearful, cooperative, no psychosis. Vitals within normal range (BP 111/78).
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Emotional disturbance related to identifiable stressor, not meeting full criteria for major depression.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Adjustment disorder with mixed anxiety and depressed mood.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Provide supportive counselling.
+- Encourage coping strategies and social support.
+- Short-term anxiolytic if severe insomnia or anxiety.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Explain normal stress reactions and when to seek help. Promote daily structure and self-care.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
+Follow-up in 5 weeks to reassess.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. K. Østergaard, General Surgery

@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 200479-9613
-Encounter Date - 2024-01-16
-Author - Dr. J. Knudsen, ENT
-Patient Name - Jonas Jensen
+CPR-number - 041188-4941
+Encounter Date - 2023-06-11
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Kirsten Østergaard
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (2011), Gallstones (1997).
-- Recent Lab Results (2023-12-16)
-    Hb 7.2 mmol/L (low)
-    Ferritin 42 µg/L
-    CRP 10 mg/L
-    Creatinine 92 µmol/L
+- Past Diagnoses — Peptic ulcer disease (1994), Iron Deficiency (2008), GERD (1985), Psoriasis (1983).
+- Recent Lab Results (2023-05-14)
+    Hb 6.8 mmol/L (low)
+    Ferritin 41 µg/L
+    CRP 1 mg/L
+    Creatinine 78 µmol/L
 - Prior Consultations
-    - 2023-04-30 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-10-30 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Empagliflozin 10 mg daily, Atorvastatin 20 mg nightly.
-- Allergies — Penicillin (rash).
+    - 2022-12-26 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-04-09 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Ferrous sulfate 100 mg every other day, Bisoprolol 5 mg daily, Lisinopril 10 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Jonas Jensen complains of fever, productive cough, and right-sided chest pain.
+Kirsten Østergaard presents with joint stiffness and increased pain.
 
 History of Present Illness:
-Jonas Jensen developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Kirsten Østergaard notes worsening knee pain over 8 days, aggravated by activity. No trauma or systemic symptoms.
 
 Physical Examination:
-Febrile (37.0 °C), RR 25/min, SpO₂ 98% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Mild joint effusion, bony tenderness, no warmth. BP 130/81.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+No acute inflammation; radiographs show osteoarthritic changes.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Osteoarthritis flare-up.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Use acetaminophen or topical NSAID.
+- Encourage physiotherapy and weight management.
+- Avoid prolonged inactivity.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss chronic nature of OA and exercise importance.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Reassess pain control in 4 weeks.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. K. Østergaard, General Surgery

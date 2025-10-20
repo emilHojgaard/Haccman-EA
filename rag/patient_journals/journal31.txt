@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 060245-0527
-Encounter Date - 2024-09-14
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Lars Dam
+CPR-number - 100708-7585
+Encounter Date - 2024-10-07
+Author - Dr. T. Bæk, Infectious Diseases
+Patient Name - Lene Poulsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Asthma (1988), Dyslipidemia (2020).
-- Recent Lab Results (2024-08-25)
-    Hb 6.7 mmol/L (low)
-    Ferritin 143 µg/L
-    CRP 23 mg/L
-    Creatinine 88 µmol/L
+- Past Diagnoses — Gout (2019), Iron Deficiency (2005), Migraine (1992), Asthma (2020), Chronic lower back pain.
+- Recent Lab Results (2024-09-17)
+    Hb 7.3 mmol/L (low)
+    Ferritin 43 µg/L
+    CRP 21 mg/L
+    Creatinine 82 µmol/L
 - Prior Consultations
-    - 2024-05-27 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-07-06 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ramipril 5 mg daily, Amlodipine 5 mg daily, Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly.
-- Allergies — None known.
+    - 2024-06-28 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-08-03 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Furosemide 40 mg daily, Levothyroxine 75 µg daily.
+- Allergies — Penicillin (rash).
 
 Chief Complaint:
-Lars Dam complains of fever, productive cough, and right-sided chest pain.
+Lene Poulsen presents with right lower quadrant abdominal pain and nausea.
 
 History of Present Illness:
-Lars Dam developed a sudden cough with green sputum 2 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Lene Poulsen reports 18 hours of migrating abdominal pain, initially periumbilical, now localized to right iliac fossa, with mild fever.
 
 Physical Examination:
-Febrile (36.1 °C), RR 25/min, SpO₂ 98% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+T 38.2 °C, tenderness and rebound in right lower quadrant, guarding present.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Leukocytosis and elevated CRP; ultrasound/CT confirms inflamed appendix.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Acute appendicitis.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- NPO, IV fluids, analgesia.
+- Surgical evaluation for appendectomy.
+- Administer pre-operative antibiotics.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Explain surgical procedure and recovery expectations.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Postoperative review in 9 days.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. T. Bæk, Infectious Diseases

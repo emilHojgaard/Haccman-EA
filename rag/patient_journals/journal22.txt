@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 141278-3541
-Encounter Date - 2024-01-29
-Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Rasmus Laursen
+CPR-number - 231130-6544
+Encounter Date - 2025-05-28
+Author - Dr. P. Jensen, Psychiatry
+Patient Name - Ida Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — CKD (1988), Obesity (2021), Heart failure (HFrEF) (1991), Iron Deficiency (2000).
-- Recent Lab Results (2024-01-27)
-    Hb 6.9 mmol/L (low)
-    Ferritin 27 µg/L
-    CRP 11 mg/L
-    Creatinine 56 µmol/L
+- Past Diagnoses — Psoriasis (2022), Iron Deficiency (2018).
+- Recent Lab Results (2025-05-08)
+    Hb 7.4 mmol/L (low)
+    Ferritin 68 µg/L
+    CRP 1 mg/L
+    Creatinine 66 µmol/L
 - Prior Consultations
-    - 2023-12-27 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-07-05 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Levothyroxine 75 µg daily, Amlodipine 5 mg daily, Lisinopril 10 mg daily.
+    - 2025-05-04 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2025-05-22 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Atorvastatin 20 mg nightly, Ferrous sulfate 100 mg every other day, Levothyroxine 75 µg daily, Amlodipine 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Rasmus Laursen complains of fever, productive cough, and right-sided chest pain.
+Ida Dam presents with redness and swelling of the lower leg.
 
 History of Present Illness:
-Rasmus Laursen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Ida Dam noticed redness and tenderness spreading over 1 days. No trauma reported.
 
 Physical Examination:
-Febrile (36.7 °C), RR 22/min, SpO₂ 92% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Warm, erythematous area with indistinct margins, mild edema. T 36.5 °C.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Clinical cellulitis; CBC and CRP elevated.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Bacterial cellulitis, likely streptococcal.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Start empiric oral antibiotic covering streptococci.
+- Mark margin and monitor spread.
+- Elevate limb and manage pain.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Explain signs of worsening infection and when to seek urgent review.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Review in 3 days to assess response.
 
 Sign-off:
-Dr. S. Nielsen, Pulmonology
+Dr. P. Jensen, Psychiatry

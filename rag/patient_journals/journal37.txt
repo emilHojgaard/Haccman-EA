@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 070988-1467
-Encounter Date - 2024-03-25
-Author - Dr. R. Iversen, Neurology
-Patient Name - Anne Jensen
+CPR-number - 040967-5906
+Encounter Date - 2025-01-09
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Rasmus Dam
 
 Medical History & Prior Results:
-- Past Diagnoses — Osteoarthritis (1999), Gallstones (2018), Psoriasis (2014), Atrial fibrillation (2006), Chronic lower back pain.
-- Recent Lab Results (2024-03-15)
-    Hb 6.7 mmol/L (low)
-    Ferritin 73 µg/L
-    CRP 11 mg/L
-    Creatinine 100 µmol/L
+- Past Diagnoses — Gout (2022), Psoriasis (2016), Anxiety (2010), Chronic lower back pain.
+- Recent Lab Results (2024-12-13)
+    Hb 7.8 mmol/L
+    Ferritin 12 µg/L (low)
+    CRP 22 mg/L
+    Creatinine 74 µmol/L
 - Prior Consultations
-    - 2023-11-24 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-12-14 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Levothyroxine 75 µg daily, Ferrous sulfate 100 mg every other day, Amlodipine 5 mg daily, Lisinopril 10 mg daily.
+    - 2024-12-29 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-03-04 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Pantoprazole 40 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Anne Jensen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Rasmus Dam reports persistent sadness, fatigue, and loss of interest in usual activities.
 
 History of Present Illness:
-Anne Jensen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Rasmus Dam has felt low for the past 7 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 123/91 mmHg, HR 64 bpm). Abdomen soft, non-tender.
+Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 108/65, HR 99).
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Major depressive episode, moderate severity.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
+- Encourage structured daily routine and gradual activity.
+- Refer for psychotherapy or CBT.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Follow-up in 4 weeks to assess mood and adherence.
 
 Sign-off:
-Dr. R. Iversen, Neurology
+Dr. K. Østergaard, General Surgery

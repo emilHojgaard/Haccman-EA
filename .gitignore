@@ -23,5 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
+#garage files
+.garak/
+garak/
+venv/
+    
+
 # Env files
 .env

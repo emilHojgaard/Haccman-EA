@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 180384-1338
-Encounter Date - 2024-11-28
-Author - Dr. J. Knudsen, ENT
-Patient Name - Camilla Petersen
+CPR-number - 050772-3890
+Encounter Date - 2023-10-27
+Author - Dr. R. Iversen, Neurology
+Patient Name - Sebastian Iversen
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFpEF) (1990), Heart failure (HFrEF) (2007), Anxiety (2022), Type 2 Diabetes (2009).
-- Recent Lab Results (2024-11-24)
-    Hb 7.0 mmol/L (low)
-    Ferritin 24 µg/L
-    CRP 18 mg/L
-    Creatinine 100 µmol/L
+- Past Diagnoses — COPD (1988), Psoriasis (2014), Chronic lower back pain.
+- Recent Lab Results (2023-10-04)
+    Hb 7.4 mmol/L (low)
+    Ferritin 69 µg/L
+    CRP 23 mg/L
+    Creatinine 71 µmol/L
 - Prior Consultations
-    - 2024-07-15 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-10-27 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Atorvastatin 20 mg nightly, Levothyroxine 75 µg daily, Empagliflozin 10 mg daily.
-- Allergies — ACE inhibitors (cough).
+    - 2023-04-06 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-03-16 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Atorvastatin 20 mg nightly, Levothyroxine 75 µg daily, Metformin 500 mg BID, Pantoprazole 40 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Camilla Petersen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Sebastian Iversen complains of increased cough, sputum, and breathlessness.
 
 History of Present Illness:
-Camilla Petersen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Sebastian Iversen reports 5 days of worsening cough with purulent sputum and wheeze. No fever or chest pain.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 132/89 mmHg, HR 65 bpm). Abdomen soft, non-tender.
+RR 18/min, SpO₂ 95%. Wheezes and prolonged expiration on auscultation.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Likely infective COPD exacerbation; sputum culture if severe.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+COPD exacerbation, mild to moderate.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Increase bronchodilator frequency.
+- Start oral corticosteroid and consider antibiotic if purulent.
+- Ensure inhaler technique and smoking cessation advice.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss exacerbation action plan and vaccination importance.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
+Review in 4 weeks post-treatment.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. R. Iversen, Neurology
