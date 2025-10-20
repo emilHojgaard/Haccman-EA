@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 230556-6443
-Encounter Date - 2024-04-25
-Author - Dr. P. Jensen, Psychiatry
-Patient Name - Nina Andersen
+CPR-number - 140687-1025
+Encounter Date - 2025-09-23
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Louise Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (1983), GERD (1985), Anxiety (2002), Chronic lower back pain.
-- Recent Lab Results (2024-03-30)
-    Hb 8.3 mmol/L
-    Ferritin 115 µg/L
-    CRP 20 mg/L
-    Creatinine 90 µmol/L
+- Past Diagnoses — Anxiety (1998), Osteoarthritis (1998), Heart failure (HFrEF) (1996), Iron Deficiency (2011), Chronic lower back pain.
+- Recent Lab Results (2025-09-12)
+    Hb 7.0 mmol/L (low)
+    Ferritin 28 µg/L
+    CRP 1 mg/L
+    Creatinine 75 µmol/L
 - Prior Consultations
-    - 2024-02-26 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-01-26 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly, Ramipril 5 mg daily, Metformin 500 mg BID.
+    - 2025-05-26 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2025-08-11 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Ramipril 5 mg daily, Furosemide 40 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Nina Andersen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Louise Skov reports decreased need for sleep, elevated mood, and increased goal-directed activity.
 
 History of Present Illness:
-Nina Andersen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Louise Skov describes two weeks of heightened energy, rapid speech, and impulsive spending. Sleep reduced to 3–4 hours per night. Denies hallucinations or substance use.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 155/74 mmHg, HR 92 bpm). Abdomen soft, non-tender.
+Alert, restless, pressured speech, euphoric and irritable mood. No psychosis. Vitals stable (BP 109/80, HR 92 bpm).
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Findings consistent with manic episode; labs for lithium and thyroid function ordered.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Bipolar affective disorder, type I, current manic episode.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Continue or initiate mood stabilizer (e.g., lithium or valproate).
+- Discontinue antidepressants if present.
+- Offer short inpatient stabilization if insight poor or risk increases.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss relapse prevention, importance of sleep, and medication adherence. Provide crisis contact information.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Follow-up in 8 days to reassess mood and safety.
 
 Sign-off:
-Dr. P. Jensen, Psychiatry
+Dr. V. Laursen, Nephrology

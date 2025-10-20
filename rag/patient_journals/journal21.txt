@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 200346-3169
-Encounter Date - 2025-01-20
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Kirsten Andersen
+CPR-number - 011093-1333
+Encounter Date - 2024-11-29
+Author - Dr. J. Knudsen, ENT
+Patient Name - Anja Olsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFrEF) (1983), Depression (2019), Gout (1985), Iron Deficiency (2000), Chronic lower back pain.
-- Recent Lab Results (2024-11-09)
-    Hb 6.5 mmol/L (low)
-    Ferritin 92 µg/L
-    CRP 11 mg/L
-    Creatinine 102 µmol/L
+- Past Diagnoses — Dyslipidemia (2008), Osteoporosis (2003), Chronic lower back pain.
+- Recent Lab Results (2024-09-29)
+    Hb 8.0 mmol/L
+    Ferritin 14 µg/L (low)
+    CRP 6 mg/L
+    Creatinine 60 µmol/L
 - Prior Consultations
-    - 2024-10-26 — Routine check-up — stable BP, mild anemia noted.
-    - 2024-11-16 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Ramipril 5 mg daily, Atorvastatin 20 mg nightly, Furosemide 40 mg daily, Metformin 500 mg BID.
+    - 2024-11-19 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-11-11 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Empagliflozin 10 mg daily, Ramipril 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Kirsten Andersen complains of fever, productive cough, and right-sided chest pain.
+Anja Olsen presents with hearing voices and increased suspiciousness.
 
 History of Present Illness:
-Kirsten Andersen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Anja Olsen reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
 
 Physical Examination:
-Febrile (37.5 °C), RR 16/min, SpO₂ 98% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 157/82, HR 66 bpm.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Active psychosis; rule out intoxication or medical cause.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Restart antipsychotic (oral or depot).
+- Ensure safe environment; involve crisis team.
+- Assess capacity and consider inpatient admission if risk present.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Close follow-up within 7 days or inpatient as required.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. J. Knudsen, ENT

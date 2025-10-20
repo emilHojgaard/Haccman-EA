@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 030200-9645
-Encounter Date - 2023-04-26
-Author - Dr. O. Bjørk, Urology
-Patient Name - Magnus Dam
+CPR-number - 201094-1061
+Encounter Date - 2024-05-22
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Emil Mikkelsen
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (2019), Hypertension (1982), Osteoarthritis (2022), Iron Deficiency (2000).
-- Recent Lab Results (2023-04-22)
-    Hb 8.2 mmol/L
-    Ferritin 26 µg/L
-    CRP 3 mg/L
-    Creatinine 86 µmol/L
+- Past Diagnoses — Iron Deficiency (1996), GERD (1981), Psoriasis (2003).
+- Recent Lab Results (2024-04-25)
+    Hb 8.3 mmol/L
+    Ferritin 68 µg/L
+    CRP 20 mg/L
+    Creatinine 57 µmol/L
 - Prior Consultations
-    - 2023-03-24 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-03-19 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Levothyroxine 75 µg daily, Ferrous sulfate 100 mg every other day, Metformin 500 mg BID, Amlodipine 5 mg daily.
+    - 2024-02-23 — Routine check-up — stable BP, mild anemia noted.
+    - 2023-12-01 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Pantoprazole 40 mg daily, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
 Chief Complaint:
-Magnus Dam reports thirst, frequent urination, and blurred vision.
+Emil Mikkelsen reports persistent sadness, fatigue, and loss of interest in usual activities.
 
 History of Present Illness:
-Magnus Dam has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Emil Mikkelsen has felt low for the past 8 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
 
 Physical Examination:
-Vitals: BP 108/78 mmHg, HR 75 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 161/88, HR 61).
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Major depressive episode, moderate severity.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
+- Encourage structured daily routine and gradual activity.
+- Refer for psychotherapy or CBT.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
 
 Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Follow-up in 3 weeks to assess mood and adherence.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. K. Østergaard, General Surgery

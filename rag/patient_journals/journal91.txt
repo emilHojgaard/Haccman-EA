@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 190733-3777
-Encounter Date - 2023-12-14
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Emil Jensen
+CPR-number - 060495-6952
+Encounter Date - 2024-07-10
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Sanne Bæk
 
 Medical History & Prior Results:
-- Past Diagnoses — Depression (2020), Osteoporosis (2005), Chronic lower back pain.
-- Recent Lab Results (2023-11-26)
-    Hb 7.1 mmol/L (low)
-    Ferritin 150 µg/L
-    CRP 25 mg/L
-    Creatinine 86 µmol/L
+- Past Diagnoses — Anxiety (1992), Osteoarthritis (2022), Asthma (2020), Heart failure (HFpEF) (1981).
+- Recent Lab Results (2024-06-20)
+    Hb 7.4 mmol/L (low)
+    Ferritin 32 µg/L
+    CRP 18 mg/L
+    Creatinine 75 µmol/L
 - Prior Consultations
-    - 2023-11-14 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-12-12 — Routine check-up — stable BP, mild anemia noted.
-- Medications — Amlodipine 5 mg daily, Levothyroxine 75 µg daily.
+    - 2024-05-27 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2024-06-13 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Bisoprolol 5 mg daily, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Emil Jensen complains of fever, productive cough, and right-sided chest pain.
+Sanne Bæk presents with fever, flank pain, and urinary symptoms.
 
 History of Present Illness:
-Emil Jensen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Sanne Bæk reports 2 days of dysuria, chills, and right-sided flank pain.
 
 Physical Examination:
-Febrile (37.5 °C), RR 17/min, SpO₂ 98% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+T 36.6 °C, costovertebral angle tenderness on right side. HR 110 bpm.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Urinalysis positive for nitrites; elevated CRP and WBC.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Acute pyelonephritis.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Start empiric antibiotic therapy.
+- Hydration and pain control.
+- Hospitalize if vomiting or sepsis.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Recheck in 7 days to confirm recovery.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. E. Dam, Rheumatology

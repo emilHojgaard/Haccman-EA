@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 141131-5158
-Encounter Date - 2024-03-30
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Carsten Lund
+CPR-number - 070248-2368
+Encounter Date - 2023-08-04
+Author - Dr. R. Iversen, Neurology
+Patient Name - Ole Gram
 
 Medical History & Prior Results:
-- Past Diagnoses — Obesity (2001), Osteoporosis (2017), Chronic lower back pain.
-- Recent Lab Results (2024-03-22)
-    Hb 7.6 mmol/L
-    Ferritin 59 µg/L
-    CRP 16 mg/L
-    Creatinine 106 µmol/L
+- Past Diagnoses — Osteoarthritis (1998), Obesity (2020), Chronic lower back pain.
+- Recent Lab Results (2023-06-22)
+    Hb 8.3 mmol/L
+    Ferritin 37 µg/L
+    CRP 20 mg/L
+    Creatinine 102 µmol/L
 - Prior Consultations
-    - 2024-03-03 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2024-03-11 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Levothyroxine 75 µg daily, Pantoprazole 40 mg daily, Atorvastatin 20 mg nightly.
+    - 2023-03-29 — Routine check-up — stable BP, mild anemia noted.
+    - 2023-01-28 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Empagliflozin 10 mg daily, Furosemide 40 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Carsten Lund complains of fever, productive cough, and right-sided chest pain.
+Ole Gram reports shortness of breath and leg swelling.
 
 History of Present Illness:
-Carsten Lund developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Ole Gram has gained 2 kg over the past week, with worsening dyspnea and orthopnea. Missed diuretic doses reported.
 
 Physical Examination:
-Febrile (37.4 °C), RR 23/min, SpO₂ 92% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Crackles at lung bases, bilateral pitting edema, elevated JVP. BP 147/70, HR 72 bpm.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+BNP elevated, chest X-ray shows pulmonary congestion.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Acute-on-chronic heart failure exacerbation.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Administer loop diuretic (e.g., furosemide).
+- Monitor weight and urine output.
+- Optimize heart failure regimen and education.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Teach daily weight monitoring, salt restriction, and when to seek urgent care.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up in 2 weeks or earlier if symptoms recur.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. R. Iversen, Neurology

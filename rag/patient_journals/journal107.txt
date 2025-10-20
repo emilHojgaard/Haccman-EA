@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 140690-2234
-Encounter Date - 2024-12-22
-Author - Dr. T. Bæk, Infectious Diseases
-Patient Name - Anders Andersen
+CPR-number - 150736-1740
+Encounter Date - 2023-10-21
+Author - Dr. J. Knudsen, ENT
+Patient Name - Christian Christensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (2008), Psoriasis (2006), Anxiety (2014).
-- Recent Lab Results (2024-12-07)
-    Hb 6.9 mmol/L (low)
-    Ferritin 22 µg/L
-    CRP 12 mg/L
-    Creatinine 92 µmol/L
+- Past Diagnoses — Gallstones (1983), Anxiety (1985), Chronic lower back pain.
+- Recent Lab Results (2023-09-29)
+    Hb 8.4 mmol/L
+    Ferritin 86 µg/L
+    CRP 5 mg/L
+    Creatinine 77 µmol/L
 - Prior Consultations
-    - 2024-11-21 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-01-25 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Furosemide 40 mg daily, Amlodipine 5 mg daily, Empagliflozin 10 mg daily, Pantoprazole 40 mg daily.
+    - 2023-08-03 — Routine check-up — stable BP, mild anemia noted.
+    - 2022-10-26 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Furosemide 40 mg daily, Metformin 500 mg BID, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
 Chief Complaint:
-Anders Andersen reports thirst, frequent urination, and blurred vision.
+Christian Christensen presents with fever, flank pain, and urinary symptoms.
 
 History of Present Illness:
-Anders Andersen has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Christian Christensen reports 1 days of dysuria, chills, and right-sided flank pain.
 
 Physical Examination:
-Vitals: BP 154/65 mmHg, HR 94 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+T 37.0 °C, costovertebral angle tenderness on right side. HR 79 bpm.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Urinalysis positive for nitrites; elevated CRP and WBC.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Acute pyelonephritis.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Start empiric antibiotic therapy.
+- Hydration and pain control.
+- Hospitalize if vomiting or sepsis.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Follow-up & Disposition:
-Clinic follow-up in 2 weeks to assess response and review HbA1c.
+Recheck in 8 days to confirm recovery.
 
 Sign-off:
-Dr. T. Bæk, Infectious Diseases
+Dr. J. Knudsen, ENT

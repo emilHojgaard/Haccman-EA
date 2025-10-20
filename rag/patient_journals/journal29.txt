@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 220392-1932
-Encounter Date - 2024-04-26
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Thomas Thomsen
+CPR-number - 101192-7767
+Encounter Date - 2024-07-14
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Thomas Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (2020), CKD (2008), Atrial fibrillation (2018), Chronic lower back pain.
-- Recent Lab Results (2024-04-17)
-    Hb 6.8 mmol/L (low)
-    Ferritin 146 µg/L
-    CRP 8 mg/L
-    Creatinine 60 µmol/L
+- Past Diagnoses — Asthma (2004), Hypothyroidism (2005), Osteoporosis (2005), Chronic lower back pain.
+- Recent Lab Results (2024-07-07)
+    Hb 7.6 mmol/L
+    Ferritin 100 µg/L
+    CRP 13 mg/L
+    Creatinine 59 µmol/L
 - Prior Consultations
-    - 2024-02-27 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-09-24 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Levothyroxine 75 µg daily, Bisoprolol 5 mg daily.
-- Allergies — Penicillin (rash).
+    - 2024-05-31 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2024-06-05 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Atorvastatin 20 mg nightly, Bisoprolol 5 mg daily, Metformin 500 mg BID, Ramipril 5 mg daily.
+- Allergies — None known.
 
 Chief Complaint:
-Thomas Thomsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Thomas Skov presents with right lower quadrant abdominal pain and nausea.
 
 History of Present Illness:
-Thomas Thomsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Thomas Skov reports 6 hours of migrating abdominal pain, initially periumbilical, now localized to right iliac fossa, with mild fever.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 103/76 mmHg, HR 86 bpm). Abdomen soft, non-tender.
+T 38.2 °C, tenderness and rebound in right lower quadrant, guarding present.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Leukocytosis and elevated CRP; ultrasound/CT confirms inflamed appendix.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Acute appendicitis.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- NPO, IV fluids, analgesia.
+- Surgical evaluation for appendectomy.
+- Administer pre-operative antibiotics.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Explain surgical procedure and recovery expectations.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Postoperative review in 9 days.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. C. Mikkelsen, Endocrinology

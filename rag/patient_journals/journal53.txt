@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 251133-3578
-Encounter Date - 2024-03-17
-Author - Dr. O. Bjørk, Urology
-Patient Name - Birgit Andersen
+CPR-number - 061055-1516
+Encounter Date - 2024-01-04
+Author - Dr. C. Mikkelsen, Endocrinology
+Patient Name - Frederik Mikkelsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Anxiety (1991), Depression (1996), Heart failure (HFrEF) (2023), Type 2 Diabetes (2003).
-- Recent Lab Results (2024-01-27)
-    Hb 7.6 mmol/L
-    Ferritin 35 µg/L
-    CRP 12 mg/L
-    Creatinine 81 µmol/L
+- Past Diagnoses — Gout (2012), Gallstones (2000), Iron Deficiency (1984), Chronic lower back pain.
+- Recent Lab Results (2023-12-01)
+    Hb 6.8 mmol/L (low)
+    Ferritin 53 µg/L
+    CRP 13 mg/L
+    Creatinine 110 µmol/L
 - Prior Consultations
-    - 2024-03-12 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2024-01-12 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Amlodipine 5 mg daily, Metformin 500 mg BID, Empagliflozin 10 mg daily.
+    - 2023-12-23 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-09-04 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Empagliflozin 10 mg daily, Ramipril 5 mg daily, Atorvastatin 20 mg nightly.
 - Allergies — None known.
 
 Chief Complaint:
-Birgit Andersen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Frederik Mikkelsen presents with hearing voices and increased suspiciousness.
 
 History of Present Illness:
-Birgit Andersen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Frederik Mikkelsen reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 135/68 mmHg, HR 64 bpm). Abdomen soft, non-tender.
+Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 158/65, HR 110 bpm.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Active psychosis; rule out intoxication or medical cause.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Restart antipsychotic (oral or depot).
+- Ensure safe environment; involve crisis team.
+- Assess capacity and consider inpatient admission if risk present.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Close follow-up within 4 days or inpatient as required.
 
 Sign-off:
-Dr. O. Bjørk, Urology
+Dr. C. Mikkelsen, Endocrinology

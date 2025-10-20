@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 240742-2698
-Encounter Date - 2024-11-21
+CPR-number - 240272-0172
+Encounter Date - 2024-04-08
 Author - Dr. L. Holm, Cardiology
-Patient Name - Camilla Gram
+Patient Name - Anja Bang
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (2015), Osteoporosis (2005), Psoriasis (2015), Chronic lower back pain.
-- Recent Lab Results (2024-08-30)
-    Hb 7.1 mmol/L (low)
-    Ferritin 97 µg/L
-    CRP 19 mg/L
-    Creatinine 105 µmol/L
+- Past Diagnoses — Gout (2016), Hypothyroidism (1985), Chronic lower back pain.
+- Recent Lab Results (2024-03-26)
+    Hb 7.8 mmol/L
+    Ferritin 103 µg/L
+    CRP 17 mg/L
+    Creatinine 99 µmol/L
 - Prior Consultations
-    - 2024-09-08 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-08-06 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Levothyroxine 75 µg daily, Amlodipine 5 mg daily, Metformin 500 mg BID.
+    - 2023-12-20 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-01-13 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Lisinopril 10 mg daily, Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
 Chief Complaint:
-Camilla Gram reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Anja Bang reports constant worry, muscle tension, and poor sleep.
 
 History of Present Illness:
-Camilla Gram notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Anja Bang describes months of excessive anxiety difficult to control, with restlessness and fatigue. Denies panic attacks or substance misuse.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 122/92 mmHg, HR 100 bpm). Abdomen soft, non-tender.
+Anxious affect, fidgeting. HR 102 bpm, BP 123/58 mmHg. No tremor or thyrotoxicosis signs.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Persistent anxiety with somatic tension; exclude thyroid and cardiac causes.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Generalized anxiety disorder.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Begin CBT-focused therapy; consider SSRI or SNRI if persistent.
+- Teach breathing and relaxation exercises.
+- Avoid benzodiazepines long term.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Explain nature of chronic anxiety and coping tools. Encourage sleep hygiene and regular exercise.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 8 weeks; earlier review if symptoms worsen.
+Review in 4 weeks to monitor response.
 
 Sign-off:
 Dr. L. Holm, Cardiology

@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 041001-1130
-Encounter Date - 2025-05-02
+CPR-number - 241281-1193
+Encounter Date - 2023-08-08
 Author - Dr. S. Gram, Hematology
-Patient Name - Birgit Nielsen
+Patient Name - Niklas Thygesen
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (2015), Iron Deficiency (2009).
-- Recent Lab Results (2025-04-01)
-    Hb 8.1 mmol/L
-    Ferritin 110 µg/L
-    CRP 21 mg/L
-    Creatinine 57 µmol/L
+- Past Diagnoses — Migraine (2007), Depression (2016), Type 2 Diabetes (1982), Gallstones (1987).
+- Recent Lab Results (2023-06-02)
+    Hb 7.0 mmol/L (low)
+    Ferritin 139 µg/L
+    CRP 6 mg/L
+    Creatinine 63 µmol/L
 - Prior Consultations
-    - 2025-02-03 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2025-03-10 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly.
-- Allergies — None known.
+    - 2023-02-19 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2022-10-12 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Furosemide 40 mg daily, Pantoprazole 40 mg daily, Ramipril 5 mg daily.
+- Allergies — NSAIDs (dyspepsia).
 
 Chief Complaint:
-Birgit Nielsen complains of fever, productive cough, and right-sided chest pain.
+Niklas Thygesen reports shortness of breath and leg swelling.
 
 History of Present Illness:
-Birgit Nielsen developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Niklas Thygesen has gained 2 kg over the past week, with worsening dyspnea and orthopnea. Missed diuretic doses reported.
 
 Physical Examination:
-Febrile (38.0 °C), RR 22/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Crackles at lung bases, bilateral pitting edema, elevated JVP. BP 156/96, HR 78 bpm.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+BNP elevated, chest X-ray shows pulmonary congestion.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Acute-on-chronic heart failure exacerbation.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Administer loop diuretic (e.g., furosemide).
+- Monitor weight and urine output.
+- Optimize heart failure regimen and education.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Teach daily weight monitoring, salt restriction, and when to seek urgent care.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up in 1 weeks or earlier if symptoms recur.
 
 Sign-off:
 Dr. S. Gram, Hematology

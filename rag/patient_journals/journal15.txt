@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 070100-4483
-Encounter Date - 2024-02-28
-Author - Dr. E. Dam, Rheumatology
-Patient Name - Grethe Bang
+CPR-number - 030240-6541
+Encounter Date - 2025-06-05
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Henrik Knudsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Irritable bowel syndrome (1991), Migraine (2016), Chronic lower back pain.
-- Recent Lab Results (2024-01-11)
-    Hb 7.2 mmol/L (low)
-    Ferritin 14 µg/L (low)
-    CRP 18 mg/L
-    Creatinine 95 µmol/L
+- Past Diagnoses — Gout (2016), Peptic ulcer disease (2000), Migraine (1983).
+- Recent Lab Results (2025-05-23)
+    Hb 8.5 mmol/L
+    Ferritin 138 µg/L
+    CRP 20 mg/L
+    Creatinine 92 µmol/L
 - Prior Consultations
-    - 2023-11-21 — Medication review — adherence reinforced, no adverse effects reported.
-    - 2023-07-21 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Ferrous sulfate 100 mg every other day, Atorvastatin 20 mg nightly.
+    - 2024-09-14 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2025-06-02 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Ramipril 5 mg daily, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Grethe Bang reports thirst, frequent urination, and blurred vision.
+Henrik Knudsen reports epigastric pain and indigestion.
 
 History of Present Illness:
-Grethe Bang has several weeks of polyuria, polydipsia, and fatigue. Diet has been irregular during recent work stress; missed evening doses twice last week. No abdominal pain or vomiting.
+Henrik Knudsen has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
 
 Physical Examination:
-Vitals: BP 156/65 mmHg, HR 62 bpm. Dry mucous membranes; otherwise normal exam; no focal deficits.
+Epigastric tenderness, no guarding. Vitals: BP 115/79, HR 114.
 
 Diagnostics (Today):
-Capillary glucose elevated; ketones negative or trace; no acidosis on venous blood gas. HbA1c ordered for control assessment.
+Suspected gastritis/ulcer; H. pylori test ordered.
 
 Assessment:
-Poor glycemic control without DKA. Medication adherence and lifestyle contributors likely.
+Peptic ulcer disease, likely NSAID-related.
 
 Plan:
-- Reinforce medication schedule; consider adding or adjusting therapy per plan.
-- Hydration guidance and sick-day rules; check for precipitating infection.
-- Arrange diabetes education and home glucose monitoring review.
+- Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
+- If positive, treat H. pylori.
+- Advise small, frequent meals and limit alcohol/caffeine.
 
 Patient Education & Safety Net:
-Review hypoglycemia recognition and treatment. Encourage regular meals, activity, and sleep hygiene to stabilize control.
+Explain risk factors and warning signs of bleeding.
 
 Follow-up & Disposition:
-Clinic follow-up in 3 weeks to assess response and review HbA1c.
+Reassess in 6 weeks; consider endoscopy if persistent.
 
 Sign-off:
-Dr. E. Dam, Rheumatology
+Dr. K. Østergaard, General Surgery

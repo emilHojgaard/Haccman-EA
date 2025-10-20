@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 200238-3829
-Encounter Date - 2023-03-06
-Author - Dr. M. Petersen, Gastroenterology
-Patient Name - Brian Holm
+CPR-number - 020400-2446
+Encounter Date - 2024-03-01
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Anders Bæk
 
 Medical History & Prior Results:
-- Past Diagnoses — Gallstones (1990), GERD (2021), Heart failure (HFpEF) (2008), COPD (2014), Chronic lower back pain.
-- Recent Lab Results (2023-01-11)
-    Hb 7.9 mmol/L
-    Ferritin 112 µg/L
-    CRP 11 mg/L
-    Creatinine 97 µmol/L
+- Past Diagnoses — Dyslipidemia (2013), Asthma (1986), CKD (2018).
+- Recent Lab Results (2024-02-14)
+    Hb 7.4 mmol/L (low)
+    Ferritin 62 µg/L
+    CRP 17 mg/L
+    Creatinine 78 µmol/L
 - Prior Consultations
-    - 2022-09-23 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2023-01-17 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Pantoprazole 40 mg daily, Bisoprolol 5 mg daily.
+    - 2024-01-15 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-10-15 — Heart failure clinic — diuretic adjusted, weight trending down.
+- Medications — Bisoprolol 5 mg daily, Lisinopril 10 mg daily, Levothyroxine 75 µg daily, Metformin 500 mg BID.
 - Allergies — None known.
 
 Chief Complaint:
-Brian Holm complains of fever, productive cough, and right-sided chest pain.
+Anders Bæk reports worsening lower back pain.
 
 History of Present Illness:
-Brian Holm developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Anders Bæk has chronic back pain now intensified after lifting or prolonged sitting. No radicular symptoms or incontinence.
 
 Physical Examination:
-Febrile (36.3 °C), RR 24/min, SpO₂ 95% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Paraspinal muscle tenderness, normal reflexes and strength. BP 146/84.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Mechanical exacerbation of chronic low back pain.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Chronic low back pain, acute exacerbation.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Encourage activity as tolerated.
+- Use heat therapy and simple analgesics.
+- Refer for physiotherapy if persistent.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss posture, core strengthening, and weight control.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up in 6 weeks.
 
 Sign-off:
-Dr. M. Petersen, Gastroenterology
+Dr. K. Østergaard, General Surgery

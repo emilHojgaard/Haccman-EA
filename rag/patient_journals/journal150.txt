@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 131178-5393
-Encounter Date - 2023-01-09
-Author - Dr. A. Thomsen, Emergency Medicine
-Patient Name - Solveig Mortensen
+CPR-number - 260864-9266
+Encounter Date - 2023-07-04
+Author - Dr. R. Iversen, Neurology
+Patient Name - Birgit Andersen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gallstones (1992), Anxiety (2021), Heart failure (HFrEF) (2006), Chronic lower back pain.
-- Recent Lab Results (2022-12-30)
-    Hb 7.7 mmol/L
-    Ferritin 31 µg/L
-    CRP 14 mg/L
-    Creatinine 101 µmol/L
+- Past Diagnoses — Type 2 Diabetes (2006), Osteoporosis (1989).
+- Recent Lab Results (2023-06-09)
+    Hb 8.3 mmol/L
+    Ferritin 20 µg/L
+    CRP 5 mg/L
+    Creatinine 92 µmol/L
 - Prior Consultations
-    - 2022-01-17 — Routine check-up — stable BP, mild anemia noted.
-    - 2022-03-25 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Lisinopril 10 mg daily, Atorvastatin 20 mg nightly, Metformin 500 mg BID, Furosemide 40 mg daily.
+    - 2023-04-18 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2022-09-30 — Routine check-up — stable BP, mild anemia noted.
+- Medications — Pantoprazole 40 mg daily, Empagliflozin 10 mg daily, Amlodipine 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Solveig Mortensen complains of fever, productive cough, and right-sided chest pain.
+Birgit Andersen reports persistent sadness, fatigue, and loss of interest in usual activities.
 
 History of Present Illness:
-Solveig Mortensen developed a sudden cough with green sputum 5 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Birgit Andersen has felt low for the past 5 weeks, with poor concentration and early morning waking. Denies psychosis or suicidal plan.
 
 Physical Examination:
-Febrile (37.3 °C), RR 24/min, SpO₂ 100% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Flat affect, slow speech, psychomotor retardation. No delusions. Vitals normal (BP 146/88, HR 98).
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Depressive symptoms meeting diagnostic criteria; exclude thyroid or medication causes.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Major depressive episode, moderate severity.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Start SSRI (e.g., sertraline 50 mg daily) or adjust current therapy.
+- Encourage structured daily routine and gradual activity.
+- Refer for psychotherapy or CBT.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss early treatment effects, side effects, and warning signs. Provide emergency numbers for crisis support.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up in 2 weeks to assess mood and adherence.
 
 Sign-off:
-Dr. A. Thomsen, Emergency Medicine
+Dr. R. Iversen, Neurology

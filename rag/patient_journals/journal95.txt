@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 030999-2407
-Encounter Date - 2023-02-14
-Author - Dr. J. Knudsen, ENT
-Patient Name - Christian Olsen
+CPR-number - 210907-6946
+Encounter Date - 2024-05-10
+Author - Dr. M. Petersen, Gastroenterology
+Patient Name - Viggo Nielsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Peptic ulcer disease (1982), Irritable bowel syndrome (2019), Chronic lower back pain.
-- Recent Lab Results (2023-02-08)
-    Hb 7.1 mmol/L (low)
-    Ferritin 34 µg/L
-    CRP 8 mg/L
-    Creatinine 75 µmol/L
+- Past Diagnoses — Obesity (2003), Hypothyroidism (2015), Heart failure (HFrEF) (1985), Irritable bowel syndrome (2014), Chronic lower back pain.
+- Recent Lab Results (2024-05-07)
+    Hb 8.0 mmol/L
+    Ferritin 41 µg/L
+    CRP 2 mg/L
+    Creatinine 67 µmol/L
 - Prior Consultations
-    - 2022-05-07 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2022-11-16 — Medication review — adherence reinforced, no adverse effects reported.
-- Medications — Ramipril 5 mg daily, Empagliflozin 10 mg daily.
+    - 2023-06-13 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2023-09-10 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Atorvastatin 20 mg nightly, Lisinopril 10 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Christian Olsen complains of fever, productive cough, and right-sided chest pain.
+Viggo Nielsen presents with fever, flank pain, and urinary symptoms.
 
 History of Present Illness:
-Christian Olsen developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Viggo Nielsen reports 1 days of dysuria, chills, and right-sided flank pain.
 
 Physical Examination:
-Febrile (36.4 °C), RR 24/min, SpO₂ 94% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+T 37.5 °C, costovertebral angle tenderness on right side. HR 86 bpm.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Urinalysis positive for nitrites; elevated CRP and WBC.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Acute pyelonephritis.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Start empiric antibiotic therapy.
+- Hydration and pain control.
+- Hospitalize if vomiting or sepsis.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Recheck in 8 days to confirm recovery.
 
 Sign-off:
-Dr. J. Knudsen, ENT
+Dr. M. Petersen, Gastroenterology

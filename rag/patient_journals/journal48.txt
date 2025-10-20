@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 160135-1657
-Encounter Date - 2023-07-08
-Author - Dr. S. Gram, Hematology
-Patient Name - Solveig Gram
+CPR-number - 061066-1475
+Encounter Date - 2025-01-23
+Author - Dr. A. Thomsen, Emergency Medicine
+Patient Name - Thomas Mortensen
 
 Medical History & Prior Results:
-- Past Diagnoses — COPD (2022), Atrial fibrillation (2021), Type 2 Diabetes (1980), Osteoporosis (2009).
-- Recent Lab Results (2023-05-21)
-    Hb 7.4 mmol/L (low)
-    Ferritin 150 µg/L
-    CRP 5 mg/L
-    Creatinine 57 µmol/L
+- Past Diagnoses — CKD (2016), Osteoporosis (1999), Chronic lower back pain.
+- Recent Lab Results (2024-10-26)
+    Hb 7.1 mmol/L (low)
+    Ferritin 90 µg/L
+    CRP 3 mg/L
+    Creatinine 98 µmol/L
 - Prior Consultations
-    - 2022-12-14 — Routine check-up — stable BP, mild anemia noted.
-    - 2023-01-14 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Atorvastatin 20 mg nightly, Amlodipine 5 mg daily.
+    - 2024-08-03 — Respiratory review — inhaler technique optimized, symptoms improved.
+    - 2024-09-12 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Empagliflozin 10 mg daily, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Solveig Gram complains of fever, productive cough, and right-sided chest pain.
+Thomas Mortensen reports sore throat, cough, and mild fever.
 
 History of Present Illness:
-Solveig Gram developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Thomas Mortensen developed nasal congestion and cough 4 days ago. No dyspnea or chest pain.
 
 Physical Examination:
-Febrile (38.0 °C), RR 26/min, SpO₂ 97% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+T 37.9 °C, mild pharyngeal erythema, lungs clear.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Clinical diagnosis of viral upper respiratory tract infection.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Viral URI.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Supportive care: rest, fluids, paracetamol for fever.
+- Avoid unnecessary antibiotics.
+- Educate on hygiene and infection control.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Reassure benign course; return if high fever or worsening.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Follow-up only if symptoms persist beyond 7 days.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. A. Thomsen, Emergency Medicine

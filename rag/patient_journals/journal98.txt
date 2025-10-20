@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 190862-8243
-Encounter Date - 2024-10-10
-Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Viggo Iversen
+CPR-number - 280188-2470
+Encounter Date - 2024-11-26
+Author - Dr. E. Dam, Rheumatology
+Patient Name - Morten Sørensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (1995), Psoriasis (1989), Irritable bowel syndrome (2000), Heart failure (HFpEF) (1984), Chronic lower back pain.
-- Recent Lab Results (2024-10-07)
-    Hb 7.4 mmol/L (low)
-    Ferritin 14 µg/L (low)
-    CRP 21 mg/L
-    Creatinine 59 µmol/L
+- Past Diagnoses — Hypertension (2010), Anxiety (1985), Atrial fibrillation (2006), Peptic ulcer disease (2001).
+- Recent Lab Results (2024-10-27)
+    Hb 8.4 mmol/L
+    Ferritin 123 µg/L
+    CRP 14 mg/L
+    Creatinine 57 µmol/L
 - Prior Consultations
-    - 2024-05-02 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2024-08-05 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Empagliflozin 10 mg daily, Furosemide 40 mg daily.
+    - 2024-03-23 — Follow-up for anemia — improved fatigue after iron therapy.
+    - 2024-09-03 — Follow-up for anemia — improved fatigue after iron therapy.
+- Medications — Furosemide 40 mg daily, Empagliflozin 10 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Viggo Iversen complains of fever, productive cough, and right-sided chest pain.
+Morten Sørensen presents with hearing voices and increased suspiciousness.
 
 History of Present Illness:
-Viggo Iversen developed a sudden cough with green sputum 3 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Morten Sørensen reports auditory hallucinations and belief that neighbors are watching. Sleep poor; no substance use disclosed. Non-adherent with medication for 2 weeks.
 
 Physical Examination:
-Febrile (36.7 °C), RR 17/min, SpO₂ 100% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Distracted by internal stimuli, flat affect, limited insight. Vitals: BP 162/65, HR 94 bpm.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Active psychosis; rule out intoxication or medical cause.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Schizophrenia, acute exacerbation due to medication nonadherence.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Restart antipsychotic (oral or depot).
+- Ensure safe environment; involve crisis team.
+- Assess capacity and consider inpatient admission if risk present.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss importance of medication adherence and early relapse signs with patient and relatives.
 
 Follow-up & Disposition:
-Safety check in 3 days if outpatient; clinical review in 2 weeks to ensure recovery.
+Close follow-up within 7 days or inpatient as required.
 
 Sign-off:
-Dr. H. Sørensen, Internal Medicine
+Dr. E. Dam, Rheumatology

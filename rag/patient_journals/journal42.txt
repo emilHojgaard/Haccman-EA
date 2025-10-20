@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 080290-1114
-Encounter Date - 2024-07-09
-Author - Dr. S. Nielsen, Pulmonology
-Patient Name - Sofia Hansen
+CPR-number - 200497-6487
+Encounter Date - 2023-07-24
+Author - Dr. V. Laursen, Nephrology
+Patient Name - Frederik Mortensen
 
 Medical History & Prior Results:
-- Past Diagnoses — Heart failure (HFpEF) (1983), Obesity (1992), Heart failure (HFrEF) (2005), Chronic lower back pain.
-- Recent Lab Results (2024-07-04)
-    Hb 8.3 mmol/L
-    Ferritin 89 µg/L
-    CRP 1 mg/L
-    Creatinine 71 µmol/L
+- Past Diagnoses — Osteoarthritis (2003), Irritable bowel syndrome (2008), Heart failure (HFpEF) (1988), Osteoporosis (2002).
+- Recent Lab Results (2023-06-24)
+    Hb 6.8 mmol/L (low)
+    Ferritin 99 µg/L
+    CRP 5 mg/L
+    Creatinine 76 µmol/L
 - Prior Consultations
-    - 2024-01-23 — Follow-up for anemia — improved fatigue after iron therapy.
-    - 2023-10-29 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Atorvastatin 20 mg nightly, Lisinopril 10 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2023-07-09 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2022-10-22 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Ferrous sulfate 100 mg every other day, Lisinopril 10 mg daily, Bisoprolol 5 mg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Sofia Hansen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Frederik Mortensen reports epigastric pain and indigestion.
 
 History of Present Illness:
-Sofia Hansen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Frederik Mortensen has burning upper abdominal pain related to meals. Uses NSAIDs intermittently; no hematemesis.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 116/77 mmHg, HR 103 bpm). Abdomen soft, non-tender.
+Epigastric tenderness, no guarding. Vitals: BP 159/77, HR 82.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Suspected gastritis/ulcer; H. pylori test ordered.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Peptic ulcer disease, likely NSAID-related.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Stop NSAIDs; start PPI (e.g., pantoprazole 40 mg daily).
+- If positive, treat H. pylori.
+- Advise small, frequent meals and limit alcohol/caffeine.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Explain risk factors and warning signs of bleeding.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 6 weeks; earlier review if symptoms worsen.
+Reassess in 5 weeks; consider endoscopy if persistent.
 
 Sign-off:
-Dr. S. Nielsen, Pulmonology
+Dr. V. Laursen, Nephrology

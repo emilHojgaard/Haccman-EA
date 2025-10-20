@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 280455-9891
-Encounter Date - 2025-10-15
-Author - Dr. L. Holm, Cardiology
-Patient Name - Rasmus Thomsen
+CPR-number - 060702-3815
+Encounter Date - 2023-06-24
+Author - Dr. J. Knudsen, ENT
+Patient Name - Peter Knudsen
 
 Medical History & Prior Results:
-- Past Diagnoses — Gout (2006), Type 2 Diabetes (1996), Chronic lower back pain.
-- Recent Lab Results (2025-09-22)
-    Hb 7.4 mmol/L (low)
-    Ferritin 52 µg/L
-    CRP 21 mg/L
-    Creatinine 65 µmol/L
+- Past Diagnoses — Heart failure (HFpEF) (2019), Iron Deficiency (1998).
+- Recent Lab Results (2023-04-28)
+    Hb 7.5 mmol/L
+    Ferritin 57 µg/L
+    CRP 1 mg/L
+    Creatinine 79 µmol/L
 - Prior Consultations
-    - 2025-09-17 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2025-07-30 — Respiratory review — inhaler technique optimized, symptoms improved.
-- Medications — Bisoprolol 5 mg daily, Atorvastatin 20 mg nightly, Amlodipine 5 mg daily, Levothyroxine 75 µg daily.
+    - 2023-05-21 — Medication review — adherence reinforced, no adverse effects reported.
+    - 2023-02-11 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Levothyroxine 75 µg daily, Furosemide 40 mg daily, Ferrous sulfate 100 mg every other day.
 - Allergies — None known.
 
 Chief Complaint:
-Rasmus Thomsen complains of fever, productive cough, and right-sided chest pain.
+Peter Knudsen reports nightmares, flashbacks, and hypervigilance.
 
 History of Present Illness:
-Rasmus Thomsen developed a sudden cough with green sputum 6 days ago, followed by fevers and pleuritic pain. Increased breathlessness when climbing stairs; no recent travel.
+Peter Knudsen experienced a traumatic event 3 months ago and now has intrusive memories, sleep disturbance, and avoidance of reminders.
 
 Physical Examination:
-Febrile (37.5 °C), RR 13/min, SpO₂ 99% on room air. Crackles and bronchial breath sounds over the right lower zone; no peripheral edema.
+Alert, tense, occasional tearfulness. Startles easily. Vitals: BP 117/58, HR 88 bpm.
 
 Diagnostics (Today):
-CXR shows right lower lobe consolidation. CRP elevated; WBC mildly raised. Consider sputum culture if severe or atypical features.
+Symptoms meet criteria for PTSD; rule out concurrent depression or substance misuse.
 
 Assessment:
-Community-acquired pneumonia, lobar pattern, clinically stable for ward/ambulatory care depending on scores.
+Post-traumatic stress disorder.
 
 Plan:
-- Start empiric antibiotics per local protocol; provide antipyretics and hydration.
-- Titrate oxygen to target saturations and encourage early mobilization and incentive spirometry.
-- Review response within 48–72 hours; escalate if hypoxemia or sepsis criteria develop.
+- Refer for trauma-focused CBT or EMDR.
+- Avoid routine benzodiazepine use.
+- Consider SSRI if comorbid depression or anxiety.
 
 Patient Education & Safety Net:
-Discuss contagious period, cough hygiene, and gradual return to activity. Reinforce smoking cessation and vaccination where applicable.
+Discuss trauma response normalization and coping strategies. Encourage gradual exposure and social support.
 
 Follow-up & Disposition:
-Safety check in 2 days if outpatient; clinical review in 1 weeks to ensure recovery.
+Follow-up in 3 weeks to review therapy engagement.
 
 Sign-off:
-Dr. L. Holm, Cardiology
+Dr. J. Knudsen, ENT

@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 040405-6134
-Encounter Date - 2025-10-10
-Author - Dr. K. Østergaard, General Surgery
-Patient Name - Mette Poulsen
+CPR-number - 250151-6149
+Encounter Date - 2025-10-18
+Author - Dr. S. Nielsen, Pulmonology
+Patient Name - Rune Østergaard
 
 Medical History & Prior Results:
-- Past Diagnoses — Dyslipidemia (2012), Migraine (2009), Obesity (1990), Chronic lower back pain.
-- Recent Lab Results (2025-09-27)
-    Hb 6.7 mmol/L (low)
-    Ferritin 109 µg/L
-    CRP 11 mg/L
-    Creatinine 106 µmol/L
+- Past Diagnoses — Osteoarthritis (2022), Gallstones (2021), Iron Deficiency (1991), Chronic lower back pain.
+- Recent Lab Results (2025-08-02)
+    Hb 8.0 mmol/L
+    Ferritin 27 µg/L
+    CRP 5 mg/L
+    Creatinine 72 µmol/L
 - Prior Consultations
-    - 2025-01-09 — Respiratory review — inhaler technique optimized, symptoms improved.
-    - 2025-05-04 — Heart failure clinic — diuretic adjusted, weight trending down.
-- Medications — Atorvastatin 20 mg nightly, Furosemide 40 mg daily, Ramipril 5 mg daily, Ferrous sulfate 100 mg every other day.
+    - 2025-08-08 — Routine check-up — stable BP, mild anemia noted.
+    - 2025-02-18 — Respiratory review — inhaler technique optimized, symptoms improved.
+- Medications — Bisoprolol 5 mg daily, Ferrous sulfate 100 mg every other day, Levothyroxine 75 µg daily.
 - Allergies — None known.
 
 Chief Complaint:
-Mette Poulsen reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Rune Østergaard presents with fever, flank pain, and urinary symptoms.
 
 History of Present Illness:
-Mette Poulsen notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Rune Østergaard reports 3 days of dysuria, chills, and right-sided flank pain.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 132/76 mmHg, HR 99 bpm). Abdomen soft, non-tender.
+T 38.0 °C, costovertebral angle tenderness on right side. HR 63 bpm.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+Urinalysis positive for nitrites; elevated CRP and WBC.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Acute pyelonephritis.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Start empiric antibiotic therapy.
+- Hydration and pain control.
+- Hospitalize if vomiting or sepsis.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Advise early presentation for recurrence; complete full antibiotic course.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Recheck in 10 days to confirm recovery.
 
 Sign-off:
-Dr. K. Østergaard, General Surgery
+Dr. S. Nielsen, Pulmonology

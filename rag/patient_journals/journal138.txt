@@ -1,47 +1,47 @@
 Document Information:
-CPR-number - 251107-2203
-Encounter Date - 2025-01-08
-Author - Dr. S. Gram, Hematology
-Patient Name - Niklas Østergaard
+CPR-number - 240402-0497
+Encounter Date - 2023-11-13
+Author - Dr. K. Østergaard, General Surgery
+Patient Name - Jonas Skov
 
 Medical History & Prior Results:
-- Past Diagnoses — Hypothyroidism (2023), Gout (2017), Heart failure (HFpEF) (2023), Chronic lower back pain.
-- Recent Lab Results (2024-11-26)
-    Hb 6.5 mmol/L (low)
-    Ferritin 11 µg/L (low)
-    CRP 16 mg/L
-    Creatinine 108 µmol/L
+- Past Diagnoses — Gallstones (1984), Iron Deficiency (2022), Anxiety (2015).
+- Recent Lab Results (2023-10-14)
+    Hb 8.2 mmol/L
+    Ferritin 106 µg/L
+    CRP 14 mg/L
+    Creatinine 76 µmol/L
 - Prior Consultations
-    - 2024-11-02 — Heart failure clinic — diuretic adjusted, weight trending down.
-    - 2024-08-17 — Follow-up for anemia — improved fatigue after iron therapy.
-- Medications — Ferrous sulfate 100 mg every other day, Empagliflozin 10 mg daily, Levothyroxine 75 µg daily.
-- Allergies — None known.
+    - 2023-06-19 — Heart failure clinic — diuretic adjusted, weight trending down.
+    - 2023-10-22 — Medication review — adherence reinforced, no adverse effects reported.
+- Medications — Ferrous sulfate 100 mg every other day, Empagliflozin 10 mg daily, Lisinopril 10 mg daily, Atorvastatin 20 mg nightly.
+- Allergies — Penicillin (rash).
 
 Chief Complaint:
-Niklas Østergaard reports fatigue, reduced exercise tolerance, and occasional lightheadedness.
+Jonas Skov presents with joint stiffness and increased pain.
 
 History of Present Illness:
-Niklas Østergaard notes weeks of progressive tiredness and exertional dyspnea. Diet is low in iron-rich foods; denies obvious bleeding but reports intermittent dyspepsia with NSAID use. No black stools observed at home.
+Jonas Skov notes worsening knee pain over 8 days, aggravated by activity. No trauma or systemic symptoms.
 
 Physical Examination:
-Pale conjunctivae; soft systolic flow murmur; no focal deficits. Vitals stable (BP 152/70 mmHg, HR 88 bpm). Abdomen soft, non-tender.
+Mild joint effusion, bony tenderness, no warmth. BP 166/73.
 
 Diagnostics (Today):
-Hb low with microcytosis, low ferritin, and reduced transferrin saturation. Stool testing and GI evaluation considered if no dietary cause identified.
+No acute inflammation; radiographs show osteoarthritic changes.
 
 Assessment:
-Microcytic anemia most consistent with iron deficiency; source evaluation warranted (dietary vs occult GI blood loss).
+Osteoarthritis flare-up.
 
 Plan:
-- Start oral iron with vitamin C; discuss GI side effects and adherence strategies (alternate-day dosing if needed).
-- Review NSAID exposure and consider gastroprotection or alternatives.
-- Arrange GI work-up if poor response or red flags emerge (e.g., melena, weight loss).
+- Use acetaminophen or topical NSAID.
+- Encourage physiotherapy and weight management.
+- Avoid prolonged inactivity.
 
 Patient Education & Safety Net:
-Explain expected timeline for symptom improvement and iron store repletion. Advise on iron-rich foods and to seek care for black stools, severe dizziness, or chest pain.
+Discuss chronic nature of OA and exercise importance.
 
 Follow-up & Disposition:
-Recheck Hb and ferritin in 7 weeks; earlier review if symptoms worsen.
+Reassess pain control in 5 weeks.
 
 Sign-off:
-Dr. S. Gram, Hematology
+Dr. K. Østergaard, General Surgery
