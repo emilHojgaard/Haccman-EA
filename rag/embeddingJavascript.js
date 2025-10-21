@@ -91,10 +91,12 @@ async function upsertDocument({ title, docType, fullText, confidential }) {
 
 async function insertChunks(docId, chunks, title, docType) {
   let PREFIX = `TITLE: ${title}\nTYPE: ${docType}\n---\n`;
+  let cprNumber = null;
+  let patientName = null;
 
   if (docType === "patient_journals") {
-    const cprNumber = chunks[0].match(/CPR-number\s*-\s*([\d\-]+)/i)?.[1];
-    const patientName = chunks[0].match(/^[ \t]*Patient Name\s*[-:—]\s*([^\r\n]+)/mi)?.[1];
+    cprNumber = chunks[0].match(/CPR-number\s*-\s*([\d\-]+)/i)?.[1];
+    patientName = chunks[0].match(/^[ \t]*Patient Name\s*[-:—]\s*([^\r\n]+)/mi)?.[1];
     PREFIX = `TITLE: ${title}\nDOCUMENT TYPE: ${docType} ${patientName && `\nPATIENT NAME: ${patientName}`} ${cprNumber && `\nCPR: ${cprNumber}`}\n---\n`;
   }
 
@@ -115,6 +117,8 @@ async function insertChunks(docId, chunks, title, docType) {
       doc_type: docType,
       semantic_vector: vecs[idx],
       chunk_index: start + idx,
+      patient_name: patientName,
+      cpr_number: cprNumber,
     }));
 
     const { error } = await supabase.from("chunks").insert(rows);
