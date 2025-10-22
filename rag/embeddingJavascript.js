@@ -88,13 +88,14 @@ async function upsertDocument({ title, docType, fullText, confidential }) {
   if (error) throw error;
   return data.id;
 }
-
 async function insertChunks(docId, chunks, title, docType) {
   let PREFIX = `TITLE: ${title}\nTYPE: ${docType}\n---\n`;
+  let cprNumber = null;
+  let patientName = null;
 
   if (docType === "patient_journals") {
-    const cprNumber = chunks[0].match(/CPR-number\s*-\s*([\d\-]+)/i)?.[1];
-    const patientName = chunks[0].match(/^[ \t]*Patient Name\s*[-:—]\s*([^\r\n]+)/mi)?.[1];
+    cprNumber = chunks[0].match(/CPR-number\s*-\s*([\d\-]+)/i)?.[1];
+    patientName = chunks[0].match(/^[ \t]*Patient Name\s*[-:—]\s*([^\r\n]+)/mi)?.[1];
     PREFIX = `TITLE: ${title}\nDOCUMENT TYPE: ${docType} ${patientName && `\nPATIENT NAME: ${patientName}`} ${cprNumber && `\nCPR: ${cprNumber}`}\n---\n`;
   }
 
@@ -113,6 +114,8 @@ async function insertChunks(docId, chunks, title, docType) {
       text_chunk,
       doc_title: title,
       doc_type: docType,
+      patient_name: patientName,
+      cpr_number: cprNumber,
       semantic_vector: vecs[idx],
       chunk_index: start + idx,
     }));
