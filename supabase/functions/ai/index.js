@@ -281,18 +281,19 @@ Your task:
       // --- Building context string ---
       const context = buildContext(matches ?? []);
       console.log("Context built:", context);
+
       // --- OpenAI Call (creating prompt + getting generated answer ) ---
       const body = {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
         messages: [
-          { role: "system", content: systemPrompt + constrain },
+          { role: "system", content: systemPrompt + constrain},
           {
             role: "system",
             content:
-              "You will receive CONTEXT and a USER question. Answer truthfully based on the CONTEXT. If the CONTEXT does not contain the answer, answer based on your training data. If you don't know, say so.",
+              "You will receive CONTEXT retrieved from the hospital RAG and a CHAT HISTORY ending with the USER QUERY. Answer truthfully based on the CONTEXT. If the CONTEXT does not contain the answer, answer based on your training data. If you don't know, say so."
           },
-          { role: "system", content: `CONTEXT:\n${context}` },
+          { role: "system", content: `Context:\n${context}` },
           ...chatHistory,
           { role: "user", content: message },
         ],
@@ -318,6 +319,7 @@ Your task:
         });
       }
 
+      // --- OpenAI response ---
       const json = await r.json();
       const aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
       // aiResponsetext = redactCPR(aiResponsetext); // optional safety net
