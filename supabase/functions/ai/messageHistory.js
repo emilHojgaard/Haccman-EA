@@ -1,10 +1,8 @@
 export default function messageHistory(previousPrompts, messageCount = 20) {
     const messageList = Array.isArray(previousPrompts) ? previousPrompts.slice(-messageCount) : [];
-    if (messageList.length === 0) return [];
+    if (messageList.length === 0) return "";
 
     const messagesString = [];
-
-    messagesString.push("=== Previous Conversation History ===");
 
     for (const { id, message } of messageList) {
         if (message.length > 1000) {
@@ -15,10 +13,10 @@ export default function messageHistory(previousPrompts, messageCount = 20) {
             continue;
         }
 
-        messagesString.push(`[${id}]: ${message}`);
+        messagesString.push({role: id, content: message});
     }
 
-    messagesString.push("=== End of Conversation History ===");
+   
 
-    return messagesString.join("\n");
+    return messagesString;
 };

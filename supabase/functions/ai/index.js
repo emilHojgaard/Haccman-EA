@@ -2,6 +2,7 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 import { detectIntent } from "./detectIntent.js";
 import { journalTextToMarkdown } from "./journalTextToMarkdown.js";
 import messageHistory from "./messageHistory.js";
+import { buildContext } from "./buildContext.js";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*", // lock down in prod
@@ -37,17 +38,6 @@ async function embedWithOpenAI(text) {
   return j.data[0].embedding; // number[]
 }
 
-function buildContext(chunks) {
-  return (chunks ?? [])
-    .map(
-      (c, i) =>
-        `[${i + 1}] (rrf=${c.rrf_score?.toFixed(3) ?? "0"}; ` +
-        `emb=${c.embedding_score?.toFixed(3) ?? "0"}; ` +
-        `fts=${c.keyword_score?.toFixed(3) ?? "0"}) ` +
-        `TITLE: ${c.doc_title}\n${c.text_chunk}`
-    )
-    .join("\n\n");
-}
 
 function redactCPR(s) {
   // optional safety net: mask DK CPR formats
@@ -107,11 +97,11 @@ Deno.serve(async (req) => {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
         messages: [
-          { role: "system", content: guardrail },
-          ...(systemPrompt ? [{ role: "system", content: systemPrompt + constrain }] : []),
+          { role: "system", content: systemPrompt + constrain },
           {
             role: "system",
-            content: confidential
+            content: "" +
+            confidential
               ? `The document below is confidential. Politely inform the user you cannot share the contents, and suggest they request access through authorized channels.`
               : `
 Your task is to present the retrieved document.
@@ -129,7 +119,7 @@ Your task:
           },
           { role: "system", content: `DOC TITLE:\n${docTitle ?? ""} ` },
           { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
-          { role: "user", content: chatHistory },
+          ...chatHistory,
           { role: "user", content: message },
         ],
       };
@@ -187,8 +177,7 @@ Your task:
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
         messages: [
-          { role: "system", content: guardrail },
-          ...(systemPrompt ? [{ role: "system", content: systemPrompt + constrain }] : []),
+          { role: "system", content: systemPrompt + constrain },
           {
             role: "system",
             content: `
@@ -210,7 +199,7 @@ Your task:
             content: `DOC TITLE:\n${docTitle ?? ""}`,
           },
           { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
-          { role: "user", content: chatHistory },
+          ...chatHistory,
           { role: "user", content: message },
         ],
       };
@@ -287,7 +276,7 @@ Your task:
         );
       }
 
-      console.log("Retrieved", matches, "matching chunks");
+      console.log("Retrieved matches: ", matches, "matching chunks");
 
       // --- Building context string ---
       const context = buildContext(matches ?? []);
@@ -297,19 +286,20 @@ Your task:
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
         messages: [
-          { role: "system", content: guardrail },
-          ...(systemPrompt ? [{ role: "system", content: systemPrompt + constrain }] : []),
+          { role: "system", content: systemPrompt + constrain },
           {
             role: "system",
             content:
               "You will receive CONTEXT and a USER question. Answer truthfully based on the CONTEXT. If the CONTEXT does not contain the answer, answer based on your training data. If you don't know, say so.",
           },
           { role: "system", content: `CONTEXT:\n${context}` },
-          { role: "user", content: chatHistory },
+          ...chatHistory,
           { role: "user", content: message },
         ],
       };
-      console.log("the full prompt body is:", body);
+      console.log("context: ", context);
+      console.log("chatHistory: ", [...chatHistory]);
+      console.log("message: ", message);
 
       const r = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
