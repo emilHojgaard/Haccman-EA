@@ -25,10 +25,12 @@ function App() {
   const [gender, setGender] = useState("");
   const [familiarity, setFamiliarity] = useState("");
 
-  useEffect(() => {
-    ensureAnonymousSession().catch(console.error);
+ useEffect(() => {
+    (async () => {
+      await ensureAnonymousSession().catch(console.error);
+    })();
   }, []);
-
+  
   return (
     <SoundEffectProvider>
       <BrowserRouter>
