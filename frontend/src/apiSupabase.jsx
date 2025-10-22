@@ -2,8 +2,7 @@ import { supabase, supabaseAdmin } from "./theLeftoverFiles/SupabaseClient.jsx";
 
 //for Supabase AI-connection/edge-function
 const FN_URL =
-  (import.meta.env ? import.meta.env.VITE_SUPABASE_URL : undefined) ||
-  "https://yqroigcevcoddsmangyg.supabase.co";
+  (import.meta.env ? import.meta.env.VITE_SUPABASE_URL : undefined);
 
 export async function sendPromptToAI(
   message,
