@@ -25,13 +25,24 @@ function App() {
   const [gender, setGender] = useState("");
   const [familiarity, setFamiliarity] = useState("");
 
- useEffect(() => {
+const [authReady, setAuthReady] = useState(false);
+
+  useEffect(() => {
     (async () => {
-      await ensureAnonymousSession().catch(console.error);
+      try {
+        await ensureAnonymousSession();
+      } catch (e) {
+        console.error("Auth init failed", e);
+      } finally {
+        setAuthReady(true);
+      }
     })();
   }, []);
-  
-  return (
+
+  if (!authReady) {
+    return <div className="background" style={{ color: "#FFFADE" }}>Loading…</div>;
+  }
+    return (
     <SoundEffectProvider>
       <BrowserRouter>
         <MusicPlayer />
