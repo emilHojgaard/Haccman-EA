@@ -2,7 +2,7 @@ Document Information:
 CPR-number - 031092-2098
 Encounter Date - 2023-06-03
 Author - Dr. H. Sørensen, Internal Medicine
-Patient Name - Julie Bang
+Patient Name - Julie Bang 
 
 Medical History & Prior Results:
 - Past Diagnoses — Obesity (2001), GERD (2020), Irritable bowel syndrome (1986), Iron Deficiency (2018), Chronic lower back pain.

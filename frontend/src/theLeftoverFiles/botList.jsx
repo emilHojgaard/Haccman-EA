@@ -40,8 +40,8 @@ export const botList = [
             "valproate",
             "manic-depressive",
           ],
-          name: ["Birgit", "Mikkelsen"],
-          cpr: ["060459-6052"],
+          name: ["Julie", "Bang"],
+          cpr: ["031092-2098"],
         },
       },
       {
