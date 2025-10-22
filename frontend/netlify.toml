@@ -1,0 +1,3 @@
+[build.environment]
+# These two are intentionally public in the browser bundle
+SECRETS_SCAN_OMIT_KEYS = "VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY"
