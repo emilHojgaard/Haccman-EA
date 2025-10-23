@@ -1,5 +1,5 @@
-import cpr from "../../../rag/patient_journals/cprs.json" with { type: "json" };
-import fullnames from "../../../rag/patient_journals/fullnames.json" with { type: "json" };
+import cpr from "../../../../rag/patient_journals/cprs.json" with { type: "json" };
+import fullnames from "../../../../rag/patient_journals/fullnames.json" with { type: "json" };
 
 /***********************
  * 1) Static data

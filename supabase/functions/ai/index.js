@@ -1,8 +1,10 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
-import { detectIntent } from "./detectIntent.js";
-import { journalTextToMarkdown } from "./journalTextToMarkdown.js";
-import messageHistory from "./messageHistory.js";
-import { buildContext } from "./buildContext.js";
+import { detectIntent } from "./helpers/detectIntent.js";
+import { journalTextToMarkdown } from "./helpers/journalTextToMarkdown.js";
+import messageHistory from "./helpers/messageHistory.js";
+import { buildContext } from "./helpers/buildContext.js";
+import { embedWithOpenAI } from "./helpers/embedWithOpenAI.js";
+import { contextPromptFull, contextPromptSummary, contextPromptHybrid } from "./helpers/promptStatements.js";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*", // lock down in prod
@@ -19,24 +21,24 @@ const OPENAI_API_KEY = Deno.env.get("OPENAI_API_KEY");
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
 
 // --- Helpers ---
-async function embedWithOpenAI(text) {
-  const r = await fetch("https://api.openai.com/v1/embeddings", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${OPENAI_API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model: "text-embedding-3-small", // 1536 dims
-      input: text,
-    }),
-  });
-  if (!r.ok) {
-    throw new Error(`embed error: ${r.status} ${await r.text()}`);
-  }
-  const j = await r.json();
-  return j.data[0].embedding; // number[]
-}
+// async function embedWithOpenAI(text) {
+//   const r = await fetch("https://api.openai.com/v1/embeddings", {
+//     method: "POST",
+//     headers: {
+//       Authorization: `Bearer ${OPENAI_API_KEY}`,
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       model: "text-embedding-3-small", // 1536 dims
+//       input: text,
+//     }),
+//   });
+//   if (!r.ok) {
+//     throw new Error(`embed error: ${r.status} ${await r.text()}`);
+//   }
+//   const j = await r.json();
+//   return j.data[0].embedding; // number[]
+// }
 
 
 function redactCPR(s) {
@@ -77,7 +79,7 @@ Deno.serve(async (req) => {
     if (mode === "full") {
 
       // --- Supabase Edge Call (getting document )
-      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: `journal${journalId}, ${cpr}, ${fullname}, ${knownDoc}` });
+      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: `${journalId && ", journal" + journalId}, ${cpr && ", CPR: " + cpr}, ${fullname && ", Name: " + fullname} ${knownDoc && ", Document: " + knownDoc}` });
       if (rpcErr) {
         return new Response(
           JSON.stringify({ error: rpcErr.message ?? rpcErr }),
@@ -98,25 +100,7 @@ Deno.serve(async (req) => {
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: systemPrompt + constrain },
-          {
-            role: "system",
-            content: "" +
-            confidential
-              ? `The document below is confidential. Politely inform the user you cannot share the contents, and suggest they request access through authorized channels.`
-              : `
-Your task is to present the retrieved document.
-
-You will receive:
-- A **DOC TITLE** (the name of the retrieved document)
-- A **DOCUMENT** (the content of the retrieved document)
-- A **USER question**
-
-Your task:
-1. If the DOC TITLE and DOCUMENT is NOT empty, present the FULL DOCUMENT without changes.
-2. If the DOC TITLE or DOCUMENT is empty or missing, respond exactly with: "Document not found."
-3. Do **not** invent a title or hallucinate content that is not given.
-`.trim(),
-          },
+          { role: "system",content:contextPromptFull,},
           { role: "system", content: `DOC TITLE:\n${docTitle ?? ""} ` },
           { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
           ...chatHistory,
@@ -178,26 +162,8 @@ Your task:
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: systemPrompt + constrain },
-          {
-            role: "system",
-            content: `
-You are an assistant designed to introduce a retrieved document.
-
-You will receive:
-- A **DOC TITLE** (the name of the retrieved document)
-- A **DOCUMENT** (the content of the retrieved document)
-- A **USER question**
-
-Your task:
-1. If the DOC TITLE and DOCUMENT is NOT empty, summarize the DOCUMENT in a concise manner according to the USER question.
-2. If the DOC TITLE or DOCUMENT is empty or missing, respond exactly with: "Document not found."
-3. Do **not** invent a title or hallucinate content that is not given.
-    `.trim(),
-          },
-          {
-            role: "system",
-            content: `DOC TITLE:\n${docTitle ?? ""}`,
-          },
+          { role: "system", content: contextPromptSummary,},
+          { role: "system", content: `DOC TITLE:\n${docTitle ?? ""}`,},
           { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
           ...chatHistory,
           { role: "user", content: message },
@@ -254,7 +220,7 @@ Your task:
       // --- embedding the query ---
       // const queryEmbedding = await embedWithOpenAI(message);
       // console.log("Query embedding computed");
-      const normEmbedding = await embedWithOpenAI(normalizedMessage);
+      const normEmbedding = await embedWithOpenAI(normalizedMessage, OPENAI_API_KEY);
       console.log("Normalized query embedding computed");
       // --- Supabase Edge Call (getting chunks ) ---
       const { data: matches, error: rpcErr } = await supabase.rpc(
@@ -288,12 +254,8 @@ Your task:
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: systemPrompt + constrain},
-          {
-            role: "system",
-            content:
-              "You will receive CONTEXT retrieved from the hospital RAG and a CHAT HISTORY ending with the USER QUERY. Answer truthfully based on the CONTEXT. If the CONTEXT does not contain the answer, answer based on your training data. If you don't know, say so."
-          },
-          { role: "system", content: `Context:\n${context}` },
+          { role: "system", content: contextPromptHybrid},
+          { role: "system", content: `Context:\n${context}`},
           ...chatHistory,
           { role: "user", content: message },
         ],
