@@ -3,11 +3,15 @@ import { detectIntent } from "./helpers/detectIntent.js";
 import messageHistory from "./helpers/messageHistory.js";
 import { buildContext } from "./helpers/buildContext.js";
 import { embedWithOpenAI } from "./helpers/embedWithOpenAI.js";
-import { contextPromptFull, contextPromptSummary, contextPromptHybrid } from "./helpers/promptStatements.js";
+import {
+  contextPromptFull,
+  contextPromptSummary,
+  contextPromptHybrid,
+} from "./helpers/promptStatements.js";
 import { normalizeForHybrid } from "./helpers/normlizeForHybrid.js";
 
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "*", 
+  "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers":
     "authorization, x-client-info, apikey, content-type",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
@@ -27,7 +31,8 @@ Deno.serve(async (req) => {
   }
 
   try {
-    const { message, systemPrompt, constrain, guardrail, previousPrompts } = await req.json();
+    const { message, systemPrompt, constrain, guardrail, previousPrompts } =
+      await req.json();
 
     if (!OPENAI_API_KEY) {
       return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
@@ -39,17 +44,27 @@ Deno.serve(async (req) => {
     //--- Organize previous prompts ---
     const chatHistory = messageHistory(previousPrompts, 20);
 
-
     // --- Detect intent to know retrieval methode ---
     const { mode, journalId, cpr, nameInit, knownDoc } = detectIntent(message);
     const fullname = nameInit ? `${nameInit.first} ${nameInit.last}` : null;
-    console.log("Entities detected:", { mode, journalId, cpr, fullname, knownDoc });
+    console.log("Entities detected:", {
+      mode,
+      journalId,
+      cpr,
+      fullname,
+      knownDoc,
+    });
 
     // --- different retrieval methods ---
     if (mode === "full") {
-
       // --- Supabase Edge Call (getting document )
-      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: `${journalId && ", journal" + journalId}, ${cpr && ", CPR: " + cpr}, ${fullname && ", Name: " + fullname} ${knownDoc && ", Document: " + knownDoc}` });
+      const { data, error: rpcErr } = await supabase.rpc("full_text_search", {
+        query_text: `${journalId && ", journal" + journalId}, ${
+          cpr && ", CPR: " + cpr
+        }, ${fullname && ", Name: " + fullname} ${
+          knownDoc && ", Document: " + knownDoc
+        }`,
+      });
       if (rpcErr) {
         return new Response(
           JSON.stringify({ error: rpcErr.message ?? rpcErr }),
@@ -71,10 +86,10 @@ Deno.serve(async (req) => {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
         messages: [
-          { role: "system", content: systemPrompt + constrain },
-          { role: "system",content:contextPromptFull,},
+          { role: "system", content: contextPromptFull },
           { role: "system", content: `DOC TITLE:\n${docTitle ?? ""} ` },
           { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
+          { role: "system", content: systemPrompt + constrain },
           ...chatHistory,
           { role: "user", content: message },
         ],
@@ -105,17 +120,21 @@ Deno.serve(async (req) => {
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
 
       // --- Return values to client ---
-      return new Response(JSON.stringify({
-        mode: "full",
-        aiResponsetext,
-        sources: [],
-        document: doc ? { title: docTitle, full_text: docText } : null,
-        titles: docTitle ? [docTitle] : [],
-      }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
-
+      return new Response(
+        JSON.stringify({
+          mode: "full",
+          aiResponsetext,
+          sources: [],
+          document: doc ? { title: docTitle, full_text: docText } : null,
+          titles: docTitle ? [docTitle] : [],
+        }),
+        { headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
     } else if (mode === "summary") {
       // --- Supabase Edge Call (getting document ) ---
-      const { data, error: rpcErr } = await supabase.rpc("full_text_search", { query_text: `journal${journalId}, ${cpr}, ${fullname}, ${knownDoc}` });
+      const { data, error: rpcErr } = await supabase.rpc("full_text_search", {
+        query_text: `journal${journalId}, ${cpr}, ${fullname}, ${knownDoc}`,
+      });
       if (rpcErr) {
         return new Response(
           JSON.stringify({ error: rpcErr.message ?? rpcErr }),
@@ -135,10 +154,10 @@ Deno.serve(async (req) => {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
         messages: [
-          { role: "system", content: systemPrompt + constrain },
-          { role: "system", content: contextPromptSummary,},
-          { role: "system", content: `DOC TITLE:\n${docTitle ?? ""}`,},
+          { role: "system", content: contextPromptSummary },
+          { role: "system", content: `DOC TITLE:\n${docTitle ?? ""}` },
           { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
+          { role: "system", content: systemPrompt + constrain },
           ...chatHistory,
           { role: "user", content: message },
         ],
@@ -163,7 +182,7 @@ Deno.serve(async (req) => {
           headers: { ...corsHeaders, "Content-Type": "application/json" },
         });
       }
-      
+
       // --- OpenAI response ---
       const json = await r.json();
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
@@ -184,9 +203,12 @@ Deno.serve(async (req) => {
     else {
       //--- normalizing message for embedding and querying ---
       const normalizedMessage = normalizeForHybrid(message);
-      
+
       //embedding
-      const normEmbedding = await embedWithOpenAI(normalizedMessage, OPENAI_API_KEY);
+      const normEmbedding = await embedWithOpenAI(
+        normalizedMessage,
+        OPENAI_API_KEY
+      );
       console.log("Normalized query embedding computed");
 
       // --- Supabase Edge Call (getting chunks ) ---
@@ -219,9 +241,9 @@ Deno.serve(async (req) => {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
         messages: [
-          { role: "system", content: systemPrompt + constrain},
-          { role: "system", content: contextPromptHybrid},
-          { role: "system", content: `Context:\n${context}`},
+          { role: "system", content: contextPromptHybrid },
+          { role: "system", content: `Context:\n${context}` },
+          { role: "system", content: systemPrompt + constrain },
           ...chatHistory,
           { role: "user", content: message },
         ],
