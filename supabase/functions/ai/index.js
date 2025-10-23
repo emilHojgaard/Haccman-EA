@@ -207,10 +207,10 @@ Deno.serve(async (req) => {
           }
         );
       }
-      console.log("Retrieved matches: ", matches, "matching chunks");
-
+     
       // --- Building context string ---
-      const context = buildContext(matches ?? []);
+      const filteredMatches = (matches ?? []).filter((m) => m.embedding_score >= 0.3 && m.keyword_score > 0.09);
+      const context = buildContext(filteredMatches ?? []);
       console.log("Context built:", context);
 
       // --- Building the prompt ---
@@ -256,7 +256,7 @@ Deno.serve(async (req) => {
         JSON.stringify({
           mode: "hybrid",
           aiResponsetext: aiResponsetext,
-          sources: (matches ?? []).map((m, i) => ({
+          sources: (filteredMatches ?? []).map((m, i) => ({
             id: m.chunk_id,
             doc_id: m.doc_id,
             doc_title: m.doc_title,
@@ -267,7 +267,7 @@ Deno.serve(async (req) => {
             rank: i + 1,
           })),
           document: null,
-          titles: (matches ?? []).map((m) => m.doc_title),
+          titles: (filteredMatches ?? []).map((m) => m.doc_title),
         }),
         { headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
