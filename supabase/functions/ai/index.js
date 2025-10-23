@@ -87,8 +87,8 @@ Deno.serve(async (req) => {
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: contextPromptFull },
-          { role: "system", content: `DOC TITLE:\n${docTitle ?? ""} ` },
-          { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
+          { role: "assistant", content: `DOC TITLE:\n${docTitle ?? ""} ` },
+          { role: "assistant", content: `DOCUMENT:\n${docText ?? ""}` },
           { role: "system", content: systemPrompt + constrain },
           ...chatHistory,
           { role: "user", content: message },
@@ -155,8 +155,8 @@ Deno.serve(async (req) => {
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: contextPromptSummary },
-          { role: "system", content: `DOC TITLE:\n${docTitle ?? ""}` },
-          { role: "system", content: `DOCUMENT:\n${docText ?? ""}` },
+          { role: "assistant", content: `DOC TITLE:\n${docTitle ?? ""}` },
+          { role: "assistant", content: `DOCUMENT:\n${docText ?? ""}` },
           { role: "system", content: systemPrompt + constrain },
           ...chatHistory,
           { role: "user", content: message },
@@ -242,7 +242,7 @@ Deno.serve(async (req) => {
         temperature: 0.2, // lower = more instruction-following
         messages: [
           { role: "system", content: contextPromptHybrid },
-          { role: "system", content: `Context:\n${context}` },
+          { role: "assistant", content: `Context:\n${context}` },
           { role: "system", content: systemPrompt + constrain },
           ...chatHistory,
           { role: "user", content: message },
