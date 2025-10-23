@@ -7,7 +7,7 @@ import { embedWithOpenAI } from "./helpers/embedWithOpenAI.js";
 import { contextPromptFull, contextPromptSummary, contextPromptHybrid } from "./helpers/promptStatements.js";
 
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "*", // lock down in prod
+  "Access-Control-Allow-Origin": "*", 
   "Access-Control-Allow-Headers":
     "authorization, x-client-info, apikey, content-type",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
@@ -20,41 +20,11 @@ const OPENAI_API_KEY = Deno.env.get("OPENAI_API_KEY");
 // Init Supabase (service key so RLS won't block the RPC)
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
 
-// --- Helpers ---
-// async function embedWithOpenAI(text) {
-//   const r = await fetch("https://api.openai.com/v1/embeddings", {
-//     method: "POST",
-//     headers: {
-//       Authorization: `Bearer ${OPENAI_API_KEY}`,
-//       "Content-Type": "application/json",
-//     },
-//     body: JSON.stringify({
-//       model: "text-embedding-3-small", // 1536 dims
-//       input: text,
-//     }),
-//   });
-//   if (!r.ok) {
-//     throw new Error(`embed error: ${r.status} ${await r.text()}`);
-//   }
-//   const j = await r.json();
-//   return j.data[0].embedding; // number[]
-// }
-
-
-function redactCPR(s) {
-  // optional safety net: mask DK CPR formats
-  return s
-    .replace(/\b\d{6}[- ]?\d{4}\b/g, "**********")
-    .replace(/\b\d{10}\b/g, "**********");
-}
-
-// --- Main handler ---
+// --- Main function ---
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: corsHeaders });
   }
-
-  console.log("Request received");
 
   try {
     const { message, systemPrompt, constrain, guardrail, previousPrompts } = await req.json();
@@ -89,12 +59,14 @@ Deno.serve(async (req) => {
           }
         );
       }
+
+      // --- extracting document fields ---
       const doc = Array.isArray(data) ? data[0] : data;
       const docTitle = doc?.title ?? "";
       const docText = doc?.full_text ?? "";
       const confidential = false; //doc?.confidential ?? false;
 
-      // --- OpenAI Call (creating prompt + getting generated answer ) --
+      // --- Building the prompt ---
       const body = {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
@@ -110,6 +82,7 @@ Deno.serve(async (req) => {
       console.log("the full prompt body is:", body);
       console.log("the document is:", docTitle);
 
+      // --- OpenAI Call ---
       const r = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
@@ -127,10 +100,11 @@ Deno.serve(async (req) => {
         });
       }
 
+      // --- OpenAI response ---
       const json = await r.json();
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
 
-      // Return answer 
+      // --- Return values to client ---
       return new Response(JSON.stringify({
         mode: "full",
         aiResponsetext,
@@ -151,12 +125,12 @@ Deno.serve(async (req) => {
           }
         );
       }
+      // --- extracting document fields ---
       const doc = Array.isArray(data) ? data[0] : data;
       const docTitle = doc?.title ?? "";
       const docText = doc?.full_text ?? "";
 
-      // --- OpenAI Call (creating prompt + getting generated answer ) --
-
+      // --- Building the prompt ---
       const body = {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
@@ -172,6 +146,7 @@ Deno.serve(async (req) => {
       console.log("the full prompt body is:", body);
       console.log("the document is:", docTitle);
 
+      // --- OpenAI Call ---
       const r = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
@@ -188,11 +163,12 @@ Deno.serve(async (req) => {
           headers: { ...corsHeaders, "Content-Type": "application/json" },
         });
       }
-
+      
+      // --- OpenAI response ---
       const json = await r.json();
       let aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
 
-      // --- Return answer ---
+      // --- Return values to client ---
       return new Response(
         JSON.stringify({
           mode: "summary",
@@ -222,6 +198,7 @@ Deno.serve(async (req) => {
       // console.log("Query embedding computed");
       const normEmbedding = await embedWithOpenAI(normalizedMessage, OPENAI_API_KEY);
       console.log("Normalized query embedding computed");
+      
       // --- Supabase Edge Call (getting chunks ) ---
       const { data: matches, error: rpcErr } = await supabase.rpc(
         "hybrid_search_chunks_rrf",
@@ -241,14 +218,13 @@ Deno.serve(async (req) => {
           }
         );
       }
-
       console.log("Retrieved matches: ", matches, "matching chunks");
 
       // --- Building context string ---
       const context = buildContext(matches ?? []);
       console.log("Context built:", context);
 
-      // --- OpenAI Call (creating prompt + getting generated answer ) ---
+      // --- Building the prompt ---
       const body = {
         model: "gpt-4o-mini",
         temperature: 0.2, // lower = more instruction-following
@@ -264,6 +240,7 @@ Deno.serve(async (req) => {
       console.log("chatHistory: ", [...chatHistory]);
       console.log("message: ", message);
 
+      // --- OpenAI Call ---
       const r = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
@@ -284,9 +261,8 @@ Deno.serve(async (req) => {
       // --- OpenAI response ---
       const json = await r.json();
       const aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
-      // aiResponsetext = redactCPR(aiResponsetext); // optional safety net
 
-      // --- Return answer + the sources you used (ids/similarities) ---
+      // --- Return values to client ---
       return new Response(
         JSON.stringify({
           mode: "hybrid",
