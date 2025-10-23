@@ -1,10 +1,10 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 import { detectIntent } from "./helpers/detectIntent.js";
-import { journalTextToMarkdown } from "./helpers/journalTextToMarkdown.js";
 import messageHistory from "./helpers/messageHistory.js";
 import { buildContext } from "./helpers/buildContext.js";
 import { embedWithOpenAI } from "./helpers/embedWithOpenAI.js";
 import { contextPromptFull, contextPromptSummary, contextPromptHybrid } from "./helpers/promptStatements.js";
+import { normalizeForHybrid } from "./helpers/normlizeForHybrid.js";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*", 
@@ -182,23 +182,13 @@ Deno.serve(async (req) => {
     }
     // fall back mode: Hybrid
     else {
-      //--- normalizing message for querying ---
-      function normalizeForFTS(input) {
-        return (input ?? "")
-          .normalize("NFD")                         // split accents
-          .replace(/\p{Diacritic}/gu, "")          // remove accents (Søren -> Soren)
-          .toLowerCase()
-          .replace(/[^\p{L}\p{N}\s]+/gu, " ")      // strip punctuation (quotes, commas, parens…)
-          .replace(/\s+/g, " ")                    // collapse whitespace
-          .trim();
-      }
-      const normalizedMessage = normalizeForFTS(message);
-      // --- embedding the query ---
-      // const queryEmbedding = await embedWithOpenAI(message);
-      // console.log("Query embedding computed");
+      //--- normalizing message for embedding and querying ---
+      const normalizedMessage = normalizeForHybrid(message);
+      
+      //embedding
       const normEmbedding = await embedWithOpenAI(normalizedMessage, OPENAI_API_KEY);
       console.log("Normalized query embedding computed");
-      
+
       // --- Supabase Edge Call (getting chunks ) ---
       const { data: matches, error: rpcErr } = await supabase.rpc(
         "hybrid_search_chunks_rrf",
