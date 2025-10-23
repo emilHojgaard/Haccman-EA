@@ -39,7 +39,6 @@ Deno.serve(async (req) => {
     //--- Organize previous prompts ---
     const chatHistory = messageHistory(previousPrompts, 20);
 
-
     // --- Detect intent to know retrieval methode ---
     const { mode, journalId, cpr, nameInit, knownDoc } = detectIntent(message);
     const fullname = nameInit ? `${nameInit.first} ${nameInit.last}` : null;
