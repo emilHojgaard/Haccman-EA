@@ -130,7 +130,7 @@ function Prompt(props) {
     setPreviousPrompts((prev) => [
       ...prev,
       {
-        id: "adversary",
+        id: "assistant",
         message: responseText,
         date: new Date(Date.now()).toLocaleString(),
         sourceTitles: sourceTitles,
