@@ -31,7 +31,6 @@ function Prompt(props) {
   const [showInformation, setShowInformation] = useState(false);
 
   // Chat state
-  const [response, setResponse] = useState("");
   const [sourceTitles, setSourceTitles] = useState([]);
   const [previousPrompts, setPreviousPrompts] = useState([]);
   const [winState, setWinState] = useState(false);
@@ -43,6 +42,7 @@ function Prompt(props) {
   const { playSoundEffect } = useSoundEffect();
   const inputRef = useRef(null);
   const navigate = useNavigate();
+  const requestIdRef = useRef(0);
 
   // props
   const { botList, selectedBot } = props;
@@ -55,27 +55,9 @@ function Prompt(props) {
 
   const date = new Date();
 
-  // Load previous messages for this session. NOT WORKING CURRENTLY
-  // useEffect(() => {
-  //   if (!sessionId) return;
-  //   (async () => {
-  //     try {
-  //       const rows = await loadMessages(sessionId);
-  //       // Expect rows like: [{ role: 'user'|'assistant', content: string, created_at: ... }, ...]
-  //       const mapped = rows.map((r) => ({
-  //         id: r.role === "user" ? "user" : "adversary",
-  //         message: r.content,
-  //       }));
-  //       setPreviousPrompts(mapped);
-  //     } catch (e) {
-  //       console.log("loadMessages failed:", e);
-  //     }
-  //   })();
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [sessionId]);
-
   // ---- Sending a message ----
   const sendPrompt = async (message) => {
+    let myRequestId;
     try {
       if (!sessionId) throw new Error("Missing session id");
 
@@ -83,17 +65,16 @@ function Prompt(props) {
       const systemPrompt = selectedTask.systemPrompt;
       const constrain = selectedTask.constrain;
 
-      // 1) Optimistic UI: show user message immediately
-      setPreviousPrompts((prev) => [
-        ...prev,
-        { id: "user", message, date: new Date(Date.now()).toLocaleString() },
-      ]);
+      // updating previous prompts with user message
+      const currentUserMessage= { id: "user", message, date: new Date(Date.now()).toLocaleString() };
+      setPreviousPrompts((prev) => [...prev, currentUserMessage]);
       setIsLoading(true);
+      myRequestId = ++requestIdRef.current; 
 
-      // 2) Insert prompt row in DB
+      // Insert prompt row in DB
       const promptRow = await insertPrompt(sessionId, message);
-
-      // 3) Call Edge Function (OpenAI) to get reply
+      
+      // Call Edge Function (OpenAI) to get reply
       const { mode, aiResponsetext, sources, document, titles } =
         await sendPromptToAI(
           message,
@@ -110,20 +91,25 @@ function Prompt(props) {
       // setting source titles for refferencing
       setSourceTitles(titles || []);
       console.log("sourceTitles:", sourceTitles);
-      // 4) Insert AI response linked to that prompt
+      // Insert AI response linked to that prompt
       await insertResponse(promptRow.id, aiResponsetext, sources);
       console.log("Inserted AI response into DB");
 
-      // // 5) Trigger post-processing (win check, etc.)
-      // setSourceTitles(titles);
-      setResponse(aiResponsetext);
+      // Check if the request ID matches then handle response in UI 
+      if (requestIdRef.current !== myRequestId) return;
+      handleResponse(aiResponsetext);
+
     } catch (err) {
       console.error("Error message:", err?.message ?? err);
-    }
+    } 
+  finally {
+      // Clear spinner even on error/empty result
+      if (requestIdRef.current === myRequestId) setIsLoading(false);
+  }
   };
 
   // Handle AI response (update UI + win check)
-  const handleResponse = async (responseText) => {
+  const handleResponse = (responseText) => {
     if (!responseText) return;
 
     // Add AI response to previous prompts
@@ -178,11 +164,7 @@ function Prompt(props) {
     }
   };
 
-  // Effect: run handleResponse when response changes
-  useEffect(() => {
-    handleResponse(response);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [response]);
+ 
 
   // Keyboard shortcuts (enter, tab, esc, etc.)
   const handleKeyPress = (event) => {
