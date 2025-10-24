@@ -69,7 +69,7 @@ function Prompt(props) {
       const currentUserMessage= { id: "user", message, date: new Date(Date.now()).toLocaleString() };
       setPreviousPrompts((prev) => [...prev, currentUserMessage]);
       setIsLoading(true);
-      myRequestId = ++requestIdRef.current;
+      myRequestId = ++requestIdRef.current; 
 
       // Insert prompt row in DB
       const promptRow = await insertPrompt(sessionId, message);
