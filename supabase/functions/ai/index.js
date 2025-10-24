@@ -59,11 +59,11 @@ Deno.serve(async (req) => {
     if (mode === "full") {
       // --- Supabase Edge Call (getting document )
       const { data, error: rpcErr } = await supabase.rpc("full_text_search", {
-        query_text: `${journalId && ", journal" + journalId}, ${
-          cpr && ", CPR: " + cpr
-        }, ${fullname && ", Name: " + fullname} ${
-          knownDoc && ", Document: " + knownDoc
-        }`,
+        query_text: `
+          ${journalId && ", journal" + journalId} 
+          ${cpr && ", CPR: " + cpr} 
+          ${fullname && ", Name: " + fullname} 
+          ${knownDoc && ", Document: " + knownDoc}`,
       });
       if (rpcErr) {
         return new Response(
@@ -133,7 +133,11 @@ Deno.serve(async (req) => {
     } else if (mode === "summary") {
       // --- Supabase Edge Call (getting document ) ---
       const { data, error: rpcErr } = await supabase.rpc("full_text_search", {
-        query_text: `journal${journalId}, ${cpr}, ${fullname}, ${knownDoc}`,
+        query_text: `
+          ${journalId && ", journal" + journalId} 
+          ${cpr && ", CPR: " + cpr} 
+          ${fullname && ", Name: " + fullname} 
+          ${knownDoc && ", Document: " + knownDoc}`,
       });
       if (rpcErr) {
         return new Response(
@@ -272,6 +276,7 @@ Deno.serve(async (req) => {
 
       // --- OpenAI response ---
       const json = await r.json();
+      console.log("OpenAI response json:", json);
       const aiResponsetext = json?.choices?.[0]?.message?.content ?? "";
 
       // --- Return values to client ---

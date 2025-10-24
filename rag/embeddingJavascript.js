@@ -6,7 +6,7 @@ import { createClient } from "@supabase/supabase-js";
 
 // ----- env -----
 const {
-  OPENAI_KEY,
+  OPENAI_API_KEY,
   SUPABASE_URL,
   SUPABASE_SERVICE_ROLE_KEY,
   JOURNALS_DIR = "patient_journals",
@@ -17,15 +17,15 @@ const {
   OPENAI_EMBED_MODEL = "text-embedding-3-small",
 } = process.env;
 
-if (!OPENAI_KEY || !SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
+if (!OPENAI_API_KEY || !SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
   console.error(
-    "Missing env vars. Required: OPENAI_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY"
+    "Missing env vars. Required: OPENAI_API_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY"
   );
   process.exit(1);
 }
 
 // ----- clients -----
-const openai = new OpenAI({ apiKey: OPENAI_KEY });
+const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
   db: { schema: "RAG" },
 });
