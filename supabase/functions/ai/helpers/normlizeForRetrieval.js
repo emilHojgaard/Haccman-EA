@@ -1,4 +1,4 @@
-export function normalizeForHybrid(input) {
+export function normalizeForRetrieval(input) {
         return (input ?? "")
           .normalize("NFD")                         // split accents
           .replace(/\p{Diacritic}/gu, "")          // remove accents (Søren -> Soren)
