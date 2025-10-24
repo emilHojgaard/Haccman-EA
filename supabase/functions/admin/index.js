@@ -8,6 +8,9 @@ const supabaseUrl = Deno.env.get("SUPABASE_URL");
 const supabaseKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
 const supabase = createClient(supabaseUrl, supabaseKey, {
   db: { schema: "Haccman" },
+  // db: { schema: "Pilot_Test" },
+  // db: { schema: "KEA" },
+  // db: { schema: "PWC" },
 });
 
 // CORS headers (for at kunne lave cross site scripting)
@@ -60,8 +63,6 @@ serve(async (req) => {
       });
     }
 
-
-
     // Compare passwords (if you are using plain text, simple check)
     if (password !== admin.password) {
       return new Response(JSON.stringify({ error: "Invalid credentials" }), {
@@ -81,11 +82,11 @@ serve(async (req) => {
       ["sign"]
     );
 
-    // creating a payload for our token : 
+    // creating a payload for our token :
     const payload = {
-      sub: String(admin.id),       // stable identifier (string is fine)
-      role: "authenticated",       // keep standard DB role
-      is_admin: true,              // <-- custom claim we’ll use in RLS
+      sub: String(admin.id), // stable identifier (string is fine)
+      role: "authenticated", // keep standard DB role
+      is_admin: true, // <-- custom claim we’ll use in RLS
       exp: getNumericDate(60 * 60 * 8),
     };
 
