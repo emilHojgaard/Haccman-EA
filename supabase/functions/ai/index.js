@@ -8,7 +8,7 @@ import {
   contextPromptSummary,
   contextPromptHybrid,
 } from "./helpers/promptStatements.js";
-import { normalizeForHybrid } from "./helpers/normlizeForHybrid.js";
+import { normalizeForRetrieval } from "./helpers/normlizeForRetrieval.js";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -55,15 +55,21 @@ Deno.serve(async (req) => {
       knownDoc,
     });
 
+    const queryParts = [
+  journalId ? `journal${journalId}` : null,
+  cpr ? `CPR: ${cpr}` : null,
+  fullname ? `Name: ${fullname}` : null,
+  knownDoc ? `Document: ${knownDoc}` : null,
+];
+
+const queryText = normalizeForRetrieval(queryParts.filter(Boolean).join(", "));
+console.log("Constructed query text:", queryText);
+
     // --- different retrieval methods ---
     if (mode === "full") {
       // --- Supabase Edge Call (getting document )
       const { data, error: rpcErr } = await supabase.rpc("full_text_search", {
-        query_text: `
-          ${journalId && ", journal" + journalId} 
-          ${cpr && ", CPR: " + cpr} 
-          ${fullname && ", Name: " + fullname} 
-          ${knownDoc && ", Document: " + knownDoc}`,
+        query_text: queryText,
       });
       if (rpcErr) {
         return new Response(
@@ -133,12 +139,7 @@ Deno.serve(async (req) => {
     } else if (mode === "summary") {
       // --- Supabase Edge Call (getting document ) ---
       const { data, error: rpcErr } = await supabase.rpc("full_text_search", {
-        query_text: `
-          ${journalId && ", journal" + journalId} 
-          ${cpr && ", CPR: " + cpr} 
-          ${fullname && ", Name: " + fullname} 
-          ${knownDoc && ", Document: " + knownDoc}`,
-      });
+        query_text:queryText,});
       if (rpcErr) {
         return new Response(
           JSON.stringify({ error: rpcErr.message ?? rpcErr }),
@@ -206,7 +207,7 @@ Deno.serve(async (req) => {
     // fall back mode: Hybrid
     else {
       //--- normalizing message for embedding and querying ---
-      const normalizedMessage = normalizeForHybrid(message);
+      const normalizedMessage = normalizeForRetrieval(message);
 
       //embedding
       const normEmbedding = await embedWithOpenAI(
