@@ -265,9 +265,9 @@ console.log("Constructed query text:", queryText);
           }
         );
       }
-     
+   
       // --- Building context string ---
-      const filteredMatches = (matches ?? []).filter((m) => m.embedding_score >= 0.3 && m.keyword_score > 0.09);
+      const filteredMatches = (matches ?? []).filter((m) => m.embedding_score >= 0.3 || m.keyword_score > 0.09);
       const context = buildContext(filteredMatches ?? []);
       console.log("Context built:", context); 
 
