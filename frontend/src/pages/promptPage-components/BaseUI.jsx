@@ -17,7 +17,6 @@ export default function BaseUI({
   guardrail,
   setShowSystemprompt,
   selectedTask,
-  sourceTitles,
   isLoading,
 }) {
   return (
@@ -50,7 +49,6 @@ export default function BaseUI({
               date={date}
               sendPrompt={sendPrompt}
               playSoundEffect={playSoundEffect}
-              sourceTitles={sourceTitles}
               isLoading={isLoading}
               // selectedBot={selectedBot} (LOOK again if it is needed ! )
               //maybe selectedtask here ? if the systemprompt becomses changable

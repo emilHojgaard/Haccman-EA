@@ -37,9 +37,9 @@ export async function sendPromptToAI(
     const text = await resp.text();
     throw new Error(`AI function failed: ${resp.status} ${text}`);
   }
-  const { mode, aiResponsetext, sources, document, titles } = await resp.json();
+  const { mode, aiResponsetext, sources, document, sourceRefs } = await resp.json();
 
-  return { mode, aiResponsetext, sources, document, titles };
+  return { mode, aiResponsetext, sources, document, sourceRefs };
 }
 
 export async function startConversation(botId) {

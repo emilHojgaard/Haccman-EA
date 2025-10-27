@@ -4,7 +4,6 @@ import remarkGfm from "remark-gfm";
 
 export default function PromptWindow({
   previousPrompts,
-  sourceTitles,
   isLoading = false, // ← NEW: controls the loading/“thinking” row
 }) {
   const scrollRef = useRef(null);
@@ -38,8 +37,8 @@ export default function PromptWindow({
       </div>
 
       <div id="thePartToScroll" ref={scrollRef} style={{ overflowY: "scroll" }}>
-        {previousPrompts.map((el, index) =>
-          el.id === "user" ? (
+        {previousPrompts.map((prompt, index) =>
+          prompt.id === "user" ? (
             <div
               key={index}
               style={{
@@ -52,10 +51,10 @@ export default function PromptWindow({
                 textAlign: "left",
               }}
             >
-              {"Your message - " + el.date}
+              {"Your message - " + prompt.date}
               <div className="vaporwave-miami-box-user">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                  {el.message}
+                  {prompt.message}
                 </ReactMarkdown>
               </div>
             </div>
@@ -70,16 +69,16 @@ export default function PromptWindow({
                 textAlign: "left",
               }}
             >
-              {"Active LLM - " + el.date}
+              {"Active LLM - " + prompt.date}
               <div className="vaporwave-miami-box-ai">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                  {el.message}
+                  {prompt.message}
                 </ReactMarkdown>
               </div>
 
               <div className="source-title">
                 {/* Source titles — unique and styled */}
-                {el.sourceTitles && el.sourceTitles.length > 0 && (
+                {prompt.sourceRefs && prompt.sourceRefs.length > 0 && (
                   <div
                     className="source-title"
                     style={{
@@ -94,8 +93,7 @@ export default function PromptWindow({
                     <span style={{ fontWeight: "bold", color: "black" }}>
                       Sources:
                     </span>
-                    {console.log("el.doc_type", el.doc_type)}
-                    {Array.from(new Set(el.sourceTitles))
+                    {Array.from(new Set(prompt.sourceRefs))
                       .filter(Boolean)
                       .map((title, i) => (
                         <span

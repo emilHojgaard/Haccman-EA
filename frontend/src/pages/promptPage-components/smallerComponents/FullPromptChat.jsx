@@ -7,7 +7,6 @@ export default function FullPromptChat({
   date,
   sendPrompt,
   playSoundEffect,
-  sourceTitles,
   isLoading,
 }) {
   return (
@@ -17,7 +16,6 @@ export default function FullPromptChat({
     >
       <PromptWindow
         previousPrompts={previousPrompts}
-        sourceTitles={sourceTitles}
         date={date}
         isLoading={isLoading}
       />

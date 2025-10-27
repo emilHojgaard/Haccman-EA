@@ -300,7 +300,7 @@ const categoryPhrases = [
  * 4) Entity extractors
  ***********************/
 function extractJournalId(text) {
-    const re = /\b(?:journal|jornal|jurnal|jouranl|jorunal|journel|journl|jounal|jonal|junal)[-_ ]?(\d{1,3})\b/i;
+    const re = /\b(?:journal|jounral|jornal|jurnal|jouranl|jorunal|journel|journl|jounal|jonal|junal)[-_ ]?(\d{1,3})\b/i;
     const m = re.exec(text);
     if (!m) return null;
     const id = parseInt(m[1], 10);

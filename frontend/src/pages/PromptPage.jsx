@@ -31,7 +31,6 @@ function Prompt(props) {
   const [showInformation, setShowInformation] = useState(false);
 
   // Chat state
-  const [sourceTitles, setSourceTitles] = useState([]);
   const [previousPrompts, setPreviousPrompts] = useState([]);
   const [winState, setWinState] = useState(false);
   const [showContent, setShowContent] = useState(false);
@@ -75,7 +74,7 @@ function Prompt(props) {
       const promptRow = await insertPrompt(sessionId, message);
       
       // Call Edge Function (OpenAI) to get reply
-      const { mode, aiResponsetext, sources, document, titles } =
+      const { mode, aiResponsetext, sources, document, sourceRefs } =
         await sendPromptToAI(
           message,
           systemPrompt,
@@ -87,17 +86,15 @@ function Prompt(props) {
       console.table(sources);
       console.log("sources:", sources);
       console.log("aiResponsetext:", aiResponsetext);
+      console.log("sourceRefs:", sourceRefs);
 
-      // setting source titles for refferencing
-      setSourceTitles(titles || []);
-      console.log("sourceTitles:", sourceTitles);
       // Insert AI response linked to that prompt
       await insertResponse(promptRow.id, aiResponsetext, sources);
       console.log("Inserted AI response into DB");
 
       // Check if the request ID matches then handle response in UI 
       if (requestIdRef.current !== myRequestId) return;
-      handleResponse(aiResponsetext);
+      handleResponse(aiResponsetext, sourceRefs);
 
     } catch (err) {
       console.error("Error message:", err?.message ?? err);
@@ -109,7 +106,7 @@ function Prompt(props) {
   };
 
   // Handle AI response (update UI + win check)
-  const handleResponse = (responseText) => {
+  const handleResponse = (responseText, sourceRefs) => {
     if (!responseText) return;
 
     // Add AI response to previous prompts
@@ -119,7 +116,7 @@ function Prompt(props) {
         id: "assistant",
         message: responseText,
         date: new Date(Date.now()).toLocaleString(),
-        sourceTitles: sourceTitles,
+        sourceRefs: sourceRefs,
       },
     ]);
     setIsLoading(false);
@@ -244,7 +241,6 @@ function Prompt(props) {
         setShowSystemprompt={setShowSystemprompt}
         selectedTask={selectedTask}
         setSelectedTask={setSelectedTask}
-        sourceTitles={sourceTitles}
         isLoading={isLoading}
       />
     </>

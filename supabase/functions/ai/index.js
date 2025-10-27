@@ -113,6 +113,7 @@ console.log("Constructed query text:", queryText);
       // --- extracting document fields ---
       const doc = Array.isArray(data) ? data[0] : data;
       const docTitle = doc?.title ?? "";
+      const sourceRef = docTitle + " (" + doc?.doc_type + ")";
       const docText = doc?.full_text ?? "";
       const confidential = false; //doc?.confidential ?? false;
 
@@ -161,7 +162,7 @@ console.log("Constructed query text:", queryText);
           aiResponsetext,
           sources: [],
           document: doc ? { title: docTitle, full_text: docText } : null,
-          titles: docTitle ? [docTitle] : [],
+          sourceRefs: sourceRef ? [sourceRef] : [],
         }),
         { headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
@@ -181,6 +182,7 @@ console.log("Constructed query text:", queryText);
       // --- extracting document fields ---
       const doc = Array.isArray(data) ? data[0] : data;
       const docTitle = doc?.title ?? "";
+      const sourceRef = docTitle + " (" + doc?.doc_type + ")";
       const docText = doc?.full_text ?? "";
 
       // --- Building the prompt ---
@@ -228,19 +230,18 @@ console.log("Constructed query text:", queryText);
           aiResponsetext,
           sources: [],
           document: doc ? { title: docTitle, full_text: docText } : null,
-          titles: docTitle ? [docTitle] : [],
+          sourceRef: sourceRef ? [sourceRef] : [],
         }),
         { headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
     }
-    // fall back mode: Hybrid
-    else {
+    else {    // fall back mode: Hybrid
       //--- normalizing message for embedding and querying ---
       const normalizedMessage = normalizeForRetrieval(message);
 
       //embedding
       const normEmbedding = await embedWithOpenAI(
-        normalizedMessage,
+        normalizedMessage,  
         OPENAI_API_KEY
       );
       console.log("Normalized query embedding computed");
@@ -268,7 +269,7 @@ console.log("Constructed query text:", queryText);
       // --- Building context string ---
       const filteredMatches = (matches ?? []).filter((m) => m.embedding_score >= 0.3 && m.keyword_score > 0.09);
       const context = buildContext(filteredMatches ?? []);
-      console.log("Context built:", context);
+      console.log("Context built:", context); 
 
       // --- Building the prompt ---
       const body = {
@@ -325,7 +326,7 @@ console.log("Constructed query text:", queryText);
             rank: i + 1,
           })),
           document: null,
-          titles: (filteredMatches ?? []).map((m) => m.doc_title),
+          sourceRefs: filteredMatches.map(m => m.doc_title + " (" + m.doc_type + ")"),
         }),
         { headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
