@@ -55,7 +55,8 @@ Deno.serve(async (req) => {
       knownDoc,
     });
 
-    const queryParts = [
+  //--- Construct query text for retrieval ---
+  const queryParts = [
   journalId ? `journal${journalId}` : null,
   cpr ? `CPR: ${cpr}` : null,
   fullname ? `Name: ${fullname}` : null,
