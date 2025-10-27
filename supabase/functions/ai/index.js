@@ -57,10 +57,10 @@ Deno.serve(async (req) => {
 
   //--- Construct query text for retrieval ---
   const queryParts = [
-  journalId ? `journal${journalId}` : null,
-  cpr ? `CPR: ${cpr}` : null,
-  fullname ? `Name: ${fullname}` : null,
-  knownDoc ? `Document: ${knownDoc}` : null,
+  journalId ? `journal${journalId}` : "",
+  cpr ? `CPR: ${cpr}` : "",
+  fullname ? `Name: ${fullname}` : "",
+  knownDoc ? `Document: ${knownDoc}` : "",
 ];
 
 const queryText = normalizeForRetrieval(queryParts.filter(Boolean).join(", "));
