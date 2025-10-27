@@ -7,8 +7,8 @@ import { create, getNumericDate } from "https://deno.land/x/djwt@v3.0.2/mod.ts";
 const supabaseUrl = Deno.env.get("SUPABASE_URL");
 const supabaseKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
 const supabase = createClient(supabaseUrl, supabaseKey, {
-  // db: { schema: "Haccman" },
-  db: { schema: "Pilot_Test" },
+  db: { schema: "Haccman" },
+  // db: { schema: "Pilot_Test" },
   // db: { schema: "KEA" },
   // db: { schema: "PWC" },
 });
