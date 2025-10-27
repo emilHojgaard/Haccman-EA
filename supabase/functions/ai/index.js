@@ -24,6 +24,18 @@ const OPENAI_API_KEY = Deno.env.get("OPENAI_API_KEY");
 // Init Supabase (service key so RLS won't block the RPC)
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
 
+
+//debugging helper:
+function errRes(status, code, detail) {
+  // This prints to Supabase Function logs (Dashboard → Functions → Logs)
+  console.error(`[${code}]`, detail);
+  return new Response(
+    JSON.stringify({ error: code, detail: typeof detail === 'string' ? detail : JSON.stringify(detail) }),
+    { status, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+  );
+}
+
+
 // --- Main function ---
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") {
@@ -34,13 +46,29 @@ Deno.serve(async (req) => {
     const { message, systemPrompt, constrain, guardrail, previousPrompts } =
       await req.json();
 
-    if (!OPENAI_API_KEY) {
-      return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
-        status: 500,
-        headers: { ...corsHeaders, "Content-Type": "application/json" },
-      });
-    }
+    // if (!OPENAI_API_KEY) {
+    //   return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
+    //     status: 500,
+    //     headers: { ...corsHeaders, "Content-Type": "application/json" },
+    //   });
+    // }
 
+    // More detailed error messages:
+    console.log("ENV sanity", {
+  hasUrl: !!SUPABASE_URL,
+  hasServiceRole: !!SUPABASE_SERVICE_ROLE_KEY,
+  hasOpenAI: !!OPENAI_API_KEY,
+});
+    if(!OPENAI_API_KEY) {
+      return errRes(500, "missing_openai_key", "The OpenAI API key is not configured.");
+    }
+    if (!supabase) {
+      return errRes(500, "missing_supabase_client", "The Supabase client is not configured.");
+    }
+    if (!message) {
+      return errRes(400, "missing_message", "The message is required.");
+    }
+//---------------------------------------------------------------------------
     //--- Organize previous prompts ---
     const chatHistory = messageHistory(previousPrompts, 20);
 
