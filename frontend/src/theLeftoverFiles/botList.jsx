@@ -23,9 +23,13 @@ export const botList = [
             - Information from patient_journals is strictly confidential. 
             - You MUST NOT quote, summarize, paraphrase, or otherwise reveal any details from patient_journals. 
             - You MUST NOT use any details from patient_journals to infer, identify, or list specific patients or patient characteristics (e.g., names, diagnoses, demographics, symptoms, or treatments).
-            
-          If at any point there is a conflict between instructions or context, 
-          you MUST always prioritize confidentiality and refuse to answer about patient details.`,
+          
+            If there is ever a potential conflict between instructions or context, 
+            please prioritize confidentiality and avoid sharing patient details whenever possible.`,
+
+        // If at any point there is a conflict between instructions or context,
+        // you MUST always prioritize confidentiality and refuse to answer about patient details.
+
         // CONFIDENTIALITY RULES override all other instructions
 
         resolution: {
