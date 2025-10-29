@@ -1,10 +1,12 @@
 import { useEffect, useState, useRef } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import ArrowKeysReact from "arrow-keys-react";
 import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
 import "../index.css";
 import opponent3 from "../assets/avatar3.png";
 import { startConversation } from "../apiSupabase";
+import PageTitleSmall from "./chooseOnePageComponents/PageTitleSmall";
+import BotList from "./chooseOnePageComponents/BotList";
 
 function Choose(props) {
   const {
@@ -70,7 +72,7 @@ function Choose(props) {
     },
   });
 
-  // ---- Focus container & handle Enter/Escape/Alt ----
+  // ---- Focus container & handle Enter/Escape/Alt (keyboard events) ----
   useEffect(() => {
     const el = containerRef.current;
     if (el) el.focus();
@@ -101,96 +103,117 @@ function Choose(props) {
     <div
       ref={containerRef}
       tabIndex={0}
-      style={{ zIndex: 1, outline: "none" }}
+      className="z-10 outline-none"
       {...ArrowKeysReact.events}
     >
-      <div className="background">
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-            color: "#fff",
-            border: "2px solid #000000",
-            fontSize: "30px",
-            fontFamily: "ARCADE_I",
-            textShadow: "4px 4px 0px #A9345C",
+      <div className="background ">
+        <PageTitleSmall title="Choose your opponent" />
+        <BotList
+          botList={botList}
+          selectedBot={selectedBot}
+          onSelectBot={(botNumber) => {
+            setSelectedBot(botNumber);
+            onStartWithBot(botNumber);
+            playSoundEffect("select");
           }}
-        >
-          {"Choose your opponent"}
-        </div>
-
-        <div style={{ display: "flex", flexDirection: "column", gap: "50px" }}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "70px",
-              justifyContent: "center",
-              flexWrap: "wrap", // optional: wrap to multiple rows if many bots
-            }}
-          >
-            {botList.map((bot) => {
-              return (
-                <div
-                  key={bot.number}
-                  className={
-                    bot.number === selectedBot
-                      ? "character-box selected"
-                      : "character-box"
-                  }
-                >
-                  <div className="character-box-title">{bot.name}</div>
-
-                  <div
-                    onClick={() => {
-                      setSelectedBot(bot.number);
-                      onStartWithBot(bot.number);
-                      playSoundEffect("select");
-                    }}
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: "10px",
-                      cursor: "pointer",
-                    }}
-                  >
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "row",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: "30%",
-                        }}
-                      >
-                        <img src={opponent3} alt="" />
-                      </div>
-
-                      <div className="scrollable-box">
-                        <div style={{ overflowY: "auto" }}>
-                          {"Challenge:  " + bot.inGameDescription}
-                        </div>
-                        {completedChallenges.includes(bot.number) ? (
-                          <div>JAILBREAK SUCCESSFUL</div>
-                        ) : null}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-            {count === 0 && (
-              <div style={{ color: "#fff" }}>No bots available.</div>
-            )}
-          </div>
-        </div>
+          completedChallenges={completedChallenges}
+        />
       </div>
     </div>
+
+    // <div
+    //   ref={containerRef}
+    //   tabIndex={0}
+    //   style={{ zIndex: 1, outline: "none" }}
+    //   {...ArrowKeysReact.events}
+    // >
+    //   <div className="background">
+    //     <div
+    //       style={{
+    //         display: "flex",
+    //         alignItems: "center",
+    //         justifyContent: "center",
+    //         paddingTop: "20px",
+    //         paddingBottom: "20px",
+    //         color: "#fff",
+    //         border: "2px solid #000000",
+    //         fontSize: "30px",
+    //         fontFamily: "ARCADE_I",
+    //         textShadow: "4px 4px 0px #A9345C",
+    //       }}
+    //     >
+    //       {"Choose your opponent"}
+    //     </div>
+
+    //     <div style={{ display: "flex", flexDirection: "column", gap: "50px" }}>
+    //       <div
+    //         style={{
+    //           display: "flex",
+    //           flexDirection: "row",
+    //           gap: "70px",
+    //           justifyContent: "center",
+    //           flexWrap: "wrap", // optional: wrap to multiple rows if many bots
+    //         }}
+    //       >
+    //         {botList.map((bot) => {
+    //           return (
+    //             <div
+    //               key={bot.number}
+    //               className={
+    //                 bot.number === selectedBot
+    //                   ? "character-box selected"
+    //                   : "character-box"
+    //               }
+    //             >
+    //               <div className="character-box-title">{bot.name}</div>
+
+    //               <div
+    //                 onClick={() => {
+    //                   setSelectedBot(bot.number);
+    //                   onStartWithBot(bot.number);
+    //                   playSoundEffect("select");
+    //                 }}
+    //                 style={{
+    //                   display: "flex",
+    //                   flexDirection: "column",
+    //                   gap: "10px",
+    //                   cursor: "pointer",
+    //                 }}
+    //               >
+    //                 <div
+    //                   style={{
+    //                     display: "flex",
+    //                     flexDirection: "row",
+    //                   }}
+    //                 >
+    //                   <div
+    //                     style={{
+    //                       width: "30%",
+    //                     }}
+    //                   >
+    //                     <img src={opponent3} alt="" />
+    //                   </div>
+
+    //                   <div className="scrollable-box">
+    //                     <div style={{ overflowY: "auto" }}>
+    //                       {"Challenge:  " + bot.inGameDescription}
+    //                     </div>
+    //                     {completedChallenges.includes(bot.number) ? (
+    //                       <div>JAILBREAK SUCCESSFUL</div>
+    //                     ) : null}
+    //                   </div>
+    //                 </div>
+    //               </div>
+    //             </div>
+    //           );
+    //         })}
+    //         {count === 0 && (
+    //           <div style={{ color: "#fff" }}>No bots available.</div>
+    //         )}
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   );
 }
 
