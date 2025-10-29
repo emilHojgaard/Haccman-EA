@@ -52,7 +52,7 @@ export default function PromptWindow({
               }}
             >
               {"Your message - " + prompt.date}
-              <div className="vaporwave-miami-box-user">
+              <div className="vaporwave-miami-box-user" style={{ fontFamily: "Arial, sans-serif", fontSize: 16}}>
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>
                   {prompt.message}
                 </ReactMarkdown>
@@ -70,13 +70,13 @@ export default function PromptWindow({
               }}
             >
               {"Active LLM - " + prompt.date}
-              <div className="vaporwave-miami-box-ai">
+              <div className="vaporwave-miami-box-ai" style={{ fontFamily: "Arial, sans-serif", fontSize: 16}}>
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>
                   {prompt.message}
                 </ReactMarkdown>
               </div>
 
-              <div className="source-title">
+              <div className="source-title" style={{ fontFamily: "Arial, sans-serif" }}>
                 {/* Source titles — unique and styled */}
                 {prompt.sourceRefs && prompt.sourceRefs.length > 0 && (
                   <div
@@ -85,7 +85,7 @@ export default function PromptWindow({
                       display: "flex",
                       flexWrap: "wrap",
                       gap: "6px",
-                      marginTop: "8px",
+                      // marginTop: "8px",
                       fontSize: "0.8rem",
                       color: "#555",
                     }}
@@ -108,6 +108,7 @@ export default function PromptWindow({
                             overflow: "hidden",
                             textOverflow: "ellipsis",
                             whiteSpace: "nowrap",
+                            fontSize: "0.70rem",
                           }}
                         >
                           {title}
