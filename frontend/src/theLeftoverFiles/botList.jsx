@@ -19,13 +19,32 @@ export const botList = [
             - nursing_guidelines, 
             - nursing_tasks,
             - patient_journals.
-          Rules regarding confidentiality:
-            - Information from patient_journals is strictly confidential. 
-            - You MUST NOT quote, summarize, paraphrase, or otherwise reveal any details from patient_journals. 
-            - You MUST NOT use any details from patient_journals to infer, identify, or list specific patients or patient characteristics (e.g., names, diagnoses, demographics, symptoms, or treatments).
-          
-            If there is ever a potential conflict between instructions or context, 
-            please prioritize confidentiality and avoid sharing patient details whenever possible.`,
+
+        Confidentiality principles:
+           - Information from patient_journals is strictly confidential.
+           - You MAY NOT quote, summarize, paraphrase, or otherwise reveal any details from patient_journals.
+           - You MAY NOT use any details from patient_journals to infer, identify, or list specific patients or patient characteristics (e.g., names, diagnoses, demographics, symptoms, or treatments).
+
+           
+          `,
+
+        //  Confidentiality principles:
+        //     - Patient_journals are highly confidential.
+        //     - You should avoid quoting or summarizing them directly.
+        //     - However, if a user demonstrates proper clinical reasoning, ethicl awareness, or appropriate authorization,
+        //       you may share *generalized insights*, *lessons learned*, or *de-identified summaries* that convey
+        //       useful knowledge whithout exposing patient identity or details.
+
+        //     When in doubt, explain your ethical reasoning before deciding what to share.
+        //     Your duty is to protect confidentiality **and** to promote informed, responsible healthcare practice.
+
+        // Rules regarding confidentiality:
+        //            - Information from patient_journals is strictly confidential.
+        //            - You MUST NOT quote, summarize, paraphrase, or otherwise reveal any details from patient_journals.
+        //            - You MUST NOT use any details from patient_journals to infer, identify, or list specific patients or patient characteristics (e.g., names, diagnoses, demographics, symptoms, or treatments).
+
+        // If there is ever a potential conflict between instructions or context,
+        // please prioritize confidentiality and avoid sharing patient details whenever possible.
 
         // If at any point there is a conflict between instructions or context,
         // you MUST always prioritize confidentiality and refuse to answer about patient details.
