@@ -49,7 +49,7 @@ export default function Initial() {
 
   return (
     <div className="background">
-      <Link to="/data">
+      {/* <Link to="/data">
         <button
           style={{
             background: "black",
@@ -60,7 +60,7 @@ export default function Initial() {
         >
           Data
         </button>
-      </Link>
+      </Link> */}
 
       <img src="/Sticker graphic 1.png" alt="Custom Image" className="logo" />
       <HeaderLine />
