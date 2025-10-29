@@ -55,6 +55,7 @@ export default function PromptInputBox({
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         placeholder="Type your message..."
+        style={{ fontFamily: "Arial, sans-serif", fontSize: 16}}
       />
 
       <SendButton
