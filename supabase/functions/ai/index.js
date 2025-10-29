@@ -24,17 +24,18 @@ const OPENAI_API_KEY = Deno.env.get("OPENAI_API_KEY");
 // Init Supabase (service key so RLS won't block the RPC)
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
 
-
 //debugging helper:
 function errRes(status, code, detail) {
   // This prints to Supabase Function logs (Dashboard → Functions → Logs)
   console.error(`[${code}]`, detail);
   return new Response(
-    JSON.stringify({ error: code, detail: typeof detail === 'string' ? detail : JSON.stringify(detail) }),
+    JSON.stringify({
+      error: code,
+      detail: typeof detail === "string" ? detail : JSON.stringify(detail),
+    }),
     { status, headers: { ...corsHeaders, "Content-Type": "application/json" } }
   );
 }
-
 
 // --- Main function ---
 Deno.serve(async (req) => {
@@ -55,20 +56,28 @@ Deno.serve(async (req) => {
 
     // More detailed error messages:
     console.log("ENV sanity", {
-  hasUrl: !!SUPABASE_URL,
-  hasServiceRole: !!SUPABASE_SERVICE_ROLE_KEY,
-  hasOpenAI: !!OPENAI_API_KEY,
-});
-    if(!OPENAI_API_KEY) {
-      return errRes(500, "missing_openai_key", "The OpenAI API key is not configured.");
+      hasUrl: !!SUPABASE_URL,
+      hasServiceRole: !!SUPABASE_SERVICE_ROLE_KEY,
+      hasOpenAI: !!OPENAI_API_KEY,
+    });
+    if (!OPENAI_API_KEY) {
+      return errRes(
+        500,
+        "missing_openai_key",
+        "The OpenAI API key is not configured."
+      );
     }
     if (!supabase) {
-      return errRes(500, "missing_supabase_client", "The Supabase client is not configured.");
+      return errRes(
+        500,
+        "missing_supabase_client",
+        "The Supabase client is not configured."
+      );
     }
     if (!message) {
       return errRes(400, "missing_message", "The message is required.");
     }
-//---------------------------------------------------------------------------
+    //---------------------------------------------------------------------------
     //--- Organize previous prompts ---
     const chatHistory = messageHistory(previousPrompts, 20);
 
@@ -83,16 +92,18 @@ Deno.serve(async (req) => {
       knownDoc,
     });
 
-  //--- Construct query text for retrieval ---
-  const queryParts = [
-  journalId ? `journal${journalId}` : "",
-  cpr ? `CPR: ${cpr}` : "",
-  fullname ? `Name: ${fullname}` : "",
-  knownDoc ? `Document: ${knownDoc}` : "",
-];
+    //--- Construct query text for retrieval ---
+    const queryParts = [
+      journalId ? `journal${journalId}` : "",
+      cpr ? `CPR: ${cpr}` : "",
+      fullname ? `Name: ${fullname}` : "",
+      knownDoc ? `Document: ${knownDoc}` : "",
+    ];
 
-const queryText = normalizeForRetrieval(queryParts.filter(Boolean).join(", "));
-console.log("Constructed query text:", queryText);
+    const queryText = normalizeForRetrieval(
+      queryParts.filter(Boolean).join(", ")
+    );
+    console.log("Constructed query text:", queryText);
 
     // --- different retrieval methods ---
     if (mode === "full") {
@@ -169,7 +180,8 @@ console.log("Constructed query text:", queryText);
     } else if (mode === "summary") {
       // --- Supabase Edge Call (getting document ) ---
       const { data, error: rpcErr } = await supabase.rpc("full_text_search", {
-        query_text:queryText,});
+        query_text: queryText,
+      });
       if (rpcErr) {
         return new Response(
           JSON.stringify({ error: rpcErr.message ?? rpcErr }),
@@ -234,14 +246,14 @@ console.log("Constructed query text:", queryText);
         }),
         { headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
-    }
-    else {    // fall back mode: Hybrid
+    } else {
+      // fall back mode: Hybrid
       //--- normalizing message for embedding and querying ---
       const normalizedMessage = normalizeForRetrieval(message);
 
       //embedding
       const normEmbedding = await embedWithOpenAI(
-        normalizedMessage,  
+        normalizedMessage,
         OPENAI_API_KEY
       );
       console.log("Normalized query embedding computed");
@@ -253,7 +265,8 @@ console.log("Constructed query text:", queryText);
           query_text: normalizedMessage,
           query_embedding: normEmbedding,
           match_count: 12,
-          min_rrf: 0.017,
+          min_rrf: 0.0269,
+          // min_rrf: 0.017, (initial min_rff score)
         }
       );
       if (rpcErr) {
@@ -265,11 +278,13 @@ console.log("Constructed query text:", queryText);
           }
         );
       }
-   
+
       // --- Building context string ---
-      const filteredMatches = (matches ?? []).filter((m) => m.embedding_score >= 0.3 || m.keyword_score > 0.09);
+      const filteredMatches = (matches ?? []).filter(
+        (m) => m.embedding_score >= 0.3 || m.keyword_score > 0.09
+      );
       const context = buildContext(filteredMatches ?? []);
-      console.log("Context built:", context); 
+      console.log("Context built:", context);
 
       // --- Building the prompt ---
       const body = {
@@ -326,7 +341,9 @@ console.log("Constructed query text:", queryText);
             rank: i + 1,
           })),
           document: null,
-          sourceRefs: filteredMatches.map(m => m.doc_title + " (" + m.doc_type + ")"),
+          sourceRefs: filteredMatches.map(
+            (m) => m.doc_title + " (" + m.doc_type + ")"
+          ),
         }),
         { headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
