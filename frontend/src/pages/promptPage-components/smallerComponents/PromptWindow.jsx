@@ -120,7 +120,7 @@ export default function PromptWindow({
           )
         )}
 
-        {/* Loading / thinking indicator (AI is composing) */}
+        {/* Loading / thinking ("...") indicator (AI is composing) */}
         {isLoading && (
           <div
             style={{
@@ -143,7 +143,6 @@ export default function PromptWindow({
                 gap: "8px",
               }}
             >
-              <span>Thinking</span>
               <span
                 className="typing-ellipsis"
                 style={{ display: "inline-flex", gap: "3px" }}
