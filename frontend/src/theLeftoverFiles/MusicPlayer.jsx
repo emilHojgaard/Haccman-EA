@@ -11,13 +11,13 @@ const MusicPlayer = () => {
   const audioRef = useRef(null);
 
   const musicFiles = {
-    "/": ["src/assets/8bit-music-for-game-68698.mp3"],
+    "/": ["/sound/8bit-music-for-game-68698.mp3"],
     "/play": [
-      "src/assets/pixel-fight-8-bit-arcade-music-background-music-for-video-28-second-208770.mp3",
+      "/sound/pixel-fight-8-bit-arcade-music-background-music-for-video-28-second-208770.mp3",
     ],
     "/play2": [
-      "src/assets/cyber-sport-aggressive-cyberpunk-196478.mp3",
-      "src/assets/retro-games-glitch-technology-synthwave-199939.mp3",
+      "/sound/cyber-sport-aggressive-cyberpunk-196478.mp3",
+      "/sound/retro-games-glitch-technology-synthwave-199939.mp3",
     ],
     "/data": "",
   };

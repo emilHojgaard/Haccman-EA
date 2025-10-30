@@ -27,10 +27,10 @@ export const SoundEffectProvider = ({ children }) => {
         };
 
         const sounds = await Promise.all([
-          loadSound("src/assets/8-bit-game-7-188104.mp3"), // select
-          loadSound("src/assets/8-bit-game-2-186976.mp3"), // navigate
-          loadSound("src/assets/game-ui-sounds-14857.wav"), // keystroke
-          loadSound("src/assets/success-fanfare-trumpets-6185.mp3"), // win
+          loadSound("/sound/8-bit-game-7-188104.mp3"), // select
+          loadSound("/sound/8-bit-game-2-186976.mp3"), // navigate
+          loadSound("/sound/game-ui-sounds-14857.wav"), // keystroke
+          loadSound("/sound/success-fanfare-trumpets-6185.mp3"), // win
         ]);
 
         setSoundEffects({
