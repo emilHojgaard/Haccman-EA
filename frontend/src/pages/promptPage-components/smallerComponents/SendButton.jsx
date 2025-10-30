@@ -18,7 +18,6 @@ export default function SendButton({
         display: "flex",
         border: "2px solid #ffffff",
         padding: "5px",
-        width: "10%",
       }}
     >
       <button

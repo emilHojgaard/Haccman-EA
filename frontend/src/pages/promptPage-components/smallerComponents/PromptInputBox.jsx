@@ -45,25 +45,42 @@ export default function PromptInputBox({
         display: "flex",
         flexDirection: "row",
         alignItems: "center",
-        justifyContent: "space-between",
+        justifyContent: "center",
+        paddingBottom: "20px",
       }}
     >
-      <input
-        type="text"
-        id="textInputField"
-        className="the-vaporwave-input"
-        value={inputValue}
-        onChange={(e) => setInputValue(e.target.value)}
-        placeholder="Type your message..."
-      />
-
-      <SendButton
-        inputValue={inputValue}
-        setInputValue={setInputValue}
-        sendPrompt={sendPrompt}
-        playSoundEffect={playSoundEffect}
-      />
-      <ClearButton handleClear={handleClear} />
+      <div
+        style={{
+          display: "flex",
+          border: "2px solid #ffffff",
+          padding: "5px",
+          flex: 3
+        }}
+      >
+        <input
+          style = {{flex: 1}}
+          type="text"
+          id="textInputField"
+          className="the-vaporwave-input"
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+          placeholder="Type your message..."
+        />
+      </div>
+      
+      <div style = {{flex: 1, display: "flex", flexDirection: "row", justifyContent: "center", gap: "10px", paddingLeft: "10px"}}> 
+        <SendButton
+          style = {{flex: 1}}
+          inputValue={inputValue}
+          setInputValue={setInputValue}
+          sendPrompt={sendPrompt}
+          playSoundEffect={playSoundEffect}
+        />
+        <ClearButton 
+          style = {{flex: 1}}
+          handleClear={handleClear} 
+        />
+      </div>
     </div>
   );
 }
