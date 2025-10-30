@@ -5,7 +5,7 @@ export default function InfoButtons({ setShowInformation, playSoundEffect }) {
     <div>
       <p style={{ color: "#fffade" }}> Info</p>
 
-      <div style={{ display: "flex", alignItems: "flex-end" }}>
+      <div style={{ display: "flex", justifyContent: "flex-end" }}>
         <div
           style={{
             display: "inline-block",
@@ -14,7 +14,7 @@ export default function InfoButtons({ setShowInformation, playSoundEffect }) {
           }}
         >
           <button
-            style={{ width: "100%" }}
+            style={{ width: "100%", height: "100%",  }}
             onClick={() => {
               setShowInformation(true);
             }}
