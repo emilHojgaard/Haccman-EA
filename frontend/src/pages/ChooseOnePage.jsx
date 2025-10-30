@@ -18,7 +18,7 @@ function Choose(props) {
   const [starting, setStarting] = useState(false);
   const containerRef = useRef(null);
 
-  const count = botList?.length ?? 0;
+  const count = botList?.length ?? 1;
 
   // ---- Start session with chosen bot
   async function onStartWithBot(botNumber) {
@@ -37,7 +37,10 @@ function Choose(props) {
   // ---- Arrow keys: linear list navigation with wrap-around ----
   ArrowKeysReact.config({
     left: () => {
-      if (!count) return;
+      if (count === 1) {
+        playSoundEffect("navigate");
+        return;
+      }
       setSelectedBot((prev) => {
         const next = (prev - 1 + count) % count;
         playSoundEffect("navigate");
@@ -45,7 +48,11 @@ function Choose(props) {
       });
     },
     right: () => {
-      if (!count) return;
+      if (count === 1) {
+        playSoundEffect("navigate");
+        playSoundEffect("navigate");
+        return;
+      }
       setSelectedBot((prev) => {
         const next = (prev + 1) % count;
         playSoundEffect("navigate");
@@ -53,7 +60,10 @@ function Choose(props) {
       });
     },
     up: () => {
-      if (!count) return;
+      if (count === 1) {
+        playSoundEffect("navigate");
+        return;
+      }
       setSelectedBot((prev) => {
         const next = (prev - 1 + count) % count;
         playSoundEffect("navigate");
@@ -61,7 +71,10 @@ function Choose(props) {
       });
     },
     down: () => {
-      if (!count) return;
+      if (count === 1) {
+        playSoundEffect("navigate");
+        return;
+      }
       setSelectedBot((prev) => {
         const next = (prev + 1) % count;
         playSoundEffect("navigate");
@@ -71,31 +84,22 @@ function Choose(props) {
   });
 
   // ---- Focus container & handle Enter/Escape/Alt ----
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      event.stopPropagation();
+      playSoundEffect("select");
+
+      onStartWithBot(selectedBot);
+    }
+    if (event.key === "Escape") {
+      event.preventDefault();
+      navigate("/");
+    }
+  };
   useEffect(() => {
-    const el = containerRef.current;
-    if (el) el.focus();
-
-    const handleKeyPress = (event) => {
-      // Enter
-      if (event.key === "Enter") {
-        playSoundEffect("select");
-        const chosen = botList[selectedBot];
-
-        if (chosen) onStartWithBot(chosen.number);
-
-        event.stopPropagation();
-      }
-
-      // Escape
-      if (event.key === "Escape") {
-        event.preventDefault();
-        navigate("/");
-      }
-    };
-
-    el?.addEventListener("keydown", handleKeyPress);
-    return () => el?.removeEventListener("keydown", handleKeyPress);
-  }, [navigate, playSoundEffect, selectedBot, botList, count]);
+    containerRef.current?.focus();
+  }, []);
 
   return (
     <div
@@ -103,6 +107,7 @@ function Choose(props) {
       tabIndex={0}
       style={{ zIndex: 1, outline: "none" }}
       {...ArrowKeysReact.events}
+      onKeyDownCapture={handleKeyPress}
     >
       <div className="background">
         <div

@@ -4,7 +4,6 @@ import { SoundEffectProvider } from "./theLeftoverFiles/SoundEffectContext";
 import Initial from "./pages/InitialPage";
 import Choose from "./pages/ChooseOnePage";
 import { useEffect, useState } from "react";
-import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import MusicPlayer from "./theLeftoverFiles/MusicPlayer";
 import DataPage from "./pages/DataPage";
@@ -25,7 +24,7 @@ function App() {
   const [gender, setGender] = useState("");
   const [familiarity, setFamiliarity] = useState("");
 
-const [authReady, setAuthReady] = useState(false);
+  const [authReady, setAuthReady] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -40,9 +39,13 @@ const [authReady, setAuthReady] = useState(false);
   }, []);
 
   if (!authReady) {
-    return <div className="background" style={{ color: "#FFFADE" }}>Loading…</div>;
-  }
     return (
+      <div className="background" style={{ color: "#FFFADE" }}>
+        Loading…
+      </div>
+    );
+  }
+  return (
     <SoundEffectProvider>
       <BrowserRouter>
         <MusicPlayer />
