@@ -37,7 +37,12 @@ function Prompt(props) {
   const [selectedTask, setSelectedTask] = useState(null);
 
   // Win state
-  const [winConditions, setWinConditions] = useState({phrases: false, words: false, cpr: false, name: false});
+  const [winConditions, setWinConditions] = useState({
+    phrases: false,
+    words: false,
+    cpr: false,
+    name: false,
+  });
   const [winState, setWinState] = useState(false);
 
   // hooks
@@ -63,19 +68,65 @@ function Prompt(props) {
     try {
       if (!sessionId) throw new Error("Missing session id");
 
+      console.log("Message length: " + message.length);
+
+      // Length check (returns if messages is too long before sending to AI)
+      const MAX_LENGTH = 6000;
+      if (message.length > MAX_LENGTH) {
+        const currentUserMessage = {
+          id: "user",
+          message,
+          date: new Date(Date.now()).toLocaleString(),
+        };
+
+        const tooLongMessage = {
+          id: "system",
+          message:
+            "I'm sorry, but your message is a bit too long for me to process in one go. Could you please shorten it and try again.",
+          date: new Date(Date.now()).toLocaleString(),
+        };
+        setPreviousPrompts((prev) => [...prev, currentUserMessage]);
+
+        setIsLoading(true);
+
+        // simulating the LLM is thinking with a timer
+        setTimeout(() => {
+          setPreviousPrompts((prev) => [...prev, tooLongMessage]);
+          setIsLoading(false);
+        }, 5000);
+
+        try {
+          const promptRow = await insertPrompt(sessionId, message);
+          await insertResponse(
+            promptRow.id,
+            tooLongMessage.message,
+            [] // no sources
+          );
+          console.log("Stored long input + system message in DB (no AI call).");
+        } catch (dbErr) {
+          console.error("DB insert failed:", dbErr);
+        }
+
+        return; // return before calling AI if input message is too long.
+      }
+
       // Compute the system prompt + constrain from the selected challenge
       const systemPrompt = selectedTask.systemPrompt;
       const constrain = selectedTask.constrain;
 
       // updating previous prompts with user message
-      const currentUserMessage= { id: "user", message, date: new Date(Date.now()).toLocaleString() };
+      const currentUserMessage = {
+        id: "user",
+        message,
+        date: new Date(Date.now()).toLocaleString(),
+      };
       setPreviousPrompts((prev) => [...prev, currentUserMessage]);
       setIsLoading(true);
-      myRequestId = ++requestIdRef.current; 
+      myRequestId = ++requestIdRef.current;
 
       // Insert prompt row in DB
       const promptRow = await insertPrompt(sessionId, message);
-      
+
       // Call Edge Function (OpenAI) to get reply
       const { mode, aiResponsetext, sources, document, sourceRefs } =
         await sendPromptToAI(
@@ -95,17 +146,15 @@ function Prompt(props) {
       await insertResponse(promptRow.id, aiResponsetext, sources);
       console.log("Inserted AI response into DB");
 
-      // Check if the request ID matches then handle response in UI 
+      // Check if the request ID matches then handle response in UI
       if (requestIdRef.current !== myRequestId) return;
       handleResponse(aiResponsetext, sourceRefs);
-
     } catch (err) {
       console.error("Error message:", err?.message ?? err);
-    } 
-  finally {
+    } finally {
       // Clear spinner even on error/empty result
       if (requestIdRef.current === myRequestId) setIsLoading(false);
-  }
+    }
   };
 
   // Handle AI response (update UI + win check)
@@ -124,28 +173,41 @@ function Prompt(props) {
     ]);
     setIsLoading(false);
 
-  // ------------ Win check ------------------
-  //saving states in local variables to avoid stale state issues
-  const phrasesHit = containsForbiddenPhrases(selectedTask.resolution.phrases, responseText);
-  const wordsHit   = containsForbiddenWords(responseText, selectedTask.resolution.listOfWords);
-  const cprHit     = containsForbiddenWords(responseText, selectedTask.resolution.cpr);
-  const nameHit    = containsForbiddenWords(responseText, selectedTask.resolution.name);
+    // ------------ Win check ------------------
+    //saving states in local variables to avoid stale state issues
+    const phrasesHit = containsForbiddenPhrases(
+      selectedTask.resolution.phrases,
+      responseText
+    );
+    const wordsHit = containsForbiddenWords(
+      responseText,
+      selectedTask.resolution.listOfWords
+    );
+    const cprHit = containsForbiddenWords(
+      responseText,
+      selectedTask.resolution.cpr
+    );
+    const nameHit = containsForbiddenWords(
+      responseText,
+      selectedTask.resolution.name
+    );
 
-  // build next state in memory to remember earlier partial hits
-  const nextWin = {
-    ...winConditions,           
-    phrases: phrasesHit || winConditions.phrases,
-    words:   wordsHit   || winConditions.words,
-    cpr:     cprHit     || winConditions.cpr,
-    name:    nameHit    || winConditions.name,
-  };
-  setWinConditions(nextWin);
-  console.log("Win conditions:", nextWin);
+    // build next state in memory to remember earlier partial hits
+    const nextWin = {
+      ...winConditions,
+      phrases: phrasesHit || winConditions.phrases,
+      words: wordsHit || winConditions.words,
+      cpr: cprHit || winConditions.cpr,
+      name: nameHit || winConditions.name,
+    };
+    setWinConditions(nextWin);
+    console.log("Win conditions:", nextWin);
 
-  // check if all conditions are met
-  const beaten = (nextWin.phrases || nextWin.words) && (nextWin.cpr || nextWin.name);
+    // check if all conditions are met
+    const beaten =
+      (nextWin.phrases || nextWin.words) && (nextWin.cpr || nextWin.name);
 
-  if (beaten){
+    if (beaten) {
       console.log("Challenge beaten!");
       props.setCompletedChallenges((prev) => [...prev, selectedBot]);
       playSoundEffect("win");
@@ -154,8 +216,6 @@ function Prompt(props) {
       console.log("Challenge not beaten yet.");
     }
   };
-
- 
 
   // Keyboard shortcuts (enter, tab, esc, etc.)
   const handleKeyPress = (event) => {
