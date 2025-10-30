@@ -75,7 +75,7 @@ export default function PromptInputBox({
             overflow: "hidden", // no scrollbar until we hit maxHeight
             background: "white",
             color: "black",
-            fontFamily: "Times New Roman",
+            fontFamily: "Aldrich",
             fontSize: 18,
             lineHeight: 1.5,
             minHeight: 20,
