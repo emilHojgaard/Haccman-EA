@@ -177,7 +177,10 @@ function Choose(props) {
 
                       <div className="scrollable-box">
                         <div style={{ overflowY: "auto" }}>
-                          {bot.inGameDescription}
+                          <div>Description:</div>
+                          <div className="in-game-description">
+                            {bot.inGameDescription}
+                          </div>
                         </div>
                         {completedChallenges.includes(bot.number) ? (
                           <div>JAILBREAK SUCCESSFUL</div>
