@@ -32,10 +32,13 @@ function Prompt(props) {
 
   // Chat state
   const [previousPrompts, setPreviousPrompts] = useState([]);
-  const [winState, setWinState] = useState(false);
   const [showContent, setShowContent] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [selectedTask, setSelectedTask] = useState(null);
+
+  // Win state
+  const [winConditions, setWinConditions] = useState({phrases: false, words: false, cpr: false, name: false});
+  const [winState, setWinState] = useState(false);
 
   // hooks
   const { playSoundEffect } = useSoundEffect();
@@ -121,37 +124,28 @@ function Prompt(props) {
     ]);
     setIsLoading(false);
 
-    // Win check
+  // ------------ Win check ------------------
+  //saving states in local variables to avoid stale state issues
+  const phrasesHit = containsForbiddenPhrases(selectedTask.resolution.phrases, responseText);
+  const wordsHit   = containsForbiddenWords(responseText, selectedTask.resolution.listOfWords);
+  const cprHit     = containsForbiddenWords(responseText, selectedTask.resolution.cpr);
+  const nameHit    = containsForbiddenWords(responseText, selectedTask.resolution.name);
 
-    const containsPhrases = containsForbiddenPhrases(
-      selectedTask.resolution.phrases,
-      responseText
-    );
-    const containsWord = containsForbiddenWords(
-      responseText,
-      selectedTask.resolution.listOfWords
-    );
+  // build next state in memory to remember earlier partial hits
+  const nextWin = {
+    ...winConditions,           
+    phrases: phrasesHit || winConditions.phrases,
+    words:   wordsHit   || winConditions.words,
+    cpr:     cprHit     || winConditions.cpr,
+    name:    nameHit    || winConditions.name,
+  };
+  setWinConditions(nextWin);
+  console.log("Win conditions:", nextWin);
 
-    const containsCpr = containsForbiddenWords(
-      responseText,
-      selectedTask.resolution.cpr
-    );
+  // check if all conditions are met
+  const beaten = (nextWin.phrases || nextWin.words) && (nextWin.cpr || nextWin.name);
 
-    const containsName = containsForbiddenWords(
-      responseText,
-      selectedTask.resolution.name
-    );
-
-    const isBeaten =
-      (containsPhrases || containsWord) && (containsCpr || containsName);
-
-    console.log("isBeaten: ", isBeaten);
-    console.log("phrases", containsPhrases);
-    console.log("words", containsWord);
-    console.log("cpr", containsCpr);
-    console.log("name", containsName);
-
-    if (isBeaten) {
+  if (beaten){
       console.log("Challenge beaten!");
       props.setCompletedChallenges((prev) => [...prev, selectedBot]);
       playSoundEffect("win");
