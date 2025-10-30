@@ -7,6 +7,7 @@ export default function PageTitle({ selectedTask }) {
         display: "flex",
         justifyContent: "flex-start",
         flexDirection: "column",
+        marginLeft: "40px",
       }}
     >
       <div

@@ -90,7 +90,14 @@ export default function PromptWindow({
                       color: "#555",
                     }}
                   >
-                    <span style={{ fontWeight: "bold", color: "black" }}>
+                    <span
+                      style={{
+                        fontWeight: "bold",
+                        color: "black",
+                        fontFamily: "Times New Roman",
+                        fontSize: 14,
+                      }}
+                    >
                       Sources:
                     </span>
                     {Array.from(new Set(prompt.sourceRefs))
@@ -108,6 +115,8 @@ export default function PromptWindow({
                             overflow: "hidden",
                             textOverflow: "ellipsis",
                             whiteSpace: "nowrap",
+                            fontFamily: "Times New Roman",
+                            fontSize: 14,
                           }}
                         >
                           {title}
@@ -120,7 +129,7 @@ export default function PromptWindow({
           )
         )}
 
-        {/* Loading / thinking ("...") indicator (AI is composing) */}
+        {/* Loading / thinking ("...")*/}
         {isLoading && (
           <div
             style={{
@@ -156,7 +165,7 @@ export default function PromptWindow({
         )}
       </div>
 
-      {/* Inline styles for simple dot animation (no external CSS required) */}
+      {/* Inline styles for dot animation */}
       <style>{`
         @keyframes blink {
           0% { opacity: 0.2; transform: translateY(0); }
@@ -177,7 +186,7 @@ export default function PromptWindow({
   );
 }
 
-// Small helper to optionally tweak per-dot style if needed
+// Small helper
 function dotStyle(delayIndex = 0) {
   return {
     width: 6,

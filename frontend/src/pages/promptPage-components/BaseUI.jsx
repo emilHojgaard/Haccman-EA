@@ -22,26 +22,26 @@ export default function BaseUI({
   return (
     <div style={{ zIndex: 1 }}>
       <div className="background">
+          <PageTitle selectedTask={selectedTask} />
         <div
           style={{
-            marginTop: "40px",
             marginLeft: "40px",
             display: "flex",
             flexDirection: "row",
-            gap: "50px",
-            justifyContent: "space-around",
+            justifyContent: "space-center",
           }}
         >
+          
           {/* The whole left side with the title and chat */}
           <div
             style={{
+              flex: 2,
               display: "flex",
               flexDirection: "column",
               gap: "5vh",
-              width: "60%",
             }}
           >
-            <PageTitle selectedTask={selectedTask} />
+          
 
             <FullPromptChat
               setPreviousPrompts={setPreviousPrompts}
@@ -58,9 +58,9 @@ export default function BaseUI({
           {/* The whole right side with the opponent and buttons */}
           <div
             style={{
+              flex: 1,
               display: "flex",
               flexDirection: "column",
-              width: "30%",
               alignItems: "center",
               justifyContent: "space-between",
               height: "99%",
