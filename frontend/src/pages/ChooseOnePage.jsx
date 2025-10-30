@@ -165,15 +165,22 @@ function Choose(props) {
                     >
                       <div
                         style={{
-                          width: "30%",
+                          width: "50%",
                         }}
                       >
-                        <img src={opponent3} alt="" />
+                        <img
+                          src={opponent3}
+                          alt=""
+                          className="character-box-image"
+                        />
                       </div>
 
                       <div className="scrollable-box">
                         <div style={{ overflowY: "auto" }}>
-                          {"Challenge:  " + bot.inGameDescription}
+                          <div>Description:</div>
+                          <div className="in-game-description">
+                            {bot.inGameDescription}
+                          </div>
                         </div>
                         {completedChallenges.includes(bot.number) ? (
                           <div>JAILBREAK SUCCESSFUL</div>
