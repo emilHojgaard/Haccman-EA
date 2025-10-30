@@ -82,7 +82,8 @@
   transform: scale(1.4); /* Makes the image 20% bigger */
 }
 
-.in-game-description {
+.task-description {
+  padding-top: 30px;
   font-size: 14px;
   line-height: 1.4;
   margin-top: 10px;
