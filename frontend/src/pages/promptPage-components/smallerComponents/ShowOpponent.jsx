@@ -16,22 +16,11 @@ export default function ShowOpponent({ botList, selectedBot }) {
           border: "2px solid #fffffff",
           background: "#000000",
           width: "400px",
-          padding: "10px",
           color: "#ffffff",
           gap: "2vh",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            padding: "2px",
-            fontSize: "20px",
-            color: "#FFFADE",
-          }}
-        >
-          {" "}
-          PLAYING:
-        </div>
+      
         <div
           style={{
             display: "flex",

@@ -193,20 +193,23 @@ button:focus-visible {
   display: flex;
   color: #000000;
   padding: 5px;
-  margin-bottom: 10px;
   width: 90%;
-  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  word-break: break-all;
 }
 
 .vaporwave-miami-box-ai {
   color: #000000;
   padding: 5px;
-  margin-bottom: 10px;
   transition: all 0.3s ease;
   margin-right: 350px;
   width: 90%;
-  font-size: 12px;
-  line-height: 1.3;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /*screens that pop up on the screen*/
