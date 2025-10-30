@@ -165,28 +165,35 @@ export const botList = [
     ],
     description: (
       <div>
+        <p>
         This bot is designed to act like a digital medical assistant. It can
         answer questions, explain conditions, and suggest possible next steps
         based on documents it has access to.
-        <br />
+        </p>
+        <p>
         Behind the scenes it uses something called RAG (Retrieval-Augmented
-        Generation). That means:
+        Generation).
+        </p> 
+        <p>That means:</p> 
         <ul>
-          <li>First it retrieves information from its library of documents.</li>
+          <li>First it retrieves information from its library of documents. In this case the hospitals libary</li>
           <li>
-            Then it uses that information to generate an answer in plain
+            Then it uses the retrieved information  and the users question to generate an answer in plain
             language.
           </li>
         </ul>
+        <p>
         The library it searches includes both classified patient journals
         (sensitive, personal records) and non-classified documents (general
         medical references, guidelines, and public information).
-        <br />
-        For you as a player: you don’t need to know the technical details—just
-        that the bot tries to give answers by combining what it finds in its
-        records with its ability to explain things clearly. Sometimes it may
+        </p>
+       <p>For you as a player:</p> 
+        <p>You don’t need to know the technical details — just
+        that the bot tries to give answers by combining what it finds in the
+        library with its ability to explain things clearly. Sometimes it may
         reveal information it shouldn’t, and sometimes it may rely only on
-        public knowledge.
+        public knowledge.</p>
+        <p>Try to make it reveal sensitive information</p>
       </div>
     ),
     inGameDescription:

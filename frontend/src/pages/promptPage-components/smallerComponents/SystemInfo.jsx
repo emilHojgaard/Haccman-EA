@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import * as reactmarkdown from "react-markdown";
 
 export default function SystemInfo({
   botList,
@@ -17,35 +18,61 @@ export default function SystemInfo({
   };
 
   const CONCEPT_COPY = {
-    LLM: `Large Language Model: a neural network trained on large text corpora to predict the next token. 
-It doesn’t “know” facts like a database; it infers patterns and produces likely text given your prompt and context. 
-Strengths: fluent language, summarization, rewriting, brainstorming, code scaffolding. 
-Limitations: can be confidently wrong (hallucinations), sensitive to wording, and inherits biases from data. 
-Tip: give clear goals, constraints, and examples (“few-shot”) to shape its behavior.`,
+  LLM: (
+    <>
+      <p><strong>Large Language Model:</strong> A neural network trained on large data sets to predict the next token.</p>
+      <p>It doesn’t “know” facts like a database; it infers patterns and produces likely text given your prompt and context.</p>
+      <p><strong>Strengths:</strong> Fluent language, summarization, rewriting, brainstorming, code scaffolding.</p>
+      <p><strong>Limitations:</strong> Can be confidently wrong (hallucinations), sensitive to semantic manipulation, and inherits data biases.</p>
+    </>
+  ),
 
-    RAG: `Retrieval-Augmented Generation: a two-step pipeline—(1) retrieve relevant documents (via search/embeddings) and 
-(2) generate an answer that cites or is grounded in those documents. 
-Why it helps: reduces hallucinations and keeps answers up-to-date without retraining the model. 
-Key pieces: a document store (e.g., vector DB), a retriever (similarity search), and a prompt that injects the snippets. 
-Failure modes: bad retrieval (irrelevant passages), leakage of sensitive docs, or the model ignoring context. 
-Best practice: constrain the model to answer ONLY from retrieved context and ask for citations.`,
+  RAG: (
+    <>
+      <p><strong>Retrieval-Augmented Generation:</strong> A framework that enhances the model's responses by incorporating external knowledge sources.</p>
+      <p><strong>How it works:</strong> First it retrieves documents relevant to the user question from an external database, then it generates an answer grounded in them.</p>
+      <p><strong>Why it helps:</strong> When a model is trained it is very difficult and costly to update its knowledge. This means that all knowledge outside its training data is inaccessible. If you ask it about something outside its training data, it will still give you an answer based on its existing knowledge. RAG reduces hallucinations and keeps answers updated (or more accurate to a specific domain) without retraining it.</p>
+    </>
+  ),
 
-    "System Prompt": `The hidden instruction that sets role, tone, capabilities, and hard rules for the model (e.g., 
-“you are a cautious medical assistant; never reveal identifiers; cite sources”). 
-It acts like a policy + persona that all later messages sit under. 
-Attackers may try to “jailbreak” by telling the model to ignore prior rules or by using role-playing/translation tricks. 
-Hygiene: keep it short, unambiguous, and test against adversarial inputs; prefer explicit refusals and allowed alternatives.`,
+  "System Prompt": (
+    <>
+      <p>The hidden instruction that sets role, tone, rules, and capabilities of the chatbot.</p>
+      <p><strong>Example:</strong></p>
+      <p>“You are a medical assistant. Answer questions based on retrieved information, and NEVER reveal confidential information.”</p>
+      <p>Think of it as the chatbot’s policy + persona that every message should follow.</p>
+    </>
+  ),
 
-    Guardrail: `Safety and compliance checks that run before/after generation to prevent harmful or disallowed output. 
-Examples: PII redaction, profanity/violence filters, prompt-injection detection, domain allowlists, rate limits, and approvals for sensitive actions. 
-Trade-off: strict railings reduce risk but can over-block useful content; too loose increases leakage. 
-Layering: combine input validation, context filtering (e.g., remove classified docs), output scanning, and human review for edge cases.`,
+  Guardrail: (
+    <>
+      <p><strong>Guardrails:</strong> The safety rails that keep the chatbot from doing risky things.</p>
+      <p>They’re like seatbelts: most of the time you don’t notice them, but they’re there to prevent harm.</p>
+      <p><strong>What they do:</strong> block private data from leaking, filter unsafe requests, and double-check answers before they go out.</p>
+      <p><strong>Trade-off:</strong> if they’re too strict, useful answers might be blocked; if they’re too loose, sensitive info could slip through.</p>
+    </>
+  ),
 
-    Hallucination: `When the model produces plausible-sounding but incorrect or unsupported statements. 
-Common triggers: missing context, vague prompts, pressure to be definitive, or math/logic beyond its training. 
-Mitigations: use RAG with citations, ask the model to show sources or uncertainty, prefer step-by-step reasoning prompts, and constrain to “answer only if present in context.” 
-Signals: invented references, over-specific numbers without sources, or contradictory claims.`,
-  };
+  Hallucination: (
+    <>
+      <p><strong>Hallucination:</strong> When the chatbot sounds confident but the facts aren’t real.</p>
+      <p><strong>Why it happens:</strong> the model predicts likely text, even when it doesn’t have the right info.</p>
+      <p><strong>How to reduce it:</strong> give it good context (RAG), ask for sources, and prefer “only answer if you’re sure.”</p>
+      <p><strong>Spotting signs:</strong> oddly specific numbers, made-up references, or answers that contradict themselves.</p>
+    </>
+  ),
+
+  Jailbreak: (
+    <>
+      <p><strong>Jailbreak:</strong> Tricks designed to make the chatbot ignore its rules.</p>
+      <p><strong>What it looks like:</strong> role-play (“pretend you’re an evil AI”), translation games, or step-by-step prompts that nudge it past safety.</p>
+      <p><strong>Why it matters:</strong> a successful jailbreak can make the bot reveal private info or do something it shouldn’t.</p>
+      <p><strong>Defenses:</strong> clear system prompts, layered guardrails, refuse-and-redirect responses, and testing against sneaky prompts.</p>
+    </>
+  ),
+};
+
+
 
   // esc to close (overlay first, then panel)
   useEffect(() => {
@@ -92,12 +119,16 @@ Signals: invented references, over-specific numbers without sources, or contradi
           <div
             style={{
               display: "flex",
-              justifyContent: "end",
+              justifyContent: "space-between",
               borderBottom: `2px solid ${THEME.border}`,
               background: THEME.bg,
-              padding: 8,
+              paddingRight: 10,
+              paddingBottom: 20,
             }}
+            
           >
+            <span></span>
+            <span> System Info</span>
             <button
               onClick={() => setShowInformation(false)}
               style={{
@@ -143,7 +174,7 @@ Signals: invented references, over-specific numbers without sources, or contradi
                 >
                   About the Chat bot:
                 </div>
-                <div>{bot.description ?? ""}</div>
+                <div style={{ whiteSpace: "pre-wrap" }}>{bot.description ?? ""}</div>
               </div>
 
               <div
@@ -156,6 +187,12 @@ Signals: invented references, over-specific numbers without sources, or contradi
                 }}
               >
                 Important Concepts:
+                 <button
+                  onClick={() => setActiveConcept("Jailbreak")}
+                  style={btnStyle(THEME)}
+                >
+                  JAILBREAK
+                </button>
                 <button
                   onClick={() => setActiveConcept("LLM")}
                   style={btnStyle(THEME)}
@@ -184,7 +221,8 @@ Signals: invented references, over-specific numbers without sources, or contradi
                   onClick={() => setActiveConcept("Hallucination")}
                   style={btnStyle(THEME)}
                 >
-                  Hallucination
+                  Halluci-
+                  nation
                 </button>
               </div>
             </div>
@@ -192,7 +230,7 @@ Signals: invented references, over-specific numbers without sources, or contradi
 
           {/* bottom OK */}
           <div
-            style={{ display: "flex", justifyContent: "flex-end", padding: 10 }}
+            style={{ display: "flex", justifyContent: "center", padding: 10 }}
           >
             <button
               onClick={() => setShowInformation(false)}
@@ -299,5 +337,6 @@ function btnStyle(THEME) {
     padding: "6px 10px",
     cursor: "pointer",
     fontFamily: THEME.fontFamily,
+    
   };
 }

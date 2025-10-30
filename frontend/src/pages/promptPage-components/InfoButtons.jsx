@@ -2,10 +2,8 @@ import LeaveButton from "./smallerComponents/LeaveButton";
 
 export default function InfoButtons({ setShowInformation, playSoundEffect }) {
   return (
-    <div>
-      <p style={{ color: "#fffade" }}> Info</p>
-
-      <div style={{ display: "flex", alignItems: "flex-end" }}>
+    <div style={{ paddingBottom: "10px" }}>
+      <div style={{ display: "flex", justifyContent: "flex-end", gap: "10px", }}>
         <div
           style={{
             display: "inline-block",
@@ -14,7 +12,7 @@ export default function InfoButtons({ setShowInformation, playSoundEffect }) {
           }}
         >
           <button
-            style={{ width: "100%" }}
+            style={{ width: "100%", height: "100%",  }}
             onClick={() => {
               setShowInformation(true);
             }}
