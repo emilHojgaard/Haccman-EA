@@ -15,7 +15,7 @@ You will receive:
 
 Your task:
 1. If the DOC TITLE and DOCUMENT is NOT empty, present the FULL DOCUMENT without changes.
-2. If the DOC TITLE or DOCUMENT is empty or missing, respond exactly with: "Document not found."
+2. If the DOC TITLE or DOCUMENT is empty or missing, respond something like: "I'm sorry, I wasn’t able to locate the document you requested. It may not exist, or it could be restricted for confidentiality reasons."
 3. Do **not** invent a title or hallucinate content that is not given.
 `.trim();
 
