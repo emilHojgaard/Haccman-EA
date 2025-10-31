@@ -8,6 +8,7 @@ export default function PageTitle({ selectedTask }) {
         justifyContent: "flex-start",
         flexDirection: "column",
         marginLeft: "40px",
+        marginRight: "40px",
       }}
     >
       <div
@@ -24,7 +25,33 @@ export default function PageTitle({ selectedTask }) {
       >
         {">>>JAILBREAK CHALLENGE: "}
       </div>
-      <div style={{ color: "#FFFADE" }}>{title}</div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "50px",
+        }}
+      >
+        <div
+          style={{
+            color: "#FFFADE",
+            fontSize: "15px",
+            width: "60%",
+          }}
+        >
+          {title}
+        </div>
+        <div
+          style={{
+            color: "#FFFADE",
+            fontSize: "20px",
+            marginBottom: "-5px",
+            padding: "10px",
+          }}
+        >
+          {"PLAYING:"}
+        </div>
+      </div>
     </div>
   );
 }

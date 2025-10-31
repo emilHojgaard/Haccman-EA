@@ -22,16 +22,18 @@ export default function BaseUI({
   return (
     <div style={{ zIndex: 1 }}>
       <div className="background">
-          <PageTitle selectedTask={selectedTask} />
+        <PageTitle selectedTask={selectedTask} />
         <div
           style={{
+            marginTop: "-20px",
             marginLeft: "40px",
+            marginRight: "40px",
             display: "flex",
             flexDirection: "row",
             justifyContent: "space-center",
+            gap: "30px",
           }}
         >
-          
           {/* The whole left side with the title and chat */}
           <div
             style={{
@@ -41,8 +43,6 @@ export default function BaseUI({
               gap: "5vh",
             }}
           >
-          
-
             <FullPromptChat
               setPreviousPrompts={setPreviousPrompts}
               previousPrompts={previousPrompts}
@@ -58,12 +58,14 @@ export default function BaseUI({
           {/* The whole right side with the opponent and buttons */}
           <div
             style={{
+              marginTop: "-45px",
+              padding: "15px",
               flex: 1,
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "space-between",
-              height: "99%",
+              height: "80%",
             }}
           >
             <ShowOpponent botList={botList} selectedBot={selectedBot} />

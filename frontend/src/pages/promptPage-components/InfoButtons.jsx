@@ -2,17 +2,28 @@ import LeaveButton from "./smallerComponents/LeaveButton";
 
 export default function InfoButtons({ setShowInformation, playSoundEffect }) {
   return (
-    <div style={{ paddingBottom: "30px" }}>
-      <div style={{ display: "flex", justifyContent: "flex-end", gap: "10px", }}>
+    <div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "flex-end",
+          // gap: "150px",
+          gap: "25px",
+          marginRight: "-50px",
+        }}
+      >
         <div
           style={{
             display: "inline-block",
             border: "2px solid #fffade",
             padding: "5px",
+            // width: "150px", // fast bredde
+            // height: "50px", // fast højde
           }}
         >
           <button
-            style={{ width: "100%", height: "100%",  }}
+            style={{ width: "100%", height: "100%" }}
             onClick={() => {
               setShowInformation(true);
             }}
