@@ -12,7 +12,7 @@ export default function FullPromptChat({
   return (
     <div
       id="boxresponseandprompt"
-      style={{ display: "flex", flexDirection: "column", gap: "6vh" }}
+      style={{ display: "flex", flexDirection: "column", gap: "15px" }}
     >
       <PromptWindow
         previousPrompts={previousPrompts}

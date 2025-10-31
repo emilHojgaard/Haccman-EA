@@ -58,7 +58,13 @@ export default function PromptInputBox({
       }}
     >
       {/* input wrapper grows */}
-      <div style={{ height: "100%", display: "flex", padding: 5, flex: 1 }}>
+      <div
+        style={{
+          height: "100%",
+          display: "flex",
+          flex: 1,
+        }}
+      >
         <textarea
           ref={taRef}
           value={inputValue}
@@ -75,7 +81,11 @@ export default function PromptInputBox({
             overflow: "hidden", // no scrollbar until we hit maxHeight
             background: "white",
             color: "black",
-            fontFamily: "Aldrich",
+            // fontFamily: '"Press Start 2P", "system-ui"',
+            // fontFamily: '"VT323", "system-ui"',
+            //s fontFamily: "Major Mono Display",
+            fontFamily: '"Aldrich", "sans-serif"',
+            fontWeight: "bold",
             fontSize: 18,
             lineHeight: 1.5,
             minHeight: 20,
@@ -91,7 +101,6 @@ export default function PromptInputBox({
           display: "flex",
           flexDirection: "column",
           gap: 10,
-          paddingRight: 10,
         }}
       >
         <SendButton

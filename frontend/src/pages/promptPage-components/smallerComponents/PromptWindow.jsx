@@ -94,7 +94,7 @@ export default function PromptWindow({
                       style={{
                         fontWeight: "bold",
                         color: "black",
-                        fontFamily: "Times New Roman",
+                        fontFamily: '"Aldrich", "sans-serif"',
                         fontSize: 14,
                       }}
                     >
@@ -115,7 +115,8 @@ export default function PromptWindow({
                             overflow: "hidden",
                             textOverflow: "ellipsis",
                             whiteSpace: "nowrap",
-                            fontFamily: "Times New Roman",
+                            fontFamily: '"Aldrich", "sans-serif"',
+                            fontWeight: "bold",
                             fontSize: 14,
                           }}
                         >

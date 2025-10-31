@@ -14,7 +14,7 @@ export default function ClearButton({ handleClear }) {
         className="the-vaporwave-button2"
         onClick={handleClear}
       >
-        Clear (Tab)
+        CLEAR
       </button>
     </div>
   );

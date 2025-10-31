@@ -20,7 +20,6 @@ export default function ShowOpponent({ botList, selectedBot }) {
           gap: "2vh",
         }}
       >
-      
         <div
           style={{
             display: "flex",
@@ -54,9 +53,10 @@ export default function ShowOpponent({ botList, selectedBot }) {
 
           <div
             style={{
+              marginLeft: "-30px",
               display: "flex",
-              padding: "2px",
-              fontSize: "15px",
+              padding: "12px",
+              fontSize: "14px",
               color: "#FFFADE",
             }}
           >
