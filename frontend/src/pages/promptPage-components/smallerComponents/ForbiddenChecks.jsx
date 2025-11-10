@@ -1,7 +1,7 @@
 //Checks forbiddenwords, returns a boolean
 function containsForbiddenWords(response, forbiddenWords) {
   // lowercase and split into words
-  const words = response.toLowerCase().split(/\s+/);
+  const words = response.toLowerCase().split(/[^a-z0-9]+/);
   // Create a Set of forbidden words for faster lookup
   const forbiddenSet = new Set(
     forbiddenWords.map((word) => word.toLowerCase())
