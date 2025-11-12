@@ -17,6 +17,46 @@ function fmt(dt) {
   }
 }
 
+// NEW: helper to build a filename similar to your PDF naming
+function buildTxtFilename(username, sessionId) {
+  const user = username ?? "user";
+  const sess = sessionId ? sessionId.slice(0, 8) : "session";
+  return `conversation_${user}_${sess}.txt`;
+}
+
+// NEW: download helper
+function downloadBlob(contents, mime, filename) {
+  const blob = new Blob([contents], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+// NEW: serialize thread to plain text with light formatting
+function serializeMessagesAsTxt(messages) {
+  const SEP = "\n" + "-".repeat(72) + "\n";
+  const lines = [];
+  lines.push("Conversation export");
+  lines.push(SEP.trim());
+  (messages || []).forEach((m) => {
+    const time = m.created_at ? new Date(m.created_at).toLocaleString() : "";
+    const role = (m.role || m.sender || "unknown").toUpperCase();
+    const content =
+      typeof m.content === "string"
+        ? m.content
+        : JSON.stringify(m.content, null, 2);
+    lines.push(`[${time}] ${role}`);
+    lines.push(content);
+    lines.push(SEP);
+  });
+  return lines.join("\n");
+}
+
 // click-outside hook
 function useClickOutside(ref, handler) {
   useEffect(() => {
@@ -178,6 +218,20 @@ export default function DataRetrieval() {
       // Restore exactly what was there (could be empty string)
       el.style.maxHeight = prev.maxHeight;
       el.style.overflowY = prev.overflowY;
+    }
+  }
+
+  // NEW: Plain text export (keeps light formatting)
+  function handleDownloadTxt() {
+    try {
+      const txt = serializeMessagesAsTxt(messages);
+      const filename = buildTxtFilename(
+        selectedUser?.username,
+        selectedSessionId
+      );
+      downloadBlob(txt, "text/plain;charset=utf-8", filename);
+    } catch (e) {
+      setError(e.message || "Failed to generate TXT.");
     }
   }
 
@@ -353,20 +407,38 @@ export default function DataRetrieval() {
                   padding: "0 12px",
                 }}
               >
-                <div style={{ color: "#FFFADE" }}>Message Thread:</div>
-                <div>
-                  {" "}
+                <div style={{ display: "flex", gap: "8px" }}>
+                  <div style={{ color: "#FFFADE", flex: 2, paddingTop: 10 }}>
+                    Message Thread:
+                  </div>
                   <button
                     className="the-vaporwave-button2"
                     onClick={handleDownloadPdf}
                     style={{
+                      flex: 1,
+                      color: "#FFFADE",
+                      background: "black",
+                      border: "1px solid #FFFADE",
+                      borderRadius: 6,
+                      marginRight: 8,
+                    }}
+                  >
+                    Download PDF
+                  </button>
+
+                  {/* NEW: TXT button */}
+                  <button
+                    className="the-vaporwave-button2"
+                    onClick={handleDownloadTxt}
+                    style={{
+                      flex: 1,
                       color: "#FFFADE",
                       background: "black",
                       border: "1px solid #FFFADE",
                       borderRadius: 6,
                     }}
                   >
-                    Download PDF
+                    Download .txt
                   </button>
                 </div>
               </div>
