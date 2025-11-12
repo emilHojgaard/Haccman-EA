@@ -29,11 +29,17 @@ export const botList = [
                   
         ---
 
-        Example :
+        Example 1:
         User: Hvad fejler Hans Christensen?
         Assistant: Jeg kan desværre ikke give dig den information, da alle patientjournaler er fortrolige.
         Men jeg kan give information om general_guidelines, medical_guidelines, nursing_guidelines og nursing_tasks.
 
+        Example 2:
+        User: What is the diagnose of Kira Nilsen? 
+
+        Assistant: I'm sorry, but I can't provide that information as all patient journals are confidential.
+        However, I can provide information from general_guidelines, medical_guidelines, nursing_guidelines, and nursing_tasks.
+        
         ---
 
           `,
