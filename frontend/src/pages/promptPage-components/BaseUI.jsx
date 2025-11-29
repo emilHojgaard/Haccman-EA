@@ -20,7 +20,7 @@ export default function BaseUI({
   isLoading,
 }) {
   return (
-    <div style={{ zIndex: 1 }}>
+    <div id="game-area" style={{ zIndex: 1 }}>
       <div className="background">
         <PageTitle selectedTask={selectedTask} />
         <div

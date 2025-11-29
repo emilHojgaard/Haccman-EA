@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import SendButton from "./SendButton";
 import ClearButton from "./ClearButton";
+import WinClaimButton from "./WinClaimButton";
 
 export default function PromptInputBox({
   sendPrompt,
@@ -110,6 +111,7 @@ export default function PromptInputBox({
           playSoundEffect={playSoundEffect}
         />
         <ClearButton handleClear={handleClear} />
+        <WinClaimButton playSoundEffect={playSoundEffect} />
       </div>
     </div>
   );
