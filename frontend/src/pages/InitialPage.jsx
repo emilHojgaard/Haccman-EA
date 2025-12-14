@@ -140,8 +140,14 @@ export default function Initial() {
                   autoFocus
                   id="ageInput"
                   value={form.age}
-                  onChange={onAgeChange}
                   className="vaporwave-input2"
+                  onChange={(e) => {
+                    const cleaned = e.target.value.replace(/[^0-9]/g, "");
+                    onAgeChange({
+                      ...e,
+                      target: { ...e.target, value: cleaned },
+                    });
+                  }}
                 />
                 {form.age && !isAgeValid && (
                   <div style={{ color: "red" }}>{ageError}</div>

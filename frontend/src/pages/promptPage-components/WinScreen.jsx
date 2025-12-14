@@ -1,4 +1,23 @@
+import React, { useEffect } from "react";
+
 export default function WinScreen({ setWinState, setShowContent }) {
+   useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        e.stopPropagation();
+
+        setWinState(false);
+        setShowContent(false);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown, true);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown, true);
+    };
+  }, [setWinState, setShowContent]);
+
   return (
     <div
       style={{
