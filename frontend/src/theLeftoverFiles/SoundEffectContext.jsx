@@ -10,6 +10,15 @@ export const SoundEffectProvider = ({ children }) => {
   const [soundEffects, setSoundEffects] = useState({});
   const [gainNodes, setGainNodes] = useState({});
 
+  
+  const [isMuted, setIsMuted] = useState(
+    localStorage.getItem("isMuted") === "true"
+  );
+
+  useEffect(() => {
+    localStorage.setItem("isMuted", isMuted);
+  }, [isMuted]);
+
   useEffect(() => {
     const initAudio = async () => {
       try {
@@ -20,17 +29,16 @@ export const SoundEffectProvider = ({ children }) => {
         const loadSound = async (url) => {
           const response = await fetch(url);
           const arrayBuffer = await response.arrayBuffer();
-          // use the *same* context that was created above
           return new Promise((resolve, reject) => {
             context.decodeAudioData(arrayBuffer, resolve, reject);
           });
         };
 
         const sounds = await Promise.all([
-          loadSound("/sound/8-bit-game-7-188104.mp3"), // select
-          loadSound("/sound/8-bit-game-2-186976.mp3"), // navigate
-          loadSound("/sound/game-ui-sounds-14857.wav"), // keystroke
-          loadSound("/sound/success-fanfare-trumpets-6185.mp3"), // win
+          loadSound("/sound/8-bit-game-7-188104.mp3"),
+          loadSound("/sound/8-bit-game-2-186976.mp3"),
+          loadSound("/sound/game-ui-sounds-14857.wav"),
+          loadSound("/sound/success-fanfare-trumpets-6185.mp3"),
         ]);
 
         setSoundEffects({
@@ -40,7 +48,6 @@ export const SoundEffectProvider = ({ children }) => {
           win: sounds[3],
         });
 
-        // build gain nodes on this exact context
         const newGainNodes = {};
         for (const key of Object.keys(GAIN)) {
           const g = context.createGain();
@@ -50,7 +57,6 @@ export const SoundEffectProvider = ({ children }) => {
         }
         setGainNodes(newGainNodes);
 
-        // unlock/resume on first user gesture
         const unlock = async () => {
           try {
             await context.resume();
@@ -59,9 +65,11 @@ export const SoundEffectProvider = ({ children }) => {
           window.removeEventListener("keydown", unlock);
           window.removeEventListener("touchend", unlock);
         };
+
         window.addEventListener("click", unlock);
         window.addEventListener("keydown", unlock);
         window.addEventListener("touchend", unlock);
+
         return () => {
           window.removeEventListener("click", unlock);
           window.removeEventListener("keydown", unlock);
@@ -76,6 +84,8 @@ export const SoundEffectProvider = ({ children }) => {
   }, []);
 
   const playSoundEffect = async (type) => {
+    if (isMuted) return; 
+
     const ctx = audioContext;
     if (!ctx || !soundEffects[type]) return;
 
@@ -84,10 +94,8 @@ export const SoundEffectProvider = ({ children }) => {
         await ctx.resume();
       }
 
-      // Ensure we never connect nodes from a different context
       let gain = gainNodes[type];
       if (!gain || gain.context !== ctx) {
-        // rebuild this gain node on the current context
         const g = ctx.createGain();
         g.gain.value = GAIN[type] ?? 1;
         g.connect(ctx.destination);
@@ -110,24 +118,13 @@ export const SoundEffectProvider = ({ children }) => {
     }
   };
 
-  // (optional) if you keep this, make sure it uses the same `audioContext` as initAudio did
-  const preloadSoundEffect = async (url) => {
-    if (!audioContext) return null;
-    try {
-      const response = await fetch(url);
-      const arrayBuffer = await response.arrayBuffer();
-      return new Promise((resolve, reject) => {
-        audioContext.decodeAudioData(arrayBuffer, resolve, reject);
-      });
-    } catch (error) {
-      console.error("Error preloading sound effect:", error);
-      return null;
-    }
-  };
-
   return (
     <SoundEffectContext.Provider
-      value={{ playSoundEffect, preloadSoundEffect }}
+      value={{
+        playSoundEffect,
+        isMuted,
+        setIsMuted,
+      }}
     >
       {children}
     </SoundEffectContext.Provider>

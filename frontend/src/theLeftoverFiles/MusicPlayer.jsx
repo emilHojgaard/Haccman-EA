@@ -3,10 +3,14 @@ import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
+import { useSoundEffect } from "./SoundEffectContext";
 
 const MusicPlayer = () => {
+  const { isMuted, setIsMuted } = useSoundEffect();
+
   const [currentMusic, setCurrentMusic] = useState("");
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
+
   const location = useLocation();
   const audioRef = useRef(null);
 
@@ -23,32 +27,35 @@ const MusicPlayer = () => {
   };
 
   const volumeLevels = {
-    "/": 1.0, // Volume level for the first track
-    "/play": 0.1, // Volume level for the second track
-    "/play2": 0.6, // Volume level for the third track
+    "/": 1.0,
+    "/play": 0.1,
+    "/play2": 0.6,
   };
 
   useEffect(() => {
     const currentPath = location.pathname;
-    setCurrentTrackIndex(0); // Reset track index when path changes
-    setCurrentMusic(musicFiles[currentPath][0]); // Set the first track for the current path
+    setCurrentTrackIndex(0);
+
+    if (musicFiles[currentPath]) {
+      setCurrentMusic(musicFiles[currentPath][0]);
+    }
   }, [location]);
 
   useEffect(() => {
     if (audioRef.current?.audio.current) {
-      audioRef.current.audio.current.volume =
-        volumeLevels[location.pathname] || 0.5;
+      const audio = audioRef.current.audio.current;
+
+      audio.volume = volumeLevels[location.pathname] || 0.5;
+      audio.muted = isMuted;
     }
-  }, [currentMusic, location.pathname]);
+  }, [currentMusic, location.pathname, isMuted]);
 
   const handleEnded = () => {
     const currentPath = location.pathname;
+
     if (currentPath === "/" || currentPath === "/play") {
-      // Restart the current track
-      setCurrentMusic(musicFiles[currentPath][0]);
       audioRef.current.audio.current.play();
     } else {
-      // Move to the next track in the list
       const tracks = musicFiles[currentPath];
       const nextTrackIndex = (currentTrackIndex + 1) % tracks.length;
       setCurrentTrackIndex(nextTrackIndex);
@@ -56,22 +63,32 @@ const MusicPlayer = () => {
     }
   };
 
+  const toggleMute = () => {
+    setIsMuted(!isMuted);
+  };
+
   return (
-    currentMusic && (
-      <AudioPlayer
-        autoPlay
-        src={currentMusic}
-        ref={audioRef}
-        onLoadedMetadata={() => {
-          if (audioRef.current?.audio.current) {
-            audioRef.current.audio.current.volume =
-              volumeLevels[location.pathname] || 0.5;
-          }
-        }}
-        onPlay={() => console.log("Playing music:", currentMusic)}
-        onEnded={handleEnded}
-      />
-    )
+    <>
+      <button 
+        onClick={toggleMute} 
+        className="mute-button" 
+      > 
+        {isMuted ? "SOUND OFF" : "SOUND ON"} 
+
+      </button>
+
+      {currentMusic && (
+        <AudioPlayer
+          autoPlay
+          src={currentMusic}
+          ref={audioRef}
+          onEnded={handleEnded}
+          showJumpControls={false}
+          showSkipControls={false}
+          layout="horizontal"
+        />
+      )}
+    </>
   );
 };
 
