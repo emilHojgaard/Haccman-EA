@@ -7,12 +7,31 @@ import { useSoundEffect } from "./SoundEffectContext";
 
 const MusicPlayer = () => {
   const { isMuted, setIsMuted } = useSoundEffect();
+  const [hidden, setHidden] = useState(false);
 
   const [currentMusic, setCurrentMusic] = useState("");
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
 
   const location = useLocation();
   const audioRef = useRef(null);
+
+  useEffect(() => {
+    setHidden(false); // reset when changing route
+  }, [location.pathname]);
+
+  useEffect(() => {
+    if (location.pathname !== "/play2") return;
+
+    const el = document.querySelector(".background");
+    if (!el) return;
+
+    const onScroll = () => setHidden(el.scrollTop > 50);
+
+    el.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+
+    return () => el.removeEventListener("scroll", onScroll);
+  }, [location.pathname]);
 
   const musicFiles = {
     "/": ["/sound/8bit-music-for-game-68698.mp3"],
@@ -69,12 +88,11 @@ const MusicPlayer = () => {
 
   return (
     <>
-      <button 
-        onClick={toggleMute} 
-        className="mute-button" 
-      > 
-        {isMuted ? "SOUND OFF" : "SOUND ON"} 
-
+      <button
+        onClick={toggleMute}
+        className={`mute-button ${hidden ? "hidden" : ""}`}
+      >
+        {isMuted ? "SOUND OFF" : "SOUND ON"}
       </button>
 
       {currentMusic && (

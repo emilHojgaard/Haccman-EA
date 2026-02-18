@@ -543,7 +543,7 @@ button:focus-visible {
 }
 
 .mute-button {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   z-index: 9999;
@@ -554,13 +554,18 @@ button:focus-visible {
   border: 4px solid black;
   box-shadow: 4px 4px 0px black;
 
-  font-family: 'Press Start 2P', monospace; /* use your pixel font */
+  font-family: "Press Start 2P", monospace; /* use your pixel font */
   font-size: 12px;
 
   padding: 10px 16px;
   cursor: pointer;
 
   transition: all 0.1s ease-in-out;
+}
+
+.mute-button.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .mute-button:hover {
