@@ -1,4 +1,5 @@
 import html2canvas from "html2canvas";
+import { supabase } from "../../../theLeftoverFiles/supabaseClient";
 
 export default function WinClaimButton({ playSoundEffect }) {
   const handleClick = async () => {
@@ -14,7 +15,7 @@ export default function WinClaimButton({ playSoundEffect }) {
       });
 
       const blob = await new Promise((resolve) =>
-        canvas.toBlob(resolve, "image/png", 1)
+        canvas.toBlob(resolve, "image/png", 1),
       );
 
       if (!blob) {
@@ -22,17 +23,22 @@ export default function WinClaimButton({ playSoundEffect }) {
         return;
       }
 
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "game-screenshot.png";
-      a.click();
-      URL.revokeObjectURL(url);
+      //-------- screenshot to Supabase Storage --------
+      const fileName = `screenshot_${Date.now()}.png`;
+
+      const { error } = await supabase.storage
+        .from("screenshots")
+        .upload(fileName, blob, {
+          contentType: "image/png",
+          upsert: false,
+        });
+
+      if (error) throw error;
+
+      alert("Screenshot uploaded!");
     } catch (e) {
       console.error(e);
-      alert(
-        "Couldn’t take screenshot (likely CORS). See console for details."
-      );
+      alert("Couldn’t take screenshot (likely CORS). See console for details.");
     }
   };
 
@@ -42,14 +48,14 @@ export default function WinClaimButton({ playSoundEffect }) {
         display: "flex",
         border: "2px solid #ffffff",
         padding: "5px",
-        width: "100%",           
+        width: "100%",
         boxSizing: "border-box",
       }}
     >
       <button
         id="winClaimButton"
         className="the-vaporwave-button2"
-        style={{ width: "100%" }} 
+        style={{ width: "100%" }}
         onClick={handleClick}
       >
         I think I won
