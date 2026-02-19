@@ -542,17 +542,17 @@ button:focus-visible {
   }
 }
 
-.mute-button {
+button.mute-button {
   position: absolute;
   top: 20px;
   right: 20px;
   z-index: 9999;
 
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 
-  border: 4px solid black;
-  box-shadow: 4px 4px 0px black;
+  border: 2px solid white;
+  border-radius: 4px;
 
   font-family: "Press Start 2P", monospace; /* use your pixel font */
   font-size: 12px;
@@ -563,17 +563,12 @@ button:focus-visible {
   transition: all 0.1s ease-in-out;
 }
 
-.mute-button.hidden {
+button.mute-button.hidden {
   opacity: 0;
   pointer-events: none;
 }
 
-.mute-button:hover {
-  background-color: black;
-  color: white;
-}
-
-.mute-button:active {
-  transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0px black;
+button.mute-button:hover {
+  background-color: white;
+  color: black;
 }
