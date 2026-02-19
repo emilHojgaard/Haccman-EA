@@ -1,5 +1,5 @@
 import html2canvas from "html2canvas";
-import { supabase } from "../../../theLeftoverFiles/supabaseClient";
+import { supabase } from "../../../theLeftoverFiles/SupabaseClient";
 
 export default function WinClaimButton({ playSoundEffect }) {
   const handleClick = async () => {
@@ -37,7 +37,7 @@ export default function WinClaimButton({ playSoundEffect }) {
 
       alert(`
         A screenshot of your last messages has now been uploaded!
-        
+
         The Haccman team will use it to improve the game, thank you!
         `);
     } catch (e) {
