@@ -35,7 +35,11 @@ export default function WinClaimButton({ playSoundEffect }) {
 
       if (error) throw error;
 
-      alert("Screenshot uploaded!");
+      alert(`
+        A screenshot of your last messages has now been uploaded!
+        
+        The Haccman team will use it to improve the game, thank you!
+        `);
     } catch (e) {
       console.error(e);
       alert("Couldn’t take screenshot (likely CORS). See console for details.");
