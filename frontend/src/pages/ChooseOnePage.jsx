@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ArrowKeysReact from "arrow-keys-react";
 import { useSoundEffect } from "../theLeftoverFiles/SoundEffectContext";
 import "../index.css";
-import opponent3 from "../assets/avatar3.png";
+
 import { startConversation } from "../apiSupabase";
 
 function Choose(props) {
@@ -128,16 +128,9 @@ function Choose(props) {
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "50px" }}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "70px",
-              justifyContent: "center",
-              flexWrap: "wrap", // optional: wrap to multiple rows if many bots
-            }}
-          >
+          <div className="bot-grid">
             {botList.map((bot) => {
+              console.log("Rendering bot:", bot.name, "image:", bot.image);
               return (
                 <div
                   key={bot.number}
@@ -162,34 +155,27 @@ function Choose(props) {
                       cursor: "pointer",
                     }}
                   >
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "row",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: "50%",
-                        }}
-                      >
+                    <div className="character-content">
+                      <div className="character-imageWrap">
                         <img
-                          src={opponent3}
+                          src={bot.image}
                           alt=""
                           className="character-box-image"
                         />
                       </div>
 
                       <div className="scrollable-box">
-                        <div style={{ overflowY: "auto" }}>
-                          <div style={{ paddingTop: "20px" }}>Challenge:</div>
+                        <div>
+                          <div style={{ paddingTop: "10px" }}>Challenge:</div>
                           <div className="task-description">
-                            <div>{bot.taskList[0].task}</div>
-                            {/* Change task description if more difficulities is added */}
+                            {bot.taskList[0].task}
                           </div>
                         </div>
+
                         {completedChallenges.includes(bot.number) ? (
-                          <div>JAILBREAK SUCCESSFUL</div>
+                          <div style={{ marginTop: "10px" }}>
+                            JAILBREAK SUCCESSFUL
+                          </div>
                         ) : null}
                       </div>
                     </div>

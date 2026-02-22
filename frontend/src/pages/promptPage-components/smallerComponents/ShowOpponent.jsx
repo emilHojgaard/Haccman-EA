@@ -35,15 +35,15 @@ export default function ShowOpponent({ botList, selectedBot }) {
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div>
             {bot.number === 0 ? (
-              <img src={opponent43} width={"140px"}></img>
+              <img src={opponent3} width={"140px"}></img>
             ) : bot.number === 1 ? (
               <img src={opponent41} width={"140px"}></img>
             ) : bot.number === 2 ? (
-              <img src={opponent42} width={"140px"}></img>
-            ) : bot.number === 3 ? (
               <img src={opponent2} width={"140px"}></img>
+            ) : bot.number === 3 ? (
+              <img src={opponent42} width={"140px"}></img>
             ) : bot.number === 4 ? (
-              <img src={opponent3} width={"140px"}></img>
+              <img src={opponent43} width={"140px"}></img>
             ) : bot.number === 5 ? (
               <img src={opponent6} width={"140px"}></img>
             ) : bot.number === 6 ? (
